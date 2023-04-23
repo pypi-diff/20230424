@@ -721,3 +721,36 @@
 [2023-04-24 01:30:55] INFO root fetch - main [MainThread]: End processing [aqimon]: success
 [2023-04-24 01:31:01] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
 [2023-04-24 01:31:01] INFO root fetch - main [MainThread]: Store serial: [17826601]
+[2023-04-24 01:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826601]
+[2023-04-24 01:36:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dequeai
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prepipy
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychonaut
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ablerConfig
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alas-ce0-client
+[2023-04-24 01:36:10] INFO root fetch - processPackages [prepipy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-24 01:36:10] INFO root fetch - processPackages [psychonaut]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ablerConfig]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 01:36:10] INFO root fetch - processPackages [dequeai]: New version: [0.747] Old Version: [0.746]
+[2023-04-24 01:36:10] INFO root fetch - processPackages [alas-ce0-client]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/95/08/3ed7b6298fd8449370a6a4ee93ff7951657ecba032cdb22c22a009438292/ablerConfig-0.0.3-py3-none-any.whl
+[2023-04-24 01:36:10] INFO root fetch - processPackages [psychonaut]: Downloading https://files.pythonhosted.org/packages/2a/ae/1c4da3b63d2a319301551cc72fb0f939eb34a6f032d98908039e9c3ba672/psychonaut-0.0.8.tar.gz
+[2023-04-24 01:36:10] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/8c/0f/7c0028435aa15b56755ba9abe609814339d7f6afdf30e9f58b0f9071d81f/prepipy-0.6.3.tar.gz
+[2023-04-24 01:36:10] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/35/6a/b1f60491d6d84106260a464138f8179745f2fad92ac1a1a5e9a74a78ca48/dequeai-0.747.tar.gz
+[2023-04-24 01:36:10] INFO root fetch - processPackages [psychonaut]: executing diffoscope
+[2023-04-24 01:36:10] INFO root fetch - processPackages [psychonaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychonaut-0.0.7.tar.gz tmp/psychonaut-0.0.8.tar.gz --markdown 20230424/p/psychonaut/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 01:36:10] INFO root fetch - processPackages [prepipy]: executing diffoscope
+[2023-04-24 01:36:10] INFO root fetch - processPackages [prepipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepipy-0.6.2.tar.gz tmp/prepipy-0.6.3.tar.gz --markdown 20230424/p/prepipy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-24 01:36:10] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-24 01:36:10] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.746.tar.gz tmp/dequeai-0.747.tar.gz --markdown 20230424/d/dequeai/0.746-0.747/diff.md --exclude *.pyd
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/3b/10/3b245d8835d90b7bec93c02ecbb314823efe7d294abeb27191bc576c6fd0/ablerConfig-0.0.4-py3-none-any.whl
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 01:36:10] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.0.3-py3-none-any.whl.zip tmp/ablerConfig-0.0.4-py3-none-any.whl.zip --markdown 20230424/a/ablerConfig/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 01:36:11] INFO root fetch - processPackages [alas-ce0-client]: executing diffoscope
+[2023-04-24 01:36:11] INFO root fetch - processPackages [alas-ce0-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alas-ce0-client-4.0.8.tar.gz tmp/alas-ce0-client-4.0.9.tar.gz --markdown 20230424/a/alas-ce0-client/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [prepipy]: success
+[2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [psychonaut]: success
+[2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
+[2023-04-24 01:36:12] INFO root fetch - main [MainThread]: Store serial: [17826618]
