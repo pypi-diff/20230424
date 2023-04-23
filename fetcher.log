@@ -117,3 +117,48 @@
 [2023-04-24 00:18:21] INFO root fetch - main [MainThread]: End processing [xcsf]: success
 [2023-04-24 00:18:50] INFO root fetch - main [MainThread]: End processing [skim-unicode-table]: success
 [2023-04-24 00:18:50] INFO root fetch - main [MainThread]: Store serial: [17826213]
+[2023-04-24 00:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826213]
+[2023-04-24 00:24:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eigenpy
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpp-payment-pkg
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mikan-card-downloader
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semantra
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 21234191-cpp-pkg
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ReverseBox
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mb-pytorch
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vollseg
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mordving
+[2023-04-24 00:24:06] INFO root fetch - processPackages [semantra]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ReverseBox]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-24 00:24:06] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304231511] Old Version: [1.0.202304221736]
+[2023-04-24 00:24:06] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-04-24 00:24:06] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-04-24 00:24:06] WARNING root fetch - processPackages [cpp-payment-pkg]: Skipping, unable to determine old version
+[2023-04-24 00:24:06] INFO root fetch - main [MainThread]: End processing [cpp-payment-pkg] error
+[2023-04-24 00:24:06] INFO root fetch - processPackages [mikan-card-downloader]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-24 00:24:06] INFO root fetch - processPackages [semantra]: executing diffoscope
+[2023-04-24 00:24:06] WARNING root fetch - processPackages [21234191-cpp-pkg]: Skipping, unable to determine old version
+[2023-04-24 00:24:06] INFO root fetch - processPackages [semantra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantra-0.1.0.tar.gz tmp/semantra-0.1.1.tar.gz --markdown 20230424/s/semantra/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 00:24:06] INFO root fetch - main [MainThread]: End processing [21234191-cpp-pkg] error
+[2023-04-24 00:24:06] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-04-24 00:24:06] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2023-04-24 00:24:06] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.5.0.tar.gz tmp/ReverseBox-0.5.1.tar.gz --markdown 20230424/R/ReverseBox/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-24 00:24:06] INFO root fetch - processPackages [eigenpy]: New version: [3.0.0] Old Version: [2.9.2]
+[2023-04-24 00:24:06] WARNING root fetch - processPackages [mordving]: Skipping, unable to determine old version
+[2023-04-24 00:24:06] INFO root fetch - main [MainThread]: End processing [mordving] error
+[2023-04-24 00:24:06] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 00:24:06] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304221736-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304231511-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304221736-1.0.202304231511/diff.md --exclude *.pyd
+[2023-04-24 00:24:07] INFO root fetch - processPackages [eigenpy]: Downloading https://files.pythonhosted.org/packages/0e/42/96a2e0aaaa1f8a97cbabf70d9942091909b8724f35756834c501571bdca1/eigenpy-2.9.2-5-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2023-04-24 00:24:07] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/54/df/f79009f76496467e0c3c997a8bb20b7b78e97b9e76eb09ce3db210983595/mikan_card_downloader-0.3.0.tar.gz
+[2023-04-24 00:24:07] INFO root fetch - processPackages [mikan-card-downloader]: executing diffoscope
+[2023-04-24 00:24:07] INFO root fetch - processPackages [mikan-card-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikan_card_downloader-0.2.0.tar.gz tmp/mikan_card_downloader-0.3.0.tar.gz --markdown 20230424/m/mikan-card-downloader/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 00:24:07] INFO root fetch - processPackages [eigenpy]: Downloading https://files.pythonhosted.org/packages/a5/ef/a21d645ff98020f434ee9962ea6ecf6cf24e8fdb6cf5db1abdba47b6c2ab/eigenpy-3.0.0-0-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2023-04-24 00:24:07] INFO root fetch - processPackages [eigenpy]: executing diffoscope
+[2023-04-24 00:24:07] INFO root fetch - processPackages [eigenpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eigenpy-2.9.2-5-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip tmp/eigenpy-3.0.0-0-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20230424/e/eigenpy/2.9.2-3.0.0/diff.md --exclude *.pyd
+[2023-04-24 00:24:08] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 00:24:08] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2023-04-24 00:24:08] INFO root fetch - main [MainThread]: End processing [mikan-card-downloader]: success
+[2023-04-24 00:24:22] INFO root fetch - main [MainThread]: End processing [eigenpy]: success
+[2023-04-24 00:24:36] INFO root fetch - main [MainThread]: End processing [semantra]: success
+[2023-04-24 00:24:36] INFO root fetch - main [MainThread]: Store serial: [17826242]
