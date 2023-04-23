@@ -414,3 +414,24 @@
 [2023-04-24 00:56:12] INFO root fetch - main [MainThread]: End processing [pyemaps]: success
 [2023-04-24 00:56:28] INFO root fetch - main [MainThread]: End processing [maude]: success
 [2023-04-24 00:56:28] INFO root fetch - main [MainThread]: Store serial: [17826402]
+[2023-04-24 01:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826402]
+[2023-04-24 01:01:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-24 01:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakeviz
+[2023-04-24 01:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcsf
+[2023-04-24 01:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubpy
+[2023-04-24 01:01:44] INFO root fetch - processPackages [snakeviz]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-04-24 01:01:44] INFO root fetch - processPackages [rubpy]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-04-24 01:01:44] INFO root fetch - processPackages [xcsf]: New version: [1.2.6.post1] Old Version: [1.2.6]
+[2023-04-24 01:01:44] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/69/28/15147a6b3065fd6dc661df187f4c1e32910ea5cc1884a1e4d4f106e1e3ba/xcsf-1.2.6.post1.tar.gz
+[2023-04-24 01:01:44] INFO root fetch - processPackages [snakeviz]: Downloading https://files.pythonhosted.org/packages/64/9b/3983c41e913676d55e4b3de869aa0561e053ad3505f1fd35181670244b70/snakeviz-2.2.0.tar.gz
+[2023-04-24 01:01:44] INFO root fetch - processPackages [xcsf]: executing diffoscope
+[2023-04-24 01:01:44] INFO root fetch - processPackages [xcsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsf-1.2.6.tar.gz tmp/xcsf-1.2.6.post1.tar.gz --markdown 20230424/x/xcsf/1.2.6-1.2.6.post1/diff.md --exclude *.pyd
+[2023-04-24 01:01:44] INFO root fetch - processPackages [snakeviz]: executing diffoscope
+[2023-04-24 01:01:44] INFO root fetch - processPackages [snakeviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakeviz-2.1.2.tar.gz tmp/snakeviz-2.2.0.tar.gz --markdown 20230424/s/snakeviz/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 01:01:44] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/06/b4/8ccc680fc12ef267df0e6182bea37092d21619fc3664a81c58aac01f7e9c/rubpy-6.0.5.tar.gz
+[2023-04-24 01:01:45] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-04-24 01:01:45] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.0.4.tar.gz tmp/rubpy-6.0.5.tar.gz --markdown 20230424/r/rubpy/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-04-24 01:01:45] INFO root fetch - main [MainThread]: End processing [snakeviz]: success
+[2023-04-24 01:01:46] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-04-24 01:01:51] INFO root fetch - main [MainThread]: End processing [xcsf]: success
+[2023-04-24 01:01:51] INFO root fetch - main [MainThread]: Store serial: [17826421]
