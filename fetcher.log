@@ -622,3 +622,102 @@
 [2023-04-24 01:25:39] ERROR root fetch - processPackages [moto]: Timeout during execution of pkgdiff
 [2023-04-24 01:25:39] INFO root fetch - main [MainThread]: End processing [moto] error
 [2023-04-24 01:25:39] INFO root fetch - main [MainThread]: Store serial: [17826536]
+[2023-04-24 01:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826536]
+[2023-04-24 01:30:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: to-paragraphs
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aqimon
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyload-ng
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vocabmaster
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prepipy
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fluxvault
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: landsat9-lc
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cca-zoo
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index
+[2023-04-24 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wizcli
+[2023-04-24 01:30:49] INFO root fetch - processPackages [vocabmaster]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [to-paragraphs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [prepipy]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [landsat9-lc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [aqimon]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [llama-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [pyload-ng]: New version: [0.5.0b3.dev57] Old Version: [0.5.0b3.dev54]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [wizcli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [fluxvault]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [cca-zoo]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-24 01:30:49] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.5.8.tar.gz tmp/llama_index-0.5.9.tar.gz --markdown 20230424/l/llama-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/3e/44/11421f860b8a9517734d19d00a5f6fc1b4a032b15692676dd67da89800b2/prepipy-0.6.2.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/83/92/77de7509a892ffc97fe3c60ed16f39ff132b2df64053423470d9c11964ee/pyload-ng-0.5.0b3.dev54.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [landsat9-lc]: Downloading https://files.pythonhosted.org/packages/f0/26/372fac1a4b603fe32d6373efdf5b9e0a88a5319b5ad4ad599b45e2a0b0d8/landsat9_lc-0.0.5.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [aqimon]: Downloading https://files.pythonhosted.org/packages/08/db/bca6999a8d69dc400eaaab22fcacb9bf9c7a6baa412e1d40fd556d462345/aqimon-0.2.1.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [to-paragraphs]: Downloading https://files.pythonhosted.org/packages/4e/dd/0682003f36fb425fdf53e4efc3ce7ab642958ed0678c160d3cb36431955a/to_paragraphs-0.1.7.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [vocabmaster]: Downloading https://files.pythonhosted.org/packages/b5/f3/c36a8446c6b5ee737693fbe7ebc9151b066333f3494b81417891578b60ab/vocabmaster-0.1.4.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [wizcli]: Downloading https://files.pythonhosted.org/packages/99/10/a1be0b3ec120136e1160db3c78772647e4cf1b56eb07ac31a58bcc9c6b4c/wizcli-0.1.5.tar.gz
+[2023-04-24 01:30:49] INFO root fetch - processPackages [vocabmaster]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [vocabmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabmaster-0.1.3.tar.gz tmp/vocabmaster-0.1.4.tar.gz --markdown 20230424/v/vocabmaster/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [prepipy]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [prepipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepipy-0.6.1.tar.gz tmp/prepipy-0.6.2.tar.gz --markdown 20230424/p/prepipy/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [wizcli]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [wizcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizcli-0.1.4.tar.gz tmp/wizcli-0.1.5.tar.gz --markdown 20230424/w/wizcli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [landsat9-lc]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [landsat9-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landsat9_lc-0.0.4.tar.gz tmp/landsat9_lc-0.0.5.tar.gz --markdown 20230424/l/landsat9-lc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [fluxvault]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [fluxvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxvault-0.9.8.tar.gz tmp/fluxvault-0.9.9.tar.gz --markdown 20230424/f/fluxvault/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-1.9.0.tar.gz tmp/cca_zoo-1.9.1.tar.gz --markdown 20230424/c/cca-zoo/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-24 01:30:49] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 01:30:49] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.6.tar.gz tmp/to_paragraphs-0.1.7.tar.gz --markdown 20230424/t/to-paragraphs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 01:30:50] INFO root fetch - processPackages [aqimon]: Downloading https://files.pythonhosted.org/packages/a6/cd/953fb6639585961d135c2bd1f3faa75568eb2102709bf07730ebf1fc7e7b/aqimon-0.3.0.tar.gz
+[2023-04-24 01:30:50] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/21/24/a628af607dcefa35a2b0aceec1c9229e9b0179878c5f8f6cb197f966a839/pyload-ng-0.5.0b3.dev57.tar.gz
+[2023-04-24 01:30:50] INFO root fetch - processPackages [aqimon]: executing diffoscope
+[2023-04-24 01:30:50] INFO root fetch - processPackages [aqimon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqimon-0.2.1.tar.gz tmp/aqimon-0.3.0.tar.gz --markdown 20230424/a/aqimon/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 01:30:50] INFO root fetch - processPackages [pyload-ng]: executing diffoscope
+[2023-04-24 01:30:50] INFO root fetch - processPackages [pyload-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyload-ng-0.5.0b3.dev54.tar.gz tmp/pyload-ng-0.5.0b3.dev57.tar.gz --markdown 20230424/p/pyload-ng/0.5.0b3.dev54-0.5.0b3.dev57/diff.md --exclude *.pyd
+[2023-04-24 01:30:51] INFO root fetch - processPackages [wizcli]: Start processing: loopgpt
+[2023-04-24 01:30:51] INFO root fetch - main [MainThread]: End processing [wizcli]: success
+[2023-04-24 01:30:51] INFO root fetch - processPackages [loopgpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 01:30:51] INFO root fetch - processPackages [vocabmaster]: Start processing: gpt-index
+[2023-04-24 01:30:51] INFO root fetch - main [MainThread]: End processing [vocabmaster]: success
+[2023-04-24 01:30:51] INFO root fetch - processPackages [gpt-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-24 01:30:51] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-04-24 01:30:51] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.5.8.tar.gz tmp/gpt_index-0.5.9.tar.gz --markdown 20230424/g/gpt-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-24 01:30:51] INFO root fetch - processPackages [landsat9-lc]: Start processing: pyhtcc
+[2023-04-24 01:30:51] INFO root fetch - main [MainThread]: End processing [landsat9-lc]: success
+[2023-04-24 01:30:51] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 01:30:51] INFO root fetch - processPackages [to-paragraphs]: Start processing: pygpt4all
+[2023-04-24 01:30:51] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 01:30:51] INFO root fetch - processPackages [pygpt4all]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 01:30:51] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-04-24 01:30:51] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230424/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 01:30:51] INFO root fetch - processPackages [loopgpt]: executing diffoscope
+[2023-04-24 01:30:51] INFO root fetch - processPackages [loopgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopgpt-0.0.8.tar.gz tmp/loopgpt-0.0.9.tar.gz --markdown 20230424/l/loopgpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 01:30:51] INFO root fetch - processPackages [cca-zoo]: Start processing: integerbook
+[2023-04-24 01:30:51] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-04-24 01:30:51] INFO root fetch - processPackages [integerbook]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 01:30:51] INFO root fetch - processPackages [pygpt4all]: Downloading https://files.pythonhosted.org/packages/89/2f/b932756dcff657264c80102c95afa4bb570e1eec12f4074f7d34b6f1596c/pygpt4all-1.0.0.tar.gz
+[2023-04-24 01:30:52] INFO root fetch - processPackages [integerbook]: Downloading https://files.pythonhosted.org/packages/40/e4/3f147f251d292adf4ef61dd9a60cd6951642757815b64af381b0cbc5c064/integerbook-0.0.2.tar.gz
+[2023-04-24 01:30:52] INFO root fetch - processPackages [pygpt4all]: Downloading https://files.pythonhosted.org/packages/18/53/9dcbefa4cc29d8035b70f3f026c36637ffaf02e6a13e32d5746634eccd5d/pygpt4all-1.0.1.tar.gz
+[2023-04-24 01:30:52] INFO root fetch - processPackages [prepipy]: Start processing: dipy
+[2023-04-24 01:30:52] INFO root fetch - main [MainThread]: End processing [prepipy]: success
+[2023-04-24 01:30:52] INFO root fetch - processPackages [dipy]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-24 01:30:52] INFO root fetch - processPackages [pygpt4all]: executing diffoscope
+[2023-04-24 01:30:52] INFO root fetch - processPackages [pygpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt4all-1.0.0.tar.gz tmp/pygpt4all-1.0.1.tar.gz --markdown 20230424/p/pygpt4all/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 01:30:52] INFO root fetch - processPackages [fluxvault]: Start processing: uv-pro
+[2023-04-24 01:30:52] INFO root fetch - main [MainThread]: End processing [fluxvault]: success
+[2023-04-24 01:30:52] WARNING root fetch - processPackages [uv-pro]: Skipping, unable to determine old version
+[2023-04-24 01:30:52] INFO root fetch - main [MainThread]: End processing [uv-pro] error
+[2023-04-24 01:30:52] INFO root fetch - processPackages [dipy]: Downloading https://files.pythonhosted.org/packages/fa/b6/0439408d4692e396a223397d1a48d1d7a81c070bd0e0d84a0f0c55582420/dipy-1.6.0.tar.gz
+[2023-04-24 01:30:52] WARNING root fetch - processPackages [dipy]: Skipping package: exceeds size limit 12070889>=10485760
+[2023-04-24 01:30:52] INFO root fetch - main [MainThread]: End processing [dipy] error
+[2023-04-24 01:30:52] INFO root fetch - processPackages [integerbook]: Downloading https://files.pythonhosted.org/packages/fd/b6/cd3e563ef037aec7462310099ca495071904802b6d7fc8c74850c62b0486/integerbook-0.0.3.tar.gz
+[2023-04-24 01:30:52] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-04-24 01:30:52] INFO root fetch - processPackages [integerbook]: executing diffoscope
+[2023-04-24 01:30:52] INFO root fetch - processPackages [integerbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integerbook-0.0.2.tar.gz tmp/integerbook-0.0.3.tar.gz --markdown 20230424/i/integerbook/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 01:30:53] INFO root fetch - main [MainThread]: End processing [loopgpt]: success
+[2023-04-24 01:30:53] INFO root fetch - main [MainThread]: End processing [pygpt4all]: success
+[2023-04-24 01:30:54] INFO root fetch - main [MainThread]: End processing [integerbook]: success
+[2023-04-24 01:30:54] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-04-24 01:30:54] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-04-24 01:30:55] INFO root fetch - main [MainThread]: End processing [aqimon]: success
+[2023-04-24 01:31:01] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
+[2023-04-24 01:31:01] INFO root fetch - main [MainThread]: Store serial: [17826601]
