@@ -318,3 +318,33 @@
 [2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [pyside6-live-coding]: success
 [2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [collect-unexported]: success
 [2023-04-24 00:45:46] INFO root fetch - main [MainThread]: Store serial: [17826331]
+[2023-04-24 00:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826331]
+[2023-04-24 00:50:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 00:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-24 00:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amdgpu-stats
+[2023-04-24 00:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfm-tools
+[2023-04-24 00:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symbolicai
+[2023-04-24 00:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aio-microservice
+[2023-04-24 00:50:55] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 00:50:55] WARNING root fetch - processPackages [aio-microservice]: Skipping, unable to determine old version
+[2023-04-24 00:50:55] INFO root fetch - main [MainThread]: End processing [aio-microservice] error
+[2023-04-24 00:50:55] INFO root fetch - processPackages [dfm-tools]: New version: [0.11.0] Old Version: [0.10.55]
+[2023-04-24 00:50:55] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304232246] Old Version: [1.0.202304232238]
+[2023-04-24 00:50:55] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-24 00:50:55] INFO root fetch - processPackages [dfm-tools]: Downloading https://files.pythonhosted.org/packages/d7/2b/151a738b8eca3232a42841e523267d0219c4e218a8bdeac4e0385609a540/dfm_tools-0.10.55.tar.gz
+[2023-04-24 00:50:55] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-04-24 00:50:55] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230424/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 00:50:55] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/ee/33/60beed054a8b3d8646278bb51def84e79c34b919b32f16718d481daf7986/mb_pytorch-1.0.202304232246-py3-none-any.whl
+[2023-04-24 00:50:55] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/66/62/d4c35f4b0886d1398d898efc3e37999685821bd9a037a2b4964348cff957/amdgpu_stats-0.1.2.tar.gz
+[2023-04-24 00:50:55] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 00:50:55] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304232238-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304232246-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304232238-1.0.202304232246/diff.md --exclude *.pyd
+[2023-04-24 00:50:55] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-04-24 00:50:55] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.1.tar.gz tmp/amdgpu_stats-0.1.2.tar.gz --markdown 20230424/a/amdgpu-stats/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 00:50:55] INFO root fetch - processPackages [dfm-tools]: Downloading https://files.pythonhosted.org/packages/09/84/b150025fe13b05b0b3447dfa503f33a2953901a19fe4eea4126aefdec82a/dfm_tools-0.11.0.tar.gz
+[2023-04-24 00:50:56] INFO root fetch - processPackages [dfm-tools]: executing diffoscope
+[2023-04-24 00:50:56] INFO root fetch - processPackages [dfm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfm_tools-0.10.55.tar.gz tmp/dfm_tools-0.11.0.tar.gz --markdown 20230424/d/dfm-tools/0.10.55-0.11.0/diff.md --exclude *.pyd
+[2023-04-24 00:50:57] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 00:50:57] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-04-24 00:50:57] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-04-24 00:50:57] INFO root fetch - main [MainThread]: End processing [dfm-tools]: success
+[2023-04-24 00:50:57] INFO root fetch - main [MainThread]: Store serial: [17826353]
