@@ -802,3 +802,9 @@
 [2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [guitk]: success
 [2023-04-24 01:41:24] INFO root fetch - main [MainThread]: End processing [sageworks]: success
 [2023-04-24 01:41:24] INFO root fetch - main [MainThread]: Store serial: [17826648]
+[2023-04-24 01:46:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826648]
+[2023-04-24 01:46:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-04-24 01:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-regius
+[2023-04-24 01:46:33] WARNING root fetch - processPackages [python-regius]: Skipping, unable to determine old version
+[2023-04-24 01:46:33] INFO root fetch - main [MainThread]: End processing [python-regius] error
+[2023-04-24 01:46:33] INFO root fetch - main [MainThread]: Store serial: [17826653]
