@@ -33,3 +33,31 @@
 [2023-04-24 00:02:41] INFO root fetch - main [MainThread]: End processing [rumex]: success
 [2023-04-24 00:02:41] INFO root fetch - main [MainThread]: End processing [pyseistr]: success
 [2023-04-24 00:02:41] INFO root fetch - main [MainThread]: Store serial: [17826145]
+[2023-04-24 00:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826145]
+[2023-04-24 00:07:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crispr-library-prep
+[2023-04-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: growthbook
+[2023-04-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magyar
+[2023-04-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npm-cockpit
+[2023-04-24 00:07:50] INFO root fetch - processPackages [growthbook]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-04-24 00:07:50] INFO root fetch - processPackages [magyar]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-04-24 00:07:50] INFO root fetch - processPackages [npm-cockpit]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-24 00:07:50] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 00:07:50] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-24 00:07:50] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230424/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 00:07:50] INFO root fetch - processPackages [npm-cockpit]: Downloading https://files.pythonhosted.org/packages/ea/56/9bd2e5ba26e617ef7690ca55c38c007ca74bce3129127ecf32cbf03d8c61/npm-cockpit-0.3.0.tar.gz
+[2023-04-24 00:07:50] INFO root fetch - processPackages [growthbook]: Downloading https://files.pythonhosted.org/packages/7a/dd/59fbb4f7acfab3149e75f8ff1c3dcc855e42478ad20f8023409996be353d/growthbook-0.3.1.tar.gz
+[2023-04-24 00:07:50] INFO root fetch - processPackages [magyar]: Downloading https://files.pythonhosted.org/packages/9b/d2/f65f4a6656818fcd2121ca5c9b5cf667888de7c6ca7947bf19ad4b89f613/magyar-2.9.7.tar.gz
+[2023-04-24 00:07:50] INFO root fetch - processPackages [npm-cockpit]: Downloading https://files.pythonhosted.org/packages/d9/67/f76b88f79517256dd1d50feafd19aed4b84cba93def06cba9e854634312b/npm-cockpit-0.4.0.tar.gz
+[2023-04-24 00:07:50] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-04-24 00:07:50] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-2.9.6.tar.gz tmp/magyar-2.9.7.tar.gz --markdown 20230424/m/magyar/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-04-24 00:07:50] INFO root fetch - processPackages [growthbook]: Downloading https://files.pythonhosted.org/packages/d4/99/459f1ca00b27a16156ed62b00d548cd692abb4ad78b949143888ebeda43c/growthbook-1.0.0.tar.gz
+[2023-04-24 00:07:50] INFO root fetch - processPackages [growthbook]: executing diffoscope
+[2023-04-24 00:07:50] INFO root fetch - processPackages [growthbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/growthbook-0.3.1.tar.gz tmp/growthbook-1.0.0.tar.gz --markdown 20230424/g/growthbook/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 00:07:50] INFO root fetch - processPackages [npm-cockpit]: executing diffoscope
+[2023-04-24 00:07:50] INFO root fetch - processPackages [npm-cockpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npm-cockpit-0.3.0.tar.gz tmp/npm-cockpit-0.4.0.tar.gz --markdown 20230424/n/npm-cockpit/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 00:07:51] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-24 00:07:51] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-04-24 00:07:51] INFO root fetch - main [MainThread]: End processing [growthbook]: success
+[2023-04-24 00:07:53] INFO root fetch - main [MainThread]: End processing [npm-cockpit]: success
+[2023-04-24 00:07:53] INFO root fetch - main [MainThread]: Store serial: [17826157]
