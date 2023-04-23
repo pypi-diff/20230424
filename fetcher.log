@@ -535,3 +535,41 @@
 [2023-04-24 01:12:18] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.4.tar.gz tmp/to_paragraphs-0.1.5.tar.gz --markdown 20230424/t/to-paragraphs/0.1.4-0.1.5/diff.md --exclude *.pyd
 [2023-04-24 01:12:19] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
 [2023-04-24 01:12:19] INFO root fetch - main [MainThread]: Store serial: [17826494]
+[2023-04-24 01:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826494]
+[2023-04-24 01:17:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 01:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhtcc
+[2023-04-24 01:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dequeai
+[2023-04-24 01:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fymjosh
+[2023-04-24 01:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polysplit
+[2023-04-24 01:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prepipy
+[2023-04-24 01:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kmspy
+[2023-04-24 01:17:27] INFO root fetch - processPackages [fymjosh]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 01:17:27] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 01:17:27] INFO root fetch - processPackages [dequeai]: New version: [0.746] Old Version: [0.745]
+[2023-04-24 01:17:27] INFO root fetch - processPackages [kmspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 01:17:27] INFO root fetch - processPackages [prepipy]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-24 01:17:27] WARNING root fetch - processPackages [polysplit]: Skipping, unable to determine old version
+[2023-04-24 01:17:27] INFO root fetch - main [MainThread]: End processing [polysplit] error
+[2023-04-24 01:17:28] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/fa/6a/d842d7e50d11e4f7b9137adfcf2fff14a66619d91b7f86b04361c6986f5c/dequeai-0.745.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/d6/01/c1ba5d235be7ede261aa89aea2ef54fe994af9f1eb9d38922b9248e73b51/prepipy-0.6.0.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [kmspy]: Downloading https://files.pythonhosted.org/packages/35/30/06494360bc32c26a641e5b4ce3e8db55b0966873eefbbffd3afdf21a1192/kmspy-0.0.8.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [fymjosh]: Downloading https://files.pythonhosted.org/packages/ab/d7/aafe724a451797e5e2b8195b74c43853daf36d03a218c35855d346294e0b/fymjosh-1.0.8.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [fymjosh]: executing diffoscope
+[2023-04-24 01:17:28] INFO root fetch - processPackages [fymjosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fymjosh-1.0.7.tar.gz tmp/fymjosh-1.0.8.tar.gz --markdown 20230424/f/fymjosh/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 01:17:28] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-04-24 01:17:28] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230424/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 01:17:28] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/6f/f7/55758d1597bb4b8abfbad998a7d4ca11544075942593a9da0d570d6e9628/prepipy-0.6.1.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/81/ab/f2f3d84cef00905e61c402533af4d1f19818c179183329aba05e8db60e41/dequeai-0.746.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-24 01:17:28] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.745.tar.gz tmp/dequeai-0.746.tar.gz --markdown 20230424/d/dequeai/0.745-0.746/diff.md --exclude *.pyd
+[2023-04-24 01:17:28] INFO root fetch - processPackages [prepipy]: executing diffoscope
+[2023-04-24 01:17:28] INFO root fetch - processPackages [prepipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepipy-0.6.0.tar.gz tmp/prepipy-0.6.1.tar.gz --markdown 20230424/p/prepipy/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-24 01:17:28] INFO root fetch - processPackages [kmspy]: Downloading https://files.pythonhosted.org/packages/40/62/01a0b53ad530dd2ddc92c46ced631af0a3f78bd6905e8ecf3fa967354a47/kmspy-0.0.9.tar.gz
+[2023-04-24 01:17:28] INFO root fetch - processPackages [kmspy]: executing diffoscope
+[2023-04-24 01:17:28] INFO root fetch - processPackages [kmspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmspy-0.0.8.tar.gz tmp/kmspy-0.0.9.tar.gz --markdown 20230424/k/kmspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [fymjosh]: success
+[2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [prepipy]: success
+[2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [kmspy]: success
+[2023-04-24 01:17:29] INFO root fetch - main [MainThread]: Store serial: [17826515]
