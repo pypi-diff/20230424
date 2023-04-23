@@ -1,0 +1,35 @@
+[2023-04-24 00:02:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826127]
+[2023-04-24 00:02:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 00:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rumex
+[2023-04-24 00:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onsale
+[2023-04-24 00:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telebot-components
+[2023-04-24 00:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quinten-cli
+[2023-04-24 00:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyseistr
+[2023-04-24 00:02:39] INFO root fetch - processPackages [telebot-components]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-24 00:02:39] INFO root fetch - processPackages [quinten-cli]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-24 00:02:39] INFO root fetch - processPackages [onsale]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 00:02:39] INFO root fetch - processPackages [rumex]: New version: [0.3.3] Old Version: [0.2.3]
+[2023-04-24 00:02:39] INFO root fetch - processPackages [quinten-cli]: executing diffoscope
+[2023-04-24 00:02:39] INFO root fetch - processPackages [quinten-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quinten-cli-1.1.0.tar.gz tmp/quinten-cli-1.1.1.tar.gz --markdown 20230424/q/quinten-cli/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 00:02:39] INFO root fetch - processPackages [pyseistr]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-04-24 00:02:39] INFO root fetch - processPackages [onsale]: Downloading https://files.pythonhosted.org/packages/99/4d/dffb7efecc047f3b0b5ee4e78a9cb4d2b06d9194e890666cb37a20e5d85f/onsale-0.0.3.tar.gz
+[2023-04-24 00:02:39] INFO root fetch - processPackages [rumex]: Downloading https://files.pythonhosted.org/packages/bf/9f/f3962bf86e954135de1e9727675fd03f951ee4ad1eda44d714877693e7ae/rumex-0.2.3.tar.gz
+[2023-04-24 00:02:39] INFO root fetch - processPackages [pyseistr]: Downloading https://files.pythonhosted.org/packages/cc/6d/d5486dae0b0ac366b962e5938f6b2c1a7e101672b257170d6405974741fc/pyseistr-0.0.4.2.tar.gz
+[2023-04-24 00:02:39] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/83/20/a4f6d8a526b6ed6c39f439b683994c350dfec66f6987b4d8bb58103db49c/telebot_components-0.8.1.tar.gz
+[2023-04-24 00:02:39] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-04-24 00:02:39] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.0.tar.gz tmp/telebot_components-0.8.1.tar.gz --markdown 20230424/t/telebot-components/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-24 00:02:39] INFO root fetch - processPackages [onsale]: Downloading https://files.pythonhosted.org/packages/b2/49/5453d943e88647edacbfdf1a7b91166dfc7ae6c589faab9eabff9e94e335/onsale-0.0.4.tar.gz
+[2023-04-24 00:02:39] INFO root fetch - processPackages [onsale]: executing diffoscope
+[2023-04-24 00:02:39] INFO root fetch - processPackages [onsale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onsale-0.0.3.tar.gz tmp/onsale-0.0.4.tar.gz --markdown 20230424/o/onsale/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 00:02:40] INFO root fetch - processPackages [rumex]: Downloading https://files.pythonhosted.org/packages/06/ba/b3e0004885221291f3212a39a2f9811b5f8d0d7025575f35861bd5bc2bcc/rumex-0.3.3.tar.gz
+[2023-04-24 00:02:40] INFO root fetch - processPackages [rumex]: executing diffoscope
+[2023-04-24 00:02:40] INFO root fetch - processPackages [rumex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rumex-0.2.3.tar.gz tmp/rumex-0.3.3.tar.gz --markdown 20230424/r/rumex/0.2.3-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 00:02:40] INFO root fetch - processPackages [pyseistr]: Downloading https://files.pythonhosted.org/packages/ec/39/84ee2027327716ca78f8a1e7cbb00dd033ece4d99fa888955f15ac5d80a0/pyseistr-0.0.4.3.tar.gz
+[2023-04-24 00:02:40] INFO root fetch - processPackages [pyseistr]: executing diffoscope
+[2023-04-24 00:02:40] INFO root fetch - processPackages [pyseistr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseistr-0.0.4.2.tar.gz tmp/pyseistr-0.0.4.3.tar.gz --markdown 20230424/p/pyseistr/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-04-24 00:02:40] INFO root fetch - main [MainThread]: End processing [quinten-cli]: success
+[2023-04-24 00:02:41] INFO root fetch - main [MainThread]: End processing [onsale]: success
+[2023-04-24 00:02:41] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-04-24 00:02:41] INFO root fetch - main [MainThread]: End processing [rumex]: success
+[2023-04-24 00:02:41] INFO root fetch - main [MainThread]: End processing [pyseistr]: success
+[2023-04-24 00:02:41] INFO root fetch - main [MainThread]: Store serial: [17826145]
