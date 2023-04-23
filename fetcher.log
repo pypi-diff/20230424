@@ -754,3 +754,51 @@
 [2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [psychonaut]: success
 [2023-04-24 01:36:12] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
 [2023-04-24 01:36:12] INFO root fetch - main [MainThread]: Store serial: [17826618]
+[2023-04-24 01:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826618]
+[2023-04-24 01:41:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 01:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: venvx
+[2023-04-24 01:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sageworks
+[2023-04-24 01:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dag-json
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nitrado
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guitk
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fieldedge-utilities
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhtcc
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ablerConfig
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nitrado
+[2023-04-24 01:41:21] WARNING root fetch - processPackages [venvx]: Skipping, unable to determine old version
+[2023-04-24 01:41:21] INFO root fetch - main [MainThread]: End processing [venvx] error
+[2023-04-24 01:41:21] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 01:41:21] INFO root fetch - processPackages [sageworks]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-04-24 01:41:21] WARNING root fetch - processPackages [dag-json]: Skipping, unable to determine old version
+[2023-04-24 01:41:21] INFO root fetch - main [MainThread]: End processing [dag-json] error
+[2023-04-24 01:41:21] INFO root fetch - processPackages [guitk]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-24 01:41:21] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 01:41:21] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ablerConfig]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 01:41:21] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-24 01:41:21] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-04-24 01:41:21] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230424/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 01:41:21] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-24 01:41:21] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230424/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 01:41:21] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/16/35/9cf71fac08b899b9199876f6a1f7a069f832a23fe27ac1a540a1d408af8b/sageworks-0.1.4.tar.gz
+[2023-04-24 01:41:21] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-24 01:41:21] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230424/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 01:41:21] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/d0/1d/a2cb55aeffe861e1170ef1ecf89988b89668d719be7537b64bd88b76ff5f/guitk-0.3.0.tar.gz
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/0f/3f/1631f0954a78e26eac57a2ba47fac78ec60a937c877a73baf8d23eb1e0c0/ablerConfig-0.0.5.win32.zip
+[2023-04-24 01:41:21] INFO root fetch - processPackages [guitk]: executing diffoscope
+[2023-04-24 01:41:21] INFO root fetch - processPackages [guitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guitk-0.2.1.tar.gz tmp/guitk-0.3.0.tar.gz --markdown 20230424/g/guitk/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 01:41:21] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.0.4-py3-none-any.whl.zip tmp/ablerConfig-0.0.5.win32.zip --markdown 20230424/a/ablerConfig/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 01:41:21] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-04-24 01:41:21] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230424/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-24 01:41:21] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/36/c4/a2817c2fa4f73ff0602178a33c40df5a730c22d790110969f8580a45d00c/sageworks-0.1.4.1.tar.gz
+[2023-04-24 01:41:22] INFO root fetch - processPackages [sageworks]: executing diffoscope
+[2023-04-24 01:41:22] INFO root fetch - processPackages [sageworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageworks-0.1.4.tar.gz tmp/sageworks-0.1.4.1.tar.gz --markdown 20230424/s/sageworks/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-04-24 01:41:22] INFO root fetch - main [MainThread]: End processing [guitk]: success
+[2023-04-24 01:41:24] INFO root fetch - main [MainThread]: End processing [sageworks]: success
+[2023-04-24 01:41:24] INFO root fetch - main [MainThread]: Store serial: [17826648]
