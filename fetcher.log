@@ -835,3 +835,77 @@
 [2023-04-24 01:51:43] INFO root fetch - main [MainThread]: End processing [docformatter]: success
 [2023-04-24 01:51:43] INFO root fetch - main [MainThread]: End processing [plugnplai]: success
 [2023-04-24 01:51:43] INFO root fetch - main [MainThread]: Store serial: [17826671]
+[2023-04-24 01:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826671]
+[2023-04-24 01:56:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pesummary
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datarec
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nigeria-banks
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tkinterweb
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geomat
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geomat
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyLDAvis
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhtcc
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-04-24 01:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dequeai
+[2023-04-24 01:56:52] INFO root fetch - processPackages [tkinterweb]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [nigeria-banks]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pyLDAvis]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [datarec]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: New version: [0.0.10] Old Version: [0.0.1]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: New version: [0.0.10] Old Version: [0.0.1]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [dequeai]: New version: [0.748] Old Version: [0.747]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pesummary]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230424/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: Downloading https://files.pythonhosted.org/packages/c7/71/bb3eaf55fc26832d61dae50c7d38e4a9290ab195b587fc462acb45895afd/geomat-0.0.1.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: Downloading https://files.pythonhosted.org/packages/c7/71/bb3eaf55fc26832d61dae50c7d38e4a9290ab195b587fc462acb45895afd/geomat-0.0.1.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pyLDAvis]: Downloading https://files.pythonhosted.org/packages/c8/87/c25ac784d4da5f63a7d8b4b9a51c931e9392a4984bec631ebb8cf5de8da6/pyLDAvis-3.4.0.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/65/20/a27b31e78dbbccb8d283392962cf222153ebc8c4531e26be2aac992fe407/dequeai-0.748.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [nigeria-banks]: Downloading https://files.pythonhosted.org/packages/cf/89/7ded1da0933a2fcbaa848d26cf261cb3f8530a7b7898e9c2c20263d61acd/nigeria_banks-0.1.1.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [datarec]: Downloading https://files.pythonhosted.org/packages/9e/e2/4ae20ee8a3310863823ebb740c81488a93ec6f1d7dc95b331be4b2b22096/datarec-0.1.0.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pesummary]: Downloading https://files.pythonhosted.org/packages/a8/77/e6fcdeb1811d3dd4324ade27a3818b632eaa6bca9ba5a0bfb3645ed5f8ee/pesummary-0.9.1.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [tkinterweb]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [tkinterweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinterweb-3.9.6.tar.gz tmp/tkinterweb-3.9.7.tar.gz --markdown 20230424/t/tkinterweb/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.747.tar.gz tmp/dequeai-0.748.tar.gz --markdown 20230424/d/dequeai/0.747-0.748/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230424/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [datarec]: Downloading https://files.pythonhosted.org/packages/60/a2/a645be5a9fda09b4a1edbdc6b08772fea52a83ab5f099c771c4c95ce50c7/datarec-0.1.1.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: Downloading https://files.pythonhosted.org/packages/30/f2/a64c4d776f5ad5cf9e766726d9d681ed3894626e1f41203a1158c9a13c9f/geomat-0.0.10.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: Downloading https://files.pythonhosted.org/packages/30/f2/a64c4d776f5ad5cf9e766726d9d681ed3894626e1f41203a1158c9a13c9f/geomat-0.0.10.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [nigeria-banks]: Downloading https://files.pythonhosted.org/packages/26/3e/ce6020ee4c573ca65eba400c97da2abd9e702a587e43f13551accd475cd5/nigeria_banks-0.1.2.tar.gz
+[2023-04-24 01:56:52] INFO root fetch - processPackages [datarec]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [datarec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarec-0.1.0.tar.gz tmp/datarec-0.1.1.tar.gz --markdown 20230424/d/datarec/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomat-0.0.1.tar.gz tmp/geomat-0.0.10.tar.gz --markdown 20230424/g/geomat/0.0.1-0.0.10/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [geomat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomat-0.0.1.tar.gz tmp/geomat-0.0.10.tar.gz --markdown 20230424/g/geomat/0.0.1-0.0.10/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [nigeria-banks]: executing diffoscope
+[2023-04-24 01:56:52] INFO root fetch - processPackages [nigeria-banks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nigeria_banks-0.1.1.tar.gz tmp/nigeria_banks-0.1.2.tar.gz --markdown 20230424/n/nigeria-banks/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 01:56:52] INFO root fetch - processPackages [pesummary]: Downloading https://files.pythonhosted.org/packages/a8/1d/c88b88c0269ea5af068ab3b4e31d815372cabe9bc24eece2587bcbd799a4/pesummary-1.0.0.tar.gz
+[2023-04-24 01:56:53] INFO root fetch - processPackages [pyLDAvis]: Downloading https://files.pythonhosted.org/packages/08/62/e1b3e350f9a5e97a730cd93c2a0ed30f21443c8906c8ef025c94dc595bfa/pyLDAvis-3.4.1.tar.gz
+[2023-04-24 01:56:53] INFO root fetch - processPackages [pesummary]: executing diffoscope
+[2023-04-24 01:56:53] INFO root fetch - processPackages [pesummary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pesummary-0.9.1.tar.gz tmp/pesummary-1.0.0.tar.gz --markdown 20230424/p/pesummary/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 01:56:53] INFO root fetch - processPackages [pyhtcc]: Start processing: pdengine
+[2023-04-24 01:56:53] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-04-24 01:56:53] WARNING root fetch - processPackages [pdengine]: Skipping, unable to determine old version
+[2023-04-24 01:56:53] INFO root fetch - processPackages [pdengine]: Start processing: Aciembler
+[2023-04-24 01:56:53] INFO root fetch - main [MainThread]: End processing [pdengine] error
+[2023-04-24 01:56:53] INFO root fetch - processPackages [Aciembler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 01:56:53] INFO root fetch - processPackages [Aciembler]: executing diffoscope
+[2023-04-24 01:56:53] INFO root fetch - processPackages [Aciembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aciembler-1.0.8-py2.py3-none-any.whl.zip tmp/Aciembler-1.0.9-py2.py3-none-any.whl.zip --markdown 20230424/A/Aciembler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 01:56:54] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-24 01:56:54] INFO root fetch - processPackages [pyLDAvis]: executing diffoscope
+[2023-04-24 01:56:54] INFO root fetch - processPackages [pyLDAvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLDAvis-3.4.0.tar.gz tmp/pyLDAvis-3.4.1.tar.gz --markdown 20230424/p/pyLDAvis/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-04-24 01:56:54] INFO root fetch - main [MainThread]: End processing [geomat]: success
+[2023-04-24 01:56:54] INFO root fetch - main [MainThread]: End processing [geomat]: success
+[2023-04-24 01:56:54] INFO root fetch - main [MainThread]: End processing [datarec]: success
+[2023-04-24 01:56:54] INFO root fetch - main [MainThread]: End processing [nigeria-banks]: success
+[2023-04-24 01:56:55] INFO root fetch - main [MainThread]: End processing [Aciembler]: success
+[2023-04-24 01:56:55] INFO root fetch - main [MainThread]: End processing [tkinterweb]: success
+[2023-04-24 01:56:57] INFO root fetch - main [MainThread]: End processing [pesummary]: success
+[2023-04-24 01:56:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-24 01:57:02] INFO root fetch - main [MainThread]: End processing [pyLDAvis]: success
+[2023-04-24 01:57:02] INFO root fetch - main [MainThread]: Store serial: [17826707]
