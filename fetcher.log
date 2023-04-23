@@ -808,3 +808,30 @@
 [2023-04-24 01:46:33] WARNING root fetch - processPackages [python-regius]: Skipping, unable to determine old version
 [2023-04-24 01:46:33] INFO root fetch - main [MainThread]: End processing [python-regius] error
 [2023-04-24 01:46:33] INFO root fetch - main [MainThread]: Store serial: [17826653]
+[2023-04-24 01:51:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826653]
+[2023-04-24 01:51:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 01:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhtcc
+[2023-04-24 01:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docformatter
+[2023-04-24 01:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugnplai
+[2023-04-24 01:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdengine
+[2023-04-24 01:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webauto-hj3415
+[2023-04-24 01:51:41] WARNING root fetch - processPackages [pdengine]: Skipping, unable to determine old version
+[2023-04-24 01:51:41] INFO root fetch - main [MainThread]: End processing [pdengine] error
+[2023-04-24 01:51:41] INFO root fetch - processPackages [docformatter]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-24 01:51:41] INFO root fetch - processPackages [plugnplai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 01:51:41] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 01:51:42] WARNING root fetch - processPackages [webauto-hj3415]: Skipping, unable to determine old version
+[2023-04-24 01:51:42] INFO root fetch - main [MainThread]: End processing [webauto-hj3415] error
+[2023-04-24 01:51:42] INFO root fetch - processPackages [plugnplai]: Downloading https://files.pythonhosted.org/packages/0d/52/51d25c55a6d1e38211bf619749c669fb7ab3be9219105e02823c1e104ffb/plugnplai-0.0.1.tar.gz
+[2023-04-24 01:51:42] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-04-24 01:51:42] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230424/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 01:51:42] INFO root fetch - processPackages [docformatter]: Downloading https://files.pythonhosted.org/packages/37/31/db06a80c1221da7cb16cad080644055c20902a22b884a542b1ce9cb7e422/docformatter-1.6.3.tar.gz
+[2023-04-24 01:51:42] INFO root fetch - processPackages [plugnplai]: Downloading https://files.pythonhosted.org/packages/0a/f8/ce4b1d38669852dbea6960cf6c68f2c287b7d0ca844784bee1732af4ff8b/plugnplai-0.0.2.tar.gz
+[2023-04-24 01:51:42] INFO root fetch - processPackages [docformatter]: executing diffoscope
+[2023-04-24 01:51:42] INFO root fetch - processPackages [docformatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docformatter-1.6.2.tar.gz tmp/docformatter-1.6.3.tar.gz --markdown 20230424/d/docformatter/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-24 01:51:42] INFO root fetch - processPackages [plugnplai]: executing diffoscope
+[2023-04-24 01:51:42] INFO root fetch - processPackages [plugnplai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugnplai-0.0.1.tar.gz tmp/plugnplai-0.0.2.tar.gz --markdown 20230424/p/plugnplai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 01:51:43] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-04-24 01:51:43] INFO root fetch - main [MainThread]: End processing [docformatter]: success
+[2023-04-24 01:51:43] INFO root fetch - main [MainThread]: End processing [plugnplai]: success
+[2023-04-24 01:51:43] INFO root fetch - main [MainThread]: Store serial: [17826671]
