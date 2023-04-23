@@ -264,3 +264,57 @@
 [2023-04-24 00:40:35] INFO root fetch - main [MainThread]: End processing [aa-forum]: success
 [2023-04-24 00:40:35] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
 [2023-04-24 00:40:35] INFO root fetch - main [MainThread]: Store serial: [17826304]
+[2023-04-24 00:45:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826304]
+[2023-04-24 00:45:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sayuDB
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geospatial
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opx-plus
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crispr-library-prep
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyside6-live-coding
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thermo
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: collect-unexported
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nitrado
+[2023-04-24 00:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pip-package-template-docker
+[2023-04-24 00:45:44] INFO root fetch - processPackages [opx-plus]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [thermo]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [geospatial]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [pyside6-live-coding]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [collect-unexported]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 00:45:44] WARNING root fetch - processPackages [pip-package-template-docker]: Skipping, unable to determine old version
+[2023-04-24 00:45:44] INFO root fetch - main [MainThread]: End processing [pip-package-template-docker] error
+[2023-04-24 00:45:44] INFO root fetch - processPackages [sayuDB]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 00:45:44] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-24 00:45:44] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230424/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 00:45:44] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-24 00:45:44] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230424/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 00:45:44] INFO root fetch - processPackages [pyside6-live-coding]: Downloading https://files.pythonhosted.org/packages/89/ea/d6bfc6ddd23bf7c2a96256134947c5263200ab53dbbfd77e1dea98cd438d/pyside6-live-coding-1.0.0.tar.gz
+[2023-04-24 00:45:44] INFO root fetch - processPackages [thermo]: Downloading https://files.pythonhosted.org/packages/27/c9/7aa856583152387add5b9700ec8245ebe08243b9d75dcba3ea1ee1e9f6a6/thermo-0.2.8.tar.gz
+[2023-04-24 00:45:44] INFO root fetch - processPackages [geospatial]: Downloading https://files.pythonhosted.org/packages/db/3c/217065c03b1cf1c186572641715ca12bddde17b13d3986e1c34fcf266d4b/geospatial-0.7.0.tar.gz
+[2023-04-24 00:45:44] INFO root fetch - processPackages [collect-unexported]: Downloading https://files.pythonhosted.org/packages/4d/da/ba6c4b4eb159058e5ced8b8f12a16a12fcb082676fc139a31dd33ecfa94d/collect_unexported-0.1.0.tar.gz
+[2023-04-24 00:45:45] INFO root fetch - processPackages [opx-plus]: Downloading https://files.pythonhosted.org/packages/72/5d/9343b61e84397bdd0f4261c5e66462896aefe9c096ac6e7ebd055562754e/opx_plus-0.1.2.tar.gz
+[2023-04-24 00:45:45] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/98/3b/245ac5b7d9628d3432cdebd24afe0ff6f4f2548d905098237b423671ff94/sayuDB-0.0.9.tar.gz
+[2023-04-24 00:45:45] INFO root fetch - processPackages [geospatial]: Downloading https://files.pythonhosted.org/packages/58/1d/da1f53f249b8027b13ec8058adae9545d78adbfc8a5f97ed06011c754c77/geospatial-0.7.1.tar.gz
+[2023-04-24 00:45:45] INFO root fetch - processPackages [pyside6-live-coding]: Downloading https://files.pythonhosted.org/packages/2c/8b/d2581429da33ae20d5946e30f75145f9d5ab70a8f3548af2056188af933a/pyside6-live-coding-1.0.1.tar.gz
+[2023-04-24 00:45:45] INFO root fetch - processPackages [opx-plus]: executing diffoscope
+[2023-04-24 00:45:45] INFO root fetch - processPackages [opx-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opx_plus-0.1.1.tar.gz tmp/opx_plus-0.1.2.tar.gz --markdown 20230424/o/opx-plus/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 00:45:45] INFO root fetch - processPackages [sayuDB]: executing diffoscope
+[2023-04-24 00:45:45] INFO root fetch - processPackages [sayuDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayuDB-0.0.8.tar.gz tmp/sayuDB-0.0.9.tar.gz --markdown 20230424/s/sayuDB/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 00:45:45] INFO root fetch - processPackages [collect-unexported]: Downloading https://files.pythonhosted.org/packages/49/0b/6f833f608107876b5e936cd3c34443b1427430b5a8ac8d004549064aede8/collect_unexported-0.1.1.tar.gz
+[2023-04-24 00:45:45] INFO root fetch - processPackages [geospatial]: executing diffoscope
+[2023-04-24 00:45:45] INFO root fetch - processPackages [geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospatial-0.7.0.tar.gz tmp/geospatial-0.7.1.tar.gz --markdown 20230424/g/geospatial/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-24 00:45:45] INFO root fetch - processPackages [pyside6-live-coding]: executing diffoscope
+[2023-04-24 00:45:45] INFO root fetch - processPackages [pyside6-live-coding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyside6-live-coding-1.0.0.tar.gz tmp/pyside6-live-coding-1.0.1.tar.gz --markdown 20230424/p/pyside6-live-coding/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 00:45:45] WARNING root fetch - processPackages [thermo]: Skipping package: exceeds size limit 10732574>=10485760
+[2023-04-24 00:45:45] INFO root fetch - main [MainThread]: End processing [thermo] error
+[2023-04-24 00:45:45] INFO root fetch - processPackages [collect-unexported]: executing diffoscope
+[2023-04-24 00:45:45] INFO root fetch - processPackages [collect-unexported]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collect_unexported-0.1.0.tar.gz tmp/collect_unexported-0.1.1.tar.gz --markdown 20230424/c/collect-unexported/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 00:45:45] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [opx-plus]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [sayuDB]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [geospatial]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [pyside6-live-coding]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: End processing [collect-unexported]: success
+[2023-04-24 00:45:46] INFO root fetch - main [MainThread]: Store serial: [17826331]
