@@ -1,0 +1,124 @@
+# Comparing `tmp/dfa_mutate-0.1.2.tar.gz` & `tmp/dfa_mutate-0.1.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dfa_mutate-0.1.2.tar", max compression
++gzip compressed data, was "dfa_mutate-0.1.3.tar", max compression
+```
+
+## Comparing `dfa_mutate-0.1.2.tar` & `dfa_mutate-0.1.3.tar`
+
+### file list
+
+```diff
+@@ -1,6 +1,6 @@
+--rw-r--r--   0        0        0     1078 2023-04-23 03:39:15.012085 dfa_mutate-0.1.2/LICENSE
+--rw-r--r--   0        0        0     1738 2023-04-23 03:39:16.297069 dfa_mutate-0.1.2/README.md
+--rw-r--r--   0        0        0      595 2023-04-23 06:39:52.751442 dfa_mutate-0.1.2/pyproject.toml
+--rw-r--r--   0        0        0     2879 2023-04-23 03:39:16.298069 dfa_mutate-0.1.2/src/dfa_mutate/__init__.py
+--rw-r--r--   0        0        0     2553 1970-01-01 00:00:00.000000 dfa_mutate-0.1.2/setup.py
+--rw-r--r--   0        0        0     2450 1970-01-01 00:00:00.000000 dfa_mutate-0.1.2/PKG-INFO
++-rw-r--r--   0        0        0     1078 2023-04-22 02:58:18.366215 dfa_mutate-0.1.3/LICENSE
++-rw-r--r--   0        0        0     1738 2023-04-23 22:22:16.424735 dfa_mutate-0.1.3/README.md
++-rw-r--r--   0        0        0      595 2023-04-23 22:30:35.646378 dfa_mutate-0.1.3/pyproject.toml
++-rw-r--r--   0        0        0     2928 2023-04-23 22:23:50.678665 dfa_mutate-0.1.3/src/dfa_mutate/__init__.py
++-rw-r--r--   0        0        0     2553 1970-01-01 00:00:00.000000 dfa_mutate-0.1.3/setup.py
++-rw-r--r--   0        0        0     2450 1970-01-01 00:00:00.000000 dfa_mutate-0.1.3/PKG-INFO
+```
+
+### Comparing `dfa_mutate-0.1.2/LICENSE` & `dfa_mutate-0.1.3/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `dfa_mutate-0.1.2/README.md` & `dfa_mutate-0.1.3/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `dfa_mutate-0.1.2/pyproject.toml` & `dfa_mutate-0.1.3/pyproject.toml`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "dfa-mutate"
+-version = "0.1.2"
++version = "0.1.3"
+ description = "Library for mutating a DFA represented using the dfa library."
+ authors = ["Marcell Vazquez-Chanlatte <mvc@linux.com>"]
+ license = "MIT"
+ readme = "README.md"
+ packages = [{include = "dfa_mutate", from = "src"}]
+ repository = "https://github.com/mvcisback/dfa-mutate"
+```
+
+### Comparing `dfa_mutate-0.1.2/src/dfa_mutate/__init__.py` & `dfa_mutate-0.1.3/src/dfa_mutate/__init__.py`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -15,15 +15,16 @@
+     "generate_mutations"
+     "relabel_state",
+     "sample_mutation"
+ ]
+ 
+ 
+ def generate_mutations(orig: DFA, rng=random) -> Iterable[DFA]:
+-    yield from (f(orig, rng) for f in cycle(MUTATIONS))
++    dfas = (f(orig, rng) for f in cycle(MUTATIONS))
++    yield from filter(lambda d: d is not None, dfas)
+ 
+ 
+ def sample_mutation(orig: DFA, n=20, score=fn.constantly(1.0), rng=random) -> DFA:
+     import numpy as np
+ 
+     dfas = fn.take(n, generate_mutations(orig, rng=rng))
+     scores = fn.lmap(score, dfas)
+```
+
+### Comparing `dfa_mutate-0.1.2/setup.py` & `dfa_mutate-0.1.3/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -11,15 +11,15 @@
+ {'': ['*']}
+ 
+ install_requires = \
+ ['dfa>=4.6.3,<5.0.0']
+ 
+ setup_kwargs = {
+     'name': 'dfa-mutate',
+-    'version': '0.1.2',
++    'version': '0.1.3',
+     'description': 'Library for mutating a DFA represented using the dfa library.',
+     'long_description': '# DFA Mutate\n\nPrimitives and utilities for manipulating deterministic finite automata (DFA) represented using the [dfa](https://github.com/mvcisback/dfa) library.\n\n[![Build Status](https://cloud.drone.io/api/badges/mvcisback/dfa_mutate/status.svg)](https://cloud.drone.io/mvcisback/dfa_mutate)\n[![PyPI version](https://badge.fury.io/py/dfa_mutate.svg)](https://badge.fury.io/py/dfa_mutate)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n**Table of Contents**\n\n- [Installation](#installation)\n- [Usage](#usage)\n\n\n Installation\n\nIf you just need to use `dfa_mutate`, you can just run:\n\n`$ pip install dfa_mutate`\n\nFor developers, note that this project uses the\n[poetry](https://poetry.eustace.io/) python package/dependency\nmanagement tool. Please familarize yourself with it and then\nrun:\n\n`$ poetry install`\n\n# Usage\n\n**Example Usage:**\n```python\nfrom dfa import DFA\nimport dfa_mutate\n\ndfa1 = DFA(\n    start=0,\n    inputs={0, 1},\n    label=lambda s: (s % 4) == 3,\n    transition=lambda s, c: (s + c) % 4,\n)\n\n# Pick a specific mutation.\ndfa2 = dfa_mutate.add_state(dfa1)\ndfa3 = dfa_mutate.change_start(dfa1)\ndfa4 = dfa_mutate.change_transition(dfa1)\ndfa5 = dfa_mutate.relabel_state(dfa1)\n\n# Infinite Generator mutations round-robin (will repeat).\ndfas = dfa_mutate.generate_mutations(orig)\n\n# Sample DFA using softmax over a scoring function (default constant).\n# Uses first n dfas generated by above generator.\n\n# NOTE: requires the optional numpy dependency.\ndfa6 = dfa_mutate.sample_mutation(dfa1, n=20, score=lambda d: len(d.states()))\n\n# All functions support passing in random number generator.\nimport random\ndfa7 = dfa_mutate.relabel_state(dfa1, random.Random(0))\n```\n\n',
+     'author': 'Marcell Vazquez-Chanlatte',
+     'author_email': 'mvc@linux.com',
+     'maintainer': 'None',
+     'maintainer_email': 'None',
+     'url': 'https://github.com/mvcisback/dfa-mutate',
+```
+
+### Comparing `dfa_mutate-0.1.2/PKG-INFO` & `dfa_mutate-0.1.3/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: dfa-mutate
+-Version: 0.1.2
++Version: 0.1.3
+ Summary: Library for mutating a DFA represented using the dfa library.
+ Home-page: https://github.com/mvcisback/dfa-mutate
+ License: MIT
+ Author: Marcell Vazquez-Chanlatte
+ Author-email: mvc@linux.com
+ Requires-Python: >=3.9,<4.0
+ Classifier: License :: OSI Approved :: MIT License
+```
+
