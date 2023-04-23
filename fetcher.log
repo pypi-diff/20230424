@@ -523,3 +523,15 @@
 [2023-04-24 01:07:03] INFO root fetch - main [MainThread]: End processing [mpb-lib]: success
 [2023-04-24 01:07:07] INFO root fetch - main [MainThread]: End processing [pyquickhelper]: success
 [2023-04-24 01:07:07] INFO root fetch - main [MainThread]: Store serial: [17826475]
+[2023-04-24 01:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826475]
+[2023-04-24 01:12:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-24 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coverall
+[2023-04-24 01:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: to-paragraphs
+[2023-04-24 01:12:17] WARNING root fetch - processPackages [coverall]: Skipping, unable to determine old version
+[2023-04-24 01:12:17] INFO root fetch - main [MainThread]: End processing [coverall] error
+[2023-04-24 01:12:17] INFO root fetch - processPackages [to-paragraphs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 01:12:17] INFO root fetch - processPackages [to-paragraphs]: Downloading https://files.pythonhosted.org/packages/e2/d2/70ada188d269e1df0f0209a8f6bdfc1ac75f391daf9f9ba908e3a36f3652/to_paragraphs-0.1.5.tar.gz
+[2023-04-24 01:12:18] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 01:12:18] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.4.tar.gz tmp/to_paragraphs-0.1.5.tar.gz --markdown 20230424/t/to-paragraphs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 01:12:19] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 01:12:19] INFO root fetch - main [MainThread]: Store serial: [17826494]
