@@ -573,3 +573,52 @@
 [2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [dequeai]: success
 [2023-04-24 01:17:29] INFO root fetch - main [MainThread]: End processing [kmspy]: success
 [2023-04-24 01:17:29] INFO root fetch - main [MainThread]: Store serial: [17826515]
+[2023-04-24 01:22:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826515]
+[2023-04-24 01:22:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: to-paragraphs
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkterm
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluxrpc
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyGeodesy
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquickhelper
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clipped
+[2023-04-24 01:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: to-paragraphs
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [tkterm]: New version: [0.0.0b2] Old Version: [0.0.0b1]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [pyquickhelper]: New version: [1.9.3418] Old Version: [1.9.3396]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [fluxrpc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [clipped]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [PyGeodesy]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev2] Old Version: [4.1.8.dev9]
+[2023-04-24 01:22:38] INFO root fetch - processPackages [pyquickhelper]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [pyquickhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquickhelper-1.9.3396-py3-none-any.whl.zip tmp/pyquickhelper-1.9.3418-py3-none-any.whl.zip --markdown 20230424/p/pyquickhelper/1.9.3396-1.9.3418/diff.md --exclude *.pyd
+[2023-04-24 01:22:38] INFO root fetch - processPackages [tkterm]: Downloading https://files.pythonhosted.org/packages/54/09/fd75bf64d031363068efc29cbf7cc94bd7a734abb8039e2e783421f9c986/tkterm-0.0.0b1.tar.gz
+[2023-04-24 01:22:38] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.2.1.tar.gz tmp/clipped-0.2.2.tar.gz --markdown 20230424/c/clipped/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-24 01:22:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/d3/7b/f44c29df19ebe38657d0f04e767729173b6d4212e04acf41bc7e384ed811/moto-4.1.9.dev2.tar.gz
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: Downloading https://files.pythonhosted.org/packages/39/2d/9da2ed4f6bbac0649521b7677f2f7e03d80ece4962cae394204b8483d474/to_paragraphs-0.1.6.tar.gz
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: Downloading https://files.pythonhosted.org/packages/39/2d/9da2ed4f6bbac0649521b7677f2f7e03d80ece4962cae394204b8483d474/to_paragraphs-0.1.6.tar.gz
+[2023-04-24 01:22:38] INFO root fetch - processPackages [fluxrpc]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [fluxrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxrpc-0.9.8.tar.gz tmp/fluxrpc-0.9.9.tar.gz --markdown 20230424/f/fluxrpc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 01:22:38] INFO root fetch - processPackages [PyGeodesy]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [PyGeodesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeodesy-23.4.5.zip tmp/PyGeodesy-23.4.6.zip --markdown 20230424/P/PyGeodesy/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.5.tar.gz tmp/to_paragraphs-0.1.6.tar.gz --markdown 20230424/t/to-paragraphs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 01:22:38] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.5.tar.gz tmp/to_paragraphs-0.1.6.tar.gz --markdown 20230424/t/to-paragraphs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 01:22:38] INFO root fetch - processPackages [tkterm]: Downloading https://files.pythonhosted.org/packages/15/41/fe3224472f9bff1fb1d360e9ff656792b7e508d1850ff4b6321f8c78da47/tkterm-0.0.0b2.tar.gz
+[2023-04-24 01:22:38] INFO root fetch - processPackages [tkterm]: executing diffoscope
+[2023-04-24 01:22:38] INFO root fetch - processPackages [tkterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkterm-0.0.0b1.tar.gz tmp/tkterm-0.0.0b2.tar.gz --markdown 20230424/t/tkterm/0.0.0b1-0.0.0b2/diff.md --exclude *.pyd
+[2023-04-24 01:22:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-24 01:22:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev9.tar.gz tmp/moto-4.1.9.dev2.tar.gz --markdown 20230424/m/moto/4.1.8.dev9-4.1.9.dev2/diff.md --exclude *.pyd
+[2023-04-24 01:22:39] INFO root fetch - main [MainThread]: End processing [fluxrpc]: success
+[2023-04-24 01:22:39] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 01:22:39] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 01:22:40] INFO root fetch - main [MainThread]: End processing [tkterm]: success
+[2023-04-24 01:22:40] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-04-24 01:22:43] INFO root fetch - main [MainThread]: End processing [pyquickhelper]: success
+[2023-04-24 01:23:27] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
+[2023-04-24 01:25:39] ERROR root fetch - processPackages [moto]: Timeout during execution of pkgdiff
+[2023-04-24 01:25:39] INFO root fetch - main [MainThread]: End processing [moto] error
+[2023-04-24 01:25:39] INFO root fetch - main [MainThread]: Store serial: [17826536]
