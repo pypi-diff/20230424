@@ -224,3 +224,43 @@
 [2023-04-24 00:35:21] INFO root fetch - main [MainThread]: End processing [dfa-mutate]: success
 [2023-04-24 00:35:24] INFO root fetch - main [MainThread]: End processing [OctoBot]: success
 [2023-04-24 00:35:24] INFO root fetch - main [MainThread]: Store serial: [17826287]
+[2023-04-24 00:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826287]
+[2023-04-24 00:40:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geedar-lib
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Solarflare
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-forum
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fymjosh
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ReverseBox
+[2023-04-24 00:40:33] INFO root fetch - processPackages [fymjosh]: New version: [1.0.6] Old Version: [0.0.6]
+[2023-04-24 00:40:33] INFO root fetch - processPackages [aa-forum]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 00:40:33] INFO root fetch - processPackages [Solarflare]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 00:40:33] WARNING root fetch - processPackages [geedar-lib]: Skipping, unable to determine old version
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ReverseBox]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-24 00:40:33] INFO root fetch - main [MainThread]: End processing [geedar-lib] error
+[2023-04-24 00:40:33] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304232238] Old Version: [1.0.202304232222]
+[2023-04-24 00:40:33] INFO root fetch - processPackages [fymjosh]: Downloading https://files.pythonhosted.org/packages/85/b9/f7be5155b7d58c1028e879d2d006e87314ae09c4932f47daa4127a873f81/fymjosh-0.0.6.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [aa-forum]: Downloading https://files.pythonhosted.org/packages/22/2b/cf4069c7634e56db1319a5861d76c560af6dd02da10b145b181fb4d69832/aa_forum-1.8.1.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [Solarflare]: Downloading https://files.pythonhosted.org/packages/c6/48/d544d548145c852d1521cf2ab4c09d038f23baa6cb4e2565594db3faf225/Solarflare-0.0.5.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/c3/d1/86b8eb069bc89ca6e8c36f0479503527d3302ae13bd45d45e407488a5e34/ReverseBox-0.5.2.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/23/36/24274b77065407c406d0578cef692a97e4c27985d0792b156954d7246e75/mb_pytorch-1.0.202304232222-py3-none-any.whl
+[2023-04-24 00:40:33] INFO root fetch - processPackages [Solarflare]: executing diffoscope
+[2023-04-24 00:40:33] INFO root fetch - processPackages [Solarflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Solarflare-0.0.4.tar.gz tmp/Solarflare-0.0.5.tar.gz --markdown 20230424/S/Solarflare/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 00:40:33] INFO root fetch - processPackages [fymjosh]: Downloading https://files.pythonhosted.org/packages/39/f4/485467d9de7971e5ac5c80238620d187b4a5d041385b617e769ed1d5cb2e/fymjosh-1.0.6.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [aa-forum]: Downloading https://files.pythonhosted.org/packages/ec/94/ca4070a603caa49de38626019ea40c36b4fd0c263684316294093e94a89f/aa_forum-1.9.0.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/08/7a/bc1a39deb889e2b69753f8eed8c90472dd20057a6599010710a59d239008/ReverseBox-0.5.3.tar.gz
+[2023-04-24 00:40:33] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/5b/7c/456261269dd8f3762b65cc15b59b06dd85d65ca8cde80adbcceec068a17b/mb_pytorch-1.0.202304232238-py3-none-any.whl
+[2023-04-24 00:40:33] INFO root fetch - processPackages [fymjosh]: executing diffoscope
+[2023-04-24 00:40:33] INFO root fetch - processPackages [fymjosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fymjosh-0.0.6.tar.gz tmp/fymjosh-1.0.6.tar.gz --markdown 20230424/f/fymjosh/0.0.6-1.0.6/diff.md --exclude *.pyd
+[2023-04-24 00:40:33] INFO root fetch - processPackages [aa-forum]: executing diffoscope
+[2023-04-24 00:40:33] INFO root fetch - processPackages [aa-forum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_forum-1.8.1.tar.gz tmp/aa_forum-1.9.0.tar.gz --markdown 20230424/a/aa-forum/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2023-04-24 00:40:33] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.5.2.tar.gz tmp/ReverseBox-0.5.3.tar.gz --markdown 20230424/R/ReverseBox/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-24 00:40:33] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 00:40:33] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304232222-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304232238-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304232222-1.0.202304232238/diff.md --exclude *.pyd
+[2023-04-24 00:40:34] INFO root fetch - main [MainThread]: End processing [Solarflare]: success
+[2023-04-24 00:40:34] INFO root fetch - main [MainThread]: End processing [fymjosh]: success
+[2023-04-24 00:40:35] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 00:40:35] INFO root fetch - main [MainThread]: End processing [aa-forum]: success
+[2023-04-24 00:40:35] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2023-04-24 00:40:35] INFO root fetch - main [MainThread]: Store serial: [17826304]
