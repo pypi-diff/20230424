@@ -162,3 +162,39 @@
 [2023-04-24 00:24:22] INFO root fetch - main [MainThread]: End processing [eigenpy]: success
 [2023-04-24 00:24:36] INFO root fetch - main [MainThread]: End processing [semantra]: success
 [2023-04-24 00:24:36] INFO root fetch - main [MainThread]: Store serial: [17826242]
+[2023-04-24 00:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826242]
+[2023-04-24 00:29:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mordving
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telebot-components
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amdgpu-stats
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ditchcarbon-python
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitreattack-python
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartsheet-pydantic
+[2023-04-24 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudflare-images
+[2023-04-24 00:29:54] INFO root fetch - processPackages [smartsheet-pydantic]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-24 00:29:54] INFO root fetch - processPackages [mitreattack-python]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-24 00:29:54] WARNING root fetch - processPackages [mordving]: Skipping, unable to determine old version
+[2023-04-24 00:29:54] WARNING root fetch - processPackages [ditchcarbon-python]: Skipping, unable to determine old version
+[2023-04-24 00:29:54] INFO root fetch - main [MainThread]: End processing [mordving] error
+[2023-04-24 00:29:54] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 00:29:54] WARNING root fetch - processPackages [cloudflare-images]: Skipping, unable to determine old version
+[2023-04-24 00:29:54] INFO root fetch - main [MainThread]: End processing [ditchcarbon-python] error
+[2023-04-24 00:29:54] INFO root fetch - main [MainThread]: End processing [cloudflare-images] error
+[2023-04-24 00:29:54] INFO root fetch - processPackages [telebot-components]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-24 00:29:54] INFO root fetch - processPackages [smartsheet-pydantic]: executing diffoscope
+[2023-04-24 00:29:54] INFO root fetch - processPackages [smartsheet-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-pydantic-1.1.0.tar.gz tmp/smartsheet-pydantic-1.2.0.tar.gz --markdown 20230424/s/smartsheet-pydantic/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 00:29:54] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/44/48/6b5258e85fb31cc635ce0e243dc5af8e81f67ffdbed77a696a8b9fe52e25/amdgpu_stats-0.1.0.tar.gz
+[2023-04-24 00:29:54] INFO root fetch - processPackages [mitreattack-python]: Downloading https://files.pythonhosted.org/packages/9e/4d/ba335fb048129ecee0e394e289af2282be9da31d00688a48716b1e4c2eb8/mitreattack-python-2.0.9.tar.gz
+[2023-04-24 00:29:54] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/8b/29/7b8f6c0f3c0d58b9745477e51358b25e0264c1f23f4c7fa87eca306eb1bc/telebot_components-0.8.2.tar.gz
+[2023-04-24 00:29:54] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/c1/04/1a98f3aefa5bac6271c07c8c329d3e6e548264dc4e1b6579d07a800e1a1a/amdgpu_stats-0.1.1.tar.gz
+[2023-04-24 00:29:54] INFO root fetch - processPackages [mitreattack-python]: executing diffoscope
+[2023-04-24 00:29:54] INFO root fetch - processPackages [mitreattack-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitreattack-python-2.0.8.tar.gz tmp/mitreattack-python-2.0.9.tar.gz --markdown 20230424/m/mitreattack-python/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-24 00:29:54] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-04-24 00:29:54] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.1.tar.gz tmp/telebot_components-0.8.2.tar.gz --markdown 20230424/t/telebot-components/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-24 00:29:54] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-04-24 00:29:54] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.0.tar.gz tmp/amdgpu_stats-0.1.1.tar.gz --markdown 20230424/a/amdgpu-stats/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 00:29:55] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-04-24 00:29:56] INFO root fetch - main [MainThread]: End processing [mitreattack-python]: success
+[2023-04-24 00:29:56] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-04-24 00:30:12] INFO root fetch - main [MainThread]: End processing [smartsheet-pydantic]: success
+[2023-04-24 00:30:12] INFO root fetch - main [MainThread]: Store serial: [17826268]
