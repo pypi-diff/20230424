@@ -4889,3 +4889,35 @@
 [2023-04-24 06:26:30] INFO root fetch - main [MainThread]: End processing [sitcom] error
 [2023-04-24 06:26:30] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2023-04-24 06:26:30] INFO root fetch - main [MainThread]: Store serial: [17829032]
+[2023-04-24 06:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829032]
+[2023-04-24 06:31:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 06:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backtracker
+[2023-04-24 06:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmdsky-debug-py
+[2023-04-24 06:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stralgo
+[2023-04-24 06:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: app-config-builder
+[2023-04-24 06:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: not1mm
+[2023-04-24 06:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superpathlib
+[2023-04-24 06:31:39] INFO root fetch - processPackages [stralgo]: New version: [0.1.2b1] Old Version: [0.1.1b1]
+[2023-04-24 06:31:39] WARNING root fetch - processPackages [app-config-builder]: Skipping, unable to determine old version
+[2023-04-24 06:31:39] INFO root fetch - main [MainThread]: End processing [app-config-builder] error
+[2023-04-24 06:31:39] WARNING root fetch - processPackages [backtracker]: Skipping, unable to determine old version
+[2023-04-24 06:31:39] INFO root fetch - main [MainThread]: End processing [backtracker] error
+[2023-04-24 06:31:39] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-24 06:31:39] INFO root fetch - processPackages [superpathlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 06:31:39] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-04-24 06:31:39] INFO root fetch - processPackages [stralgo]: Downloading https://files.pythonhosted.org/packages/17/2e/8bfefc2fa2685b4396c349aedf2344388cd7ed8099d89993a6abf68a3d66/stralgo-0.1.2b1-cp39-abi3-win32.whl
+[2023-04-24 06:31:40] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/0f/c2/cfb8a697f8cf665f6761585b4967768938483888d6735f243e134f1952fc/superpathlib-1.0.0.tar.gz
+[2023-04-24 06:31:40] INFO root fetch - processPackages [stralgo]: executing diffoscope
+[2023-04-24 06:31:40] INFO root fetch - processPackages [stralgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stralgo-0.1.1b1-cp39-abi3-win32.whl.zip tmp/stralgo-0.1.2b1-cp39-abi3-win32.whl.zip --markdown 20230424/s/stralgo/0.1.1b1-0.1.2b1/diff.md --exclude *.pyd
+[2023-04-24 06:31:40] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-04-24 06:31:40] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip --markdown 20230424/p/pmdsky-debug-py/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-04-24 06:31:40] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-24 06:31:40] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230424/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-24 06:31:40] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/fa/0b/f777156dfc31c33612e8a6571910bf3e34433a3a9f235e7638172d585519/superpathlib-1.0.1.tar.gz
+[2023-04-24 06:31:40] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2023-04-24 06:31:40] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-1.0.0.tar.gz tmp/superpathlib-1.0.1.tar.gz --markdown 20230424/s/superpathlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 06:31:41] INFO root fetch - main [MainThread]: End processing [stralgo]: success
+[2023-04-24 06:31:41] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2023-04-24 06:31:42] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-24 06:31:43] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-04-24 06:31:43] INFO root fetch - main [MainThread]: Store serial: [17829057]
