@@ -1459,3 +1459,30 @@
 [2023-04-24 02:33:48] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-04-24 02:33:50] INFO root fetch - main [MainThread]: End processing [driftpy]: success
 [2023-04-24 02:33:50] INFO root fetch - main [MainThread]: Store serial: [17827044]
+[2023-04-24 02:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827044]
+[2023-04-24 02:38:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-24 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-monitoring-constructs
+[2023-04-24 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: realnet
+[2023-04-24 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-04-24 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2023-04-24 02:38:59] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304240036] Old Version: [1.0.202304240031]
+[2023-04-24 02:38:59] INFO root fetch - processPackages [realnet]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-04-24 02:38:59] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-24 02:38:59] INFO root fetch - processPackages [cdk-monitoring-constructs]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-04-24 02:38:59] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-04-24 02:38:59] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230424/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-24 02:38:59] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/29/98/2403599a0aecffb8415b4c0907814fb3cd170e342ee97bf94e4088683df6/realnet-0.0.89.tar.gz
+[2023-04-24 02:38:59] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/8d/9f/49b2adf4b34c1753d86a43433721f03c2dbf664c1fd843df8efa622a9785/mb_pytorch-1.0.202304240031-py3-none-any.whl
+[2023-04-24 02:38:59] INFO root fetch - processPackages [cdk-monitoring-constructs]: Downloading https://files.pythonhosted.org/packages/bd/52/8f5dc8d3c5ad4115bbf3b69864cdf90f657c1d5e093030f88598845b04bc/cdk-monitoring-constructs-4.0.2.tar.gz
+[2023-04-24 02:38:59] INFO root fetch - processPackages [cdk-monitoring-constructs]: executing diffoscope
+[2023-04-24 02:38:59] INFO root fetch - processPackages [cdk-monitoring-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-monitoring-constructs-4.0.1.tar.gz tmp/cdk-monitoring-constructs-4.0.2.tar.gz --markdown 20230424/c/cdk-monitoring-constructs/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-04-24 02:38:59] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/30/21/f5b640c1ec55c7bd9ca63d18941a8f2346907370dbb253f1180574e76db6/mb_pytorch-1.0.202304240036-py3-none-any.whl
+[2023-04-24 02:39:00] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-04-24 02:39:00] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.89.tar.gz tmp/realnet-0.0.9.tar.gz --markdown 20230424/r/realnet/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 02:39:00] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 02:39:00] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304240031-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304240036-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304240031-1.0.202304240036/diff.md --exclude *.pyd
+[2023-04-24 02:39:00] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-04-24 02:39:01] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 02:39:01] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-04-24 02:40:14] INFO root fetch - main [MainThread]: End processing [cdk-monitoring-constructs]: success
+[2023-04-24 02:40:14] INFO root fetch - main [MainThread]: Store serial: [17827057]
