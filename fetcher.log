@@ -18145,3 +18145,73 @@
 [2023-04-24 18:49:11] INFO root fetch - main [MainThread]: End processing [tshirt]: success
 [2023-04-24 18:49:11] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-04-24 18:49:11] INFO root fetch - main [MainThread]: Store serial: [17836862]
+[2023-04-24 18:54:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17836862]
+[2023-04-24 18:54:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataclasses-avroschema
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strongmind-deployment
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt3discord
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magnum-cluster-api
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perfect-physics
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-yaml
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyCHAS
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spatiotemporal
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cujirax
+[2023-04-24 18:54:21] INFO root fetch - processPackages [perfect-physics]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ez-yaml]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [cujirax]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [cujirax]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [cujirax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cujirax-0.6.0.tar.gz tmp/cujirax-0.7.0.tar.gz --markdown 20230424/c/cujirax/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 18:54:21] WARNING root fetch - processPackages [chromoscope]: Skipping, unable to determine old version
+[2023-04-24 18:54:21] INFO root fetch - processPackages [chromoscope]: Start processing: coursebox
+[2023-04-24 18:54:21] INFO root fetch - main [MainThread]: End processing [chromoscope] error
+[2023-04-24 18:54:21] WARNING root fetch - processPackages [PyCHAS]: Skipping, unable to determine old version
+[2023-04-24 18:54:21] INFO root fetch - processPackages [PyCHAS]: Start processing: gkligo
+[2023-04-24 18:54:21] INFO root fetch - main [MainThread]: End processing [PyCHAS] error
+[2023-04-24 18:54:21] INFO root fetch - processPackages [spatiotemporal]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [strongmind-deployment]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [magnum-cluster-api]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230424/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gkligo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [perfect-physics]: Downloading https://files.pythonhosted.org/packages/0e/0c/2bcc8bac323d7928e0360ccba2ed1dbb92b799a653952ea86bc723e55a0b/perfect_physics-0.1.4-py3-none-any.whl
+[2023-04-24 18:54:21] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 18:54:21] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/c3/e4/17698f25f7563b61913312f30e1a34f4676bfb332933be0b4860bc0b52b4/strongmind_deployment-0.0.5-py3-none-any.whl
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ez-yaml]: Downloading https://files.pythonhosted.org/packages/e7/89/1d31591b96ceb3f0f8bfe5ee8d28b86c8049a056ddd0bbbb7cbcbee5bc4f/ez_yaml-1.3.4.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [spatiotemporal]: Downloading https://files.pythonhosted.org/packages/07/24/65f7a38a9c8f3c76892bf5d5c395d7f6a28a485ca8ff5ab1cc4a5ae29090/spatiotemporal-1.0.0.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/bc/2c/d768bb3686ed0eee3fb75f8b46ab535519d59c74cbc626e92c7586ba9091/gkligo-0.0.5.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/de/56/218dd224f8d392abe3bdf32869cfe01d82495b936baf0a49f094894adc46/magnum_cluster_api-0.5.3.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [perfect-physics]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [perfect-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfect_physics-0.1.3-py3-none-any.whl.zip tmp/perfect_physics-0.1.4-py3-none-any.whl.zip --markdown 20230424/p/perfect-physics/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ez-yaml]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [ez-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_yaml-1.3.3.tar.gz tmp/ez_yaml-1.3.4.tar.gz --markdown 20230424/e/ez-yaml/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230424/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.0.4.tar.gz tmp/gkligo-0.0.5.tar.gz --markdown 20230424/g/gkligo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/94/34/0b5ccc32d7160701847d23c1d25be3df674f710db96c833f72a96dcafff0/strongmind_deployment-0.0.6-py3-none-any.whl
+[2023-04-24 18:54:21] INFO root fetch - processPackages [spatiotemporal]: Downloading https://files.pythonhosted.org/packages/61/b4/40550b22a3c2d4c565e3a33a79f9cc608ebaecb529e826a25595f60f8ad4/spatiotemporal-1.0.1.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/88/c0/32f628097f12f089415d51fa422d03b842946173308bbdc7da6fe39d5220/magnum_cluster_api-0.5.4.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-0.0.5-py3-none-any.whl.zip tmp/strongmind_deployment-0.0.6-py3-none-any.whl.zip --markdown 20230424/s/strongmind-deployment/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-04-24 18:54:21] INFO root fetch - processPackages [spatiotemporal]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [spatiotemporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatiotemporal-1.0.0.tar.gz tmp/spatiotemporal-1.0.1.tar.gz --markdown 20230424/s/spatiotemporal/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 18:54:21] INFO root fetch - processPackages [magnum-cluster-api]: executing diffoscope
+[2023-04-24 18:54:21] INFO root fetch - processPackages [magnum-cluster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_cluster_api-0.5.3.tar.gz tmp/magnum_cluster_api-0.5.4.tar.gz --markdown 20230424/m/magnum-cluster-api/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-24 18:54:22] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-04-24 18:54:22] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230424/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 18:54:22] INFO root fetch - main [MainThread]: End processing [cujirax]: success
+[2023-04-24 18:54:22] INFO root fetch - main [MainThread]: End processing [perfect-physics]: success
+[2023-04-24 18:54:22] INFO root fetch - main [MainThread]: End processing [ez-yaml]: success
+[2023-04-24 18:54:23] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-04-24 18:54:23] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-04-24 18:54:23] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-04-24 18:54:23] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-24 18:54:23] INFO root fetch - main [MainThread]: End processing [spatiotemporal]: success
+[2023-04-24 18:54:23] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-04-24 18:54:25] INFO root fetch - main [MainThread]: End processing [magnum-cluster-api]: success
+[2023-04-24 18:54:25] INFO root fetch - main [MainThread]: Store serial: [17836913]
