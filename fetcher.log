@@ -9390,3 +9390,112 @@
 [2023-04-24 11:51:56] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
 [2023-04-24 11:51:58] INFO root fetch - main [MainThread]: End processing [COMTool]: success
 [2023-04-24 11:51:58] INFO root fetch - main [MainThread]: Store serial: [17831813]
+[2023-04-24 11:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831813]
+[2023-04-24 11:57:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cullinan
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sitcom
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telebot-components
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmrazor
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ravpy
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xchembku
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stoobly-agent
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-ro-stock-account
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphere-base
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynareadout
+[2023-04-24 11:57:07] INFO root fetch - processPackages [sitcom]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [cullinan]: New version: [0.52a2] Old Version: [0.52a1]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [mmrazor]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [dynareadout]: New version: [23.4] Old Version: [23.2]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ravpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [xchembku]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [sphere-base]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [telebot-components]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: New version: [14.0.8.9.0] Old Version: [14.0.8.8.0]
+[2023-04-24 11:57:07] INFO root fetch - processPackages [dynareadout]: executing diffoscope
+[2023-04-24 11:57:07] INFO root fetch - processPackages [dynareadout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynareadout-23.2.tar.gz tmp/dynareadout-23.4.tar.gz --markdown 20230424/d/dynareadout/23.2-23.4/diff.md --exclude *.pyd
+[2023-04-24 11:57:07] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/04/be/c73339152e4a8014b394696f700d808a5e8ddbcfc2375775fdfc7d3b7e70/sitcom-1.4.0.tar.gz
+[2023-04-24 11:57:07] INFO root fetch - processPackages [mmrazor]: Downloading https://files.pythonhosted.org/packages/57/78/a49b371f9ebb724f886c0e321c35a392ab25e93daadb24414cc62c28707c/mmrazor-1.0.0rc1.tar.gz
+[2023-04-24 11:57:07] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/72/69/11cab03ca880e5789441da9a9c723d3c6f75e7563b6c914366158c9e67a7/telebot_components-0.8.3.tar.gz
+[2023-04-24 11:57:07] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689668>=10485760
+[2023-04-24 11:57:07] INFO root fetch - processPackages [sitcom]: Start processing: neapolitan
+[2023-04-24 11:57:07] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-24 11:57:07] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/0f/5d/d918bf77c81d780e04aaa723a0d6bab36ff9c1a8391c699159e60b57fed7/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl
+[2023-04-24 11:57:07] INFO root fetch - processPackages [ravpy]: Downloading https://files.pythonhosted.org/packages/79/76/65dfbc36e4751a770463e11676c1b38c3fcf419da607647e7d4a6c37b070/ravpy-0.9.2.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/5a/23/8d57a5c291f0ae7ba26369d3ecd674789ad91de344bef584f9bbb3abce39/sphere_base-0.1.7.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.2.tar.gz tmp/telebot_components-0.8.3.tar.gz --markdown 20230424/t/telebot-components/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/bd/b7/5aa0628abae006e37a62d9a99ae6414f7cf9efcbf49292abff842d0caeaf/xchembku-1.1.0.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/49/34/3e305f8ecb22285eaa04cd1d349a6bc6974185438a088e8ebc3817bc956e/cullinan-0.52a2.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [neapolitan]: New version: [23.8] Old Version: [23.7]
+[2023-04-24 11:57:08] INFO root fetch - processPackages [cullinan]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [cullinan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cullinan-0.52a1.tar.gz tmp/cullinan-0.52a2.tar.gz --markdown 20230424/c/cullinan/0.52a1-0.52a2/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230424/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d9/f6/d390d7dd65ffcd4da3cac5c58908ec5c165437c5ec74857d9717dbb5b740/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl
+[2023-04-24 11:57:08] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/a1/d7/f85d4b1bcc66a66b341b2bf8cecb8f3108756fe8ff16c8751fb56715437f/xchembku-1.2.0.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip --markdown 20230424/o/odoo14-addon-l10n-ro-stock-account/14.0.8.8.0-14.0.8.9.0/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.1.0.tar.gz tmp/xchembku-1.2.0.tar.gz --markdown 20230424/x/xchembku/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [neapolitan]: Downloading https://files.pythonhosted.org/packages/96/90/b2f36a4743ae5cc0953e45de6ad797cd9497158b94d9b1f3b41cd072ddb3/neapolitan-23.7.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [mmrazor]: Downloading https://files.pythonhosted.org/packages/eb/ca/d6cc0e8c8a87a168809591f591d2ba3914ff911801185da56c0ce0b2ee5d/mmrazor-1.0.0rc2.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/9c/6f/fcff029ec5d572acbbb18bf4b7a917612d009aa01a8705c63d8f842bf28c/sphere_base-0.1.8.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [ravpy]: Downloading https://files.pythonhosted.org/packages/26/c6/874c7f1a063a71010e78f03f386b19e11de5e8a45207e9400eaab699efbb/ravpy-0.9.3.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.7.tar.gz tmp/sphere_base-0.1.8.tar.gz --markdown 20230424/s/sphere-base/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [ravpy]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [ravpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ravpy-0.9.2.tar.gz tmp/ravpy-0.9.3.tar.gz --markdown 20230424/r/ravpy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [mmrazor]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [mmrazor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmrazor-1.0.0rc1.tar.gz tmp/mmrazor-1.0.0rc2.tar.gz --markdown 20230424/m/mmrazor/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-04-24 11:57:08] INFO root fetch - processPackages [neapolitan]: Downloading https://files.pythonhosted.org/packages/7b/7b/2d03a5807f56412945b2a1ddcf8b52897e7fa1fcb1723ca1b211d405b50f/neapolitan-23.8.tar.gz
+[2023-04-24 11:57:08] INFO root fetch - processPackages [neapolitan]: executing diffoscope
+[2023-04-24 11:57:08] INFO root fetch - processPackages [neapolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neapolitan-23.7.tar.gz tmp/neapolitan-23.8.tar.gz --markdown 20230424/n/neapolitan/23.7-23.8/diff.md --exclude *.pyd
+[2023-04-24 11:57:09] INFO root fetch - processPackages [cullinan]: Start processing: django-baton
+[2023-04-24 11:57:09] INFO root fetch - main [MainThread]: End processing [cullinan]: success
+[2023-04-24 11:57:09] INFO root fetch - processPackages [ravpy]: Start processing: ssb-altinn-python
+[2023-04-24 11:57:09] INFO root fetch - main [MainThread]: End processing [ravpy]: success
+[2023-04-24 11:57:09] INFO root fetch - processPackages [django-baton]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-24 11:57:09] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Start processing: ravdl
+[2023-04-24 11:57:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
+[2023-04-24 11:57:10] INFO root fetch - processPackages [neapolitan]: Start processing: drf-multistep-form
+[2023-04-24 11:57:10] INFO root fetch - main [MainThread]: End processing [neapolitan]: success
+[2023-04-24 11:57:10] INFO root fetch - processPackages [django-baton]: Downloading https://files.pythonhosted.org/packages/08/a3/594c35c7ab7d3ae38437c85e253a78d42557cd27a58d97928a8575df74c7/django-baton-2.7.0.tar.gz
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ravdl]: New version: [0.9] Old Version: [0.8]
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/f7/e5/285adbcadc645071694194de906838feedf4580a3546a028eb889874edf8/ssb_altinn_python-0.0.9.tar.gz
+[2023-04-24 11:57:10] WARNING root fetch - processPackages [drf-multistep-form]: Skipping, unable to determine old version
+[2023-04-24 11:57:10] INFO root fetch - processPackages [drf-multistep-form]: Start processing: odoo12-addon-stock-picking-report-summary
+[2023-04-24 11:57:10] INFO root fetch - main [MainThread]: End processing [drf-multistep-form] error
+[2023-04-24 11:57:10] INFO root fetch - processPackages [telebot-components]: Start processing: odoo-addon-product-tax-multicompany-default
+[2023-04-24 11:57:10] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.0.8.tar.gz tmp/ssb_altinn_python-0.0.9.tar.gz --markdown 20230424/s/ssb-altinn-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-report-summary]: New version: [12.0.1.1.0] Old Version: [12.0.1.0.0.99.dev3]
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ravdl]: Downloading https://files.pythonhosted.org/packages/1b/cf/3c2761ab316580979d148f537dd72999d7302e4974ddbe122c07a4f7d966/ravdl-0.8.tar.gz
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.4]
+[2023-04-24 11:57:10] INFO root fetch - processPackages [django-baton]: Downloading https://files.pythonhosted.org/packages/1f/4e/76dc9786139f38e75a98bb3e9aaa18d70fc32a64430e6eacfed90d501ed0/django-baton-2.7.1.tar.gz
+[2023-04-24 11:57:10] INFO root fetch - main [MainThread]: End processing [dynareadout]: success
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-report-summary]: Downloading https://files.pythonhosted.org/packages/9b/a8/5bcdf65d50a5e65a4c3c50239e62c193f9ed7e11c7da188760b347bf11c0/odoo12_addon_stock_picking_report_summary-12.0.1.0.0.99.dev3-py3-none-any.whl
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: Downloading https://files.pythonhosted.org/packages/36/6c/b6d8a70170ecb99a4bba69e8935f3e249409133df1ef5be7bb40e50719ba/odoo_addon_product_tax_multicompany_default-16.0.1.0.1.4-py3-none-any.whl
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ravdl]: Downloading https://files.pythonhosted.org/packages/51/2a/25d4f7bd723fe75bc0775e650072f258c6f7345934b68300605296bb16c9/ravdl-0.9.tar.gz
+[2023-04-24 11:57:10] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ravdl]: executing diffoscope
+[2023-04-24 11:57:10] INFO root fetch - processPackages [ravdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ravdl-0.8.tar.gz tmp/ravdl-0.9.tar.gz --markdown 20230424/r/ravdl/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: Downloading https://files.pythonhosted.org/packages/0d/6a/89748b0e58ceb003518371492b774a95464b0fbcbf197bcbdda8b0a9a88e/odoo_addon_product_tax_multicompany_default-16.0.1.0.2-py3-none-any.whl
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-report-summary]: Downloading https://files.pythonhosted.org/packages/c2/c8/91e130f1f619dc06af452c929f9237354f57537e441d37188d2b1ca2b06b/odoo12_addon_stock_picking_report_summary-12.0.1.1.0-py3-none-any.whl
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: executing diffoscope
+[2023-04-24 11:57:10] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_tax_multicompany_default-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_product_tax_multicompany_default-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230424/o/odoo-addon-product-tax-multicompany-default/16.0.1.0.1.4-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-24 11:57:11] INFO root fetch - processPackages [odoo12-addon-stock-picking-report-summary]: executing diffoscope
+[2023-04-24 11:57:11] INFO root fetch - processPackages [odoo12-addon-stock-picking-report-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_picking_report_summary-12.0.1.0.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_stock_picking_report_summary-12.0.1.1.0-py3-none-any.whl.zip --markdown 20230424/o/odoo12-addon-stock-picking-report-summary/12.0.1.0.0.99.dev3-12.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-24 11:57:11] INFO root fetch - processPackages [django-baton]: executing diffoscope
+[2023-04-24 11:57:11] INFO root fetch - processPackages [django-baton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-baton-2.7.0.tar.gz tmp/django-baton-2.7.1.tar.gz --markdown 20230424/d/django-baton/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-24 11:57:11] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-24 11:57:11] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-04-24 11:57:11] INFO root fetch - main [MainThread]: End processing [ravdl]: success
+[2023-04-24 11:57:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-tax-multicompany-default]: success
+[2023-04-24 11:57:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-picking-report-summary]: success
+[2023-04-24 11:57:12] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-04-24 11:57:16] INFO root fetch - main [MainThread]: End processing [mmrazor]: success
+[2023-04-24 11:57:22] INFO root fetch - main [MainThread]: End processing [django-baton]: success
+[2023-04-24 11:57:22] INFO root fetch - main [MainThread]: Store serial: [17831862]
