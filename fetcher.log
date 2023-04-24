@@ -13528,3 +13528,160 @@
 [2023-04-24 15:20:15] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
 [2023-04-24 15:20:21] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-04-24 15:20:21] INFO root fetch - main [MainThread]: Store serial: [17834061]
+[2023-04-24 15:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834061]
+[2023-04-24 15:25:30] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-24 15:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GenRisk
+[2023-04-24 15:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delphix-dct-api
+[2023-04-24 15:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-04-24 15:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2023-04-24 15:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dai-python-commons
+[2023-04-24 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly
+[2023-04-24 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colemen-volent
+[2023-04-24 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xyz-py
+[2023-04-24 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bcdb
+[2023-04-24 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plotly-resampler
+[2023-04-24 15:25:31] INFO root fetch - processPackages [delphix-dct-api]: New version: [6.0.0rc1] Old Version: [6.0.0]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [GenRisk]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bcdb]: New version: [0.4.0b1] Old Version: [0.4.0]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [dai-python-commons]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [xyz-py]: New version: [5.4.2] Old Version: [5.4.1]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.23] Old Version: [2023.4.22]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.0rc0] Old Version: [0.8.4rc1]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [colemen-volent]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [pymobiledevice3]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-6.0.0.tar.gz tmp/delphix-dct-api-6.0.0rc1.tar.gz --markdown 20230424/d/delphix-dct-api/6.0.0-6.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/e2/03/a30481576c052c1eee23b42a7287d84bc2e1ac30d62805bb01e6cda8f97b/bagbag-0.9.5.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [dai-python-commons]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [dai-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dai_python_commons-4.8.1.tar.gz tmp/dai_python_commons-4.9.0.tar.gz --markdown 20230424/d/dai-python-commons/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bcdb]: Downloading https://files.pythonhosted.org/packages/3d/9d/130b234bc5bdaef469f48af51786de9420d98ab99e34aae923c62628a45b/bcdb-0.4.0.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [GenRisk]: Downloading https://files.pythonhosted.org/packages/3c/f0/91802e250e9f91e2bd511d52a0efee0266d401f8cf108295c0fea42911ae/GenRisk-0.2.2.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c0/f0/43539427af63a4934a769a4339639a44b86197fd21bf3d7be9293c03c5c5/bagbag-0.9.6.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/d7/5e/71a9e34a36c1855d0c4e30a88405d58c4bbbe7ece802b188628a643f2cda/plotly_resampler-0.8.4rc1.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/16/1c/e729f9292151c2b456cbb1e7d6a6bbc82185406a25b49b9157d04ffd7016/xyz_py-5.4.2.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/59/73/c2c5956194851d28cfdf5684364cf1050096c925e10bbfb9a41ca8afac3a/pymobiledevice3-1.9.8.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/7b/af/aa51641191b483cd064fa1c9917462d56a6e375296000f9fe462686d37a5/fbgemm_gpu_nightly-2023.4.22-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230424/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 245815941>=10485760
+[2023-04-24 15:25:31] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: aitviewer
+[2023-04-24 15:25:31] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.4.1.tar.gz tmp/xyz_py-5.4.2.tar.gz --markdown 20230424/x/xyz-py/5.4.1-5.4.2/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-04-24 15:25:31] INFO root fetch - processPackages [aitviewer]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-24 15:25:31] INFO root fetch - processPackages [colemen-volent]: Downloading https://files.pythonhosted.org/packages/69/fc/36c1af1aa1899d716d6e87950b0d7b211f6b8f585c33cc64a6030344d6c9/colemen_volent-0.0.2.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [GenRisk]: Downloading https://files.pythonhosted.org/packages/43/93/fcbae0e806b1fbf8f4daa5c4315a33099f5028ec915f655b66ad88660408/GenRisk-0.2.3.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bcdb]: Downloading https://files.pythonhosted.org/packages/85/6c/cfab47e46bab4a3ac28593b74dae5ee17a1fac53149af565ad4f4b147da7/bcdb-0.4.0b1.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [GenRisk]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [GenRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenRisk-0.2.2.tar.gz tmp/GenRisk-0.2.3.tar.gz --markdown 20230424/G/GenRisk/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/8b/e4/cd7452ed2b8dae5b63768f0484d810783213869687f39d24f928b0c71e13/plotly_resampler-0.9.0rc0.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/1a/dc/c1c170d1eca1e7e3e63ff9343c412f6ff3471836fbd77f4fe064161a47b1/pymobiledevice3-1.9.9.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [aitviewer]: Downloading https://files.pythonhosted.org/packages/22/23/d28141dbccbfbd3157d536ead6e48a4c59794a0a86baf221e2f386eac127/aitviewer-1.8.0.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bcdb]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [bcdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdb-0.4.0.tar.gz tmp/bcdb-0.4.0b1.tar.gz --markdown 20230424/b/bcdb/0.4.0-0.4.0b1/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.8.4rc1.tar.gz tmp/plotly_resampler-0.9.0rc0.tar.gz --markdown 20230424/p/plotly-resampler/0.8.4rc1-0.9.0rc0/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - processPackages [colemen-volent]: Downloading https://files.pythonhosted.org/packages/df/b7/220d575c62b238284734841c0845d85725b564cc4d0b693178a2542fe29d/colemen_volent-0.0.3.tar.gz
+[2023-04-24 15:25:31] INFO root fetch - processPackages [colemen-volent]: executing diffoscope
+[2023-04-24 15:25:31] INFO root fetch - processPackages [colemen-volent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colemen_volent-0.0.2.tar.gz tmp/colemen_volent-0.0.3.tar.gz --markdown 20230424/c/colemen-volent/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 15:25:31] INFO root fetch - processPackages [aitviewer]: Downloading https://files.pythonhosted.org/packages/09/ce/1316cd5653f5f32703b828bd5828810c4aba92ef11b2a9000839083301bb/aitviewer-1.8.1.tar.gz
+[2023-04-24 15:25:32] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-04-24 15:25:32] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-1.9.8.tar.gz tmp/pymobiledevice3-1.9.9.tar.gz --markdown 20230424/p/pymobiledevice3/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-24 15:25:32] INFO root fetch - processPackages [aitviewer]: executing diffoscope
+[2023-04-24 15:25:32] INFO root fetch - processPackages [aitviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitviewer-1.8.0.tar.gz tmp/aitviewer-1.8.1.tar.gz --markdown 20230424/a/aitviewer/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-24 15:25:32] INFO root fetch - processPackages [dai-python-commons]: Start processing: newtgw
+[2023-04-24 15:25:32] INFO root fetch - main [MainThread]: End processing [dai-python-commons]: success
+[2023-04-24 15:25:32] INFO root fetch - processPackages [newtgw]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 15:25:32] INFO root fetch - processPackages [bagbag]: Start processing: html4quiz
+[2023-04-24 15:25:32] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-24 15:25:32] INFO root fetch - processPackages [html4quiz]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-04-24 15:25:32] INFO root fetch - processPackages [newtgw]: Downloading https://files.pythonhosted.org/packages/fb/25/87dcbfd0a9d2b9ec59643c073b5aaf5940882c0335ce7d259545b0f9732b/newtgw-0.0.6.tar.gz
+[2023-04-24 15:25:32] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/9b/14/ce2e5fb8bbd5581663147faaaf0153d2f39e05e00f08379806e82bd0c734/html4quiz-0.0.33.tar.gz
+[2023-04-24 15:25:32] INFO root fetch - processPackages [newtgw]: executing diffoscope
+[2023-04-24 15:25:32] INFO root fetch - processPackages [newtgw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newtgw-0.0.5.tar.gz tmp/newtgw-0.0.6.tar.gz --markdown 20230424/n/newtgw/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 15:25:32] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/29/c0/f9166c10fb0374cf9cdd94c518be06ea1204483ea54759733819d9b83607/html4quiz-0.0.34.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [bcdb]: Start processing: constyle
+[2023-04-24 15:25:33] INFO root fetch - main [MainThread]: End processing [bcdb]: success
+[2023-04-24 15:25:33] INFO root fetch - processPackages [constyle]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-24 15:25:33] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-24 15:25:33] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.33.tar.gz tmp/html4quiz-0.0.34.tar.gz --markdown 20230424/h/html4quiz/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-04-24 15:25:33] INFO root fetch - processPackages [xyz-py]: Start processing: cloudmonitor
+[2023-04-24 15:25:33] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-04-24 15:25:33] INFO root fetch - processPackages [cloudmonitor]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-04-24 15:25:33] INFO root fetch - processPackages [GenRisk]: Start processing: drf-social-oauth2
+[2023-04-24 15:25:33] INFO root fetch - main [MainThread]: End processing [GenRisk]: success
+[2023-04-24 15:25:33] INFO root fetch - processPackages [drf-social-oauth2]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-24 15:25:33] INFO root fetch - processPackages [constyle]: Downloading https://files.pythonhosted.org/packages/e5/30/09cbb434e2f3702272db4931646723cda6742aa9ae6f48fbe5fd3ac410f0/constyle-2.0.2.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [colemen-volent]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-24 15:25:33] INFO root fetch - main [MainThread]: End processing [colemen-volent]: success
+[2023-04-24 15:25:33] INFO root fetch - processPackages [cloudmonitor]: Downloading https://files.pythonhosted.org/packages/18/82/e92d386473c2bc18f66c393f074c88e8a75c7afe80fe0a699eb5b36067f0/cloudmonitor-0.0.1.7.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 15:25:33] INFO root fetch - processPackages [drf-social-oauth2]: Downloading https://files.pythonhosted.org/packages/4d/f0/17b757f96f75f3f1897d9125e8fb3ba6640abe74123b4d45183783ce67f8/drf-social-oauth2-2.0.0.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-24 15:25:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 15:25:33] INFO root fetch - processPackages [cloudmonitor]: executing diffoscope
+[2023-04-24 15:25:33] INFO root fetch - processPackages [cloudmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmonitor-0.0.1.6.tar.gz tmp/cloudmonitor-0.0.1.7.tar.gz --markdown 20230424/c/cloudmonitor/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-04-24 15:25:33] INFO root fetch - processPackages [plotly-resampler]: Start processing: vdk-control-service-api
+[2023-04-24 15:25:33] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-04-24 15:25:33] INFO root fetch - processPackages [vdk-control-service-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 15:25:33] INFO root fetch - processPackages [drf-social-oauth2]: Downloading https://files.pythonhosted.org/packages/8e/9d/57530989236671a42b5ae3bd8c1de347ac7383784a42946db41c9721ec0b/drf-social-oauth2-2.1.0.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [constyle]: Downloading https://files.pythonhosted.org/packages/94/af/b995ce96bb96e3512e48a3e03d9f636823fd004e4307583ed980e7a7d6e2/constyle-2.0.3.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/fd/de/f282664c2fead4598a30713f79751c4fd040ecbb0a95a3d2503abed392f6/vdk-control-service-api-1.0.8.tar.gz
+[2023-04-24 15:25:33] INFO root fetch - processPackages [drf-social-oauth2]: executing diffoscope
+[2023-04-24 15:25:33] INFO root fetch - processPackages [drf-social-oauth2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-social-oauth2-2.0.0.tar.gz tmp/drf-social-oauth2-2.1.0.tar.gz --markdown 20230424/d/drf-social-oauth2/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-24 15:25:33] INFO root fetch - processPackages [pymobiledevice3]: Start processing: vineyard
+[2023-04-24 15:25:33] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-04-24 15:25:33] INFO root fetch - processPackages [vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-24 15:25:33] INFO root fetch - processPackages [constyle]: executing diffoscope
+[2023-04-24 15:25:33] INFO root fetch - processPackages [constyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constyle-2.0.2.tar.gz tmp/constyle-2.0.3.tar.gz --markdown 20230424/c/constyle/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-24 15:25:33] INFO root fetch - processPackages [vdk-control-service-api]: executing diffoscope
+[2023-04-24 15:25:33] INFO root fetch - processPackages [vdk-control-service-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-service-api-1.0.7.tar.gz tmp/vdk-control-service-api-1.0.8.tar.gz --markdown 20230424/v/vdk-control-service-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 15:25:34] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/9d/2a/a253c807a750e951378e7a3ab1d51d2fef6447b872b6cbd417df779a782b/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-24 15:25:34] INFO root fetch - processPackages [newtgw]: Start processing: appstream-python
+[2023-04-24 15:25:34] INFO root fetch - main [MainThread]: End processing [newtgw]: success
+[2023-04-24 15:25:34] INFO root fetch - processPackages [appstream-python]: New version: [0.6.1] Old Version: [0.6]
+[2023-04-24 15:25:34] INFO root fetch - processPackages [html4quiz]: Start processing: ncplot
+[2023-04-24 15:25:34] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-24 15:25:34] INFO root fetch - processPackages [ncplot]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-04-24 15:25:34] INFO root fetch - processPackages [appstream-python]: Downloading https://files.pythonhosted.org/packages/fc/c1/a52573ee64e10647c04483836f2e84961b84e5702923e69b16149c97ef0d/appstream-python-0.6.tar.gz
+[2023-04-24 15:25:34] INFO root fetch - processPackages [ncplot]: Downloading https://files.pythonhosted.org/packages/58/00/477466fd8e1d8137a78d0aeb91f8e538c0ad5435979b67f1e52dad764761/ncplot-0.3.0.tar.gz
+[2023-04-24 15:25:34] INFO root fetch - processPackages [appstream-python]: Downloading https://files.pythonhosted.org/packages/53/7f/f4beb3de4f06789f9a7943d701dc52891ca5b50b6ce8a48ef402ff4b3a44/appstream-python-0.6.1.tar.gz
+[2023-04-24 15:25:34] INFO root fetch - processPackages [cloudmonitor]: Start processing: uffspd
+[2023-04-24 15:25:34] INFO root fetch - main [MainThread]: End processing [cloudmonitor]: success
+[2023-04-24 15:25:34] INFO root fetch - processPackages [uffspd]: New version: [0.11] Old Version: [0.10]
+[2023-04-24 15:25:34] INFO root fetch - processPackages [ncplot]: Downloading https://files.pythonhosted.org/packages/e7/83/94e66572353ca1bd1ba0aa1bd28a369719ff535c3abff82d4a74d8636d3c/ncplot-0.3.2.tar.gz
+[2023-04-24 15:25:34] INFO root fetch - processPackages [appstream-python]: executing diffoscope
+[2023-04-24 15:25:34] INFO root fetch - processPackages [appstream-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appstream-python-0.6.tar.gz tmp/appstream-python-0.6.1.tar.gz --markdown 20230424/a/appstream-python/0.6-0.6.1/diff.md --exclude *.pyd
+[2023-04-24 15:25:34] INFO root fetch - processPackages [constyle]: Start processing: starbot-bilibili
+[2023-04-24 15:25:34] INFO root fetch - main [MainThread]: End processing [constyle]: success
+[2023-04-24 15:25:34] INFO root fetch - processPackages [uffspd]: Downloading https://files.pythonhosted.org/packages/05/00/bab1eba19e5a364a7f50241961683954c862721faa60d86fa7cf4c308f39/uffspd-0.10.tar.gz
+[2023-04-24 15:25:35] INFO root fetch - processPackages [ncplot]: executing diffoscope
+[2023-04-24 15:25:35] INFO root fetch - processPackages [ncplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncplot-0.3.0.tar.gz tmp/ncplot-0.3.2.tar.gz --markdown 20230424/n/ncplot/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-04-24 15:25:35] INFO root fetch - processPackages [drf-social-oauth2]: Start processing: gw-eccentricity
+[2023-04-24 15:25:35] INFO root fetch - main [MainThread]: End processing [drf-social-oauth2]: success
+[2023-04-24 15:25:35] INFO root fetch - processPackages [starbot-bilibili]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 15:25:35] INFO root fetch - processPackages [gw-eccentricity]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 15:25:35] INFO root fetch - processPackages [uffspd]: Downloading https://files.pythonhosted.org/packages/3b/5f/659c45bb920126007f29b6d65cb74d26d7c68d7c57f787af4e29fa507e1c/uffspd-0.11.tar.gz
+[2023-04-24 15:25:35] INFO root fetch - processPackages [starbot-bilibili]: Downloading https://files.pythonhosted.org/packages/9a/58/6f5ccebe070604873ef28ce569c373601224a1566c4ec71c6a8bdfedc10f/starbot-bilibili-1.0.3.tar.gz
+[2023-04-24 15:25:35] INFO root fetch - processPackages [gw-eccentricity]: Downloading https://files.pythonhosted.org/packages/80/62/0bd26447f475476a4baf58fcc57d3436a8e0e8a194f603ba13b340780b1e/gw_eccentricity-1.0.0.tar.gz
+[2023-04-24 15:25:35] WARNING root fetch - processPackages [starbot-bilibili]: Skipping package: exceeds size limit 20884293>=10485760
+[2023-04-24 15:25:35] INFO root fetch - main [MainThread]: End processing [starbot-bilibili] error
+[2023-04-24 15:25:35] INFO root fetch - processPackages [uffspd]: executing diffoscope
+[2023-04-24 15:25:35] INFO root fetch - processPackages [uffspd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uffspd-0.10.tar.gz tmp/uffspd-0.11.tar.gz --markdown 20230424/u/uffspd/0.10-0.11/diff.md --exclude *.pyd
+[2023-04-24 15:25:35] INFO root fetch - main [MainThread]: End processing [aitviewer]: success
+[2023-04-24 15:25:35] INFO root fetch - processPackages [gw-eccentricity]: Downloading https://files.pythonhosted.org/packages/32/8a/7a6c073129517a02099222b5edf4838887c8ba55f88578a077e69191339d/gw_eccentricity-1.0.1.tar.gz
+[2023-04-24 15:25:35] INFO root fetch - processPackages [gw-eccentricity]: executing diffoscope
+[2023-04-24 15:25:35] INFO root fetch - processPackages [gw-eccentricity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_eccentricity-1.0.0.tar.gz tmp/gw_eccentricity-1.0.1.tar.gz --markdown 20230424/g/gw-eccentricity/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 15:25:35] INFO root fetch - main [MainThread]: End processing [vdk-control-service-api]: success
+[2023-04-24 15:25:36] INFO root fetch - main [MainThread]: End processing [ncplot]: success
+[2023-04-24 15:25:36] INFO root fetch - main [MainThread]: End processing [appstream-python]: success
+[2023-04-24 15:25:36] INFO root fetch - main [MainThread]: End processing [uffspd]: success
+[2023-04-24 15:25:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-24 15:25:37] INFO root fetch - main [MainThread]: End processing [gw-eccentricity]: success
+[2023-04-24 15:25:37] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/09/c1/99b0791e766e16902b883540228d4762bd12a44f2b331b33b5b7766e7164/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-24 15:25:39] INFO root fetch - processPackages [vineyard]: executing diffoscope
+[2023-04-24 15:25:39] INFO root fetch - processPackages [vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230424/v/vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 15:25:40] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-04-24 15:28:35] INFO root fetch - main [MainThread]: End processing [vineyard]: success
+[2023-04-24 15:28:35] INFO root fetch - main [MainThread]: Store serial: [17834152]
