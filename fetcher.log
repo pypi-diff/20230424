@@ -5536,3 +5536,52 @@
 [2023-04-24 08:03:33] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-04-24 08:03:35] INFO root fetch - main [MainThread]: End processing [prunerr]: success
 [2023-04-24 08:03:35] INFO root fetch - main [MainThread]: Store serial: [17829460]
+[2023-04-24 08:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829460]
+[2023-04-24 08:08:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ats-case
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymultigit
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymultigit
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-ssabuilders.aws-bootstrap-kit
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adaseq
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ats-case]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230423] Old Version: [2.4.0.dev20230422]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [adaseq]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [aws-ssabuilders.aws-bootstrap-kit]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pymultigit]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pymultigit]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [policyengine-us]: New version: [0.300.0] Old Version: [0.299.0]
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-24 08:08:44] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.6.1.tar.gz tmp/ats_case-0.6.3.tar.gz --markdown 20230424/a/ats-case/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/25/1c/7d74a10b0c015f3556975b36d70c69748cf83a6e615fd494b1822487508d/pyg-nightly-2.4.0.dev20230423.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [adaseq]: Downloading https://files.pythonhosted.org/packages/77/ea/8ecd90acf74977c31126b2ab933b1fe17472d27327a4cbcddf57ad13a79a/adaseq-0.6.2.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/4c/aa/ee7680efac89876edf67e1e54db3385fb947590fc54376f1fb352ca336db/pymultigit-0.0.79.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/4c/aa/ee7680efac89876edf67e1e54db3385fb947590fc54376f1fb352ca336db/pymultigit-0.0.79.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [aws-ssabuilders.aws-bootstrap-kit]: Downloading https://files.pythonhosted.org/packages/a2/d3/b0d76a183f325d608cdd23ae9d65fc48390976629a39f26b5e2f20c3cfcc/aws_ssabuilders.aws_bootstrap_kit-0.7.7.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/bd/c8/f8a0b6baddff706d1513f3fd9ec92f8042c09e6c97066062f6c224bef783/policyengine-us-0.299.0.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230422.tar.gz tmp/pyg-nightly-2.4.0.dev20230423.tar.gz --markdown 20230424/p/pyg-nightly/2.4.0.dev20230422-2.4.0.dev20230423/diff.md --exclude *.pyd
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/49/31/3b7d23364b54c205ad5681dacde7884e0fbacb2208b663e26f3d0bae95e6/pymultigit-0.0.80.tar.gz
+[2023-04-24 08:08:44] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/49/31/3b7d23364b54c205ad5681dacde7884e0fbacb2208b663e26f3d0bae95e6/pymultigit-0.0.80.tar.gz
+[2023-04-24 08:08:45] INFO root fetch - processPackages [aws-ssabuilders.aws-bootstrap-kit]: Downloading https://files.pythonhosted.org/packages/be/f7/949cda7b2dda9b2ebeee4cf06e2a5c6f2cac38751c5d2c7d93a9609e75da/aws_ssabuilders.aws_bootstrap_kit-0.7.8.tar.gz
+[2023-04-24 08:08:45] INFO root fetch - processPackages [adaseq]: Downloading https://files.pythonhosted.org/packages/87/7c/019e59c60b78ccbb63dc8d0c297829e91d7f2dd32ddbe93bdaf0dfa9fd97/adaseq-0.6.3.tar.gz
+[2023-04-24 08:08:45] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/c2/38/7b422fe59d87d29d783129d0b194d335eb0a6e7fda41926a05638f98da15/policyengine-us-0.300.0.tar.gz
+[2023-04-24 08:08:45] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-04-24 08:08:45] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.79.tar.gz tmp/pymultigit-0.0.80.tar.gz --markdown 20230424/p/pymultigit/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-04-24 08:08:45] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-04-24 08:08:45] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.79.tar.gz tmp/pymultigit-0.0.80.tar.gz --markdown 20230424/p/pymultigit/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-04-24 08:08:45] INFO root fetch - processPackages [aws-ssabuilders.aws-bootstrap-kit]: executing diffoscope
+[2023-04-24 08:08:45] INFO root fetch - processPackages [aws-ssabuilders.aws-bootstrap-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssabuilders.aws_bootstrap_kit-0.7.7.tar.gz tmp/aws_ssabuilders.aws_bootstrap_kit-0.7.8.tar.gz --markdown 20230424/a/aws-ssabuilders.aws-bootstrap-kit/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-04-24 08:08:45] INFO root fetch - processPackages [adaseq]: executing diffoscope
+[2023-04-24 08:08:45] INFO root fetch - processPackages [adaseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaseq-0.6.2.tar.gz tmp/adaseq-0.6.3.tar.gz --markdown 20230424/a/adaseq/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-24 08:08:45] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-24 08:08:45] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.299.0.tar.gz tmp/policyengine-us-0.300.0.tar.gz --markdown 20230424/p/policyengine-us/0.299.0-0.300.0/diff.md --exclude *.pyd
+[2023-04-24 08:08:45] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-24 08:08:46] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-04-24 08:08:46] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-04-24 08:08:47] INFO root fetch - main [MainThread]: End processing [adaseq]: success
+[2023-04-24 08:08:49] INFO root fetch - main [MainThread]: End processing [aws-ssabuilders.aws-bootstrap-kit]: success
+[2023-04-24 08:08:51] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-24 08:09:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-24 08:09:54] INFO root fetch - main [MainThread]: Store serial: [17829483]
