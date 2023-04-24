@@ -1486,3 +1486,56 @@
 [2023-04-24 02:39:01] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-04-24 02:40:14] INFO root fetch - main [MainThread]: End processing [cdk-monitoring-constructs]: success
 [2023-04-24 02:40:14] INFO root fetch - main [MainThread]: Store serial: [17827057]
+[2023-04-24 02:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827057]
+[2023-04-24 02:45:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lndb
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tkinterweb
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-overpass
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AegosIN
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bittrade-huobi-websocket
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TPLUtils
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mb-pytorch
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-comprehend-s3olap
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfds-nightly
+[2023-04-24 02:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: copyparty
+[2023-04-24 02:45:27] INFO root fetch - processPackages [lndb]: New version: [0.44.3] Old Version: [0.44.2]
+[2023-04-24 02:45:27] WARNING root fetch - processPackages [AegosIN]: Skipping, unable to determine old version
+[2023-04-24 02:45:27] INFO root fetch - main [MainThread]: End processing [AegosIN] error
+[2023-04-24 02:45:27] WARNING root fetch - processPackages [aio-overpass]: Skipping, unable to determine old version
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tkinterweb]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-04-24 02:45:27] INFO root fetch - main [MainThread]: End processing [aio-overpass] error
+[2023-04-24 02:45:27] INFO root fetch - processPackages [bittrade-huobi-websocket]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 02:45:27] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304240043] Old Version: [1.0.202304240036]
+[2023-04-24 02:45:27] INFO root fetch - processPackages [TPLUtils]: New version: [0.0.4a0] Old Version: [0.0.3a0]
+[2023-04-24 02:45:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202304230045] Old Version: [4.9.2.dev202304220044]
+[2023-04-24 02:45:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-04-24 02:45:27] INFO root fetch - processPackages [copyparty]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tkinterweb]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tkinterweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinterweb-3.9.6.tar.gz tmp/tkinterweb-3.9.7.tar.gz --markdown 20230424/t/tkinterweb/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-04-24 02:45:27] INFO root fetch - processPackages [TPLUtils]: Downloading https://files.pythonhosted.org/packages/7d/32/fde765398d6a450b32438ccaa1a763767a0da0f75f0c69274f68920bf118/TPLUtils-0.0.4a-.tar.gz
+[2023-04-24 02:45:27] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/9e/e7/074ddc5fd2f290a7f4a683ed9024eb3d377d94af64ec70a3182fcf302c8b/mb_pytorch-1.0.202304240043-py3-none-any.whl
+[2023-04-24 02:45:27] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-04-24 02:45:27] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-04-24 02:45:27] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304240036-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304240043-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304240036-1.0.202304240043/diff.md --exclude *.pyd
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c9/ec/2758d254e532c811778831fb0ebf1e5e1a8894bb0759fba055fd95bb54fb/tfds-nightly-4.9.2.dev202304230045.tar.gz
+[2023-04-24 02:45:27] INFO root fetch - processPackages [lndb]: Downloading https://files.pythonhosted.org/packages/6e/39/fd4effaea9dcbca3173b05f47b078c4be8eb93f0c7c3281f1bda46c4777a/lndb-0.44.3.tar.gz
+[2023-04-24 02:45:27] INFO root fetch - processPackages [TPLUtils]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [TPLUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPLUtils-0.0.3a-.tar.gz tmp/TPLUtils-0.0.4a-.tar.gz --markdown 20230424/T/TPLUtils/0.0.3a0-0.0.4a0/diff.md --exclude *.pyd
+[2023-04-24 02:45:27] INFO root fetch - processPackages [lndb]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [lndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb-0.44.2.tar.gz tmp/lndb-0.44.3.tar.gz --markdown 20230424/l/lndb/0.44.2-0.44.3/diff.md --exclude *.pyd
+[2023-04-24 02:45:27] INFO root fetch - processPackages [bittrade-huobi-websocket]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [bittrade-huobi-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_huobi_websocket-0.3.0.tar.gz tmp/bittrade_huobi_websocket-0.3.1.tar.gz --markdown 20230424/b/bittrade-huobi-websocket/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 02:45:27] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.6.8.tar.gz tmp/copyparty-1.6.9.tar.gz --markdown 20230424/c/copyparty/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-04-24 02:45:27] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202304220044.tar.gz tmp/tfds-nightly-4.9.2.dev202304230045.tar.gz --markdown 20230424/t/tfds-nightly/4.9.2.dev202304220044-4.9.2.dev202304230045/diff.md --exclude *.pyd
+[2023-04-24 02:45:28] INFO root fetch - main [MainThread]: End processing [TPLUtils]: success
+[2023-04-24 02:45:28] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 02:45:28] INFO root fetch - main [MainThread]: End processing [tkinterweb]: success
+[2023-04-24 02:45:29] INFO root fetch - main [MainThread]: End processing [bittrade-huobi-websocket]: success
+[2023-04-24 02:45:29] INFO root fetch - main [MainThread]: End processing [lndb]: success
+[2023-04-24 02:45:30] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-04-24 02:45:39] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-04-24 02:45:39] INFO root fetch - main [MainThread]: Store serial: [17827091]
