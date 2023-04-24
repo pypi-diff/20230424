@@ -2302,3 +2302,26 @@
 [2023-04-24 04:03:10] INFO root fetch - main [MainThread]: End processing [vinnieshell]: success
 [2023-04-24 04:03:10] INFO root fetch - main [MainThread]: End processing [lamindb]: success
 [2023-04-24 04:03:10] INFO root fetch - main [MainThread]: Store serial: [17827585]
+[2023-04-24 04:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827585]
+[2023-04-24 04:08:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-24 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotslacker-testcli
+[2023-04-24 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zytlib
+[2023-04-24 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perfect-physics
+[2023-04-24 04:08:19] INFO root fetch - processPackages [perfect-physics]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 04:08:19] INFO root fetch - processPackages [zytlib]: New version: [0.3.331] Old Version: [0.3.330]
+[2023-04-24 04:08:19] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 04:08:19] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/8f/24/f211b216e3c115e76db91d14bde4ecce92bdc2ee209f730eb681b020385d/zytlib-0.3.331-py3-none-any.whl
+[2023-04-24 04:08:19] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-04-24 04:08:19] INFO root fetch - processPackages [perfect-physics]: Downloading https://files.pythonhosted.org/packages/82/bf/f8f86c5be997c7045dd2742f72996197496662ed95a13eacdd87e11df4bf/perfect-physics-0.1.0.tar.gz
+[2023-04-24 04:08:19] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-04-24 04:08:19] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.330-py3-none-any.whl.zip tmp/zytlib-0.3.331-py3-none-any.whl.zip --markdown 20230424/z/zytlib/0.3.330-0.3.331/diff.md --exclude *.pyd
+[2023-04-24 04:08:19] INFO root fetch - processPackages [perfect-physics]: Downloading https://files.pythonhosted.org/packages/f9/65/144a43ff4fd2b53fe8f6f2b893c458427fd3420db63794ceb2d2976b1814/perfect-physics-0.1.1.tar.gz
+[2023-04-24 04:08:20] INFO root fetch - processPackages [perfect-physics]: executing diffoscope
+[2023-04-24 04:08:20] INFO root fetch - processPackages [perfect-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfect-physics-0.1.0.tar.gz tmp/perfect-physics-0.1.1.tar.gz --markdown 20230424/p/perfect-physics/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 04:08:20] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-04-24 04:08:20] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-04-24 04:08:21] INFO root fetch - main [MainThread]: End processing [perfect-physics]: success
+[2023-04-24 04:08:21] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-04-24 04:08:21] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230424/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 04:08:24] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-04-24 04:08:24] INFO root fetch - main [MainThread]: Store serial: [17827594]
