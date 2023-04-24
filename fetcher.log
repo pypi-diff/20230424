@@ -2325,3 +2325,47 @@
 [2023-04-24 04:08:21] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230424/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
 [2023-04-24 04:08:24] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
 [2023-04-24 04:08:24] INFO root fetch - main [MainThread]: Store serial: [17827594]
+[2023-04-24 04:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827594]
+[2023-04-24 04:13:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vinnieshell
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagis
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ami-builder-core
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QGrain
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: realnet
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uhugo
+[2023-04-24 04:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Aciembler
+[2023-04-24 04:13:33] INFO root fetch - processPackages [hagis]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 04:13:33] INFO root fetch - processPackages [realnet]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-04-24 04:13:33] INFO root fetch - processPackages [vinnieshell]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 04:13:33] INFO root fetch - processPackages [Aciembler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 04:13:33] INFO root fetch - processPackages [QGrain]: New version: [0.5.3.5] Old Version: [0.5.3.4]
+[2023-04-24 04:13:33] WARNING root fetch - processPackages [ami-builder-core]: Skipping, unable to determine old version
+[2023-04-24 04:13:33] INFO root fetch - main [MainThread]: End processing [ami-builder-core] error
+[2023-04-24 04:13:34] INFO root fetch - processPackages [Aciembler]: executing diffoscope
+[2023-04-24 04:13:34] INFO root fetch - processPackages [Aciembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aciembler-1.0.8-py2.py3-none-any.whl.zip tmp/Aciembler-1.0.9-py2.py3-none-any.whl.zip --markdown 20230424/A/Aciembler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 04:13:34] INFO root fetch - processPackages [uhugo]: New version: [1.1.5] Old Version: [1.1.1]
+[2023-04-24 04:13:34] INFO root fetch - processPackages [QGrain]: Downloading https://files.pythonhosted.org/packages/eb/25/ba5befc31c8d056132f3e971b682876233f72294534f07a04cf18f71e7a8/QGrain-0.5.3.4.tar.gz
+[2023-04-24 04:13:34] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/33/0d/9c870c3467b41f7e457411c64d6a84941a9c003dbf03e709d71b66fc9bd6/realnet-0.0.93.tar.gz
+[2023-04-24 04:13:34] INFO root fetch - processPackages [vinnieshell]: Downloading https://files.pythonhosted.org/packages/7f/ca/5ab0fc19cda60f617c4181d884478808c8079a6e9cebc73fc93d38ab1249/vinnieshell-0.1.3.tar.gz
+[2023-04-24 04:13:34] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/db/52/0a2e5a39933d04d4eb167d43a53577188d852bf4579030a1b6158f0dc3c4/uhugo-1.1.1-py3-none-any.whl
+[2023-04-24 04:13:34] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/52/b2/9fddf0db41b7ddb711501bc94652b9ceed24ba080af43fe4747635e58bad/hagis-0.3.3.tar.gz
+[2023-04-24 04:13:34] INFO root fetch - processPackages [vinnieshell]: executing diffoscope
+[2023-04-24 04:13:34] INFO root fetch - processPackages [vinnieshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinnieshell-0.1.2.tar.gz tmp/vinnieshell-0.1.3.tar.gz --markdown 20230424/v/vinnieshell/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 04:13:34] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-24 04:13:34] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.3.2.tar.gz tmp/hagis-0.3.3.tar.gz --markdown 20230424/h/hagis/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 04:13:34] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/c8/0c/9f664898c99071970eb50b39a08b7f8f409a7c2e831eb37d1e144190177d/realnet-0.0.94.tar.gz
+[2023-04-24 04:13:34] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/48/cd/05b2fce28946702270319e36e1a336777d51347d6c76067cebd552883250/uhugo-1.1.5-py3-none-any.whl
+[2023-04-24 04:13:34] INFO root fetch - processPackages [QGrain]: Downloading https://files.pythonhosted.org/packages/c3/10/1d586f5adf1cb1fba582e8eddf05c542f97eb11f6040feb03cbb461cc677/QGrain-0.5.3.5.tar.gz
+[2023-04-24 04:13:34] INFO root fetch - processPackages [QGrain]: executing diffoscope
+[2023-04-24 04:13:34] INFO root fetch - processPackages [QGrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QGrain-0.5.3.4.tar.gz tmp/QGrain-0.5.3.5.tar.gz --markdown 20230424/Q/QGrain/0.5.3.4-0.5.3.5/diff.md --exclude *.pyd
+[2023-04-24 04:13:34] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-04-24 04:13:34] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.93.tar.gz tmp/realnet-0.0.94.tar.gz --markdown 20230424/r/realnet/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-04-24 04:13:34] INFO root fetch - processPackages [uhugo]: executing diffoscope
+[2023-04-24 04:13:34] INFO root fetch - processPackages [uhugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhugo-1.1.1-py3-none-any.whl.zip tmp/uhugo-1.1.5-py3-none-any.whl.zip --markdown 20230424/u/uhugo/1.1.1-1.1.5/diff.md --exclude *.pyd
+[2023-04-24 04:13:35] INFO root fetch - main [MainThread]: End processing [Aciembler]: success
+[2023-04-24 04:13:35] INFO root fetch - main [MainThread]: End processing [vinnieshell]: success
+[2023-04-24 04:13:35] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-24 04:13:35] INFO root fetch - main [MainThread]: End processing [uhugo]: success
+[2023-04-24 04:13:36] INFO root fetch - main [MainThread]: End processing [QGrain]: success
+[2023-04-24 04:13:36] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-04-24 04:13:36] INFO root fetch - main [MainThread]: Store serial: [17827614]
