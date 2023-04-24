@@ -21227,3 +21227,91 @@
 [2023-04-24 21:38:47] INFO root fetch - main [MainThread]: End processing [david-test-datadog-sma]: success
 [2023-04-24 21:38:47] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2023-04-24 21:38:47] INFO root fetch - main [MainThread]: Store serial: [17838745]
+[2023-04-24 21:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838745]
+[2023-04-24 21:43:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiounifi
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygentrification
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mt-metadata
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pseudo-ecg
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JUtils
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchmark-runner
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysqlx-engine
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recurrent-memory-transformer-pytorch
+[2023-04-24 21:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mopac-step
+[2023-04-24 21:43:56] INFO root fetch - processPackages [aiounifi]: New version: [9] Old Version: [8]
+[2023-04-24 21:43:56] WARNING root fetch - processPackages [pseudo-ecg]: Skipping, unable to determine old version
+[2023-04-24 21:43:56] INFO root fetch - processPackages [pseudo-ecg]: Start processing: leadguru-data
+[2023-04-24 21:43:56] INFO root fetch - main [MainThread]: End processing [pseudo-ecg] error
+[2023-04-24 21:43:56] WARNING root fetch - processPackages [pygentrification]: Skipping, unable to determine old version
+[2023-04-24 21:43:56] INFO root fetch - processPackages [pygentrification]: Start processing: leadguru-common
+[2023-04-24 21:43:56] INFO root fetch - processPackages [JUtils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [mt-metadata]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 21:43:56] INFO root fetch - main [MainThread]: End processing [pygentrification] error
+[2023-04-24 21:43:56] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [pysqlx-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [mopac-step]: New version: [2023.4.24] Old Version: [2023.3.31.1]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [aiounifi]: executing diffoscope
+[2023-04-24 21:43:56] INFO root fetch - processPackages [aiounifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiounifi-8.tar.gz tmp/aiounifi-9.tar.gz --markdown 20230424/a/aiounifi/8-9/diff.md --exclude *.pyd
+[2023-04-24 21:43:56] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-04-24 21:43:56] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.0.3.tar.gz tmp/recurrent-memory-transformer-pytorch-0.0.4.tar.gz --markdown 20230424/r/recurrent-memory-transformer-pytorch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 21:43:56] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-24 21:43:56] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-24 21:43:57] INFO root fetch - processPackages [JUtils]: Downloading https://files.pythonhosted.org/packages/f7/3b/d3d0f6493379ed9694157fa2fe9cbdd4e6d2d6c70ee8f42bf49330db1798/JUtils-1.0.3.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mt-metadata]: Downloading https://files.pythonhosted.org/packages/26/94/ca913f89d33cbddd95f23f29fcc9d64d6a59c2f8d405cd5127d244bb484a/mt_metadata-0.2.2.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e5/69/3ce582391765ac681b8fe873c7c0edc5e4d4d60649195f04a5f5359a24fb/pulumi_aws-5.9.1.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [JUtils]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [JUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JUtils-1.0.2.tar.gz tmp/JUtils-1.0.3.tar.gz --markdown 20230424/J/JUtils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mopac-step]: Downloading https://files.pythonhosted.org/packages/ad/a2/7dd6f85590301625f73363d1b5494d8f71d062234bc7dde8861d2c07b0a5/mopac_step-2023.3.31.1.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [pysqlx-engine]: Downloading https://files.pythonhosted.org/packages/19/f7/17d3cb38fdbdc3da59ba30e1cfd16b450f8dc387d8109c2022d924fac7df/pysqlx_engine-0.2.8.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230424/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mopac-step]: Downloading https://files.pythonhosted.org/packages/55/79/cfa68fafc0ea94efe60cbd55d6293c0dc8afffc003e234a54419cbb28a54/mopac_step-2023.4.24.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230424/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mopac-step]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mopac-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mopac_step-2023.3.31.1.tar.gz tmp/mopac_step-2023.4.24.tar.gz --markdown 20230424/m/mopac-step/2023.3.31.1-2023.4.24/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230424/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [pysqlx-engine]: Downloading https://files.pythonhosted.org/packages/68/67/90501dec28862d0f37c95ce4e60fca5cd2c1fd6853314a69c11d89877c3a/pysqlx_engine-0.2.9.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mt-metadata]: Downloading https://files.pythonhosted.org/packages/ec/d4/cbc011bf6041bc5ff63d47dbcf5579600f583a1035f7d20fc69c41237cc7/mt_metadata-0.2.3.tar.gz
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mt-metadata]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [mt-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mt_metadata-0.2.2.tar.gz tmp/mt_metadata-0.2.3.tar.gz --markdown 20230424/m/mt-metadata/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [pysqlx-engine]: executing diffoscope
+[2023-04-24 21:43:57] INFO root fetch - processPackages [pysqlx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlx_engine-0.2.8.tar.gz tmp/pysqlx_engine-0.2.9.tar.gz --markdown 20230424/p/pysqlx-engine/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 21:43:57] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/b5/2d/3bb0c09182c2672c439edaba78942269f26ed68f8f3385d942e13fb37ce5/pulumi_aws-5.9.2.tar.gz
+[2023-04-24 21:43:58] INFO root fetch - processPackages [aiounifi]: Start processing: hijri-converter
+[2023-04-24 21:43:58] INFO root fetch - main [MainThread]: End processing [aiounifi]: success
+[2023-04-24 21:43:58] INFO root fetch - processPackages [hijri-converter]: New version: [2.3.0] Old Version: [2.2.4]
+[2023-04-24 21:43:58] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: yascheduler
+[2023-04-24 21:43:58] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-04-24 21:43:58] INFO root fetch - processPackages [hijri-converter]: Downloading https://files.pythonhosted.org/packages/54/6f/96f9880389a20057ce3fdfed70a9cea5eb47d679178a43c55f58a35d98be/hijri-converter-2.2.4.tar.gz
+[2023-04-24 21:43:58] INFO root fetch - processPackages [yascheduler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 21:43:58] INFO root fetch - processPackages [hijri-converter]: Downloading https://files.pythonhosted.org/packages/fe/2f/4254d6f6699ea7cce9e62d265a172837da8f97fb08a18389d436d27123bf/hijri-converter-2.3.0.tar.gz
+[2023-04-24 21:43:58] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-24 21:43:58] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230424/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-24 21:43:58] INFO root fetch - processPackages [yascheduler]: Downloading https://files.pythonhosted.org/packages/4a/ca/3b91b433ccfdd4043a14f6bde361c1019ceb1d79e078b9ef986b485a1b85/yascheduler-1.0.8.tar.gz
+[2023-04-24 21:43:58] INFO root fetch - processPackages [hijri-converter]: executing diffoscope
+[2023-04-24 21:43:58] INFO root fetch - processPackages [hijri-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hijri-converter-2.2.4.tar.gz tmp/hijri-converter-2.3.0.tar.gz --markdown 20230424/h/hijri-converter/2.2.4-2.3.0/diff.md --exclude *.pyd
+[2023-04-24 21:43:58] INFO root fetch - main [MainThread]: End processing [JUtils]: success
+[2023-04-24 21:43:58] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-04-24 21:43:58] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-04-24 21:43:58] INFO root fetch - processPackages [yascheduler]: Downloading https://files.pythonhosted.org/packages/cc/5a/85dd6c7d3d2f13967a4bc3649d90b1b5c66d2da548cb8a78c4d16d062cce/yascheduler-1.0.9.tar.gz
+[2023-04-24 21:43:59] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-04-24 21:43:59] INFO root fetch - processPackages [yascheduler]: executing diffoscope
+[2023-04-24 21:43:59] INFO root fetch - processPackages [yascheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yascheduler-1.0.8.tar.gz tmp/yascheduler-1.0.9.tar.gz --markdown 20230424/y/yascheduler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 21:43:59] INFO root fetch - main [MainThread]: End processing [mopac-step]: success
+[2023-04-24 21:43:59] INFO root fetch - main [MainThread]: End processing [pysqlx-engine]: success
+[2023-04-24 21:43:59] INFO root fetch - main [MainThread]: End processing [hijri-converter]: success
+[2023-04-24 21:44:00] INFO root fetch - main [MainThread]: End processing [yascheduler]: success
+[2023-04-24 21:44:06] INFO root fetch - main [MainThread]: End processing [mt-metadata]: success
+[2023-04-24 21:44:36] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-24 21:44:36] INFO root fetch - main [MainThread]: Store serial: [17838792]
