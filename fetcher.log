@@ -9282,3 +9282,111 @@
 [2023-04-24 11:46:43] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
 [2023-04-24 11:46:43] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
 [2023-04-24 11:46:43] INFO root fetch - main [MainThread]: Store serial: [17831762]
+[2023-04-24 11:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831762]
+[2023-04-24 11:51:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: img-host
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazylinop
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DDesignerAPI
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CrawlersTools
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ATACFragQC
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: legendkit
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kodexa
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tharos-pytools
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: z-add
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: img-host
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ATACFragQC]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [img-host]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 11:51:52] WARNING root fetch - processPackages [z-add]: Skipping, unable to determine old version
+[2023-04-24 11:51:52] INFO root fetch - processPackages [lazylinop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [z-add]: Start processing: tinybird-cli
+[2023-04-24 11:51:52] INFO root fetch - processPackages [tharos-pytools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.1.0] Old Version: [0.0.0.9]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [legendkit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 11:51:52] INFO root fetch - main [MainThread]: End processing [z-add] error
+[2023-04-24 11:51:52] INFO root fetch - processPackages [img-host]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [CrawlersTools]: New version: [1.4.7] Old Version: [1.4.69]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-04-24 11:51:52] INFO root fetch - processPackages [img-host]: Downloading https://files.pythonhosted.org/packages/a4/26/ef32cf764febda37bba98830f6e55d52fa0370ab0291bc51d47cdf2a9d17/img-host-0.1.1.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [img-host]: Downloading https://files.pythonhosted.org/packages/a4/26/ef32cf764febda37bba98830f6e55d52fa0370ab0291bc51d47cdf2a9d17/img-host-0.1.1.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-24 11:51:52] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230424/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-24 11:51:52] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-04-24 11:51:52] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230424/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-04-24 11:51:52] INFO root fetch - processPackages [CrawlersTools]: Downloading https://files.pythonhosted.org/packages/e3/27/dd4e2f9067e655d35a72d95e5f9c9a8722b97f5b9c338f357b3374e364bb/CrawlersTools-1.4.69.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [tharos-pytools]: Downloading https://files.pythonhosted.org/packages/65/34/1420ef961b75a93baca9f1f0be3397cd01c858fafe5387b354842e144e12/tharos-pytools-0.0.8.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ATACFragQC]: Downloading https://files.pythonhosted.org/packages/d6/cb/ac47c6e31fe5b6a439f383e08befd0050e811be764cebb667a7dee343af5/ATACFragQC-0.4.5.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/5a/d4/05b1321eaf9de1910106c1232f5062bc05bf522cb7458bae312deba42940/DDesignerAPI-0.0.1.0-py3-none-any.whl
+[2023-04-24 11:51:52] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 11:51:52] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.9-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.1.0-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.9-0.0.1.0/diff.md --exclude *.pyd
+[2023-04-24 11:51:52] INFO root fetch - processPackages [CrawlersTools]: Downloading https://files.pythonhosted.org/packages/1b/25/555cda44ea8c977b088f72ac97beac33a6a614ceea25d090ac1172349abe/CrawlersTools-1.4.7.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2023-04-24 11:51:52] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.0.8-py3-none-any.whl.zip tmp/lazylinop-1.0.9-py3-none-any.whl.zip --markdown 20230424/l/lazylinop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:51:52] INFO root fetch - processPackages [img-host]: Downloading https://files.pythonhosted.org/packages/6a/0b/a5b1bc05b4e62a5ae130c122289f4211aebce428c79d5e9ceebda07da59d/img-host-0.1.2.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [img-host]: Downloading https://files.pythonhosted.org/packages/6a/0b/a5b1bc05b4e62a5ae130c122289f4211aebce428c79d5e9ceebda07da59d/img-host-0.1.2.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [legendkit]: Downloading https://files.pythonhosted.org/packages/30/e7/675881423d1d994c03d3ad11bf082e58234969e8ed479049a8c97fc172b1/legendkit-0.3.0.tar.gz
+[2023-04-24 11:51:52] INFO root fetch - processPackages [ATACFragQC]: Downloading https://files.pythonhosted.org/packages/83/b4/d670c2a7fdd5d9e594ddea6f0646bca46cddfda7a09624befef8ea4a3c35/ATACFragQC-0.4.6.tar.gz
+[2023-04-24 11:51:53] INFO root fetch - processPackages [tharos-pytools]: Downloading https://files.pythonhosted.org/packages/2c/94/5edf27cd62c041699bc8b048f039b085b00b1b1d3e03e9e21f4a33af42a9/tharos-pytools-0.0.9.tar.gz
+[2023-04-24 11:51:53] INFO root fetch - processPackages [CrawlersTools]: executing diffoscope
+[2023-04-24 11:51:53] INFO root fetch - processPackages [CrawlersTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrawlersTools-1.4.69.tar.gz tmp/CrawlersTools-1.4.7.tar.gz --markdown 20230424/C/CrawlersTools/1.4.69-1.4.7/diff.md --exclude *.pyd
+[2023-04-24 11:51:53] INFO root fetch - processPackages [img-host]: executing diffoscope
+[2023-04-24 11:51:53] INFO root fetch - processPackages [img-host]: executing diffoscope
+[2023-04-24 11:51:53] INFO root fetch - processPackages [img-host]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img-host-0.1.1.tar.gz tmp/img-host-0.1.2.tar.gz --markdown 20230424/i/img-host/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 11:51:53] INFO root fetch - processPackages [img-host]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img-host-0.1.1.tar.gz tmp/img-host-0.1.2.tar.gz --markdown 20230424/i/img-host/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 11:51:53] INFO root fetch - processPackages [ATACFragQC]: executing diffoscope
+[2023-04-24 11:51:53] INFO root fetch - processPackages [ATACFragQC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATACFragQC-0.4.5.tar.gz tmp/ATACFragQC-0.4.6.tar.gz --markdown 20230424/A/ATACFragQC/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-24 11:51:53] INFO root fetch - processPackages [legendkit]: Downloading https://files.pythonhosted.org/packages/f7/a4/36fee95bc0f9a1c1af122fd64668b744f66906ad1904ed405dc0e3e5fa3c/legendkit-0.3.1.tar.gz
+[2023-04-24 11:51:53] INFO root fetch - processPackages [tharos-pytools]: executing diffoscope
+[2023-04-24 11:51:53] INFO root fetch - processPackages [tharos-pytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tharos-pytools-0.0.8.tar.gz tmp/tharos-pytools-0.0.9.tar.gz --markdown 20230424/t/tharos-pytools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:51:53] INFO root fetch - processPackages [legendkit]: executing diffoscope
+[2023-04-24 11:51:53] INFO root fetch - processPackages [legendkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legendkit-0.3.0.tar.gz tmp/legendkit-0.3.1.tar.gz --markdown 20230424/l/legendkit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 11:51:54] INFO root fetch - processPackages [tinybird-cli]: Start processing: satcatalogquery
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [satcatalogquery]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-24 11:51:54] INFO root fetch - processPackages [kodexa]: Start processing: COMTool
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [COMTool]: New version: [3.2.0] Old Version: [3.1.2]
+[2023-04-24 11:51:54] INFO root fetch - processPackages [satcatalogquery]: Downloading https://files.pythonhosted.org/packages/85/74/fb06ce81469de511eb222396ae6ad7787e004771500538cca081ae3fc792/satcatalogquery-0.2.1-py3-none-any.whl
+[2023-04-24 11:51:54] INFO root fetch - processPackages [img-host]: Start processing: ccache-upload-redis
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [img-host]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [ccache-upload-redis]: New version: [0.1.1a7] Old Version: [0.1.1a6]
+[2023-04-24 11:51:54] INFO root fetch - processPackages [COMTool]: Downloading https://files.pythonhosted.org/packages/8d/6c/b29c7853ec206b98508be562dcef31621f517a5eb886e0e433060867eeeb/COMTool-3.1.2.tar.gz
+[2023-04-24 11:51:54] INFO root fetch - processPackages [img-host]: Start processing: met-brewer
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [img-host]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [met-brewer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 11:51:54] INFO root fetch - processPackages [lazylinop]: Start processing: drf-multistep-form
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [ATACFragQC]: Start processing: gptdeploy
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [ATACFragQC]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [satcatalogquery]: Downloading https://files.pythonhosted.org/packages/85/e3/2a7be12659b537e187be8a48d1b79fe52b40d8693684807d4cca3d681a04/satcatalogquery-0.2.2-py3-none-any.whl
+[2023-04-24 11:51:54] WARNING root fetch - processPackages [drf-multistep-form]: Skipping, unable to determine old version
+[2023-04-24 11:51:54] INFO root fetch - processPackages [ccache-upload-redis]: Downloading https://files.pythonhosted.org/packages/e7/24/dd678752f6e1802dda75d7a88d3fcf191463169a2a2e3b0c934fa1a6666d/ccache_upload_redis-0.1.1a7.tar.gz
+[2023-04-24 11:51:54] INFO root fetch - processPackages [drf-multistep-form]: Start processing: weaviate-client
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [drf-multistep-form] error
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [tharos-pytools]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [met-brewer]: Downloading https://files.pythonhosted.org/packages/4b/27/74bd610af25bd7afe03860cda4fec7aa8c5e758781155034b121fab409fd/met-brewer-1.0.2.tar.gz
+[2023-04-24 11:51:54] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 11:51:54] INFO root fetch - processPackages [satcatalogquery]: executing diffoscope
+[2023-04-24 11:51:54] INFO root fetch - processPackages [satcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcatalogquery-0.2.1-py3-none-any.whl.zip tmp/satcatalogquery-0.2.2-py3-none-any.whl.zip --markdown 20230424/s/satcatalogquery/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-24 11:51:54] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-04-24 11:51:54] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 11:51:54] INFO root fetch - processPackages [ccache-upload-redis]: executing diffoscope
+[2023-04-24 11:51:54] INFO root fetch - processPackages [ccache-upload-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccache_upload_redis-0.1.1a6.tar.gz tmp/ccache_upload_redis-0.1.1a7.tar.gz --markdown 20230424/c/ccache-upload-redis/0.1.1a6-0.1.1a7/diff.md --exclude *.pyd
+[2023-04-24 11:51:54] INFO root fetch - processPackages [COMTool]: Downloading https://files.pythonhosted.org/packages/64/93/d94b9882085f176733209b99dc793bff79619b4b930b7f8751c804c9f178/COMTool-3.2.0.tar.gz
+[2023-04-24 11:51:54] INFO root fetch - processPackages [met-brewer]: executing diffoscope
+[2023-04-24 11:51:54] INFO root fetch - processPackages [met-brewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/met-brewer-1.0.1.tar.gz tmp/met-brewer-1.0.2.tar.gz --markdown 20230424/m/met-brewer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 11:51:54] INFO root fetch - processPackages [COMTool]: executing diffoscope
+[2023-04-24 11:51:54] INFO root fetch - processPackages [COMTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/COMTool-3.1.2.tar.gz tmp/COMTool-3.2.0.tar.gz --markdown 20230424/C/COMTool/3.1.2-3.2.0/diff.md --exclude *.pyd
+[2023-04-24 11:51:55] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 11:51:55] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 11:51:55] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-04-24 11:51:55] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230424/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-04-24 11:51:55] INFO root fetch - main [MainThread]: End processing [legendkit]: success
+[2023-04-24 11:51:55] INFO root fetch - main [MainThread]: End processing [CrawlersTools]: success
+[2023-04-24 11:51:55] INFO root fetch - main [MainThread]: End processing [satcatalogquery]: success
+[2023-04-24 11:51:56] INFO root fetch - main [MainThread]: End processing [ccache-upload-redis]: success
+[2023-04-24 11:51:56] INFO root fetch - main [MainThread]: End processing [met-brewer]: success
+[2023-04-24 11:51:56] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-04-24 11:51:56] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 11:51:58] INFO root fetch - main [MainThread]: End processing [COMTool]: success
+[2023-04-24 11:51:58] INFO root fetch - main [MainThread]: Store serial: [17831813]
