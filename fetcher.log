@@ -4793,3 +4793,37 @@
 [2023-04-24 06:16:07] INFO root fetch - main [MainThread]: End processing [fastapi-all-out]: success
 [2023-04-24 06:16:07] INFO root fetch - main [MainThread]: End processing [sitcom]: success
 [2023-04-24 06:16:07] INFO root fetch - main [MainThread]: Store serial: [17828987]
+[2023-04-24 06:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828987]
+[2023-04-24 06:21:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 06:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotbox
+[2023-04-24 06:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: complex-curve-fit-gui
+[2023-04-24 06:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stralgo
+[2023-04-24 06:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-agi
+[2023-04-24 06:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bohra
+[2023-04-24 06:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstart-vdk
+[2023-04-24 06:21:16] INFO root fetch - processPackages [complex-curve-fit-gui]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-24 06:21:16] INFO root fetch - processPackages [stralgo]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-04-24 06:21:16] WARNING root fetch - processPackages [llama-agi]: Skipping, unable to determine old version
+[2023-04-24 06:21:16] INFO root fetch - main [MainThread]: End processing [llama-agi] error
+[2023-04-24 06:21:16] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 06:21:16] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.845597441.dev9494] Old Version: [0.2.843267135.dev9402]
+[2023-04-24 06:21:16] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-04-24 06:21:16] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.843267135.dev9402.tar.gz tmp/quickstart-vdk-0.2.845597441.dev9494.tar.gz --markdown 20230424/q/quickstart-vdk/0.2.843267135.dev9402-0.2.845597441.dev9494/diff.md --exclude *.pyd
+[2023-04-24 06:21:16] INFO root fetch - processPackages [stralgo]: executing diffoscope
+[2023-04-24 06:21:16] INFO root fetch - processPackages [stralgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stralgo-0.1.1a1-cp39-none-any.whl.zip tmp/stralgo-0.1.1a2-cp39-abi3-win32.whl.zip --markdown 20230424/s/stralgo/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-04-24 06:21:16] INFO root fetch - processPackages [bohra]: New version: [2.2.0] Old Version: [1.2.9]
+[2023-04-24 06:21:16] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-04-24 06:21:16] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230424/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 06:21:16] INFO root fetch - processPackages [complex-curve-fit-gui]: Downloading https://files.pythonhosted.org/packages/ae/83/b04c0fb2b10519899d6a70b3fdeacb38f75df50baa728454649f6e4293de/complex_curve_fit_gui-1.1.1.tar.gz
+[2023-04-24 06:21:16] INFO root fetch - processPackages [bohra]: Downloading https://files.pythonhosted.org/packages/3f/4e/606701a47f083daf49666333c167624fe2a8e91c4cec8a6f54f67f36b472/bohra-1.2.9.tar.gz
+[2023-04-24 06:21:17] INFO root fetch - processPackages [bohra]: Downloading https://files.pythonhosted.org/packages/52/ec/49d7f4bd0a3686db55e14f3e0aca8681557b28f04cce91f7af6d7d2f2726/bohra-2.2.0.tar.gz
+[2023-04-24 06:21:17] INFO root fetch - processPackages [complex-curve-fit-gui]: executing diffoscope
+[2023-04-24 06:21:17] INFO root fetch - processPackages [complex-curve-fit-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex_curve_fit_gui-1.1.0.tar.gz tmp/complex_curve_fit_gui-1.1.1.tar.gz --markdown 20230424/c/complex-curve-fit-gui/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 06:21:17] INFO root fetch - processPackages [bohra]: executing diffoscope
+[2023-04-24 06:21:17] INFO root fetch - processPackages [bohra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohra-1.2.9.tar.gz tmp/bohra-2.2.0.tar.gz --markdown 20230424/b/bohra/1.2.9-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 06:21:17] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-04-24 06:21:17] INFO root fetch - main [MainThread]: End processing [stralgo]: success
+[2023-04-24 06:21:17] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-04-24 06:21:18] INFO root fetch - main [MainThread]: End processing [complex-curve-fit-gui]: success
+[2023-04-24 06:21:19] INFO root fetch - main [MainThread]: End processing [bohra]: success
+[2023-04-24 06:21:19] INFO root fetch - main [MainThread]: Store serial: [17829003]
