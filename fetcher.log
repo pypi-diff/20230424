@@ -16292,3 +16292,86 @@
 [2023-04-24 17:28:45] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-04-24 17:29:40] INFO root fetch - main [MainThread]: End processing [brainstem]: success
 [2023-04-24 17:29:40] INFO root fetch - main [MainThread]: Store serial: [17835696]
+[2023-04-24 17:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835696]
+[2023-04-24 17:34:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jarvis-leaderboard
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-admin-sortable2
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folio-migration-tools
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sampo
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extended-setup-tools
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyproject-generator
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: palmers-preprocess
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight-cgap
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foursight
+[2023-04-24 17:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: insights-analytics-collector
+[2023-04-24 17:34:53] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.4.23] Old Version: [2023.4.22]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [django-admin-sortable2]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [folio-migration-tools]: New version: [1.8.0rc1] Old Version: [1.7.9rc2]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.5b3] Old Version: [3.4.0.5b29]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [foursight]: New version: [3.4.0.5b3] Old Version: [3.4.0.5b29]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [extended-setup-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [pyproject-generator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [insights-analytics-collector]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 17:34:54] WARNING root fetch - processPackages [palmers-preprocess]: Skipping, unable to determine old version
+[2023-04-24 17:34:54] INFO root fetch - processPackages [palmers-preprocess]: Start processing: mitoinstaller
+[2023-04-24 17:34:54] INFO root fetch - main [MainThread]: End processing [palmers-preprocess] error
+[2023-04-24 17:34:54] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230424/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/af/07/e95a99deb69d0b9e836ab799bd62f6dd4c549d019b006723b499e32a7b7b/jarvis_leaderboard-2023.4.22.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [django-admin-sortable2]: Downloading https://files.pythonhosted.org/packages/5e/bd/5ce8c37cf3c6aaa78708222a8e5587f1790baf53ca5d3ee19a092b87bef4/django-admin-sortable2-2.1.5.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.0.5b29.tar.gz tmp/foursight_cgap-3.4.0.5b3.tar.gz --markdown 20230424/f/foursight-cgap/3.4.0.5b29-3.4.0.5b3/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.0.5b29.tar.gz tmp/foursight-3.4.0.5b3.tar.gz --markdown 20230424/f/foursight/3.4.0.5b29-3.4.0.5b3/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [extended-setup-tools]: Downloading https://files.pythonhosted.org/packages/37/16/bdade63136c0658163551dcfcb0450e9e7fa05ba94efca9a0773c7e23699/extended-setup-tools-0.1.7.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [folio-migration-tools]: Downloading https://files.pythonhosted.org/packages/20/46/b9efd19e54c332f68d22acc3deff2fe8d0b716d8cc8c94f9b27ab2b6a2fe/folio_migration_tools-1.7.9rc2.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/25/95/1bbd85758b07f6934dfedc10740ee4c418f39f502c55ec1cc010bccbf270/pyproject-generator-0.0.3.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [insights-analytics-collector]: Downloading https://files.pythonhosted.org/packages/73/fb/541938e22390ca6d6604bdaa40f53c7b4f6a9d023b161386caae86dfb8d6/insights-analytics-collector-0.3.0.tar.gz
+[2023-04-24 17:34:54] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 64706472>=10485760
+[2023-04-24 17:34:54] INFO root fetch - processPackages [jarvis-leaderboard]: Start processing: inventronet
+[2023-04-24 17:34:54] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-04-24 17:34:54] WARNING root fetch - processPackages [inventronet]: Skipping, unable to determine old version
+[2023-04-24 17:34:54] INFO root fetch - processPackages [inventronet]: Start processing: synthdid
+[2023-04-24 17:34:54] INFO root fetch - main [MainThread]: End processing [inventronet] error
+[2023-04-24 17:34:54] INFO root fetch - processPackages [synthdid]: New version: [0.9.52] Old Version: [0.9.51]
+[2023-04-24 17:34:54] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [extended-setup-tools]: Downloading https://files.pythonhosted.org/packages/d2/a0/979ab67627f03da03eff3bc9d01c2969d89e33175764cdd5ec15a44efe50/extended-setup-tools-0.1.8.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/ef/ec/a419a3d136dda1ed6fe64d5b352a631ee574d2da76e2b1a92beb684bc595/pyproject-generator-0.0.4.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [synthdid]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [synthdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthdid-0.9.51.tar.gz tmp/synthdid-0.9.52.tar.gz --markdown 20230424/s/synthdid/0.9.51-0.9.52/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [django-admin-sortable2]: Downloading https://files.pythonhosted.org/packages/ab/30/0edae85bff5cbe35365cc3a1c4e67444c7d04547d3618a020ed7a7f8cfba/django-admin-sortable2-2.1.6.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [django-admin-sortable2]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [django-admin-sortable2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-sortable2-2.1.5.tar.gz tmp/django-admin-sortable2-2.1.6.tar.gz --markdown 20230424/d/django-admin-sortable2/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [insights-analytics-collector]: Downloading https://files.pythonhosted.org/packages/4b/b4/8c5bac289b646058ea68a43b3e152143473b9113ceb4f3413658bcae7614/insights-analytics-collector-0.3.1.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [extended-setup-tools]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [extended-setup-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended-setup-tools-0.1.7.tar.gz tmp/extended-setup-tools-0.1.8.tar.gz --markdown 20230424/e/extended-setup-tools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [folio-migration-tools]: Downloading https://files.pythonhosted.org/packages/6e/53/07835090419e147de21f10ee6521ce46a9793748d012c5f930551431a684/folio_migration_tools-1.8.0rc1.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.0.3.tar.gz tmp/pyproject-generator-0.0.4.tar.gz --markdown 20230424/p/pyproject-generator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [insights-analytics-collector]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [insights-analytics-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-analytics-collector-0.3.0.tar.gz tmp/insights-analytics-collector-0.3.1.tar.gz --markdown 20230424/i/insights-analytics-collector/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [folio-migration-tools]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [folio-migration-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folio_migration_tools-1.7.9rc2.tar.gz tmp/folio_migration_tools-1.8.0rc1.tar.gz --markdown 20230424/f/folio-migration-tools/1.7.9rc2-1.8.0rc1/diff.md --exclude *.pyd
+[2023-04-24 17:34:54] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-04-24 17:34:54] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-04-24 17:34:54] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230424/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 17:34:55] INFO root fetch - processPackages [foursight]: Start processing: mitosheet3
+[2023-04-24 17:34:55] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-04-24 17:34:55] INFO root fetch - processPackages [mitosheet3]: New version: [0.3.92] Old Version: [0.3.91]
+[2023-04-24 17:34:55] INFO root fetch - main [MainThread]: End processing [synthdid]: success
+[2023-04-24 17:34:55] INFO root fetch - main [MainThread]: End processing [extended-setup-tools]: success
+[2023-04-24 17:34:56] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-04-24 17:34:56] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/6f/3c/6539541f7e98b9657a8e2532e70845cda53ecb7a601e5c97042db4d828bd/mitosheet3-0.3.91.tar.gz
+[2023-04-24 17:34:56] INFO root fetch - main [MainThread]: End processing [django-admin-sortable2]: success
+[2023-04-24 17:34:56] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-24 17:34:56] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/40/75/fd3d6e8ade06ccff505fe1fdb297fcc61956799b01527fb587f77f52ef6f/mitosheet3-0.3.92.tar.gz
+[2023-04-24 17:34:56] INFO root fetch - main [MainThread]: End processing [insights-analytics-collector]: success
+[2023-04-24 17:34:56] INFO root fetch - processPackages [mitosheet3]: executing diffoscope
+[2023-04-24 17:34:56] INFO root fetch - processPackages [mitosheet3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosheet3-0.3.91.tar.gz tmp/mitosheet3-0.3.92.tar.gz --markdown 20230424/m/mitosheet3/0.3.91-0.3.92/diff.md --exclude *.pyd
+[2023-04-24 17:34:56] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-04-24 17:34:56] INFO root fetch - main [MainThread]: End processing [folio-migration-tools]: success
+[2023-04-24 17:34:57] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-24 17:35:00] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
+[2023-04-24 17:35:00] INFO root fetch - main [MainThread]: Store serial: [17835740]
