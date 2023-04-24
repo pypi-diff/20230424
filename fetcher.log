@@ -5660,3 +5660,38 @@
 [2023-04-24 08:15:07] INFO root fetch - main [MainThread]: End processing [django-jsonform]: success
 [2023-04-24 08:15:07] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-04-24 08:15:07] INFO root fetch - main [MainThread]: Store serial: [17829521]
+[2023-04-24 08:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829521]
+[2023-04-24 08:20:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 08:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cloudformation-unxpose-iam-integration-module
+[2023-04-24 08:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-poe-chat
+[2023-04-24 08:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zope.container
+[2023-04-24 08:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-etl
+[2023-04-24 08:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolstr
+[2023-04-24 08:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymultigit
+[2023-04-24 08:20:16] INFO root fetch - processPackages [toolstr]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-24 08:20:16] INFO root fetch - processPackages [zope.container]: New version: [5.1] Old Version: [5.0]
+[2023-04-24 08:20:16] INFO root fetch - processPackages [pymultigit]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-04-24 08:20:16] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-24 08:20:16] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 08:20:16] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-04-24 08:20:16] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.79.tar.gz tmp/pymultigit-0.0.80.tar.gz --markdown 20230424/p/pymultigit/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-04-24 08:20:16] WARNING root fetch - processPackages [cdk-cloudformation-unxpose-iam-integration-module]: Skipping, unable to determine old version
+[2023-04-24 08:20:16] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-unxpose-iam-integration-module] error
+[2023-04-24 08:20:16] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-04-24 08:20:16] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230424/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 08:20:16] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/12/e5/db09800c6bf53794487563831e5902cee4d567a40a1abdf0902a2c263719/toolstr-0.9.1.tar.gz
+[2023-04-24 08:20:16] INFO root fetch - processPackages [zope.container]: Downloading https://files.pythonhosted.org/packages/c3/46/89c062c8d37fe9b780bf45924fd00c700eef4f72b96dc3ae39582c8a06e8/zope.container-5.0.tar.gz
+[2023-04-24 08:20:16] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/81/f8/d8f41d61f41c4b1dc221662d3d24597c6799a8b641c5b6a5b80a7f82cdfd/nonebot_poe_chat-1.0.5.tar.gz
+[2023-04-24 08:20:16] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13490802>=10485760
+[2023-04-24 08:20:16] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-04-24 08:20:16] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/ca/94/2b1c3c5d9cf68e62a409ab385e93be5ae0a9836d30fee43459bd07cc2be2/toolstr-0.9.2.tar.gz
+[2023-04-24 08:20:16] INFO root fetch - processPackages [toolstr]: executing diffoscope
+[2023-04-24 08:20:16] INFO root fetch - processPackages [toolstr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolstr-0.9.1.tar.gz tmp/toolstr-0.9.2.tar.gz --markdown 20230424/t/toolstr/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 08:20:16] INFO root fetch - processPackages [zope.container]: Downloading https://files.pythonhosted.org/packages/69/48/46e0fbc74a624df7d09dcbcb83696cf527534e53bc25f5e24dd2eb3e1c57/zope.container-5.1.tar.gz
+[2023-04-24 08:20:17] INFO root fetch - processPackages [zope.container]: executing diffoscope
+[2023-04-24 08:20:17] INFO root fetch - processPackages [zope.container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.container-5.0.tar.gz tmp/zope.container-5.1.tar.gz --markdown 20230424/z/zope.container/5.0-5.1/diff.md --exclude *.pyd
+[2023-04-24 08:20:17] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-04-24 08:20:18] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-04-24 08:20:18] INFO root fetch - main [MainThread]: End processing [toolstr]: success
+[2023-04-24 08:20:20] INFO root fetch - main [MainThread]: End processing [zope.container]: success
+[2023-04-24 08:20:20] INFO root fetch - main [MainThread]: Store serial: [17829544]
