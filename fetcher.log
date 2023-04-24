@@ -19335,3 +19335,63 @@
 [2023-04-24 19:42:22] INFO root fetch - main [MainThread]: End processing [pyrubi]: success
 [2023-04-24 19:42:23] INFO root fetch - main [MainThread]: End processing [labgrid]: success
 [2023-04-24 19:42:23] INFO root fetch - main [MainThread]: Store serial: [17837462]
+[2023-04-24 19:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837462]
+[2023-04-24 19:47:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt3discord
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-websockets
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: print-color
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rustplus
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uplc
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goodai-ltm
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psdelivery
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asyncpgdb
+[2023-04-24 19:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iplocationchanger
+[2023-04-24 19:47:32] INFO root fetch - processPackages [print-color]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [django-websockets]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [iplocationchanger]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [asyncpgdb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [psdelivery]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [rustplus]: New version: [5.5.8] Old Version: [5.5.7]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [goodai-ltm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [uplc]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-24 19:47:32] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-24 19:47:32] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230424/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-24 19:47:32] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-04-24 19:47:32] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.8.tar.gz tmp/goodai-ltm-0.0.9.tar.gz --markdown 20230424/g/goodai-ltm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:47:32] INFO root fetch - processPackages [psdelivery]: Downloading https://files.pythonhosted.org/packages/9b/c4/139297255fea77fde4584d71cdfe80b37cc4bc30ded7dcf510bdb166af99/psdelivery-0.1.1.tar.gz
+[2023-04-24 19:47:32] INFO root fetch - processPackages [django-websockets]: Downloading https://files.pythonhosted.org/packages/2e/71/a689102bd831bf6900e567be3a99a703f2f3c7c6ae1b3aec8859eca7c9b3/django_websockets-0.0.9.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [print-color]: Downloading https://files.pythonhosted.org/packages/1f/00/48212de9f4f924cf9ba07eaf8e47519f336b272619ab29ca89f69b629bb7/print-color-0.4.5.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [asyncpgdb]: Downloading https://files.pythonhosted.org/packages/3f/2f/360a38178dc449587b6721763d4a858ffbd28bfc1bb516ea4c94eef8af3a/asyncpgdb-0.0.5.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/2a/66/7b78b7c99b8985244b46c524c528aa5dfded77c646b4eb2ae13a7f0f2e8e/rustplus-5.5.7.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [iplocationchanger]: Downloading https://files.pythonhosted.org/packages/9d/80/6db97722cd3e8d13e7646cb0aac35b2ef123ae330811ab265b74b1591749/iplocationchanger-0.0.2.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [uplc]: Downloading https://files.pythonhosted.org/packages/a0/6f/00e8d4708516a0f645f07d70401b8a7792e42560e857860e3ad257155331/uplc-0.6.3.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [django-websockets]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [django-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_websockets-0.0.8.tar.gz tmp/django_websockets-0.0.9.tar.gz --markdown 20230424/d/django-websockets/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:47:33] INFO root fetch - processPackages [asyncpgdb]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [asyncpgdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpgdb-0.0.4.tar.gz tmp/asyncpgdb-0.0.5.tar.gz --markdown 20230424/a/asyncpgdb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 19:47:33] INFO root fetch - processPackages [psdelivery]: Downloading https://files.pythonhosted.org/packages/b6/9d/0235f6942aa61f1b80abf45fa975cc654af7a71d26bc51e770eed4d24857/psdelivery-0.1.2.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [print-color]: Downloading https://files.pythonhosted.org/packages/eb/32/601fd9002509b32d1f9d3ec1e8cc5af9af619def83327adbb1ea18e1502a/print_color-0.4.6.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [uplc]: Downloading https://files.pythonhosted.org/packages/bf/5c/f2b17c9f339edf76f0646a0ff79db9129871a71797ec54577c999b84a7b5/uplc-0.6.4.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [psdelivery]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [psdelivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psdelivery-0.1.1.tar.gz tmp/psdelivery-0.1.2.tar.gz --markdown 20230424/p/psdelivery/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 19:47:33] INFO root fetch - processPackages [print-color]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [print-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/print-color-0.4.5.tar.gz tmp/print_color-0.4.6.tar.gz --markdown 20230424/p/print-color/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-24 19:47:33] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/3b/eb/7fc3e2187f26ed5629f1b43ccbc98ea993baa713060fa0d13808c62cb991/rustplus-5.5.8.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [iplocationchanger]: Downloading https://files.pythonhosted.org/packages/3b/6c/e56546a6a5afbb8ddb4e490bfec8111f13db7e9e6c510a8351d143431eda/iplocationchanger-0.0.3.tar.gz
+[2023-04-24 19:47:33] INFO root fetch - processPackages [uplc]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [uplc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplc-0.6.3.tar.gz tmp/uplc-0.6.4.tar.gz --markdown 20230424/u/uplc/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-24 19:47:33] INFO root fetch - processPackages [iplocationchanger]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [iplocationchanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iplocationchanger-0.0.2.tar.gz tmp/iplocationchanger-0.0.3.tar.gz --markdown 20230424/i/iplocationchanger/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 19:47:33] INFO root fetch - processPackages [rustplus]: executing diffoscope
+[2023-04-24 19:47:33] INFO root fetch - processPackages [rustplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustplus-5.5.7.tar.gz tmp/rustplus-5.5.8.tar.gz --markdown 20230424/r/rustplus/5.5.7-5.5.8/diff.md --exclude *.pyd
+[2023-04-24 19:47:34] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-04-24 19:47:34] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-24 19:47:34] INFO root fetch - main [MainThread]: End processing [django-websockets]: success
+[2023-04-24 19:47:34] INFO root fetch - main [MainThread]: End processing [psdelivery]: success
+[2023-04-24 19:47:34] INFO root fetch - main [MainThread]: End processing [print-color]: success
+[2023-04-24 19:47:34] INFO root fetch - main [MainThread]: End processing [asyncpgdb]: success
+[2023-04-24 19:47:35] INFO root fetch - main [MainThread]: End processing [iplocationchanger]: success
+[2023-04-24 19:47:36] INFO root fetch - main [MainThread]: End processing [uplc]: success
+[2023-04-24 19:47:37] INFO root fetch - main [MainThread]: End processing [rustplus]: success
+[2023-04-24 19:47:37] INFO root fetch - main [MainThread]: Store serial: [17837492]
