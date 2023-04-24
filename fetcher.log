@@ -5818,3 +5818,88 @@
 [2023-04-24 08:30:51] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
 [2023-04-24 08:30:52] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
 [2023-04-24 08:30:52] INFO root fetch - main [MainThread]: Store serial: [17829620]
+[2023-04-24 08:35:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829620]
+[2023-04-24 08:36:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xgrid
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-etl
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prunerr
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bp-data-grid
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sitcom
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grun-js
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiotubes
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qufit
+[2023-04-24 08:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyastroweatherio
+[2023-04-24 08:36:01] WARNING root fetch - processPackages [grun-js]: Skipping, unable to determine old version
+[2023-04-24 08:36:01] INFO root fetch - processPackages [grun-js]: Start processing: Video-Audio-Image-Downloader
+[2023-04-24 08:36:01] INFO root fetch - processPackages [prunerr]: New version: [1.1.3b0] Old Version: [1.1.3]
+[2023-04-24 08:36:01] INFO root fetch - main [MainThread]: End processing [grun-js] error
+[2023-04-24 08:36:01] WARNING root fetch - processPackages [xgrid]: Skipping, unable to determine old version
+[2023-04-24 08:36:01] INFO root fetch - processPackages [bp-data-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [xgrid]: Start processing: audiconnectpy
+[2023-04-24 08:36:01] INFO root fetch - main [MainThread]: End processing [xgrid] error
+[2023-04-24 08:36:01] INFO root fetch - processPackages [aiotubes]: New version: [3.2] Old Version: [3.1]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [qufit]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [sitcom]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.23.0.dev3] Old Version: [0.23.0.dev2]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [audiconnectpy]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [prunerr]: Downloading https://files.pythonhosted.org/packages/3e/14/63556780729a3e644e4d0e785978fef490d790b56e874d0d5a2e5f5c9a30/prunerr-1.1.3.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230424/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230424/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/b3/7c/c9d4dbe9ec63d07ada01ab955ec41b07865551cae7411c0fdbb37288442d/qufit-1.0.7.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/d3/99/5405ee0bf0ac7f07a6a6da6d766d10fb738c53202ff55247748f856f866e/pyastroweatherio-0.23.0.dev2.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [aiotubes]: Downloading https://files.pythonhosted.org/packages/a3/d5/0f208f5c9238d5227f8448783d84b42fc98fe1b127537bbeaa55b67e7804/aiotubes-3.2.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/d1/f1/403358a2e003df4b0cb41d4c6fbb1c199a8b57c2a2d6501c72554a588d69/sitcom-1.3.4.tar.gz
+[2023-04-24 08:36:01] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689648>=10485760
+[2023-04-24 08:36:01] INFO root fetch - processPackages [sitcom]: Start processing: rpcclient
+[2023-04-24 08:36:01] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-24 08:36:01] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/a3/b8/32e986952c78f2785b5d865a6ee9a9348a1b4a2fd86828d578b19440a372/audiconnectpy-1.3.0.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [aiotubes]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [aiotubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotubes-3.1.tar.gz tmp/aiotubes-3.2.tar.gz --markdown 20230424/a/aiotubes/3.1-3.2/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-1.2.9.tar.gz tmp/audiconnectpy-1.3.0.tar.gz --markdown 20230424/a/audiconnectpy/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [prunerr]: Downloading https://files.pythonhosted.org/packages/70/2a/09c3902533cee77000750ff5ed38c4c8048761139ab7af0733de94c3a85a/prunerr-1.1.3b0.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [rpcclient]: New version: [3.15.3] Old Version: [3.15.2]
+[2023-04-24 08:36:01] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-0.0.8.tar.gz tmp/bp_data_grid-0.0.9.tar.gz --markdown 20230424/b/bp-data-grid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: Downloading https://files.pythonhosted.org/packages/79/b7/f3ece795942d63578c487d74271818e42cf7b6e425fb769d0b4e744ff344/Video_Audio_Image_Downloader-0.0.9.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Video_Audio_Image_Downloader-0.0.7.tar.gz tmp/Video_Audio_Image_Downloader-0.0.9.tar.gz --markdown 20230424/V/Video-Audio-Image-Downloader/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/7d/81/92d524e73ce952b4028f2aba06bf4913b36f346e88a978dc62de04ee5aaf/qufit-1.0.8.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [prunerr]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [prunerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prunerr-1.1.3.tar.gz tmp/prunerr-1.1.3b0.tar.gz --markdown 20230424/p/prunerr/1.1.3-1.1.3b0/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.0.7.tar.gz tmp/qufit-1.0.8.tar.gz --markdown 20230424/q/qufit/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 08:36:01] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/92/33/06bbea496a47be5e594bc4a7193e4a30b697facaa6db131abebb6f4234a5/pyastroweatherio-0.23.0.dev3.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/85/51/e18b2db695da82f0203af50e23951e400efbb7022dc19f621def6a1934ad/rpcclient-3.15.2.tar.gz
+[2023-04-24 08:36:01] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2023-04-24 08:36:01] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.23.0.dev2.tar.gz tmp/pyastroweatherio-0.23.0.dev3.tar.gz --markdown 20230424/p/pyastroweatherio/0.23.0.dev2-0.23.0.dev3/diff.md --exclude *.pyd
+[2023-04-24 08:36:02] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/32/33/ae61541d40ad264eed1b5de4dd040f069cf959fd5217622af285646ca00f/rpcclient-3.15.3.tar.gz
+[2023-04-24 08:36:02] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2023-04-24 08:36:02] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-3.15.2.tar.gz tmp/rpcclient-3.15.3.tar.gz --markdown 20230424/r/rpcclient/3.15.2-3.15.3/diff.md --exclude *.pyd
+[2023-04-24 08:36:03] INFO root fetch - processPackages [aiotubes]: Start processing: tap-shiftbase
+[2023-04-24 08:36:03] INFO root fetch - main [MainThread]: End processing [aiotubes]: success
+[2023-04-24 08:36:03] INFO root fetch - processPackages [tap-shiftbase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:36:03] INFO root fetch - processPackages [tap-shiftbase]: executing diffoscope
+[2023-04-24 08:36:03] INFO root fetch - processPackages [tap-shiftbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_shiftbase-0.0.8.tar.gz tmp/tap_shiftbase-0.0.9.tar.gz --markdown 20230424/t/tap-shiftbase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:36:03] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: Start processing: gWeaver
+[2023-04-24 08:36:03] INFO root fetch - main [MainThread]: End processing [Video-Audio-Image-Downloader]: success
+[2023-04-24 08:36:03] INFO root fetch - processPackages [gWeaver]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 08:36:04] INFO root fetch - processPackages [gWeaver]: executing diffoscope
+[2023-04-24 08:36:04] INFO root fetch - processPackages [gWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gWeaver-1.0.2.tar.gz tmp/gWeaver-1.0.3.tar.gz --markdown 20230424/g/gWeaver/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 08:36:04] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-04-24 08:36:04] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-24 08:36:04] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2023-04-24 08:36:04] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-04-24 08:36:04] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2023-04-24 08:36:04] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-04-24 08:36:05] INFO root fetch - main [MainThread]: End processing [tap-shiftbase]: success
+[2023-04-24 08:36:05] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2023-04-24 08:36:06] INFO root fetch - main [MainThread]: End processing [gWeaver]: success
+[2023-04-24 08:36:09] INFO root fetch - main [MainThread]: End processing [prunerr]: success
+[2023-04-24 08:36:09] INFO root fetch - main [MainThread]: Store serial: [17829675]
