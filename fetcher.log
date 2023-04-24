@@ -15170,3 +15170,90 @@
 [2023-04-24 16:40:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 16:40:14] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-24 16:40:14] INFO root fetch - main [MainThread]: Store serial: [17835025]
+[2023-04-24 16:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835025]
+[2023-04-24 16:45:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mainnet
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychonaut
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algokit-utils
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easierscrape
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efel
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: client-GPT
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JsonPreprocessor
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inventronet
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tftest
+[2023-04-24 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-04-24 16:45:23] INFO root fetch - processPackages [algokit-utils]: New version: [1.0.4b2] Old Version: [1.0.4b1]
+[2023-04-24 16:45:23] INFO root fetch - processPackages [easierscrape]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 16:45:23] INFO root fetch - processPackages [JsonPreprocessor]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-24 16:45:23] INFO root fetch - processPackages [psychonaut]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:45:23] WARNING root fetch - processPackages [client-GPT]: Skipping, unable to determine old version
+[2023-04-24 16:45:23] INFO root fetch - processPackages [client-GPT]: Start processing: nonebot-plugin-datastore
+[2023-04-24 16:45:23] INFO root fetch - processPackages [mainnet]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-24 16:45:23] INFO root fetch - main [MainThread]: End processing [client-GPT] error
+[2023-04-24 16:45:23] INFO root fetch - processPackages [cg]: New version: [29.4.1] Old Version: [29.4.0]
+[2023-04-24 16:45:23] INFO root fetch - processPackages [efel]: New version: [4.1.95] Old Version: [4.1.93]
+[2023-04-24 16:45:23] WARNING root fetch - processPackages [inventronet]: Skipping, unable to determine old version
+[2023-04-24 16:45:23] INFO root fetch - processPackages [inventronet]: Start processing: adafruit-circuitpython-ags02ma
+[2023-04-24 16:45:23] INFO root fetch - main [MainThread]: End processing [inventronet] error
+[2023-04-24 16:45:23] INFO root fetch - processPackages [tftest]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-04-24 16:45:23] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 16:45:23] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.0.tar.gz tmp/cg-29.4.1.tar.gz --markdown 20230424/c/cg/29.4.0-29.4.1/diff.md --exclude *.pyd
+[2023-04-24 16:45:23] INFO root fetch - processPackages [nonebot-plugin-datastore]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-24 16:45:24] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/e5/72/6616fd375e83607d104d3ea5f0c0a5a546984d4081192e6e9b5aade7f18e/JsonPreprocessor-0.1.4.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [adafruit-circuitpython-ags02ma]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 16:45:24] INFO root fetch - processPackages [easierscrape]: Downloading https://files.pythonhosted.org/packages/9f/50/bf402b008bce24563c9f83750a2648a6033934ce5339a27ff6654ff7a4c0/easierscrape-0.1.2.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ca/72/199c43ecde7451c860c80349ad935650f9e97ccb27a6bdedc19784b0a410/algokit_utils-1.0.4b1-py3-none-any.whl
+[2023-04-24 16:45:24] INFO root fetch - processPackages [psychonaut]: Downloading https://files.pythonhosted.org/packages/56/6b/7e64d6680e62c93d3fd88c0fbb67be73d78fcd4224f3bc7c351cac2f2444/psychonaut-0.0.9.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/24/df/8560cd38380343a44c6723ac3b5976819ba374352fb13ca609ff2fdff0f1/efel-4.1.93.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [tftest]: Downloading https://files.pythonhosted.org/packages/5d/20/dbadb56ef496f2124bd335d7b8a9263afe5d6bfbaebd02c3f19fec01526b/tftest-1.8.3.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [nonebot-plugin-datastore]: Downloading https://files.pythonhosted.org/packages/bc/51/4095fe7cfe1ddea5e26838c8f47a06440dc0ffda6b3dd6c0ce64d2c06083/nonebot_plugin_datastore-0.6.2.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/e2/0e/8bb0f5028d959068a43579427b33de4f17b05c39cc39ce7c421863784bd9/mainnet-1.1.6.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [adafruit-circuitpython-ags02ma]: Downloading https://files.pythonhosted.org/packages/20/ca/61e68dbfa36286b3089aabd70d8cd447a62a560f38ffca44d9205e825e25/adafruit-circuitpython-ags02ma-1.0.3.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [psychonaut]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [psychonaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychonaut-0.0.8.tar.gz tmp/psychonaut-0.0.9.tar.gz --markdown 20230424/p/psychonaut/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ba/d2/abbff798d299248355a4e51cf162d88a6dfa8a050e80dd1e724e64f5a5b2/algokit_utils-1.0.4b2-py3-none-any.whl
+[2023-04-24 16:45:24] INFO root fetch - processPackages [easierscrape]: Downloading https://files.pythonhosted.org/packages/47/3e/4177f3e78b7073c6ae56d9bfb37008ca13e19d3154556b5bbb118188b0ce/easierscrape-0.1.3.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [tftest]: Downloading https://files.pythonhosted.org/packages/7f/4b/0540b67325c7be1077b07434af28e5882fb89a146c71a6090cf63fd90a88/tftest-1.8.4.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.5.tar.gz tmp/mainnet-1.1.6.tar.gz --markdown 20230424/m/mainnet/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/fd/22/289a83dfbfc19936e2b368d08d91fe9466c1c933c5dfe8f17fb49acfd4ff/efel-4.1.95.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/e3/2a/30947ce9987e49d9ece6c79bf4be35302d321beba25bba908f8d7a2bbc5b/JsonPreprocessor-0.2.0.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.0.4b1-py3-none-any.whl.zip tmp/algokit_utils-1.0.4b2-py3-none-any.whl.zip --markdown 20230424/a/algokit-utils/1.0.4b1-1.0.4b2/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [adafruit-circuitpython-ags02ma]: Downloading https://files.pythonhosted.org/packages/4b/dc/0adb6760c5b2db5a5596ab2b6b4dabe34a52b0ff81f0c7f626b7f4a36b0f/adafruit-circuitpython-ags02ma-1.0.4.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [nonebot-plugin-datastore]: Downloading https://files.pythonhosted.org/packages/a3/16/c36612e4cc02fa1348c4111581a1e7c6288c462de44c35177f440b3cc2e0/nonebot_plugin_datastore-0.6.3.tar.gz
+[2023-04-24 16:45:24] INFO root fetch - processPackages [JsonPreprocessor]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [JsonPreprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonPreprocessor-0.1.4.tar.gz tmp/JsonPreprocessor-0.2.0.tar.gz --markdown 20230424/J/JsonPreprocessor/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [easierscrape]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [easierscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easierscrape-0.1.2.tar.gz tmp/easierscrape-0.1.3.tar.gz --markdown 20230424/e/easierscrape/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [tftest]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [tftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftest-1.8.3.tar.gz tmp/tftest-1.8.4.tar.gz --markdown 20230424/t/tftest/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.1.93.tar.gz tmp/efel-4.1.95.tar.gz --markdown 20230424/e/efel/4.1.93-4.1.95/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [adafruit-circuitpython-ags02ma]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [adafruit-circuitpython-ags02ma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ags02ma-1.0.3.tar.gz tmp/adafruit-circuitpython-ags02ma-1.0.4.tar.gz --markdown 20230424/a/adafruit-circuitpython-ags02ma/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-24 16:45:24] INFO root fetch - processPackages [nonebot-plugin-datastore]: executing diffoscope
+[2023-04-24 16:45:24] INFO root fetch - processPackages [nonebot-plugin-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_datastore-0.6.2.tar.gz tmp/nonebot_plugin_datastore-0.6.3.tar.gz --markdown 20230424/n/nonebot-plugin-datastore/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-24 16:45:25] INFO root fetch - processPackages [JsonPreprocessor]: Start processing: kcli
+[2023-04-24 16:45:25] INFO root fetch - main [MainThread]: End processing [JsonPreprocessor]: success
+[2023-04-24 16:45:25] INFO root fetch - processPackages [kcli]: New version: [99.0.202304241438] Old Version: [99.0.202304241352]
+[2023-04-24 16:45:26] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-24 16:45:26] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304241352-py3-none-any.whl.zip tmp/kcli-99.0.202304241438-py3-none-any.whl.zip --markdown 20230424/k/kcli/99.0.202304241352-99.0.202304241438/diff.md --exclude *.pyd
+[2023-04-24 16:45:26] INFO root fetch - processPackages [algokit-utils]: Start processing: raphtory
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [easierscrape]: success
+[2023-04-24 16:45:26] INFO root fetch - processPackages [raphtory]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ags02ma]: success
+[2023-04-24 16:45:26] INFO root fetch - processPackages [raphtory]: Downloading https://files.pythonhosted.org/packages/95/39/425d6fd4ca087d886aa605e957949825c84a5febcb08b4c92f6a5f0372db/raphtory-0.0.8-cp39-none-win_amd64.whl
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-datastore]: success
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [tftest]: success
+[2023-04-24 16:45:26] INFO root fetch - main [MainThread]: End processing [psychonaut]: success
+[2023-04-24 16:45:27] INFO root fetch - processPackages [raphtory]: Downloading https://files.pythonhosted.org/packages/43/38/a670dba8fc4e243450ecfabd940f324593c418493fcb371d7e4eb65f6581/raphtory-0.0.9-cp39-none-win_amd64.whl
+[2023-04-24 16:45:27] INFO root fetch - processPackages [raphtory]: executing diffoscope
+[2023-04-24 16:45:27] INFO root fetch - processPackages [raphtory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raphtory-0.0.8-cp39-none-win_amd64.whl.zip tmp/raphtory-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230424/r/raphtory/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:45:28] INFO root fetch - main [MainThread]: End processing [raphtory]: success
+[2023-04-24 16:45:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-24 16:45:35] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 16:45:35] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-04-24 16:45:35] INFO root fetch - main [MainThread]: Store serial: [17835094]
