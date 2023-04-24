@@ -19941,3 +19941,96 @@
 [2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [compas-lcmtypes]: success
 [2023-04-24 20:17:32] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-04-24 20:17:32] INFO root fetch - main [MainThread]: Store serial: [17837843]
+[2023-04-24 20:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837843]
+[2023-04-24 20:22:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelerometer
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gokyuzu
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkist-processing-vbi
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bobtemplates.plone
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: launchflow
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xyz-course
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dkist-processing-visp
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lndb
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trailwatch
+[2023-04-24 20:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zigpy-znp
+[2023-04-24 20:22:41] INFO root fetch - processPackages [accelerometer]: New version: [7.0.0.dev0] Old Version: [6.2.3]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [gokyuzu]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [launchflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [lndb]: New version: [0.44.4] Old Version: [0.44.3]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [trailwatch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [xyz-course]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [zigpy-znp]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [bobtemplates.plone]: New version: [6.2.6] Old Version: [6.2.5]
+[2023-04-24 20:22:41] INFO root fetch - processPackages [accelerometer]: Downloading https://files.pythonhosted.org/packages/f7/d4/45f3f635159a24a7d48dd0ecf65d7e2be3f70510cb74a6efa7d6fa3564a3/accelerometer-6.2.3.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [gokyuzu]: Downloading https://files.pythonhosted.org/packages/df/64/766b62ad7dc900fcf0bf86140f965ce51992bfc013445df21dedfca0ef79/gokyuzu-2.0.1.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [lndb]: Downloading https://files.pythonhosted.org/packages/37/8c/1e826854a03ff53b9ae4fa17318ec453cf84fa56d0c4be32c60074f6e2e1/lndb-0.44.4.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [xyz-course]: Downloading https://files.pythonhosted.org/packages/ab/6d/8aa3f440535cd3405cf569c54bf1a5f39ea1c8e27ade8aff72d69321d500/xyz_course-0.1.2-py3-none-any.whl
+[2023-04-24 20:22:41] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/52/02/4271fdac81479dd9710be52205370485c6c393135ea4469b025365e791a9/dkist_processing_visp-2.0.1.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/2a/b0/56dc7bd9ba2263bd34aa1a371f6b9c20aea5efc162d9c5179983dcd3fd1b/launchflow-0.1.8.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/77/5e/8026529808f4f1bfb61857dadcb68e15be5401f346300e528313b41e28f5/dkist_processing_vbi-1.1.8.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [trailwatch]: Downloading https://files.pythonhosted.org/packages/7d/fe/fd9c09981a661dd53d8005347aa55a6f1ad911f92a8f05d6bdef744ba4cb/trailwatch-1.0.1.tar.gz
+[2023-04-24 20:22:41] WARNING root fetch - processPackages [launchflow]: Skipping package: exceeds size limit 96610312>=10485760
+[2023-04-24 20:22:41] INFO root fetch - processPackages [launchflow]: Start processing: OgreInterface
+[2023-04-24 20:22:41] INFO root fetch - main [MainThread]: End processing [launchflow] error
+[2023-04-24 20:22:41] INFO root fetch - processPackages [zigpy-znp]: Downloading https://files.pythonhosted.org/packages/f9/dc/1384a2342b4e11490feec227fd66c56d0100c5c851dedcdc03de58791cee/zigpy-znp-0.9.2.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [bobtemplates.plone]: Downloading https://files.pythonhosted.org/packages/05/a5/40687057e42dc5cb42e5251b592298a94df0524688edbb46652a92f8a037/bobtemplates.plone-6.2.5.tar.gz
+[2023-04-24 20:22:41] INFO root fetch - processPackages [OgreInterface]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 20:22:42] INFO root fetch - processPackages [lndb]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [lndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb-0.44.3.tar.gz tmp/lndb-0.44.4.tar.gz --markdown 20230424/l/lndb/0.44.3-0.44.4/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [trailwatch]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [trailwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailwatch-1.0.0.tar.gz tmp/trailwatch-1.0.1.tar.gz --markdown 20230424/t/trailwatch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [xyz-course]: Downloading https://files.pythonhosted.org/packages/f8/f5/6a6be7df5cd1637984f9d1801ab08203193e3a546946be995ccbe9f9c4da/xyz_course-0.1.3-py3-none-any.whl
+[2023-04-24 20:22:42] INFO root fetch - processPackages [accelerometer]: Downloading https://files.pythonhosted.org/packages/11/74/07239ef82253348fab8960447912ce47dfa896424b6e193aed146868a76d/accelerometer-7.0.0.dev0.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [gokyuzu]: Downloading https://files.pythonhosted.org/packages/df/1d/49f9d0498236a22e3dab7abb05f81a5601c7c2b2d8fd8c95e30b4880437b/gokyuzu-2.0.2.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [OgreInterface]: Downloading https://files.pythonhosted.org/packages/32/39/12c899b8f078f22f88721e8d268dd5d4f3b22a2605240f516bacd63bf2cb/OgreInterface-1.0.8.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/13/f0/23cf278f802af11a9ce4185893feb68763c624ac9777e48e9adfff57c071/dkist_processing_visp-2.0.2.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [zigpy-znp]: Downloading https://files.pythonhosted.org/packages/d4/4d/376b19fb991ccb4d65633d8d8de8e90f162f5f202cddf99d11f6624b5125/zigpy-znp-0.9.3.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/dd/bd/b67a52b569333000140cf837038742b996f71b01d2660e34a2c6f4171d77/dkist_processing_vbi-1.1.9.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [gokyuzu]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [gokyuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gokyuzu-2.0.1.tar.gz tmp/gokyuzu-2.0.2.tar.gz --markdown 20230424/g/gokyuzu/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [xyz-course]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [xyz-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_course-0.1.2-py3-none-any.whl.zip tmp/xyz_course-0.1.3-py3-none-any.whl.zip --markdown 20230424/x/xyz-course/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [zigpy-znp]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.1.8.tar.gz tmp/dkist_processing_vbi-1.1.9.tar.gz --markdown 20230424/d/dkist-processing-vbi/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [zigpy-znp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigpy-znp-0.9.2.tar.gz tmp/zigpy-znp-0.9.3.tar.gz --markdown 20230424/z/zigpy-znp/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [OgreInterface]: Downloading https://files.pythonhosted.org/packages/af/58/450f1c7aa5bd23d607f869b1981e3610e1aaee541c6f51c2c9461ccebc29/OgreInterface-1.0.9.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [bobtemplates.plone]: Downloading https://files.pythonhosted.org/packages/fa/cc/5165709627a5a1c6fe5e1391a16fb06fdce929c5ef11bbe43355d5952771/bobtemplates.plone-6.2.6.tar.gz
+[2023-04-24 20:22:42] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.0.1.tar.gz tmp/dkist_processing_visp-2.0.2.tar.gz --markdown 20230424/d/dkist-processing-visp/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [OgreInterface]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [OgreInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OgreInterface-1.0.8.tar.gz tmp/OgreInterface-1.0.9.tar.gz --markdown 20230424/O/OgreInterface/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [accelerometer]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [accelerometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerometer-6.2.3.tar.gz tmp/accelerometer-7.0.0.dev0.tar.gz --markdown 20230424/a/accelerometer/6.2.3-7.0.0.dev0/diff.md --exclude *.pyd
+[2023-04-24 20:22:42] INFO root fetch - processPackages [bobtemplates.plone]: executing diffoscope
+[2023-04-24 20:22:42] INFO root fetch - processPackages [bobtemplates.plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bobtemplates.plone-6.2.5.tar.gz tmp/bobtemplates.plone-6.2.6.tar.gz --markdown 20230424/b/bobtemplates.plone/6.2.5-6.2.6/diff.md --exclude *.pyd
+[2023-04-24 20:22:43] INFO root fetch - processPackages [trailwatch]: Start processing: newick-tree-builder
+[2023-04-24 20:22:43] INFO root fetch - main [MainThread]: End processing [trailwatch]: success
+[2023-04-24 20:22:43] INFO root fetch - processPackages [newick-tree-builder]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-24 20:22:43] INFO root fetch - processPackages [newick-tree-builder]: executing diffoscope
+[2023-04-24 20:22:43] INFO root fetch - processPackages [newick-tree-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newick-tree-builder-0.4.7.tar.gz tmp/newick-tree-builder-0.4.8.tar.gz --markdown 20230424/n/newick-tree-builder/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-24 20:22:43] INFO root fetch - processPackages [xyz-course]: Start processing: ata-db-models
+[2023-04-24 20:22:43] INFO root fetch - main [MainThread]: End processing [xyz-course]: success
+[2023-04-24 20:22:43] INFO root fetch - processPackages [ata-db-models]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 20:22:43] INFO root fetch - processPackages [gokyuzu]: Start processing: lnschema_lamin1
+[2023-04-24 20:22:43] INFO root fetch - main [MainThread]: End processing [gokyuzu]: success
+[2023-04-24 20:22:43] INFO root fetch - processPackages [lnschema_lamin1]: New version: [0.16.0] Old Version: [0.15.1]
+[2023-04-24 20:22:44] INFO root fetch - processPackages [ata-db-models]: Downloading https://files.pythonhosted.org/packages/72/47/755779d5d081cb7fa5335b95e80df86dcb05070272bed7f92ad409b6269f/ata-db-models-0.0.8.tar.gz
+[2023-04-24 20:22:44] INFO root fetch - processPackages [lnschema_lamin1]: executing diffoscope
+[2023-04-24 20:22:44] INFO root fetch - processPackages [lnschema_lamin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_lamin1-0.15.1.tar.gz tmp/lnschema_lamin1-0.16.0.tar.gz --markdown 20230424/l/lnschema_lamin1/0.15.1-0.16.0/diff.md --exclude *.pyd
+[2023-04-24 20:22:44] INFO root fetch - main [MainThread]: End processing [zigpy-znp]: success
+[2023-04-24 20:22:44] INFO root fetch - main [MainThread]: End processing [OgreInterface]: success
+[2023-04-24 20:22:44] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2023-04-24 20:22:44] INFO root fetch - processPackages [ata-db-models]: Downloading https://files.pythonhosted.org/packages/c6/bd/bb1f9829b9409db55fc6cbc7c7baac29902de817eb0302dd559b4604b9ed/ata-db-models-0.0.9.tar.gz
+[2023-04-24 20:22:44] INFO root fetch - processPackages [ata-db-models]: executing diffoscope
+[2023-04-24 20:22:44] INFO root fetch - processPackages [ata-db-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ata-db-models-0.0.8.tar.gz tmp/ata-db-models-0.0.9.tar.gz --markdown 20230424/a/ata-db-models/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 20:22:44] INFO root fetch - main [MainThread]: End processing [lndb]: success
+[2023-04-24 20:22:45] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2023-04-24 20:22:45] INFO root fetch - main [MainThread]: End processing [newick-tree-builder]: success
+[2023-04-24 20:22:46] INFO root fetch - main [MainThread]: End processing [lnschema_lamin1]: success
+[2023-04-24 20:22:46] INFO root fetch - main [MainThread]: End processing [ata-db-models]: success
+[2023-04-24 20:22:49] INFO root fetch - main [MainThread]: End processing [bobtemplates.plone]: success
+[2023-04-24 20:23:37] INFO root fetch - main [MainThread]: End processing [accelerometer]: success
+[2023-04-24 20:23:37] INFO root fetch - main [MainThread]: Store serial: [17837890]
