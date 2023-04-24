@@ -7644,3 +7644,90 @@
 [2023-04-24 10:22:48] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
 [2023-04-24 10:23:10] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-24 10:23:10] INFO root fetch - main [MainThread]: Store serial: [17830714]
+[2023-04-24 10:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830714]
+[2023-04-24 10:28:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-cooperator-website
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cagen
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmo-databaseutils
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: system-superset-driver
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yyxx-game-pkg
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-umqtt.robust2
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: system-superset-driver
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mindspore-rec
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: freeflux
+[2023-04-24 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mindnlp
+[2023-04-24 10:28:20] INFO root fetch - processPackages [cagen]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: New version: [12.0.3.2.1] Old Version: [12.0.3.2.0.99.dev3]
+[2023-04-24 10:28:20] WARNING root fetch - processPackages [cmo-databaseutils]: Skipping, unable to determine old version
+[2023-04-24 10:28:20] INFO root fetch - processPackages [cmo-databaseutils]: Start processing: mindaudio
+[2023-04-24 10:28:20] INFO root fetch - main [MainThread]: End processing [cmo-databaseutils] error
+[2023-04-24 10:28:20] WARNING root fetch - processPackages [mindnlp]: Skipping, unable to determine old version
+[2023-04-24 10:28:20] WARNING root fetch - processPackages [mindspore-rec]: Skipping, unable to determine old version
+[2023-04-24 10:28:20] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.4.7.1] Old Version: [2023.4.4.1]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [micropython-umqtt.robust2]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [mindnlp]: Start processing: FastCNN2
+[2023-04-24 10:28:20] INFO root fetch - main [MainThread]: End processing [mindnlp] error
+[2023-04-24 10:28:20] INFO root fetch - processPackages [mindspore-rec]: Start processing: jina
+[2023-04-24 10:28:20] INFO root fetch - processPackages [freeflux]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 10:28:20] INFO root fetch - main [MainThread]: End processing [mindspore-rec] error
+[2023-04-24 10:28:20] WARNING root fetch - processPackages [mindaudio]: Skipping, unable to determine old version
+[2023-04-24 10:28:20] INFO root fetch - processPackages [mindaudio]: Start processing: dataclass-jsonable
+[2023-04-24 10:28:20] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:28:20] INFO root fetch - main [MainThread]: End processing [mindaudio] error
+[2023-04-24 10:28:20] INFO root fetch - processPackages [dataclass-jsonable]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [FastCNN2]: New version: [1.23.424.1622] Old Version: [1.23.424.1548]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-24 10:28:20] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0a8.tar.gz tmp/cagen-0.2.0a9.tar.gz --markdown 20230424/c/cagen/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.4.4.1.tar.gz tmp/yyxx_game_pkg-2023.4.7.1.tar.gz --markdown 20230424/y/yyxx-game-pkg/2023.4.4.1-2023.4.7.1/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.8.tar.gz tmp/system_superset_driver-0.0.9.tar.gz --markdown 20230424/s/system-superset-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [dataclass-jsonable]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: Downloading https://files.pythonhosted.org/packages/8e/08/e843c4bbae0b0d8adb8cc3b1c0c95fb09f37cf3422783544007c99eb1bae/odoo12_addon_cooperator_website-12.0.3.2.0.99.dev3-py3-none-any.whl
+[2023-04-24 10:28:20] INFO root fetch - processPackages [dataclass-jsonable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass-jsonable-0.0.8.tar.gz tmp/dataclass-jsonable-0.0.9.tar.gz --markdown 20230424/d/dataclass-jsonable/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [micropython-umqtt.robust2]: Downloading https://files.pythonhosted.org/packages/25/ec/76705f03da8148db0b185f114643fabc1c6aafeb622dcbeb2f26efbdeed3/micropython-umqtt.robust2-2.1.1.tar.gz
+[2023-04-24 10:28:20] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.8.tar.gz tmp/system_superset_driver-0.0.9.tar.gz --markdown 20230424/s/system-superset-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230424/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [freeflux]: Downloading https://files.pythonhosted.org/packages/69/df/f42c7577ccae25190c856f83765fd50dbea7184a2c30402a0d0fdd9a6a55/freeflux-0.3.3.tar.gz
+[2023-04-24 10:28:20] INFO root fetch - processPackages [FastCNN2]: Downloading https://files.pythonhosted.org/packages/99/e5/c73bd680d11ad630650288910d6c656a3424dd1a22e83425ed1706001ff5/FastCNN2-1.23.424.1622.tar.gz
+[2023-04-24 10:28:20] INFO root fetch - processPackages [freeflux]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [freeflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeflux-0.3.2.tar.gz tmp/freeflux-0.3.3.tar.gz --markdown 20230424/f/freeflux/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 10:28:20] INFO root fetch - processPackages [micropython-umqtt.robust2]: Downloading https://files.pythonhosted.org/packages/b6/bd/f9bcbed033343b2ab71a288c9e8d2d07e723cf601b145f9180ffc8b49140/micropython-umqtt.robust2-2.1.2.tar.gz
+[2023-04-24 10:28:20] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: Downloading https://files.pythonhosted.org/packages/0e/6f/d68fca144cab616534a6d698903c2a820b0f49fcfb0e1e53786c74837d73/odoo12_addon_cooperator_website-12.0.3.2.1-py3-none-any.whl
+[2023-04-24 10:28:20] INFO root fetch - processPackages [FastCNN2]: executing diffoscope
+[2023-04-24 10:28:20] INFO root fetch - processPackages [FastCNN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastCNN2-1.23.424.1548.tar.gz tmp/FastCNN2-1.23.424.1622.tar.gz --markdown 20230424/F/FastCNN2/1.23.424.1548-1.23.424.1622/diff.md --exclude *.pyd
+[2023-04-24 10:28:21] INFO root fetch - processPackages [micropython-umqtt.robust2]: executing diffoscope
+[2023-04-24 10:28:21] INFO root fetch - processPackages [micropython-umqtt.robust2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-umqtt.robust2-2.1.1.tar.gz tmp/micropython-umqtt.robust2-2.1.2.tar.gz --markdown 20230424/m/micropython-umqtt.robust2/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-24 10:28:21] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: executing diffoscope
+[2023-04-24 10:28:21] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_cooperator_website-12.0.3.2.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_cooperator_website-12.0.3.2.1-py3-none-any.whl.zip --markdown 20230424/o/odoo12-addon-cooperator-website/12.0.3.2.0.99.dev3-12.0.3.2.1/diff.md --exclude *.pyd
+[2023-04-24 10:28:21] INFO root fetch - processPackages [cagen]: Start processing: jutool
+[2023-04-24 10:28:21] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-04-24 10:28:21] INFO root fetch - processPackages [system-superset-driver]: Start processing: dune-harmonizer
+[2023-04-24 10:28:21] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 10:28:22] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 10:28:22] INFO root fetch - processPackages [system-superset-driver]: Start processing: hyperfast-python-template
+[2023-04-24 10:28:22] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 10:28:22] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 10:28:22] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-24 10:28:22] INFO root fetch - main [MainThread]: End processing [dataclass-jsonable]: success
+[2023-04-24 10:28:22] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-24 10:28:22] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.8.tar.gz tmp/hyperfast_python_template-0.2.9.tar.gz --markdown 20230424/h/hyperfast-python-template/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 10:28:22] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/bf/a5/5ec181106eced79d52da975e49bb7f39812edef13a2d136929c1ceea46ce/dune_harmonizer-0.6.0.tar.gz
+[2023-04-24 10:28:22] INFO root fetch - main [MainThread]: End processing [micropython-umqtt.robust2]: success
+[2023-04-24 10:28:22] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-04-24 10:28:22] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230424/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 10:28:22] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-website]: success
+[2023-04-24 10:28:22] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-04-24 10:28:22] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.5.1.tar.gz tmp/dune_harmonizer-0.6.0.tar.gz --markdown 20230424/d/dune-harmonizer/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-24 10:28:22] INFO root fetch - main [MainThread]: End processing [FastCNN2]: success
+[2023-04-24 10:28:23] INFO root fetch - main [MainThread]: End processing [freeflux]: success
+[2023-04-24 10:28:23] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-24 10:28:23] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-24 10:28:23] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-04-24 10:28:23] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-04-24 10:28:24] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-04-24 10:28:24] INFO root fetch - main [MainThread]: Store serial: [17830784]
