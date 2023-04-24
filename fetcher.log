@@ -21847,3 +21847,79 @@
 [2023-04-24 22:22:03] INFO root fetch - main [MainThread]: End processing [storey]: success
 [2023-04-24 22:22:04] INFO root fetch - main [MainThread]: End processing [psycop-feature-generation]: success
 [2023-04-24 22:22:04] INFO root fetch - main [MainThread]: Store serial: [17839087]
+[2023-04-24 22:27:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839087]
+[2023-04-24 22:27:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalk-harness
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conductor-py
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-jotform
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-kvstore
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secureli
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NeuralBasics
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ypricemagic
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yatracker-linker
+[2023-04-24 22:27:13] INFO root fetch - processPackages [tap-jotform]: New version: [0.0.6b1] Old Version: [0.0.5b1]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-24 22:27:13] WARNING root fetch - processPackages [conductor-py]: Skipping, unable to determine old version
+[2023-04-24 22:27:13] INFO root fetch - processPackages [conductor-py]: Start processing: gxabm
+[2023-04-24 22:27:13] INFO root fetch - main [MainThread]: End processing [conductor-py] error
+[2023-04-24 22:27:13] INFO root fetch - processPackages [py-kvstore]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [secureli]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [tap-jotform]: executing diffoscope
+[2023-04-24 22:27:13] INFO root fetch - processPackages [tap-jotform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_jotform-0.0.5b1.tar.gz tmp/tap_jotform-0.0.6b1.tar.gz --markdown 20230424/t/tap-jotform/0.0.5b1-0.0.6b1/diff.md --exclude *.pyd
+[2023-04-24 22:27:13] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 22:27:13] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.8.tar.gz tmp/NeuralBasics-1.0.9.tar.gz --markdown 20230424/N/NeuralBasics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 22:27:13] INFO root fetch - processPackages [gxabm]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-24 22:27:13] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 22:27:13] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/8e/3a/1b7bcfd68b3fb7e312a8d5dfe975c73f564cd879a55be62b0791d2c939a7/chalk-harness-0.9.8.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/c1/f4/98fc6f671f9498d7c0e1226fd136e2c36d90780a1b94b2e1669eef287eb5/py_kvstore-0.0.6.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/96/ed/bfcc7ad96e2c1ec97b43414f3008ee6d89c60a7d695624a81ac54e173f7c/secureli-0.2.14.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/4f/a5/f5834f3cc53a16ddba4e2e1b1cb595f5c42742598ff4f7f1ddecb88190d9/ypricemagic-2.1.9.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [gxabm]: Downloading https://files.pythonhosted.org/packages/99/24/ab83f9855d2c56b253a78291177e065227ca8cd2bfb7e3065d7f14af028c/gxabm-2.1.0.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230424/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230424/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/a2/c3/d747d8563d652142827f87bc88b2317e9a8f6f6e85dbbbe4d82c66fd913a/py_kvstore-0.0.7.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/3c/5e/37827fe1eeca17e3f330993495e2e7e89a1c410c870eaf369b071c898757/secureli-0.2.15.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/bf/0f/bfe7f5f20ae5c9f5c87cb7af772bf873e193753c7bbf202400f933f44f51/ypricemagic-2.2.0.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [py-kvstore]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [py-kvstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kvstore-0.0.6.tar.gz tmp/py_kvstore-0.0.7.tar.gz --markdown 20230424/p/py-kvstore/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.2.14.tar.gz tmp/secureli-0.2.15.tar.gz --markdown 20230424/s/secureli/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.1.9.tar.gz tmp/ypricemagic-2.2.0.tar.gz --markdown 20230424/y/ypricemagic/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/5a/a1/ebd94059e71285766b03c097e6d74809a224502f80a4a6bfbcd4279de9d3/chalk-harness-0.9.9.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [gxabm]: Downloading https://files.pythonhosted.org/packages/96/b4/3827ff6c3c89722f15509cd54955e73ddff285ade02ce65a8cfd4b0baede/gxabm-2.2.0.tar.gz
+[2023-04-24 22:27:14] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230424/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 22:27:14] INFO root fetch - processPackages [gxabm]: executing diffoscope
+[2023-04-24 22:27:14] INFO root fetch - processPackages [gxabm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gxabm-2.1.0.tar.gz tmp/gxabm-2.2.0.tar.gz --markdown 20230424/g/gxabm/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 22:27:15] INFO root fetch - processPackages [tap-jotform]: Start processing: nekoton
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [tap-jotform]: success
+[2023-04-24 22:27:15] INFO root fetch - processPackages [nekoton]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:27:15] INFO root fetch - processPackages [NeuralBasics]: Start processing: hcs-cli
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 22:27:15] WARNING root fetch - processPackages [hcs-cli]: Skipping, unable to determine old version
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [hcs-cli] error
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 22:27:15] INFO root fetch - processPackages [nekoton]: Downloading https://files.pythonhosted.org/packages/ea/46/6384304a8e629130e5eec195f4f821726d0c3a3c0070cffe78b334e4b33d/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [py-kvstore]: success
+[2023-04-24 22:27:15] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-04-24 22:27:16] INFO root fetch - main [MainThread]: End processing [gxabm]: success
+[2023-04-24 22:27:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-24 22:27:16] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-04-24 22:27:17] INFO root fetch - processPackages [nekoton]: Downloading https://files.pythonhosted.org/packages/1f/99/7eac72bb84e0843c6f2dbf7ff0dcfe9b5fec6dcf58b5e062f9b4d9d773ec/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:27:17] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-24 22:27:19] INFO root fetch - processPackages [nekoton]: executing diffoscope
+[2023-04-24 22:27:19] INFO root fetch - processPackages [nekoton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/n/nekoton/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:29:39] INFO root fetch - main [MainThread]: End processing [nekoton]: success
+[2023-04-24 22:29:39] INFO root fetch - main [MainThread]: Store serial: [17839128]
