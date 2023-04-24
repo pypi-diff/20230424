@@ -10013,3 +10013,170 @@
 [2023-04-24 12:26:38] ERROR root fetch - processPackages [plone.app.mosaic]: Timeout during execution of pkgdiff
 [2023-04-24 12:26:38] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic] error
 [2023-04-24 12:26:38] INFO root fetch - main [MainThread]: Store serial: [17832176]
+[2023-04-24 12:31:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832176]
+[2023-04-24 12:31:47] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hkfdb
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oaas-sdk-py
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trustyai
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volt-client-web
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellscanner
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hkfdb
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flexypy
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nimagen
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DDesignerAPI
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pix2tex
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: New version: [2.75] Old Version: [2.7]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [oaas-sdk-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [pix2tex]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [nimagen]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [cellscanner]: New version: [1.7] Old Version: [1.6]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [flexypy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 12:31:47] WARNING root fetch - processPackages [volt-client-web]: Skipping, unable to determine old version
+[2023-04-24 12:31:47] INFO root fetch - processPackages [volt-client-web]: Start processing: alice-and-bob3
+[2023-04-24 12:31:47] INFO root fetch - main [MainThread]: End processing [volt-client-web] error
+[2023-04-24 12:31:47] INFO root fetch - processPackages [trustyai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: New version: [2.75] Old Version: [2.7]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-04-24 12:31:47] ERROR root fetch - processPackages [alice-and-bob3]: Unable to get metadata: No such project 'alice-and-bob3'
+[2023-04-24 12:31:47] INFO root fetch - processPackages [alice-and-bob3]: Start processing: ansible-risk-insight
+[2023-04-24 12:31:47] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-24 12:31:47] INFO root fetch - processPackages [cellscanner]: Downloading https://files.pythonhosted.org/packages/af/87/0f92b8df4d9ff01b48e03c06c118dd54643a45395b2c795ce59b2fe01685/cellscanner-1.6.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.4] Old Version: [0.1.3rc1]
+[2023-04-24 12:31:47] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/76/50/39ae6f53b7edd277dc69a56356e166a3449812e6688c733c8457b90f583d/DDesignerAPI-0.0.1.3-py3-none-any.whl
+[2023-04-24 12:31:47] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/24/c7/142fe14607b4eb1765c9169681a66ee3c9d394942ab25509ed18bc490bb8/oaas_sdk_py-0.1.4.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [pix2tex]: Downloading https://files.pythonhosted.org/packages/2d/cc/64aef9f07ad65bfa0a7e3124ed2c79d40570c898109051f29c0923c04b45/pix2tex-0.0.9-py3-none-any.whl
+[2023-04-24 12:31:47] INFO root fetch - processPackages [nimagen]: Downloading https://files.pythonhosted.org/packages/66/39/1e4cfa27da55d3cd726145364218a518c6565f77d46a162c71a314b1681c/nimagen-0.0.2.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [trustyai]: Downloading https://files.pythonhosted.org/packages/fa/77/660fb1f869a3871e5bdf455f0572c6b1c821b625b12dd80e1b2a3bce0881/trustyai-0.2.8.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/05/50/4a9c51691ae3d46c046e5854b4ed8f05c15abe7db52933e3b8ed65628022/hkfdb-2.75.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/05/50/4a9c51691ae3d46c046e5854b4ed8f05c15abe7db52933e3b8ed65628022/hkfdb-2.75.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-2.7.tar.gz tmp/hkfdb-2.75.tar.gz --markdown 20230424/h/hkfdb/2.7-2.75/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-2.7.tar.gz tmp/hkfdb-2.75.tar.gz --markdown 20230424/h/hkfdb/2.7-2.75/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [flexypy]: Downloading https://files.pythonhosted.org/packages/50/dc/93b0e57471680236cdbb858bd81a26b4265b7d3d07b0cb081a11d17eac4b/flexypy-0.0.8.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [flexypy]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [flexypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexypy-0.0.7.tar.gz tmp/flexypy-0.0.8.tar.gz --markdown 20230424/f/flexypy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/bd/ba/6d3bb111bcd3f9198ceaf0576e5a771f384b0f9f381592a14b0333e22a08/oaas_sdk_py-0.1.5.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [cellscanner]: Downloading https://files.pythonhosted.org/packages/ba/f6/f48d7f29703300f8783e8722512092ba066e0799315dea725c5c46ace7cb/cellscanner-1.7.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [oaas-sdk-py]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [oaas-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaas_sdk_py-0.1.4.tar.gz tmp/oaas_sdk_py-0.1.5.tar.gz --markdown 20230424/o/oaas-sdk-py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/96/8b/61ec47b0857316397d8e9369dc1c6dd41f5554bf64e3fa2918f5230d307a/DDesignerAPI-0.0.1.4-py3-none-any.whl
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/e7/35/ac4eb0b1e927e54c48ce3f25b1714e083c09966fed289f514fbfb138eb09/ansible-risk-insight-0.1.4.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [cellscanner]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [cellscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellscanner-1.6.tar.gz tmp/cellscanner-1.7.tar.gz --markdown 20230424/c/cellscanner/1.6-1.7/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [nimagen]: Downloading https://files.pythonhosted.org/packages/94/e2/8efeb2a8e9085105db9e0d7fccb8aa48f9f321854d6a611b07921322017e/nimagen-0.0.3.tar.gz
+[2023-04-24 12:31:47] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.1.3-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.1.4-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.3rc1.tar.gz tmp/ansible-risk-insight-0.1.4.tar.gz --markdown 20230424/a/ansible-risk-insight/0.1.3rc1-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] INFO root fetch - processPackages [nimagen]: executing diffoscope
+[2023-04-24 12:31:47] INFO root fetch - processPackages [nimagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimagen-0.0.2.tar.gz tmp/nimagen-0.0.3.tar.gz --markdown 20230424/n/nimagen/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 12:31:47] WARNING root fetch - processPackages [trustyai]: Skipping package: exceeds size limit 18518640>=10485760
+[2023-04-24 12:31:47] INFO root fetch - processPackages [trustyai]: Start processing: sosin
+[2023-04-24 12:31:47] INFO root fetch - main [MainThread]: End processing [trustyai] error
+[2023-04-24 12:31:47] INFO root fetch - processPackages [sosin]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 12:31:48] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/f5/8c/060212f26c99c6a943168171eb16589f66c583d5f2fe87407e0052ba2dda/sosin-1.0.3.tar.gz
+[2023-04-24 12:31:48] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-04-24 12:31:48] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.0.2.tar.gz tmp/sosin-1.0.3.tar.gz --markdown 20230424/s/sosin/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 12:31:48] INFO root fetch - processPackages [pix2tex]: Downloading https://files.pythonhosted.org/packages/5c/26/9890e7f84acfe7369743da7bf7176d4913f3e680782444a61399c33c9261/pix2tex-0.1.1-py3-none-any.whl
+[2023-04-24 12:31:48] INFO root fetch - processPackages [pix2tex]: executing diffoscope
+[2023-04-24 12:31:48] INFO root fetch - processPackages [pix2tex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix2tex-0.0.9-py3-none-any.whl.zip tmp/pix2tex-0.1.1-py3-none-any.whl.zip --markdown 20230424/p/pix2tex/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 12:31:49] INFO root fetch - processPackages [hkfdb]: Start processing: gmm-mi
+[2023-04-24 12:31:49] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-04-24 12:31:49] INFO root fetch - processPackages [gmm-mi]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-04-24 12:31:49] INFO root fetch - processPackages [hkfdb]: Start processing: applicationcount
+[2023-04-24 12:31:49] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-04-24 12:31:49] INFO root fetch - processPackages [applicationcount]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 12:31:49] INFO root fetch - processPackages [oaas-sdk-py]: Start processing: cellscanner
+[2023-04-24 12:31:49] INFO root fetch - main [MainThread]: End processing [oaas-sdk-py]: success
+[2023-04-24 12:31:49] INFO root fetch - processPackages [cellscanner]: New version: [1.7] Old Version: [1.6]
+[2023-04-24 12:31:49] INFO root fetch - processPackages [gmm-mi]: Downloading https://files.pythonhosted.org/packages/30/b0/f497296a965f6ff46fb016f02a13e2646182ec7462934c6e39ae8c918af9/gmm_mi-0.4.3.tar.gz
+[2023-04-24 12:31:49] INFO root fetch - processPackages [cellscanner]: executing diffoscope
+[2023-04-24 12:31:49] INFO root fetch - processPackages [cellscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellscanner-1.6.tar.gz tmp/cellscanner-1.7.tar.gz --markdown 20230424/c/cellscanner/1.6-1.7/diff.md --exclude *.pyd
+[2023-04-24 12:31:49] INFO root fetch - processPackages [applicationcount]: Downloading https://files.pythonhosted.org/packages/25/01/7b364b69cb407b081d0ef24e89553e41ebd4dc4e241d2a435e0f507d7e2c/applicationcount-0.0.2.tar.gz
+[2023-04-24 12:31:49] INFO root fetch - processPackages [DDesignerAPI]: Start processing: coca-tools
+[2023-04-24 12:31:49] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 12:31:49] INFO root fetch - processPackages [coca-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 12:31:49] INFO root fetch - processPackages [flexypy]: Start processing: dbt-firebolt
+[2023-04-24 12:31:49] INFO root fetch - main [MainThread]: End processing [flexypy]: success
+[2023-04-24 12:31:49] INFO root fetch - processPackages [dbt-firebolt]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-24 12:31:49] INFO root fetch - processPackages [gmm-mi]: Downloading https://files.pythonhosted.org/packages/37/48/b0e35c6743bd711adf516f33fea83567d7cce4e408065d9b192529f82579/gmm_mi-0.5.0.tar.gz
+[2023-04-24 12:31:49] INFO root fetch - processPackages [gmm-mi]: executing diffoscope
+[2023-04-24 12:31:49] INFO root fetch - processPackages [gmm-mi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmm_mi-0.4.3.tar.gz tmp/gmm_mi-0.5.0.tar.gz --markdown 20230424/g/gmm-mi/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-04-24 12:31:49] INFO root fetch - processPackages [coca-tools]: Downloading https://files.pythonhosted.org/packages/0f/6c/b722c7e0bbb93601838c22b13625388f3bd656a35766f582ab21f5c83cff/coca_tools-0.2.1.tar.gz
+[2023-04-24 12:31:49] INFO root fetch - processPackages [coca-tools]: executing diffoscope
+[2023-04-24 12:31:49] INFO root fetch - processPackages [coca-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coca_tools-0.2.0.tar.gz tmp/coca_tools-0.2.1.tar.gz --markdown 20230424/c/coca-tools/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 12:31:49] INFO root fetch - processPackages [applicationcount]: Downloading https://files.pythonhosted.org/packages/45/2c/e1af47b22828184a6b9712c00ebac09adb80bd8b426241c2143b309f5b39/applicationcount-0.0.3.tar.gz
+[2023-04-24 12:31:49] INFO root fetch - processPackages [dbt-firebolt]: Downloading https://files.pythonhosted.org/packages/8e/62/fa01864a4b17d512cbfff7d12933e610d4b03051fad4100ebdcf8bb52e2e/dbt_firebolt-1.4.1.tar.gz
+[2023-04-24 12:31:49] INFO root fetch - processPackages [applicationcount]: executing diffoscope
+[2023-04-24 12:31:49] INFO root fetch - processPackages [applicationcount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applicationcount-0.0.2.tar.gz tmp/applicationcount-0.0.3.tar.gz --markdown 20230424/a/applicationcount/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 12:31:50] INFO root fetch - processPackages [sosin]: Start processing: DDesignerAPI
+[2023-04-24 12:31:50] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-04-24 12:31:50] INFO root fetch - processPackages [dbt-firebolt]: Downloading https://files.pythonhosted.org/packages/e5/67/f35682d7315f4e03876a0d18ddb921a3f861a4a0fc59e5a6043612efb112/dbt_firebolt-1.4.2.tar.gz
+[2023-04-24 12:31:50] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-04-24 12:31:50] INFO root fetch - processPackages [dbt-firebolt]: executing diffoscope
+[2023-04-24 12:31:50] INFO root fetch - processPackages [dbt-firebolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_firebolt-1.4.1.tar.gz tmp/dbt_firebolt-1.4.2.tar.gz --markdown 20230424/d/dbt-firebolt/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-24 12:31:50] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 12:31:50] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.1.3-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.1.4-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-04-24 12:31:50] INFO root fetch - processPackages [pix2tex]: Start processing: mltu
+[2023-04-24 12:31:50] INFO root fetch - main [MainThread]: End processing [pix2tex]: success
+[2023-04-24 12:31:50] INFO root fetch - processPackages [mltu]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 12:31:50] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/29/97/beddbb722b630327e2e86086cc501026ed9614647be1460c5d05debf613b/mltu-1.0.7.tar.gz
+[2023-04-24 12:31:51] INFO root fetch - processPackages [nimagen]: Start processing: elegantmotd
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [nimagen]: success
+[2023-04-24 12:31:51] WARNING root fetch - processPackages [elegantmotd]: Skipping, unable to determine old version
+[2023-04-24 12:31:51] INFO root fetch - processPackages [elegantmotd]: Start processing: ssb-altinn-python
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [elegantmotd] error
+[2023-04-24 12:31:51] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/6c/7a/53267e410178b81e16179bba8681a8ec5371b61b229a6af8deb4d1ec90a5/mltu-1.0.8.tar.gz
+[2023-04-24 12:31:51] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 12:31:51] INFO root fetch - processPackages [mltu]: executing diffoscope
+[2023-04-24 12:31:51] INFO root fetch - processPackages [mltu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltu-1.0.7.tar.gz tmp/mltu-1.0.8.tar.gz --markdown 20230424/m/mltu/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 12:31:51] INFO root fetch - processPackages [gmm-mi]: Start processing: gentrace-py
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [gmm-mi]: success
+[2023-04-24 12:31:51] INFO root fetch - processPackages [gentrace-py]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-24 12:31:51] INFO root fetch - processPackages [applicationcount]: Start processing: PTWordFinder
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [applicationcount]: success
+[2023-04-24 12:31:51] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/77/ac/b0303788be7f1dc74c8f8d7bae4a43623445388b267ad42e7d4e08decb5e/ssb_altinn_python-0.1.0.tar.gz
+[2023-04-24 12:31:51] INFO root fetch - processPackages [PTWordFinder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 12:31:51] INFO root fetch - processPackages [PTWordFinder]: executing diffoscope
+[2023-04-24 12:31:51] INFO root fetch - processPackages [PTWordFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PTWordFinder-1.0.8.tar.gz tmp/PTWordFinder-1.0.9.tar.gz --markdown 20230424/P/PTWordFinder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:31:51] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/db/6b/054a159d135555b464e2a9a7aebb99487fac7b13983345d12617a3aaa610/gentrace_py-0.5.1.tar.gz
+[2023-04-24 12:31:51] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/2d/5d/15702b1771c4e67ba2a892afd2adab852c271dfb29443848454f3c090032/ssb_altinn_python-0.2.0.tar.gz
+[2023-04-24 12:31:51] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-24 12:31:51] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.1.0.tar.gz tmp/ssb_altinn_python-0.2.0.tar.gz --markdown 20230424/s/ssb-altinn-python/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 12:31:51] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/ac/67/22f6ffe178b8a938a71097a290fd17e9bbda57eec39072eb53eed6c6b0f7/gentrace_py-0.5.2.tar.gz
+[2023-04-24 12:31:51] INFO root fetch - processPackages [DDesignerAPI]: Start processing: deepsea
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 12:31:51] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-04-24 12:31:51] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.5.1.tar.gz tmp/gentrace_py-0.5.2.tar.gz --markdown 20230424/g/gentrace-py/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-24 12:31:51] INFO root fetch - processPackages [coca-tools]: Start processing: Astras
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [coca-tools]: success
+[2023-04-24 12:31:51] WARNING root fetch - processPackages [deepsea]: Skipping, unable to determine old version
+[2023-04-24 12:31:51] INFO root fetch - processPackages [deepsea]: Start processing: nasap
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [deepsea] error
+[2023-04-24 12:31:51] WARNING root fetch - processPackages [Astras]: Skipping, unable to determine old version
+[2023-04-24 12:31:51] INFO root fetch - processPackages [Astras]: Start processing: elegantmotd
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [Astras] error
+[2023-04-24 12:31:51] INFO root fetch - processPackages [nasap]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-24 12:31:51] WARNING root fetch - processPackages [elegantmotd]: Skipping, unable to determine old version
+[2023-04-24 12:31:51] INFO root fetch - processPackages [elegantmotd]: Start processing: vtece4564-gamelib
+[2023-04-24 12:31:51] INFO root fetch - main [MainThread]: End processing [elegantmotd] error
+[2023-04-24 12:31:52] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:31:52] INFO root fetch - processPackages [nasap]: Downloading https://files.pythonhosted.org/packages/a0/47/0d3e08c0a1a08ea844edbf965982aa1ecd9cefe9adde4aecdcf6ecf339cb/nasap-0.2.7.tar.gz
+[2023-04-24 12:31:52] INFO root fetch - main [MainThread]: End processing [dbt-firebolt]: success
+[2023-04-24 12:31:52] INFO root fetch - processPackages [vtece4564-gamelib]: Downloading https://files.pythonhosted.org/packages/71/6a/15f6b3cfa1cd19a8244b43f2f07bb9620df8549ab68a89c67815308dde98/vtece4564-gamelib-0.0.9.tar.gz
+[2023-04-24 12:31:52] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-24 12:31:52] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230424/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:31:52] INFO root fetch - main [MainThread]: End processing [PTWordFinder]: success
+[2023-04-24 12:31:52] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
+[2023-04-24 12:31:52] INFO root fetch - main [MainThread]: End processing [mltu]: success
+[2023-04-24 12:31:52] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-24 12:31:53] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-04-24 12:31:53] INFO root fetch - processPackages [nasap]: Downloading https://files.pythonhosted.org/packages/11/aa/07cff1352753cd1f5efdae3a120a84f53b0f83653b7a3e62e3a97408507f/nasap-0.2.9.tar.gz
+[2023-04-24 12:31:53] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-24 12:31:53] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
+[2023-04-24 12:31:54] INFO root fetch - processPackages [nasap]: executing diffoscope
+[2023-04-24 12:31:54] INFO root fetch - processPackages [nasap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nasap-0.2.7.tar.gz tmp/nasap-0.2.9.tar.gz --markdown 20230424/n/nasap/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 12:31:54] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-04-24 12:31:56] INFO root fetch - main [MainThread]: End processing [nasap]: success
+[2023-04-24 12:31:56] INFO root fetch - main [MainThread]: Store serial: [17832271]
