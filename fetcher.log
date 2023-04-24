@@ -8778,3 +8778,92 @@
 [2023-04-24 11:19:48] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-04-24 11:20:19] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-24 11:20:19] INFO root fetch - main [MainThread]: Store serial: [17831416]
+[2023-04-24 11:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831416]
+[2023-04-24 11:25:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-image-changelog
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.projen-awscdk-construct
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-difflibext
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typedparser
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: system-superset-driver
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geti-sdk
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jutool
+[2023-04-24 11:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-04-24 11:25:29] WARNING root fetch - processPackages [odoo-image-changelog]: Skipping, unable to determine old version
+[2023-04-24 11:25:29] INFO root fetch - processPackages [odoo-image-changelog]: Start processing: pyecotrend-ista
+[2023-04-24 11:25:29] INFO root fetch - main [MainThread]: End processing [odoo-image-changelog] error
+[2023-04-24 11:25:29] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [robotframework-difflibext]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [typedparser]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.8.tar.gz tmp/system_superset_driver-0.0.9.tar.gz --markdown 20230424/s/system-superset-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:25:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230424/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 11:25:29] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/61/6b/bcfe02bba9bb1af63b1d80039139b85b4cfdf280190d86498cc89f6ba607/typedparser-0.1.14.tar.gz
+[2023-04-24 11:25:29] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230424/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 11:25:29] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230424/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-24 11:25:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-24 11:25:29] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/7c/c2/78bada08df2750700b391844d4b228657e7516affb443fd31689f561c71f/geti-sdk-1.4.1.tar.gz
+[2023-04-24 11:25:29] INFO root fetch - processPackages [robotframework-difflibext]: Downloading https://files.pythonhosted.org/packages/18/fd/ec2ad4754eae25b1931de01e471f9911acb2b77c29f01353257b91917104/robotframework_difflibext-0.0.4-py3-none-any.whl
+[2023-04-24 11:25:29] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.1.tar.gz tmp/pyecotrend-ista-2.0.2.tar.gz --markdown 20230424/p/pyecotrend-ista/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 11:25:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230424/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-24 11:25:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-24 11:25:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230424/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-24 11:25:30] INFO root fetch - processPackages [robotframework-difflibext]: executing diffoscope
+[2023-04-24 11:25:30] INFO root fetch - processPackages [robotframework-difflibext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_difflibext-0.0.3-py3-none-any.whl.zip tmp/robotframework_difflibext-0.0.4-py3-none-any.whl.zip --markdown 20230424/r/robotframework-difflibext/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 11:25:30] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/65/c0/0c4e286d26c37814efd408794baff70084a0e759eec409dd2399f68892dc/geti-sdk-1.5.0.tar.gz
+[2023-04-24 11:25:30] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/43/29/672a67daf04cd16f02915942ef0790b40724ac81e775f6c6d2142d07b011/typedparser-0.1.15.tar.gz
+[2023-04-24 11:25:30] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-04-24 11:25:30] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.1.14.tar.gz tmp/typedparser-0.1.15.tar.gz --markdown 20230424/t/typedparser/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-04-24 11:25:30] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-04-24 11:25:30] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.4.1.tar.gz tmp/geti-sdk-1.5.0.tar.gz --markdown 20230424/g/geti-sdk/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-24 11:25:30] INFO root fetch - processPackages [system-superset-driver]: Start processing: ssb-altinn-python
+[2023-04-24 11:25:30] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 11:25:31] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 11:25:31] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: mainnet
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-04-24 11:25:31] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-24 11:25:31] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.0.7.tar.gz tmp/ssb_altinn_python-0.0.8.tar.gz --markdown 20230424/s/ssb-altinn-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 11:25:31] INFO root fetch - processPackages [mainnet]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-24 11:25:31] INFO root fetch - processPackages [robotframework-difflibext]: Start processing: berlin-appointment-finder
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [robotframework-difflibext]: success
+[2023-04-24 11:25:31] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: quantecon
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-24 11:25:31] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/d4/c2/45613332fd80fd98377ba27291ee3970dff6cf8d45b8af85f07eb1c6b246/mainnet-1.1.5.tar.gz
+[2023-04-24 11:25:31] INFO root fetch - processPackages [berlin-appointment-finder]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 11:25:31] INFO root fetch - processPackages [spanishconjugator]: Start processing: winavsos
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-24 11:25:31] INFO root fetch - processPackages [quantecon]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-24 11:25:31] WARNING root fetch - processPackages [winavsos]: Skipping, unable to determine old version
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [winavsos] error
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-04-24 11:25:31] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-04-24 11:25:31] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.4.tar.gz tmp/mainnet-1.1.5.tar.gz --markdown 20230424/m/mainnet/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-24 11:25:31] INFO root fetch - processPackages [berlin-appointment-finder]: Downloading https://files.pythonhosted.org/packages/1a/ee/ccb942dfb9330ba9734bb8ee37c27aa94b9ff763c713b2ed326d42506790/berlin-appointment-finder-1.0.2.tar.gz
+[2023-04-24 11:25:31] INFO root fetch - processPackages [quantecon]: Downloading https://files.pythonhosted.org/packages/00/05/0507b504313f0197ddaf47e919022899838451e03b6d0c17067356de54ff/quantecon-0.6.0.tar.gz
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-24 11:25:31] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-24 11:25:32] INFO root fetch - processPackages [berlin-appointment-finder]: Downloading https://files.pythonhosted.org/packages/ae/ab/2c50bd864e865b77b481a23fcd02c641d69c06b913ed997cd11a611559cb/berlin-appointment-finder-1.0.3.tar.gz
+[2023-04-24 11:25:32] INFO root fetch - processPackages [quantecon]: Downloading https://files.pythonhosted.org/packages/d5/77/fecfb125911571117c3fdc4b27d3728d4bfe826a3396e9688cd53f927b7f/quantecon-0.7.0.tar.gz
+[2023-04-24 11:25:32] INFO root fetch - processPackages [berlin-appointment-finder]: executing diffoscope
+[2023-04-24 11:25:32] INFO root fetch - processPackages [berlin-appointment-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berlin-appointment-finder-1.0.2.tar.gz tmp/berlin-appointment-finder-1.0.3.tar.gz --markdown 20230424/b/berlin-appointment-finder/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 11:25:32] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-24 11:25:32] INFO root fetch - processPackages [quantecon]: executing diffoscope
+[2023-04-24 11:25:32] INFO root fetch - processPackages [quantecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-0.6.0.tar.gz tmp/quantecon-0.7.0.tar.gz --markdown 20230424/q/quantecon/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-24 11:25:33] INFO root fetch - main [MainThread]: End processing [berlin-appointment-finder]: success
+[2023-04-24 11:25:33] INFO root fetch - main [MainThread]: End processing [quantecon]: success
+[2023-04-24 11:25:36] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-04-24 11:25:38] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-04-24 11:25:38] INFO root fetch - main [MainThread]: Store serial: [17831466]
