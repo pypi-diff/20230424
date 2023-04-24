@@ -4762,3 +4762,34 @@
 [2023-04-24 06:10:40] INFO root fetch - main [MainThread]: End processing [psynet]: success
 [2023-04-24 06:10:56] INFO root fetch - main [MainThread]: End processing [appdefender]: success
 [2023-04-24 06:10:56] INFO root fetch - main [MainThread]: Store serial: [17828966]
+[2023-04-24 06:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828966]
+[2023-04-24 06:16:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 06:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plasticwrap
+[2023-04-24 06:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stralgo
+[2023-04-24 06:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sitcom
+[2023-04-24 06:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pantsbuild.pants.testutil
+[2023-04-24 06:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testapp-junguin
+[2023-04-24 06:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-all-out
+[2023-04-24 06:16:05] INFO root fetch - processPackages [sitcom]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 06:16:05] INFO root fetch - processPackages [fastapi-all-out]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-24 06:16:05] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-04-24 06:16:05] WARNING root fetch - processPackages [plasticwrap]: Skipping, unable to determine old version
+[2023-04-24 06:16:05] INFO root fetch - main [MainThread]: End processing [plasticwrap] error
+[2023-04-24 06:16:05] INFO root fetch - processPackages [stralgo]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-04-24 06:16:05] WARNING root fetch - processPackages [testapp-junguin]: Skipping, unable to determine old version
+[2023-04-24 06:16:05] INFO root fetch - main [MainThread]: End processing [testapp-junguin] error
+[2023-04-24 06:16:05] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-04-24 06:16:05] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230424/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-04-24 06:16:05] INFO root fetch - processPackages [sitcom]: executing diffoscope
+[2023-04-24 06:16:05] INFO root fetch - processPackages [sitcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitcom-1.3.0.tar.gz tmp/sitcom-1.3.1.tar.gz --markdown 20230424/s/sitcom/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 06:16:05] INFO root fetch - processPackages [fastapi-all-out]: executing diffoscope
+[2023-04-24 06:16:05] INFO root fetch - processPackages [fastapi-all-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_all_out-0.2.4.tar.gz tmp/fastapi_all_out-0.2.5.tar.gz --markdown 20230424/f/fastapi-all-out/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-24 06:16:06] INFO root fetch - processPackages [stralgo]: Downloading https://files.pythonhosted.org/packages/3b/a2/18d610179c0892f3fc2aba795be1ab3bb3b21f11e2d7dc5e71d65efb1954/stralgo-0.1.1a1-cp39-none-any.whl
+[2023-04-24 06:16:06] INFO root fetch - processPackages [stralgo]: Downloading https://files.pythonhosted.org/packages/99/38/190251f209a3235fe78e456dc45510e03b4bfb66bd8e8d3cb367d0f8bf14/stralgo-0.1.1a2-cp39-abi3-win32.whl
+[2023-04-24 06:16:06] INFO root fetch - processPackages [stralgo]: executing diffoscope
+[2023-04-24 06:16:06] INFO root fetch - processPackages [stralgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stralgo-0.1.1a1-cp39-none-any.whl.zip tmp/stralgo-0.1.1a2-cp39-abi3-win32.whl.zip --markdown 20230424/s/stralgo/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-04-24 06:16:07] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-04-24 06:16:07] INFO root fetch - main [MainThread]: End processing [stralgo]: success
+[2023-04-24 06:16:07] INFO root fetch - main [MainThread]: End processing [fastapi-all-out]: success
+[2023-04-24 06:16:07] INFO root fetch - main [MainThread]: End processing [sitcom]: success
+[2023-04-24 06:16:07] INFO root fetch - main [MainThread]: Store serial: [17828987]
