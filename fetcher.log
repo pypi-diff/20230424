@@ -16080,3 +16080,99 @@
 [2023-04-24 17:17:54] INFO root fetch - main [MainThread]: End processing [ez-yaml]: success
 [2023-04-24 17:18:02] INFO root fetch - main [MainThread]: End processing [alembic]: success
 [2023-04-24 17:18:02] INFO root fetch - main [MainThread]: Store serial: [17835557]
+[2023-04-24 17:23:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835557]
+[2023-04-24 17:23:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez-yaml
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystacker
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-security-group
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystacker
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GenRisk
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synthdid
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wds-client
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hurdat2parser
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scylla-driver
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qrisp
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ez-yaml]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pystacker]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [GenRisk]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [qrisp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [hurdat2parser]: New version: [2.2.2] Old Version: [2.2]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pystacker]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [synthdid]: New version: [0.9.51] Old Version: [0.9.5]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [scylla-driver]: New version: [3.26.1] Old Version: [3.26.0]
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ez-yaml]: executing diffoscope
+[2023-04-24 17:23:11] INFO root fetch - processPackages [ez-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_yaml-1.3.0.tar.gz tmp/ez_yaml-1.3.2.tar.gz --markdown 20230424/e/ez-yaml/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 17:23:11] INFO root fetch - processPackages [qrisp]: Downloading https://files.pythonhosted.org/packages/7d/fc/8fc920d8270ad4fc07b302b41b90f68b11396185a66cbdc4f2b713dcf83d/qrisp-0.0.8.tar.gz
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/fe/e8/5a0be17d640cd712c843e302737bb1b5d15352e2e133cfe1849addf62f8c/pystacker-1.2.3-py3.10.egg
+[2023-04-24 17:23:11] INFO root fetch - processPackages [GenRisk]: Downloading https://files.pythonhosted.org/packages/e7/3c/ecc7385382d4615b703ba735fa7e7980f3941f5309f231e4cfbc67f4bae3/GenRisk-0.2.4.tar.gz
+[2023-04-24 17:23:11] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/c9/9a/afe09d3d9d7ff6f141490f56276dd810de4cc2aec3cfbbd44fc9b7fd82d4/wds-client-0.2.7.tar.gz
+[2023-04-24 17:23:11] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/fe/e8/5a0be17d640cd712c843e302737bb1b5d15352e2e133cfe1849addf62f8c/pystacker-1.2.3-py3.10.egg
+[2023-04-24 17:23:11] INFO root fetch - processPackages [scylla-driver]: Downloading https://files.pythonhosted.org/packages/44/4a/4383079e69def6e9eb3cd2b74c032e77ece8fc0f6ebcb1eb2127e3d40f54/scylla-driver-3.26.0.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/3d/f3/a197158bd4c36ed6bee171fca35e31d4e19f41caead90fb8d23dd4bc2241/synthdid-0.9.5.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [qrisp]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [qrisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrisp-0.0.7.tar.gz tmp/qrisp-0.0.8.tar.gz --markdown 20230424/q/qrisp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [GenRisk]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [GenRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenRisk-0.2.3.tar.gz tmp/GenRisk-0.2.4.tar.gz --markdown 20230424/G/GenRisk/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/97/57/08ec6c4ff4e0de6bd29bbe5f403132cdea1e7db01cce2c578903014d0aa9/hurdat2parser-2.2.2.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [hurdat2parser]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [hurdat2parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurdat2parser-2.2.tar.gz tmp/hurdat2parser-2.2.2.tar.gz --markdown 20230424/h/hurdat2parser/2.2-2.2.2/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/b9/f2/d58dbcdf1603c7497be18ef1952071db1a0f85bc0d5a2ce4922942b292ee/synthdid-0.9.51.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [scylla-driver]: Downloading https://files.pythonhosted.org/packages/a5/4a/4da134f72591b313ffc32d1bee3a79f1af7fc336a153ef278b3c3a21f51e/scylla-driver-3.26.1.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/52/0e/257f94b1a1dad6198f1dcee34010593590873dd1d6100c15affe4662bbea/wds-client-0.2.8.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [synthdid]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [synthdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthdid-0.9.5.tar.gz tmp/synthdid-0.9.51.tar.gz --markdown 20230424/s/synthdid/0.9.5-0.9.51/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/9a/0d/cdef215282840657d1b4fd5c490339a690c905a5c5c6bb4985f0d78c4413/pystacker-1.2.4.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/9a/0d/cdef215282840657d1b4fd5c490339a690c905a5c5c6bb4985f0d78c4413/pystacker-1.2.4.tar.gz
+[2023-04-24 17:23:12] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.2.3-py3.10.egg tmp/pystacker-1.2.4.tar.gz --markdown 20230424/p/pystacker/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.2.3-py3.10.egg tmp/pystacker-1.2.4.tar.gz --markdown 20230424/p/pystacker/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [scylla-driver]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [scylla-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scylla-driver-3.26.0.tar.gz tmp/scylla-driver-3.26.1.tar.gz --markdown 20230424/s/scylla-driver/3.26.0-3.26.1/diff.md --exclude *.pyd
+[2023-04-24 17:23:12] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-24 17:23:12] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230424/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-24 17:23:13] INFO root fetch - processPackages [ez-yaml]: Start processing: blueapi
+[2023-04-24 17:23:13] INFO root fetch - main [MainThread]: End processing [ez-yaml]: success
+[2023-04-24 17:23:13] INFO root fetch - processPackages [blueapi]: New version: [0.2.3b1] Old Version: [0.2.2]
+[2023-04-24 17:23:13] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: fusionsc
+[2023-04-24 17:23:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-04-24 17:23:13] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/a0/36/3a8387f79711b3623aefd0f431aad125022b7d41498dd739834725202096/blueapi-0.2.2.tar.gz
+[2023-04-24 17:23:13] INFO root fetch - processPackages [fusionsc]: New version: [4.0.1] Old Version: [0.3.1.dev1]
+[2023-04-24 17:23:13] INFO root fetch - processPackages [pystacker]: Start processing: pycid-dev
+[2023-04-24 17:23:13] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-04-24 17:23:13] INFO root fetch - processPackages [pycid-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:23:13] INFO root fetch - processPackages [pystacker]: Start processing: py3d
+[2023-04-24 17:23:13] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-04-24 17:23:13] INFO root fetch - processPackages [pycid-dev]: executing diffoscope
+[2023-04-24 17:23:13] INFO root fetch - processPackages [pycid-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycid-dev-0.0.8.tar.gz tmp/pycid-dev-0.0.9.tar.gz --markdown 20230424/p/pycid-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:23:13] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/4c/67/fe41ef9b1835a7e6599041734425b687079b0b699ff7b7dcfed548a1ec09/blueapi-0.2.3b1.tar.gz
+[2023-04-24 17:23:13] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/76/b6/ae11e51a4ed84757d83bb59100f101c3b76139e9e2c6230d333d1eca6874/fusionsc-0.3.1.dev1-cp39-cp39-win_amd64.whl
+[2023-04-24 17:23:13] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:23:13] INFO root fetch - processPackages [synthdid]: Start processing: cognite-gql-pygen
+[2023-04-24 17:23:13] INFO root fetch - main [MainThread]: End processing [synthdid]: success
+[2023-04-24 17:23:13] INFO root fetch - processPackages [blueapi]: executing diffoscope
+[2023-04-24 17:23:13] INFO root fetch - processPackages [blueapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapi-0.2.2.tar.gz tmp/blueapi-0.2.3b1.tar.gz --markdown 20230424/b/blueapi/0.2.2-0.2.3b1/diff.md --exclude *.pyd
+[2023-04-24 17:23:13] INFO root fetch - processPackages [cognite-gql-pygen]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 17:23:13] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/a0/63/dec61e487a55c47f7aca69361e273f9004c562a7b02f2806e1c6133a3e3f/py3d-0.0.8.tar.gz
+[2023-04-24 17:23:13] INFO root fetch - main [MainThread]: End processing [GenRisk]: success
+[2023-04-24 17:23:14] INFO root fetch - processPackages [cognite-gql-pygen]: executing diffoscope
+[2023-04-24 17:23:14] INFO root fetch - processPackages [cognite-gql-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_gql_pygen-0.2.0.tar.gz tmp/cognite_gql_pygen-0.2.1.tar.gz --markdown 20230424/c/cognite-gql-pygen/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 17:23:14] INFO root fetch - main [MainThread]: End processing [qrisp]: success
+[2023-04-24 17:23:14] INFO root fetch - main [MainThread]: End processing [scylla-driver]: success
+[2023-04-24 17:23:14] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-04-24 17:23:14] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-04-24 17:23:14] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-04-24 17:23:14] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/42/7f/b468d9b3eb4a15d524dfa2757a79decc39cdb1d48240d423407d8440bb99/py3d-0.0.9.tar.gz
+[2023-04-24 17:23:14] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-04-24 17:23:14] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.8.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230424/p/py3d/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:23:14] INFO root fetch - main [MainThread]: End processing [pycid-dev]: success
+[2023-04-24 17:23:14] INFO root fetch - main [MainThread]: End processing [hurdat2parser]: success
+[2023-04-24 17:23:14] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-24 17:23:15] INFO root fetch - main [MainThread]: End processing [cognite-gql-pygen]: success
+[2023-04-24 17:23:15] INFO root fetch - main [MainThread]: End processing [blueapi]: success
+[2023-04-24 17:23:15] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-04-24 17:23:15] INFO root fetch - main [MainThread]: Store serial: [17835636]
