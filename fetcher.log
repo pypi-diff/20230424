@@ -14607,3 +14607,109 @@
 [2023-04-24 16:17:15] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
 [2023-04-24 16:17:17] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
 [2023-04-24 16:17:17] INFO root fetch - main [MainThread]: Store serial: [17834722]
+[2023-04-24 16:22:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834722]
+[2023-04-24 16:22:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transfa
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: focal-loss-torch
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphql-api
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GenPackageDoc
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shapelets-rec-client
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shapelets-rec-server
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langsa-system
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gcp-pilot
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphdisplay
+[2023-04-24 16:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-24 16:22:27] INFO root fetch - processPackages [transfa]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 16:22:27] WARNING root fetch - processPackages [shapelets-rec-server]: Skipping, unable to determine old version
+[2023-04-24 16:22:27] WARNING root fetch - processPackages [shapelets-rec-client]: Skipping, unable to determine old version
+[2023-04-24 16:22:27] INFO root fetch - processPackages [shapelets-rec-server]: Start processing: sertit
+[2023-04-24 16:22:27] INFO root fetch - main [MainThread]: End processing [shapelets-rec-server] error
+[2023-04-24 16:22:27] INFO root fetch - processPackages [shapelets-rec-client]: Start processing: rpa-cooperativa
+[2023-04-24 16:22:27] INFO root fetch - main [MainThread]: End processing [shapelets-rec-client] error
+[2023-04-24 16:22:27] INFO root fetch - processPackages [graphql-api]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 16:22:27] WARNING root fetch - processPackages [graphdisplay]: Skipping, unable to determine old version
+[2023-04-24 16:22:27] INFO root fetch - processPackages [graphdisplay]: Start processing: aepp
+[2023-04-24 16:22:27] INFO root fetch - main [MainThread]: End processing [graphdisplay] error
+[2023-04-24 16:22:27] INFO root fetch - processPackages [focal-loss-torch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [GenPackageDoc]: New version: [0.39.0] Old Version: [0.34.1]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [langsa-system]: New version: [0.21] Old Version: [0.1]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [gcp-pilot]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.45] Old Version: [1.0.44]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [aepp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 16:22:27] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/18/b5/8f8ae3243c9a8219ed4d021a73afa00c403efb3965526ea84b690569d3c7/sertit-1.8.1.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 16:22:27] INFO root fetch - processPackages [langsa-system]: Downloading https://files.pythonhosted.org/packages/50/36/613dfee83f83e1d4b40f5304e772b4db9daf6082cb9dbf5cc7832d5cfc84/langsa_system-0.1.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/b7/68/7146a9a47430795a4ceaf0c739b28278ccdcdbac97fe36332d147d9ac477/rpa_cooperativa-1.0.44.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [gcp-pilot]: Downloading https://files.pythonhosted.org/packages/78/4c/904d9bfad08e100e7292aa65ba02bb2970a1847c9b70f40c2e5b5f7c0394/gcp_pilot-1.8.0.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [transfa]: Downloading https://files.pythonhosted.org/packages/fa/71/9bb51902c3edb8a7e8fb4f982ac7bb1bc8559b6d756cefcf4c04a67ced87/transfa-0.2.2.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [GenPackageDoc]: Downloading https://files.pythonhosted.org/packages/5d/de/23f74960a8cf5fe5f3b77fcdce8603c1a2b3859db2bd66f22215afd49f33/GenPackageDoc-0.34.1.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [focal-loss-torch]: Downloading https://files.pythonhosted.org/packages/fa/5e/e104a0216422d7cad8eda34765d924d9e4876f3acacbeb93f8b2996dbc99/focal_loss_torch-0.1.1.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [aepp]: Downloading https://files.pythonhosted.org/packages/03/6e/4bdf771ccc790513558423968aa32f63f7f9a941d182a25f086f03c6de76/aepp-0.2.8.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [graphql-api]: Downloading https://files.pythonhosted.org/packages/46/e7/a1e81f7a7a7e4dae549bab44bb62f8c7885faea58488a50efc7f5a92ff55/graphql-api-1.3.1.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/59/69/cbc0654faac948effc31798c883e666bf607b99951a584b7d5d192a3f2e4/sertit-1.9.0.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/72/b1/95b0ef911c34f005ca08f060e998f475d002733d9651d0ddf6f4c15d0011/rpa_cooperativa-1.0.45.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [focal-loss-torch]: Downloading https://files.pythonhosted.org/packages/66/2a/41a5b59ba1040f43f2d50c1f1e79bafa4efaf9ca58327aa56d5dc3b22760/focal_loss_torch-0.1.2.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [langsa-system]: Downloading https://files.pythonhosted.org/packages/29/48/4a1106d3ab7becf9473dda777ea3f65e69bfc58b326e9b0bd83a180d7a8e/langsa_system-0.21.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [GenPackageDoc]: Downloading https://files.pythonhosted.org/packages/c0/cb/9be9ead90ad11286cd4728d20584aeea1b21423374b6f7975148b2766f8c/GenPackageDoc-0.39.0.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [graphql-api]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [graphql-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql-api-1.3.0.tar.gz tmp/graphql-api-1.3.1.tar.gz --markdown 20230424/g/graphql-api/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 16:22:27] INFO root fetch - processPackages [aepp]: Downloading https://files.pythonhosted.org/packages/03/74/985e6d21b1fda1a76f899a64812647f8a483097b61e312120e1fb7c41de9/aepp-0.2.9.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20230424/s/sertit/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 16:22:27] INFO root fetch - processPackages [transfa]: Downloading https://files.pythonhosted.org/packages/3c/b0/7c62f7edb74ecd1c3af416a73213a285104e484dd4371458ab28c60a100c/transfa-0.2.3.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [gcp-pilot]: Downloading https://files.pythonhosted.org/packages/77/21/e21af36c6a9ae3ffd798bb349a5af13504c2c3ec3e5361bdfcd34b9fa888/gcp_pilot-1.9.0.tar.gz
+[2023-04-24 16:22:27] INFO root fetch - processPackages [aepp]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [aepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepp-0.2.8.tar.gz tmp/aepp-0.2.9.tar.gz --markdown 20230424/a/aepp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 16:22:27] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.44.tar.gz tmp/rpa_cooperativa-1.0.45.tar.gz --markdown 20230424/r/rpa-cooperativa/1.0.44-1.0.45/diff.md --exclude *.pyd
+[2023-04-24 16:22:27] INFO root fetch - processPackages [focal-loss-torch]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [focal-loss-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focal_loss_torch-0.1.1.tar.gz tmp/focal_loss_torch-0.1.2.tar.gz --markdown 20230424/f/focal-loss-torch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 16:22:27] INFO root fetch - processPackages [langsa-system]: executing diffoscope
+[2023-04-24 16:22:27] INFO root fetch - processPackages [langsa-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsa_system-0.1.tar.gz tmp/langsa_system-0.21.tar.gz --markdown 20230424/l/langsa-system/0.1-0.21/diff.md --exclude *.pyd
+[2023-04-24 16:22:28] INFO root fetch - processPackages [transfa]: executing diffoscope
+[2023-04-24 16:22:28] INFO root fetch - processPackages [transfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transfa-0.2.2.tar.gz tmp/transfa-0.2.3.tar.gz --markdown 20230424/t/transfa/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 16:22:28] INFO root fetch - processPackages [gcp-pilot]: executing diffoscope
+[2023-04-24 16:22:28] INFO root fetch - processPackages [gcp-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pilot-1.8.0.tar.gz tmp/gcp_pilot-1.9.0.tar.gz --markdown 20230424/g/gcp-pilot/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 16:22:28] INFO root fetch - processPackages [GenPackageDoc]: executing diffoscope
+[2023-04-24 16:22:28] INFO root fetch - processPackages [GenPackageDoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenPackageDoc-0.34.1.tar.gz tmp/GenPackageDoc-0.39.0.tar.gz --markdown 20230424/G/GenPackageDoc/0.34.1-0.39.0/diff.md --exclude *.pyd
+[2023-04-24 16:22:28] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: Products.CMFPlone
+[2023-04-24 16:22:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-24 16:22:28] INFO root fetch - processPackages [Products.CMFPlone]: New version: [6.0.4rc1] Old Version: [6.0.4]
+[2023-04-24 16:22:29] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/14/10/a410231d5e217d5b17bbabf19ea1d25602b579b726ea9cf517c724abf291/Products.CMFPlone-6.0.4.tar.gz
+[2023-04-24 16:22:29] INFO root fetch - processPackages [focal-loss-torch]: Start processing: badi-users
+[2023-04-24 16:22:29] INFO root fetch - main [MainThread]: End processing [focal-loss-torch]: success
+[2023-04-24 16:22:29] INFO root fetch - processPackages [badi-users]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-24 16:22:29] INFO root fetch - processPackages [sertit]: Start processing: streetviewdownloader
+[2023-04-24 16:22:29] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2023-04-24 16:22:29] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/86/15/1d0d9a4f51bce9e6174b9f333a31cc4d68740311dd1fe3a67ec6d80ec832/badi_users-0.9.5.tar.gz
+[2023-04-24 16:22:29] INFO root fetch - processPackages [streetviewdownloader]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-24 16:22:29] INFO root fetch - processPackages [langsa-system]: Start processing: python-semantic-release
+[2023-04-24 16:22:29] INFO root fetch - main [MainThread]: End processing [langsa-system]: success
+[2023-04-24 16:22:29] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/db/28/27149a15d732e244bcb5acd2bf8041d668871cd77def8819aa80c3452db5/Products.CMFPlone-6.0.4rc1.tar.gz
+[2023-04-24 16:22:29] INFO root fetch - main [MainThread]: End processing [gcp-pilot]: success
+[2023-04-24 16:22:29] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-04-24 16:22:29] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-04-24 16:22:29] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-0.9.5.tar.gz tmp/badi_users-0.9.6.tar.gz --markdown 20230424/b/badi-users/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-24 16:22:29] INFO root fetch - processPackages [Products.CMFPlone]: executing diffoscope
+[2023-04-24 16:22:29] INFO root fetch - processPackages [Products.CMFPlone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFPlone-6.0.4.tar.gz tmp/Products.CMFPlone-6.0.4rc1.tar.gz --markdown 20230424/P/Products.CMFPlone/6.0.4-6.0.4rc1/diff.md --exclude *.pyd
+[2023-04-24 16:22:29] INFO root fetch - processPackages [streetviewdownloader]: Downloading https://files.pythonhosted.org/packages/bc/50/75890750f2d5686107dc5f0b58139aa8a3c39a99c0e52934bce9ced9c496/streetviewdownloader-0.2.3.tar.gz
+[2023-04-24 16:22:29] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a5] Old Version: [8.0.0a4]
+[2023-04-24 16:22:29] INFO root fetch - main [MainThread]: End processing [transfa]: success
+[2023-04-24 16:22:29] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/8a/5a/0d15fc08a75ba6e75eaea422dc7c042204c23ffda956d0bc43fbbc7e00d5/python-semantic-release-8.0.0a4.tar.gz
+[2023-04-24 16:22:29] INFO root fetch - processPackages [streetviewdownloader]: Downloading https://files.pythonhosted.org/packages/0e/b5/7a209cf69320e1ea1d67dc2d693fb642cb7340aeed324df743244f009475/streetviewdownloader-0.2.4.tar.gz
+[2023-04-24 16:22:30] INFO root fetch - main [MainThread]: End processing [graphql-api]: success
+[2023-04-24 16:22:30] INFO root fetch - processPackages [streetviewdownloader]: executing diffoscope
+[2023-04-24 16:22:30] INFO root fetch - processPackages [streetviewdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streetviewdownloader-0.2.3.tar.gz tmp/streetviewdownloader-0.2.4.tar.gz --markdown 20230424/s/streetviewdownloader/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-24 16:22:30] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/8b/fa/2643a2a5ad6d21b7c8420143ccc4d784e6c43c893512a7585e4e74f56764/python-semantic-release-8.0.0a5.tar.gz
+[2023-04-24 16:22:30] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-04-24 16:22:30] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a4.tar.gz tmp/python-semantic-release-8.0.0a5.tar.gz --markdown 20230424/p/python-semantic-release/8.0.0a4-8.0.0a5/diff.md --exclude *.pyd
+[2023-04-24 16:22:31] INFO root fetch - main [MainThread]: End processing [aepp]: success
+[2023-04-24 16:22:31] INFO root fetch - main [MainThread]: End processing [streetviewdownloader]: success
+[2023-04-24 16:22:31] INFO root fetch - main [MainThread]: End processing [GenPackageDoc]: success
+[2023-04-24 16:22:31] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-04-24 16:22:32] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-04-24 16:22:35] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
+[2023-04-24 16:22:35] INFO root fetch - main [MainThread]: Store serial: [17834782]
