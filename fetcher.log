@@ -9002,3 +9002,100 @@
 [2023-04-24 11:30:52] INFO root fetch - main [MainThread]: End processing [rombus]: success
 [2023-04-24 11:30:52] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-24 11:30:52] INFO root fetch - main [MainThread]: Store serial: [17831551]
+[2023-04-24 11:35:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831551]
+[2023-04-24 11:36:01] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bp-data-visualization
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vaxa-plotly-branding
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pheno-utils
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xinvert
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chat-client-GB-course-april
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-Rocket
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cullinan
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soakdb3
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-htmx-ui
+[2023-04-24 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: img-host
+[2023-04-24 11:36:01] INFO root fetch - processPackages [vaxa-plotly-branding]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [xinvert]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 11:36:01] WARNING root fetch - processPackages [chat-client-GB-course-april]: Skipping, unable to determine old version
+[2023-04-24 11:36:01] INFO root fetch - processPackages [chat-client-GB-course-april]: Start processing: chat-server-GB-course-april
+[2023-04-24 11:36:01] INFO root fetch - main [MainThread]: End processing [chat-client-GB-course-april] error
+[2023-04-24 11:36:01] WARNING root fetch - processPackages [img-host]: Skipping, unable to determine old version
+[2023-04-24 11:36:01] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [django-htmx-ui]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [img-host]: Start processing: pymuco
+[2023-04-24 11:36:01] INFO root fetch - main [MainThread]: End processing [img-host] error
+[2023-04-24 11:36:01] INFO root fetch - processPackages [soakdb3]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [pheno-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [cullinan]: New version: [0.52a1] Old Version: [0.51]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [pymuco]: New version: [1.1b1] Old Version: [1.0a1]
+[2023-04-24 11:36:01] WARNING root fetch - processPackages [chat-server-GB-course-april]: Skipping, unable to determine old version
+[2023-04-24 11:36:01] INFO root fetch - processPackages [chat-server-GB-course-april]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-24 11:36:01] INFO root fetch - main [MainThread]: End processing [chat-server-GB-course-april] error
+[2023-04-24 11:36:01] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2023-04-24 11:36:01] INFO root fetch - processPackages [api-Rocket]: Downloading https://files.pythonhosted.org/packages/fe/83/60fe2acc362e7f539eb87029da24e881068bff5555548a308e2773fa4de2/api-Rocket-1.2.0.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [django-htmx-ui]: Downloading https://files.pythonhosted.org/packages/66/73/5858de2729949cfb6b26d5d040cda19f180754939cef73b54a5880197da4/django_htmx_ui-0.1.4.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [pymuco]: Downloading https://files.pythonhosted.org/packages/d1/4b/8760ea6db7ce4cb96ee3f1f1c56b99a18e5a872e41984d0e0c294f4cc8ed/pymuco-1.0A1.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: Downloading https://files.pythonhosted.org/packages/76/28/67246005a7587332e3e415748e98ac73e17b162a5b8ac3b6282474ae194f/hakurei_sqlalchemy-graphqlapi-0.0.1.dev4.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [xinvert]: Downloading https://files.pythonhosted.org/packages/a4/60/5d6cbab5ad030ea357fb7718936e471aa55893d39a2d155c89c06aa865bd/xinvert-0.1.2.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [api-Rocket]: Downloading https://files.pythonhosted.org/packages/e8/bf/da09e5154c937803459d9451386927fd7b1979409d2e43bca2134191d33f/api-Rocket-1.3.0.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [vaxa-plotly-branding]: Downloading https://files.pythonhosted.org/packages/7a/ec/f328fa46d3e65277ea8a6af01593bca7bbd28e9eb2539590ab523d55e2d8/vaxa_plotly_branding-0.1.2.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/5e/cc/04f9738d4d90b7489ec82d460ca6341bd746e4a8ce90bc454f8eddab7233/pheno-utils-0.1.7.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/7c/db/20debf804d54288e018a97111b3620240bef604d58a8c160465be3bb6d41/cullinan-0.52a1.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [xinvert]: executing diffoscope
+[2023-04-24 11:36:01] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-24 11:36:01] INFO root fetch - processPackages [xinvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinvert-0.1.1-py2.py3-none-any.whl.zip tmp/xinvert-0.1.2.tar.gz --markdown 20230424/x/xinvert/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 11:36:01] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev3.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev4.tar.gz --markdown 20230424/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev3-0.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-24 11:36:01] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-24 11:36:01] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-0.0.8.tar.gz tmp/bp-data-visualization-0.0.9.tar.gz --markdown 20230424/b/bp-data-visualization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:36:01] INFO root fetch - processPackages [soakdb3]: Downloading https://files.pythonhosted.org/packages/47/44/70fd1febaf2ead75b9a90402c14aeb3f9429eab662cdeb3c3e5a3ce943c3/soakdb3-1.2.0.tar.gz
+[2023-04-24 11:36:01] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-04-24 11:36:01] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.1.6.tar.gz tmp/pheno-utils-0.1.7.tar.gz --markdown 20230424/p/pheno-utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 11:36:01] INFO root fetch - processPackages [vaxa-plotly-branding]: executing diffoscope
+[2023-04-24 11:36:01] INFO root fetch - processPackages [vaxa-plotly-branding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaxa_plotly_branding-0.1.1.tar.gz tmp/vaxa_plotly_branding-0.1.2.tar.gz --markdown 20230424/v/vaxa-plotly-branding/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 11:36:02] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-24 11:36:02] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.2.0.tar.gz tmp/api-Rocket-1.3.0.tar.gz --markdown 20230424/a/api-Rocket/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-24 11:36:02] INFO root fetch - processPackages [soakdb3]: executing diffoscope
+[2023-04-24 11:36:02] INFO root fetch - processPackages [soakdb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soakdb3-1.1.1.tar.gz tmp/soakdb3-1.2.0.tar.gz --markdown 20230424/s/soakdb3/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 11:36:02] INFO root fetch - processPackages [django-htmx-ui]: Downloading https://files.pythonhosted.org/packages/44/a3/e6bf2211254f888807667153a5bb2cf481d16673857f03b79a531e34a124/django_htmx_ui-0.1.5.tar.gz
+[2023-04-24 11:36:02] INFO root fetch - processPackages [cullinan]: executing diffoscope
+[2023-04-24 11:36:02] INFO root fetch - processPackages [cullinan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cullinan-0.51.tar.gz tmp/cullinan-0.52a1.tar.gz --markdown 20230424/c/cullinan/0.51-0.52a1/diff.md --exclude *.pyd
+[2023-04-24 11:36:02] INFO root fetch - processPackages [pymuco]: Downloading https://files.pythonhosted.org/packages/cd/0d/f818ce24bf3dc324248435c555f44332ad9ca791c69dfefaf7ac90ff747b/pymuco-1.1b1.tar.gz
+[2023-04-24 11:36:02] INFO root fetch - processPackages [django-htmx-ui]: executing diffoscope
+[2023-04-24 11:36:02] INFO root fetch - processPackages [django-htmx-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_htmx_ui-0.1.4.tar.gz tmp/django_htmx_ui-0.1.5.tar.gz --markdown 20230424/d/django-htmx-ui/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 11:36:02] INFO root fetch - processPackages [pymuco]: executing diffoscope
+[2023-04-24 11:36:02] INFO root fetch - processPackages [pymuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymuco-1.0A1.tar.gz tmp/pymuco-1.1b1.tar.gz --markdown 20230424/p/pymuco/1.0a1-1.1b1/diff.md --exclude *.pyd
+[2023-04-24 11:36:03] INFO root fetch - processPackages [xinvert]: Start processing: mixalime
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [xinvert]: success
+[2023-04-24 11:36:03] INFO root fetch - processPackages [mixalime]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-24 11:36:03] INFO root fetch - processPackages [vaxa-plotly-branding]: Start processing: tool-library
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [vaxa-plotly-branding]: success
+[2023-04-24 11:36:03] WARNING root fetch - processPackages [tool-library]: Skipping, unable to determine old version
+[2023-04-24 11:36:03] INFO root fetch - processPackages [tool-library]: Start processing: api-Rocket
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [tool-library] error
+[2023-04-24 11:36:03] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-24 11:36:03] INFO root fetch - processPackages [bp-data-visualization]: Start processing: cellscanner
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-24 11:36:03] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-24 11:36:03] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.2.0.tar.gz tmp/api-Rocket-1.3.0.tar.gz --markdown 20230424/a/api-Rocket/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-24 11:36:03] WARNING root fetch - processPackages [cellscanner]: Skipping, unable to determine old version
+[2023-04-24 11:36:03] INFO root fetch - processPackages [cellscanner]: Start processing: serl
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [cellscanner] error
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-24 11:36:03] INFO root fetch - processPackages [serl]: New version: [0.1.0b0] Old Version: [0.0.2a0]
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [cullinan]: success
+[2023-04-24 11:36:03] INFO root fetch - processPackages [mixalime]: executing diffoscope
+[2023-04-24 11:36:03] INFO root fetch - processPackages [mixalime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixalime-2.9.8.tar.gz tmp/mixalime-2.9.9.tar.gz --markdown 20230424/m/mixalime/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-24 11:36:03] INFO root fetch - main [MainThread]: End processing [django-htmx-ui]: success
+[2023-04-24 11:36:04] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/e0/3f/97cd5c1575ae1c5ed8af19b0236e0eb0c944c261135e4f4b13f311a1a0d7/serl-0.0.2a0.tar.gz
+[2023-04-24 11:36:04] INFO root fetch - main [MainThread]: End processing [pymuco]: success
+[2023-04-24 11:36:04] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-04-24 11:36:04] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/68/11/bed444b2306ed5c15c6db5dcc8242b1302f77c271a3a3343a11fb8cb02e7/serl-0.1.0b0.tar.gz
+[2023-04-24 11:36:04] INFO root fetch - processPackages [serl]: executing diffoscope
+[2023-04-24 11:36:04] INFO root fetch - processPackages [serl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serl-0.0.2a0.tar.gz tmp/serl-0.1.0b0.tar.gz --markdown 20230424/s/serl/0.0.2a0-0.1.0b0/diff.md --exclude *.pyd
+[2023-04-24 11:36:04] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-24 11:36:05] INFO root fetch - main [MainThread]: End processing [mixalime]: success
+[2023-04-24 11:36:05] INFO root fetch - main [MainThread]: End processing [serl]: success
+[2023-04-24 11:36:07] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
+[2023-04-24 11:36:07] INFO root fetch - main [MainThread]: Store serial: [17831622]
