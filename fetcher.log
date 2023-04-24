@@ -10740,3 +10740,95 @@
 [2023-04-24 13:09:13] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-04-24 13:09:26] INFO root fetch - main [MainThread]: End processing [sinabs]: success
 [2023-04-24 13:09:26] INFO root fetch - main [MainThread]: Store serial: [17832593]
+[2023-04-24 13:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832593]
+[2023-04-24 13:14:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-chronos
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdk-control-service-api
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-serving
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethyca-fides
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinabs
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccache-download-redis
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-private-bucket
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccache-upload-redis
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-ogsm-plugin
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: squad-foundries-plugins
+[2023-04-24 13:14:35] INFO root fetch - processPackages [vdk-control-service-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-download-redis]: New version: [0.2.0] Old Version: [0.1.1a12]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [pytest-ogsm-plugin]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-upload-redis]: New version: [0.2.0] Old Version: [0.1.1a9]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:14:35] WARNING root fetch - processPackages [squad-foundries-plugins]: Skipping, unable to determine old version
+[2023-04-24 13:14:35] INFO root fetch - processPackages [squad-foundries-plugins]: Start processing: myPyllant
+[2023-04-24 13:14:35] INFO root fetch - processPackages [sinabs]: New version: [1.2.5.dev1] Old Version: [1.2.5]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-24 13:14:35] INFO root fetch - main [MainThread]: End processing [squad-foundries-plugins] error
+[2023-04-24 13:14:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [myPyllant]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-04-24 13:14:35] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/d5/10/c7c8871605c4be13256f68945d025ec1224b838ccab1aa7c806eb15dbb95/vdk-control-service-api-1.0.6.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-download-redis]: Downloading https://files.pythonhosted.org/packages/14/2b/e44888ba97ed46dbc0c48f55617fc7c8a208e27ee10005c134c9fd1ff712/ccache_download_redis-0.1.1a12.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [pytest-ogsm-plugin]: Downloading https://files.pythonhosted.org/packages/1c/8d/4423217b3d98829a4583c9b2fe761f42f359fbdb0175ea63a0d8257a1d94/pytest_ogsm_plugin-3.5.0.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/ef/55/6fc6431ee7d0d792188d66d31a493ac34be69b276137b48dcb05db976cb0/sinabs-1.2.5.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-upload-redis]: Downloading https://files.pythonhosted.org/packages/5a/49/60a8e1b6eab7aec52c7e5366488cacfdf8008aff46be801ca1177f235fc4/ccache_upload_redis-0.2.0.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/81/d5/f3b85b5b2770a5950005e2a727d2cb3c150d830d43774f627fc57158d70f/bigdl_serving-2.4.0b20230424-py2.py3-none-any.whl
+[2023-04-24 13:14:35] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/79/e0/edf6149f7ca9a1fad395d7d7feaa3a9f5b51935301a53b9ffdd4ce2188ec/bigdl_chronos-2.4.0b20230424-py3-none-win_amd64.whl
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-upload-redis]: executing diffoscope
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-upload-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccache_upload_redis-0.1.1a9.tar.gz tmp/ccache_upload_redis-0.2.0.tar.gz --markdown 20230424/c/ccache-upload-redis/0.1.1a9-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:14:35] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/83/b0/504df1c95ec50b8792cb39f3ea07b6c3dc8a66826b8e9e64f13424dd78e4/vdk-control-service-api-1.0.7.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/95/e5/b30072ca9c91ae5771b2efc4550202250aad05d2a40bf0475535946752a9/mypyllant-0.3.0.tar.gz
+[2023-04-24 13:14:35] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-04-24 13:14:35] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.5.tar.gz tmp/sinabs-1.2.5.dev1.tar.gz --markdown 20230424/s/sinabs/1.2.5-1.2.5.dev1/diff.md --exclude *.pyd
+[2023-04-24 13:14:35] INFO root fetch - processPackages [ccache-download-redis]: Downloading https://files.pythonhosted.org/packages/5a/42/55ab23914a0464da0901b54dd0c6174b4da334e9bc5dbd3cfaca23fb222d/ccache_download_redis-0.2.0.tar.gz
+[2023-04-24 13:14:36] INFO root fetch - processPackages [pytest-ogsm-plugin]: Downloading https://files.pythonhosted.org/packages/01/ef/dceb3bbab99d0acfe57dc889bce8018f22dc2a6d2890a55ac6f34d5d44ea/pytest_ogsm_plugin-3.5.1.tar.gz
+[2023-04-24 13:14:36] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230423-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230424-py2.py3-none-any.whl.zip --markdown 20230424/b/bigdl-serving/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230423-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230424-py3-none-win_amd64.whl.zip --markdown 20230424/b/bigdl-chronos/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-04-24 13:14:36] INFO root fetch - processPackages [myPyllant]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [myPyllant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyllant-0.2.3.tar.gz tmp/mypyllant-0.3.0.tar.gz --markdown 20230424/m/myPyllant/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [vdk-control-service-api]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [vdk-control-service-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-service-api-1.0.6.tar.gz tmp/vdk-control-service-api-1.0.7.tar.gz --markdown 20230424/v/vdk-control-service-api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [ccache-download-redis]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [ccache-download-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccache_download_redis-0.1.1a12.tar.gz tmp/ccache_download_redis-0.2.0.tar.gz --markdown 20230424/c/ccache-download-redis/0.1.1a12-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [pytest-ogsm-plugin]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [pytest-ogsm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ogsm_plugin-3.5.0.tar.gz tmp/pytest_ogsm_plugin-3.5.1.tar.gz --markdown 20230424/p/pytest-ogsm-plugin/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 13:14:36] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-04-24 13:14:36] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-04-24 13:14:36] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230424/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-24 13:14:37] INFO root fetch - processPackages [ccache-upload-redis]: Start processing: llm4chat
+[2023-04-24 13:14:37] INFO root fetch - main [MainThread]: End processing [ccache-upload-redis]: success
+[2023-04-24 13:14:37] INFO root fetch - processPackages [llm4chat]: New version: [2023.4.24.19.12.47] Old Version: [2023.4.24.18.52.28]
+[2023-04-24 13:14:37] INFO root fetch - processPackages [bigdl-serving]: Start processing: p-template-generator
+[2023-04-24 13:14:37] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-04-24 13:14:37] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 13:14:37] INFO root fetch - processPackages [llm4chat]: Downloading https://files.pythonhosted.org/packages/eb/f8/08a5027fa47c0a9423188f8664dbf27b53084aafdedcb8c628eb09626e1e/llm4chat-2023.4.24.19.12.47.tar.gz
+[2023-04-24 13:14:37] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/1c/df/a08a0d4221d9beca0d5fd6dda646c3a07951f26d77714cafa8a7c4b9c5cc/p-template-generator-0.1.8.tar.gz
+[2023-04-24 13:14:37] INFO root fetch - processPackages [ccache-download-redis]: Start processing: llmbda-fastapi
+[2023-04-24 13:14:37] INFO root fetch - main [MainThread]: End processing [ccache-download-redis]: success
+[2023-04-24 13:14:37] INFO root fetch - processPackages [pytest-ogsm-plugin]: Start processing: jurebes
+[2023-04-24 13:14:37] INFO root fetch - main [MainThread]: End processing [pytest-ogsm-plugin]: success
+[2023-04-24 13:14:37] WARNING root fetch - processPackages [llmbda-fastapi]: Skipping, unable to determine old version
+[2023-04-24 13:14:37] INFO root fetch - processPackages [jurebes]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-04-24 13:14:37] INFO root fetch - main [MainThread]: End processing [llmbda-fastapi] error
+[2023-04-24 13:14:37] INFO root fetch - main [MainThread]: End processing [myPyllant]: success
+[2023-04-24 13:14:37] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 13:14:37] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.0a1-py3-none-any.whl.zip tmp/jurebes-0.1.0a2-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-04-24 13:14:37] INFO root fetch - processPackages [llm4chat]: executing diffoscope
+[2023-04-24 13:14:37] INFO root fetch - processPackages [llm4chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4chat-2023.4.24.18.52.28.tar.gz tmp/llm4chat-2023.4.24.19.12.47.tar.gz --markdown 20230424/l/llm4chat/2023.4.24.18.52.28-2023.4.24.19.12.47/diff.md --exclude *.pyd
+[2023-04-24 13:14:38] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/4d/c6/b1ba9d57550b94b120e03283c8ce61d054c3f089aed5ef88f169c30f97d8/p-template-generator-0.1.9.tar.gz
+[2023-04-24 13:14:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-04-24 13:14:38] INFO root fetch - main [MainThread]: End processing [vdk-control-service-api]: success
+[2023-04-24 13:14:38] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-04-24 13:14:38] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230424/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 13:14:38] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-04-24 13:14:38] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 13:14:39] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-04-24 13:14:39] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-04-24 13:14:39] INFO root fetch - main [MainThread]: End processing [llm4chat]: success
+[2023-04-24 13:14:45] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-04-24 13:14:45] INFO root fetch - main [MainThread]: Store serial: [17832641]
