@@ -16176,3 +16176,119 @@
 [2023-04-24 17:23:15] INFO root fetch - main [MainThread]: End processing [blueapi]: success
 [2023-04-24 17:23:15] INFO root fetch - main [MainThread]: End processing [py3d]: success
 [2023-04-24 17:23:15] INFO root fetch - main [MainThread]: Store serial: [17835636]
+[2023-04-24 17:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835636]
+[2023-04-24 17:28:26] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: not1mm
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coderedcms-bootstrap4
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synergy-dataset
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: novalabs-backtest
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SupOpNumTools
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synthdid
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-editor
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-editor-dev
+[2023-04-24 17:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chplot
+[2023-04-24 17:28:26] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synergy-dataset]: New version: [1.0a5] Old Version: [1.0a4]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synthdid]: New version: [0.9.52] Old Version: [0.9.51]
+[2023-04-24 17:28:26] WARNING root fetch - processPackages [SupOpNumTools]: Skipping, unable to determine old version
+[2023-04-24 17:28:26] INFO root fetch - processPackages [SupOpNumTools]: Start processing: section16-api
+[2023-04-24 17:28:26] INFO root fetch - main [MainThread]: End processing [SupOpNumTools] error
+[2023-04-24 17:28:26] INFO root fetch - processPackages [coderedcms-bootstrap4]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [chplot]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-24 17:28:26] WARNING root fetch - processPackages [section16-api]: Skipping, unable to determine old version
+[2023-04-24 17:28:26] INFO root fetch - processPackages [section16-api]: Start processing: quantconnect-stubs
+[2023-04-24 17:28:26] INFO root fetch - main [MainThread]: End processing [section16-api] error
+[2023-04-24 17:28:26] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-24 17:28:26] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synergy-dataset]: executing diffoscope
+[2023-04-24 17:28:26] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230424/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synergy-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synergy-dataset-1.0a4.tar.gz tmp/synergy-dataset-1.0a5.tar.gz --markdown 20230424/s/synergy-dataset/1.0a4-1.0a5/diff.md --exclude *.pyd
+[2023-04-24 17:28:26] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/96/78/bf32843b4206d90b939c0d91d6b366a4a9e043e6880f825526946237e001/novalabs-backtest-1.1.8.tar.gz
+[2023-04-24 17:28:26] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-24 17:28:26] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230424/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:28:26] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-24 17:28:26] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230424/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/78/93/3fa92e97ccf64e789905494aa4356a1d1cdb152131508175a09f8b199a04/synthdid-0.9.52.tar.gz
+[2023-04-24 17:28:26] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/85/f4/fe5feb66b2b8ee31edcd57eee2c5a1f33e3e08e2b489b67af8e625905e7d/not1mm-23.4.5.tar.gz
+[2023-04-24 17:28:26] INFO root fetch - processPackages [chplot]: Downloading https://files.pythonhosted.org/packages/f2/0d/15b8d01406fafdeaf73b894a95959c0a14d8b38b80a27284af225e6bdb90/chplot-1.0.1.tar.gz
+[2023-04-24 17:28:26] INFO root fetch - processPackages [coderedcms-bootstrap4]: Downloading https://files.pythonhosted.org/packages/88/62/7498fe2a841a21dfd0cad7acddde2b32e284dee11e890f38e52637db6f9e/coderedcms-bootstrap4-1.0.1.tar.gz
+[2023-04-24 17:28:26] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synthdid]: executing diffoscope
+[2023-04-24 17:28:26] INFO root fetch - processPackages [synthdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthdid-0.9.51.tar.gz tmp/synthdid-0.9.52.tar.gz --markdown 20230424/s/synthdid/0.9.51-0.9.52/diff.md --exclude *.pyd
+[2023-04-24 17:28:27] INFO root fetch - processPackages [chplot]: executing diffoscope
+[2023-04-24 17:28:27] INFO root fetch - processPackages [chplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chplot-1.0.0.post1.tar.gz tmp/chplot-1.0.1.tar.gz --markdown 20230424/c/chplot/1.0.0.post1-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 17:28:27] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/91/02/6374754c865e6079e8664c4e0cfc815e50a70b8e46d1a1864345ac56612c/not1mm-23.4.6.tar.gz
+[2023-04-24 17:28:27] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/a2/38/1bb46fca8aa87d5375b99b0927a732739b47b6f4d60dfa183990acf5110f/novalabs-backtest-1.1.9.tar.gz
+[2023-04-24 17:28:27] INFO root fetch - processPackages [coderedcms-bootstrap4]: Downloading https://files.pythonhosted.org/packages/ff/5e/62da46a43d38281b44d06e10083aeaa9642a84716b72deb745261deddd95/coderedcms-bootstrap4-1.0.2.tar.gz
+[2023-04-24 17:28:27] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-24 17:28:27] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230424/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-24 17:28:27] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-04-24 17:28:27] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230424/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-24 17:28:27] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-04-24 17:28:27] INFO root fetch - processPackages [coderedcms-bootstrap4]: executing diffoscope
+[2023-04-24 17:28:27] INFO root fetch - processPackages [coderedcms-bootstrap4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderedcms-bootstrap4-1.0.1.tar.gz tmp/coderedcms-bootstrap4-1.0.2.tar.gz --markdown 20230424/c/coderedcms-bootstrap4/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 17:28:28] INFO root fetch - processPackages [je-editor]: Start processing: sharingiscaring
+[2023-04-24 17:28:28] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-24 17:28:28] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-24 17:28:28] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230424/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-24 17:28:28] INFO root fetch - processPackages [je-editor-dev]: Start processing: brainstem
+[2023-04-24 17:28:28] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-24 17:28:28] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 17:28:28] INFO root fetch - processPackages [synthdid]: Start processing: funcsforspo-l
+[2023-04-24 17:28:28] INFO root fetch - main [MainThread]: End processing [synthdid]: success
+[2023-04-24 17:28:28] INFO root fetch - processPackages [synergy-dataset]: Start processing: cdk-image-pipeline
+[2023-04-24 17:28:28] INFO root fetch - main [MainThread]: End processing [synergy-dataset]: success
+[2023-04-24 17:28:28] INFO root fetch - processPackages [brainstem]: New version: [2.9.29] Old Version: [2.9.28]
+[2023-04-24 17:28:28] INFO root fetch - processPackages [funcsforspo-l]: New version: [2.1.1] Old Version: [2.0.1]
+[2023-04-24 17:28:28] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 17:28:28] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-04-24 17:28:28] INFO root fetch - processPackages [brainstem]: Downloading https://files.pythonhosted.org/packages/5b/ee/f36a9bc0b2f50a6c2b9e23991b017ecc6d19be5b0807e39c26152cbfba67/brainstem-2.9.28-py2.py3-none-any.whl
+[2023-04-24 17:28:28] INFO root fetch - processPackages [funcsforspo-l]: Downloading https://files.pythonhosted.org/packages/8b/fa/bdf1f077cd66af4bdfd38857c588ccc813d412cb21985bb3e780e5da64af/funcsforspo_l-2.0.1.tar.gz
+[2023-04-24 17:28:28] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/b4/3a/02ba8f2f520770e4cb29d69311aa2da4c5134c136210ac63484bc4df9dc2/cdk-image-pipeline-0.2.0.tar.gz
+[2023-04-24 17:28:28] INFO root fetch - processPackages [novalabs-backtest]: Start processing: foursight-core
+[2023-04-24 17:28:28] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-04-24 17:28:28] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b29] Old Version: [4.0.0]
+[2023-04-24 17:28:28] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-04-24 17:28:28] INFO root fetch - processPackages [funcsforspo-l]: Downloading https://files.pythonhosted.org/packages/47/be/50d03a3ad88552cface46e1f715cb5219974a53ce0de05b3061c9042100f/funcsforspo_l-2.1.1.tar.gz
+[2023-04-24 17:28:28] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/11/f4/547d3915137f237c3826fe9b5db0b9b0786239780ed1b42029deb17b83a3/cdk-image-pipeline-0.2.1.tar.gz
+[2023-04-24 17:28:29] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-24 17:28:29] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230424/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 17:28:29] INFO root fetch - processPackages [funcsforspo-l]: executing diffoscope
+[2023-04-24 17:28:29] INFO root fetch - processPackages [funcsforspo-l]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcsforspo_l-2.0.1.tar.gz tmp/funcsforspo_l-2.1.1.tar.gz --markdown 20230424/f/funcsforspo-l/2.0.1-2.1.1/diff.md --exclude *.pyd
+[2023-04-24 17:28:29] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-24 17:28:29] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.0.0.tar.gz tmp/foursight_core-4.1.0.5b29.tar.gz --markdown 20230424/f/foursight-core/4.0.0-4.1.0.5b29/diff.md --exclude *.pyd
+[2023-04-24 17:28:29] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-04-24 17:28:29] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.2.0.tar.gz tmp/cdk-image-pipeline-0.2.1.tar.gz --markdown 20230424/c/cdk-image-pipeline/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 17:28:29] INFO root fetch - processPackages [brainstem]: Downloading https://files.pythonhosted.org/packages/0b/f7/6977d46559e814956ad3a1ce45a6445274574e3faa16aec385a58fe27de4/brainstem-2.9.29-py2.py3-none-any.whl
+[2023-04-24 17:28:29] INFO root fetch - processPackages [chplot]: Start processing: seelabutk-substrate
+[2023-04-24 17:28:29] INFO root fetch - main [MainThread]: End processing [chplot]: success
+[2023-04-24 17:28:29] INFO root fetch - processPackages [seelabutk-substrate]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-04-24 17:28:29] INFO root fetch - processPackages [seelabutk-substrate]: Downloading https://files.pythonhosted.org/packages/3c/0a/355184697b24d374093adecc5311feebb592485f8f85125aaf794f2b1634/seelabutk-substrate-1.7.1.tar.gz
+[2023-04-24 17:28:30] INFO root fetch - processPackages [brainstem]: executing diffoscope
+[2023-04-24 17:28:30] INFO root fetch - processPackages [brainstem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainstem-2.9.28-py2.py3-none-any.whl.zip tmp/brainstem-2.9.29-py2.py3-none-any.whl.zip --markdown 20230424/b/brainstem/2.9.28-2.9.29/diff.md --exclude *.pyd
+[2023-04-24 17:28:30] INFO root fetch - processPackages [seelabutk-substrate]: Downloading https://files.pythonhosted.org/packages/69/8d/77386d8d0b722b68a112dfb2aa6a948cd9823ff00217e698d042458b0270/seelabutk-substrate-1.7.2.tar.gz
+[2023-04-24 17:28:30] INFO root fetch - processPackages [seelabutk-substrate]: executing diffoscope
+[2023-04-24 17:28:30] INFO root fetch - processPackages [seelabutk-substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seelabutk-substrate-1.7.1.tar.gz tmp/seelabutk-substrate-1.7.2.tar.gz --markdown 20230424/s/seelabutk-substrate/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-04-24 17:28:30] INFO root fetch - processPackages [funcsforspo-l]: Start processing: dans-datastation-tools
+[2023-04-24 17:28:30] INFO root fetch - main [MainThread]: End processing [funcsforspo-l]: success
+[2023-04-24 17:28:30] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-04-24 17:28:30] INFO root fetch - processPackages [dans-datastation-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 17:28:30] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-24 17:28:30] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/08/62/4cba38c948e0fa33a69c9beca81c47287fee27036ce8c320827363d60325/dans-datastation-tools-0.8.0.tar.gz
+[2023-04-24 17:28:30] INFO root fetch - main [MainThread]: End processing [coderedcms-bootstrap4]: success
+[2023-04-24 17:28:30] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-24 17:28:30] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/33/96/44cd919e59f5edb30e2236c9f4259f8c9e7483d1219012cbaf403482dd4d/dans-datastation-tools-0.9.0.tar.gz
+[2023-04-24 17:28:31] INFO root fetch - processPackages [dans-datastation-tools]: executing diffoscope
+[2023-04-24 17:28:31] INFO root fetch - processPackages [dans-datastation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dans-datastation-tools-0.8.0.tar.gz tmp/dans-datastation-tools-0.9.0.tar.gz --markdown 20230424/d/dans-datastation-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 17:28:31] INFO root fetch - main [MainThread]: End processing [seelabutk-substrate]: success
+[2023-04-24 17:28:32] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-24 17:28:32] INFO root fetch - main [MainThread]: End processing [dans-datastation-tools]: success
+[2023-04-24 17:28:33] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-24 17:28:45] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-24 17:29:40] INFO root fetch - main [MainThread]: End processing [brainstem]: success
+[2023-04-24 17:29:40] INFO root fetch - main [MainThread]: Store serial: [17835696]
