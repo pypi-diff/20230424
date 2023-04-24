@@ -12421,3 +12421,92 @@
 [2023-04-24 14:26:56] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
 [2023-04-24 14:26:58] INFO root fetch - main [MainThread]: End processing [limepkg-scrive]: success
 [2023-04-24 14:26:58] INFO root fetch - main [MainThread]: Store serial: [17833448]
+[2023-04-24 14:32:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833448]
+[2023-04-24 14:32:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valmi-connector-lib
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjpt
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptdeploy
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: to-paragraphs
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PHX
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TSInterpret
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ckanext-saml
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-chardet
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-dj-database-url
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NeuralBasics
+[2023-04-24 14:32:07] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [to-paragraphs]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-04-24 14:32:07] WARNING root fetch - processPackages [NeuralBasics]: Skipping, unable to determine old version
+[2023-04-24 14:32:07] INFO root fetch - processPackages [NeuralBasics]: Start processing: sampo
+[2023-04-24 14:32:07] INFO root fetch - main [MainThread]: End processing [NeuralBasics] error
+[2023-04-24 14:32:07] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-24 14:32:07] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230424/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 14:32:07] INFO root fetch - processPackages [pyjpt]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ckanext-saml]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-dj-database-url]: New version: [1.3.0.1] Old Version: [1.3.0.0]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 14:32:07] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.8.tar.gz tmp/to_paragraphs-0.2.0.tar.gz --markdown 20230424/t/to-paragraphs/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 14:32:07] INFO root fetch - processPackages [TSInterpret]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-chardet]: New version: [5.0.4.4] Old Version: [5.0.4.3]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 14:32:07] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-04-24 14:32:07] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230424/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 14:32:07] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-24 14:32:07] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230424/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ckanext-saml]: Downloading https://files.pythonhosted.org/packages/3b/75/be90a63963c575257d7649e1e08ee3e2234ca08d7ec768387242343bd85a/ckanext-saml-0.3.0.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/ae/99/73601ceda619f1e46fab2f60f5aaf5660ae691b2dd888f0b739e15c53b8b/pyjpt-0.1.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-dj-database-url]: Downloading https://files.pythonhosted.org/packages/9b/39/ea6aaeffcb8ff28ff6d10e38b9fe87a869cc6365a6d51374fa2bba06f46f/types-dj-database-url-1.3.0.0.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-chardet]: Downloading https://files.pythonhosted.org/packages/83/75/82f90c0ffdf40f62c118a46ad59228a33ae45cbe3e9f6428ac4db7f08bd0/types-chardet-5.0.4.3.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/35/04/bd840072cd28e833045205e9da674ab3e3d9c012555bad3668b47469c1d9/TSInterpret-0.2.0.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 14:32:07] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-chardet]: Downloading https://files.pythonhosted.org/packages/a1/42/67e01604a34af2f90e72fa80572347bec24740f4f2e0fa437068b7f09352/types-chardet-5.0.4.4.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [ckanext-saml]: Downloading https://files.pythonhosted.org/packages/f0/07/cacf9de24d840d6614af32e762cac3123834001d770fb53b06323e366349/ckanext-saml-0.3.1.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/78/cf/2485d9cab7c53cd77b30dd6ef020c856657ca79743f6963f512651dfe54c/TSInterpret-0.2.1.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-dj-database-url]: Downloading https://files.pythonhosted.org/packages/f1/e0/ff1c4d032b59a0753ac0bdd9f21cb158ba412f960c27b9cb24b843c36ab8/types-dj-database-url-1.3.0.1.tar.gz
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-chardet]: executing diffoscope
+[2023-04-24 14:32:07] INFO root fetch - processPackages [types-chardet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-chardet-5.0.4.3.tar.gz tmp/types-chardet-5.0.4.4.tar.gz --markdown 20230424/t/types-chardet/5.0.4.3-5.0.4.4/diff.md --exclude *.pyd
+[2023-04-24 14:32:08] INFO root fetch - processPackages [ckanext-saml]: executing diffoscope
+[2023-04-24 14:32:08] INFO root fetch - processPackages [ckanext-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-saml-0.3.0.tar.gz tmp/ckanext-saml-0.3.1.tar.gz --markdown 20230424/c/ckanext-saml/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 14:32:08] INFO root fetch - processPackages [TSInterpret]: executing diffoscope
+[2023-04-24 14:32:08] INFO root fetch - processPackages [TSInterpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSInterpret-0.2.0.tar.gz tmp/TSInterpret-0.2.1.tar.gz --markdown 20230424/T/TSInterpret/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 14:32:08] INFO root fetch - processPackages [types-dj-database-url]: executing diffoscope
+[2023-04-24 14:32:08] INFO root fetch - processPackages [types-dj-database-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-dj-database-url-1.3.0.0.tar.gz tmp/types-dj-database-url-1.3.0.1.tar.gz --markdown 20230424/t/types-dj-database-url/1.3.0.0-1.3.0.1/diff.md --exclude *.pyd
+[2023-04-24 14:32:08] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/c7/13/907cebdac0dad5d81112674adbea3b791d181e0141501a5a115b4fce12ba/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 14:32:08] INFO root fetch - processPackages [to-paragraphs]: Start processing: fmu-dataio
+[2023-04-24 14:32:08] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 14:32:08] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: jurebes
+[2023-04-24 14:32:08] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-24 14:32:08] INFO root fetch - processPackages [jurebes]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-04-24 14:32:08] INFO root fetch - processPackages [fmu-dataio]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-04-24 14:32:08] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 14:32:08] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.0a3-py3-none-any.whl.zip tmp/jurebes-0.1.0a4-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-04-24 14:32:09] INFO root fetch - processPackages [fmu-dataio]: Downloading https://files.pythonhosted.org/packages/a1/7e/f7fa387f0d4e055eafc36f4a01e8c7cddcb497df2aca949f497a6b45b817/fmu-dataio-1.6.1.tar.gz
+[2023-04-24 14:32:09] INFO root fetch - processPackages [gptdeploy]: Start processing: delphix-dct-api
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 14:32:09] WARNING root fetch - processPackages [fmu-dataio]: Skipping package: exceeds size limit 14272485>=10485760
+[2023-04-24 14:32:09] INFO root fetch - processPackages [fmu-dataio]: Start processing: macrometa-source-collection
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [fmu-dataio] error
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [types-chardet]: success
+[2023-04-24 14:32:09] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-24 14:32:09] INFO root fetch - processPackages [delphix-dct-api]: New version: [6.0.0rc1] Old Version: [6.0.0]
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [types-dj-database-url]: success
+[2023-04-24 14:32:09] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/d5/27/8bf11d0b7cf73b01f0f604b3a1d7c37794dcc6eba89fec1d7a9547b46e22/macrometa-source-collection-0.0.23.tar.gz
+[2023-04-24 14:32:09] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-04-24 14:32:09] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.22.tar.gz tmp/macrometa-source-collection-0.0.23.tar.gz --markdown 20230424/m/macrometa-source-collection/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-04-24 14:32:09] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/ce/76/4b71e8e826087f0dd3b4a45cc0798b3b3accc16f9b6ebea6890d78aa0553/delphix-dct-api-6.0.0.tar.gz
+[2023-04-24 14:32:09] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-04-24 14:32:09] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/p/pyjpt/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
+[2023-04-24 14:32:09] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 14:32:09] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/e0/b9/f558ed887c7de8466bfcf9b3dfc0c7fb652bf75e9eac026924fdad0cc365/delphix-dct-api-6.0.0rc1.tar.gz
+[2023-04-24 14:32:10] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-04-24 14:32:10] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-6.0.0.tar.gz tmp/delphix-dct-api-6.0.0rc1.tar.gz --markdown 20230424/d/delphix-dct-api/6.0.0-6.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 14:32:10] INFO root fetch - main [MainThread]: End processing [ckanext-saml]: success
+[2023-04-24 14:32:10] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-04-24 14:32:11] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-04-24 14:32:11] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-04-24 14:32:15] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-04-24 14:32:15] INFO root fetch - main [MainThread]: Store serial: [17833491]
