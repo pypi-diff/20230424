@@ -6115,3 +6115,89 @@
 [2023-04-24 08:51:56] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
 [2023-04-24 08:51:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 08:51:57] INFO root fetch - main [MainThread]: Store serial: [17829807]
+[2023-04-24 08:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829807]
+[2023-04-24 08:57:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xobjects
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gWeaver
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bp-data-visualization
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: target-mssql
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retry-extended
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xpart
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-extract
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytextrust
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DDesignerAPI
+[2023-04-24 08:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tap-shiftbase
+[2023-04-24 08:57:07] INFO root fetch - processPackages [retry-extended]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xobjects]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [target-mssql]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [audio-extract]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [tap-shiftbase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xpart]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.1] Old Version: [0.0.0.0]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [pytextrust]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [gWeaver]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-24 08:57:07] INFO root fetch - processPackages [tap-shiftbase]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [tap-shiftbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_shiftbase-0.0.8.tar.gz tmp/tap_shiftbase-0.0.9.tar.gz --markdown 20230424/t/tap-shiftbase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [retry-extended]: Downloading https://files.pythonhosted.org/packages/e7/ec/dfa532a5362894f673294f01fdfd1b257bb390ca979dabed4d55efc26497/retry_extended-0.2.2.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [target-mssql]: Downloading https://files.pythonhosted.org/packages/26/20/9811e993550f3f95c43e21259880548179f416fd7fa809e045355100a7d5/target_mssql-0.1.0.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [gWeaver]: Downloading https://files.pythonhosted.org/packages/4f/33/07dac790c37f21de7f7c770ec36213b4cfaa4bf25d5f6c0be012ff8a62c0/gWeaver-1.0.4.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/45/9a/44a870df04c746957f83128255e7ec5a7809a178bbe6842295dbfa76475d/xpart-0.9.2.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/64/a2/c38e592f3bd234787dfd9468f817ed603db66420c8791c2efc72d9ebd3d1/xobjects-0.2.3.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/5a/89/dcd91368c4ff2a774699ab37e95f5e1e1bca0ef1fcd5e1812f2446f25a21/DDesignerAPI-0.0.0.0-py3-none-any.whl
+[2023-04-24 08:57:07] INFO root fetch - processPackages [audio-extract]: Downloading https://files.pythonhosted.org/packages/e5/13/e4a3b6066996f6a4aea227557acc63fa1d09b6ca0defef63f88f8161d407/audio_extract-0.3.2.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [audio-extract]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [audio-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_extract-0.3.1.tar.gz tmp/audio_extract-0.3.2.tar.gz --markdown 20230424/a/audio-extract/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/e3/bc/f80188c791eb430f80fdc359f51af59d94e17662d770871ab9749eccd247/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 08:57:07] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-0.0.8.tar.gz tmp/bp-data-visualization-0.0.9.tar.gz --markdown 20230424/b/bp-data-visualization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [retry-extended]: Downloading https://files.pythonhosted.org/packages/3a/72/dcb8d7d8d8c172e2461fd096f71c69bfa3c2c8cc3cc40e801d038fdebc4f/retry_extended-0.2.3.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [retry-extended]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [retry-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retry_extended-0.2.2.tar.gz tmp/retry_extended-0.2.3.tar.gz --markdown 20230424/r/retry-extended/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/33/c2/a9a119470ebb29aa4c6eae0be2dc6fa6083277dc0d947436629d175baff7/DDesignerAPI-0.0.0.1-py3-none-any.whl
+[2023-04-24 08:57:07] INFO root fetch - processPackages [gWeaver]: Downloading https://files.pythonhosted.org/packages/d6/4f/ca58ca9ab58c678728a10bbc381ebb875d903687d9e4b010a080e4173173/gWeaver-1.0.5.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [gWeaver]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [gWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gWeaver-1.0.4.tar.gz tmp/gWeaver-1.0.5.tar.gz --markdown 20230424/g/gWeaver/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/bc/a5/893b725750bb0a2bbae18f2ec2415d7c0771ed98fcb76cd8568068c86a5f/xobjects-0.2.4.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.0-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.1-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.0-0.0.0.1/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xobjects]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xobjects-0.2.3.tar.gz tmp/xobjects-0.2.4.tar.gz --markdown 20230424/x/xobjects/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [target-mssql]: Downloading https://files.pythonhosted.org/packages/2e/5d/8f93615efdd4f8aa05588f5c7012bdbbd3d1495bae5ff990983beb6b20e5/target_mssql-0.1.2.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/f6/d0/566ee9ad0e3d6ac9b9558d25816734b3fce476c9907cc04cd501da1072a3/xpart-0.9.3.tar.gz
+[2023-04-24 08:57:07] INFO root fetch - processPackages [target-mssql]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_mssql-0.1.0.tar.gz tmp/target_mssql-0.1.2.tar.gz --markdown 20230424/t/target-mssql/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xpart]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [xpart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpart-0.9.2.tar.gz tmp/xpart-0.9.3.tar.gz --markdown 20230424/x/xpart/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 08:57:07] INFO root fetch - processPackages [pytextrust]: executing diffoscope
+[2023-04-24 08:57:07] INFO root fetch - processPackages [pytextrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextrust-0.2.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/p/pytextrust/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-24 08:57:09] INFO root fetch - processPackages [retry-extended]: Start processing: bp-data-fabric
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [retry-extended]: success
+[2023-04-24 08:57:09] INFO root fetch - processPackages [bp-data-visualization]: Start processing: refunc-cli
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-24 08:57:09] INFO root fetch - processPackages [refunc-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-24 08:57:09] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:57:09] INFO root fetch - processPackages [audio-extract]: Start processing: xtrack
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [audio-extract]: success
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 08:57:09] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-24 08:57:09] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/9a/8b/e43e721c51965c0a8cfd9afe8f985ff19e7e43e9566cdbd06448db9c68e3/refunc-cli-1.0.0.tar.gz
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [xobjects]: success
+[2023-04-24 08:57:09] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [gWeaver]: success
+[2023-04-24 08:57:09] INFO root fetch - main [MainThread]: End processing [xpart]: success
+[2023-04-24 08:57:09] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/75/a0/38faa1d9da90342c527be4c9dc9b32269ea67ee268ab80f7e9ff42be1a93/refunc-cli-1.1.0.tar.gz
+[2023-04-24 08:57:09] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-24 08:57:09] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.8.tar.gz tmp/bp_data_fabric-0.0.9.tar.gz --markdown 20230424/b/bp-data-fabric/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:57:09] INFO root fetch - processPackages [refunc-cli]: executing diffoscope
+[2023-04-24 08:57:09] INFO root fetch - processPackages [refunc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refunc-cli-1.0.0.tar.gz tmp/refunc-cli-1.1.0.tar.gz --markdown 20230424/r/refunc-cli/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 08:57:09] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2023-04-24 08:57:10] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2023-04-24 08:57:10] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20230424/x/xtrack/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-24 08:57:10] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-24 08:57:10] INFO root fetch - main [MainThread]: End processing [tap-shiftbase]: success
+[2023-04-24 08:57:10] INFO root fetch - main [MainThread]: End processing [refunc-cli]: success
+[2023-04-24 08:57:11] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2023-04-24 08:57:11] INFO root fetch - main [MainThread]: End processing [target-mssql]: success
+[2023-04-24 08:57:35] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
+[2023-04-24 08:57:35] INFO root fetch - main [MainThread]: Store serial: [17829845]
