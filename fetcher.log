@@ -1608,3 +1608,63 @@
 [2023-04-24 02:50:53] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-04-24 02:51:30] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-04-24 02:51:30] INFO root fetch - main [MainThread]: Store serial: [17827150]
+[2023-04-24 02:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827150]
+[2023-04-24 02:56:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmap
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: count-sats
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.runtime
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fstflowchat
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_core
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioversions
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: count-sats
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-sns-notify
+[2023-04-24 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raydp-nightly
+[2023-04-24 02:56:39] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [2.1.dev9] Old Version: [2.1.dev8]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304240050] Old Version: [1.0.1.dev202304211219]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [count-sats]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 02:56:39] WARNING root fetch - processPackages [fstflowchat]: Skipping, unable to determine old version
+[2023-04-24 02:56:39] INFO root fetch - processPackages [count-sats]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 02:56:39] INFO root fetch - main [MainThread]: End processing [fstflowchat] error
+[2023-04-24 02:56:39] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304240051] Old Version: [1.0.202304240043]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-04-24 02:56:39] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230424/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 02:56:39] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-04-24 02:56:39] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230424/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-04-24 02:56:39] INFO root fetch - processPackages [count-sats]: Downloading https://files.pythonhosted.org/packages/e4/4e/fbb33a2156511fefcfed30b14442dc0992a74ed9e3bea288639c107e658e/count-sats-0.0.1.tar.gz
+[2023-04-24 02:56:39] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-04-24 02:56:39] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230424/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 02:56:39] INFO root fetch - processPackages [count-sats]: Downloading https://files.pythonhosted.org/packages/e4/4e/fbb33a2156511fefcfed30b14442dc0992a74ed9e3bea288639c107e658e/count-sats-0.0.1.tar.gz
+[2023-04-24 02:56:39] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.4.8.dev0] Old Version: [2023.4.5.dev0]
+[2023-04-24 02:56:39] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/e8/e2/e2fbd4682e8925b7469064a7474738dc6f7a0dea0a9deff214dd1a24f6e0/cellmap-1.0.1.dev202304211219-py3-none-any.whl
+[2023-04-24 02:56:39] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/6f/72/130f735832255f3dcd042a7ed85e33f77767d58ab1ad425affee2f7b1eda/mb_pytorch-1.0.202304240051-py3-none-any.whl
+[2023-04-24 02:56:40] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 02:56:40] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304240043-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304240051-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304240043-1.0.202304240051/diff.md --exclude *.pyd
+[2023-04-24 02:56:40] INFO root fetch - processPackages [count-sats]: Downloading https://files.pythonhosted.org/packages/75/01/b4580a691a64ad247418efe6d27da0a475f351afdf8c8e59b0738b723db0/count-sats-0.0.2.tar.gz
+[2023-04-24 02:56:40] INFO root fetch - processPackages [count-sats]: Downloading https://files.pythonhosted.org/packages/75/01/b4580a691a64ad247418efe6d27da0a475f351afdf8c8e59b0738b723db0/count-sats-0.0.2.tar.gz
+[2023-04-24 02:56:40] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/5e/3c/0f798b0af1ae987f0b3a69a34dde7234e09a0e41966a1e6ba325354d5023/raydp_nightly-2023.4.5.dev0-py3-none-any.whl
+[2023-04-24 02:56:40] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-04-24 02:56:40] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-2.1.dev8-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-2.1.dev9-cp39-none-any.whl.zip --markdown 20230424/p/pyarmor.cli.runtime/2.1.dev8-2.1.dev9/diff.md --exclude *.pyd
+[2023-04-24 02:56:40] INFO root fetch - processPackages [count-sats]: executing diffoscope
+[2023-04-24 02:56:40] INFO root fetch - processPackages [count-sats]: executing diffoscope
+[2023-04-24 02:56:40] INFO root fetch - processPackages [count-sats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/count-sats-0.0.1.tar.gz tmp/count-sats-0.0.2.tar.gz --markdown 20230424/c/count-sats/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 02:56:40] INFO root fetch - processPackages [count-sats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/count-sats-0.0.1.tar.gz tmp/count-sats-0.0.2.tar.gz --markdown 20230424/c/count-sats/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 02:56:40] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/f7/e1/75726708942140d594559e1c0224e79cdeba81f163db4c54875e3702385a/cellmap-1.0.1.dev202304240050-py3-none-any.whl
+[2023-04-24 02:56:40] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-24 02:56:40] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304211219-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304240050-py3-none-any.whl.zip --markdown 20230424/c/cellmap/1.0.1.dev202304211219-1.0.1.dev202304240050/diff.md --exclude *.pyd
+[2023-04-24 02:56:41] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-04-24 02:56:41] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-04-24 02:56:41] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 02:56:41] INFO root fetch - main [MainThread]: End processing [count-sats]: success
+[2023-04-24 02:56:41] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-04-24 02:56:42] INFO root fetch - main [MainThread]: End processing [count-sats]: success
+[2023-04-24 02:56:42] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-24 02:56:42] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/3c/b3/9857e34e3666513727ea9bb122fb2db66f4f547ecf0e674eff8323dcaa6c/raydp_nightly-2023.4.8.dev0-py3-none-any.whl
+[2023-04-24 02:56:43] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-04-24 02:56:43] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.4.5.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.4.8.dev0-py3-none-any.whl.zip --markdown 20230424/r/raydp-nightly/2023.4.5.dev0-2023.4.8.dev0/diff.md --exclude *.pyd
+[2023-04-24 02:57:00] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-04-24 02:59:14] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-04-24 02:59:14] INFO root fetch - main [MainThread]: Store serial: [17827201]
