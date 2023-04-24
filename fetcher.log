@@ -9499,3 +9499,105 @@
 [2023-04-24 11:57:16] INFO root fetch - main [MainThread]: End processing [mmrazor]: success
 [2023-04-24 11:57:22] INFO root fetch - main [MainThread]: End processing [django-baton]: success
 [2023-04-24 11:57:22] INFO root fetch - main [MainThread]: Store serial: [17831862]
+[2023-04-24 12:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831862]
+[2023-04-24 12:02:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sertit
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extr
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: power-grid-model
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-augs
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ablerConfig
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlib-nsi
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellscanner
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extr-ds
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybiolib
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bp-data-visualization
+[2023-04-24 12:02:31] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [cellscanner]: New version: [1.2] Old Version: [1.1]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [mlib-nsi]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ablerConfig]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [image-augs]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9161504985437] Old Version: [1.5.0rc9160504214835]
+[2023-04-24 12:02:31] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-0.0.8.tar.gz tmp/bp-data-visualization-0.0.9.tar.gz --markdown 20230424/b/bp-data-visualization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [cellscanner]: Downloading https://files.pythonhosted.org/packages/85/de/84ea73c770bda79dd76a02d461995d7e4535e95f6f6ca1efd78093836d31/cellscanner-1.1.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [mlib-nsi]: Downloading https://files.pythonhosted.org/packages/de/49/d038359abb46beec9ff94c274598def2629219be9f7347a4b27cdb254084/mlib-nsi-1.0.2.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [image-augs]: Downloading https://files.pythonhosted.org/packages/11/ab/a1a9464b33d942388530659ae925df74568308364a7214652642f1a61ac7/image_augs-2.1.7.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/35/71/c6dd30d4f7bab4d2d5349c0ef4de3bc870dbcfe8fff79f7d5d449fc4f4ff/ablerConfig-0.0.7.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/65/d8/4a508af41f172e003ebd2f0a90f7639018d49338cd5803130633591e7d89/pybiolib-1.1.91.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230424/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [image-augs]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [image-augs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_augs-2.1.6.tar.gz tmp/image_augs-2.1.7.tar.gz --markdown 20230424/i/image-augs/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230424/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [cellscanner]: Downloading https://files.pythonhosted.org/packages/1a/d1/6f7c8e3ab98bb4cd5182715a6704e9686930639771d7301d9c074d9d1928/cellscanner-1.2.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.0.6.tar.gz tmp/ablerConfig-0.0.7.tar.gz --markdown 20230424/a/ablerConfig/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20230424/s/sertit/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9160504214835-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9161504985437-py3-none-win_amd64.whl.zip --markdown 20230424/p/power-grid-model/1.5.0rc9160504214835-1.5.0rc9161504985437/diff.md --exclude *.pyd
+[2023-04-24 12:02:31] INFO root fetch - processPackages [mlib-nsi]: Downloading https://files.pythonhosted.org/packages/03/e4/4aa21b22a72336fd723ad0ce05f43faea807143a46a818ec58e80b08bb3f/mlib-nsi-1.1.2.tar.gz
+[2023-04-24 12:02:31] INFO root fetch - processPackages [cellscanner]: executing diffoscope
+[2023-04-24 12:02:31] INFO root fetch - processPackages [cellscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellscanner-1.1.tar.gz tmp/cellscanner-1.2.tar.gz --markdown 20230424/c/cellscanner/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-24 12:02:32] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/c7/aa/2c649477538ec0014ca38f8199af730781eb7e1e33dc1052c0b20a6f973a/pybiolib-1.1.94.tar.gz
+[2023-04-24 12:02:32] INFO root fetch - processPackages [mlib-nsi]: executing diffoscope
+[2023-04-24 12:02:32] INFO root fetch - processPackages [mlib-nsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlib-nsi-1.0.2.tar.gz tmp/mlib-nsi-1.1.2.tar.gz --markdown 20230424/m/mlib-nsi/1.0.2-1.1.2/diff.md --exclude *.pyd
+[2023-04-24 12:02:32] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-04-24 12:02:32] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230424/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-04-24 12:02:33] INFO root fetch - processPackages [extr]: Start processing: udata
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-24 12:02:33] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25299] Old Version: [6.1.4.dev25292]
+[2023-04-24 12:02:33] INFO root fetch - processPackages [extr-ds]: Start processing: we-factor-quad
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-24 12:02:33] INFO root fetch - processPackages [we-factor-quad]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2023-04-24 12:02:33] INFO root fetch - processPackages [ablerConfig]: Start processing: pynir
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 12:02:33] INFO root fetch - processPackages [pynir]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-04-24 12:02:33] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/a2/10/285f37e789ddd9e5a8515470c7b9ad8938b48b16d46f07cf4422ca2a859b/udata-6.1.4.dev25292-py2.py3-none-any.whl
+[2023-04-24 12:02:33] INFO root fetch - processPackages [image-augs]: Start processing: reputation-systems
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [image-augs]: success
+[2023-04-24 12:02:33] WARNING root fetch - processPackages [reputation-systems]: Skipping, unable to determine old version
+[2023-04-24 12:02:33] INFO root fetch - processPackages [reputation-systems]: Start processing: mailparse
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [reputation-systems] error
+[2023-04-24 12:02:33] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19605570>=10485760
+[2023-04-24 12:02:33] INFO root fetch - processPackages [udata]: Start processing: bp-data-visualization
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-04-24 12:02:33] INFO root fetch - processPackages [mlib-nsi]: Start processing: graphql-http-server
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [mlib-nsi]: success
+[2023-04-24 12:02:33] INFO root fetch - processPackages [mailparse]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-24 12:02:33] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:02:33] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/66/38/f8055d9d6a4f07323a7e4a15f5e23eeab9d94207c94a0390d43c923c4599/we_factor_quad-0.0.4.1-py3-none-any.whl
+[2023-04-24 12:02:33] INFO root fetch - processPackages [graphql-http-server]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-24 12:02:33] INFO root fetch - processPackages [pynir]: Downloading https://files.pythonhosted.org/packages/f6/13/c02b5592c0aa78e01c9f203f80210e546c91d820591115af3e588c524c46/pynir-0.7.1.tar.gz
+[2023-04-24 12:02:33] INFO root fetch - processPackages [sertit]: Start processing: noblepdf
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2023-04-24 12:02:33] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-24 12:02:33] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-0.0.8.tar.gz tmp/bp-data-visualization-0.0.9.tar.gz --markdown 20230424/b/bp-data-visualization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:02:33] INFO root fetch - processPackages [graphql-http-server]: executing diffoscope
+[2023-04-24 12:02:33] INFO root fetch - processPackages [graphql-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_http_server-1.4.3.tar.gz tmp/graphql_http_server-1.4.4.tar.gz --markdown 20230424/g/graphql-http-server/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-24 12:02:33] INFO root fetch - processPackages [we-factor-quad]: executing diffoscope
+[2023-04-24 12:02:33] INFO root fetch - processPackages [we-factor-quad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_factor_quad-0.0.4-py3-none-any.whl.zip tmp/we_factor_quad-0.0.4.1-py3-none-any.whl.zip --markdown 20230424/w/we-factor-quad/0.0.4-0.0.4.1/diff.md --exclude *.pyd
+[2023-04-24 12:02:33] WARNING root fetch - processPackages [noblepdf]: Skipping, unable to determine old version
+[2023-04-24 12:02:33] INFO root fetch - main [MainThread]: End processing [noblepdf] error
+[2023-04-24 12:02:33] INFO root fetch - processPackages [mailparse]: Downloading https://files.pythonhosted.org/packages/52/ca/5d84be0f6ad350138bcb60ec49cae2a8f5d2b09227a2260286842e169c3a/mailparse-1.0.6.tar.gz
+[2023-04-24 12:02:33] INFO root fetch - processPackages [mailparse]: Downloading https://files.pythonhosted.org/packages/53/f6/9c9a7e4ca2eb457bf2f78fb878444a7025cc48fa63cc5703385f8b47d14e/mailparse-1.0.7.tar.gz
+[2023-04-24 12:02:34] INFO root fetch - processPackages [mailparse]: executing diffoscope
+[2023-04-24 12:02:34] INFO root fetch - processPackages [mailparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailparse-1.0.6.tar.gz tmp/mailparse-1.0.7.tar.gz --markdown 20230424/m/mailparse/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-24 12:02:34] INFO root fetch - main [MainThread]: End processing [graphql-http-server]: success
+[2023-04-24 12:02:34] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-24 12:02:34] INFO root fetch - processPackages [pynir]: Downloading https://files.pythonhosted.org/packages/d1/0a/92a85f14767bd807785b64a07a8597546bc2f322205222d79f12067c176d/pynir-0.7.3.tar.gz
+[2023-04-24 12:02:34] INFO root fetch - main [MainThread]: End processing [we-factor-quad]: success
+[2023-04-24 12:02:35] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-04-24 12:02:35] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-24 12:02:35] INFO root fetch - main [MainThread]: End processing [mailparse]: success
+[2023-04-24 12:02:35] INFO root fetch - processPackages [pynir]: executing diffoscope
+[2023-04-24 12:02:35] INFO root fetch - processPackages [pynir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynir-0.7.1.tar.gz tmp/pynir-0.7.3.tar.gz --markdown 20230424/p/pynir/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-04-24 12:02:35] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
+[2023-04-24 12:02:37] INFO root fetch - main [MainThread]: End processing [pynir]: success
+[2023-04-24 12:02:38] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-04-24 12:02:38] INFO root fetch - main [MainThread]: Store serial: [17831922]
