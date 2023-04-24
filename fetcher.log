@@ -11152,3 +11152,86 @@
 [2023-04-24 13:30:44] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
 [2023-04-24 13:31:17] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-24 13:31:17] INFO root fetch - main [MainThread]: Store serial: [17832807]
+[2023-04-24 13:36:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832807]
+[2023-04-24 13:36:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morastrja
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdi.example-package-soranito
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asgardpy
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandasai
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-source-collection
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: croudtech-ecs-tools
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hippogym
+[2023-04-24 13:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mammopy
+[2023-04-24 13:36:26] WARNING root fetch - processPackages [asgardpy]: Skipping, unable to determine old version
+[2023-04-24 13:36:26] INFO root fetch - processPackages [asgardpy]: Start processing: kozh-fig-pac
+[2023-04-24 13:36:26] INFO root fetch - processPackages [bdi.example-package-soranito]: New version: [1.0.99] Old Version: [1.0.1]
+[2023-04-24 13:36:26] INFO root fetch - main [MainThread]: End processing [asgardpy] error
+[2023-04-24 13:36:26] INFO root fetch - processPackages [morastrja]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-04-24 13:36:26] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-04-24 13:36:26] WARNING root fetch - processPackages [mammopy]: Skipping, unable to determine old version
+[2023-04-24 13:36:26] INFO root fetch - processPackages [mammopy]: Start processing: pyrubrum-continued
+[2023-04-24 13:36:26] INFO root fetch - main [MainThread]: End processing [mammopy] error
+[2023-04-24 13:36:26] INFO root fetch - processPackages [croudtech-ecs-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 13:36:26] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-24 13:36:26] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-24 13:36:26] INFO root fetch - processPackages [pyrubrum-continued]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-04-24 13:36:26] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-04-24 13:36:26] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/fd/a2/adcbb07401fbedfb5e142d1a138de62bf94227ad2e238ea5a5b6eb5033f4/hordelib-0.9.2.tar.gz
+[2023-04-24 13:36:26] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/14/68/7d428f36783c5bbbf1d6f886240073587ac04ee0cabda7b348b5fecce493/macrometa-source-collection-0.0.21.tar.gz
+[2023-04-24 13:36:26] WARNING root fetch - processPackages [pandasai]: Skipping, unable to determine old version
+[2023-04-24 13:36:26] INFO root fetch - processPackages [pandasai]: Start processing: gptdeploy
+[2023-04-24 13:36:26] INFO root fetch - main [MainThread]: End processing [pandasai] error
+[2023-04-24 13:36:26] INFO root fetch - processPackages [hippogym]: New version: [2.0.0a1] Old Version: [2.0.0a0]
+[2023-04-24 13:36:26] WARNING root fetch - processPackages [kozh-fig-pac]: Skipping, unable to determine old version
+[2023-04-24 13:36:26] INFO root fetch - processPackages [kozh-fig-pac]: Start processing: adcpipeline
+[2023-04-24 13:36:27] INFO root fetch - main [MainThread]: End processing [kozh-fig-pac] error
+[2023-04-24 13:36:27] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 13:36:27] INFO root fetch - processPackages [pyrubrum-continued]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [pyrubrum-continued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubrum-continued-0.2.14.tar.gz tmp/pyrubrum-continued-0.2.15.tar.gz --markdown 20230424/p/pyrubrum-continued/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [croudtech-ecs-tools]: Downloading https://files.pythonhosted.org/packages/ae/0f/555d6f914525cd1e394526bcf773f8de51936e2b1529eb982c65a2aa50fd/croudtech-ecs-tools-0.1.7.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [bdi.example-package-soranito]: Downloading https://files.pythonhosted.org/packages/b7/39/28d5ae1446917d07af225c50d8c4d7bf448ce1f67aebf4ef69a7574a4356/bdi.example_package_soranito-1.0.1.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [adcpipeline]: New version: [0.2.1a0] Old Version: [0.2.1]
+[2023-04-24 13:36:27] INFO root fetch - processPackages [morastrja]: Downloading https://files.pythonhosted.org/packages/ae/60/428494700524d885979a031d6832c15a93113542a7e27212b7898716b26d/morastrja-0.8.8.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [hippogym]: Downloading https://files.pythonhosted.org/packages/40/d6/91bb7386457ca765a35ae0c59674156a8b66946835db33ecce840a7eb7c2/hippogym-2.0.0a0.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.21.tar.gz tmp/macrometa-source-collection-0.0.22.tar.gz --markdown 20230424/m/macrometa-source-collection/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [adcpipeline]: Downloading https://files.pythonhosted.org/packages/12/f5/6fbdf0bf00ce2c3e4a0a422ca79bd092999231ba1eff6722bc63eaf9c615/adcpipeline-0.2.1.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230424/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [bdi.example-package-soranito]: Downloading https://files.pythonhosted.org/packages/54/c9/1f4de51dcb570da41932ecac248f0abf14b3646ac432dc02ebc2a679e2e5/bdi.example_package_soranito-1.0.99.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [croudtech-ecs-tools]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [croudtech-ecs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croudtech-ecs-tools-0.1.7.tar.gz tmp/croudtech-ecs-tools-0.1.8.tar.gz --markdown 20230424/c/croudtech-ecs-tools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [morastrja]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [morastrja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morastrja-0.8.7.tar.gz tmp/morastrja-0.8.8.tar.gz --markdown 20230424/m/morastrja/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [hippogym]: Downloading https://files.pythonhosted.org/packages/b5/7d/7d305b4196d536fbc06da669711a218c0d53a6cce3a97f08b1fb8b4fa323/hippogym-2.0.0a1.tar.gz
+[2023-04-24 13:36:27] INFO root fetch - processPackages [adcpipeline]: Downloading https://files.pythonhosted.org/packages/8a/d2/19fae40029f42740b071ba9e1886eb3af532bcce73549c3c025f31a1eb12/adcpipeline-0.2.1a0-py3-none-any.whl
+[2023-04-24 13:36:27] INFO root fetch - processPackages [bdi.example-package-soranito]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [bdi.example-package-soranito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdi.example_package_soranito-1.0.1.tar.gz tmp/bdi.example_package_soranito-1.0.99.tar.gz --markdown 20230424/b/bdi.example-package-soranito/1.0.1-1.0.99/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [adcpipeline]: executing diffoscope
+[2023-04-24 13:36:27] INFO root fetch - processPackages [adcpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcpipeline-0.2.1.tar.gz tmp/adcpipeline-0.2.1a0-py3-none-any.whl.zip --markdown 20230424/a/adcpipeline/0.2.1-0.2.1a0/diff.md --exclude *.pyd
+[2023-04-24 13:36:27] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/9c/6a/e948a22abe1306f081d00e441c84b24d63987802f65e7372d1c5dc75061a/hordelib-0.9.5.tar.gz
+[2023-04-24 13:36:28] INFO root fetch - processPackages [gptdeploy]: Start processing: pyre-check-nightly
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-04-24 13:36:28] INFO root fetch - processPackages [hippogym]: executing diffoscope
+[2023-04-24 13:36:28] INFO root fetch - processPackages [hippogym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippogym-2.0.0a0.tar.gz tmp/hippogym-2.0.0a1.tar.gz --markdown 20230424/h/hippogym/2.0.0a0-2.0.0a1/diff.md --exclude *.pyd
+[2023-04-24 13:36:28] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101682334705] Old Version: [0.0.101682248296]
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [croudtech-ecs-tools]: success
+[2023-04-24 13:36:28] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/11/43/e1d08bfc7748b9bca6a3e8070a42b3e32df90500c4fc8100aa010450b28f/pyre-check-nightly-0.0.101682248296.tar.gz
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [pyrubrum-continued]: success
+[2023-04-24 13:36:28] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-24 13:36:28] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230424/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-24 13:36:28] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23177049>=10485760
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [adcpipeline]: success
+[2023-04-24 13:36:28] INFO root fetch - main [MainThread]: End processing [bdi.example-package-soranito]: success
+[2023-04-24 13:36:29] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-24 13:36:29] INFO root fetch - main [MainThread]: End processing [morastrja]: success
+[2023-04-24 13:36:30] INFO root fetch - main [MainThread]: End processing [hippogym]: success
+[2023-04-24 13:36:37] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-24 13:36:37] INFO root fetch - main [MainThread]: Store serial: [17832856]
