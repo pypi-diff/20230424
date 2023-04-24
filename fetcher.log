@@ -15947,3 +15947,136 @@
 [2023-04-24 17:12:30] INFO root fetch - main [MainThread]: End processing [jupyterlite-pyodide-kernel]: success
 [2023-04-24 17:12:39] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-24 17:12:39] INFO root fetch - main [MainThread]: Store serial: [17835486]
+[2023-04-24 17:17:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835486]
+[2023-04-24 17:17:49] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alembic
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jarvis-leaderboard
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-security-group
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ablerConfig
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: damklr
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-honeybee
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adt-cache
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flavio
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xmipp-metadata
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drf-nested-browsable
+[2023-04-24 17:17:49] INFO root fetch - processPackages [alembic]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.4.22] Old Version: [2023.4.21]
+[2023-04-24 17:17:49] WARNING root fetch - processPackages [damklr]: Skipping, unable to determine old version
+[2023-04-24 17:17:49] INFO root fetch - processPackages [damklr]: Start processing: chplot
+[2023-04-24 17:17:49] INFO root fetch - main [MainThread]: End processing [damklr] error
+[2023-04-24 17:17:49] INFO root fetch - processPackages [drf-nested-browsable]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [adt-cache]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [xmipp-metadata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [ablerConfig]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [flavio]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [chplot]: New version: [1.0.0.post1] Old Version: [1.0.0]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-24 17:17:49] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/95/a8/b10923e18323813f6b0de14520ede50debcae66b008dcd2a08a179668d7b/jarvis_leaderboard-2023.4.21.tar.gz
+[2023-04-24 17:17:49] INFO root fetch - processPackages [alembic]: Downloading https://files.pythonhosted.org/packages/5a/b1/858677f017609f474bb9a9b19cc76f778a81bee43ae181059f610d6c000e/alembic-1.9.3.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/d6/a4/93040fcf8deecf5552d5c5900236604bb5ce90effcde5b5f45d15424c032/ablerConfig-0.0.9.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [chplot]: Downloading https://files.pythonhosted.org/packages/d7/29/2be25ad6eac9b95d10816f818a734a5e256b5b6b41930f549072f308d76a/chplot-1.0.0.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [flavio]: Downloading https://files.pythonhosted.org/packages/6b/a6/209aa899e5e714693251723c70894519715975461d7c7c05282fbe79d943/flavio-2.5.3.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/fe/ea/4b572196360c0d8bbb50ff2f6d22ae2b06235d7e216feb1e4a0c91a4c5da/adt_cache-0.0.7.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [xmipp-metadata]: Downloading https://files.pythonhosted.org/packages/df/de/9dee6ef42dd6f429e808b3a07959a4108e7ea9c43aefb2711a2b0194a621/xmipp_metadata-1.0.8.tar.gz
+[2023-04-24 17:17:50] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 78223831>=10485760
+[2023-04-24 17:17:50] INFO root fetch - processPackages [jarvis-leaderboard]: Start processing: oakutils
+[2023-04-24 17:17:50] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-04-24 17:17:50] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [drf-nested-browsable]: Downloading https://files.pythonhosted.org/packages/a6/25/fc329984385ad8ee382843f81169e4b2b8e7793eab887f7649be360fb50f/drf_nested_browsable-0.1.2.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/f0/7a/447e0ca3f45d69751f82ce78eecd9122cc0f703f199a6f3c68368d4b5774/ablerConfig-0.1.0.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.6.tar.gz tmp/adt_cache-0.0.7.tar.gz --markdown 20230424/a/adt-cache/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] WARNING root fetch - processPackages [oakutils]: Skipping, unable to determine old version
+[2023-04-24 17:17:50] INFO root fetch - processPackages [oakutils]: Start processing: pymysql-pool
+[2023-04-24 17:17:50] INFO root fetch - main [MainThread]: End processing [oakutils] error
+[2023-04-24 17:17:50] INFO root fetch - processPackages [alembic]: Downloading https://files.pythonhosted.org/packages/00/19/628a08ff5dee597d94682bc3e0e7048462ef5330483173e84b755717e6b7/alembic-1.9.4.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [flavio]: Downloading https://files.pythonhosted.org/packages/cc/c8/dae8fdd418287ed068353fa6dd0b218b69ca94a4ba9554f8281ee102b3f1/flavio-2.5.4.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [drf-nested-browsable]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [drf-nested-browsable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_nested_browsable-0.1.1.tar.gz tmp/drf_nested_browsable-0.1.2.tar.gz --markdown 20230424/d/drf-nested-browsable/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [chplot]: Downloading https://files.pythonhosted.org/packages/58/c6/0d095191cc97a4b88551120b40dff57071347eb79daaa831c5740f09a469/chplot-1.0.0.post1.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pymysql-pool]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-24 17:17:50] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.0.9.tar.gz tmp/ablerConfig-0.1.0.tar.gz --markdown 20230424/a/ablerConfig/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [xmipp-metadata]: Downloading https://files.pythonhosted.org/packages/f1/55/5619ab7fb1cb729be651e4b858aa6bbd0e501338e464658826304dbb5011/xmipp_metadata-1.0.9.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [alembic]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [alembic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic-1.9.3.tar.gz tmp/alembic-1.9.4.tar.gz --markdown 20230424/a/alembic/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [chplot]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [chplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chplot-1.0.0.tar.gz tmp/chplot-1.0.0.post1.tar.gz --markdown 20230424/c/chplot/1.0.0-1.0.0.post1/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pymysql-pool]: Downloading https://files.pythonhosted.org/packages/d8/51/259f31cefb5cdbea30e97338c0574ce851b387500fbdc72530c5ec97e2f1/pymysql-pool-0.3.7.tar.gz
+[2023-04-24 17:17:50] INFO root fetch - processPackages [flavio]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [flavio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavio-2.5.3.tar.gz tmp/flavio-2.5.4.tar.gz --markdown 20230424/f/flavio/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [xmipp-metadata]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [xmipp-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmipp_metadata-1.0.8.tar.gz tmp/xmipp_metadata-1.0.9.tar.gz --markdown 20230424/x/xmipp-metadata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230424/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 17:17:50] INFO root fetch - processPackages [pymysql-pool]: Downloading https://files.pythonhosted.org/packages/a4/54/8546ffd1725cab9a389328848088ba04495014c24bd1f24f99da718c2633/pymysql-pool-0.3.8.tar.gz
+[2023-04-24 17:17:51] INFO root fetch - processPackages [pymysql-pool]: executing diffoscope
+[2023-04-24 17:17:51] INFO root fetch - processPackages [pymysql-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysql-pool-0.3.7.tar.gz tmp/pymysql-pool-0.3.8.tar.gz --markdown 20230424/p/pymysql-pool/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-24 17:17:51] INFO root fetch - processPackages [adt-cache]: Start processing: evaluateqa
+[2023-04-24 17:17:51] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-04-24 17:17:51] WARNING root fetch - processPackages [evaluateqa]: Skipping, unable to determine old version
+[2023-04-24 17:17:51] INFO root fetch - processPackages [evaluateqa]: Start processing: qrisp
+[2023-04-24 17:17:51] INFO root fetch - main [MainThread]: End processing [evaluateqa] error
+[2023-04-24 17:17:51] INFO root fetch - processPackages [qrisp]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 17:17:51] INFO root fetch - processPackages [ablerConfig]: Start processing: omniindex
+[2023-04-24 17:17:51] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 17:17:51] INFO root fetch - processPackages [omniindex]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-04-24 17:17:51] INFO root fetch - processPackages [drf-nested-browsable]: Start processing: types-hdbcli
+[2023-04-24 17:17:51] INFO root fetch - main [MainThread]: End processing [drf-nested-browsable]: success
+[2023-04-24 17:17:52] INFO root fetch - processPackages [types-hdbcli]: New version: [2.15.0.4] Old Version: [2.15.0.3]
+[2023-04-24 17:17:52] INFO root fetch - processPackages [qrisp]: Downloading https://files.pythonhosted.org/packages/35/42/c7ff7e703fa3d21672b57ac1d05b5b6ebbcfe12692e89ca5ec9a0e6f9276/qrisp-0.0.6.tar.gz
+[2023-04-24 17:17:52] INFO root fetch - processPackages [omniindex]: Downloading https://files.pythonhosted.org/packages/a9/ed/f8731b14503ec88fbd1a248437b65e6367174e92ed50d0f08ab390313c54/omniindex-0.1.7.tar.gz
+[2023-04-24 17:17:52] INFO root fetch - processPackages [lbt-honeybee]: Start processing: dissect.target
+[2023-04-24 17:17:52] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-04-24 17:17:52] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: lbt-dragonfly
+[2023-04-24 17:17:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-04-24 17:17:52] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/b9/4f/d206e7e2ed5ee7fdee210cb66ceefde983fa2ffe0d636243c02e51bfa33c/types-hdbcli-2.15.0.3.tar.gz
+[2023-04-24 17:17:52] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-24 17:17:52] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-04-24 17:17:52] INFO root fetch - processPackages [xmipp-metadata]: Start processing: gedcomx-v1
+[2023-04-24 17:17:52] INFO root fetch - main [MainThread]: End processing [xmipp-metadata]: success
+[2023-04-24 17:17:52] INFO root fetch - processPackages [gedcomx-v1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 17:17:52] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-24 17:17:52] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230424/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-24 17:17:52] INFO root fetch - processPackages [qrisp]: Downloading https://files.pythonhosted.org/packages/0a/12/4875596bb1f4af5db392743cac6032545ef43d6ec5e2580fbb14f2302453/qrisp-0.0.7.tar.gz
+[2023-04-24 17:17:52] INFO root fetch - processPackages [gedcomx-v1]: executing diffoscope
+[2023-04-24 17:17:52] INFO root fetch - processPackages [gedcomx-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedcomx-v1-1.0.8.tar.gz tmp/gedcomx-v1-1.0.9.tar.gz --markdown 20230424/g/gedcomx-v1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:17:52] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-04-24 17:17:52] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/b9/29/940362ddb4eb88de9f1d232bb0371d7119f04f2805ac3828925b00be6237/types-hdbcli-2.15.0.4.tar.gz
+[2023-04-24 17:17:52] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-04-24 17:17:52] INFO root fetch - processPackages [dissect.target]: Start processing: git-notion-pretty
+[2023-04-24 17:17:52] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-04-24 17:17:52] INFO root fetch - processPackages [qrisp]: executing diffoscope
+[2023-04-24 17:17:52] INFO root fetch - processPackages [qrisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrisp-0.0.6.tar.gz tmp/qrisp-0.0.7.tar.gz --markdown 20230424/q/qrisp/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 17:17:52] INFO root fetch - processPackages [git-notion-pretty]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 17:17:52] INFO root fetch - processPackages [types-hdbcli]: executing diffoscope
+[2023-04-24 17:17:52] INFO root fetch - processPackages [types-hdbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-hdbcli-2.15.0.3.tar.gz tmp/types-hdbcli-2.15.0.4.tar.gz --markdown 20230424/t/types-hdbcli/2.15.0.3-2.15.0.4/diff.md --exclude *.pyd
+[2023-04-24 17:17:52] INFO root fetch - processPackages [pymysql-pool]: Start processing: ez-yaml
+[2023-04-24 17:17:52] INFO root fetch - main [MainThread]: End processing [pymysql-pool]: success
+[2023-04-24 17:17:52] INFO root fetch - processPackages [git-notion-pretty]: executing diffoscope
+[2023-04-24 17:17:52] INFO root fetch - processPackages [git-notion-pretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_notion_pretty-1.0.0.tar.gz tmp/git_notion_pretty-1.0.1.tar.gz --markdown 20230424/g/git-notion-pretty/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 17:17:52] INFO root fetch - processPackages [omniindex]: Downloading https://files.pythonhosted.org/packages/db/09/eb6ead69e0394cc57fd98ce91e9c840f2907aaee5e894f145b5a96fb6d00/omniindex-0.1.9.tar.gz
+[2023-04-24 17:17:52] INFO root fetch - processPackages [ez-yaml]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-04-24 17:17:53] INFO root fetch - processPackages [omniindex]: executing diffoscope
+[2023-04-24 17:17:53] INFO root fetch - processPackages [omniindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniindex-0.1.7.tar.gz tmp/omniindex-0.1.9.tar.gz --markdown 20230424/o/omniindex/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 17:17:53] INFO root fetch - processPackages [ez-yaml]: Downloading https://files.pythonhosted.org/packages/9f/27/7a9d1628f1dd4b7abbd65951b9abd818f10440e3a0bdcbb24ece2e793e18/ez_yaml-1.3.0.tar.gz
+[2023-04-24 17:17:53] INFO root fetch - main [MainThread]: End processing [chplot]: success
+[2023-04-24 17:17:53] INFO root fetch - processPackages [ez-yaml]: Downloading https://files.pythonhosted.org/packages/df/da/edf3521745b9c1acb4068828d6979b096ecc35845df1cb7ee016e4824b1e/ez_yaml-1.3.2.tar.gz
+[2023-04-24 17:17:53] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-24 17:17:53] INFO root fetch - processPackages [ez-yaml]: executing diffoscope
+[2023-04-24 17:17:53] INFO root fetch - processPackages [ez-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_yaml-1.3.0.tar.gz tmp/ez_yaml-1.3.2.tar.gz --markdown 20230424/e/ez-yaml/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-04-24 17:17:53] INFO root fetch - main [MainThread]: End processing [gedcomx-v1]: success
+[2023-04-24 17:17:53] INFO root fetch - main [MainThread]: End processing [qrisp]: success
+[2023-04-24 17:17:54] INFO root fetch - main [MainThread]: End processing [types-hdbcli]: success
+[2023-04-24 17:17:54] INFO root fetch - main [MainThread]: End processing [git-notion-pretty]: success
+[2023-04-24 17:17:54] INFO root fetch - main [MainThread]: End processing [omniindex]: success
+[2023-04-24 17:17:54] INFO root fetch - main [MainThread]: End processing [flavio]: success
+[2023-04-24 17:17:54] INFO root fetch - main [MainThread]: End processing [ez-yaml]: success
+[2023-04-24 17:18:02] INFO root fetch - main [MainThread]: End processing [alembic]: success
+[2023-04-24 17:18:02] INFO root fetch - main [MainThread]: Store serial: [17835557]
