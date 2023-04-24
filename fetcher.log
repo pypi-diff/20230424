@@ -5585,3 +5585,78 @@
 [2023-04-24 08:08:51] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-04-24 08:09:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-24 08:09:54] INFO root fetch - main [MainThread]: Store serial: [17829483]
+[2023-04-24 08:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829483]
+[2023-04-24 08:15:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-jsonform
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revistas
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongodb-odm
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daktari
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt3discord
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-etl
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoDownload
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sara-compis1-tools
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-project-panel
+[2023-04-24 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-cloudformation-newrelic-observability-dashboards
+[2023-04-24 08:15:03] INFO root fetch - processPackages [mongodb-odm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [django-jsonform]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [sara-compis1-tools]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 08:15:03] WARNING root fetch - processPackages [revistas]: Skipping, unable to determine old version
+[2023-04-24 08:15:03] INFO root fetch - processPackages [revistas]: Start processing: daktari
+[2023-04-24 08:15:03] INFO root fetch - main [MainThread]: End processing [revistas] error
+[2023-04-24 08:15:03] INFO root fetch - processPackages [autoDownload]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [django-project-panel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [cdk-cloudformation-newrelic-observability-dashboards]: New version: [1.1.0a7] Old Version: [1.0.0a7]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [daktari]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [daktari]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-04-24 08:15:03] INFO root fetch - processPackages [mongodb-odm]: Downloading https://files.pythonhosted.org/packages/b4/85/42c3589a852ed96f393cba23797ee5010171451f9384279e7d935ee0f248/mongodb_odm-0.2.1.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-24 08:15:03] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230424/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-24 08:15:03] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-04-24 08:15:03] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230424/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 08:15:03] INFO root fetch - processPackages [sara-compis1-tools]: Downloading https://files.pythonhosted.org/packages/75/a9/a64cceb242e3d7e596f3b7cb4267f6a3b9a8c115e01d166e18e8a8c9cc4a/sara_compis1_tools-0.0.8.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/11/3b/a68a1ade8541a5059727a009b96016767ed36b61ff7fa2456bb4befb1917/daktari-0.0.92.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [cdk-cloudformation-newrelic-observability-dashboards]: Downloading https://files.pythonhosted.org/packages/04/4f/f3a8d32ff6da556e8321e0490c664bbe3f24599704021cda7251bb7d44bc/cdk-cloudformation-newrelic-observability-dashboards-1.0.0a7.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [django-jsonform]: Downloading https://files.pythonhosted.org/packages/f3/c5/1b6d2ff20d2173436b29b2e69f657c6371d5e1c71f588af14bf5630c1805/django-jsonform-2.8.1.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/11/3b/a68a1ade8541a5059727a009b96016767ed36b61ff7fa2456bb4befb1917/daktari-0.0.92.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [sara-compis1-tools]: executing diffoscope
+[2023-04-24 08:15:03] INFO root fetch - processPackages [sara-compis1-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sara_compis1_tools-0.0.7.tar.gz tmp/sara_compis1_tools-0.0.8.tar.gz --markdown 20230424/s/sara-compis1-tools/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 08:15:03] INFO root fetch - processPackages [django-project-panel]: executing diffoscope
+[2023-04-24 08:15:03] INFO root fetch - processPackages [django-project-panel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-panel-0.0.4.tar.gz tmp/django-project-panel-0.0.5.tar.gz --markdown 20230424/d/django-project-panel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 08:15:03] INFO root fetch - processPackages [autoDownload]: Downloading https://files.pythonhosted.org/packages/53/6d/7d03e99f4b4b45c5cadfda0813519e1d37f1652d5c52d765183ee8026562/autoDownload-0.0.9.tar.gz
+[2023-04-24 08:15:03] INFO root fetch - processPackages [autoDownload]: executing diffoscope
+[2023-04-24 08:15:03] INFO root fetch - processPackages [autoDownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoDownload-0.0.7.tar.gz tmp/autoDownload-0.0.9.tar.gz --markdown 20230424/a/autoDownload/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:15:04] INFO root fetch - processPackages [mongodb-odm]: Downloading https://files.pythonhosted.org/packages/8a/fb/ee17114d7f37b4b6f63a936337d46dcc88453be46eb9a4560c0e7efc4eac/mongodb_odm-0.2.2.tar.gz
+[2023-04-24 08:15:04] INFO root fetch - processPackages [mongodb-odm]: executing diffoscope
+[2023-04-24 08:15:04] INFO root fetch - processPackages [mongodb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_odm-0.2.1.tar.gz tmp/mongodb_odm-0.2.2.tar.gz --markdown 20230424/m/mongodb-odm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-24 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-newrelic-observability-dashboards]: Downloading https://files.pythonhosted.org/packages/63/88/e39e18236ea65f76076eb6d77b55afcf5339f0d7869450d28e45fe643046/cdk-cloudformation-newrelic-observability-dashboards-1.1.0a7.tar.gz
+[2023-04-24 08:15:04] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/05/c0/20d9240c7f1e8ea1bbdf8621ac021764ff689e32900f3c40665354183303/daktari-0.0.93.tar.gz
+[2023-04-24 08:15:04] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/05/c0/20d9240c7f1e8ea1bbdf8621ac021764ff689e32900f3c40665354183303/daktari-0.0.93.tar.gz
+[2023-04-24 08:15:04] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-04-24 08:15:04] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.92.tar.gz tmp/daktari-0.0.93.tar.gz --markdown 20230424/d/daktari/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-04-24 08:15:04] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-04-24 08:15:04] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.92.tar.gz tmp/daktari-0.0.93.tar.gz --markdown 20230424/d/daktari/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-04-24 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-newrelic-observability-dashboards]: executing diffoscope
+[2023-04-24 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-newrelic-observability-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-newrelic-observability-dashboards-1.0.0a7.tar.gz tmp/cdk-cloudformation-newrelic-observability-dashboards-1.1.0a7.tar.gz --markdown 20230424/c/cdk-cloudformation-newrelic-observability-dashboards/1.0.0a7-1.1.0a7/diff.md --exclude *.pyd
+[2023-04-24 08:15:04] INFO root fetch - processPackages [django-jsonform]: Downloading https://files.pythonhosted.org/packages/3c/68/dab99403f181b5914aeab45bd24c8ba108f832e6d37fc571ca3b416b66f9/django-jsonform-2.9.0.tar.gz
+[2023-04-24 08:15:04] INFO root fetch - processPackages [django-jsonform]: executing diffoscope
+[2023-04-24 08:15:04] INFO root fetch - processPackages [django-jsonform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jsonform-2.8.1.tar.gz tmp/django-jsonform-2.9.0.tar.gz --markdown 20230424/d/django-jsonform/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 08:15:05] INFO root fetch - processPackages [gpt3discord]: Start processing: NikeCA
+[2023-04-24 08:15:05] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-24 08:15:05] INFO root fetch - processPackages [NikeCA]: New version: [0.1.77] Old Version: [0.1.76]
+[2023-04-24 08:15:05] INFO root fetch - main [MainThread]: End processing [django-project-panel]: success
+[2023-04-24 08:15:06] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/c5/51/f13f174ba9f06c99c93710ed2f6e9590eab4a2d1f30a0c4491131a79653d/NikeCA-0.1.76.tar.gz
+[2023-04-24 08:15:06] INFO root fetch - main [MainThread]: End processing [autoDownload]: success
+[2023-04-24 08:15:06] INFO root fetch - main [MainThread]: End processing [sara-compis1-tools]: success
+[2023-04-24 08:15:06] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-04-24 08:15:06] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/cb/37/ea4cb6a6293082ea1a7a60970154525a5bd0d87732d80ff33ed5ae6802e2/NikeCA-0.1.77.tar.gz
+[2023-04-24 08:15:06] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 08:15:06] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.76.tar.gz tmp/NikeCA-0.1.77.tar.gz --markdown 20230424/N/NikeCA/0.1.76-0.1.77/diff.md --exclude *.pyd
+[2023-04-24 08:15:06] INFO root fetch - main [MainThread]: End processing [mongodb-odm]: success
+[2023-04-24 08:15:06] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-newrelic-observability-dashboards]: success
+[2023-04-24 08:15:06] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-04-24 08:15:07] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-04-24 08:15:07] INFO root fetch - main [MainThread]: End processing [django-jsonform]: success
+[2023-04-24 08:15:07] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 08:15:07] INFO root fetch - main [MainThread]: Store serial: [17829521]
