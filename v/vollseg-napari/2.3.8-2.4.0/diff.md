@@ -1,0 +1,166 @@
+# Comparing `tmp/vollseg-napari-2.3.8.tar.gz` & `tmp/vollseg-napari-2.4.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "/mnt/c/Users/rando/Downloads/Python_Workspace/vollseg-napari/dist/.tmp-5p_8sm2d/vollseg-napari-2.3.8.tar", last modified: Mon Apr 24 12:05:49 2023, max compression
++gzip compressed data, was "/mnt/c/Users/rando/Downloads/Python_Workspace/vollseg-napari/dist/.tmp-_wvmsxeu/vollseg-napari-2.4.0.tar", last modified: Mon Apr 24 12:14:31 2023, max compression
+```
+
+## Comparing `vollseg-napari-2.3.8.tar` & `vollseg-napari-2.4.0.tar`
+
+### file list
+
+```diff
+@@ -1,29 +1,29 @@
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:05:49.427337 vollseg-napari-2.3.8/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     1539 2022-04-19 17:57:10.000000 vollseg-napari-2.3.8/LICENCE.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      103 2022-04-19 18:03:29.000000 vollseg-napari-2.3.8/MANIFEST.in
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    10929 2023-04-24 12:05:49.423063 vollseg-napari-2.3.8/PKG-INFO
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     9865 2022-05-16 10:29:25.000000 vollseg-napari-2.3.8/README.md
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       91 2022-04-19 18:04:08.000000 vollseg-napari-2.3.8/pyproject.toml
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       38 2023-04-24 12:05:49.428338 vollseg-napari-2.3.8/setup.cfg
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     2184 2022-09-06 23:47:51.000000 vollseg-napari-2.3.8/setup.py
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:05:49.040253 vollseg-napari-2.3.8/vollseg_napari/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)        0 2022-04-24 01:04:28.000000 vollseg-napari-2.3.8/vollseg_napari/__init__.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)   118567 2023-04-24 12:04:35.000000 vollseg-napari-2.3.8/vollseg_napari/_dock_widget.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      437 2022-06-20 13:27:35.000000 vollseg-napari-2.3.8/vollseg_napari/_sample_data.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    92416 2022-05-19 18:39:09.000000 vollseg-napari-2.3.8/vollseg_napari/_test_dock_widget.py
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:05:49.347721 vollseg-napari-2.3.8/vollseg_napari/_tests/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)        0 2022-04-19 19:15:45.000000 vollseg-napari-2.3.8/vollseg_napari/_tests/__init__.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      391 2022-04-26 21:14:59.000000 vollseg-napari-2.3.8/vollseg_napari/_tests/plugintest.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      317 2022-04-28 20:59:46.000000 vollseg-napari-2.3.8/vollseg_napari/_tests/test_open_sample_data.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    16092 2022-05-17 14:03:45.000000 vollseg-napari-2.3.8/vollseg_napari/_tests/test_open_sample_models.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      113 2023-04-24 12:04:49.000000 vollseg-napari-2.3.8/vollseg_napari/_version.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     1125 2022-06-20 13:30:19.000000 vollseg-napari-2.3.8/vollseg_napari/napari.yaml
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:05:49.393900 vollseg-napari-2.3.8/vollseg_napari/resources/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     6153 2022-03-22 02:26:26.000000 vollseg-napari-2.3.8/vollseg_napari/resources/kapoorlogo.png
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:05:49.201899 vollseg-napari-2.3.8/vollseg_napari.egg-info/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    10929 2023-04-24 12:05:48.000000 vollseg-napari-2.3.8/vollseg_napari.egg-info/PKG-INFO
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      672 2023-04-24 12:05:48.000000 vollseg-napari-2.3.8/vollseg_napari.egg-info/SOURCES.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)        1 2023-04-24 12:05:48.000000 vollseg-napari-2.3.8/vollseg_napari.egg-info/dependency_links.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       62 2023-04-24 12:05:48.000000 vollseg-napari-2.3.8/vollseg_napari.egg-info/entry_points.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      240 2023-04-24 12:05:48.000000 vollseg-napari-2.3.8/vollseg_napari.egg-info/requires.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       15 2023-04-24 12:05:48.000000 vollseg-napari-2.3.8/vollseg_napari.egg-info/top_level.txt
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:14:31.691798 vollseg-napari-2.4.0/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     1539 2022-04-19 17:57:10.000000 vollseg-napari-2.4.0/LICENCE.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      103 2022-04-19 18:03:29.000000 vollseg-napari-2.4.0/MANIFEST.in
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    10929 2023-04-24 12:14:31.687801 vollseg-napari-2.4.0/PKG-INFO
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     9865 2022-05-16 10:29:25.000000 vollseg-napari-2.4.0/README.md
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       91 2022-04-19 18:04:08.000000 vollseg-napari-2.4.0/pyproject.toml
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       38 2023-04-24 12:14:31.692798 vollseg-napari-2.4.0/setup.cfg
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     2184 2022-09-06 23:47:51.000000 vollseg-napari-2.4.0/setup.py
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:14:31.347772 vollseg-napari-2.4.0/vollseg_napari/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)        0 2022-04-24 01:04:28.000000 vollseg-napari-2.4.0/vollseg_napari/__init__.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)   118498 2023-04-24 12:13:09.000000 vollseg-napari-2.4.0/vollseg_napari/_dock_widget.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      437 2022-06-20 13:27:35.000000 vollseg-napari-2.4.0/vollseg_napari/_sample_data.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    92416 2022-05-19 18:39:09.000000 vollseg-napari-2.4.0/vollseg_napari/_test_dock_widget.py
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:14:31.624095 vollseg-napari-2.4.0/vollseg_napari/_tests/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)        0 2022-04-19 19:15:45.000000 vollseg-napari-2.4.0/vollseg_napari/_tests/__init__.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      391 2022-04-26 21:14:59.000000 vollseg-napari-2.4.0/vollseg_napari/_tests/plugintest.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      317 2022-04-28 20:59:46.000000 vollseg-napari-2.4.0/vollseg_napari/_tests/test_open_sample_data.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    16092 2022-05-17 14:03:45.000000 vollseg-napari-2.4.0/vollseg_napari/_tests/test_open_sample_models.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      113 2023-04-24 12:13:17.000000 vollseg-napari-2.4.0/vollseg_napari/_version.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     1125 2022-06-20 13:30:19.000000 vollseg-napari-2.4.0/vollseg_napari/napari.yaml
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:14:31.656755 vollseg-napari-2.4.0/vollseg_napari/resources/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     6153 2022-03-22 02:26:26.000000 vollseg-napari-2.4.0/vollseg_napari/resources/kapoorlogo.png
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-04-24 12:14:31.496105 vollseg-napari-2.4.0/vollseg_napari.egg-info/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    10929 2023-04-24 12:14:30.000000 vollseg-napari-2.4.0/vollseg_napari.egg-info/PKG-INFO
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      672 2023-04-24 12:14:31.000000 vollseg-napari-2.4.0/vollseg_napari.egg-info/SOURCES.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)        1 2023-04-24 12:14:30.000000 vollseg-napari-2.4.0/vollseg_napari.egg-info/dependency_links.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       62 2023-04-24 12:14:30.000000 vollseg-napari-2.4.0/vollseg_napari.egg-info/entry_points.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      240 2023-04-24 12:14:30.000000 vollseg-napari-2.4.0/vollseg_napari.egg-info/requires.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       15 2023-04-24 12:14:30.000000 vollseg-napari-2.4.0/vollseg_napari.egg-info/top_level.txt
+```
+
+### Comparing `vollseg-napari-2.3.8/LICENCE.txt` & `vollseg-napari-2.4.0/LICENCE.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/PKG-INFO` & `vollseg-napari-2.4.0/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: vollseg-napari
+-Version: 2.3.8
++Version: 2.4.0
+ Summary: Irregular cell shape segmentation using VollSeg
+ Home-page: https://github.com/kapoorlab/vollseg-napari
+ Author: Varun Kapoor
+ Author-email: varun.kapoor@kapoorlabs.org
+ License: BSD 3-Clause License
+ Project-URL: Source Code, https://github.com/kapoorlab/vollseg-napari
+ Project-URL: Documentation, https://github.com/kapoorlab/vollseg-napari
+```
+
+### Comparing `vollseg-napari-2.3.8/README.md` & `vollseg-napari-2.4.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/setup.py` & `vollseg-napari-2.4.0/setup.py`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari/_dock_widget.py` & `vollseg-napari-2.4.0/vollseg_napari/_dock_widget.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -2239,15 +2239,14 @@
+             ExpandLabels = plugin_extra_parameters.expand_labels.value,
+             dounet=plugin_extra_parameters.dounet.value,
+             donormalize=plugin_star_parameters.norm_image.value,
+             lower_perc=plugin_star_parameters.perc_low.value, 
+             upper_perc=plugin_star_parameters.perc_high.value,
+             RGB = plugin_extra_parameters.isRGB.value,           
+             slice_merge = plugin_extra_parameters.slicemerge.value,
+-            iou_threshold = plugin_extra_parameters.iouthresh.value
+             )   
+                
+         pred = res, scale_out   
+         return pred
+```
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari/_test_dock_widget.py` & `vollseg-napari-2.4.0/vollseg_napari/_test_dock_widget.py`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari/_tests/test_open_sample_models.py` & `vollseg-napari-2.4.0/vollseg_napari/_tests/test_open_sample_models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari/napari.yaml` & `vollseg-napari-2.4.0/vollseg_napari/napari.yaml`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari/resources/kapoorlogo.png` & `vollseg-napari-2.4.0/vollseg_napari/resources/kapoorlogo.png`
+
+ * *Files identical despite different names*
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari.egg-info/PKG-INFO` & `vollseg-napari-2.4.0/vollseg_napari.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: vollseg-napari
+-Version: 2.3.8
++Version: 2.4.0
+ Summary: Irregular cell shape segmentation using VollSeg
+ Home-page: https://github.com/kapoorlab/vollseg-napari
+ Author: Varun Kapoor
+ Author-email: varun.kapoor@kapoorlabs.org
+ License: BSD 3-Clause License
+ Project-URL: Source Code, https://github.com/kapoorlab/vollseg-napari
+ Project-URL: Documentation, https://github.com/kapoorlab/vollseg-napari
+```
+
+### Comparing `vollseg-napari-2.3.8/vollseg_napari.egg-info/SOURCES.txt` & `vollseg-napari-2.4.0/vollseg_napari.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+

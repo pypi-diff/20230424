@@ -11940,3 +11940,113 @@
 [2023-04-24 14:09:17] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-24 14:10:06] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-24 14:10:06] INFO root fetch - main [MainThread]: Store serial: [17833211]
+[2023-04-24 14:15:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833211]
+[2023-04-24 14:15:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyFlyt
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hr-attendance-reason
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elegantmotd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spatialcsv
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: woke
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: byzerllm
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swedish-market-insights
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elegantmotd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: armonik
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: New version: [14.0.1.1.2.dev1] Old Version: [14.0.1.1.2]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [byzerllm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [armonik]: New version: [3.8.1.dev273] Old Version: [3.8.1.dev264]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [woke]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 14:15:17] WARNING root fetch - processPackages [swedish-market-insights]: Skipping, unable to determine old version
+[2023-04-24 14:15:17] INFO root fetch - processPackages [swedish-market-insights]: Start processing: caf.space
+[2023-04-24 14:15:17] INFO root fetch - main [MainThread]: End processing [swedish-market-insights] error
+[2023-04-24 14:15:17] INFO root fetch - processPackages [spatialcsv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [PyFlyt]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [caf.space]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-24 14:15:17] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/c0/88/2c30449b8bfc97652ec15040725a527e7f8614a91d397e00eebca767070d/odoo14_addon_hr_attendance_reason-14.0.1.1.2-py3-none-any.whl
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/d5/ba/3ff61ad4b485eb92d9226a9335d72c1455a40ba07e249256e63896f26672/elegantmotd-0.2.2.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/d5/ba/3ff61ad4b485eb92d9226a9335d72c1455a40ba07e249256e63896f26672/elegantmotd-0.2.2.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/88/dd/2233cf058e81a5a002188fb9c1fd810a934f457be231c3c726af3a2ebf84/byzerllm-0.0.1.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/b8/64/3a9b011d8791cc304492e9244583df81a408bde7b4334c7ac6e89f0207bb/armonik-3.8.1.dev264.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [spatialcsv]: Downloading https://files.pythonhosted.org/packages/86/f7/cb6527e4eabdd1024bb4c38717262235133e213f862f1910ef4e1a6fa1a9/spatialcsv-0.0.8.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [woke]: Downloading https://files.pythonhosted.org/packages/38/70/30dbddafaae599f2476e5be76d3e0c06d73851a6dad55e4fa9c4b13f12ae/woke-3.2.0.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [caf.space]: Downloading https://files.pythonhosted.org/packages/30/82/c9e8e0e926464125d9fb6ac9736682a28e5de47ca8890e0ccb018e6921fd/caf.space-1.2.1.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/db/b9/396ed833933fbe4cddeda1fda77972471c077932f27913bca044bb98e6d3/PyFlyt-0.6.2.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/21/65/fd8327fd4327c6cb42820a9cd6b5a427556982c841b4df7386e0d789a143/byzerllm-0.0.2.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/99/12/bb09856fb3abfa49bebb88c9df5ab6d0eaec42be4cf806895002014b5b7c/elegantmotd-0.2.3.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/e8/df/d4a09a8b4b20c4f3777babfcb7ab16429d937e89c8a4fc09bb6667d666bc/armonik-3.8.1.dev273.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.2-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20230424/o/odoo14-addon-hr-attendance-reason/14.0.1.1.2-14.0.1.1.2.dev1/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/99/12/bb09856fb3abfa49bebb88c9df5ab6d0eaec42be4cf806895002014b5b7c/elegantmotd-0.2.3.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [woke]: Downloading https://files.pythonhosted.org/packages/16/41/b3bee69604bf719efa823839e855605bba42a8467da1ac5948000c9eef49/woke-3.3.0.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [caf.space]: Downloading https://files.pythonhosted.org/packages/f4/c0/e79964320c797a63471aa62ec8d2137e617ea191aa9dfc2cc8785861c161/caf.space-1.2.2.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [spatialcsv]: Downloading https://files.pythonhosted.org/packages/0b/fc/dda154d6cde113a4883ffa33dcaf5d0ec196a9bfde1591b0862a11ed2571/spatialcsv-0.0.9.tar.gz
+[2023-04-24 14:15:17] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.6.1.tar.gz tmp/PyFlyt-0.6.2.tar.gz --markdown 20230424/P/PyFlyt/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.0.1.tar.gz tmp/byzerllm-0.0.2.tar.gz --markdown 20230424/b/byzerllm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [spatialcsv]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [spatialcsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialcsv-0.0.8.tar.gz tmp/spatialcsv-0.0.9.tar.gz --markdown 20230424/s/spatialcsv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegantmotd-0.2.2.tar.gz tmp/elegantmotd-0.2.3.tar.gz --markdown 20230424/e/elegantmotd/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [elegantmotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegantmotd-0.2.2.tar.gz tmp/elegantmotd-0.2.3.tar.gz --markdown 20230424/e/elegantmotd/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.1.dev264.tar.gz tmp/armonik-3.8.1.dev273.tar.gz --markdown 20230424/a/armonik/3.8.1.dev264-3.8.1.dev273/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [caf.space]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [caf.space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caf.space-1.2.1.tar.gz tmp/caf.space-1.2.2.tar.gz --markdown 20230424/c/caf.space/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-24 14:15:17] INFO root fetch - processPackages [woke]: executing diffoscope
+[2023-04-24 14:15:17] INFO root fetch - processPackages [woke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woke-3.2.0.tar.gz tmp/woke-3.3.0.tar.gz --markdown 20230424/w/woke/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-04-24 14:15:18] INFO root fetch - processPackages [findmyorder]: Start processing: saffier
+[2023-04-24 14:15:18] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 14:15:18] INFO root fetch - processPackages [saffier]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-04-24 14:15:19] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/70/d0/f269fd150717555334e3067dc4ea3c307e079a9992f7323526b36adc29c3/saffier-0.7.4.tar.gz
+[2023-04-24 14:15:19] INFO root fetch - processPackages [spatialcsv]: Start processing: grizli
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [spatialcsv]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [grizli]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-04-24 14:15:19] INFO root fetch - processPackages [elegantmotd]: Start processing: civilpy
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [elegantmotd]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [saffier]: executing diffoscope
+[2023-04-24 14:15:19] INFO root fetch - processPackages [saffier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saffier-0.7.3.tar.gz tmp/saffier-0.7.4.tar.gz --markdown 20230424/s/saffier/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-04-24 14:15:19] INFO root fetch - processPackages [civilpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 14:15:19] INFO root fetch - processPackages [PyFlyt]: Start processing: findmyorder
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [elegantmotd]: Start processing: vollseg-napari
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [elegantmotd]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 14:15:19] INFO root fetch - processPackages [vollseg-napari]: New version: [2.4.0] Old Version: [2.3.8]
+[2023-04-24 14:15:19] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/ea/8e/8cbbfc0d70fda271cd9e5ceecfbe9a34f8695eac836fdb08f4680ffaf251/grizli-1.8.4.tar.gz
+[2023-04-24 14:15:19] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 14:15:19] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 14:15:19] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/ae/24/34b04e6bf18cea9bdfcd1aa1bb2c275a54dca970967d46f26242c1f6351e/civilpy-0.0.7.tar.gz
+[2023-04-24 14:15:19] INFO root fetch - processPackages [byzerllm]: Start processing: reytool
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [caf.space]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [vollseg-napari]: Downloading https://files.pythonhosted.org/packages/3f/d9/0f115d63e142606855ab9c8de37eb008ebb68c1afd8d1d868c5787849ddc/vollseg-napari-2.4.0.tar.gz
+[2023-04-24 14:15:19] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-04-24 14:15:19] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-04-24 14:15:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-reason]: success
+[2023-04-24 14:15:19] INFO root fetch - processPackages [vollseg-napari]: executing diffoscope
+[2023-04-24 14:15:19] INFO root fetch - processPackages [vollseg-napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-2.3.8.tar.gz tmp/vollseg-napari-2.4.0.tar.gz --markdown 20230424/v/vollseg-napari/2.3.8-2.4.0/diff.md --exclude *.pyd
+[2023-04-24 14:15:19] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-04-24 14:15:19] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230424/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-04-24 14:15:19] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/9c/24/8f7d7dfa78101d311362b04a3e0cf1a9ee8db7d7ee1cd07cb202192a58e2/civilpy-0.0.8.tar.gz
+[2023-04-24 14:15:20] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-04-24 14:15:20] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.7.tar.gz tmp/civilpy-0.0.8.tar.gz --markdown 20230424/c/civilpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 14:15:20] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 14:15:20] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-04-24 14:15:20] INFO root fetch - main [MainThread]: End processing [saffier]: success
+[2023-04-24 14:15:20] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/33/42/a1d3fde18da42f8372f82ad814b071e12accedcd312d4d358ecd949111de/grizli-1.8.5.tar.gz
+[2023-04-24 14:15:20] INFO root fetch - main [MainThread]: End processing [vollseg-napari]: success
+[2023-04-24 14:15:20] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-04-24 14:15:21] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-04-24 14:15:22] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-04-24 14:15:22] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.4.tar.gz tmp/grizli-1.8.5.tar.gz --markdown 20230424/g/grizli/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-04-24 14:15:23] INFO root fetch - main [MainThread]: End processing [woke]: success
+[2023-04-24 14:15:26] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-04-24 14:15:26] INFO root fetch - main [MainThread]: Store serial: [17833274]
