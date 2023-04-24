@@ -21923,3 +21923,78 @@
 [2023-04-24 22:27:19] INFO root fetch - processPackages [nekoton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/n/nekoton/0.1.8-0.1.9/diff.md --exclude *.pyd
 [2023-04-24 22:29:39] INFO root fetch - main [MainThread]: End processing [nekoton]: success
 [2023-04-24 22:29:39] INFO root fetch - main [MainThread]: Store serial: [17839128]
+[2023-04-24 22:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839128]
+[2023-04-24 22:34:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uniswap-python-route
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yatracker-linker
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttk-custom-msgbox
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sfkit
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hcs-cli
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lit
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cbmc.py
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bm-utilities
+[2023-04-24 22:34:58] INFO root fetch - processPackages [uniswap-python-route]: New version: [0.5.5.5] Old Version: [0.5.5.4]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [cbmc.py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ttk-custom-msgbox]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.33] Old Version: [0.1.32]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [lit]: New version: [16.0.2] Old Version: [16.0.1]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [rime-sdk]: New version: [2.0.0rc8] Old Version: [2.0.0rc7]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-24 22:34:58] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/aa/2d/b1178974c2b90fe2f648b1f0a7565a03093287ec93132b4897a46431f551/hcs-cli-0.1.32.tar.gz
+[2023-04-24 22:34:58] INFO root fetch - processPackages [ttk-custom-msgbox]: Downloading https://files.pythonhosted.org/packages/b9/68/bef9e5f6b1d0dbb8c117dce3c2155689718bb51ba0b72647bec260445fdf/ttk-custom-msgbox-0.0.4.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [uniswap-python-route]: Downloading https://files.pythonhosted.org/packages/f9/31/a674268b9adf6f65c8696a992d97ea68ab3508006af08e6dad368374e643/uniswap_python_route-0.5.5.4.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [cbmc.py]: Downloading https://files.pythonhosted.org/packages/de/1c/17018141919bc3d4d3438ee7364d7ed5fce1ffdf0dbfa447319653277124/cbmc.py-0.0.2.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/ba/7f/981185aaea6ac3a4ae5de9eca143a6382e3c62c9ee9ad47cffe94f8181aa/lit-16.0.1.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [sfkit]: Downloading https://files.pythonhosted.org/packages/69/8b/9a1f5060e155248ea5b8d75d6b7f8e1c798bf9c3a22c9f96083fb0ebca9e/sfkit-0.0.98-py3-none-any.whl
+[2023-04-24 22:34:59] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/3c/52/d3e36009fecb9de504937ee49dd3fb1b3da0acfb73faeee3c544432a90e8/bm_utilities-0.0.3.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c3/0e/a469dbe9e3fe5f821358e33ed78f9634b65f2bb594f23270e60a436e57e9/rime_sdk-2.0.0rc7.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/95/21/eca3594c2ec91d52cb29cf016a5a7cf25f1b5c655ae9c2191796b63cc484/hcs-cli-0.1.33.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.2.tar.gz tmp/bm_utilities-0.0.3.tar.gz --markdown 20230424/b/bm-utilities/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [ttk-custom-msgbox]: Downloading https://files.pythonhosted.org/packages/01/00/411f23d2ece2180cb92cd5ed9c339f808ee00b15ff79d019409abcf547b9/ttk-custom-msgbox-0.0.5.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/16/a0/ce5f90c0d931131400862df9d7ee52caf951737d253774c4764708221402/lit-16.0.2.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [uniswap-python-route]: Downloading https://files.pythonhosted.org/packages/55/e5/58891c6b413413998a125af45c631a3b8a61ece2fea5f95c2eab3a028345/uniswap_python_route-0.5.5.5.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/7e/60/b2fad9a44d8dbaa628d96e84cded248b9c4117fa792d6c0ebb5654af7516/rime_sdk-2.0.0rc8.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [cbmc.py]: Downloading https://files.pythonhosted.org/packages/10/87/9d19bc828927accc476b41161101ff34242113ba3a05e6396aa0756288ac/cbmc.py-0.0.3.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [lit]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [lit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit-16.0.1.tar.gz tmp/lit-16.0.2.tar.gz --markdown 20230424/l/lit/16.0.1-16.0.2/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-04-24 22:34:59] INFO root fetch - processPackages [uniswap-python-route]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [uniswap-python-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswap_python_route-0.5.5.4.tar.gz tmp/uniswap_python_route-0.5.5.5.tar.gz --markdown 20230424/u/uniswap-python-route/0.5.5.4-0.5.5.5/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [ttk-custom-msgbox]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [ttk-custom-msgbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttk-custom-msgbox-0.0.4.tar.gz tmp/ttk-custom-msgbox-0.0.5.tar.gz --markdown 20230424/t/ttk-custom-msgbox/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [cbmc.py]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [cbmc.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbmc.py-0.0.2.tar.gz tmp/cbmc.py-0.0.3.tar.gz --markdown 20230424/c/cbmc.py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.32.tar.gz tmp/hcs-cli-0.1.33.tar.gz --markdown 20230424/h/hcs-cli/0.1.32-0.1.33/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.0rc7.tar.gz tmp/rime_sdk-2.0.0rc8.tar.gz --markdown 20230424/r/rime-sdk/2.0.0rc7-2.0.0rc8/diff.md --exclude *.pyd
+[2023-04-24 22:34:59] INFO root fetch - processPackages [sfkit]: Downloading https://files.pythonhosted.org/packages/ec/6a/31917f962eb713dee0e13323371f569ef0aa4a601303df27a62825d946cf/sfkit-0.0.99-py3-none-any.whl
+[2023-04-24 22:34:59] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-04-24 22:34:59] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230424/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 22:35:00] INFO root fetch - processPackages [yatracker-linker]: Start processing: lqs-client
+[2023-04-24 22:35:00] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 22:35:00] INFO root fetch - processPackages [lqs-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 22:35:00] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-04-24 22:35:00] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-04-24 22:35:00] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230424/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-24 22:35:00] INFO root fetch - processPackages [lqs-client]: executing diffoscope
+[2023-04-24 22:35:00] INFO root fetch - processPackages [lqs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqs-client-0.0.8.tar.gz tmp/lqs-client-0.0.9.tar.gz --markdown 20230424/l/lqs-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 22:35:00] INFO root fetch - main [MainThread]: End processing [ttk-custom-msgbox]: success
+[2023-04-24 22:35:01] INFO root fetch - main [MainThread]: End processing [cbmc.py]: success
+[2023-04-24 22:35:01] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-04-24 22:35:01] INFO root fetch - main [MainThread]: End processing [uniswap-python-route]: success
+[2023-04-24 22:35:01] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-04-24 22:35:02] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-04-24 22:35:02] INFO root fetch - main [MainThread]: End processing [lqs-client]: success
+[2023-04-24 22:35:04] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-24 22:35:05] INFO root fetch - main [MainThread]: End processing [lit]: success
+[2023-04-24 22:35:05] INFO root fetch - main [MainThread]: Store serial: [17839170]
