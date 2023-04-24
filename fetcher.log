@@ -14103,3 +14103,73 @@
 [2023-04-24 15:53:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 15:53:59] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
 [2023-04-24 15:53:59] INFO root fetch - main [MainThread]: Store serial: [17834460]
+[2023-04-24 15:59:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834460]
+[2023-04-24 15:59:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: questdb-connect
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-reliontomo
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magicsoup
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delphix-dct-api
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rainbowlog
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jpconvert
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synergy-dataset
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: base-folder
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tonic
+[2023-04-24 15:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scipion-em-isonet
+[2023-04-24 15:59:10] INFO root fetch - processPackages [delphix-dct-api]: New version: [6.0.0rc1] Old Version: [6.0.0]
+[2023-04-24 15:59:10] INFO root fetch - processPackages [tonic]: New version: [1.2.7.dev9] Old Version: [1.2.7.dev6]
+[2023-04-24 15:59:10] INFO root fetch - processPackages [jpconvert]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-24 15:59:11] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-04-24 15:59:11] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-6.0.0.tar.gz tmp/delphix-dct-api-6.0.0rc1.tar.gz --markdown 20230424/d/delphix-dct-api/6.0.0-6.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 15:59:11] INFO root fetch - processPackages [scipion-em-reliontomo]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-24 15:59:11] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 15:59:11] INFO root fetch - processPackages [magicsoup]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-24 15:59:11] INFO root fetch - processPackages [rainbowlog]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-24 15:59:11] WARNING root fetch - processPackages [base-folder]: Skipping, unable to determine old version
+[2023-04-24 15:59:11] INFO root fetch - processPackages [base-folder]: Start processing: chateval
+[2023-04-24 15:59:11] INFO root fetch - main [MainThread]: End processing [base-folder] error
+[2023-04-24 15:59:11] WARNING root fetch - processPackages [scipion-em-isonet]: Skipping, unable to determine old version
+[2023-04-24 15:59:11] INFO root fetch - processPackages [synergy-dataset]: New version: [1.0a5] Old Version: [1.0a4]
+[2023-04-24 15:59:11] INFO root fetch - processPackages [scipion-em-isonet]: Start processing: burner-process
+[2023-04-24 15:59:11] INFO root fetch - main [MainThread]: End processing [scipion-em-isonet] error
+[2023-04-24 15:59:11] INFO root fetch - processPackages [jpconvert]: executing diffoscope
+[2023-04-24 15:59:11] INFO root fetch - processPackages [jpconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpconvert-0.3.8.tar.gz tmp/jpconvert-0.3.9.tar.gz --markdown 20230424/j/jpconvert/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-24 15:59:11] WARNING root fetch - processPackages [burner-process]: Skipping, unable to determine old version
+[2023-04-24 15:59:11] INFO root fetch - main [MainThread]: End processing [burner-process] error
+[2023-04-24 15:59:11] INFO root fetch - processPackages [chateval]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 15:59:11] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/69/b7/f8a21b924f7e82d7187134f8f087f8b9110c0fa6ec938e3efc0000170b8e/questdb-connect-0.0.6.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [rainbowlog]: Downloading https://files.pythonhosted.org/packages/0c/aa/6f509eb78be311b4003a940a668bb5025dd030ce616594967870f950e56c/rainbowlog-2.0.3.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/ef/4b/f94eb132f8218f36549a18c89379fe503293c66b81ccc87b01bdeea74206/tonic-1.2.7.dev9.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [chateval]: Downloading https://files.pythonhosted.org/packages/02/09/1586eb1f36ac7c7d61ec3066cec3ddab7f07d632c57de155c58f0516271f/chateval-0.0.8.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [scipion-em-reliontomo]: Downloading https://files.pythonhosted.org/packages/51/ca/f352a13f74e2ebbb41aa5d7ec8e9e8c86191e53255e94bf8dd383643b2ff/scipion-em-reliontomo-3.1.5.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/30/2b/9e4a0feb898af24504744cb61c6a94d6c40b0cbc9e600c3f65deef8cbd33/questdb-connect-0.0.7.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [synergy-dataset]: Downloading https://files.pythonhosted.org/packages/27/69/f75db9fe4a9d05b8f66e5216e66203860402668afadd9d0f357c7d27a2d8/synergy-dataset-1.0a4.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [rainbowlog]: Downloading https://files.pythonhosted.org/packages/68/68/44a28866223bcd02b536d81b968efc68b07d2bac193181eb61b57060099f/rainbowlog-2.0.4.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-04-24 15:59:11] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.6.tar.gz tmp/questdb-connect-0.0.7.tar.gz --markdown 20230424/q/questdb-connect/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 15:59:11] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/ce/ab/0efd2be6f9334ef51237e78860959eab260f5f607913719f4a134eda10ff/magicsoup-0.3.6.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [scipion-em-reliontomo]: Downloading https://files.pythonhosted.org/packages/7a/20/2357637d396b695c1c01f09ac65e7f8e9bd6849ce9f122a6ff8a8881cee7/scipion-em-reliontomo-3.1.6.tar.gz
+[2023-04-24 15:59:11] INFO root fetch - processPackages [rainbowlog]: executing diffoscope
+[2023-04-24 15:59:11] INFO root fetch - processPackages [rainbowlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rainbowlog-2.0.3.tar.gz tmp/rainbowlog-2.0.4.tar.gz --markdown 20230424/r/rainbowlog/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-24 15:59:11] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-04-24 15:59:11] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.7.dev6.tar.gz tmp/tonic-1.2.7.dev9.tar.gz --markdown 20230424/t/tonic/1.2.7.dev6-1.2.7.dev9/diff.md --exclude *.pyd
+[2023-04-24 15:59:11] INFO root fetch - processPackages [scipion-em-reliontomo]: executing diffoscope
+[2023-04-24 15:59:11] INFO root fetch - processPackages [scipion-em-reliontomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-reliontomo-3.1.5.tar.gz tmp/scipion-em-reliontomo-3.1.6.tar.gz --markdown 20230424/s/scipion-em-reliontomo/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-24 15:59:12] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/54/a2/8b31f11abd2cd33d1c6148447cee86506d2a3db5ebd5232aa90103d519cc/magicsoup-0.3.7.tar.gz
+[2023-04-24 15:59:12] INFO root fetch - main [MainThread]: End processing [jpconvert]: success
+[2023-04-24 15:59:12] INFO root fetch - processPackages [synergy-dataset]: Downloading https://files.pythonhosted.org/packages/1e/92/4d19d87da3e247bae0edb5655393ebdb79c334cc1104f066914135d25f81/synergy-dataset-1.0a5.tar.gz
+[2023-04-24 15:59:12] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-04-24 15:59:12] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.6.tar.gz tmp/magicsoup-0.3.7.tar.gz --markdown 20230424/m/magicsoup/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-24 15:59:12] INFO root fetch - processPackages [synergy-dataset]: executing diffoscope
+[2023-04-24 15:59:12] INFO root fetch - processPackages [synergy-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synergy-dataset-1.0a4.tar.gz tmp/synergy-dataset-1.0a5.tar.gz --markdown 20230424/s/synergy-dataset/1.0a4-1.0a5/diff.md --exclude *.pyd
+[2023-04-24 15:59:12] INFO root fetch - processPackages [chateval]: Downloading https://files.pythonhosted.org/packages/8f/37/7f5f814f24741b95622b23bb7f41a55d96984c546145370a27e192b6d70e/chateval-0.0.9.tar.gz
+[2023-04-24 15:59:12] INFO root fetch - processPackages [chateval]: executing diffoscope
+[2023-04-24 15:59:12] INFO root fetch - processPackages [chateval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chateval-0.0.8.tar.gz tmp/chateval-0.0.9.tar.gz --markdown 20230424/c/chateval/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 15:59:13] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-04-24 15:59:13] INFO root fetch - main [MainThread]: End processing [rainbowlog]: success
+[2023-04-24 15:59:13] INFO root fetch - main [MainThread]: End processing [scipion-em-reliontomo]: success
+[2023-04-24 15:59:13] INFO root fetch - main [MainThread]: End processing [synergy-dataset]: success
+[2023-04-24 15:59:13] INFO root fetch - main [MainThread]: End processing [chateval]: success
+[2023-04-24 15:59:14] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-04-24 15:59:15] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-04-24 15:59:17] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-04-24 15:59:17] INFO root fetch - main [MainThread]: Store serial: [17834503]
