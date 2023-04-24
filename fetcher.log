@@ -2231,3 +2231,42 @@
 [2023-04-24 03:52:31] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-04-24 03:52:33] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
 [2023-04-24 03:52:33] INFO root fetch - main [MainThread]: Store serial: [17827557]
+[2023-04-24 03:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827557]
+[2023-04-24 03:57:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fstflowchat
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volworld-common
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedbase
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipymock
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zytlib
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Slpapy
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fstflowchat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 03:57:42] INFO root fetch - processPackages [volworld-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ipymock]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-04-24 03:57:42] INFO root fetch - processPackages [zytlib]: New version: [0.3.330] Old Version: [0.3.329]
+[2023-04-24 03:57:42] INFO root fetch - processPackages [Slpapy]: New version: [0.2.1] Old Version: [0.1.17]
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fedbase]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/f5/30/be66472a850d74ebfb4ef6c72549db649170876ea3dc5f8e5bf8f3ae45d6/fstflowchat-0.0.2.tar.gz
+[2023-04-24 03:57:42] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/af/b1/31f3a299b1f301279a90ecaf7b93b25fb4f7b826868d49465c29157a785f/zytlib-0.3.330-py3-none-any.whl
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fedbase]: Downloading https://files.pythonhosted.org/packages/74/f1/e1ee5071696283aeecd70789e75583a873554bfdda3478fa1c0bf776e5ce/fedbase-0.9.8.tar.gz
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fedbase]: executing diffoscope
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedbase-0.9.7.tar.gz tmp/fedbase-0.9.8.tar.gz --markdown 20230424/f/fedbase/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-24 03:57:42] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-04-24 03:57:42] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.329-py3-none-any.whl.zip tmp/zytlib-0.3.330-py3-none-any.whl.zip --markdown 20230424/z/zytlib/0.3.329-0.3.330/diff.md --exclude *.pyd
+[2023-04-24 03:57:42] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/3b/c8/fb890b22a4b57ddfea458e27dab7a9061df7a393caa99884edba5957ad24/Slpapy-0.2.1.tar.gz
+[2023-04-24 03:57:42] INFO root fetch - processPackages [volworld-common]: executing diffoscope
+[2023-04-24 03:57:42] INFO root fetch - processPackages [volworld-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_common-0.1.8.tar.gz tmp/volworld_common-0.1.9.tar.gz --markdown 20230424/v/volworld-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/c1/be/77123d23a9db9b234fdd3b7e715b73dcc378d6f0527123e999fad29523f8/ipymock-1.0.0.tar.gz
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/e4/c1/c92b03dc21bec98126612eb601c296a396a56bbe4da51497ef89cddc8db4/fstflowchat-0.0.3.tar.gz
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-24 03:57:42] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-0.1.3.tar.gz tmp/ipymock-1.0.0.tar.gz --markdown 20230424/i/ipymock/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fstflowchat]: executing diffoscope
+[2023-04-24 03:57:42] INFO root fetch - processPackages [fstflowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstflowchat-0.0.2.tar.gz tmp/fstflowchat-0.0.3.tar.gz --markdown 20230424/f/fstflowchat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 03:57:42] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-04-24 03:57:42] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.1.17.tar.gz tmp/Slpapy-0.2.1.tar.gz --markdown 20230424/S/Slpapy/0.1.17-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 03:57:43] INFO root fetch - main [MainThread]: End processing [volworld-common]: success
+[2023-04-24 03:57:44] INFO root fetch - main [MainThread]: End processing [fstflowchat]: success
+[2023-04-24 03:57:44] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-24 03:57:44] INFO root fetch - main [MainThread]: End processing [fedbase]: success
+[2023-04-24 03:57:44] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-04-24 03:57:59] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-04-24 03:57:59] INFO root fetch - main [MainThread]: Store serial: [17827573]
