@@ -9601,3 +9601,79 @@
 [2023-04-24 12:02:37] INFO root fetch - main [MainThread]: End processing [pynir]: success
 [2023-04-24 12:02:38] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-04-24 12:02:38] INFO root fetch - main [MainThread]: Store serial: [17831922]
+[2023-04-24 12:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831922]
+[2023-04-24 12:07:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alice-and-bob3
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-bond-proj
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-json-ui
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-hr-attendance-reason
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bp-data-fabric
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pokelance
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptdeploy
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: image-augs
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataspace
+[2023-04-24 12:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abuscom-libs
+[2023-04-24 12:07:47] INFO root fetch - processPackages [odoo13-addon-hr-attendance-reason]: New version: [13.0.2.2.0] Old Version: [13.0.2.1.2.dev1]
+[2023-04-24 12:07:47] WARNING root fetch - processPackages [pygame-json-ui]: Skipping, unable to determine old version
+[2023-04-24 12:07:47] INFO root fetch - processPackages [pygame-json-ui]: Start processing: cellscanner
+[2023-04-24 12:07:47] INFO root fetch - main [MainThread]: End processing [pygame-json-ui] error
+[2023-04-24 12:07:47] INFO root fetch - processPackages [image-augs]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-04-24 12:07:47] INFO root fetch - processPackages [dataspace]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:07:47] WARNING root fetch - processPackages [test-bond-proj]: Skipping, unable to determine old version
+[2023-04-24 12:07:47] INFO root fetch - processPackages [test-bond-proj]: Start processing: jurebes
+[2023-04-24 12:07:47] INFO root fetch - processPackages [abuscom-libs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 12:07:47] INFO root fetch - main [MainThread]: End processing [test-bond-proj] error
+[2023-04-24 12:07:47] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 12:07:47] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 12:07:47] INFO root fetch - processPackages [pokelance]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 12:07:47] INFO root fetch - processPackages [cellscanner]: New version: [1.3] Old Version: [1.2]
+[2023-04-24 12:07:47] INFO root fetch - processPackages [jurebes]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-04-24 12:07:47] ERROR root fetch - processPackages [alice-and-bob3]: Unable to get metadata: No such project 'alice-and-bob3'
+[2023-04-24 12:07:47] INFO root fetch - processPackages [alice-and-bob3]: Start processing: DDesignerAPI
+[2023-04-24 12:07:47] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-24 12:07:47] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.1.1] Old Version: [0.0.1.0]
+[2023-04-24 12:07:47] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 12:07:47] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 12:07:47] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-24 12:07:47] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.8.tar.gz tmp/bp_data_fabric-0.0.9.tar.gz --markdown 20230424/b/bp-data-fabric/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:07:47] INFO root fetch - processPackages [odoo13-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/c4/71/7b4d6e947ebf59309715f1f51f74fd81e879dead760e5027a92987b70566/odoo13_addon_hr_attendance_reason-13.0.2.1.2.dev1-py3-none-any.whl
+[2023-04-24 12:07:47] INFO root fetch - processPackages [image-augs]: Downloading https://files.pythonhosted.org/packages/fd/ff/067899cf3762444426826ee6c95ec23973e43eee66742f347b01d4c64779/image_augs-2.1.8.tar.gz
+[2023-04-24 12:07:47] INFO root fetch - processPackages [pokelance]: Downloading https://files.pythonhosted.org/packages/b6/a1/794c3801d9d799185e320146df27c7904aac8ec8b23fcb2c9ad9a735659d/pokelance-0.1.4.tar.gz
+[2023-04-24 12:07:47] INFO root fetch - processPackages [cellscanner]: Downloading https://files.pythonhosted.org/packages/d2/c9/6fe8bdcec9708fff8601472596b611929ca638846757b81bcfc977a24dce/cellscanner-1.3.tar.gz
+[2023-04-24 12:07:47] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/28/08/d26dbbcab56594d8954d02c00df9725a1b77239760fcb06be5910b00b2e4/jurebes-0.0.1a2-py3-none-any.whl
+[2023-04-24 12:07:47] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/70/91/fa79c16d35dc925a9c3a718497e943f7e5b9b6dd5f57aa656e3637f01b9d/DDesignerAPI-0.0.1.1-py3-none-any.whl
+[2023-04-24 12:07:47] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/39/c5/8bbde9ee5d1350adf1df29c75082873e447ef034106e9ac88063af9b5e84/abuscom-libs-0.1.6.tar.gz
+[2023-04-24 12:07:47] INFO root fetch - processPackages [image-augs]: executing diffoscope
+[2023-04-24 12:07:47] INFO root fetch - processPackages [image-augs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_augs-2.1.7.tar.gz tmp/image_augs-2.1.8.tar.gz --markdown 20230424/i/image-augs/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-04-24 12:07:47] INFO root fetch - processPackages [dataspace]: executing diffoscope
+[2023-04-24 12:07:47] INFO root fetch - processPackages [dataspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataspace-0.0.8.tar.gz tmp/dataspace-0.0.9.tar.gz --markdown 20230424/d/dataspace/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 12:07:47] INFO root fetch - processPackages [pokelance]: executing diffoscope
+[2023-04-24 12:07:47] INFO root fetch - processPackages [pokelance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokelance-0.1.3.tar.gz tmp/pokelance-0.1.4.tar.gz --markdown 20230424/p/pokelance/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 12:07:48] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 12:07:48] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.0.1a1-py3-none-any.whl.zip tmp/jurebes-0.0.1a2-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-04-24 12:07:48] INFO root fetch - processPackages [cellscanner]: executing diffoscope
+[2023-04-24 12:07:48] INFO root fetch - processPackages [cellscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellscanner-1.2.tar.gz tmp/cellscanner-1.3.tar.gz --markdown 20230424/c/cellscanner/1.2-1.3/diff.md --exclude *.pyd
+[2023-04-24 12:07:48] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 12:07:48] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.1.0-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.1.1-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.1.0-0.0.1.1/diff.md --exclude *.pyd
+[2023-04-24 12:07:48] INFO root fetch - processPackages [odoo13-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/fb/87/0875b539ed6041ac0727edf6603a52a1c930e245d574f560ac4b949d5d23/odoo13_addon_hr_attendance_reason-13.0.2.2.0-py3-none-any.whl
+[2023-04-24 12:07:48] INFO root fetch - processPackages [abuscom-libs]: executing diffoscope
+[2023-04-24 12:07:48] INFO root fetch - processPackages [abuscom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuscom-libs-0.1.5.tar.gz tmp/abuscom-libs-0.1.6.tar.gz --markdown 20230424/a/abuscom-libs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 12:07:48] INFO root fetch - processPackages [odoo13-addon-hr-attendance-reason]: executing diffoscope
+[2023-04-24 12:07:48] INFO root fetch - processPackages [odoo13-addon-hr-attendance-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_attendance_reason-13.0.2.1.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_hr_attendance_reason-13.0.2.2.0-py3-none-any.whl.zip --markdown 20230424/o/odoo13-addon-hr-attendance-reason/13.0.2.1.2.dev1-13.0.2.2.0/diff.md --exclude *.pyd
+[2023-04-24 12:07:49] INFO root fetch - processPackages [bp-data-fabric]: Start processing: to-paragraphs
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-24 12:07:49] INFO root fetch - processPackages [to-paragraphs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 12:07:49] INFO root fetch - processPackages [to-paragraphs]: Downloading https://files.pythonhosted.org/packages/b2/44/19bbc642b478e79faeb6c17d1b9863cdd76e577abedfa247770ec346adf1/to_paragraphs-0.1.8.tar.gz
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [abuscom-libs]: success
+[2023-04-24 12:07:49] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 12:07:49] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.7.tar.gz tmp/to_paragraphs-0.1.8.tar.gz --markdown 20230424/t/to-paragraphs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [pokelance]: success
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [image-augs]: success
+[2023-04-24 12:07:49] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 12:07:50] INFO root fetch - main [MainThread]: End processing [dataspace]: success
+[2023-04-24 12:07:50] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-attendance-reason]: success
+[2023-04-24 12:07:50] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 12:07:51] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
+[2023-04-24 12:07:51] INFO root fetch - main [MainThread]: Store serial: [17831966]
