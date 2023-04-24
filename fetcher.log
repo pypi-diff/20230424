@@ -6348,3 +6348,65 @@
 [2023-04-24 09:02:56] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-04-24 09:03:07] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-04-24 09:03:07] INFO root fetch - main [MainThread]: Store serial: [17829954]
+[2023-04-24 09:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829954]
+[2023-04-24 09:08:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikeCA
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-grains
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syngen
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-can-canine
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qufit
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp-data-fabric
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NikeCA
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index
+[2023-04-24 09:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydozer
+[2023-04-24 09:08:16] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [qufit]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [pydozer]: New version: [0.1.18] Old Version: [0.1.16]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-grains]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-can-canine]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [syngen]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [llama-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-24 09:08:16] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.8.tar.gz tmp/bp_data_fabric-0.0.9.tar.gz --markdown 20230424/b/bp-data-fabric/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.5.8.tar.gz tmp/llama_index-0.5.9.tar.gz --markdown 20230424/l/llama-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/ed/8a/ed3ea0e4486f6662687bcdd7a1ef0726ed67e9221047f4f592bfd2762e09/qufit-1.0.9.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-can-canine]: Downloading https://files.pythonhosted.org/packages/f8/16/c4111b3bd272b57fdcc3b88a42f8fffe0d5466201ffc803f41f491a649a6/python-can-canine-0.2.4.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/23/55/4831f4c2a8d040c3461e1ee6f9e941ff0fe5595beed1028db2d0248ed725/syngen-0.0.94.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [pydozer]: Downloading https://files.pythonhosted.org/packages/7f/e6/c7265c6064ed2d4ab815a88a255c171ebcae97ac01a788993d34ed47dde5/pydozer-0.1.16.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/57/a8/4741836744cdd1a8405e85321935fc9005e7d2618ed7d9d81bc64dc1faaf/NikeCA-0.1.81.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/57/a8/4741836744cdd1a8405e85321935fc9005e7d2618ed7d9d81bc64dc1faaf/NikeCA-0.1.81.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-grains]: Downloading https://files.pythonhosted.org/packages/a9/b8/66f5a72d6e11d3d15f8ffc49bd190f70acaf305421e1ab156f3fb2cf5340/python_grains-0.9.8.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [pydozer]: Downloading https://files.pythonhosted.org/packages/54/1e/254588ac4b3c29609a363e8df1fabe6399934a1139bc35de7202ab22d71a/pydozer-0.1.18.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-can-canine]: Downloading https://files.pythonhosted.org/packages/d6/94/6a5ff6cc1a6bfac37c07f12c170d0aa345937d35d2a5ebd5d149aaac73c3/python-can-canine-0.2.5.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/6f/0f/6ad9682b5b0189f742cc98f9f10bf99784bee3ea85b2cccdab71fab0bb61/qufit-1.1.0.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/d5/e4/4c365f9e428dec7e13fd22138b9dbc7c54a728da51f79fc52c1a4a73bfb6/NikeCA-0.1.82.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/d5/e4/4c365f9e428dec7e13fd22138b9dbc7c54a728da51f79fc52c1a4a73bfb6/NikeCA-0.1.82.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/86/66/806d0229ee1f884484f5681bdcf1d05f57620134eb9466525ee904871e73/syngen-0.0.95.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [pydozer]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [pydozer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydozer-0.1.16.tar.gz tmp/pydozer-0.1.18.tar.gz --markdown 20230424/p/pydozer/0.1.16-0.1.18/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-can-canine]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-can-canine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-can-canine-0.2.4.tar.gz tmp/python-can-canine-0.2.5.tar.gz --markdown 20230424/p/python-can-canine/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.0.9.tar.gz tmp/qufit-1.1.0.tar.gz --markdown 20230424/q/qufit/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.81.tar.gz tmp/NikeCA-0.1.82.tar.gz --markdown 20230424/N/NikeCA/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.81.tar.gz tmp/NikeCA-0.1.82.tar.gz --markdown 20230424/N/NikeCA/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-04-24 09:08:16] INFO root fetch - processPackages [python-grains]: Downloading https://files.pythonhosted.org/packages/99/dd/ec5048ae9942f2e6037283b7063028e0e3562f15d9a146efceacbaafcf1e/python_grains-0.9.9.tar.gz
+[2023-04-24 09:08:16] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-04-24 09:08:16] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.0.94.tar.gz tmp/syngen-0.0.95.tar.gz --markdown 20230424/s/syngen/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-04-24 09:08:17] INFO root fetch - processPackages [python-grains]: executing diffoscope
+[2023-04-24 09:08:17] INFO root fetch - processPackages [python-grains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_grains-0.9.8.tar.gz tmp/python_grains-0.9.9.tar.gz --markdown 20230424/p/python-grains/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 09:08:17] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [python-can-canine]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [pydozer]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [python-grains]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 09:08:19] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-04-24 09:08:19] INFO root fetch - main [MainThread]: Store serial: [17829984]
