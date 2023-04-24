@@ -9180,3 +9180,105 @@
 [2023-04-24 11:41:21] INFO root fetch - main [MainThread]: End processing [simplification]: success
 [2023-04-24 11:41:31] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-24 11:41:31] INFO root fetch - main [MainThread]: Store serial: [17831690]
+[2023-04-24 11:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831690]
+[2023-04-24 11:46:39] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xyz-py
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DDesignerAPI
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kadi
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-app-framework
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynotiontools
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yz-core2
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: system-superset-driver
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alice-and-bob3
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: met-brewer
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ats-case
+[2023-04-24 11:46:39] INFO root fetch - processPackages [xyz-py]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [kadi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ats-case]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [smart-app-framework]: New version: [2.0.1rc9] Old Version: [2.0.1rc8]
+[2023-04-24 11:46:39] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-24 11:46:39] INFO root fetch - processPackages [alice-and-bob3]: Start processing: pygmame-ui
+[2023-04-24 11:46:39] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-24 11:46:39] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 11:46:39] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.8.tar.gz tmp/system_superset_driver-0.0.9.tar.gz --markdown 20230424/s/system-superset-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:46:39] INFO root fetch - processPackages [met-brewer]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [yz-core2]: New version: [1.0.43] Old Version: [1.0.42]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-24 11:46:39] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230424/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:46:39] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/62/12/d8b69429a42370857c05929d2953359db783ed419e08b49ccba0f27824bc/xyz_py-5.4.0.tar.gz
+[2023-04-24 11:46:39] ERROR root fetch - processPackages [pygmame-ui]: Unable to get metadata: No such project 'pygmame-ui'
+[2023-04-24 11:46:39] INFO root fetch - processPackages [pygmame-ui]: Start processing: je-editor
+[2023-04-24 11:46:39] INFO root fetch - main [MainThread]: End processing [pygmame-ui] error
+[2023-04-24 11:46:39] INFO root fetch - processPackages [kadi]: Downloading https://files.pythonhosted.org/packages/3c/13/66ad2967333480e214c9d11d19338d16d5b8eba8c98ce2d7100416b06050/kadi-0.8.1-py3-none-any.whl
+[2023-04-24 11:46:39] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:46:39] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/50/07/e6c996f419ed1dbdf00ac479d21a44bfd58858f78747280d7cadfaf075fe/ats_case-0.6.4.tar.gz
+[2023-04-24 11:46:39] INFO root fetch - processPackages [met-brewer]: Downloading https://files.pythonhosted.org/packages/ec/26/51c09322a1923678bbce407450144cc9031b40b5c5f71eea77f9c1e7c0b2/met-brewer-1.0.tar.gz
+[2023-04-24 11:46:39] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/9e/1d/51be64fcc08a57d274134f9ac753a1b8644c44bf2e3cd59d740be551aefe/DDesignerAPI-0.0.0.9-py3-none-any.whl
+[2023-04-24 11:46:39] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-24 11:46:39] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230424/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/f6/df/35c55cf012e44492831ef4d297806e66fd7a3d5f5017bcc7a55b7e78174b/yz-core2-1.0.42.tar.gz
+[2023-04-24 11:46:40] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.0.1rc8-py3-none-any.whl.zip tmp/smart_app_framework-2.0.1rc9-py3-none-any.whl.zip --markdown 20230424/s/smart-app-framework/2.0.1rc8-2.0.1rc9/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.6.3.tar.gz tmp/ats_case-0.6.4.tar.gz --markdown 20230424/a/ats-case/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.8-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.9-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/2e/02/19a6f776e8f1b4ccb0f81412852fd9a009f1b07919eba90f5977611214c2/xyz_py-5.4.1.tar.gz
+[2023-04-24 11:46:40] INFO root fetch - processPackages [met-brewer]: Downloading https://files.pythonhosted.org/packages/2e/ac/1f429811819bba5ff54cc22e6cf7e2803264fcd32cc3279f7b0781af62f6/met-brewer-1.0.1.tar.gz
+[2023-04-24 11:46:40] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/50/e6/3dd73d356f8f955a8180223e29d67043c6ab64071333551fe734cf162879/yz-core2-1.0.43.tar.gz
+[2023-04-24 11:46:40] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.4.0.tar.gz tmp/xyz_py-5.4.1.tar.gz --markdown 20230424/x/xyz-py/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] INFO root fetch - processPackages [met-brewer]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [met-brewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/met-brewer-1.0.tar.gz tmp/met-brewer-1.0.1.tar.gz --markdown 20230424/m/met-brewer/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] WARNING root fetch - processPackages [kadi]: Skipping package: exceeds size limit 16380155>=10485760
+[2023-04-24 11:46:40] INFO root fetch - processPackages [kadi]: Start processing: je-editor-dev
+[2023-04-24 11:46:40] INFO root fetch - main [MainThread]: End processing [kadi] error
+[2023-04-24 11:46:40] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:46:40] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.42.tar.gz tmp/yz-core2-1.0.43.tar.gz --markdown 20230424/y/yz-core2/1.0.42-1.0.43/diff.md --exclude *.pyd
+[2023-04-24 11:46:40] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-24 11:46:40] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230424/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:46:41] INFO root fetch - processPackages [system-superset-driver]: Start processing: peaqevcore
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 11:46:41] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-04-24 11:46:41] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-04-24 11:46:41] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230424/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-04-24 11:46:41] INFO root fetch - processPackages [mynotiontools]: Start processing: nonebot-plugin-picstatus
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-24 11:46:41] INFO root fetch - processPackages [nonebot-plugin-picstatus]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-24 11:46:41] INFO root fetch - processPackages [je-editor]: Start processing: silkynet
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-24 11:46:41] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Downloading https://files.pythonhosted.org/packages/d8/ea/1a402e3039fdb4a09deb848183f3d902394fc7113c7dc583dbda22ebd536/nonebot_plugin_picstatus-0.3.3.tar.gz
+[2023-04-24 11:46:41] WARNING root fetch - processPackages [silkynet]: Skipping, unable to determine old version
+[2023-04-24 11:46:41] INFO root fetch - processPackages [silkynet]: Start processing: cellscanner
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [silkynet] error
+[2023-04-24 11:46:41] WARNING root fetch - processPackages [cellscanner]: Skipping, unable to determine old version
+[2023-04-24 11:46:41] INFO root fetch - processPackages [cellscanner]: Start processing: python-grains
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [cellscanner] error
+[2023-04-24 11:46:41] INFO root fetch - processPackages [ats-case]: Start processing: gitlab-runner-tart-driver
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-24 11:46:41] INFO root fetch - processPackages [python-grains]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 11:46:41] WARNING root fetch - processPackages [nonebot-plugin-picstatus]: Skipping package: exceeds size limit 16080501>=10485760
+[2023-04-24 11:46:41] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Start processing: img-host
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-picstatus] error
+[2023-04-24 11:46:41] WARNING root fetch - processPackages [img-host]: Skipping, unable to determine old version
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [img-host] error
+[2023-04-24 11:46:41] INFO root fetch - processPackages [python-grains]: executing diffoscope
+[2023-04-24 11:46:41] INFO root fetch - processPackages [python-grains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_grains-0.9.8.tar.gz tmp/python_grains-0.9.9.tar.gz --markdown 20230424/p/python-grains/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 11:46:41] INFO root fetch - processPackages [gitlab-runner-tart-driver]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 11:46:41] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 11:46:42] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-04-24 11:46:42] INFO root fetch - main [MainThread]: End processing [met-brewer]: success
+[2023-04-24 11:46:42] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/83/aa/05e1f11514d2dc6bb196fce3e33dc2161476b1f3a3f76375a0f19726191b/gitlab-runner-tart-driver-0.1.4.tar.gz
+[2023-04-24 11:46:42] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-24 11:46:42] INFO root fetch - processPackages [gitlab-runner-tart-driver]: executing diffoscope
+[2023-04-24 11:46:42] INFO root fetch - processPackages [gitlab-runner-tart-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-runner-tart-driver-0.1.3.tar.gz tmp/gitlab-runner-tart-driver-0.1.4.tar.gz --markdown 20230424/g/gitlab-runner-tart-driver/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 11:46:42] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-04-24 11:46:43] INFO root fetch - main [MainThread]: End processing [python-grains]: success
+[2023-04-24 11:46:43] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-04-24 11:46:43] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
+[2023-04-24 11:46:43] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-04-24 11:46:43] INFO root fetch - main [MainThread]: Store serial: [17831762]
