@@ -12728,3 +12728,143 @@
 [2023-04-24 14:42:44] INFO root fetch - main [MainThread]: End processing [ckanext-iso19115]: success
 [2023-04-24 14:42:48] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 14:42:48] INFO root fetch - main [MainThread]: Store serial: [17833596]
+[2023-04-24 14:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833596]
+[2023-04-24 14:47:58] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iseqresources
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphere-base
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-organization-python
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnhub_rest
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-tf-plugin-cuda110
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-id-python
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yumikogram
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantagonia-api-client
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2023-04-24 14:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aacommpy
+[2023-04-24 14:47:58] INFO root fetch - processPackages [iseqresources]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [yumikogram]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: New version: [1.25.0] Old Version: [1.24.0]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [lnhub_rest]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [aacommpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [quantagonia-api-client]: New version: [0.9] Old Version: [0.8]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 14:47:58] INFO root fetch - processPackages [iseqresources]: executing diffoscope
+[2023-04-24 14:47:58] INFO root fetch - processPackages [iseqresources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iseqresources-0.0.8.tar.gz tmp/iseqresources-0.0.9.tar.gz --markdown 20230424/i/iseqresources/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 14:47:58] INFO root fetch - processPackages [yumikogram]: Downloading https://files.pythonhosted.org/packages/ef/4e/071c99e006bd07f1e920249a2e0461974417e43ec7f90e800ac7010245ee/yumikogram-0.0.6.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: Downloading https://files.pythonhosted.org/packages/4d/78/6211d029db9d900ba8f78cd9075a6327c4d0948968657535cf07da50cf69/nvidia-dali-tf-plugin-cuda110-1.24.0.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/77/82/55d3eac92f01dac05b3ee0e48ada4e32e292410099a29eb4235b4669e13e/lnhub_rest-0.8.2.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/34/f8/eedbd8e8ff56257f6cc18e7500418650188f6c6da91bee600536cd8ecca6/aacommpy-0.1.2.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/23/b2/d195ee1ab25a64139920b673166142e80649e630347652252756eb6482e2/sphere_base-0.1.9.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/9e/17/ae4fa9b9f0f539dd7b70feea59aded982b60d572ef36b6392bd2521e2140/quantagonia_api_client-0.8-py3-none-any.whl
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-04-24 14:47:58] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.1.tar.gz tmp/aacommpy-0.1.2.tar.gz --markdown 20230424/a/aacommpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 14:47:58] INFO root fetch - processPackages [yumikogram]: Downloading https://files.pythonhosted.org/packages/f8/a3/4bcf53bb29511cf79480e1d890110c7745e869d5b3bcfbf749ae20b84c05/yumikogram-0.0.7.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-24 14:47:58] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230424/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 14:47:58] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/81/8a/34c8ca0e7f46f6bdd7e7aef7398ee43339312d67f3377cdfa7991514c497/lnhub_rest-0.9.0.tar.gz
+[2023-04-24 14:47:58] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-04-24 14:47:59] INFO root fetch - processPackages [yumikogram]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [yumikogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yumikogram-0.0.6.tar.gz tmp/yumikogram-0.0.7.tar.gz --markdown 20230424/y/yumikogram/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: Downloading https://files.pythonhosted.org/packages/0f/df/ef274b4309c65213dffc772c182fccb1f90e11cc92c564a47bc31d7986dc/nvidia-dali-tf-plugin-cuda110-1.25.0.tar.gz
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-04-24 14:47:59] INFO root fetch - processPackages [lnhub_rest]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [lnhub_rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnhub_rest-0.8.2.tar.gz tmp/lnhub_rest-0.9.0.tar.gz --markdown 20230424/l/lnhub_rest/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230424/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230424/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-cuda110-1.24.0.tar.gz tmp/nvidia-dali-tf-plugin-cuda110-1.25.0.tar.gz --markdown 20230424/n/nvidia-dali-tf-plugin-cuda110/1.24.0-1.25.0/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230424/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/c0/8a/99d6b2080083bf41294ba1392115da6aeb883b82e42ce645a09a7a8a9152/quantagonia_api_client-0.9-py3-none-any.whl
+[2023-04-24 14:47:59] INFO root fetch - processPackages [quantagonia-api-client]: executing diffoscope
+[2023-04-24 14:47:59] INFO root fetch - processPackages [quantagonia-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantagonia_api_client-0.8-py3-none-any.whl.zip tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip --markdown 20230424/q/quantagonia-api-client/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-24 14:47:59] INFO root fetch - processPackages [iseqresources]: Start processing: TSInterpret
+[2023-04-24 14:47:59] INFO root fetch - main [MainThread]: End processing [iseqresources]: success
+[2023-04-24 14:47:59] INFO root fetch - processPackages [TSInterpret]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 14:48:00] INFO root fetch - processPackages [aacommpy]: Start processing: ubiops
+[2023-04-24 14:48:00] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-04-24 14:48:00] INFO root fetch - processPackages [ubiops]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-24 14:48:00] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/cf/4b/e9cb887c8b746cb6ac69444d6e358996042a5137427b8da518045b763751/TSInterpret-0.2.3.tar.gz
+[2023-04-24 14:48:00] INFO root fetch - processPackages [ubiops]: Downloading https://files.pythonhosted.org/packages/94/b4/1f054803f1725c2112b26870331f7eb1527f0edf49c22605657527b4f8b3/ubiops-3.8.0.tar.gz
+[2023-04-24 14:48:00] INFO root fetch - processPackages [TSInterpret]: executing diffoscope
+[2023-04-24 14:48:00] INFO root fetch - processPackages [TSInterpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSInterpret-0.2.2.tar.gz tmp/TSInterpret-0.2.3.tar.gz --markdown 20230424/T/TSInterpret/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 14:48:00] INFO root fetch - processPackages [yumikogram]: Start processing: manticore
+[2023-04-24 14:48:00] INFO root fetch - main [MainThread]: End processing [yumikogram]: success
+[2023-04-24 14:48:00] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230424] Old Version: [0.3.8.dev230423]
+[2023-04-24 14:48:00] INFO root fetch - processPackages [ubiops]: Downloading https://files.pythonhosted.org/packages/ef/53/d4805abfa2785067ffe33d9ed3cbb8286351bb05d7f73bcb9ccb590a0590/ubiops-3.9.0.tar.gz
+[2023-04-24 14:48:00] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/1c/52/645f0878c6c02199ce2256682779f9da5969d2f7d1d4e6e105fbec085828/manticore-0.3.8.dev230424.tar.gz
+[2023-04-24 14:48:00] INFO root fetch - processPackages [ubiops]: executing diffoscope
+[2023-04-24 14:48:00] INFO root fetch - processPackages [ubiops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiops-3.8.0.tar.gz tmp/ubiops-3.9.0.tar.gz --markdown 20230424/u/ubiops/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-04-24 14:48:00] INFO root fetch - processPackages [quantagonia-api-client]: Start processing: open-autonomy
+[2023-04-24 14:48:00] INFO root fetch - main [MainThread]: End processing [quantagonia-api-client]: success
+[2023-04-24 14:48:00] INFO root fetch - processPackages [open-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 14:48:00] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-04-24 14:48:00] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230423.tar.gz tmp/manticore-0.3.8.dev230424.tar.gz --markdown 20230424/m/manticore/0.3.8.dev230423-0.3.8.dev230424/diff.md --exclude *.pyd
+[2023-04-24 14:48:00] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: open-aea-test-autonomy
+[2023-04-24 14:48:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-24 14:48:00] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 14:48:00] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/26/db/68ff36c112427aa8da36a891a4d5aabb3a68713130bb62425cb8bbdb402e/open-autonomy-0.9.0.tar.gz
+[2023-04-24 14:48:01] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2023-04-24 14:48:01] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/d2/14/e7bb8dec5be3ae2caf12a3a77abe5eb849912ee6ab113bbb753fb27c75bf/open-autonomy-0.9.1.tar.gz
+[2023-04-24 14:48:01] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2023-04-24 14:48:01] INFO root fetch - processPackages [TSInterpret]: Start processing: ShellcodeTester
+[2023-04-24 14:48:01] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
+[2023-04-24 14:48:01] INFO root fetch - processPackages [ShellcodeTester]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 14:48:01] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2023-04-24 14:48:01] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20230424/o/open-aea-test-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 14:48:01] INFO root fetch - processPackages [ShellcodeTester]: executing diffoscope
+[2023-04-24 14:48:01] INFO root fetch - processPackages [ShellcodeTester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShellcodeTester-0.2.8.tar.gz tmp/ShellcodeTester-0.2.9.tar.gz --markdown 20230424/S/ShellcodeTester/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 14:48:02] INFO root fetch - processPackages [open-autonomy]: executing diffoscope
+[2023-04-24 14:48:02] INFO root fetch - processPackages [open-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-autonomy-0.9.0.tar.gz tmp/open-autonomy-0.9.1.tar.gz --markdown 20230424/o/open-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 14:48:02] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: oarepo-oai-pmh-harvester
+[2023-04-24 14:48:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-24 14:48:02] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.8] Old Version: [4.0.7]
+[2023-04-24 14:48:02] INFO root fetch - processPackages [manticore]: Start processing: talos-install
+[2023-04-24 14:48:02] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-04-24 14:48:02] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev356] Old Version: [0.2.0.dev352]
+[2023-04-24 14:48:02] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: Downloading https://files.pythonhosted.org/packages/8c/29/da14249081ccdc669c9e1c8f4a86c692ff40830ec32f4e1c9379c0f7a7b2/oarepo-oai-pmh-harvester-4.0.7.tar.gz
+[2023-04-24 14:48:02] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: Downloading https://files.pythonhosted.org/packages/55/34/f5ea5dab7a642f127d8c8b51060a81d12bdb721b170679e0e3cc0b241d89/oarepo-oai-pmh-harvester-4.0.8.tar.gz
+[2023-04-24 14:48:02] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/12/ac/4cd1add6e434e2163b82cdd616e71ab25b881f9b52feaf0b2b4e386be142/talos_install-0.2.0.dev356.tar.gz
+[2023-04-24 14:48:02] INFO root fetch - processPackages [open-aea-test-autonomy]: Start processing: odoo-addon-stock-available-mrp
+[2023-04-24 14:48:02] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2023-04-24 14:48:02] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-04-24 14:48:02] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.7.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.8.tar.gz --markdown 20230424/o/oarepo-oai-pmh-harvester/4.0.7-4.0.8/diff.md --exclude *.pyd
+[2023-04-24 14:48:02] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.2]
+[2023-04-24 14:48:02] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-24 14:48:02] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev352.tar.gz tmp/talos_install-0.2.0.dev356.tar.gz --markdown 20230424/t/talos-install/0.2.0.dev352-0.2.0.dev356/diff.md --exclude *.pyd
+[2023-04-24 14:48:03] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Downloading https://files.pythonhosted.org/packages/6c/84/7df193be8668eb588751a48172bd574d669df5463cedb34a5ba8fc8e7f19/odoo_addon_stock_available_mrp-15.0.1.0.1.2-py3-none-any.whl
+[2023-04-24 14:48:03] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Downloading https://files.pythonhosted.org/packages/1e/c3/dfcead87e59625d9c6061e7c0808bb82dcf2c098494cdbf8527d6f2c3b1e/odoo_addon_stock_available_mrp-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-24 14:48:03] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: executing diffoscope
+[2023-04-24 14:48:03] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_mrp-15.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230424/o/odoo-addon-stock-available-mrp/15.0.1.0.1.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-24 14:48:04] INFO root fetch - processPackages [lnhub_rest]: Start processing: api-Rocket
+[2023-04-24 14:48:04] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
+[2023-04-24 14:48:04] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 14:48:04] INFO root fetch - processPackages [ShellcodeTester]: Start processing: pontos
+[2023-04-24 14:48:04] INFO root fetch - main [MainThread]: End processing [ShellcodeTester]: success
+[2023-04-24 14:48:04] INFO root fetch - main [MainThread]: End processing [ubiops]: success
+[2023-04-24 14:48:04] INFO root fetch - processPackages [pontos]: New version: [23.4.5] Old Version: [23.4.3]
+[2023-04-24 14:48:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-24 14:48:04] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/c7/b6/06fc427f2ac22d212ed9cb5fd29510b8e168c7b813f98c5783a6be31af53/pontos-23.4.3.tar.gz
+[2023-04-24 14:48:04] INFO root fetch - processPackages [api-Rocket]: Downloading https://files.pythonhosted.org/packages/2b/85/60fb9e46ec44ffb3fd2206a99b48a453142d3a82756f03f9215ba50c77a6/api-Rocket-1.3.1.tar.gz
+[2023-04-24 14:48:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-mrp]: success
+[2023-04-24 14:48:04] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-24 14:48:04] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.3.0.tar.gz tmp/api-Rocket-1.3.1.tar.gz --markdown 20230424/a/api-Rocket/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 14:48:05] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-24 14:48:05] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/1c/b6/6e349734ac9e4ec937395351a82b89bd49fc1488ac3c76ec9c61336516e7/pontos-23.4.5.tar.gz
+[2023-04-24 14:48:05] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-04-24 14:48:05] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-04-24 14:48:05] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.4.3.tar.gz tmp/pontos-23.4.5.tar.gz --markdown 20230424/p/pontos/23.4.3-23.4.5/diff.md --exclude *.pyd
+[2023-04-24 14:48:05] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-24 14:48:06] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-24 14:48:07] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-cuda110]: success
+[2023-04-24 14:48:08] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-04-24 14:48:15] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
+[2023-04-24 14:48:15] INFO root fetch - main [MainThread]: Store serial: [17833684]
