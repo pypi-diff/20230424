@@ -13836,3 +13836,120 @@
 [2023-04-24 15:36:50] ERROR root fetch - processPackages [moto]: Timeout during execution of pkgdiff
 [2023-04-24 15:36:50] INFO root fetch - main [MainThread]: End processing [moto] error
 [2023-04-24 15:36:50] INFO root fetch - main [MainThread]: Store serial: [17834269]
+[2023-04-24 15:41:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834269]
+[2023-04-24 15:41:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: html4quiz
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talisman-dm
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wirepas-mqtt-library
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web3-auto
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steam-models
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yumikogram
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aacommpy
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: html4quiz
+[2023-04-24 15:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tarina
+[2023-04-24 15:41:58] INFO root fetch - processPackages [tarina]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [aacommpy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [wirepas-mqtt-library]: New version: [1.2rc2] Old Version: [1.2rc1]
+[2023-04-24 15:41:59] WARNING root fetch - processPackages [web3-auto]: Skipping, unable to determine old version
+[2023-04-24 15:41:59] INFO root fetch - processPackages [web3-auto]: Start processing: jpconvert
+[2023-04-24 15:41:59] INFO root fetch - main [MainThread]: End processing [web3-auto] error
+[2023-04-24 15:41:59] INFO root fetch - processPackages [yumikogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [steam-models]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [jpconvert]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev5] Old Version: [4.1.9.dev3]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/9c/59/0f074b818991fd67748320a72a450838c18540b80a9fddc06acba25ef7dd/html4quiz-0.0.36.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/9c/59/0f074b818991fd67748320a72a450838c18540b80a9fddc06acba25ef7dd/html4quiz-0.0.36.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/8f/58/7b2d4e65f9bf45bbeeaa1a6e4abd9a311e3af9aa4b03a06612077ebcd468/talisman-dm-1.0.0a5.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [jpconvert]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [jpconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpconvert-0.3.8.tar.gz tmp/jpconvert-0.3.9.tar.gz --markdown 20230424/j/jpconvert/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] INFO root fetch - processPackages [wirepas-mqtt-library]: Downloading https://files.pythonhosted.org/packages/e1/be/3adea6a2e4c27425b74839c78a426367e3f2066b2e9062f0106908f224fa/wirepas_mqtt_library-1.2rc1.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4f/5d/c68f0d4771f794e00f980f77216a72a1611f1eb7c0e0e82e491144700e44/moto-4.1.9.dev3.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/cc/84/119419f68fa685857690cc3988e6a0509a9f8a40da053b9e158cc56e4f9b/aacommpy-0.1.8.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [steam-models]: Downloading https://files.pythonhosted.org/packages/8a/72/4fff9331124e48cfb401c4a1fb157700ca59ae2d4ca3a14ca651150ff388/steam_models-2023.4.0.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [yumikogram]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [yumikogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yumikogram-0.0.8.tar.gz tmp/yumikogram-0.0.9.tar.gz --markdown 20230424/y/yumikogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] INFO root fetch - processPackages [tarina]: Downloading https://files.pythonhosted.org/packages/99/e1/ff47051771c65c988b8181566b890c17f9985a9007cc6f93222c21e576a7/tarina-0.3.2.tar.gz
+[2023-04-24 15:41:59] WARNING root fetch - processPackages [steam-models]: Skipping package: exceeds size limit 49650761>=10485760
+[2023-04-24 15:41:59] INFO root fetch - processPackages [steam-models]: Start processing: dfiibridge
+[2023-04-24 15:41:59] INFO root fetch - main [MainThread]: End processing [steam-models] error
+[2023-04-24 15:41:59] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.7.tar.gz tmp/aacommpy-0.1.8.tar.gz --markdown 20230424/a/aacommpy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/ae/1e/e29d0d379089c0c5d7e346a103fa005e19753643adfaf06eb0fc1ad3c33c/html4quiz-0.0.37.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/ae/1e/e29d0d379089c0c5d7e346a103fa005e19753643adfaf06eb0fc1ad3c33c/html4quiz-0.0.37.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/c6/9d/0487d3ba0130e9a3fbd8fce61153cfe948ded38cde2147a6e3b6b50d9c39/talisman-dm-1.0.0a6.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [tarina]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [tarina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarina-0.3.1.tar.gz tmp/tarina-0.3.2.tar.gz --markdown 20230424/t/tarina/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] WARNING root fetch - processPackages [dfiibridge]: Skipping, unable to determine old version
+[2023-04-24 15:41:59] INFO root fetch - processPackages [dfiibridge]: Start processing: ascii-cli
+[2023-04-24 15:41:59] INFO root fetch - main [MainThread]: End processing [dfiibridge] error
+[2023-04-24 15:41:59] INFO root fetch - processPackages [ascii-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 15:41:59] INFO root fetch - processPackages [wirepas-mqtt-library]: Downloading https://files.pythonhosted.org/packages/9c/a1/569efdcdb7809ba4f384901caa1b54930faa9657bddfa9d3a13dd1a4f5e9/wirepas_mqtt_library-1.2rc2.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.36.tar.gz tmp/html4quiz-0.0.37.tar.gz --markdown 20230424/h/html4quiz/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a5.tar.gz tmp/talisman-dm-1.0.0a6.tar.gz --markdown 20230424/t/talisman-dm/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.36.tar.gz tmp/html4quiz-0.0.37.tar.gz --markdown 20230424/h/html4quiz/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-04-24 15:41:59] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/56/41/fc8b19ec50456a3063ae4d4bee4bc0b60cf6c66c467d7c8289fe5bb051d5/ascii-cli-0.1.5.tar.gz
+[2023-04-24 15:41:59] INFO root fetch - processPackages [wirepas-mqtt-library]: executing diffoscope
+[2023-04-24 15:41:59] INFO root fetch - processPackages [wirepas-mqtt-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirepas_mqtt_library-1.2rc1.tar.gz tmp/wirepas_mqtt_library-1.2rc2.tar.gz --markdown 20230424/w/wirepas-mqtt-library/1.2rc1-1.2rc2/diff.md --exclude *.pyd
+[2023-04-24 15:42:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2a/0c/557b622185593c4d7adb2a8632c222b0e62e970bc09ddbc6d313e018081b/moto-4.1.9.dev5.tar.gz
+[2023-04-24 15:42:00] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-24 15:42:00] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.1.4.tar.gz tmp/ascii-cli-0.1.5.tar.gz --markdown 20230424/a/ascii-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 15:42:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-24 15:42:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev3.tar.gz tmp/moto-4.1.9.dev5.tar.gz --markdown 20230424/m/moto/4.1.9.dev3-4.1.9.dev5/diff.md --exclude *.pyd
+[2023-04-24 15:42:00] INFO root fetch - processPackages [aacommpy]: Start processing: ssb-project-cli
+[2023-04-24 15:42:00] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-04-24 15:42:00] INFO root fetch - processPackages [yumikogram]: Start processing: returnn
+[2023-04-24 15:42:00] INFO root fetch - main [MainThread]: End processing [yumikogram]: success
+[2023-04-24 15:42:00] INFO root fetch - processPackages [ssb-project-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 15:42:01] INFO root fetch - processPackages [tarina]: Start processing: mle-flake8-plugins
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [tarina]: success
+[2023-04-24 15:42:01] INFO root fetch - processPackages [returnn]: New version: [1.20230424.151137] Old Version: [1.20230421.133150]
+[2023-04-24 15:42:01] INFO root fetch - processPackages [jpconvert]: Start processing: vtece4564-gamelib
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [jpconvert]: success
+[2023-04-24 15:42:01] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 15:42:01] INFO root fetch - processPackages [mle-flake8-plugins]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 15:42:01] INFO root fetch - processPackages [ssb-project-cli]: Downloading https://files.pythonhosted.org/packages/ef/7b/90f31f5c494de7eec2e9b8b4ae158bfa059ff8d0b9b9d8dd9437bffd9598/ssb_project_cli-1.0.8.tar.gz
+[2023-04-24 15:42:01] INFO root fetch - processPackages [html4quiz]: Start processing: html4quiz
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-24 15:42:01] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-24 15:42:01] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230424/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 15:42:01] INFO root fetch - processPackages [html4quiz]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-04-24 15:42:01] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/f5/03/7b87ad6cfb31a747534f435e36a26c686d3e122db9cdfa80e3ed0bfd051b/returnn-1.20230421.133150.tar.gz
+[2023-04-24 15:42:01] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-24 15:42:01] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.36.tar.gz tmp/html4quiz-0.0.37.tar.gz --markdown 20230424/h/html4quiz/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-04-24 15:42:01] INFO root fetch - processPackages [mle-flake8-plugins]: Downloading https://files.pythonhosted.org/packages/ed/9b/27f90f2d236606a13b029732428e2e61b4ae3e06909bbec54074c1e982dd/mle_flake8_plugins-0.1.3.tar.gz
+[2023-04-24 15:42:01] INFO root fetch - processPackages [html4quiz]: Start processing: chatgpt4-cli
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-24 15:42:01] INFO root fetch - processPackages [ascii-cli]: Start processing: facefinder
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-24 15:42:01] INFO root fetch - processPackages [mle-flake8-plugins]: executing diffoscope
+[2023-04-24 15:42:01] INFO root fetch - processPackages [mle-flake8-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mle_flake8_plugins-0.1.2.tar.gz tmp/mle_flake8_plugins-0.1.3.tar.gz --markdown 20230424/m/mle-flake8-plugins/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 15:42:01] WARNING root fetch - processPackages [facefinder]: Skipping, unable to determine old version
+[2023-04-24 15:42:01] INFO root fetch - processPackages [ssb-project-cli]: Downloading https://files.pythonhosted.org/packages/17/69/36a6c13ee57a7209f4ccf464d9125cbdb01953398a7e7910fad4430d81ce/ssb_project_cli-1.0.9.tar.gz
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [facefinder] error
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-04-24 15:42:01] INFO root fetch - processPackages [chatgpt4-cli]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-04-24 15:42:01] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/25/14/2a46a3371e9b2ad8c4b73ce302e8477a047d7434ef390d9bdf8a574ce208/returnn-1.20230424.151137.tar.gz
+[2023-04-24 15:42:01] INFO root fetch - processPackages [ssb-project-cli]: executing diffoscope
+[2023-04-24 15:42:01] INFO root fetch - processPackages [ssb-project-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_project_cli-1.0.8.tar.gz tmp/ssb_project_cli-1.0.9.tar.gz --markdown 20230424/s/ssb-project-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 15:42:01] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/7e/c6/eac4f38c414a338d542717ed67c3015cb53a2f1a3a6f5ccdd39f20f71def/chatgpt4-cli-1.5.2.tar.gz
+[2023-04-24 15:42:01] INFO root fetch - main [MainThread]: End processing [wirepas-mqtt-library]: success
+[2023-04-24 15:42:02] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/c9/07/79ca62cb8de69e915638c253a2ecbb57718ef594d995fea8ef2caf478a87/chatgpt4-cli-1.5.3.tar.gz
+[2023-04-24 15:42:02] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-24 15:42:02] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230421.133150.tar.gz tmp/returnn-1.20230424.151137.tar.gz --markdown 20230424/r/returnn/1.20230421.133150-1.20230424.151137/diff.md --exclude *.pyd
+[2023-04-24 15:42:02] INFO root fetch - processPackages [chatgpt4-cli]: executing diffoscope
+[2023-04-24 15:42:02] INFO root fetch - processPackages [chatgpt4-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt4-cli-1.5.2.tar.gz tmp/chatgpt4-cli-1.5.3.tar.gz --markdown 20230424/c/chatgpt4-cli/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-04-24 15:42:02] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-24 15:42:02] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-24 15:42:02] INFO root fetch - main [MainThread]: End processing [mle-flake8-plugins]: success
+[2023-04-24 15:42:03] INFO root fetch - main [MainThread]: End processing [ssb-project-cli]: success
+[2023-04-24 15:42:03] INFO root fetch - main [MainThread]: End processing [chatgpt4-cli]: success
+[2023-04-24 15:42:05] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-24 15:42:33] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-24 15:42:33] INFO root fetch - main [MainThread]: Store serial: [17834374]
