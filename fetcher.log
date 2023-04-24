@@ -10658,3 +10658,85 @@
 [2023-04-24 13:03:51] INFO root fetch - main [MainThread]: End processing [adviz]: success
 [2023-04-24 13:03:55] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-04-24 13:03:55] INFO root fetch - main [MainThread]: Store serial: [17832540]
+[2023-04-24 13:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832540]
+[2023-04-24 13:09:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oaas-sdk-py
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Kivy4
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pep440-rs
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sampo
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinabs
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jpconvert
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cryptotext
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zebrazoom
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccache-download-redis
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calibdiff
+[2023-04-24 13:09:07] INFO root fetch - processPackages [oaas-sdk-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [Kivy4]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-04-24 13:09:07] WARNING root fetch - processPackages [cryptotext]: Skipping, unable to determine old version
+[2023-04-24 13:09:07] INFO root fetch - processPackages [cryptotext]: Start processing: adt-cache
+[2023-04-24 13:09:07] INFO root fetch - main [MainThread]: End processing [cryptotext] error
+[2023-04-24 13:09:07] INFO root fetch - processPackages [jpconvert]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-24 13:09:07] WARNING root fetch - processPackages [ccache-download-redis]: Skipping, unable to determine old version
+[2023-04-24 13:09:07] INFO root fetch - processPackages [ccache-download-redis]: Start processing: okdata-cli
+[2023-04-24 13:09:07] INFO root fetch - main [MainThread]: End processing [ccache-download-redis] error
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sinabs]: New version: [1.2.5.dev1] Old Version: [1.2.4]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [pep440-rs]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [calibdiff]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [adt-cache]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/75/76/80900287e5801b02492a6b9ca2a7428b30ed617f31d4891c8bcbf72b4922/oaas_sdk_py-0.1.6.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [okdata-cli]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230424/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-24 13:09:07] INFO root fetch - processPackages [Kivy4]: Downloading https://files.pythonhosted.org/packages/dc/4b/d8214752bfea1876a58e1889685fe0f0de16e08569ac75197bfddd1afa57/Kivy4-5.3.1.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [jpconvert]: Downloading https://files.pythonhosted.org/packages/c4/ba/4ff096d0726640257e962c657a3ea71f126c3803c6fb5cfea173e82cddec/jpconvert-0.3.8.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/62/59/30262af2a6b69c9bc94831a1542ae0330f138a076ee4d53050e7ffa67769/sinabs-1.2.4.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [pep440-rs]: Downloading https://files.pythonhosted.org/packages/6c/37/e425507e47d80d2b9b906a10ae606ba228540a9c7006610897ccb507b220/pep440_rs-0.3.5.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [Kivy4]: executing diffoscope
+[2023-04-24 13:09:07] INFO root fetch - processPackages [Kivy4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kivy4-5.3.0.tar.gz tmp/Kivy4-5.3.1.tar.gz --markdown 20230424/K/Kivy4/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-04-24 13:09:07] INFO root fetch - processPackages [calibdiff]: Downloading https://files.pythonhosted.org/packages/62/cd/3e5f4d2bdcdf3ca8e44aad3831516f22bedcbc0d954ae49f4e99c9c0d306/calibdiff-0.0.1.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/06/56/df72f694b0d6794aafd8c005eb48418960cb88c5420e4a1a62b8dafcbdff/adt_cache-0.0.2.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/17/02/2b06c339ceeda4d5a782502c1563dd18ae8b70fa37595cedca6172cf1199/oaas_sdk_py-0.1.7.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [okdata-cli]: Downloading https://files.pythonhosted.org/packages/bf/60/c01e1833ff238f836c96c147cca171e0ef52eeb59bc8e0e1e42656517c38/okdata-cli-1.6.0.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [oaas-sdk-py]: executing diffoscope
+[2023-04-24 13:09:07] INFO root fetch - processPackages [oaas-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaas_sdk_py-0.1.6.tar.gz tmp/oaas_sdk_py-0.1.7.tar.gz --markdown 20230424/o/oaas-sdk-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/a2/98/226cfcfd326d63317db4c408e9b510e3760b7ae88179709634e5fceaa9ba/sinabs-1.2.5.dev1.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [pep440-rs]: Downloading https://files.pythonhosted.org/packages/73/6e/16fa15506f1e33f229feea6e94087397b92587f1bafc0bd70ab81ae3e7ec/pep440_rs-0.3.6.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [calibdiff]: Downloading https://files.pythonhosted.org/packages/8a/a4/c32112b04b9c70411c8e096de1dc5a091087689a66689036a7021bfaf1dc/calibdiff-0.1.0.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [pep440-rs]: executing diffoscope
+[2023-04-24 13:09:07] INFO root fetch - processPackages [pep440-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pep440_rs-0.3.5.tar.gz tmp/pep440_rs-0.3.6.tar.gz --markdown 20230424/p/pep440-rs/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-24 13:09:07] INFO root fetch - processPackages [jpconvert]: Downloading https://files.pythonhosted.org/packages/1f/23/a2c690a57df3b2ffe31e3826ef6736088ecfb1a18698f849df1688177678/jpconvert-0.3.9.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/fc/8b/41076f068964a3b9d0e26f9fe43cbd3ea7a0193f112d13d48edbc0594d5f/adt_cache-0.0.3.tar.gz
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-04-24 13:09:07] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.4.tar.gz tmp/sinabs-1.2.5.dev1.tar.gz --markdown 20230424/s/sinabs/1.2.4-1.2.5.dev1/diff.md --exclude *.pyd
+[2023-04-24 13:09:07] INFO root fetch - processPackages [calibdiff]: executing diffoscope
+[2023-04-24 13:09:07] INFO root fetch - processPackages [calibdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calibdiff-0.0.1.tar.gz tmp/calibdiff-0.1.0.tar.gz --markdown 20230424/c/calibdiff/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 13:09:07] INFO root fetch - processPackages [okdata-cli]: Downloading https://files.pythonhosted.org/packages/1b/cc/b057465a7eaecda32656bc04d4b3f1ea2c53eaacf50d8007e59e5514dedb/okdata-cli-2.0.0.tar.gz
+[2023-04-24 13:09:08] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-04-24 13:09:08] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.2.tar.gz tmp/adt_cache-0.0.3.tar.gz --markdown 20230424/a/adt-cache/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 13:09:08] INFO root fetch - processPackages [okdata-cli]: executing diffoscope
+[2023-04-24 13:09:08] INFO root fetch - processPackages [okdata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okdata-cli-1.6.0.tar.gz tmp/okdata-cli-2.0.0.tar.gz --markdown 20230424/o/okdata-cli/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-24 13:09:08] INFO root fetch - processPackages [jpconvert]: executing diffoscope
+[2023-04-24 13:09:08] INFO root fetch - processPackages [jpconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpconvert-0.3.8.tar.gz tmp/jpconvert-0.3.9.tar.gz --markdown 20230424/j/jpconvert/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-24 13:09:08] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-04-24 13:09:08] INFO root fetch - processPackages [Kivy4]: Start processing: bigdl-nano
+[2023-04-24 13:09:08] INFO root fetch - main [MainThread]: End processing [Kivy4]: success
+[2023-04-24 13:09:09] INFO root fetch - main [MainThread]: End processing [oaas-sdk-py]: success
+[2023-04-24 13:09:09] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:09:09] INFO root fetch - main [MainThread]: End processing [pep440-rs]: success
+[2023-04-24 13:09:09] INFO root fetch - main [MainThread]: End processing [calibdiff]: success
+[2023-04-24 13:09:09] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-04-24 13:09:09] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230424/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-24 13:09:09] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-04-24 13:09:09] INFO root fetch - main [MainThread]: End processing [okdata-cli]: success
+[2023-04-24 13:09:09] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/e3/8a/ab0b01ff8d3f89869711cf7f6602722d68e8801a75602561b461dbee112e/bigdl_nano-2.4.0b20230424-py3-none-win_amd64.whl
+[2023-04-24 13:09:09] INFO root fetch - main [MainThread]: End processing [jpconvert]: success
+[2023-04-24 13:09:10] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-04-24 13:09:10] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230423-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230424-py3-none-win_amd64.whl.zip --markdown 20230424/b/bigdl-nano/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-24 13:09:10] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-24 13:09:11] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-04-24 13:09:13] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-04-24 13:09:26] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-04-24 13:09:26] INFO root fetch - main [MainThread]: Store serial: [17832593]
