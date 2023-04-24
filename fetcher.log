@@ -10832,3 +10832,77 @@
 [2023-04-24 13:14:39] INFO root fetch - main [MainThread]: End processing [llm4chat]: success
 [2023-04-24 13:14:45] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-04-24 13:14:45] INFO root fetch - main [MainThread]: Store serial: [17832641]
+[2023-04-24 13:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832641]
+[2023-04-24 13:19:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aa-discord-announcements
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palmari
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DGLD-beta
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cryptotext
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-private-bucket
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vbao-MVVM
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indykite-sdk-python
+[2023-04-24 13:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maddaq
+[2023-04-24 13:19:54] INFO root fetch - processPackages [aa-discord-announcements]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-24 13:19:54] WARNING root fetch - processPackages [DGLD-beta]: Skipping, unable to determine old version
+[2023-04-24 13:19:54] INFO root fetch - processPackages [DGLD-beta]: Start processing: TimeForge
+[2023-04-24 13:19:54] INFO root fetch - main [MainThread]: End processing [DGLD-beta] error
+[2023-04-24 13:19:54] INFO root fetch - processPackages [cryptotext]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 13:19:54] INFO root fetch - processPackages [palmari]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-24 13:19:54] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-24 13:19:54] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 13:19:54] INFO root fetch - processPackages [TimeForge]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 13:19:54] WARNING root fetch - processPackages [vbao-MVVM]: Skipping, unable to determine old version
+[2023-04-24 13:19:54] INFO root fetch - processPackages [vbao-MVVM]: Start processing: jurebes
+[2023-04-24 13:19:54] INFO root fetch - main [MainThread]: End processing [vbao-MVVM] error
+[2023-04-24 13:19:54] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-04-24 13:19:54] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 13:19:54] INFO root fetch - processPackages [maddaq]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-24 13:19:54] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-24 13:19:54] ERROR root fetch - processPackages [cryptotext]: Unable to fetch info: No such project/version 'cryptotext' 0.1
+[2023-04-24 13:19:54] INFO root fetch - processPackages [TimeForge]: executing diffoscope
+[2023-04-24 13:19:54] INFO root fetch - processPackages [cryptotext]: Start processing: mammopy
+[2023-04-24 13:19:54] INFO root fetch - processPackages [TimeForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeForge-0.1.0.tar.gz tmp/TimeForge-0.1.1.tar.gz --markdown 20230424/T/TimeForge/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 13:19:54] INFO root fetch - main [MainThread]: End processing [cryptotext] error
+[2023-04-24 13:19:54] INFO root fetch - processPackages [jurebes]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-04-24 13:19:54] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 13:19:55] INFO root fetch - processPackages [palmari]: Downloading https://files.pythonhosted.org/packages/d0/a4/ab266ad6aa7b7823cb3a3be2f7465613edb31a3623b1ed41a07cb2d892bb/palmari-0.2.7.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [aa-discord-announcements]: Downloading https://files.pythonhosted.org/packages/13/e5/6338c05c9ac1454f284335d2c4b338cf99a4874131fad2dfc332f99174da/aa_discord_announcements-1.1.0.tar.gz
+[2023-04-24 13:19:55] WARNING root fetch - processPackages [mammopy]: Skipping, unable to determine old version
+[2023-04-24 13:19:55] INFO root fetch - main [MainThread]: End processing [mammopy] error
+[2023-04-24 13:19:55] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/8e/bf/bb6dba9153903fb676861a7dfa50e55049c98508d0c30d2e286bdffd24af/maddaq-0.7.4.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/68/d0/6ecae886cdcf068da635a01c1f005ab9629231dfa1447d38a5f5a3c58d58/jurebes-0.1.0a3-py3-none-any.whl
+[2023-04-24 13:19:55] INFO root fetch - processPackages [aa-discord-announcements]: Downloading https://files.pythonhosted.org/packages/0f/29/9f0e10661221b4585b3cf02478277ebd41a09900d0f13c22e25cb877c02e/aa_discord_announcements-1.2.0.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.0a2-py3-none-any.whl.zip tmp/jurebes-0.1.0a3-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-04-24 13:19:55] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230424/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-24 13:19:55] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/cf/28/90099b44268f2601dfc8c650d9c5c5e8d954490ef8b103584c65ec35cf70/maddaq-0.7.5.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [palmari]: Downloading https://files.pythonhosted.org/packages/f3/ab/1a80b7a2250966843b254762addc5a9caac2cb1ca666dff636ade38fb181/palmari-0.2.8.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [aa-discord-announcements]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [aa-discord-announcements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_discord_announcements-1.1.0.tar.gz tmp/aa_discord_announcements-1.2.0.tar.gz --markdown 20230424/a/aa-discord-announcements/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:19:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-04-24 13:19:55] INFO root fetch - processPackages [maddaq]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [maddaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maddaq-0.7.4.tar.gz tmp/maddaq-0.7.5.tar.gz --markdown 20230424/m/maddaq/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-24 13:19:55] INFO root fetch - processPackages [palmari]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [palmari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmari-0.2.7.tar.gz tmp/palmari-0.2.8.tar.gz --markdown 20230424/p/palmari/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-24 13:19:55] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230424/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:19:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-04-24 13:19:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230424/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 13:19:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-04-24 13:19:56] INFO root fetch - main [MainThread]: End processing [TimeForge]: success
+[2023-04-24 13:19:56] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 13:19:56] INFO root fetch - main [MainThread]: End processing [maddaq]: success
+[2023-04-24 13:19:56] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-04-24 13:19:57] INFO root fetch - main [MainThread]: End processing [aa-discord-announcements]: success
+[2023-04-24 13:19:57] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-24 13:19:57] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-04-24 13:20:12] INFO root fetch - main [MainThread]: End processing [palmari]: success
+[2023-04-24 13:20:12] INFO root fetch - main [MainThread]: Store serial: [17832686]
