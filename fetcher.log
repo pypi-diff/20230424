@@ -15810,3 +15810,140 @@
 [2023-04-24 17:07:09] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-04-24 17:07:10] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-04-24 17:07:10] INFO root fetch - main [MainThread]: Store serial: [17835411]
+[2023-04-24 17:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835411]
+[2023-04-24 17:12:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flarespy
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langsa-system
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlite-pyodide-kernel
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ex2mcmc
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-editor-dev
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt3discord
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inventronet
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: git-notion-pretty
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ex2mcmc]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-24 17:12:21] WARNING root fetch - processPackages [langsa-system]: Skipping, unable to determine old version
+[2023-04-24 17:12:21] INFO root fetch - processPackages [langsa-system]: Start processing: hiddifypanel
+[2023-04-24 17:12:21] INFO root fetch - main [MainThread]: End processing [langsa-system] error
+[2023-04-24 17:12:21] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [flarespy]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [git-notion-pretty]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [inventronet]: New version: [0.1.0] Old Version: [0.0.1a0]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [redis]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev7] Old Version: [5.0.0.dev6]
+[2023-04-24 17:12:21] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f2/61/c6961f4f39e76050ea4dcf300ec119fb5a54a2b5213cf6e1012b83ff137c/je_editor_dev-0.0.8.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/37/05/2206aa04638856656febff14ed92b412dfe23dcbf520d5ae6b2e00bb94b8/gpt3discord-9.0.4.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [ex2mcmc]: Downloading https://files.pythonhosted.org/packages/ad/f7/2d4b5b148a290b9830c0327c0fd70f32fa5fca08874b54bffcdb8a43b7b9/ex2mcmc-0.0.1.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/c4/c6/16febed9175ab5683ed9e030b6aef5854d70e84ccd27f42915e5e7ef9d5c/inventronet-0.0.1a0.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [git-notion-pretty]: Downloading https://files.pythonhosted.org/packages/e1/62/e603739d009a4d6eccbf92c1cc4d7d18caa7f731390786688f7419d70b30/git_notion_pretty-1.0.0.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/b3/9d/9d8e9a891d33c3d0a8f1dec9c8d6f468ee98959597eb68d61d48a5d5f62c/redis-5.0.0b1.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/96/16/e52f2d774053486d9f3606c3f3988106b93e272f25273a81b68731904a21/hiddifypanel-5.0.0.dev7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 17:12:21] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: Downloading https://files.pythonhosted.org/packages/b6/9e/0ed1aa40cfee1e0f33ab4fe214beae13df84275e7e932ce6c5f837d79b01/jupyterlite_pyodide_kernel-0.0.6.tar.gz
+[2023-04-24 17:12:21] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/84/66/1ce407303dbc5ca72e4150d0887991774f04f2b7b9abbac574982e955ec7/je_editor-0.0.8.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/fd/48/14a4f663935649cca5b70dd7c80e09f060f09ffa59f95bd9585935cb593a/flarespy-0.9.2.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/fe/27/9b840e71303c86806e197866a6f1caa6cb89e733cc7df118bc7a11fe8ad4/je_editor_dev-0.0.9.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/35/2f/7cad7be49486612c7af56839595bd1843092d25ac4d2d187a8f56624913a/gpt3discord-9.1.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.1.tar.gz tmp/flarespy-0.9.2.tar.gz --markdown 20230424/f/flarespy/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/62/b0/013ffe1d3ad9f47ea2b422677ab2b840193b14ea4de22188c60305f3b230/inventronet-0.1.0.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230424/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [ex2mcmc]: Downloading https://files.pythonhosted.org/packages/a7/b3/224a5f2826ba0bea77dd7dbe7b5d9c98ab68faa70db4043424159d32aad3/ex2mcmc-0.0.3.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/b9/33/492473a6599d2316f3f9ead92b64dbdef77bda819f22d1661566f4711ffe/je_editor-0.0.9.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [git-notion-pretty]: Downloading https://files.pythonhosted.org/packages/26/83/ff9c099c66a7fba2586516cc2f7308da119c864c0a3c0f3baf27bd2a3ebb/git_notion_pretty-1.0.1.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230424/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: Downloading https://files.pythonhosted.org/packages/1b/d5/c4fc68100620f4e7517a1c60146d7b1f41a12afc0cd26cd22b749d9c72fb/jupyterlite_pyodide_kernel-0.0.7.tar.gz
+[2023-04-24 17:12:22] INFO root fetch - processPackages [inventronet]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [inventronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventronet-0.0.1a0.tar.gz tmp/inventronet-0.1.0.tar.gz --markdown 20230424/i/inventronet/0.0.1a0-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230424/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [ex2mcmc]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [ex2mcmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex2mcmc-0.0.1.tar.gz tmp/ex2mcmc-0.0.3.tar.gz --markdown 20230424/e/ex2mcmc/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [git-notion-pretty]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [git-notion-pretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_notion_pretty-1.0.0.tar.gz tmp/git_notion_pretty-1.0.1.tar.gz --markdown 20230424/g/git-notion-pretty/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: executing diffoscope
+[2023-04-24 17:12:22] INFO root fetch - processPackages [jupyterlite-pyodide-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_pyodide_kernel-0.0.6.tar.gz tmp/jupyterlite_pyodide_kernel-0.0.7.tar.gz --markdown 20230424/j/jupyterlite-pyodide-kernel/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 17:12:22] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/2b/ba/092f886a82de33759bcf64baa36b1c0457133ae67bea14babaaf7aa68130/redis-5.0.0b2.tar.gz
+[2023-04-24 17:12:23] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-24 17:12:23] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev7-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230424/h/hiddifypanel/5.0.0.dev6-5.0.0.dev7/diff.md --exclude *.pyd
+[2023-04-24 17:12:23] INFO root fetch - processPackages [redis]: executing diffoscope
+[2023-04-24 17:12:23] INFO root fetch - processPackages [redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-5.0.0b1.tar.gz tmp/redis-5.0.0b2.tar.gz --markdown 20230424/r/redis/5.0.0b1-5.0.0b2/diff.md --exclude *.pyd
+[2023-04-24 17:12:23] INFO root fetch - processPackages [flarespy]: Start processing: kavk-api
+[2023-04-24 17:12:23] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-24 17:12:23] INFO root fetch - processPackages [kavk-api]: New version: [0.9.9] Old Version: [0.9.7.4]
+[2023-04-24 17:12:23] INFO root fetch - processPackages [je-editor-dev]: Start processing: xdat
+[2023-04-24 17:12:23] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-24 17:12:23] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-24 17:12:23] INFO root fetch - processPackages [kavk-api]: Downloading https://files.pythonhosted.org/packages/4d/d3/d9f083eb4ddb3cb603b5ad0c1b0aa019cd755f3810753df1e925789c24ce/kavk_api-0.9.7.4.tar.gz
+[2023-04-24 17:12:23] INFO root fetch - processPackages [inventronet]: Start processing: OREO-ALI
+[2023-04-24 17:12:23] INFO root fetch - main [MainThread]: End processing [inventronet]: success
+[2023-04-24 17:12:23] INFO root fetch - processPackages [gpt3discord]: Start processing: fsaccone
+[2023-04-24 17:12:23] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-24 17:12:24] WARNING root fetch - processPackages [OREO-ALI]: Skipping, unable to determine old version
+[2023-04-24 17:12:24] INFO root fetch - processPackages [OREO-ALI]: Start processing: funman
+[2023-04-24 17:12:24] INFO root fetch - main [MainThread]: End processing [OREO-ALI] error
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-24 17:12:24] INFO root fetch - processPackages [fsaccone]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 17:12:24] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [git-notion-pretty]: Start processing: funman-demo
+[2023-04-24 17:12:24] INFO root fetch - main [MainThread]: End processing [git-notion-pretty]: success
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-demo]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-24 17:12:24] INFO root fetch - processPackages [fsaccone]: Downloading https://files.pythonhosted.org/packages/dc/24/dfa10fe0318b56c65875173101ef882da653828aa6cf40632564107211fe/fsaccone-1.0.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [kavk-api]: Downloading https://files.pythonhosted.org/packages/34/18/83f6b35ceabdac3c11fd0b631b5f50242e9e227df0369944a76321857458/kavk_api-0.9.9.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [je-editor]: Start processing: funman-dreal
+[2023-04-24 17:12:24] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-dreal]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman]: Downloading https://files.pythonhosted.org/packages/9a/91/bdadf796e09cde6ab40690de96afdba1805a1d52b3173ef7660a54b9acc7/funman-1.4.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-demo]: Downloading https://files.pythonhosted.org/packages/c3/c5/c1bcfdf76fbe33b69f25488547049cbebc5e0f7f7493aa9f394a0576517a/funman_demo-1.4.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [kavk-api]: executing diffoscope
+[2023-04-24 17:12:24] INFO root fetch - processPackages [kavk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kavk_api-0.9.7.4.tar.gz tmp/kavk_api-0.9.9.tar.gz --markdown 20230424/k/kavk-api/0.9.7.4-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-dreal]: Downloading https://files.pythonhosted.org/packages/aa/f1/aa7a75799cd159a1dd2a68a28afc8c9dcac129e5c7ec5b1ff2a744914140/funman_dreal-1.4.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [fsaccone]: Downloading https://files.pythonhosted.org/packages/b5/8a/87669617201b5b87298540dec8a867246f3b875f4a3d70ad213aed6ee27e/fsaccone-1.0.1.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman]: Downloading https://files.pythonhosted.org/packages/db/64/8cc9f2aadf833d9d8a33cd6bc3c505c7da1513877bd4b63fc50306ed1a5f/funman-1.5.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-dreal]: Downloading https://files.pythonhosted.org/packages/93/55/a92fcb2c00f1773a05617b57d10c1f36ebe085bf0c077ebc04db56ad2302/funman_dreal-1.5.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [fsaccone]: executing diffoscope
+[2023-04-24 17:12:24] INFO root fetch - processPackages [fsaccone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsaccone-1.0.0.tar.gz tmp/fsaccone-1.0.1.tar.gz --markdown 20230424/f/fsaccone/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-demo]: Downloading https://files.pythonhosted.org/packages/96/4b/a301c64d183b9ccda0e5a4b72243a1ff23e25d681ed4332a9450e039fe29/funman_demo-1.5.0.tar.gz
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman]: executing diffoscope
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funman-1.4.0.tar.gz tmp/funman-1.5.0.tar.gz --markdown 20230424/f/funman/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-dreal]: executing diffoscope
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-dreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funman_dreal-1.4.0.tar.gz tmp/funman_dreal-1.5.0.tar.gz --markdown 20230424/f/funman-dreal/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-demo]: executing diffoscope
+[2023-04-24 17:12:24] INFO root fetch - processPackages [funman-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funman_demo-1.4.0.tar.gz tmp/funman_demo-1.5.0.tar.gz --markdown 20230424/f/funman-demo/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-24 17:12:24] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-04-24 17:12:24] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230424/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-24 17:12:25] INFO root fetch - processPackages [ex2mcmc]: Start processing: armonik
+[2023-04-24 17:12:25] INFO root fetch - main [MainThread]: End processing [ex2mcmc]: success
+[2023-04-24 17:12:25] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev281] Old Version: [3.8.1.dev275]
+[2023-04-24 17:12:25] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/c1/1c/ab96541db976f7f2be669f95ce80dcad03aa279baa4a1475de80ec7a7de6/armonik-3.8.2.dev281.tar.gz
+[2023-04-24 17:12:25] INFO root fetch - processPackages [kavk-api]: Start processing: thesr
+[2023-04-24 17:12:25] INFO root fetch - main [MainThread]: End processing [kavk-api]: success
+[2023-04-24 17:12:25] INFO root fetch - processPackages [thesr]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 17:12:25] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-04-24 17:12:25] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.1.dev275.tar.gz tmp/armonik-3.8.2.dev281.tar.gz --markdown 20230424/a/armonik/3.8.1.dev275-3.8.2.dev281/diff.md --exclude *.pyd
+[2023-04-24 17:12:25] INFO root fetch - processPackages [thesr]: executing diffoscope
+[2023-04-24 17:12:25] INFO root fetch - processPackages [thesr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesr-0.0.3.tar.gz tmp/thesr-0.0.4.tar.gz --markdown 20230424/t/thesr/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 17:12:26] INFO root fetch - processPackages [fsaccone]: Start processing: web-poet
+[2023-04-24 17:12:26] INFO root fetch - main [MainThread]: End processing [fsaccone]: success
+[2023-04-24 17:12:26] INFO root fetch - main [MainThread]: End processing [funman-dreal]: success
+[2023-04-24 17:12:26] INFO root fetch - processPackages [web-poet]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-24 17:12:26] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/2d/32/0675884fa5cdf787f67e2a19ab228abc728f16139ab9f087f04d18a828be/web-poet-0.8.1.tar.gz
+[2023-04-24 17:12:26] INFO root fetch - main [MainThread]: End processing [funman]: success
+[2023-04-24 17:12:26] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-04-24 17:12:26] INFO root fetch - main [MainThread]: End processing [funman-demo]: success
+[2023-04-24 17:12:26] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/38/5f/56ac62f4665c5f437ba35ae603d73c10d70863562af8e6fc44acd21395f0/web-poet-0.9.0.tar.gz
+[2023-04-24 17:12:26] INFO root fetch - processPackages [web-poet]: executing diffoscope
+[2023-04-24 17:12:26] INFO root fetch - processPackages [web-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-poet-0.8.1.tar.gz tmp/web-poet-0.9.0.tar.gz --markdown 20230424/w/web-poet/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 17:12:27] INFO root fetch - main [MainThread]: End processing [thesr]: success
+[2023-04-24 17:12:27] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-04-24 17:12:27] INFO root fetch - main [MainThread]: End processing [redis]: success
+[2023-04-24 17:12:28] INFO root fetch - main [MainThread]: End processing [web-poet]: success
+[2023-04-24 17:12:30] INFO root fetch - main [MainThread]: End processing [jupyterlite-pyodide-kernel]: success
+[2023-04-24 17:12:39] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-24 17:12:39] INFO root fetch - main [MainThread]: Store serial: [17835486]
