@@ -380,7 +380,7 @@
  4447 files, 22460682 bytes uncompressed, 8022864 bytes compressed:  64.3%
 ```
 
-### zipnote «TEMP»/diffoscope_iepchrvd_/tmpj0wp3se3_.zip
+### zipnote «TEMP»/diffoscope_b70tdybh_/tmp61g_a7px_.zip
 
 ```diff
 @@ -396,45 +396,45 @@
@@ -914,7 +914,7 @@
  23 files, 26306 bytes uncompressed, 12653 bytes compressed:  51.9%
 ```
 
-### zipnote «TEMP»/diffoscope_iepchrvd_/tmp3ztb6net_.zip
+### zipnote «TEMP»/diffoscope_b70tdybh_/tmpt8tcelts_.zip
 
 ```diff
 @@ -1,68 +1,68 @@
@@ -1074,7 +1074,7 @@
  30 files, 18873 bytes uncompressed, 9464 bytes compressed:  49.9%
 ```
 
-### zipnote «TEMP»/diffoscope_iepchrvd_/tmpbzgyec5o_.zip
+### zipnote «TEMP»/diffoscope_b70tdybh_/tmpi39u6c9s_.zip
 
 ```diff
 @@ -1,89 +1,89 @@
@@ -1264,7 +1264,7 @@
  31 files, 20370 bytes uncompressed, 10502 bytes compressed:  48.4%
 ```
 
-### zipnote «TEMP»/diffoscope_iepchrvd_/tmpc01x87aa_.zip
+### zipnote «TEMP»/diffoscope_b70tdybh_/tmps6565kho_.zip
 
 ```diff
 @@ -1,92 +1,92 @@

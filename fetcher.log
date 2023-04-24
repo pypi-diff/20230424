@@ -1668,3 +1668,109 @@
 [2023-04-24 02:57:00] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-04-24 02:59:14] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2023-04-24 02:59:14] INFO root fetch - main [MainThread]: Store serial: [17827201]
+[2023-04-24 03:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827201]
+[2023-04-24 03:04:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raydp-nightly
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tapper
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ShellcodeTester
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SfMLearner-installable
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proteinTools
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ShellcodeTester]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.4.8.dev0] Old Version: [2023.4.5.dev0]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [SfMLearner-installable]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230423] Old Version: [0.0.8.dev20230422]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [proteinTools]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 03:04:23] WARNING root fetch - processPackages [tapper]: Skipping, unable to determine old version
+[2023-04-24 03:04:23] INFO root fetch - processPackages [tapper]: Start processing: modnpay-pgsdk
+[2023-04-24 03:04:23] INFO root fetch - main [MainThread]: End processing [tapper] error
+[2023-04-24 03:04:23] INFO root fetch - processPackages [pyarmor]: New version: [8.1.dev9] Old Version: [8.1.dev7]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [modnpay-pgsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 03:04:23] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.4.5.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.4.8.dev0-py3-none-any.whl.zip --markdown 20230424/r/raydp-nightly/2023.4.5.dev0-2023.4.8.dev0/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230424/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ShellcodeTester]: Downloading https://files.pythonhosted.org/packages/0f/04/c0fc20d8c53dca10e94e1703507f48d36c0e5037d00d90e96da750c419f9/ShellcodeTester-0.2.8.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [SfMLearner-installable]: Downloading https://files.pythonhosted.org/packages/00/83/b90c3bbe3621c8d78c7528f7b781a1297e9d20d3e8e2297b9fe1e2df0294/SfMLearner_installable-1.0.1.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/cd/76/b9a50dc7da29ce06e2a3ffb7a8b294004470430dcf81573f2726e6bb0f33/proteinTools-1.3.0.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [SfMLearner-installable]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [SfMLearner-installable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SfMLearner_installable-1.0.0.tar.gz tmp/SfMLearner_installable-1.0.1.tar.gz --markdown 20230424/S/SfMLearner-installable/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/42/3a/d7582ad6d44be4d33e2b355ad00046c95c9e012993e6fc3fe127926a4a05/aemcmc-nightly-0.0.8.dev20230423.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [modnpay-pgsdk]: Downloading https://files.pythonhosted.org/packages/54/eb/c292f93bbde0a54a14494a67f7dab46ca500d4526acc022f5df1f4473550/modnpay-pgsdk-0.0.1.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230422.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230423.tar.gz --markdown 20230424/a/aemcmc-nightly/0.0.8.dev20230422-0.0.8.dev20230423/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ShellcodeTester]: Downloading https://files.pythonhosted.org/packages/74/98/b5d3221d462c4ccf2bf80512c83ec7f0e0356fa7c4f75671b785b2860702/ShellcodeTester-0.2.9.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/7b/73/2a8120b4ba85bf98b5371811116739b8350be0e9036101ca6de41849347e/proteinTools-1.3.1.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230424/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230424/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.3.0.tar.gz tmp/proteinTools-1.3.1.tar.gz --markdown 20230424/p/proteinTools/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.1.dev7.zip tmp/pyarmor-8.1.dev9.zip --markdown 20230424/p/pyarmor/8.1.dev7-8.1.dev9/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ShellcodeTester]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [ShellcodeTester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShellcodeTester-0.2.8.tar.gz tmp/ShellcodeTester-0.2.9.tar.gz --markdown 20230424/S/ShellcodeTester/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 03:04:23] INFO root fetch - processPackages [modnpay-pgsdk]: Downloading https://files.pythonhosted.org/packages/84/f4/518d553af4a340a9d358558839187b5b867ea372ba82e409b2296cec8747/modnpay-pgsdk-0.0.2.tar.gz
+[2023-04-24 03:04:23] INFO root fetch - processPackages [modnpay-pgsdk]: executing diffoscope
+[2023-04-24 03:04:23] INFO root fetch - processPackages [modnpay-pgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modnpay-pgsdk-0.0.1.tar.gz tmp/modnpay-pgsdk-0.0.2.tar.gz --markdown 20230424/m/modnpay-pgsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 03:04:24] INFO root fetch - processPackages [SfMLearner-installable]: Start processing: gnutools-python
+[2023-04-24 03:04:24] INFO root fetch - main [MainThread]: End processing [SfMLearner-installable]: success
+[2023-04-24 03:04:24] INFO root fetch - processPackages [gnutools-python]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-04-24 03:04:25] INFO root fetch - processPackages [gnutools-python]: Downloading https://files.pythonhosted.org/packages/29/d8/4e275ad718235eec3bba9d12cb2764d879ff21d303c5d8ba4482fe26b2bf/gnutools_python-2.3.5-py3-none-any.whl
+[2023-04-24 03:04:25] INFO root fetch - processPackages [gnutools-python]: executing diffoscope
+[2023-04-24 03:04:25] INFO root fetch - processPackages [gnutools-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnutools_python-2.3.4-py3-none-any.whl.zip tmp/gnutools_python-2.3.5-py3-none-any.whl.zip --markdown 20230424/g/gnutools-python/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-04-24 03:04:25] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: pyproject-pre-commit
+[2023-04-24 03:04:25] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-04-24 03:04:25] INFO root fetch - processPackages [pyproject-pre-commit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 03:04:25] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Start processing: jac-speech
+[2023-04-24 03:04:25] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-04-24 03:04:25] INFO root fetch - processPackages [proteinTools]: Start processing: jac-vision
+[2023-04-24 03:04:25] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-24 03:04:25] INFO root fetch - processPackages [jac-vision]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-24 03:04:25] INFO root fetch - processPackages [jac-speech]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-24 03:04:25] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Start processing: jaseci
+[2023-04-24 03:04:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-24 03:04:25] INFO root fetch - processPackages [jaseci]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-24 03:04:25] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/d6/37/7cefb7736c79bd5242b5d80c67ec2b5db58939b1af783cdd3f30f5054a0b/pyproject_pre_commit-0.0.8.tar.gz
+[2023-04-24 03:04:25] INFO root fetch - processPackages [modnpay-pgsdk]: Start processing: jac-nlp
+[2023-04-24 03:04:25] INFO root fetch - main [MainThread]: End processing [modnpay-pgsdk]: success
+[2023-04-24 03:04:25] INFO root fetch - processPackages [jac-nlp]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-24 03:04:25] INFO root fetch - processPackages [jac-speech]: Downloading https://files.pythonhosted.org/packages/77/83/f87aed83614469610b0017c2c9d2305639589eb52b1a51190396c9b0d34b/jac_speech-1.4.0.8.tar.gz
+[2023-04-24 03:04:25] INFO root fetch - processPackages [pyproject-pre-commit]: executing diffoscope
+[2023-04-24 03:04:25] INFO root fetch - processPackages [pyproject-pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_pre_commit-0.0.7.tar.gz tmp/pyproject_pre_commit-0.0.8.tar.gz --markdown 20230424/p/pyproject-pre-commit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-vision]: executing diffoscope
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_vision-1.4.0.8.tar.gz tmp/jac_vision-1.4.0.9.tar.gz --markdown 20230424/j/jac-vision/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-nlp]: executing diffoscope
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_nlp-1.4.0.8.tar.gz tmp/jac_nlp-1.4.0.9.tar.gz --markdown 20230424/j/jac-nlp/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jaseci]: executing diffoscope
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jaseci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci-1.4.0.8.tar.gz tmp/jaseci-1.4.0.9.tar.gz --markdown 20230424/j/jaseci/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-24 03:04:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Start processing: jac-misc
+[2023-04-24 03:04:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-speech]: Downloading https://files.pythonhosted.org/packages/a3/0e/53fa907f625021a4ea24238ed23f6bbc0239a9455d42b14f7d998496c7ea/jac_speech-1.4.0.9.tar.gz
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-misc]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-speech]: executing diffoscope
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_speech-1.4.0.8.tar.gz tmp/jac_speech-1.4.0.9.tar.gz --markdown 20230424/j/jac-speech/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-misc]: executing diffoscope
+[2023-04-24 03:04:26] INFO root fetch - processPackages [jac-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_misc-1.4.0.8.tar.gz tmp/jac_misc-1.4.0.9.tar.gz --markdown 20230424/j/jac-misc/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-24 03:04:26] INFO root fetch - processPackages [pyarmor]: Start processing: parsel-get-selector-text
+[2023-04-24 03:04:26] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-04-24 03:04:26] WARNING root fetch - processPackages [parsel-get-selector-text]: Skipping, unable to determine old version
+[2023-04-24 03:04:26] INFO root fetch - main [MainThread]: End processing [parsel-get-selector-text] error
+[2023-04-24 03:04:26] INFO root fetch - main [MainThread]: End processing [gnutools-python]: success
+[2023-04-24 03:04:27] INFO root fetch - main [MainThread]: End processing [pyproject-pre-commit]: success
+[2023-04-24 03:04:27] INFO root fetch - main [MainThread]: End processing [jac-speech]: success
+[2023-04-24 03:04:27] INFO root fetch - main [MainThread]: End processing [jac-vision]: success
+[2023-04-24 03:04:28] INFO root fetch - main [MainThread]: End processing [jac-misc]: success
+[2023-04-24 03:04:28] INFO root fetch - main [MainThread]: End processing [jaseci]: success
+[2023-04-24 03:04:29] INFO root fetch - main [MainThread]: End processing [jac-nlp]: success
+[2023-04-24 03:04:30] INFO root fetch - main [MainThread]: End processing [ShellcodeTester]: success
+[2023-04-24 03:06:54] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-04-24 03:06:54] INFO root fetch - main [MainThread]: Store serial: [17827257]
