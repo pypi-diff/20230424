@@ -2598,3 +2598,74 @@
 [2023-04-24 04:34:45] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-04-24 04:34:52] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-04-24 04:34:52] INFO root fetch - main [MainThread]: Store serial: [17827761]
+[2023-04-24 04:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827761]
+[2023-04-24 04:40:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generand
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gris
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrubrum-continued
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkdata
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nnabla-ext-cuda110
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yourtools
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhOn
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arkdata
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Aciembler
+[2023-04-24 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gama-config
+[2023-04-24 04:40:01] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [generand]: New version: [2.15.5] Old Version: [0.0.5]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [gris]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [pyrubrum-continued]: New version: [0.2.14] Old Version: [0.2.13]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [gama-config]: New version: [1.9.0] Old Version: [1.12.1]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [pyhOn]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [Aciembler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [nnabla-ext-cuda110]: New version: [1.35.1] Old Version: [1.35.0]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [yourtools]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-04-24 04:40:01] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-04-24 04:40:01] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.8.5.tar.gz tmp/pyhOn-0.8.6.tar.gz --markdown 20230424/p/pyhOn/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-24 04:40:01] INFO root fetch - processPackages [pyrubrum-continued]: Downloading https://files.pythonhosted.org/packages/9d/b7/eef6fb942d59bd5b14c463eacf320601a3b7e9c0183a56f2356067243d4e/pyrubrum-continued-0.2.13.tar.gz
+[2023-04-24 04:40:01] INFO root fetch - processPackages [Aciembler]: executing diffoscope
+[2023-04-24 04:40:01] INFO root fetch - processPackages [Aciembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aciembler-1.0.8-py2.py3-none-any.whl.zip tmp/Aciembler-1.0.9-py2.py3-none-any.whl.zip --markdown 20230424/A/Aciembler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 04:40:01] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/c6/2b/64364feefbe1fe6a0d257ce0b5375749aad60f9b9ad53ecc236cf95cc23d/gama_config-1.12.1.tar.gz
+[2023-04-24 04:40:01] INFO root fetch - processPackages [nnabla-ext-cuda110]: Downloading https://files.pythonhosted.org/packages/9b/53/f78344271fc0f900a5559251840c2c62b2dff73cfbe2d464ac5fc918155e/nnabla_ext_cuda110-1.35.0-cp39-cp39-win_amd64.whl
+[2023-04-24 04:40:02] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/37/9d/a9c038a2663c8349d9c83bc26144c110e5626972ed953393af66580a3ace/generand-2.15.5.tar.gz
+[2023-04-24 04:40:02] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/59/d9/47955dd632f5f92c50f9b641f8edf57f4f328b6e758b6199abd45f2118c0/arkdata-1.0.9.tar.gz
+[2023-04-24 04:40:02] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/59/d9/47955dd632f5f92c50f9b641f8edf57f4f328b6e758b6199abd45f2118c0/arkdata-1.0.9.tar.gz
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gris]: Downloading https://files.pythonhosted.org/packages/b9/c3/8001751b79fa02867321e20bd3946175a776ae552936741c91301cbf2925/gris-0.8.0.tar.gz
+[2023-04-24 04:40:02] INFO root fetch - processPackages [yourtools]: Downloading https://files.pythonhosted.org/packages/fc/66/6dc79b6bd8837886b94dbb0900f7c4c1a1872edec51e60f4bf5244c1567c/yourtools-0.5.8.tar.gz
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.12.1.tar.gz tmp/gama_config-1.9.0.tar.gz --markdown 20230424/g/gama-config/1.12.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] INFO root fetch - processPackages [pyrubrum-continued]: Downloading https://files.pythonhosted.org/packages/c9/8d/fec848b66e51b0484ecdf735f6533a60e587a0b90a53cfb69bf2756229f6/pyrubrum-continued-0.2.14.tar.gz
+[2023-04-24 04:40:02] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230424/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230424/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] INFO root fetch - processPackages [generand]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [generand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generand-0.0.5.tar.gz tmp/generand-2.15.5.tar.gz --markdown 20230424/g/generand/0.0.5-2.15.5/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] INFO root fetch - processPackages [yourtools]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gris]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [yourtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yourtools-0.5.7.tar.gz tmp/yourtools-0.5.8.tar.gz --markdown 20230424/y/yourtools/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gris-0.7.1.tar.gz tmp/gris-0.8.0.tar.gz --markdown 20230424/g/gris/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] WARNING root fetch - processPackages [nnabla-ext-cuda110]: Skipping package: exceeds size limit 65973417>=10485760
+[2023-04-24 04:40:02] INFO root fetch - processPackages [nnabla-ext-cuda110]: Start processing: gama-cli
+[2023-04-24 04:40:02] INFO root fetch - main [MainThread]: End processing [nnabla-ext-cuda110] error
+[2023-04-24 04:40:02] INFO root fetch - processPackages [pyrubrum-continued]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [pyrubrum-continued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubrum-continued-0.2.13.tar.gz tmp/pyrubrum-continued-0.2.14.tar.gz --markdown 20230424/p/pyrubrum-continued/0.2.13-0.2.14/diff.md --exclude *.pyd
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-24 04:40:02] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230424/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 04:40:03] INFO root fetch - processPackages [Aciembler]: Start processing: tencentcloud-sdk-python
+[2023-04-24 04:40:03] INFO root fetch - main [MainThread]: End processing [Aciembler]: success
+[2023-04-24 04:40:03] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-04-24 04:40:03] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-04-24 04:40:03] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-04-24 04:40:03] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230424/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-04-24 04:40:03] INFO root fetch - main [MainThread]: End processing [generand]: success
+[2023-04-24 04:40:03] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-04-24 04:40:04] INFO root fetch - main [MainThread]: End processing [yourtools]: success
+[2023-04-24 04:40:04] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-24 04:40:04] INFO root fetch - main [MainThread]: End processing [gris]: success
+[2023-04-24 04:40:04] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-24 04:40:04] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-24 04:40:05] INFO root fetch - main [MainThread]: End processing [pyrubrum-continued]: success
+[2023-04-24 04:40:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-04-24 04:40:09] INFO root fetch - main [MainThread]: Store serial: [17827805]
