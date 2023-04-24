@@ -2422,3 +2422,39 @@
 [2023-04-24 04:18:47] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
 [2023-04-24 04:18:49] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
 [2023-04-24 04:18:49] INFO root fetch - main [MainThread]: Store serial: [17827637]
+[2023-04-24 04:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827637]
+[2023-04-24 04:23:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 04:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connectCode
+[2023-04-24 04:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shopee-contextrep
+[2023-04-24 04:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XZGUtil
+[2023-04-24 04:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nnabla
+[2023-04-24 04:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iss-libs
+[2023-04-24 04:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vinnieshell
+[2023-04-24 04:23:57] INFO root fetch - processPackages [XZGUtil]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-24 04:23:57] INFO root fetch - processPackages [connectCode]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-24 04:23:57] INFO root fetch - processPackages [iss-libs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 04:23:57] INFO root fetch - processPackages [vinnieshell]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 04:23:57] INFO root fetch - processPackages [nnabla]: New version: [1.35.1] Old Version: [1.35.0]
+[2023-04-24 04:23:57] WARNING root fetch - processPackages [shopee-contextrep]: Skipping, unable to determine old version
+[2023-04-24 04:23:57] INFO root fetch - main [MainThread]: End processing [shopee-contextrep] error
+[2023-04-24 04:23:57] INFO root fetch - processPackages [vinnieshell]: executing diffoscope
+[2023-04-24 04:23:57] INFO root fetch - processPackages [vinnieshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinnieshell-0.1.2.tar.gz tmp/vinnieshell-0.1.3.tar.gz --markdown 20230424/v/vinnieshell/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 04:23:58] INFO root fetch - processPackages [connectCode]: Downloading https://files.pythonhosted.org/packages/85/1d/17bc5b1fcaa3158b2ba7144f111b3347f225e70c789ca5c442f7332414ad/connectCode-1.0.tar.gz
+[2023-04-24 04:23:58] INFO root fetch - processPackages [iss-libs]: Downloading https://files.pythonhosted.org/packages/44/7b/8d4cb510f22490cf00e714fe69c2d15b1436a88b79b4e5e28a269a5db47a/iss-libs-0.0.5.tar.gz
+[2023-04-24 04:23:58] INFO root fetch - processPackages [nnabla]: Downloading https://files.pythonhosted.org/packages/c8/62/870e6e56640c050976758efff4cdcd6e29b292ff33012be86306c78da39f/nnabla-1.35.0-cp39-cp39-win_amd64.whl
+[2023-04-24 04:23:58] INFO root fetch - processPackages [XZGUtil]: Downloading https://files.pythonhosted.org/packages/a4/e2/6cf5081dddb32bdae2b9698b96f7df2b1946f56f0c473695f7083b630e97/XZGUtil-2.3.9.tar.gz
+[2023-04-24 04:23:58] WARNING root fetch - processPackages [nnabla]: Skipping package: exceeds size limit 12490089>=10485760
+[2023-04-24 04:23:58] INFO root fetch - main [MainThread]: End processing [nnabla] error
+[2023-04-24 04:23:58] INFO root fetch - processPackages [iss-libs]: Downloading https://files.pythonhosted.org/packages/29/d7/ee775ca94662f998a7cb876ffc2c2aeb3bc0843b81f8148b8291446dba48/iss-libs-0.0.6.tar.gz
+[2023-04-24 04:23:58] INFO root fetch - processPackages [XZGUtil]: executing diffoscope
+[2023-04-24 04:23:58] INFO root fetch - processPackages [XZGUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XZGUtil-2.3.8.tar.gz tmp/XZGUtil-2.3.9.tar.gz --markdown 20230424/X/XZGUtil/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-24 04:23:58] INFO root fetch - processPackages [connectCode]: Downloading https://files.pythonhosted.org/packages/87/37/b11626859b2c861e859b2b1677f6238ff3cfdadd724fb45ada10119f8bb3/connectCode-1.0.1.tar.gz
+[2023-04-24 04:23:58] INFO root fetch - processPackages [iss-libs]: executing diffoscope
+[2023-04-24 04:23:58] INFO root fetch - processPackages [iss-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iss-libs-0.0.5.tar.gz tmp/iss-libs-0.0.6.tar.gz --markdown 20230424/i/iss-libs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 04:23:58] INFO root fetch - processPackages [connectCode]: executing diffoscope
+[2023-04-24 04:23:58] INFO root fetch - processPackages [connectCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectCode-1.0.tar.gz tmp/connectCode-1.0.1.tar.gz --markdown 20230424/c/connectCode/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 04:23:58] INFO root fetch - main [MainThread]: End processing [vinnieshell]: success
+[2023-04-24 04:23:59] INFO root fetch - main [MainThread]: End processing [iss-libs]: success
+[2023-04-24 04:24:01] INFO root fetch - main [MainThread]: End processing [XZGUtil]: success
+[2023-04-24 04:24:15] INFO root fetch - main [MainThread]: End processing [connectCode]: success
+[2023-04-24 04:24:15] INFO root fetch - main [MainThread]: Store serial: [17827653]
