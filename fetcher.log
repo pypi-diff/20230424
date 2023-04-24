@@ -8488,3 +8488,116 @@
 [2023-04-24 11:08:40] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
 [2023-04-24 11:08:42] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
 [2023-04-24 11:08:42] INFO root fetch - main [MainThread]: Store serial: [17831270]
+[2023-04-24 11:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831270]
+[2023-04-24 11:13:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EXtra-geom
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailchecker
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TimeForge
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richvalues
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hikari-yuyo
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-model-forms
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-identity-sdk
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: STEAM-materials
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: obpgenerator
+[2023-04-24 11:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-editor
+[2023-04-24 11:13:51] INFO root fetch - processPackages [TimeForge]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [richvalues]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [EXtra-geom]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [mailchecker]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [hikari-yuyo]: New version: [1.9.1a1] Old Version: [1.9.0a1]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [wagtail-model-forms]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [STEAM-materials]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [obpgenerator]: New version: [0.0.17] Old Version: [0.0.15]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2405]
+[2023-04-24 11:13:51] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-24 11:13:51] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230424/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:13:51] INFO root fetch - processPackages [mailchecker]: Downloading https://files.pythonhosted.org/packages/b8/ee/6dc388d61a006227d379ea48b4c52778f64eab9a44e55adbe71a87dc1f42/mailchecker-5.0.8.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/2f/94/f2dce9fc453984a9d462a879335bc0b5aa50a1e602c6db79b6186e2ce0da/finbourne-identity-sdk-0.0.2405.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [wagtail-model-forms]: Downloading https://files.pythonhosted.org/packages/e1/d8/7e01f241ef93d2bb67973ac68be2fb94dfd51974d6ed39b8c6330bb33f52/wagtail-model-forms-0.2.3.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [EXtra-geom]: Downloading https://files.pythonhosted.org/packages/3a/0c/529ca83f30695d9963aa5b1641e3d9f0671d579ecd0cbc52807f2d54af16/EXtra-geom-1.8.0.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [richvalues]: Downloading https://files.pythonhosted.org/packages/7b/2a/a02fc3fa20910454ac8fccdb3c619125ee5c98932b4804cf9c797509bfa9/richvalues-3.1.1.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/1c/73/32fc9673b8d6caca075ddb668365e3aa1106cc59f6f654a108dd3cbcd8d2/hikari-yuyo-1.9.0a1.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [TimeForge]: Downloading https://files.pythonhosted.org/packages/42/aa/00aca4161198dd49f7cbc6e2de1e1fee3e0a845922b6436af88e133f48d9/TimeForge-0.1.1.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/d8/5c/1ac01c89de4feeb022fc0d5941b8acf693de3846ab28aa77a3440f9161e8/obpgenerator-0.0.15.tar.gz
+[2023-04-24 11:13:51] INFO root fetch - processPackages [richvalues]: executing diffoscope
+[2023-04-24 11:13:51] INFO root fetch - processPackages [richvalues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richvalues-3.1.0.tar.gz tmp/richvalues-3.1.1.tar.gz --markdown 20230424/r/richvalues/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-04-24 11:13:51] INFO root fetch - processPackages [TimeForge]: executing diffoscope
+[2023-04-24 11:13:51] INFO root fetch - processPackages [TimeForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeForge-0.1.0.tar.gz tmp/TimeForge-0.1.1.tar.gz --markdown 20230424/T/TimeForge/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/24/46/6dd4fdb2d96d2e721d8a8fc162c1606ef200e7aab338080ce49f2c45284e/STEAM_materials-2023.4.1.tar.gz
+[2023-04-24 11:13:52] INFO root fetch - processPackages [mailchecker]: Downloading https://files.pythonhosted.org/packages/da/e3/d11a469f4f36770f5e529753088737d6e2e4266c04ba8e05aac63ef2911d/mailchecker-5.0.9.tar.gz
+[2023-04-24 11:13:52] INFO root fetch - processPackages [mailchecker]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [mailchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailchecker-5.0.8.tar.gz tmp/mailchecker-5.0.9.tar.gz --markdown 20230424/m/mailchecker/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2405.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230424/f/finbourne-identity-sdk/0.0.2405-0.0.840/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [STEAM-materials]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [STEAM-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEAM_materials-2023.4.0.tar.gz tmp/STEAM_materials-2023.4.1.tar.gz --markdown 20230424/S/STEAM-materials/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [wagtail-model-forms]: Downloading https://files.pythonhosted.org/packages/5c/17/e3fb8686ffe521d76ac363e1ce2d6e1183449dd320687ccb5fa99027b937/wagtail-model-forms-0.2.4.tar.gz
+[2023-04-24 11:13:52] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/17/fe/1fbdd6459295780c91d0e455b0f4470ad24cb52497ac8abfc3a1496968f8/obpgenerator-0.0.17.tar.gz
+[2023-04-24 11:13:52] INFO root fetch - processPackages [wagtail-model-forms]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [wagtail-model-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-model-forms-0.2.3.tar.gz tmp/wagtail-model-forms-0.2.4.tar.gz --markdown 20230424/w/wagtail-model-forms/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/38/c1/0564a1baefa3a6c0538e4b894416ec1ea5e8ea0f5acd37bcfe6185089477/hikari-yuyo-1.9.1a1.tar.gz
+[2023-04-24 11:13:52] INFO root fetch - processPackages [obpgenerator]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [obpgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obpgenerator-0.0.15.tar.gz tmp/obpgenerator-0.0.17.tar.gz --markdown 20230424/o/obpgenerator/0.0.15-0.0.17/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [hikari-yuyo]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [hikari-yuyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-yuyo-1.9.0a1.tar.gz tmp/hikari-yuyo-1.9.1a1.tar.gz --markdown 20230424/h/hikari-yuyo/1.9.0a1-1.9.1a1/diff.md --exclude *.pyd
+[2023-04-24 11:13:52] INFO root fetch - processPackages [EXtra-geom]: Downloading https://files.pythonhosted.org/packages/6f/f9/e778a9249231be9ff7e947e2240eb82cf2a5315084239a0a6f04687e2db5/EXtra-geom-1.9.0.tar.gz
+[2023-04-24 11:13:52] INFO root fetch - processPackages [EXtra-geom]: executing diffoscope
+[2023-04-24 11:13:52] INFO root fetch - processPackages [EXtra-geom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EXtra-geom-1.8.0.tar.gz tmp/EXtra-geom-1.9.0.tar.gz --markdown 20230424/E/EXtra-geom/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 11:13:53] INFO root fetch - processPackages [richvalues]: Start processing: je-editor-dev
+[2023-04-24 11:13:53] INFO root fetch - main [MainThread]: End processing [richvalues]: success
+[2023-04-24 11:13:53] INFO root fetch - processPackages [TimeForge]: Start processing: chainsail-helpers
+[2023-04-24 11:13:53] INFO root fetch - main [MainThread]: End processing [TimeForge]: success
+[2023-04-24 11:13:53] INFO root fetch - processPackages [chainsail-helpers]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 11:13:53] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:13:53] INFO root fetch - processPackages [je-editor]: Start processing: Kivy4
+[2023-04-24 11:13:53] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-24 11:13:53] INFO root fetch - processPackages [Kivy4]: New version: [5.3.0] Old Version: [5.2.3]
+[2023-04-24 11:13:53] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-24 11:13:53] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230424/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:13:53] INFO root fetch - processPackages [chainsail-helpers]: Downloading https://files.pythonhosted.org/packages/b1/a2/21c4dfac5f4629e3f15483664cf90aefa33ec914f45a289425fdc30da519/chainsail-helpers-0.1.4.tar.gz
+[2023-04-24 11:13:53] INFO root fetch - processPackages [Kivy4]: Downloading https://files.pythonhosted.org/packages/d4/2c/5e3134526c4b7c989b71e5437d3ddfb9256f706546ea0fd4452b897bc683/Kivy4-5.2.3.tar.gz
+[2023-04-24 11:13:53] INFO root fetch - processPackages [wagtail-model-forms]: Start processing: tbp-nightly
+[2023-04-24 11:13:53] INFO root fetch - main [MainThread]: End processing [wagtail-model-forms]: success
+[2023-04-24 11:13:53] INFO root fetch - processPackages [obpgenerator]: Start processing: compose-go
+[2023-04-24 11:13:53] INFO root fetch - main [MainThread]: End processing [obpgenerator]: success
+[2023-04-24 11:13:53] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-04-24 11:13:53] INFO root fetch - processPackages [compose-go]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 11:13:53] INFO root fetch - processPackages [chainsail-helpers]: Downloading https://files.pythonhosted.org/packages/bf/27/132734ee40116feba8bb5b1c997eadeed6c3b29a5b0bafd7494f95fced84/chainsail_helpers-0.1.5.tar.gz
+[2023-04-24 11:13:53] INFO root fetch - processPackages [compose-go]: Downloading https://files.pythonhosted.org/packages/a0/21/bb6ec09f106347e26c1d62a457abb73ac0e88e0ae33d5cc04f5a649b7cec/compose_go-1.0.3.tar.gz
+[2023-04-24 11:13:53] WARNING root fetch - processPackages [compose-go]: Skipping package: exceeds size limit 15973825>=10485760
+[2023-04-24 11:13:53] INFO root fetch - processPackages [compose-go]: Start processing: zod
+[2023-04-24 11:13:53] INFO root fetch - main [MainThread]: End processing [compose-go] error
+[2023-04-24 11:13:53] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-04-24 11:13:53] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230424/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-04-24 11:13:54] INFO root fetch - processPackages [zod]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-04-24 11:13:54] INFO root fetch - processPackages [Kivy4]: Downloading https://files.pythonhosted.org/packages/ca/dd/0cb09774d8b219d9915217e15d68e05e6b997d224a4fd8792cdd49efd21b/Kivy4-5.3.0.tar.gz
+[2023-04-24 11:13:54] INFO root fetch - processPackages [chainsail-helpers]: executing diffoscope
+[2023-04-24 11:13:54] INFO root fetch - processPackages [chainsail-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsail-helpers-0.1.4.tar.gz tmp/chainsail_helpers-0.1.5.tar.gz --markdown 20230424/c/chainsail-helpers/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 11:13:54] INFO root fetch - processPackages [Kivy4]: executing diffoscope
+[2023-04-24 11:13:54] INFO root fetch - processPackages [Kivy4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kivy4-5.2.3.tar.gz tmp/Kivy4-5.3.0.tar.gz --markdown 20230424/K/Kivy4/5.2.3-5.3.0/diff.md --exclude *.pyd
+[2023-04-24 11:13:54] INFO root fetch - processPackages [zod]: Downloading https://files.pythonhosted.org/packages/76/e1/4c24cf3d67795958523497b5e3e1a1609420da4dfeecea400bfbad9944c2/zod-0.1.8.tar.gz
+[2023-04-24 11:13:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: skyagi
+[2023-04-24 11:13:54] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-24 11:13:54] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:13:54] INFO root fetch - processPackages [zod]: Downloading https://files.pythonhosted.org/packages/b0/7c/725cf546bcba0de657a5dc7778af49e94ce83eb9bc32fec392e6b5efcee8/zod-0.2.0.tar.gz
+[2023-04-24 11:13:54] INFO root fetch - processPackages [zod]: executing diffoscope
+[2023-04-24 11:13:54] INFO root fetch - processPackages [zod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zod-0.1.8.tar.gz tmp/zod-0.2.0.tar.gz --markdown 20230424/z/zod/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 11:13:54] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-24 11:13:54] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230424/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:13:54] INFO root fetch - processPackages [je-editor-dev]: Start processing: ccache-upload-redis
+[2023-04-24 11:13:54] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-24 11:13:54] INFO root fetch - processPackages [ccache-upload-redis]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-04-24 11:13:54] INFO root fetch - processPackages [ccache-upload-redis]: executing diffoscope
+[2023-04-24 11:13:54] INFO root fetch - processPackages [ccache-upload-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccache_upload_redis-0.1.1a1.tar.gz tmp/ccache_upload_redis-0.1.1a2.tar.gz --markdown 20230424/c/ccache-upload-redis/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-04-24 11:13:55] INFO root fetch - main [MainThread]: End processing [hikari-yuyo]: success
+[2023-04-24 11:13:55] INFO root fetch - main [MainThread]: End processing [chainsail-helpers]: success
+[2023-04-24 11:13:55] INFO root fetch - main [MainThread]: End processing [Kivy4]: success
+[2023-04-24 11:13:55] INFO root fetch - main [MainThread]: End processing [mailchecker]: success
+[2023-04-24 11:13:56] INFO root fetch - main [MainThread]: End processing [ccache-upload-redis]: success
+[2023-04-24 11:13:56] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-24 11:13:56] INFO root fetch - main [MainThread]: End processing [zod]: success
+[2023-04-24 11:13:56] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-04-24 11:13:57] INFO root fetch - main [MainThread]: End processing [EXtra-geom]: success
+[2023-04-24 11:14:26] INFO root fetch - main [MainThread]: End processing [STEAM-materials]: success
+[2023-04-24 11:14:26] INFO root fetch - main [MainThread]: Store serial: [17831319]
