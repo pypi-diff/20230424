@@ -5903,3 +5903,64 @@
 [2023-04-24 08:36:06] INFO root fetch - main [MainThread]: End processing [gWeaver]: success
 [2023-04-24 08:36:09] INFO root fetch - main [MainThread]: End processing [prunerr]: success
 [2023-04-24 08:36:09] INFO root fetch - main [MainThread]: Store serial: [17829675]
+[2023-04-24 08:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829675]
+[2023-04-24 08:41:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sitcom
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grun-js
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aanalyticsact
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-source-collection
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revistas
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grun-js
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsface-python
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyeye
+[2023-04-24 08:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: example-pkg-cvisp-demo
+[2023-04-24 08:41:18] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [sitcom]: New version: [1.4.0] Old Version: [1.3.5]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230423] Old Version: [2.13.0.dev20230422]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [grun-js]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [grun-js]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [skyeye]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [revistas]: New version: [1.0.0] Old Version: [0.1]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [nsface-python]: New version: [1.1.61] Old Version: [1.1.60]
+[2023-04-24 08:41:18] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/d9/f3/9cc9c573dd088395c2dfba6794dcf75e9f04eb253d5c13655d8526fe4da0/tf_nightly_macos-2.13.0.dev20230422-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-24 08:41:18] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 188172242>=10485760
+[2023-04-24 08:41:18] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-24 08:41:18] WARNING root fetch - processPackages [example-pkg-cvisp-demo]: Skipping, unable to determine old version
+[2023-04-24 08:41:18] INFO root fetch - main [MainThread]: End processing [example-pkg-cvisp-demo] error
+[2023-04-24 08:41:18] INFO root fetch - processPackages [grun-js]: Downloading https://files.pythonhosted.org/packages/30/ec/a31d7d670a3a64fc91d2032cd901259f8d57f7cedbbad0d6283ef120c744/grun_js-0.0.2.tar.gz
+[2023-04-24 08:41:18] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/81/fc/c91a06331aef23266139be5c7f222a5ac624a433495b25fa107c5a4a9b4b/sitcom-1.3.5.tar.gz
+[2023-04-24 08:41:18] INFO root fetch - processPackages [grun-js]: Downloading https://files.pythonhosted.org/packages/30/ec/a31d7d670a3a64fc91d2032cd901259f8d57f7cedbbad0d6283ef120c744/grun_js-0.0.2.tar.gz
+[2023-04-24 08:41:18] ERROR root fetch - processPackages [nsface-python]: Unable to fetch info: No such project/version 'nsface-python' 1.1.60
+[2023-04-24 08:41:18] INFO root fetch - main [MainThread]: End processing [nsface-python] error
+[2023-04-24 08:41:18] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/6d/7a/bc4458dbde2ae4eb43aa276bfe3b2ed50aa57a45b4f5470601a11ebb9bfd/aanalyticsact-0.0.0.8.tar.gz
+[2023-04-24 08:41:18] INFO root fetch - processPackages [skyeye]: Downloading https://files.pythonhosted.org/packages/ce/70/d96ad523d3f59f8bf1ba4b7328b520ae35fd9dc75b87221dc0c96633b0c6/skyeye-3.4.7.tar.gz
+[2023-04-24 08:41:18] INFO root fetch - processPackages [revistas]: Downloading https://files.pythonhosted.org/packages/02/e8/e58fa3d9fb2f1b6747a08aca046746b9ce71b97e711e49d237792c4096de/revistas-0.1.tar.gz
+[2023-04-24 08:41:18] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689385>=10485760
+[2023-04-24 08:41:18] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-24 08:41:18] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/f6/06/c1d44f950ed810b98d3fc5ef65f0ab42f7fee9dc919ad669498ca9292b9f/macrometa-source-collection-0.0.22.tar.gz
+[2023-04-24 08:41:19] INFO root fetch - processPackages [grun-js]: Downloading https://files.pythonhosted.org/packages/7c/21/f5f159333abf25693615df701d5f542220767c4851060d22d643033afd4d/grun_js-0.0.3.tar.gz
+[2023-04-24 08:41:19] INFO root fetch - processPackages [grun-js]: Downloading https://files.pythonhosted.org/packages/7c/21/f5f159333abf25693615df701d5f542220767c4851060d22d643033afd4d/grun_js-0.0.3.tar.gz
+[2023-04-24 08:41:19] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-04-24 08:41:19] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.21.tar.gz tmp/macrometa-source-collection-0.0.22.tar.gz --markdown 20230424/m/macrometa-source-collection/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-04-24 08:41:19] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/c7/ad/8dfb0ce46b1218b0fd738bd90a652d6f6c828910799e03dac35b1cb9ea20/aanalyticsact-0.0.0.9.tar.gz
+[2023-04-24 08:41:19] INFO root fetch - processPackages [revistas]: Downloading https://files.pythonhosted.org/packages/46/24/52a9fb36da17bcc9c96d922b7e324b0e40c6b5eb52c17fe1ed91c70b5ac2/revistas-1.0.0.tar.gz
+[2023-04-24 08:41:19] INFO root fetch - processPackages [grun-js]: executing diffoscope
+[2023-04-24 08:41:19] INFO root fetch - processPackages [grun-js]: executing diffoscope
+[2023-04-24 08:41:19] INFO root fetch - processPackages [grun-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grun_js-0.0.2.tar.gz tmp/grun_js-0.0.3.tar.gz --markdown 20230424/g/grun-js/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 08:41:19] INFO root fetch - processPackages [grun-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grun_js-0.0.2.tar.gz tmp/grun_js-0.0.3.tar.gz --markdown 20230424/g/grun-js/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 08:41:19] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-04-24 08:41:19] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.8.tar.gz tmp/aanalyticsact-0.0.0.9.tar.gz --markdown 20230424/a/aanalyticsact/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:41:19] INFO root fetch - processPackages [revistas]: executing diffoscope
+[2023-04-24 08:41:19] INFO root fetch - processPackages [revistas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revistas-0.1.tar.gz tmp/revistas-1.0.0.tar.gz --markdown 20230424/r/revistas/0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 08:41:20] INFO root fetch - processPackages [skyeye]: Downloading https://files.pythonhosted.org/packages/ff/62/df0aff41c1979b2604afa9ed03bbd6ac9ad4f3c93b9d5a44c7d427a45d22/skyeye-3.4.8.tar.gz
+[2023-04-24 08:41:20] INFO root fetch - main [MainThread]: End processing [grun-js]: success
+[2023-04-24 08:41:20] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-04-24 08:41:20] INFO root fetch - main [MainThread]: End processing [grun-js]: success
+[2023-04-24 08:41:20] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-04-24 08:41:20] INFO root fetch - main [MainThread]: End processing [revistas]: success
+[2023-04-24 08:41:21] INFO root fetch - processPackages [skyeye]: executing diffoscope
+[2023-04-24 08:41:21] INFO root fetch - processPackages [skyeye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyeye-3.4.7.tar.gz tmp/skyeye-3.4.8.tar.gz --markdown 20230424/s/skyeye/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-04-24 08:41:24] INFO root fetch - main [MainThread]: End processing [skyeye]: success
+[2023-04-24 08:41:24] INFO root fetch - main [MainThread]: Store serial: [17829715]
