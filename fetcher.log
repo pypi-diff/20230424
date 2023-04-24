@@ -5095,3 +5095,63 @@
 [2023-04-24 07:08:08] INFO root fetch - main [MainThread]: End processing [streamlink-serverless]: success
 [2023-04-24 07:10:58] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-24 07:10:58] INFO root fetch - main [MainThread]: Store serial: [17829179]
+[2023-04-24 07:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829179]
+[2023-04-24 07:16:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emsarray
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-ai
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebbs
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DXR
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DXR
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datarec
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: river-core
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coldxrayPy
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omspy
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: findmyorder
+[2023-04-24 07:16:07] INFO root fetch - processPackages [DXR]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [DXR]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [datarec]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-24 07:16:07] WARNING root fetch - processPackages [coldxrayPy]: Skipping, unable to determine old version
+[2023-04-24 07:16:07] INFO root fetch - processPackages [coldxrayPy]: Start processing: pystorz
+[2023-04-24 07:16:07] INFO root fetch - main [MainThread]: End processing [coldxrayPy] error
+[2023-04-24 07:16:07] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-04-24 07:16:07] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.6.8.tar.gz tmp/DXR-1.7.0.tar.gz --markdown 20230424/D/DXR/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-04-24 07:16:07] INFO root fetch - processPackages [emsarray]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [athena-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-04-24 07:16:07] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.6.8.tar.gz tmp/DXR-1.7.0.tar.gz --markdown 20230424/D/DXR/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-04-24 07:16:07] INFO root fetch - processPackages [omspy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [river-core]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-24 07:16:07] INFO root fetch - processPackages [datarec]: executing diffoscope
+[2023-04-24 07:16:07] INFO root fetch - processPackages [datarec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarec-0.1.0.tar.gz tmp/datarec-0.1.1.tar.gz --markdown 20230424/d/datarec/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 07:16:07] WARNING root fetch - processPackages [pystorz]: Skipping, unable to determine old version
+[2023-04-24 07:16:07] INFO root fetch - main [MainThread]: End processing [pystorz] error
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-04-24 07:16:07] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230424/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-24 07:16:07] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 07:16:07] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 07:16:07] INFO root fetch - processPackages [emsarray]: Downloading https://files.pythonhosted.org/packages/e4/e1/855b1a91d43a450b4a680afecab5c9f2e9762ccd8c6a7ca08bec0e242a16/emsarray-0.4.1.tar.gz
+[2023-04-24 07:16:07] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/03/61/ad6e6161d585ac0d69e1291f8c0acf6d9c89411927989ab2f4bc794d8001/river_core-1.2.0.tar.gz
+[2023-04-24 07:16:07] INFO root fetch - processPackages [omspy]: Downloading https://files.pythonhosted.org/packages/89/da/13dd50c5057cb20d1f1dfd59d8fa8239c28775ada5acb478fd81e71a8edf/omspy-0.9.0.tar.gz
+[2023-04-24 07:16:07] INFO root fetch - processPackages [emsarray]: Downloading https://files.pythonhosted.org/packages/9a/1d/db4962f2bd360c0e945727837170553e714096c96f9490fc7e6f36042a66/emsarray-0.4.2.tar.gz
+[2023-04-24 07:16:07] INFO root fetch - processPackages [athena-ai]: Downloading https://files.pythonhosted.org/packages/d7/c7/6efa48ab5309d314a5c26e3f3e0ae062394e2dfb4771f4e97fc90bfc53aa/athena_ai-0.0.9.tar.gz
+[2023-04-24 07:16:07] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/a1/a3/db0d6002bba0e55cfabe5799c58cb7e3850e4f6891215a1f6b9725a2f562/river_core-1.3.0.tar.gz
+[2023-04-24 07:16:07] WARNING root fetch - processPackages [athena-ai]: Skipping package: exceeds size limit 16014836>=10485760
+[2023-04-24 07:16:07] INFO root fetch - main [MainThread]: End processing [athena-ai] error
+[2023-04-24 07:16:07] INFO root fetch - processPackages [emsarray]: executing diffoscope
+[2023-04-24 07:16:07] INFO root fetch - processPackages [emsarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emsarray-0.4.1.tar.gz tmp/emsarray-0.4.2.tar.gz --markdown 20230424/e/emsarray/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-24 07:16:07] INFO root fetch - processPackages [omspy]: Downloading https://files.pythonhosted.org/packages/e3/3f/57e49ea70efb1fcb3d40210e9e1fa481e6605c4de98a3deb18880fc3fdff/omspy-0.9.1.tar.gz
+[2023-04-24 07:16:08] INFO root fetch - processPackages [river-core]: executing diffoscope
+[2023-04-24 07:16:08] INFO root fetch - processPackages [river-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/river_core-1.2.0.tar.gz tmp/river_core-1.3.0.tar.gz --markdown 20230424/r/river-core/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-24 07:16:08] INFO root fetch - processPackages [omspy]: executing diffoscope
+[2023-04-24 07:16:08] INFO root fetch - processPackages [omspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omspy-0.9.0.tar.gz tmp/omspy-0.9.1.tar.gz --markdown 20230424/o/omspy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 07:16:08] INFO root fetch - main [MainThread]: End processing [datarec]: success
+[2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [omspy]: success
+[2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [river-core]: success
+[2023-04-24 07:16:11] INFO root fetch - main [MainThread]: End processing [emsarray]: success
+[2023-04-24 07:16:11] INFO root fetch - main [MainThread]: Store serial: [17829216]
