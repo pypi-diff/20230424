@@ -4921,3 +4921,35 @@
 [2023-04-24 06:31:42] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-04-24 06:31:43] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2023-04-24 06:31:43] INFO root fetch - main [MainThread]: Store serial: [17829057]
+[2023-04-24 06:36:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829057]
+[2023-04-24 06:36:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 06:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmkoalas
+[2023-04-24 06:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-serve
+[2023-04-24 06:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 3DeeCellTracker
+[2023-04-24 06:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geospatial
+[2023-04-24 06:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncblink
+[2023-04-24 06:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-odps
+[2023-04-24 06:36:51] INFO root fetch - processPackages [geospatial]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-24 06:36:51] INFO root fetch - processPackages [3DeeCellTracker]: New version: [0.5.1a0] Old Version: [0.5.0a0]
+[2023-04-24 06:36:51] WARNING root fetch - processPackages [pmkoalas]: Skipping, unable to determine old version
+[2023-04-24 06:36:51] INFO root fetch - main [MainThread]: End processing [pmkoalas] error
+[2023-04-24 06:36:51] WARNING root fetch - processPackages [dbt-odps]: Skipping, unable to determine old version
+[2023-04-24 06:36:51] INFO root fetch - main [MainThread]: End processing [dbt-odps] error
+[2023-04-24 06:36:51] INFO root fetch - processPackages [asyncblink]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-04-24 06:36:51] INFO root fetch - processPackages [geospatial]: executing diffoscope
+[2023-04-24 06:36:51] INFO root fetch - processPackages [geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospatial-0.7.0.tar.gz tmp/geospatial-0.7.1.tar.gz --markdown 20230424/g/geospatial/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-24 06:36:51] INFO root fetch - processPackages [3DeeCellTracker]: executing diffoscope
+[2023-04-24 06:36:51] INFO root fetch - processPackages [3DeeCellTracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3DeeCellTracker-0.5.0a0.tar.gz tmp/3DeeCellTracker-0.5.1a0.tar.gz --markdown 20230424/3/3DeeCellTracker/0.5.0a0-0.5.1a0/diff.md --exclude *.pyd
+[2023-04-24 06:36:51] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.19]
+[2023-04-24 06:36:52] INFO root fetch - processPackages [asyncblink]: Downloading https://files.pythonhosted.org/packages/5b/79/2625d6eccfe7629759db9565a556c9758b5f1366475a296d2d0f90d59f1d/asyncblink-0.3.2.tar.gz
+[2023-04-24 06:36:52] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/53/00/c3ae336427cc074df74c4adafb87aecd8f50568c694dc7d2930207c013d9/taichu-serve-2.0.19.tar.gz
+[2023-04-24 06:36:52] INFO root fetch - processPackages [asyncblink]: Downloading https://files.pythonhosted.org/packages/b4/cc/23b86504b2c32757d1dd3ccc351eb9d7527bedcde21f8ae5872f0fae5e82/asyncblink-0.4.0.tar.gz
+[2023-04-24 06:36:52] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-24 06:36:52] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.19.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230424/t/taichu-serve/2.0.19-2.0.9/diff.md --exclude *.pyd
+[2023-04-24 06:36:52] INFO root fetch - processPackages [asyncblink]: executing diffoscope
+[2023-04-24 06:36:52] INFO root fetch - processPackages [asyncblink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncblink-0.3.2.tar.gz tmp/asyncblink-0.4.0.tar.gz --markdown 20230424/a/asyncblink/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 06:36:52] INFO root fetch - main [MainThread]: End processing [geospatial]: success
+[2023-04-24 06:36:53] INFO root fetch - main [MainThread]: End processing [3DeeCellTracker]: success
+[2023-04-24 06:36:53] INFO root fetch - main [MainThread]: End processing [asyncblink]: success
+[2023-04-24 06:36:53] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-24 06:36:53] INFO root fetch - main [MainThread]: Store serial: [17829081]
