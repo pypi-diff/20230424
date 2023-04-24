@@ -4953,3 +4953,22 @@
 [2023-04-24 06:36:53] INFO root fetch - main [MainThread]: End processing [asyncblink]: success
 [2023-04-24 06:36:53] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
 [2023-04-24 06:36:53] INFO root fetch - main [MainThread]: Store serial: [17829081]
+[2023-04-24 06:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829081]
+[2023-04-24 06:42:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-24 06:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icepool
+[2023-04-24 06:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmkoalas
+[2023-04-24 06:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-odps
+[2023-04-24 06:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shared-atomic-enterprise
+[2023-04-24 06:42:01] WARNING root fetch - processPackages [pmkoalas]: Skipping, unable to determine old version
+[2023-04-24 06:42:01] INFO root fetch - main [MainThread]: End processing [pmkoalas] error
+[2023-04-24 06:42:01] WARNING root fetch - processPackages [dbt-odps]: Skipping, unable to determine old version
+[2023-04-24 06:42:01] INFO root fetch - main [MainThread]: End processing [dbt-odps] error
+[2023-04-24 06:42:02] INFO root fetch - processPackages [icepool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 06:42:02] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.2] Old Version: [5!2.3.1]
+[2023-04-24 06:42:02] INFO root fetch - processPackages [icepool]: executing diffoscope
+[2023-04-24 06:42:02] INFO root fetch - processPackages [icepool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepool-0.8.0.tar.gz tmp/icepool-0.9.0.tar.gz --markdown 20230424/i/icepool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 06:42:02] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-04-24 06:42:02] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.1-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.2-py39-none-win_amd64.whl.zip --markdown 20230424/s/shared-atomic-enterprise/5!2.3.1-5!2.3.2/diff.md --exclude *.pyd
+[2023-04-24 06:42:03] INFO root fetch - main [MainThread]: End processing [icepool]: success
+[2023-04-24 06:42:14] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-04-24 06:42:14] INFO root fetch - main [MainThread]: Store serial: [17829102]
