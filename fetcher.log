@@ -6698,3 +6698,73 @@
 [2023-04-24 09:29:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-04-24 09:29:27] INFO root fetch - main [MainThread]: End processing [mindspore-rl]: success
 [2023-04-24 09:29:27] INFO root fetch - main [MainThread]: Store serial: [17830165]
+[2023-04-24 09:34:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830165]
+[2023-04-24 09:34:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaen-mod
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SocketSwap
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Kivy
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Kivy-examples
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-sam
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NikeCA
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: system-superset-driver
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syn-commodore
+[2023-04-24 09:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toollib
+[2023-04-24 09:34:38] INFO root fetch - processPackages [jaen-mod]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 09:34:38] WARNING root fetch - processPackages [system-superset-driver]: Skipping, unable to determine old version
+[2023-04-24 09:34:38] INFO root fetch - processPackages [system-superset-driver]: Start processing: odoo14-addon-stock-helper
+[2023-04-24 09:34:38] INFO root fetch - main [MainThread]: End processing [system-superset-driver] error
+[2023-04-24 09:34:38] INFO root fetch - processPackages [SocketSwap]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [NikeCA]: New version: [0.1.83] Old Version: [0.1.82]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [Kivy]: New version: [2.2.0.dev0] Old Version: [2.1.0rc3]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [syn-commodore]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [Kivy-examples]: New version: [2.2.0.dev0] Old Version: [2.1.0rc3]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [toollib]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [odoo14-addon-stock-helper]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev1]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-24 09:34:38] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 09:34:38] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.82.tar.gz tmp/NikeCA-0.1.83.tar.gz --markdown 20230424/N/NikeCA/0.1.82-0.1.83/diff.md --exclude *.pyd
+[2023-04-24 09:34:38] INFO root fetch - processPackages [Kivy]: Downloading https://files.pythonhosted.org/packages/3c/84/31cc0e0768e214efbb6b5b0b6278f69e60fc6dc1f1487f72f67486b9902b/Kivy-2.1.0rc3.tar.gz
+[2023-04-24 09:34:38] WARNING root fetch - processPackages [Kivy]: Skipping package: exceeds size limit 23750622>=10485760
+[2023-04-24 09:34:38] INFO root fetch - processPackages [Kivy]: Start processing: kodexa
+[2023-04-24 09:34:38] INFO root fetch - main [MainThread]: End processing [Kivy] error
+[2023-04-24 09:34:38] INFO root fetch - processPackages [jaen-mod]: Downloading https://files.pythonhosted.org/packages/b5/63/febcb91499f90a74556c6ca6f1aa805c65fe9a679aa3b01fc5c92a005c33/jaen_mod-0.0.3-py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [Kivy-examples]: Downloading https://files.pythonhosted.org/packages/7c/d3/6e356a5c63a17d95d5e1692092824adf0d3310fe007c97216ff829045d90/Kivy_examples-2.1.0rc3-py2.py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [SocketSwap]: Downloading https://files.pythonhosted.org/packages/53/d2/19255ef84ff50b5b81aedacad8afc98a91c66ca5b75ae3f50a0aaeb386eb/SocketSwap-0.1.3-py2.py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [syn-commodore]: Downloading https://files.pythonhosted.org/packages/73/ce/fd24cb533cabb1b9e60b9a869ff9b41ca4368354d5be49c02fa3c85a1b2e/syn-commodore-1.9.0.tar.gz
+[2023-04-24 09:34:38] INFO root fetch - processPackages [odoo14-addon-stock-helper]: Downloading https://files.pythonhosted.org/packages/e4/71/240f8561821fc16e926a0dadc69951a3f512bc4c5b7c1e523b79f5dc5c7f/odoo14_addon_stock_helper-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-24 09:34:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 09:34:38] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/ae/80/602d21f13eaa2827bd6d340eb82c710b1d5bad9adbe5244b2f27eb158b89/toollib-1.3.5-py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [jaen-mod]: executing diffoscope
+[2023-04-24 09:34:38] INFO root fetch - processPackages [jaen-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaen_mod-0.0.2-py3-none-any.whl.zip tmp/jaen_mod-0.0.3-py3-none-any.whl.zip --markdown 20230424/j/jaen-mod/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 09:34:38] INFO root fetch - processPackages [SocketSwap]: executing diffoscope
+[2023-04-24 09:34:38] INFO root fetch - processPackages [SocketSwap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocketSwap-0.1.2-py2.py3-none-any.whl.zip tmp/SocketSwap-0.1.3-py2.py3-none-any.whl.zip --markdown 20230424/S/SocketSwap/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 09:34:38] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-24 09:34:38] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230424/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-24 09:34:38] INFO root fetch - processPackages [Kivy-examples]: Downloading https://files.pythonhosted.org/packages/07/3a/1155c8889ec2d2f106ffeca353c27a08d76e4dff6690fbce8ffe4b3aef83/Kivy_examples-2.2.0.dev0-py2.py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [odoo14-addon-stock-helper]: Downloading https://files.pythonhosted.org/packages/04/31/d591fbd31edf2520ccaecdac52d625d7a2e2466f5e1e7fa4a9932c9faf79/odoo14_addon_stock_helper-14.0.1.2.0-py3-none-any.whl
+[2023-04-24 09:34:38] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2023-04-24 09:34:38] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.3.4-py3-none-any.whl.zip tmp/toollib-1.3.5-py3-none-any.whl.zip --markdown 20230424/t/toollib/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-24 09:34:38] INFO root fetch - processPackages [syn-commodore]: Downloading https://files.pythonhosted.org/packages/b8/98/9e49d5c8edcd2f1f75fbf93285a0ab198c0f7479b5959cb5eff876c02bd7/syn-commodore-1.9.1.tar.gz
+[2023-04-24 09:34:39] INFO root fetch - processPackages [odoo14-addon-stock-helper]: executing diffoscope
+[2023-04-24 09:34:39] INFO root fetch - processPackages [odoo14-addon-stock-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_helper-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_helper-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230424/o/odoo14-addon-stock-helper/14.0.1.1.1.dev1-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-04-24 09:34:39] INFO root fetch - processPackages [syn-commodore]: executing diffoscope
+[2023-04-24 09:34:39] INFO root fetch - processPackages [syn-commodore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syn-commodore-1.9.0.tar.gz tmp/syn-commodore-1.9.1.tar.gz --markdown 20230424/s/syn-commodore/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-24 09:34:39] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-04-24 09:34:39] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 09:34:39] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-04-24 09:34:39] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230424/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-04-24 09:34:39] INFO root fetch - main [MainThread]: End processing [jaen-mod]: success
+[2023-04-24 09:34:39] INFO root fetch - main [MainThread]: End processing [SocketSwap]: success
+[2023-04-24 09:34:40] INFO root fetch - processPackages [Kivy-examples]: executing diffoscope
+[2023-04-24 09:34:40] INFO root fetch - processPackages [Kivy-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kivy_examples-2.1.0rc3-py2.py3-none-any.whl.zip tmp/Kivy_examples-2.2.0.dev0-py2.py3-none-any.whl.zip --markdown 20230424/K/Kivy-examples/2.1.0rc3-2.2.0.dev0/diff.md --exclude *.pyd
+[2023-04-24 09:34:40] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-24 09:34:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-helper]: success
+[2023-04-24 09:34:40] INFO root fetch - main [MainThread]: End processing [syn-commodore]: success
+[2023-04-24 09:34:41] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2023-04-24 09:34:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-24 09:34:44] INFO root fetch - main [MainThread]: End processing [Kivy-examples]: success
+[2023-04-24 09:34:57] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-04-24 09:34:57] INFO root fetch - main [MainThread]: Store serial: [17830209]
