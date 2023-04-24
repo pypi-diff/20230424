@@ -19894,3 +19894,50 @@
 [2023-04-24 20:12:12] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-24 20:12:20] INFO root fetch - main [MainThread]: End processing [zigpy-zigate]: success
 [2023-04-24 20:12:20] INFO root fetch - main [MainThread]: Store serial: [17837818]
+[2023-04-24 20:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837818]
+[2023-04-24 20:17:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpservice
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ablerConfig
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luhn-validator
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zigpy-xbee
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystorz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: compas-lcmtypes
+[2023-04-24 20:17:29] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ablerConfig]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [zigpy-xbee]: New version: [0.18.0] Old Version: [0.17.0]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [luhn-validator]: New version: [1.2.0.post4] Old Version: [1.2.0]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [pystorz]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [compas-lcmtypes]: New version: [2023.2] Old Version: [2023.1]
+[2023-04-24 20:17:29] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-24 20:17:29] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230424/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 20:17:29] INFO root fetch - processPackages [zigpy-xbee]: Downloading https://files.pythonhosted.org/packages/14/0e/616e80cd3947711f0e3c90d2d623324c94c138aa2fe06822caf7e37ac224/zigpy-xbee-0.17.0.tar.gz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/32/e0/7a173eb6a6686dc52c6f92ab3b2bff1fb052341fe81dff6f575d18f0019e/pystorz-0.0.7.tar.gz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [compas-lcmtypes]: Downloading https://files.pythonhosted.org/packages/72/e3/029ee55a89375baa0a834a1c40caf870c1fa89e5c60729dfcd1b54f4503a/compas_lcmtypes-2023.1.tar.gz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/65/26/ccc92ac5e4315d0dd7780979f52a41114620ea3d6ecf844d58559b45322e/ablerConfig-0.1.1.tar.gz
+[2023-04-24 20:17:29] INFO root fetch - processPackages [luhn-validator]: Downloading https://files.pythonhosted.org/packages/a0/1e/5f9288cdbff05a1d6da87c645f796efc2a5937dab8866e721ce6858633ce/luhn-validator-1.2.0.post4.tar.gz
+[2023-04-24 20:17:30] INFO root fetch - processPackages [zigpy-xbee]: Downloading https://files.pythonhosted.org/packages/e3/21/3d38a11c48747f50532786f3acbc96207aff8c7e985f48ca18241253c2a2/zigpy-xbee-0.18.0.tar.gz
+[2023-04-24 20:17:30] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-24 20:17:30] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.0.5.tar.gz tmp/pystorz-0.0.7.tar.gz --markdown 20230424/p/pystorz/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 20:17:30] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-04-24 20:17:30] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230424/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-04-24 20:17:30] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 20:17:30] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.1.0.tar.gz tmp/ablerConfig-0.1.1.tar.gz --markdown 20230424/a/ablerConfig/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 20:17:30] INFO root fetch - processPackages [luhn-validator]: executing diffoscope
+[2023-04-24 20:17:30] INFO root fetch - processPackages [luhn-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luhn-validator-1.2.0.tar.gz tmp/luhn-validator-1.2.0.post4.tar.gz --markdown 20230424/l/luhn-validator/1.2.0-1.2.0.post4/diff.md --exclude *.pyd
+[2023-04-24 20:17:30] INFO root fetch - processPackages [zigpy-xbee]: executing diffoscope
+[2023-04-24 20:17:30] INFO root fetch - processPackages [zigpy-xbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigpy-xbee-0.17.0.tar.gz tmp/zigpy-xbee-0.18.0.tar.gz --markdown 20230424/z/zigpy-xbee/0.17.0-0.18.0/diff.md --exclude *.pyd
+[2023-04-24 20:17:30] INFO root fetch - processPackages [compas-lcmtypes]: Downloading https://files.pythonhosted.org/packages/61/f5/44542ff9639f753d4bcf676b98044cc4dcde0fc2346405d0e0044694cf0e/compas_lcmtypes-2023.2.tar.gz
+[2023-04-24 20:17:30] INFO root fetch - processPackages [compas-lcmtypes]: executing diffoscope
+[2023-04-24 20:17:30] INFO root fetch - processPackages [compas-lcmtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_lcmtypes-2023.1.tar.gz tmp/compas_lcmtypes-2023.2.tar.gz --markdown 20230424/c/compas-lcmtypes/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [luhn-validator]: success
+[2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [zigpy-xbee]: success
+[2023-04-24 20:17:31] INFO root fetch - main [MainThread]: End processing [compas-lcmtypes]: success
+[2023-04-24 20:17:32] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-24 20:17:32] INFO root fetch - main [MainThread]: Store serial: [17837843]
