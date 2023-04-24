@@ -22200,3 +22200,70 @@
 [2023-04-24 22:47:30] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-24 22:47:33] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-24 22:47:33] INFO root fetch - main [MainThread]: Store serial: [17839300]
+[2023-04-24 22:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839300]
+[2023-04-24 22:52:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riscv-assembler
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-odoo-instance
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dop-integration-libs
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sgw-tools
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rabbie
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stormevents
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jianglab
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mtg-deckstats
+[2023-04-24 22:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: faker-file
+[2023-04-24 22:52:43] WARNING root fetch - processPackages [odoo14-addon-odoo-instance]: Skipping, unable to determine old version
+[2023-04-24 22:52:43] INFO root fetch - processPackages [odoo14-addon-odoo-instance]: Start processing: cmomy
+[2023-04-24 22:52:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-odoo-instance] error
+[2023-04-24 22:52:43] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230424.9.2.727631] Old Version: [20230424.20.5.360227]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [riscv-assembler]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [jianglab]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 22:52:43] WARNING root fetch - processPackages [rabbie]: Skipping, unable to determine old version
+[2023-04-24 22:52:43] INFO root fetch - main [MainThread]: End processing [rabbie] error
+[2023-04-24 22:52:43] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [sgw-tools]: New version: [1.94] Old Version: [1.93]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [mtg-deckstats]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-24 22:52:43] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230424/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:52:43] INFO root fetch - processPackages [stormevents]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [cmomy]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-24 22:52:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/e0/89/dcc5c4480433841c7f9399f8a9404aabbf6fe61a22819f2c5fa95e97c6ab/certora-cli-alpha-master-20230424.20.5.360227.tar.gz
+[2023-04-24 22:52:43] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38072231>=10485760
+[2023-04-24 22:52:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-24 22:52:43] INFO root fetch - processPackages [riscv-assembler]: Downloading https://files.pythonhosted.org/packages/30/ef/5289c3125505e106e7a78fee3e38f714576ff0eab87e141f9409e62d1cf2/riscv-assembler-1.2.0.tar.gz
+[2023-04-24 22:52:43] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/28/45/137aea44d3ce871b85a5ca4bedf8af2131a40eb89184df8e5007b1eb06ba/jianglab-0.1.8.tar.gz
+[2023-04-24 22:52:43] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/10/ce/3b66b674ec2c2d3fed8c628df8fbb10b3483a55585c3bfc0346c02102d8d/sgw_tools-1.93.tar.gz
+[2023-04-24 22:52:43] INFO root fetch - processPackages [mtg-deckstats]: Downloading https://files.pythonhosted.org/packages/51/06/e299577974a0b762b27b485b9c5b6eb15bbe3db7296877f8b15a168791da/mtg_deckstats-0.0.1a7.tar.gz
+[2023-04-24 22:52:43] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-04-24 22:52:43] INFO root fetch - processPackages [cmomy]: Downloading https://files.pythonhosted.org/packages/ca/31/67fb3e52b6f969bd1910058513711279c194a3276407a722d5431f56da74/cmomy-0.2.2.tar.gz
+[2023-04-24 22:52:43] INFO root fetch - processPackages [stormevents]: Downloading https://files.pythonhosted.org/packages/fb/8e/ec2956bf60b02ab6551e6128d5464dc44905c12f0f3d07bd19e9d2ee5d0f/stormevents-2.1.4-py3-none-any.whl
+[2023-04-24 22:52:43] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-04-24 22:52:43] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.1.7.tar.gz tmp/jianglab-0.1.8.tar.gz --markdown 20230424/j/jianglab/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - processPackages [mtg-deckstats]: Downloading https://files.pythonhosted.org/packages/75/75/af28d9cdb6f58a1389ea2ec0802d96996072db6331ba490f417d41dc2b0f/mtg_deckstats-0.0.1a8.tar.gz
+[2023-04-24 22:52:44] INFO root fetch - processPackages [stormevents]: Downloading https://files.pythonhosted.org/packages/4a/a4/f4e008764785b14073ca2c901ab3fec0734ece381716d6e31ebcb68027f1/stormevents-2.2.0-py3-none-any.whl
+[2023-04-24 22:52:44] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/ef/ab/a2af9706d92e667efcd755569eba5eb884e788ef2fa585eeed41ba70c1d9/sgw_tools-1.94.tar.gz
+[2023-04-24 22:52:44] INFO root fetch - processPackages [riscv-assembler]: Downloading https://files.pythonhosted.org/packages/b9/5a/8979cb696feb2090acefc1a824ddac59a6dea1b4839ec3db2ddd1dc61411/riscv-assembler-1.2.1.tar.gz
+[2023-04-24 22:52:44] INFO root fetch - processPackages [cmomy]: Downloading https://files.pythonhosted.org/packages/3b/09/9850b4716b063b5503be1491aec1227627d0afd0ea399b532efa5d127bdb/cmomy-0.3.0.tar.gz
+[2023-04-24 22:52:44] INFO root fetch - processPackages [mtg-deckstats]: executing diffoscope
+[2023-04-24 22:52:44] INFO root fetch - processPackages [mtg-deckstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_deckstats-0.0.1a7.tar.gz tmp/mtg_deckstats-0.0.1a8.tar.gz --markdown 20230424/m/mtg-deckstats/0.0.1a7-0.0.1a8/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - processPackages [stormevents]: executing diffoscope
+[2023-04-24 22:52:44] INFO root fetch - processPackages [stormevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stormevents-2.1.4-py3-none-any.whl.zip tmp/stormevents-2.2.0-py3-none-any.whl.zip --markdown 20230424/s/stormevents/2.1.4-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - processPackages [sgw-tools]: executing diffoscope
+[2023-04-24 22:52:44] INFO root fetch - processPackages [sgw-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgw_tools-1.93.tar.gz tmp/sgw_tools-1.94.tar.gz --markdown 20230424/s/sgw-tools/1.93-1.94/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-04-24 22:52:44] INFO root fetch - processPackages [riscv-assembler]: executing diffoscope
+[2023-04-24 22:52:44] INFO root fetch - processPackages [riscv-assembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscv-assembler-1.2.0.tar.gz tmp/riscv-assembler-1.2.1.tar.gz --markdown 20230424/r/riscv-assembler/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - processPackages [cmomy]: executing diffoscope
+[2023-04-24 22:52:44] INFO root fetch - processPackages [cmomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmomy-0.2.2.tar.gz tmp/cmomy-0.3.0.tar.gz --markdown 20230424/c/cmomy/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-04-24 22:52:44] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230424/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 22:52:44] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-24 22:52:45] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-04-24 22:52:45] INFO root fetch - main [MainThread]: End processing [mtg-deckstats]: success
+[2023-04-24 22:52:45] INFO root fetch - main [MainThread]: End processing [sgw-tools]: success
+[2023-04-24 22:52:45] INFO root fetch - main [MainThread]: End processing [stormevents]: success
+[2023-04-24 22:52:45] INFO root fetch - main [MainThread]: End processing [riscv-assembler]: success
+[2023-04-24 22:52:46] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-04-24 22:54:57] INFO root fetch - main [MainThread]: End processing [cmomy]: success
+[2023-04-24 22:54:57] INFO root fetch - main [MainThread]: Store serial: [17839334]
