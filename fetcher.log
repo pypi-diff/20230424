@@ -9099,3 +9099,84 @@
 [2023-04-24 11:36:05] INFO root fetch - main [MainThread]: End processing [serl]: success
 [2023-04-24 11:36:07] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
 [2023-04-24 11:36:07] INFO root fetch - main [MainThread]: Store serial: [17831622]
+[2023-04-24 11:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831622]
+[2023-04-24 11:41:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplification
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyecotrend-ista
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: obpgenerator
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inference-client
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ibl-neuropixel
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-htmx-ui-adminlte
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image-augs
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-24 11:41:16] INFO root fetch - processPackages [django-htmx-ui-adminlte]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [ibl-neuropixel]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [image-augs]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [obpgenerator]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [modal-client]: New version: [0.49.2015] Old Version: [0.49.2010]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [simplification]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [inference-client]: New version: [0.0.2rc1] Old Version: [0.0.2]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-24 11:41:16] INFO root fetch - processPackages [django-htmx-ui-adminlte]: Downloading https://files.pythonhosted.org/packages/52/27/fac1487bf5d3d8ba951f6464f4e103b6ffef0834a7b2041092aec8715135/django_htmx_ui_adminlte-0.1.8.tar.gz
+[2023-04-24 11:41:16] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/2d/80/3e8e28750a876fbe4322b1f28a588bc3b73382c62a9dc6d2ede9d0eb9ccc/inference_client-0.0.2.tar.gz
+[2023-04-24 11:41:16] INFO root fetch - processPackages [simplification]: Downloading https://files.pythonhosted.org/packages/30/81/cfcedcafa79318962578f8f87f1a2186bc8f889566c9678d7e72a613248a/simplification-0.6.6.tar.gz
+[2023-04-24 11:41:16] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-24 11:41:16] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev3.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev4.tar.gz --markdown 20230424/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev3-0.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-24 11:41:16] INFO root fetch - processPackages [image-augs]: Downloading https://files.pythonhosted.org/packages/d5/59/41dd97800f8c270ad2c1baf54e31269210c8f16500d2913e71d5ff1044e0/image_augs-2.1.6.tar.gz
+[2023-04-24 11:41:16] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/64/41/09457508b6f1340a36c69cce4a73022cd2d1e2986e250433d16358c565b2/obpgenerator-0.0.19.tar.gz
+[2023-04-24 11:41:16] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-24 11:41:16] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230424/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-24 11:41:16] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/07/14/0785aa70c17feac28f282637dd72d9930535c963fe899952386fc4a6a025/pyecotrend-ista-2.0.5.tar.gz
+[2023-04-24 11:41:16] WARNING root fetch - processPackages [django-htmx-ui-adminlte]: Skipping package: exceeds size limit 21357890>=10485760
+[2023-04-24 11:41:16] INFO root fetch - processPackages [django-htmx-ui-adminlte]: Start processing: authup
+[2023-04-24 11:41:16] INFO root fetch - main [MainThread]: End processing [django-htmx-ui-adminlte] error
+[2023-04-24 11:41:17] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/e3/92/bb9c6f455877f4d7bac1a0e003a043584bae657a0e1a87185c0a061f57ff/ibl-neuropixel-0.5.3.tar.gz
+[2023-04-24 11:41:17] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d1/14/615660cf710269b43b38d95220408d5c59623093312d6a79893bcc925869/modal_client-0.49.2015-py3-none-any.whl
+[2023-04-24 11:41:17] INFO root fetch - processPackages [obpgenerator]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [obpgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obpgenerator-0.0.18.tar.gz tmp/obpgenerator-0.0.19.tar.gz --markdown 20230424/o/obpgenerator/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [image-augs]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [image-augs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_augs-2.1.5.tar.gz tmp/image_augs-2.1.6.tar.gz --markdown 20230424/i/image-augs/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [authup]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-24 11:41:17] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.4.tar.gz tmp/pyecotrend-ista-2.0.5.tar.gz --markdown 20230424/p/pyecotrend-ista/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/37/ad/16c28b55ccc9633c9bd5ebf5aed22e3644c29cfce6626ecf7970243c7adb/inference_client-0.0.2rc1.tar.gz
+[2023-04-24 11:41:17] INFO root fetch - processPackages [ibl-neuropixel]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [ibl-neuropixel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibl-neuropixel-0.5.2.tar.gz tmp/ibl-neuropixel-0.5.3.tar.gz --markdown 20230424/i/ibl-neuropixel/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2010-py3-none-any.whl.zip tmp/modal_client-0.49.2015-py3-none-any.whl.zip --markdown 20230424/m/modal-client/0.49.2010-0.49.2015/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [inference-client]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [inference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_client-0.0.2.tar.gz tmp/inference_client-0.0.2rc1.tar.gz --markdown 20230424/i/inference-client/0.0.2-0.0.2rc1/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [authup]: Downloading https://files.pythonhosted.org/packages/c0/b5/f0afd88a9234c2f5674dde12e1c5b1c2f5707cbecb41bdc2f3d92f3141e5/authup-0.5.0.tar.gz
+[2023-04-24 11:41:17] INFO root fetch - processPackages [simplification]: Downloading https://files.pythonhosted.org/packages/3b/ed/292be02012d33ccd64b71653bb7e302bac7305092e1df7605bd8e8d4328a/simplification-0.6.7.tar.gz
+[2023-04-24 11:41:17] INFO root fetch - processPackages [authup]: Downloading https://files.pythonhosted.org/packages/c7/b0/c6d39b938ae4ef0bf3287260ca983d45b1cc002f60504e3b9e8c25c8f1d6/authup-0.5.1.tar.gz
+[2023-04-24 11:41:17] INFO root fetch - processPackages [simplification]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [simplification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplification-0.6.6.tar.gz tmp/simplification-0.6.7.tar.gz --markdown 20230424/s/simplification/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-04-24 11:41:17] INFO root fetch - processPackages [authup]: executing diffoscope
+[2023-04-24 11:41:17] INFO root fetch - processPackages [authup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authup-0.5.0.tar.gz tmp/authup-0.5.1.tar.gz --markdown 20230424/a/authup/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-24 11:41:18] INFO root fetch - processPackages [bridgecrew]: Start processing: cg
+[2023-04-24 11:41:18] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-24 11:41:18] INFO root fetch - processPackages [cg]: New version: [29.2.0] Old Version: [29.1.7]
+[2023-04-24 11:41:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 11:41:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.7.tar.gz tmp/cg-29.2.0.tar.gz --markdown 20230424/c/cg/29.1.7-29.2.0/diff.md --exclude *.pyd
+[2023-04-24 11:41:18] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: Start processing: schnetpack
+[2023-04-24 11:41:18] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-24 11:41:18] INFO root fetch - main [MainThread]: End processing [obpgenerator]: success
+[2023-04-24 11:41:18] INFO root fetch - processPackages [schnetpack]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-24 11:41:18] INFO root fetch - main [MainThread]: End processing [inference-client]: success
+[2023-04-24 11:41:18] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-24 11:41:18] INFO root fetch - processPackages [schnetpack]: Downloading https://files.pythonhosted.org/packages/48/42/2a8d90b56317fe12f0faa0975850b259a7bb5600aa936dfe9815319cd94e/schnetpack-2.0.1.tar.gz
+[2023-04-24 11:41:19] INFO root fetch - processPackages [schnetpack]: Downloading https://files.pythonhosted.org/packages/ea/3f/adb428b4fd862d2d28ffa33949860dffbe9d9329d730f7cf7f8a9a502435/schnetpack-2.0.2.tar.gz
+[2023-04-24 11:41:19] INFO root fetch - main [MainThread]: End processing [image-augs]: success
+[2023-04-24 11:41:19] INFO root fetch - main [MainThread]: End processing [authup]: success
+[2023-04-24 11:41:19] INFO root fetch - main [MainThread]: End processing [ibl-neuropixel]: success
+[2023-04-24 11:41:19] INFO root fetch - processPackages [schnetpack]: executing diffoscope
+[2023-04-24 11:41:19] INFO root fetch - processPackages [schnetpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schnetpack-2.0.1.tar.gz tmp/schnetpack-2.0.2.tar.gz --markdown 20230424/s/schnetpack/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 11:41:19] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-24 11:41:21] INFO root fetch - main [MainThread]: End processing [schnetpack]: success
+[2023-04-24 11:41:21] INFO root fetch - main [MainThread]: End processing [simplification]: success
+[2023-04-24 11:41:31] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 11:41:31] INFO root fetch - main [MainThread]: Store serial: [17831690]
