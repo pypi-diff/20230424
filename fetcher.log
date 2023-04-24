@@ -19395,3 +19395,55 @@
 [2023-04-24 19:47:36] INFO root fetch - main [MainThread]: End processing [uplc]: success
 [2023-04-24 19:47:37] INFO root fetch - main [MainThread]: End processing [rustplus]: success
 [2023-04-24 19:47:37] INFO root fetch - main [MainThread]: Store serial: [17837492]
+[2023-04-24 19:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837492]
+[2023-04-24 19:52:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domino-py
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preemo-worker-sdk
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyshap
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyshap
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_lamin1
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdstk
+[2023-04-24 19:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-norwaycitybikeapi
+[2023-04-24 19:52:46] INFO root fetch - processPackages [tinyshap]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-24 19:52:46] INFO root fetch - processPackages [gdstk]: New version: [0.9.39] Old Version: [0.9.38]
+[2023-04-24 19:52:46] INFO root fetch - processPackages [lnschema_lamin1]: New version: [0.16.0] Old Version: [0.15.1]
+[2023-04-24 19:52:46] INFO root fetch - processPackages [preemo-worker-sdk]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-24 19:52:46] INFO root fetch - processPackages [domino-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 19:52:46] INFO root fetch - processPackages [tinyshap]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-24 19:52:46] WARNING root fetch - processPackages [tap-norwaycitybikeapi]: Skipping, unable to determine old version
+[2023-04-24 19:52:46] INFO root fetch - main [MainThread]: End processing [tap-norwaycitybikeapi] error
+[2023-04-24 19:52:46] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 19:52:46] INFO root fetch - processPackages [tinyshap]: Downloading https://files.pythonhosted.org/packages/d1/4d/b91194aadd2d58a6d6dae69f8c7c28b4ffb43e033f1831c96eeba6411e4d/tinyshap-0.0.0.tar.gz
+[2023-04-24 19:52:46] INFO root fetch - processPackages [tinyshap]: Downloading https://files.pythonhosted.org/packages/d1/4d/b91194aadd2d58a6d6dae69f8c7c28b4ffb43e033f1831c96eeba6411e4d/tinyshap-0.0.0.tar.gz
+[2023-04-24 19:52:46] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/c0/7f/69df26015654d1297c50f429d40bb44b2aaf71826bab39c23e3d1e132a6d/domino-py-0.1.5.tar.gz
+[2023-04-24 19:52:46] INFO root fetch - processPackages [gdstk]: Downloading https://files.pythonhosted.org/packages/3d/73/f78c808e4f404f8fc9621c1843ce6e77b06a25cea8771604819d6f85c34f/gdstk-0.9.39.tar.gz
+[2023-04-24 19:52:46] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/87/e7/b922373e639eff7a344e8c813d46954aea43ffae8e37c852cfdfa9ba25e2/preemo_worker_sdk-0.4.1.tar.gz
+[2023-04-24 19:52:46] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-04-24 19:52:47] INFO root fetch - processPackages [lnschema_lamin1]: Downloading https://files.pythonhosted.org/packages/97/79/faf74a5e457c0b1d339a49d883ed18aa938921363bfba97abbee446f50b7/lnschema_lamin1-0.16.0.tar.gz
+[2023-04-24 19:52:47] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.4.tar.gz tmp/domino-py-0.1.5.tar.gz --markdown 20230424/d/domino-py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 19:52:47] INFO root fetch - processPackages [tinyshap]: Downloading https://files.pythonhosted.org/packages/81/c2/d2d6a84d3c49e9a063f384134e417c240d4a7c0b2fa99e222aafd004ee0d/tinyshap-0.0.1.tar.gz
+[2023-04-24 19:52:47] INFO root fetch - processPackages [tinyshap]: Downloading https://files.pythonhosted.org/packages/81/c2/d2d6a84d3c49e9a063f384134e417c240d4a7c0b2fa99e222aafd004ee0d/tinyshap-0.0.1.tar.gz
+[2023-04-24 19:52:47] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-04-24 19:52:47] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/bc/71/475477ec233153d8941ad0c24cb792122a26696c93c5265c1b797ef6e1e2/preemo_worker_sdk-0.4.2.tar.gz
+[2023-04-24 19:52:47] INFO root fetch - processPackages [lnschema_lamin1]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [lnschema_lamin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_lamin1-0.15.1.tar.gz tmp/lnschema_lamin1-0.16.0.tar.gz --markdown 20230424/l/lnschema_lamin1/0.15.1-0.16.0/diff.md --exclude *.pyd
+[2023-04-24 19:52:47] INFO root fetch - processPackages [gdstk]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [gdstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdstk-0.9.38.tar.gz tmp/gdstk-0.9.39.tar.gz --markdown 20230424/g/gdstk/0.9.38-0.9.39/diff.md --exclude *.pyd
+[2023-04-24 19:52:47] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230424/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 19:52:47] INFO root fetch - processPackages [tinyshap]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [tinyshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyshap-0.0.0.tar.gz tmp/tinyshap-0.0.1.tar.gz --markdown 20230424/t/tinyshap/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-24 19:52:47] INFO root fetch - processPackages [tinyshap]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [tinyshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyshap-0.0.0.tar.gz tmp/tinyshap-0.0.1.tar.gz --markdown 20230424/t/tinyshap/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-24 19:52:47] INFO root fetch - processPackages [preemo-worker-sdk]: executing diffoscope
+[2023-04-24 19:52:47] INFO root fetch - processPackages [preemo-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preemo_worker_sdk-0.4.1.tar.gz tmp/preemo_worker_sdk-0.4.2.tar.gz --markdown 20230424/p/preemo-worker-sdk/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [tinyshap]: success
+[2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [lnschema_lamin1]: success
+[2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [tinyshap]: success
+[2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [preemo-worker-sdk]: success
+[2023-04-24 19:52:49] INFO root fetch - main [MainThread]: End processing [gdstk]: success
+[2023-04-24 19:52:49] INFO root fetch - main [MainThread]: Store serial: [17837545]
