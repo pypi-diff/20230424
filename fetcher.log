@@ -6048,3 +6048,70 @@
 [2023-04-24 08:46:38] INFO root fetch - main [MainThread]: End processing [kiln-connect]: success
 [2023-04-24 08:46:39] INFO root fetch - main [MainThread]: End processing [hikari-tanjun]: success
 [2023-04-24 08:46:39] INFO root fetch - main [MainThread]: Store serial: [17829767]
+[2023-04-24 08:51:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829767]
+[2023-04-24 08:51:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CoBaIR
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyquora
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rbcl
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepthulac
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nakuru-project-idk
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ffmpeg-normalize
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-shiftbase
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: panda-server
+[2023-04-24 08:51:48] INFO root fetch - processPackages [pyquora]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [CoBaIR]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [nakuru-project-idk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [deepthulac]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [tap-shiftbase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [rbcl]: New version: [1.0.0] Old Version: [0.4.6]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ffmpeg-normalize]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [seven-cloudapp]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [kcli]: New version: [99.0.202304240650] Old Version: [99.0.202304232124]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [panda-server]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-04-24 08:51:48] INFO root fetch - processPackages [nakuru-project-idk]: Downloading https://files.pythonhosted.org/packages/b0/5a/4638d19471431b8a9919eb7cf23e18556b1c50ccef2dc0ae8208cb212eff/nakuru_project_idk-0.0.1.tar.gz
+[2023-04-24 08:51:48] INFO root fetch - processPackages [CoBaIR]: Downloading https://files.pythonhosted.org/packages/a7/ff/84d2a3bfca8091ae4e2317c05521ec7a389a51b57f431db2c307283181cf/CoBaIR-2.1.0.tar.gz
+[2023-04-24 08:51:48] INFO root fetch - processPackages [deepthulac]: Downloading https://files.pythonhosted.org/packages/05/c5/f00222b9f20e199650f474fc453c2bc371f152d6069093eea93506545459/deepthulac-0.0.7.tar.gz
+[2023-04-24 08:51:48] INFO root fetch - processPackages [pyquora]: Downloading https://files.pythonhosted.org/packages/13/ad/2e15d5693557e799892a4e64435302981728f11f36ba5dac59ce7353df7d/pyquora-0.4.3.tar.gz
+[2023-04-24 08:51:48] INFO root fetch - processPackages [rbcl]: Downloading https://files.pythonhosted.org/packages/f7/b8/7aa28944d43af81d8ad410feb78c3bb8fcea663af2bb982cd4b268491504/rbcl-0.4.6-cp39-abi3-win32.whl
+[2023-04-24 08:51:48] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/46/a6/ff7cf43c9204b46ac419f225e1c4026e531365cf5e9020bd0ec409a7d6d1/kcli-99.0.202304240650-py3-none-any.whl
+[2023-04-24 08:51:48] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/bb/71/48b153037de3b8679bcbd621aff3af9f5f612b99fb9a8481515bbc2eba59/ffmpeg-normalize-1.3.7.tar.gz
+[2023-04-24 08:51:48] INFO root fetch - processPackages [seven-cloudapp]: Downloading https://files.pythonhosted.org/packages/11/cd/204e5dc922a956fdc22247cdebae035363755c6a7446f5dafd5378038200/seven_cloudapp-1.0.98.tar.gz
+[2023-04-24 08:51:48] INFO root fetch - processPackages [tap-shiftbase]: executing diffoscope
+[2023-04-24 08:51:48] INFO root fetch - processPackages [tap-shiftbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_shiftbase-0.0.8.tar.gz tmp/tap_shiftbase-0.0.9.tar.gz --markdown 20230424/t/tap-shiftbase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [pyquora]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [pyquora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquora-0.4.2.tar.gz tmp/pyquora-0.4.3.tar.gz --markdown 20230424/p/pyquora/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [deepthulac]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/eb/76/62d580106d42cc3c7cbe8f4294441a355633adc8780bbea05b7621f46982/panda-server-0.0.52.tar.gz
+[2023-04-24 08:51:49] INFO root fetch - processPackages [deepthulac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepthulac-0.0.6.tar.gz tmp/deepthulac-0.0.7.tar.gz --markdown 20230424/d/deepthulac/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [CoBaIR]: Downloading https://files.pythonhosted.org/packages/cb/15/2890df07119ed79ee47b0e959b920a48316a88b7bd8552c126ed7d3ff877/CoBaIR-3.0.0.tar.gz
+[2023-04-24 08:51:49] INFO root fetch - processPackages [nakuru-project-idk]: Downloading https://files.pythonhosted.org/packages/40/bb/e87c881c0097e2b541d901455f2ddb289e0899b0aa0ea3f39747573790aa/nakuru_project_idk-0.0.2.tar.gz
+[2023-04-24 08:51:49] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304232124-py3-none-any.whl.zip tmp/kcli-99.0.202304240650-py3-none-any.whl.zip --markdown 20230424/k/kcli/99.0.202304232124-99.0.202304240650/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [rbcl]: Downloading https://files.pythonhosted.org/packages/2c/49/5f40ddd743d12844c67fd3366ac2cfbe81112cb56a0cb49b3fda40c0aa11/rbcl-1.0.0-cp37-abi3-macosx_10_9_x86_64.whl
+[2023-04-24 08:51:49] INFO root fetch - processPackages [CoBaIR]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [CoBaIR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoBaIR-2.1.0.tar.gz tmp/CoBaIR-3.0.0.tar.gz --markdown 20230424/C/CoBaIR/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-server-0.0.51.tar.gz tmp/panda-server-0.0.52.tar.gz --markdown 20230424/p/panda-server/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [nakuru-project-idk]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [nakuru-project-idk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakuru_project_idk-0.0.1.tar.gz tmp/nakuru_project_idk-0.0.2.tar.gz --markdown 20230424/n/nakuru-project-idk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [rbcl]: executing diffoscope
+[2023-04-24 08:51:49] INFO root fetch - processPackages [rbcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbcl-0.4.6-cp39-abi3-win32.whl.zip tmp/rbcl-1.0.0-cp37-abi3-macosx_10_9_x86_64.whl.zip --markdown 20230424/r/rbcl/0.4.6-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 08:51:49] INFO root fetch - processPackages [seven-cloudapp]: Downloading https://files.pythonhosted.org/packages/8b/6f/c310d61fbdac55236c71290229ee9cf615d7df1928c32089ec9df5e3a305/seven_cloudapp-1.0.99.tar.gz
+[2023-04-24 08:51:49] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/0f/5d/62e02c888cbe0b4671665346020f8acc68313e0c0c87002593547fcee1d7/ffmpeg-normalize-1.3.8.tar.gz
+[2023-04-24 08:51:50] INFO root fetch - processPackages [seven-cloudapp]: executing diffoscope
+[2023-04-24 08:51:50] INFO root fetch - processPackages [seven-cloudapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp-1.0.98.tar.gz tmp/seven_cloudapp-1.0.99.tar.gz --markdown 20230424/s/seven-cloudapp/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-24 08:51:50] INFO root fetch - processPackages [ffmpeg-normalize]: executing diffoscope
+[2023-04-24 08:51:50] INFO root fetch - processPackages [ffmpeg-normalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-normalize-1.3.7.tar.gz tmp/ffmpeg-normalize-1.3.8.tar.gz --markdown 20230424/f/ffmpeg-normalize/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-04-24 08:51:50] INFO root fetch - main [MainThread]: End processing [tap-shiftbase]: success
+[2023-04-24 08:51:50] INFO root fetch - main [MainThread]: End processing [pyquora]: success
+[2023-04-24 08:51:50] INFO root fetch - main [MainThread]: End processing [deepthulac]: success
+[2023-04-24 08:51:51] INFO root fetch - main [MainThread]: End processing [CoBaIR]: success
+[2023-04-24 08:51:51] INFO root fetch - main [MainThread]: End processing [seven-cloudapp]: success
+[2023-04-24 08:51:52] INFO root fetch - main [MainThread]: End processing [nakuru-project-idk]: success
+[2023-04-24 08:51:53] INFO root fetch - main [MainThread]: End processing [rbcl]: success
+[2023-04-24 08:51:54] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2023-04-24 08:51:56] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
+[2023-04-24 08:51:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-24 08:51:57] INFO root fetch - main [MainThread]: Store serial: [17829807]
