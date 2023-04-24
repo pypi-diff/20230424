@@ -20102,3 +20102,75 @@
 [2023-04-24 20:28:49] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
 [2023-04-24 20:28:49] INFO root fetch - main [MainThread]: End processing [bacteria]: success
 [2023-04-24 20:28:49] INFO root fetch - main [MainThread]: Store serial: [17837931]
+[2023-04-24 20:33:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837931]
+[2023-04-24 20:33:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satcfdi
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-fabric
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sharingiscaring
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynecone-debounce-input
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upathlib
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylint
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quinten-cli
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syncqb
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whispercppy
+[2023-04-24 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rectipy
+[2023-04-24 20:33:58] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.5.1]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [pynecone-debounce-input]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [pylint]: New version: [3.0.0a6] Old Version: [3.0.0a5]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [syncqb]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [rectipy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [quinten-cli]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-24 20:33:58] WARNING root fetch - processPackages [whispercppy]: Skipping, unable to determine old version
+[2023-04-24 20:33:58] INFO root fetch - processPackages [whispercppy]: Start processing: bacteria
+[2023-04-24 20:33:58] INFO root fetch - main [MainThread]: End processing [whispercppy] error
+[2023-04-24 20:33:58] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [upathlib]: New version: [0.7.9] Old Version: [0.7.8b3]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [bacteria]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 20:33:58] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-24 20:33:58] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.1.2.tar.gz tmp/bacteria-0.1.3.tar.gz --markdown 20230424/b/bacteria/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 20:33:58] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-24 20:33:58] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230424/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 20:33:58] INFO root fetch - processPackages [pynecone-debounce-input]: Downloading https://files.pythonhosted.org/packages/0a/e7/7ca4369185265d210ffe013d6bd16f3cb70de131280e6b1fe010c4754b93/pynecone-debounce-input-0.1.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/3f/74/1468d3f6489c0bf359644f8138336da68b52ef0d8b9632273ff1b734c41b/syncqb-1.0.3.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/e2/d6/375edaf0658a821ca84c3272ee9e2db8ab7f91cb99562b3606904078ee0b/satcfdi-4.0.8.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/57/33/365b768fac1eef78717268399338ca77ca663201b4856747d5604fa5223f/pylint-3.0.0a5.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [rectipy]: Downloading https://files.pythonhosted.org/packages/6a/99/c98c56ee168d95301c5164aadc002817e6aaa5fbbf92907cb461e707e0c7/rectipy-0.9.2.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/43/2d/ea1910fa4bdc447dcc6ca95352e531aea631321d699f661e3d5267526488/text_fabric-9.5.1-py3-none-any.whl
+[2023-04-24 20:33:58] INFO root fetch - processPackages [quinten-cli]: Downloading https://files.pythonhosted.org/packages/69/bc/223964da656dab49019553ac5a346d29618e60eae8f12ee5363ebcc7fd8d/quinten_cli-1.1.2-py3-none-any.whl
+[2023-04-24 20:33:58] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/d2/83/c16f36206e73cfb86651702804d5af42a8c00c86502e21fded02ed037b08/upathlib-0.7.8b3.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/7c/c8/f5871a6c9a5fc4a7178cf7b73f036c62c19b73bc7a62ff34ba50206d6ee1/syncqb-1.0.4.tar.gz
+[2023-04-24 20:33:58] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/fc/e0/072cd5024732ec875bfc1b5b513af18f1a376bc5c0aa828ae09f27dcffcf/upathlib-0.7.9.tar.gz
+[2023-04-24 20:33:59] INFO root fetch - processPackages [pynecone-debounce-input]: Downloading https://files.pythonhosted.org/packages/4d/16/97d215c7b01dd150565c827f1489658c6632cf87efa05cb8c97d05607c57/pynecone-debounce-input-0.2.tar.gz
+[2023-04-24 20:33:59] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/20/31/ffc0f63a97279204f37f1723d34fc81e32e28ea38e0c37f59e3ee9575e14/pylint-3.0.0a6.tar.gz
+[2023-04-24 20:33:59] INFO root fetch - processPackages [rectipy]: Downloading https://files.pythonhosted.org/packages/24/72/f4cc3145eeda1074dc5522049797f8d0b04270440b776f6051053fff28fc/rectipy-0.9.3.tar.gz
+[2023-04-24 20:33:59] INFO root fetch - processPackages [quinten-cli]: Downloading https://files.pythonhosted.org/packages/4c/d5/69ddb30fe0edcc0e5b391c22a9b48c35dd661a44f53b1154631618c327ad/quinten-cli-1.1.3.tar.gz
+[2023-04-24 20:33:59] INFO root fetch - processPackages [syncqb]: executing diffoscope
+[2023-04-24 20:33:59] INFO root fetch - processPackages [syncqb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncqb-1.0.3.tar.gz tmp/syncqb-1.0.4.tar.gz --markdown 20230424/s/syncqb/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-24 20:33:59] INFO root fetch - processPackages [rectipy]: executing diffoscope
+[2023-04-24 20:33:59] INFO root fetch - processPackages [rectipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rectipy-0.9.2.tar.gz tmp/rectipy-0.9.3.tar.gz --markdown 20230424/r/rectipy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 20:33:59] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-04-24 20:33:59] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.7.8b3.tar.gz tmp/upathlib-0.7.9.tar.gz --markdown 20230424/u/upathlib/0.7.8b3-0.7.9/diff.md --exclude *.pyd
+[2023-04-24 20:33:59] INFO root fetch - processPackages [pylint]: executing diffoscope
+[2023-04-24 20:33:59] INFO root fetch - processPackages [pylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint-3.0.0a5.tar.gz tmp/pylint-3.0.0a6.tar.gz --markdown 20230424/p/pylint/3.0.0a5-3.0.0a6/diff.md --exclude *.pyd
+[2023-04-24 20:33:59] INFO root fetch - processPackages [pynecone-debounce-input]: executing diffoscope
+[2023-04-24 20:33:59] INFO root fetch - processPackages [pynecone-debounce-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-debounce-input-0.1.tar.gz tmp/pynecone-debounce-input-0.2.tar.gz --markdown 20230424/p/pynecone-debounce-input/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 20:33:59] INFO root fetch - processPackages [quinten-cli]: executing diffoscope
+[2023-04-24 20:33:59] INFO root fetch - processPackages [quinten-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quinten_cli-1.1.2-py3-none-any.whl.zip tmp/quinten-cli-1.1.3.tar.gz --markdown 20230424/q/quinten-cli/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-24 20:33:59] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-24 20:34:00] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/be/13/8394d3dd0f36b7eeb02321c07bd92764b9d1f283649098cbbe0d1ceb0b77/satcfdi-4.0.9.tar.gz
+[2023-04-24 20:34:00] INFO root fetch - main [MainThread]: End processing [syncqb]: success
+[2023-04-24 20:34:00] INFO root fetch - main [MainThread]: End processing [quinten-cli]: success
+[2023-04-24 20:34:00] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-24 20:34:00] INFO root fetch - main [MainThread]: End processing [rectipy]: success
+[2023-04-24 20:34:00] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-04-24 20:34:00] INFO root fetch - main [MainThread]: End processing [pynecone-debounce-input]: success
+[2023-04-24 20:34:01] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-04-24 20:34:01] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-04-24 20:34:01] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230424/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-24 20:34:03] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-04-24 20:34:03] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.5.1-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230424/t/text-fabric/9.5.1-9.5.2/diff.md --exclude *.pyd
+[2023-04-24 20:34:03] INFO root fetch - main [MainThread]: End processing [pylint]: success
+[2023-04-24 20:34:06] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-04-24 20:34:06] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-04-24 20:34:06] INFO root fetch - main [MainThread]: Store serial: [17837986]
