@@ -11515,3 +11515,116 @@
 [2023-04-24 13:47:29] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
 [2023-04-24 13:47:31] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-04-24 13:47:31] INFO root fetch - main [MainThread]: Store serial: [17832983]
+[2023-04-24 13:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832983]
+[2023-04-24 13:52:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datagen-protocol-core
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeuralBasics
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datagen-protocol-functional
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datagen-validation-protocol
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyzotero
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panda-client
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xtest-sapnwrfc
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parrot-olympe
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyorder
+[2023-04-24 13:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pddl-plus-parser
+[2023-04-24 13:52:39] INFO root fetch - processPackages [datagen-protocol-core]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [datagen-validation-protocol]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-24 13:52:39] WARNING root fetch - processPackages [NeuralBasics]: Skipping, unable to determine old version
+[2023-04-24 13:52:39] INFO root fetch - processPackages [NeuralBasics]: Start processing: auraboros
+[2023-04-24 13:52:39] INFO root fetch - main [MainThread]: End processing [NeuralBasics] error
+[2023-04-24 13:52:39] WARNING root fetch - processPackages [xtest-sapnwrfc]: Skipping, unable to determine old version
+[2023-04-24 13:52:39] INFO root fetch - processPackages [pyzotero]: New version: [1.5.9] Old Version: [1.5.5]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [xtest-sapnwrfc]: Start processing: microscopy-portfolio
+[2023-04-24 13:52:39] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc] error
+[2023-04-24 13:52:39] INFO root fetch - processPackages [parrot-olympe]: New version: [7.6.1] Old Version: [7.6.0rc1]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [datagen-protocol-functional]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [microscopy-portfolio]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 13:52:39] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 13:52:39] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/73/e7/1ffbff7f1f243699f2a7cd2ace260907e7e5c1149d4c4f05639125d4887c/datagen_validation_protocol-0.8.3.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/57/59/4ebf774c106dcbc6271c9a2652fbee9da94442550053ee65c293393490a5/datagen_protocol_core-0.8.3.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pyzotero]: Downloading https://files.pythonhosted.org/packages/ae/ab/1c05b69a9054d47fdffae50307bd2b946fb65f526b8cdd8a0643fe50b0fc/pyzotero-1.5.5.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [auraboros]: Downloading https://files.pythonhosted.org/packages/26/c6/fdb1e26e6869e20c65f9d2d4fd966a9f257d9d2d0774194db28fb2f66242/auraboros-0.8.0a0.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/73/cf/d72a66b042acdd5ce2d20ac72a57d6124200bdf5b8e1b6b0585cde8d7aa7/datagen_protocol_functional-0.8.3.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/20/89/41813c795acd59ce06d054b588353c8c6c368b379b1bc9dea71d8ead9085/pddl-plus-parser-3.3.2.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [parrot-olympe]: Downloading https://files.pythonhosted.org/packages/5d/5d/09767b4c8b9fc4cf00f1007376128a7d584cfba46a09343fad61dbac5540/parrot_olympe-7.6.0rc1-py3-none-manylinux_2_27_x86_64.whl
+[2023-04-24 13:52:40] INFO root fetch - processPackages [microscopy-portfolio]: Downloading https://files.pythonhosted.org/packages/8f/2e/e583c9c4d015dd416c3b989b016a1ebf084099bb620a0d369268dae38898/microscopy_portfolio-0.0.5.tar.gz
+[2023-04-24 13:52:40] WARNING root fetch - processPackages [parrot-olympe]: Skipping package: exceeds size limit 16086836>=10485760
+[2023-04-24 13:52:40] INFO root fetch - processPackages [parrot-olympe]: Start processing: mammopy
+[2023-04-24 13:52:40] INFO root fetch - main [MainThread]: End processing [parrot-olympe] error
+[2023-04-24 13:52:40] INFO root fetch - processPackages [mammopy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pyzotero]: Downloading https://files.pythonhosted.org/packages/69/43/645f0e8849f78bbc82db87c0edd90478470f24c2e45694c5c4a44bbfc727/pyzotero-1.5.9.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [microscopy-portfolio]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [microscopy-portfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microscopy_portfolio-0.0.4.tar.gz tmp/microscopy_portfolio-0.0.5.tar.gz --markdown 20230424/m/microscopy-portfolio/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/d7/89/f98919f04eac9e74ba9b21b9991f8f2c69191f02cfa8b79df2b96ebaff65/pddl-plus-parser-3.3.3.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/43/94/0d069cac7f9b7e0f430c6f1ddd8e7af9e56e43aa6cab0054e71e9b067dc8/datagen_validation_protocol-0.9.0.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/39/74/f7713c45abf230a8f0db23c6c02f5d5d0b5203573afa931ed6d67228a510/datagen_protocol_core-0.9.0.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/3e/52/fdba1e8d2d19879e3ab38685476d5b3a3dfca41ba6b919505acc733cfe8c/datagen_protocol_functional-0.9.0.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/1b/3a/4c5c2bf783d759c15268b87438389f481abd97bd2bd1b5ee54476e6848b0/mammopy-0.0.3.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-validation-protocol]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-validation-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_validation_protocol-0.8.3.tar.gz tmp/datagen_validation_protocol-0.9.0.tar.gz --markdown 20230424/d/datagen-validation-protocol/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pyzotero]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pyzotero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzotero-1.5.5.tar.gz tmp/pyzotero-1.5.9.tar.gz --markdown 20230424/p/pyzotero/1.5.5-1.5.9/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-core]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_core-0.8.3.tar.gz tmp/datagen_protocol_core-0.9.0.tar.gz --markdown 20230424/d/datagen-protocol-core/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.3.2.tar.gz tmp/pddl-plus-parser-3.3.3.tar.gz --markdown 20230424/p/pddl-plus-parser/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-functional]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [datagen-protocol-functional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_functional-0.8.3.tar.gz tmp/datagen_protocol_functional-0.9.0.tar.gz --markdown 20230424/d/datagen-protocol-functional/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.2.tar.gz tmp/mammopy-0.0.3.tar.gz --markdown 20230424/m/mammopy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 13:52:40] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-04-24 13:52:40] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230424/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-24 13:52:41] INFO root fetch - processPackages [findmyorder]: Start processing: shared-atomic-enterprise
+[2023-04-24 13:52:41] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 13:52:41] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.3] Old Version: [5!2.3.2]
+[2023-04-24 13:52:41] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/65/57/1923fc6ae0b83b5ab5fedc8e692e61d722b7ede4e327bcd31ed103596ce0/shared_atomic_enterprise-5!2.3.3-py39-none-win_amd64.whl
+[2023-04-24 13:52:41] INFO root fetch - processPackages [auraboros]: Downloading https://files.pythonhosted.org/packages/a4/20/55f4ac020696c635e7bf3f37e4d7274e1e7292f85e293a98ebc4f5dc1d8b/auraboros-0.9.0a0.tar.gz
+[2023-04-24 13:52:41] INFO root fetch - processPackages [microscopy-portfolio]: Start processing: network-service-client
+[2023-04-24 13:52:41] INFO root fetch - main [MainThread]: End processing [microscopy-portfolio]: success
+[2023-04-24 13:52:41] INFO root fetch - processPackages [network-service-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 13:52:41] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-04-24 13:52:41] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.2-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.3-py39-none-win_amd64.whl.zip --markdown 20230424/s/shared-atomic-enterprise/5!2.3.2-5!2.3.3/diff.md --exclude *.pyd
+[2023-04-24 13:52:41] INFO root fetch - processPackages [datagen-validation-protocol]: Start processing: newtgw
+[2023-04-24 13:52:41] INFO root fetch - main [MainThread]: End processing [datagen-validation-protocol]: success
+[2023-04-24 13:52:41] INFO root fetch - processPackages [newtgw]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 13:52:41] INFO root fetch - processPackages [network-service-client]: Downloading https://files.pythonhosted.org/packages/21/49/6f238c6f22507fe62268639152f0ea3434c7f14f1c8c280cc59c1baa0433/network_service_client-0.0.3.tar.gz
+[2023-04-24 13:52:42] INFO root fetch - processPackages [newtgw]: Downloading https://files.pythonhosted.org/packages/81/d4/9d60ac56ffc48197674c143ba2dee4d791b646bc076e8b6abe47d9f185ba/newtgw-0.0.3.tar.gz
+[2023-04-24 13:52:42] INFO root fetch - processPackages [network-service-client]: Downloading https://files.pythonhosted.org/packages/2f/ea/7532b0aa45ad75f23c7a983fbce6e4d45ffb342236cb0cf80cd0042f6a5b/network_service_client-0.0.4.tar.gz
+[2023-04-24 13:52:42] INFO root fetch - processPackages [pddl-plus-parser]: Start processing: torcheval-nightly
+[2023-04-24 13:52:42] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-04-24 13:52:42] INFO root fetch - processPackages [network-service-client]: executing diffoscope
+[2023-04-24 13:52:42] INFO root fetch - processPackages [network-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_service_client-0.0.3.tar.gz tmp/network_service_client-0.0.4.tar.gz --markdown 20230424/n/network-service-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 13:52:42] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-24 13:52:42] INFO root fetch - processPackages [newtgw]: Downloading https://files.pythonhosted.org/packages/3e/7e/4eb52dbd41139dc2f3b65c025fb7606806395233640ceb4ed13514cb9f39/newtgw-0.0.4.tar.gz
+[2023-04-24 13:52:42] INFO root fetch - processPackages [mammopy]: Start processing: adt-cache
+[2023-04-24 13:52:42] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-04-24 13:52:42] INFO root fetch - main [MainThread]: End processing [datagen-protocol-core]: success
+[2023-04-24 13:52:42] INFO root fetch - main [MainThread]: End processing [datagen-protocol-functional]: success
+[2023-04-24 13:52:42] INFO root fetch - processPackages [adt-cache]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 13:52:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/5d/f8/1568a132d77205881820499c5026c7c7f08af3a7c73e1f775a491d7a3ec0/torcheval-nightly-2023.4.8.tar.gz
+[2023-04-24 13:52:42] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-04-24 13:52:42] INFO root fetch - processPackages [newtgw]: executing diffoscope
+[2023-04-24 13:52:42] INFO root fetch - processPackages [newtgw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newtgw-0.0.3.tar.gz tmp/newtgw-0.0.4.tar.gz --markdown 20230424/n/newtgw/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 13:52:42] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/00/4f/b83ce1eeab1ec2a1bc41265adaf92ace305c8b97089199228ef5dcdea181/adt_cache-0.0.4.tar.gz
+[2023-04-24 13:52:42] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-04-24 13:52:42] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.3.tar.gz tmp/adt_cache-0.0.4.tar.gz --markdown 20230424/a/adt-cache/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 13:52:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/44/be/a283c44aa9eaf91ce683ac99ff1b1502b0cf7fa92f7870fd6d2bf0e67607/torcheval-nightly-2023.4.9.tar.gz
+[2023-04-24 13:52:43] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-24 13:52:43] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230424/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-24 13:52:43] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-24 13:52:43] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230424/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-24 13:52:43] INFO root fetch - main [MainThread]: End processing [network-service-client]: success
+[2023-04-24 13:52:43] INFO root fetch - main [MainThread]: End processing [newtgw]: success
+[2023-04-24 13:52:43] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-04-24 13:52:44] INFO root fetch - main [MainThread]: End processing [pyzotero]: success
+[2023-04-24 13:52:44] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-24 13:52:45] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-24 13:52:55] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-04-24 13:52:55] INFO root fetch - main [MainThread]: Store serial: [17833048]
