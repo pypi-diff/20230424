@@ -8212,3 +8212,128 @@
 [2023-04-24 10:55:48] INFO root fetch - main [MainThread]: End processing [dvclive]: success
 [2023-04-24 10:58:00] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-04-24 10:58:00] INFO root fetch - main [MainThread]: Store serial: [17831042]
+[2023-04-24 11:03:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831042]
+[2023-04-24 11:03:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MCSimPython
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifastapi
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quasardb
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyecotrend-ista
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantplay
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: system-superset-driver
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rubrical
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scrape-schema
+[2023-04-24 11:03:10] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230424085645] Old Version: [2.0.3.dev20230424072040]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [MCSimPython]: New version: [0.1.1] Old Version: [0.0.14]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [rubrical]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [scrape-schema]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ifastapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [cg]: New version: [29.2.0] Old Version: [29.1.7]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [quasardb]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-04-24 11:03:10] INFO root fetch - processPackages [MCSimPython]: Downloading https://files.pythonhosted.org/packages/6d/ae/c09f2ada704b7dd4c07ad75c84855005c5189574bb2f16113540b10ca64d/MCSimPython-0.0.14.tar.gz
+[2023-04-24 11:03:10] INFO root fetch - processPackages [ifastapi]: Downloading https://files.pythonhosted.org/packages/e6/cf/0202a6580b993845b725f56c7e72f7cd2df3903d5b424610e2daf8dab275/ifastapi-0.0.2.tar.gz
+[2023-04-24 11:03:10] INFO root fetch - processPackages [rubrical]: Downloading https://files.pythonhosted.org/packages/d7/d2/c833ebf466b90bf4c1f8e778684c76b0e1b4373eb1e2d7753b3f3f58b35b/rubrical-0.2.1.tar.gz
+[2023-04-24 11:03:10] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/89/4c/a131b1b1fb216919e8f1a255ba0ac0e909b24ae1ecbe14fee3e76a8c71e8/cg-29.2.0.tar.gz
+[2023-04-24 11:03:10] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/2b/27/6908932dfc5b38c406a5f1e3c997806abbb6f2038852ed579b6795dd92cf/scrape_schema-0.0.7.tar.gz
+[2023-04-24 11:03:10] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 11:03:10] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.8.tar.gz tmp/system_superset_driver-0.0.9.tar.gz --markdown 20230424/s/system-superset-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/31/71/88ed0a357b02664a45bf4e8d4ed6957f4b3696ef407374f75733f2eadb08/localstack-core-2.0.3.dev20230424085645.tar.gz
+[2023-04-24 11:03:10] INFO root fetch - processPackages [quasardb]: Downloading https://files.pythonhosted.org/packages/7b/45/72c43c4bb2b6e8bc95892a3d11cc8e9292744e61152b19b960b72900a681/quasardb-3.9.8.tar.gz
+[2023-04-24 11:03:11] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/41/d6/3140fafb6c479630e4aca6643fabe7355bbb25b495ed3f6d31f5a8bee4ef/pyecotrend-ista-2.0.2.tar.gz
+[2023-04-24 11:03:11] INFO root fetch - processPackages [rubrical]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [rubrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubrical-0.2.0.tar.gz tmp/rubrical-0.2.1.tar.gz --markdown 20230424/r/rubrical/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230424/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.1.tar.gz tmp/pyecotrend-ista-2.0.2.tar.gz --markdown 20230424/p/pyecotrend-ista/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [ifastapi]: Downloading https://files.pythonhosted.org/packages/8d/88/39ef3c60d5c9174a601f5b50b003b1950fa6690192f95d7e621d40965b43/ifastapi-0.0.3.tar.gz
+[2023-04-24 11:03:11] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/94/5d/a8b786937a5344d5b4d27195a03425ba6e7169d5e6dfb217b3e212d1867a/scrape_schema-0.0.8.tar.gz
+[2023-04-24 11:03:11] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230424072040.tar.gz tmp/localstack-core-2.0.3.dev20230424085645.tar.gz --markdown 20230424/l/localstack-core/2.0.3.dev20230424072040-2.0.3.dev20230424085645/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [quasardb]: Downloading https://files.pythonhosted.org/packages/2a/47/e4746447db1182e17b35ee0d1d592f35c785184c0539fe433140973428c9/quasardb-3.9.9.tar.gz
+[2023-04-24 11:03:11] INFO root fetch - processPackages [ifastapi]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [ifastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifastapi-0.0.2.tar.gz tmp/ifastapi-0.0.3.tar.gz --markdown 20230424/i/ifastapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.0.7.tar.gz tmp/scrape_schema-0.0.8.tar.gz --markdown 20230424/s/scrape-schema/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [quasardb]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [quasardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasardb-3.9.8.tar.gz tmp/quasardb-3.9.9.tar.gz --markdown 20230424/q/quasardb/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 11:03:11] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.7.tar.gz tmp/cg-29.2.0.tar.gz --markdown 20230424/c/cg/29.1.7-29.2.0/diff.md --exclude *.pyd
+[2023-04-24 11:03:11] INFO root fetch - processPackages [MCSimPython]: Downloading https://files.pythonhosted.org/packages/3d/bd/6e7ddc0875d7de8c32bfbfd08607c1536679ade23ad3cffc93e636f1bb1d/MCSimPython-0.1.1.tar.gz
+[2023-04-24 11:03:12] INFO root fetch - processPackages [system-superset-driver]: Start processing: graphql-http-server
+[2023-04-24 11:03:12] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 11:03:12] INFO root fetch - processPackages [graphql-http-server]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-24 11:03:12] INFO root fetch - processPackages [MCSimPython]: executing diffoscope
+[2023-04-24 11:03:12] INFO root fetch - processPackages [MCSimPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCSimPython-0.0.14.tar.gz tmp/MCSimPython-0.1.1.tar.gz --markdown 20230424/M/MCSimPython/0.0.14-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 11:03:12] INFO root fetch - processPackages [graphql-http-server]: Downloading https://files.pythonhosted.org/packages/ff/63/39e822769dbbca9cdc709e8e8e265c831ad0b38da84d0a73a5f951158a3d/graphql_http_server-1.4.4.tar.gz
+[2023-04-24 11:03:12] INFO root fetch - processPackages [ifastapi]: Start processing: aiha
+[2023-04-24 11:03:12] INFO root fetch - main [MainThread]: End processing [ifastapi]: success
+[2023-04-24 11:03:12] WARNING root fetch - processPackages [aiha]: Skipping, unable to determine old version
+[2023-04-24 11:03:12] INFO root fetch - processPackages [aiha]: Start processing: mynotiontools
+[2023-04-24 11:03:12] INFO root fetch - main [MainThread]: End processing [aiha] error
+[2023-04-24 11:03:12] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-24 11:03:12] INFO root fetch - processPackages [graphql-http-server]: executing diffoscope
+[2023-04-24 11:03:12] INFO root fetch - processPackages [graphql-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_http_server-1.4.3.tar.gz tmp/graphql_http_server-1.4.4.tar.gz --markdown 20230424/g/graphql-http-server/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-24 11:03:12] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: quantplay
+[2023-04-24 11:03:12] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-24 11:03:12] INFO root fetch - processPackages [mynotiontools]: Downloading https://files.pythonhosted.org/packages/98/13/e13d212d46ad4214423d4ea8f63f8515b313e0633b2cef00e79aa09885f2/mynotiontools-0.0.8.2.tar.gz
+[2023-04-24 11:03:12] INFO root fetch - processPackages [rubrical]: Start processing: valmi-connector-lib
+[2023-04-24 11:03:12] INFO root fetch - main [MainThread]: End processing [rubrical]: success
+[2023-04-24 11:03:12] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 11:03:12] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 11:03:12] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-24 11:03:12] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230424/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:13] INFO root fetch - processPackages [scrape-schema]: Start processing: bp-data-grid
+[2023-04-24 11:03:13] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-04-24 11:03:13] INFO root fetch - processPackages [bp-data-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:03:13] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-04-24 11:03:13] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-0.0.8.tar.gz tmp/bp_data_grid-0.0.9.tar.gz --markdown 20230424/b/bp-data-grid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:13] INFO root fetch - processPackages [mynotiontools]: Downloading https://files.pythonhosted.org/packages/76/ec/1e88a508d5f7fec01a34e865832e94eae00dd0f9b8ae9215bd223573b340/mynotiontools-0.0.9.tar.gz
+[2023-04-24 11:03:13] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-24 11:03:13] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230424/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:13] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-24 11:03:13] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230424/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 11:03:14] INFO root fetch - processPackages [quasardb]: Start processing: multiversx-sdk-transaction-decoder
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [quasardb]: success
+[2023-04-24 11:03:14] WARNING root fetch - processPackages [multiversx-sdk-transaction-decoder]: Skipping, unable to determine old version
+[2023-04-24 11:03:14] INFO root fetch - processPackages [multiversx-sdk-transaction-decoder]: Start processing: belt-logging
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-transaction-decoder] error
+[2023-04-24 11:03:14] WARNING root fetch - processPackages [belt-logging]: Skipping, unable to determine old version
+[2023-04-24 11:03:14] INFO root fetch - processPackages [belt-logging]: Start processing: kevin-toolbox
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [belt-logging] error
+[2023-04-24 11:03:14] INFO root fetch - processPackages [graphql-http-server]: Start processing: kevin-toolbox-dev
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [graphql-http-server]: success
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-24 11:03:14] INFO root fetch - processPackages [mynotiontools]: Start processing: madt
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/fe/0b/6764a791ee36eea873d382eaecd2226230ffe1aaa9a411483c9aacb8751c/kevin-toolbox-1.0.6.tar.gz
+[2023-04-24 11:03:14] INFO root fetch - processPackages [bp-data-grid]: Start processing: certora-cli-alpha-master
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/9c/9a/12d9d4d59e3eec6743269f4f2005ac47aead2fd3b5e9e8fcfaca76fba51d/kevin-toolbox-dev-1.0.6.tar.gz
+[2023-04-24 11:03:14] INFO root fetch - processPackages [quantplay]: Start processing: xml-api
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-24 11:03:14] WARNING root fetch - processPackages [madt]: Skipping, unable to determine old version
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [madt] error
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-24 11:03:14] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230424.9.2.727631] Old Version: [20230423.9.45.830382]
+[2023-04-24 11:03:14] ERROR root fetch - processPackages [xml-api]: Unable to get metadata: No such project 'xml-api'
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [xml-api] error
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.5.tar.gz tmp/kevin-toolbox-1.0.6.tar.gz --markdown 20230424/k/kevin-toolbox/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-04-24 11:03:14] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.5.tar.gz tmp/kevin-toolbox-dev-1.0.6.tar.gz --markdown 20230424/k/kevin-toolbox-dev/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-24 11:03:14] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/66/8c/08e87734588d8ad08caa0fa4478df2e5c101896eedfa33282288077aa92a/certora-cli-alpha-master-20230423.9.45.830382.tar.gz
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-24 11:03:14] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38069638>=10485760
+[2023-04-24 11:03:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-24 11:03:16] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-04-24 11:03:16] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-04-24 11:03:18] INFO root fetch - main [MainThread]: End processing [MCSimPython]: success
+[2023-04-24 11:03:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-24 11:03:23] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 11:03:23] INFO root fetch - main [MainThread]: Store serial: [17831194]
