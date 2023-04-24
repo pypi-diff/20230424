@@ -22686,3 +22686,86 @@
 [2023-04-24 23:11:05] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-04-24 23:11:08] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
 [2023-04-24 23:11:08] INFO root fetch - main [MainThread]: Store serial: [17839534]
+[2023-04-24 23:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839534]
+[2023-04-24 23:16:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyecodevices
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virtool-core
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hoppr
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pvsite-datamodel
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chia-blockchain
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-scan
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcs-cli
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hsso
+[2023-04-24 23:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyaemet
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyecodevices]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [virtool-core]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hoppr]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-24 23:16:17] WARNING root fetch - processPackages [python-scan]: Skipping, unable to determine old version
+[2023-04-24 23:16:17] WARNING root fetch - processPackages [hsso]: Skipping, unable to determine old version
+[2023-04-24 23:16:17] INFO root fetch - processPackages [python-scan]: Start processing: spycio
+[2023-04-24 23:16:17] INFO root fetch - main [MainThread]: End processing [python-scan] error
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hsso]: Start processing: pyincore
+[2023-04-24 23:16:17] INFO root fetch - main [MainThread]: End processing [hsso] error
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pvsite-datamodel]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.0rc2] Old Version: [1.8.0rc1]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [kcli]: New version: [99.0.202304242113] Old Version: [99.0.202304241958]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyaemet]: New version: [1.1.0rc0] Old Version: [1.0.2]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyincore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [spycio]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hoppr]: Downloading https://files.pythonhosted.org/packages/14/2a/cd0b7df2a7419b56529ac9ecda5d3c1f0d984d21c5fd252faade775ed78a/hoppr-1.8.2.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyecodevices]: Downloading https://files.pythonhosted.org/packages/f5/3b/6483a643b5ff0b87355ec4ae31bee53af23c5bc41577554b8b0d855c5b0a/pyecodevices-1.5.1.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/3a/e7/93fff90129a0dfa23e576b2920d6071f967736568db1774a992a4eb876df/virtool_core-4.8.0.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/32/ac/3dc2ecb97da273afee4a1aca93a01b9618a79260ff4610b28a176fb366b2/hcs-cli-0.1.34.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/f3/4f/d7528b1192ccede6ad918434123284dff8d4651cee7d3231dc9df6cf6dcc/pvsite-datamodel-0.1.7.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/ff/a6/6e66ccccc126cbb305e898757650f62f5cf7ce9bb23f6d4fa05380851433/chia-blockchain-1.8.0rc1.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/66/ac/fc2d29e05592017726cac9d7fb64b7dedee005d961118b1b2aba37f92150/kcli-99.0.202304242113-py3-none-any.whl
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.33.tar.gz tmp/hcs-cli-0.1.34.tar.gz --markdown 20230424/h/hcs-cli/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyincore]: Downloading https://files.pythonhosted.org/packages/9e/62/833ebf682f967a39b6e3d85551edae2c9ab3afa74c59991d64d7b9ae2331/pyincore-1.8.0.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyaemet]: Downloading https://files.pythonhosted.org/packages/ed/42/d3b5964067ef10776446922d9d16ddb2c6d77810cd2ba27fd3539cccaa3d/pyaemet-1.0.2.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hoppr]: Downloading https://files.pythonhosted.org/packages/0f/21/a83c184db6d8b51fae06200e043f4ed69e8fc065a3076675c00ae5ede1aa/hoppr-1.8.3.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyecodevices]: Downloading https://files.pythonhosted.org/packages/ff/b8/be174cc602b81aab42236867771c0a192539e9f459bac35f75a1b8ae8d0d/pyecodevices-1.6.0.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hoppr]: executing diffoscope
+[2023-04-24 23:16:17] INFO root fetch - processPackages [hoppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr-1.8.2.tar.gz tmp/hoppr-1.8.3.tar.gz --markdown 20230424/h/hoppr/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-24 23:16:17] INFO root fetch - processPackages [spycio]: Downloading https://files.pythonhosted.org/packages/85/e7/d683d4c59c473a7e7aff7b2f732f5119c45f91487092858727a0079db807/spycio-0.2.7.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/d3/1b/bdbfd8ccfab0e26265cd40e9ba68ff8ae89a5e602042a6fe7e33582d6245/virtool_core-4.9.0.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyaemet]: Downloading https://files.pythonhosted.org/packages/e7/23/2182f4aefb4b028926c2b296a2e8791d1918299ffa7aee95a4971e039dd1/pyaemet-1.1.0rc0.tar.gz
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyecodevices]: executing diffoscope
+[2023-04-24 23:16:17] INFO root fetch - processPackages [pyecodevices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecodevices-1.5.1.tar.gz tmp/pyecodevices-1.6.0.tar.gz --markdown 20230424/p/pyecodevices/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [spycio]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [spycio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spycio-0.2.6.tar.gz tmp/spycio-0.2.7.tar.gz --markdown 20230424/s/spycio/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pyaemet]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pyaemet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaemet-1.0.2.tar.gz tmp/pyaemet-1.1.0rc0.tar.gz --markdown 20230424/p/pyaemet/1.0.2-1.1.0rc0/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pyincore]: Downloading https://files.pythonhosted.org/packages/f3/f3/3348dbdd50ee74d30349d1730cb3845cc3311e67fffc9bbc69375e906fe7/pyincore-1.9.0.tar.gz
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/7c/73/8953622404092edcd001af48090de8762268c9019041322e8f6f3a597215/pvsite-datamodel-0.1.9.tar.gz
+[2023-04-24 23:16:18] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304241958-py3-none-any.whl.zip tmp/kcli-99.0.202304242113-py3-none-any.whl.zip --markdown 20230424/k/kcli/99.0.202304241958-99.0.202304242113/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [virtool-core]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [virtool-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtool_core-4.8.0.tar.gz tmp/virtool_core-4.9.0.tar.gz --markdown 20230424/v/virtool-core/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pyincore]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pyincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyincore-1.8.0.tar.gz tmp/pyincore-1.9.0.tar.gz --markdown 20230424/p/pyincore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite-datamodel-0.1.7.tar.gz tmp/pvsite-datamodel-0.1.9.tar.gz --markdown 20230424/p/pvsite-datamodel/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:16:18] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/85/36/6e52094b329fe3380b0dcb21b72a28390f9a468a180977f2b0ff8d9ad1f0/chia-blockchain-1.8.0rc2.tar.gz
+[2023-04-24 23:16:18] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-04-24 23:16:18] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0rc1.tar.gz tmp/chia-blockchain-1.8.0rc2.tar.gz --markdown 20230424/c/chia-blockchain/1.8.0rc1-1.8.0rc2/diff.md --exclude *.pyd
+[2023-04-24 23:16:19] INFO root fetch - processPackages [pyecodevices]: Start processing: plaid-python
+[2023-04-24 23:16:19] INFO root fetch - main [MainThread]: End processing [pyecodevices]: success
+[2023-04-24 23:16:19] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-04-24 23:16:19] INFO root fetch - processPackages [plaid-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-04-24 23:16:19] INFO root fetch - main [MainThread]: End processing [spycio]: success
+[2023-04-24 23:16:19] INFO root fetch - main [MainThread]: End processing [pyaemet]: success
+[2023-04-24 23:16:19] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/28/e4/50f6c63d4bdca16ae7556462bac3c36fe05191a2d2c5d288a171d1284ec1/plaid-python-9.8.0.tar.gz
+[2023-04-24 23:16:19] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2023-04-24 23:16:19] INFO root fetch - main [MainThread]: End processing [virtool-core]: success
+[2023-04-24 23:16:20] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/46/6b/fe3a5d709d398108f2f29d60802967bb5be57a563e9f7420a27ccd3da756/plaid-python-9.9.0.tar.gz
+[2023-04-24 23:16:20] INFO root fetch - processPackages [plaid-python]: executing diffoscope
+[2023-04-24 23:16:20] INFO root fetch - processPackages [plaid-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaid-python-9.8.0.tar.gz tmp/plaid-python-9.9.0.tar.gz --markdown 20230424/p/plaid-python/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-04-24 23:16:20] INFO root fetch - main [MainThread]: End processing [pyincore]: success
+[2023-04-24 23:16:21] INFO root fetch - main [MainThread]: End processing [hoppr]: success
+[2023-04-24 23:16:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-24 23:16:31] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-04-24 23:16:31] INFO root fetch - main [MainThread]: End processing [plaid-python]: success
+[2023-04-24 23:16:31] INFO root fetch - main [MainThread]: Store serial: [17839574]
