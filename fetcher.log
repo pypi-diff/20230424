@@ -7390,3 +7390,87 @@
 [2023-04-24 10:06:29] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.6.tar.gz tmp/cg-29.1.7.tar.gz --markdown 20230424/c/cg/29.1.6-29.1.7/diff.md --exclude *.pyd
 [2023-04-24 10:06:40] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-24 10:06:40] INFO root fetch - main [MainThread]: Store serial: [17830559]
+[2023-04-24 10:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830559]
+[2023-04-24 10:11:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solara-enterprise
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: system-superset-driver
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikeCA
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taichu-serve
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magyar
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-utils
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pocketrockit
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvisp
+[2023-04-24 10:11:50] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [solara-enterprise]: New version: [1.12.0] Old Version: [1.11.0]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.20]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cvisp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [magyar]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230424] Old Version: [0.3.1.dev20230423]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cg]: New version: [29.1.7] Old Version: [29.1.6]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [NikeCA]: New version: [0.1.83] Old Version: [0.1.82]
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.6.tar.gz tmp/cg-29.1.7.tar.gz --markdown 20230424/c/cg/29.1.6-29.1.7/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.82.tar.gz tmp/NikeCA-0.1.83.tar.gz --markdown 20230424/N/NikeCA/0.1.82-0.1.83/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/7d/dc/08f462461b9971fa09954662bc34c6427a0798c1b07d3fad398025ff762b/taichu-serve-2.0.20.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [magyar]: Downloading https://files.pythonhosted.org/packages/b5/7c/dc7bc4a9a49a8ea5709f9fac51cb63e0f079f8d62c5ffe835ca4218cc716/magyar-2.9.8.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cvisp]: Downloading https://files.pythonhosted.org/packages/f9/b9/abe2143bc9c32111aabbc25314057c5645e422b87afbd3e33922b9c3c2c4/cvisp-0.1.3.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/3a/6d/0fd50ca60d4e1cca9fa8c721f8a5b02e8a42eb79a3c556db66fbdf7cb2de/solara_enterprise-1.11.0.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/11/7e/c388ecb3c726add2cf7cccc6c96311d1308069fdbecabcf78e92ebc7f6f9/pyglove-0.3.1.dev20230424.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/97/af/34033e1334a3efc45f6946b69656cad652e7d73bd06a6400fd2dfc2bbf09/pocketrockit-0.0.3.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [system-superset-driver]: Downloading https://files.pythonhosted.org/packages/7a/04/644b8140b508727ec3372cb0b1d02d49202a2fdbe1b5c305e01409134291/system_superset_driver-0.0.9.tar.gz
+[2023-04-24 10:11:50] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-2.9.7.tar.gz tmp/magyar-2.9.8.tar.gz --markdown 20230424/m/magyar/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cvisp]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [cvisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvisp-0.1.2.tar.gz tmp/cvisp-0.1.3.tar.gz --markdown 20230424/c/cvisp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.20.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230424/t/taichu-serve/2.0.20-2.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230424/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230423.tar.gz tmp/pyglove-0.3.1.dev20230424.tar.gz --markdown 20230424/p/pyglove/0.3.1.dev20230423-0.3.1.dev20230424/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.2.tar.gz tmp/pocketrockit-0.0.3.tar.gz --markdown 20230424/p/pocketrockit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 10:11:50] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.8.tar.gz tmp/system_superset_driver-0.0.9.tar.gz --markdown 20230424/s/system-superset-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:11:50] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/74/1e/c2b1888f7c025e2274f9515af85cdcf54aec3b630fad62b12b195cb63df5/solara_enterprise-1.12.0.tar.gz
+[2023-04-24 10:11:51] INFO root fetch - processPackages [solara-enterprise]: executing diffoscope
+[2023-04-24 10:11:51] INFO root fetch - processPackages [solara-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_enterprise-1.11.0.tar.gz tmp/solara_enterprise-1.12.0.tar.gz --markdown 20230424/s/solara-enterprise/1.11.0-1.12.0/diff.md --exclude *.pyd
+[2023-04-24 10:11:51] INFO root fetch - processPackages [NikeCA]: Start processing: LbEnv
+[2023-04-24 10:11:51] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 10:11:51] INFO root fetch - processPackages [LbEnv]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-04-24 10:11:51] INFO root fetch - processPackages [magyar]: Start processing: yyxx-game-pkg-dev
+[2023-04-24 10:11:51] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-04-24 10:11:51] INFO root fetch - processPackages [yyxx-game-pkg-dev]: New version: [2023.4.4.1.dev7] Old Version: [2023.4.4.1.dev5]
+[2023-04-24 10:11:51] INFO root fetch - processPackages [LbEnv]: Downloading https://files.pythonhosted.org/packages/b7/54/8ee2819d542798043c575bc089cd1077796ef3d5576aa5e30970232cd407/LbEnv-2.1.8.tar.gz
+[2023-04-24 10:11:52] INFO root fetch - processPackages [cvisp]: Start processing: prompt-me
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [cvisp]: success
+[2023-04-24 10:11:52] INFO root fetch - processPackages [yyxx-game-pkg-dev]: executing diffoscope
+[2023-04-24 10:11:52] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.4.4.1.dev5.tar.gz tmp/yyxx_game_pkg_dev-2023.4.4.1.dev7.tar.gz --markdown 20230424/y/yyxx-game-pkg-dev/2023.4.4.1.dev5-2023.4.4.1.dev7/diff.md --exclude *.pyd
+[2023-04-24 10:11:52] WARNING root fetch - processPackages [prompt-me]: Skipping, unable to determine old version
+[2023-04-24 10:11:52] INFO root fetch - processPackages [prompt-me]: Start processing: text-content-generator
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [prompt-me] error
+[2023-04-24 10:11:52] WARNING root fetch - processPackages [text-content-generator]: Skipping, unable to determine old version
+[2023-04-24 10:11:52] INFO root fetch - processPackages [text-content-generator]: Start processing: yyxx-game-pkg
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [text-content-generator] error
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-04-24 10:11:52] INFO root fetch - processPackages [LbEnv]: Downloading https://files.pythonhosted.org/packages/71/11/ccf2f95dd4ead20cd60eefec41f74fced388028484450ef16e1aeac87ad4/LbEnv-2.1.9.tar.gz
+[2023-04-24 10:11:52] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.4.7.1] Old Version: [2023.4.4.1]
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-24 10:11:52] INFO root fetch - processPackages [LbEnv]: executing diffoscope
+[2023-04-24 10:11:52] INFO root fetch - processPackages [LbEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbEnv-2.1.8.tar.gz tmp/LbEnv-2.1.9.tar.gz --markdown 20230424/L/LbEnv/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [solara-enterprise]: success
+[2023-04-24 10:11:52] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-04-24 10:11:52] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-04-24 10:11:52] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.4.4.1.tar.gz tmp/yyxx_game_pkg-2023.4.7.1.tar.gz --markdown 20230424/y/yyxx-game-pkg/2023.4.4.1-2023.4.7.1/diff.md --exclude *.pyd
+[2023-04-24 10:11:53] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-24 10:11:53] INFO root fetch - main [MainThread]: End processing [LbEnv]: success
+[2023-04-24 10:11:54] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
+[2023-04-24 10:11:54] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-04-24 10:12:04] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 10:12:04] INFO root fetch - main [MainThread]: Store serial: [17830612]
