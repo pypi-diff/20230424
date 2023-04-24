@@ -17656,3 +17656,137 @@
 [2023-04-24 18:33:08] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
 [2023-04-24 18:33:10] INFO root fetch - main [MainThread]: End processing [qrisp]: success
 [2023-04-24 18:33:10] INFO root fetch - main [MainThread]: Store serial: [17836605]
+[2023-04-24 18:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17836605]
+[2023-04-24 18:38:20] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jianglab
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: civilpy
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxio
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataverk-airflow
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splintegrate
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-organoid-counter
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hat-gateway
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strongmind-deployment
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyNiteFEA
+[2023-04-24 18:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sortinghat-openinfra
+[2023-04-24 18:38:20] INFO root fetch - processPackages [strongmind-deployment]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [jianglab]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [splintegrate]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-04-24 18:38:20] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-0.0.3-py3-none-any.whl.zip tmp/strongmind_deployment-0.0.4-py3-none-any.whl.zip --markdown 20230424/s/strongmind-deployment/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 18:38:20] WARNING root fetch - processPackages [sortinghat-openinfra]: Skipping, unable to determine old version
+[2023-04-24 18:38:20] INFO root fetch - processPackages [napari-organoid-counter]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [sortinghat-openinfra]: Start processing: layerd
+[2023-04-24 18:38:20] INFO root fetch - processPackages [mxio]: New version: [2023.1.4] Old Version: [2023.1.23]
+[2023-04-24 18:38:20] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra] error
+[2023-04-24 18:38:20] INFO root fetch - processPackages [civilpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [hat-gateway]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [PyNiteFEA]: New version: [0.0.74] Old Version: [0.0.73]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [layerd]: New version: [2023.4.24.12.34] Old Version: [2022.8.11.9.23]
+[2023-04-24 18:38:20] INFO root fetch - processPackages [mxio]: Downloading https://files.pythonhosted.org/packages/49/53/ae80d33f6bb1291aa66da4a1f9f8fbac34ec5d8a6c5e74dafc7c94a77bd1/mxio-2023.1.23.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [splintegrate]: Downloading https://files.pythonhosted.org/packages/20/b6/5164cd0f9a7d1931afda2ebbd33cb16202f981819b0c3cd901883ccfca15/splintegrate-0.1.3.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [napari-organoid-counter]: Downloading https://files.pythonhosted.org/packages/f4/1b/7cc712e15f2383b01f8c2882bfd84bf712952ad21fb5652cb7d6150dc992/napari-organoid-counter-0.1.1.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [hat-gateway]: Downloading https://files.pythonhosted.org/packages/9d/19/055e42a362a5198fe0f58c25a462e79a2bf4455d8bd5af99d4df19ce93ba/hat_gateway-0.5.8-cp38.cp39-none-any.whl
+[2023-04-24 18:38:20] INFO root fetch - processPackages [PyNiteFEA]: Downloading https://files.pythonhosted.org/packages/ba/8f/77b8f812c3ed6f9938e47b87e9932a3dc4163429a340a721b06ae63ac55e/PyNiteFEA-0.0.73.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [layerd]: Downloading https://files.pythonhosted.org/packages/66/36/b94b0136f1ca06c03b49a09c5aaa389975a3ec87dab1995ecd982c596d82/layerd-2022.8.11.9.23.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/64/55/99ca199daf2fdd8be39c327c04c4a5fb2552ab9d96f4210768b9f9b172aa/jianglab-0.1.7.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-04-24 18:38:20] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-24 18:38:20] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.7.tar.gz tmp/civilpy-0.0.8.tar.gz --markdown 20230424/c/civilpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 18:38:20] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230424/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-24 18:38:20] INFO root fetch - processPackages [PyNiteFEA]: Downloading https://files.pythonhosted.org/packages/23/af/410d049f35d9f1ade2ee82e7aa5f9c6ff7f0ee772054e4318ed70573a1d2/PyNiteFEA-0.0.74.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [splintegrate]: Downloading https://files.pythonhosted.org/packages/67/9d/5986191b99929edcd5fc9423ad615ad5cdd64f22f6d4316f5db62fad34ff/splintegrate-0.1.4.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-04-24 18:38:20] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.1.6.tar.gz tmp/jianglab-0.1.7.tar.gz --markdown 20230424/j/jianglab/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 18:38:20] INFO root fetch - processPackages [layerd]: Downloading https://files.pythonhosted.org/packages/b2/20/86ddbdce18eec04cbb61ef069fb5b47630479eafd81a38db691ef6f4f91d/layerd-2023.4.24.12.34.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [mxio]: Downloading https://files.pythonhosted.org/packages/6c/9d/1a0aad221b77a6310abf87ac0798d349458b8c71567cb341c6ad17c213bc/mxio-2023.1.4.tar.gz
+[2023-04-24 18:38:20] INFO root fetch - processPackages [hat-gateway]: Downloading https://files.pythonhosted.org/packages/39/8b/cbbd9b7227ad66c20545a3d975c305af731f51d30649d57a2ebe8b498f89/hat_gateway-0.5.9-cp38.cp39-none-any.whl
+[2023-04-24 18:38:21] INFO root fetch - processPackages [splintegrate]: executing diffoscope
+[2023-04-24 18:38:21] INFO root fetch - processPackages [splintegrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splintegrate-0.1.3.tar.gz tmp/splintegrate-0.1.4.tar.gz --markdown 20230424/s/splintegrate/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 18:38:21] INFO root fetch - processPackages [PyNiteFEA]: executing diffoscope
+[2023-04-24 18:38:21] INFO root fetch - processPackages [PyNiteFEA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNiteFEA-0.0.73.tar.gz tmp/PyNiteFEA-0.0.74.tar.gz --markdown 20230424/P/PyNiteFEA/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2023-04-24 18:38:21] INFO root fetch - processPackages [layerd]: executing diffoscope
+[2023-04-24 18:38:21] INFO root fetch - processPackages [layerd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerd-2022.8.11.9.23.tar.gz tmp/layerd-2023.4.24.12.34.tar.gz --markdown 20230424/l/layerd/2022.8.11.9.23-2023.4.24.12.34/diff.md --exclude *.pyd
+[2023-04-24 18:38:21] INFO root fetch - processPackages [mxio]: executing diffoscope
+[2023-04-24 18:38:21] INFO root fetch - processPackages [mxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxio-2023.1.23.tar.gz tmp/mxio-2023.1.4.tar.gz --markdown 20230424/m/mxio/2023.1.23-2023.1.4/diff.md --exclude *.pyd
+[2023-04-24 18:38:21] INFO root fetch - processPackages [hat-gateway]: executing diffoscope
+[2023-04-24 18:38:21] INFO root fetch - processPackages [hat-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gateway-0.5.8-cp38.cp39-none-any.whl.zip tmp/hat_gateway-0.5.9-cp38.cp39-none-any.whl.zip --markdown 20230424/h/hat-gateway/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-24 18:38:21] INFO root fetch - processPackages [strongmind-deployment]: Start processing: govtech-data
+[2023-04-24 18:38:21] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-04-24 18:38:21] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 18:38:21] INFO root fetch - processPackages [napari-organoid-counter]: Downloading https://files.pythonhosted.org/packages/a1/bb/20f5f7be7bba4f81dcda7e66bca088187b3bcd8e90d0ca232a8d54510dd6/napari-organoid-counter-0.2.0.tar.gz
+[2023-04-24 18:38:21] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/bb/aa/590dca710c7623f047f33cc26090a8386c7febe4081f0b10e752cd06f244/govtech_data-0.1.8.tar.gz
+[2023-04-24 18:38:21] WARNING root fetch - processPackages [napari-organoid-counter]: Skipping package: exceeds size limit 69111502>=10485760
+[2023-04-24 18:38:21] INFO root fetch - processPackages [napari-organoid-counter]: Start processing: gator-core
+[2023-04-24 18:38:21] INFO root fetch - main [MainThread]: End processing [napari-organoid-counter] error
+[2023-04-24 18:38:22] INFO root fetch - processPackages [gator-core]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/38/27/bfc2b116c599d8a7ebd76ab6512ee38a1b5d1a16499059770372bc29e6e2/govtech_data-0.1.9.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-04-24 18:38:22] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230424/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 18:38:22] INFO root fetch - processPackages [jianglab]: Start processing: phasellm
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [gator-core]: Downloading https://files.pythonhosted.org/packages/04/df/c65c2ca592d956e657fb4e46cb77eb19c4aea428f20ad205e14694ec2a1c/gator_core-2.0.0rc8.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [dataverk-airflow]: Start processing: lakeside2
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [civilpy]: Start processing: lnschema_core
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [phasellm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-24 18:38:22] WARNING root fetch - processPackages [lakeside2]: Skipping, unable to determine old version
+[2023-04-24 18:38:22] INFO root fetch - processPackages [lakeside2]: Start processing: perfect-physics
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [lakeside2] error
+[2023-04-24 18:38:22] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [perfect-physics]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [perfect-physics]: executing diffoscope
+[2023-04-24 18:38:22] INFO root fetch - processPackages [perfect-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfect_physics-0.1.2-py3-none-any.whl.zip tmp/perfect_physics-0.1.3-py3-none-any.whl.zip --markdown 20230424/p/perfect-physics/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 18:38:22] INFO root fetch - processPackages [splintegrate]: Start processing: python-swidget
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [splintegrate]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/62/ee/6fdc7c8ce40b7903023298cc7f172c13ee4d4c7e718a0dc28b8d82819fb0/phasellm-0.0.1.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [hat-gateway]: Start processing: ez-yaml
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [hat-gateway]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [layerd]: Start processing: oak9-tython
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [layerd]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [gator-core]: Downloading https://files.pythonhosted.org/packages/50/f2/69f6c939dd81e9d52993890f56a41033e9cca4f2719662202e37baac8431/gator_core-2.0.0rc9.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [ez-yaml]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.6b3] Old Version: [1.0.6b2]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [mxio]: Start processing: molfeat
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [mxio]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [python-swidget]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [PyNiteFEA]: Start processing: jina
+[2023-04-24 18:38:22] INFO root fetch - main [MainThread]: End processing [PyNiteFEA]: success
+[2023-04-24 18:38:22] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-04-24 18:38:22] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.6b2.tar.gz tmp/oak9_tython-1.0.6b3.tar.gz --markdown 20230424/o/oak9-tython/1.0.6b2-1.0.6b3/diff.md --exclude *.pyd
+[2023-04-24 18:38:22] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [molfeat]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-04-24 18:38:22] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/cd/e8/86e379c57a1514cc55234bfa5ad9903fcae0d3973ed71319309933ac8c6a/phasellm-0.0.2.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [ez-yaml]: Downloading https://files.pythonhosted.org/packages/b6/ff/405859ef6a617dc2826f9d24706f17b07ded222522cd27677f4af72e5c86/ez_yaml-1.3.3.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [gator-core]: executing diffoscope
+[2023-04-24 18:38:22] INFO root fetch - processPackages [gator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gator_core-2.0.0rc8.tar.gz tmp/gator_core-2.0.0rc9.tar.gz --markdown 20230424/g/gator-core/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-04-24 18:38:22] INFO root fetch - processPackages [python-swidget]: Downloading https://files.pythonhosted.org/packages/d6/96/f8dcfea8c5e1a2e2b41967eff6377db68b7f194e5b84112a4d5639c80cc7/python_swidget-0.0.8.tar.gz
+[2023-04-24 18:38:22] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-24 18:38:22] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230424/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-24 18:38:23] INFO root fetch - processPackages [molfeat]: Downloading https://files.pythonhosted.org/packages/99/ef/7e4210c6731c1e7dbab0280dc3ae8719973a4a527e50dacef4f0989c90c9/molfeat-0.8.6.tar.gz
+[2023-04-24 18:38:23] INFO root fetch - processPackages [phasellm]: executing diffoscope
+[2023-04-24 18:38:23] INFO root fetch - processPackages [phasellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasellm-0.0.1.tar.gz tmp/phasellm-0.0.2.tar.gz --markdown 20230424/p/phasellm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 18:38:23] INFO root fetch - processPackages [ez-yaml]: executing diffoscope
+[2023-04-24 18:38:23] INFO root fetch - processPackages [ez-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_yaml-1.3.2.tar.gz tmp/ez_yaml-1.3.3.tar.gz --markdown 20230424/e/ez-yaml/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-24 18:38:23] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-04-24 18:38:23] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230424/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 18:38:23] INFO root fetch - processPackages [python-swidget]: Downloading https://files.pythonhosted.org/packages/76/77/b76a2b3c0b1d4b7f6778dfa7ef5bbb99bd9839962f3ecd0c3753109fbf92/python_swidget-0.0.9.tar.gz
+[2023-04-24 18:38:23] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-04-24 18:38:23] INFO root fetch - processPackages [molfeat]: Downloading https://files.pythonhosted.org/packages/3e/cb/9df31cd8da521f1fc931f5555cf16322116d9b063d8ca4bae4723ed237a6/molfeat-0.8.7.tar.gz
+[2023-04-24 18:38:23] INFO root fetch - processPackages [python-swidget]: executing diffoscope
+[2023-04-24 18:38:23] INFO root fetch - processPackages [python-swidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_swidget-0.0.8.tar.gz tmp/python_swidget-0.0.9.tar.gz --markdown 20230424/p/python-swidget/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 18:38:23] INFO root fetch - processPackages [molfeat]: executing diffoscope
+[2023-04-24 18:38:23] INFO root fetch - processPackages [molfeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molfeat-0.8.6.tar.gz tmp/molfeat-0.8.7.tar.gz --markdown 20230424/m/molfeat/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-04-24 18:38:23] INFO root fetch - main [MainThread]: End processing [perfect-physics]: success
+[2023-04-24 18:38:24] INFO root fetch - main [MainThread]: End processing [ez-yaml]: success
+[2023-04-24 18:38:24] INFO root fetch - main [MainThread]: End processing [phasellm]: success
+[2023-04-24 18:38:24] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-04-24 18:38:24] INFO root fetch - main [MainThread]: End processing [python-swidget]: success
+[2023-04-24 18:38:24] INFO root fetch - main [MainThread]: End processing [gator-core]: success
+[2023-04-24 18:38:25] INFO root fetch - main [MainThread]: End processing [molfeat]: success
+[2023-04-24 18:38:26] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-24 18:38:37] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-04-24 18:38:37] INFO root fetch - main [MainThread]: Store serial: [17836682]
