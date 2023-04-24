@@ -11628,3 +11628,128 @@
 [2023-04-24 13:52:45] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-24 13:52:55] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-04-24 13:52:55] INFO root fetch - main [MainThread]: Store serial: [17833048]
+[2023-04-24 13:57:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833048]
+[2023-04-24 13:58:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: era-5g-interface
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TimeForge
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtest-sapnwrfc
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tupa123
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmem-cmempy
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tkviews
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: textdescriptives
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quocs-lib
+[2023-04-24 13:58:04] INFO root fetch - processPackages [TimeForge]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [era-5g-interface]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [tkviews]: New version: [4.0.0] Old Version: [3.2.0]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [cmem-cmempy]: New version: [23.1] Old Version: [22.3rc3]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [xtest-sapnwrfc]: New version: [0.0.11] Old Version: [0.0.1]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [tupa123]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [quocs-lib]: New version: [0.0a19] Old Version: [0.0a18]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [textdescriptives]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-04-24 13:58:04] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 13:58:04] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 13:58:04] INFO root fetch - processPackages [xtest-sapnwrfc]: Downloading https://files.pythonhosted.org/packages/ed/8d/a5933a1761bccd5b8c3abb9d0e17582ebb9b69fe8d2ca8d1ddca4b09129f/xtest_sapnwrfc-0.0.1.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [TimeForge]: Downloading https://files.pythonhosted.org/packages/ae/3e/d9c9bac26debd4ce457c8894c4ac25ee66ad0283ad965218f3748ceec152/TimeForge-0.1.2.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [tkviews]: Downloading https://files.pythonhosted.org/packages/5c/e2/612b3b6a80eae9b18ec10eab2219a66ed6e2da848ebf9bca28eef596f74f/tkviews-3.2.0.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [era-5g-interface]: Downloading https://files.pythonhosted.org/packages/8f/f7/1d29a72011b7936432a12a7611418116cf97813e713858c556dc1d6d3781/era_5g_interface-0.1.0.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [quocs-lib]: Downloading https://files.pythonhosted.org/packages/5c/69/7298ee486600ac58ae05c86f77bcd20896b96f36163925002143b27e7a09/quocs-lib-0.0a18.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/0f/d9/c422e1ea596076fae2519b6f3eb79b927db27b9d606089514dc49ad51088/cmem-cmempy-22.3rc3.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/d3/48/9ce217872b69649e6e5eb2b3fd8372d34a5bb81bdaece22c43c0c63ee3da/tupa123-1.3.8.tar.gz
+[2023-04-24 13:58:04] INFO root fetch - processPackages [textdescriptives]: Downloading https://files.pythonhosted.org/packages/c0/f9/70d1ccc82a88473c55ebf2450a636ed6573ab0fa8acf084feba47b13d128/textdescriptives-2.4.5.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [xtest-sapnwrfc]: Downloading https://files.pythonhosted.org/packages/e2/2a/938ec3097300919fdabf7474eabf1f2780d4b391b1fdaa3830d1f9b689c1/xtest_sapnwrfc-0.0.11.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [xtest-sapnwrfc]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [xtest-sapnwrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtest_sapnwrfc-0.0.1.tar.gz tmp/xtest_sapnwrfc-0.0.11.tar.gz --markdown 20230424/x/xtest-sapnwrfc/0.0.1-0.0.11/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [TimeForge]: Downloading https://files.pythonhosted.org/packages/48/7d/8292481a6f24fc4a4f43ffd415d4e209af8a4b245637e94d229d7f842333/TimeForge-0.1.3.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [tkviews]: Downloading https://files.pythonhosted.org/packages/57/cb/a6cf4cc13082072621bfad5e85a26ca45955c72611c2db67bf6dd35451b5/tkviews-4.0.0.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [TimeForge]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [TimeForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeForge-0.1.2.tar.gz tmp/TimeForge-0.1.3.tar.gz --markdown 20230424/T/TimeForge/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/39/6a/5b4cb1a12b6ed03eaf941019fb186a72cbf1ec893019f3690a05db65c76c/tupa123-1.3.9.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [era-5g-interface]: Downloading https://files.pythonhosted.org/packages/ae/cf/fd5f2af204995a335d36e1b827133eed5baf582360a6819b3522b13fd8d0/era_5g_interface-0.2.0.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/14/19/97a175d36cac392292a09746cc35c07485a155fdbe9a06dc2c11d6bfb04a/cmem_cmempy-23.1.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [tkviews]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [tkviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkviews-3.2.0.tar.gz tmp/tkviews-4.0.0.tar.gz --markdown 20230424/t/tkviews/3.2.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.8.tar.gz tmp/tupa123-1.3.9.tar.gz --markdown 20230424/t/tupa123/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [cmem-cmempy]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [cmem-cmempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem-cmempy-22.3rc3.tar.gz tmp/cmem_cmempy-23.1.tar.gz --markdown 20230424/c/cmem-cmempy/22.3rc3-23.1/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [quocs-lib]: Downloading https://files.pythonhosted.org/packages/0c/af/f937dba452943759d4af4f33e8ca6345a5f357d492efb355ef7c06bccb12/quocs-lib-0.0a19.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [textdescriptives]: Downloading https://files.pythonhosted.org/packages/6e/78/a06711edc3346835dfdc1f7852af0e02ae200fd41da22677547c53bd3f3b/textdescriptives-2.4.6.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [era-5g-interface]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [era-5g-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_interface-0.1.0.tar.gz tmp/era_5g_interface-0.2.0.tar.gz --markdown 20230424/e/era-5g-interface/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-04-24 13:58:05] INFO root fetch - processPackages [textdescriptives]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [textdescriptives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textdescriptives-2.4.5.tar.gz tmp/textdescriptives-2.4.6.tar.gz --markdown 20230424/t/textdescriptives/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230424/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-24 13:58:05] INFO root fetch - processPackages [quocs-lib]: executing diffoscope
+[2023-04-24 13:58:05] INFO root fetch - processPackages [quocs-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quocs-lib-0.0a18.tar.gz tmp/quocs-lib-0.0a19.tar.gz --markdown 20230424/q/quocs-lib/0.0a18-0.0a19/diff.md --exclude *.pyd
+[2023-04-24 13:58:06] INFO root fetch - processPackages [findmyorder]: Start processing: labonneboite-datamodel
+[2023-04-24 13:58:06] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 13:58:06] INFO root fetch - processPackages [labonneboite-datamodel]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-24 13:58:06] INFO root fetch - processPackages [labonneboite-datamodel]: Downloading https://files.pythonhosted.org/packages/ff/e7/75f72ac0a21f67fd2a3979e53061c9c16ee21db3c978e8a23e015f60ed16/labonneboite_datamodel-1.0.5.tar.gz
+[2023-04-24 13:58:06] INFO root fetch - processPackages [labonneboite-datamodel]: Downloading https://files.pythonhosted.org/packages/19/41/ab14a276119e9757d971629dbaffb9b952a77b9a175d9a77d35515711f83/labonneboite_datamodel-1.0.6.tar.gz
+[2023-04-24 13:58:06] INFO root fetch - processPackages [labonneboite-datamodel]: executing diffoscope
+[2023-04-24 13:58:06] INFO root fetch - processPackages [labonneboite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labonneboite_datamodel-1.0.5.tar.gz tmp/labonneboite_datamodel-1.0.6.tar.gz --markdown 20230424/l/labonneboite-datamodel/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-24 13:58:06] INFO root fetch - processPackages [TimeForge]: Start processing: PHX
+[2023-04-24 13:58:06] INFO root fetch - main [MainThread]: End processing [TimeForge]: success
+[2023-04-24 13:58:06] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 13:58:06] INFO root fetch - processPackages [era-5g-interface]: Start processing: turingpoint
+[2023-04-24 13:58:06] INFO root fetch - main [MainThread]: End processing [era-5g-interface]: success
+[2023-04-24 13:58:06] INFO root fetch - processPackages [turingpoint]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 13:58:06] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-04-24 13:58:06] INFO root fetch - processPackages [tkviews]: Start processing: dataverk-airflow
+[2023-04-24 13:58:06] INFO root fetch - main [MainThread]: End processing [tkviews]: success
+[2023-04-24 13:58:06] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-24 13:58:06] INFO root fetch - processPackages [turingpoint]: Downloading https://files.pythonhosted.org/packages/31/c6/3418363336ae115d243ea200f141464c5331dbecf756f9709f968c2f8617/turingpoint-0.0.2.tar.gz
+[2023-04-24 13:58:06] INFO root fetch - processPackages [tupa123]: Start processing: halig
+[2023-04-24 13:58:06] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-24 13:58:06] INFO root fetch - processPackages [halig]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-04-24 13:58:07] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-24 13:58:07] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230424/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-24 13:58:07] INFO root fetch - processPackages [halig]: Downloading https://files.pythonhosted.org/packages/0d/dc/e90065a6aa72598c0a131a5700d0e76163143583c5bf4b10481f5664084c/halig-0.1.8.tar.gz
+[2023-04-24 13:58:07] INFO root fetch - processPackages [quocs-lib]: Start processing: socket-like-requests
+[2023-04-24 13:58:07] INFO root fetch - main [MainThread]: End processing [quocs-lib]: success
+[2023-04-24 13:58:07] INFO root fetch - processPackages [turingpoint]: Downloading https://files.pythonhosted.org/packages/17/d4/52a2f9696b99e22113806f7866dc3d8b46dfed3ce3401f5a42148787c99c/turingpoint-0.0.3.tar.gz
+[2023-04-24 13:58:07] INFO root fetch - processPackages [socket-like-requests]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-04-24 13:58:07] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-04-24 13:58:07] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-04-24 13:58:07] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230424/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:58:07] INFO root fetch - processPackages [turingpoint]: executing diffoscope
+[2023-04-24 13:58:07] INFO root fetch - processPackages [turingpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turingpoint-0.0.2.tar.gz tmp/turingpoint-0.0.3.tar.gz --markdown 20230424/t/turingpoint/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 13:58:07] INFO root fetch - processPackages [socket-like-requests]: Downloading https://files.pythonhosted.org/packages/ee/d0/7d7cad13699ad5acdccd2f40fd576cb1479cf3784924f7245e40ed0a1b64/socket_like_requests-0.0.11.tar.gz
+[2023-04-24 13:58:07] INFO root fetch - processPackages [halig]: Downloading https://files.pythonhosted.org/packages/3b/c6/10d1911bc2627835047a609abaebc33c84ef292f13b212614897402cf82e/halig-0.2.0.tar.gz
+[2023-04-24 13:58:07] INFO root fetch - processPackages [halig]: executing diffoscope
+[2023-04-24 13:58:07] INFO root fetch - processPackages [halig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halig-0.1.8.tar.gz tmp/halig-0.2.0.tar.gz --markdown 20230424/h/halig/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:58:07] INFO root fetch - processPackages [ramodels]: Start processing: origen-ai-ecl
+[2023-04-24 13:58:07] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-24 13:58:07] INFO root fetch - processPackages [socket-like-requests]: Downloading https://files.pythonhosted.org/packages/9c/a8/598c2b7204073250669ccf7b5a47cb932119344ef3aea935550ae6d6298f/socket_like_requests-0.0.12.tar.gz
+[2023-04-24 13:58:07] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 13:58:07] INFO root fetch - processPackages [socket-like-requests]: executing diffoscope
+[2023-04-24 13:58:07] INFO root fetch - processPackages [socket-like-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_like_requests-0.0.11.tar.gz tmp/socket_like_requests-0.0.12.tar.gz --markdown 20230424/s/socket-like-requests/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-04-24 13:58:07] INFO root fetch - processPackages [cmem-cmempy]: Start processing: mle-flake8-plugins
+[2023-04-24 13:58:07] INFO root fetch - main [MainThread]: End processing [cmem-cmempy]: success
+[2023-04-24 13:58:07] INFO root fetch - main [MainThread]: End processing [labonneboite-datamodel]: success
+[2023-04-24 13:58:07] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/32/3b/28616c04092eae84b0fe79b9b3f8aac268e92d8abe4b991362ed7d8526dd/origen_ai_ecl-0.2.0.tar.gz
+[2023-04-24 13:58:08] INFO root fetch - processPackages [mle-flake8-plugins]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 13:58:08] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/46/fe/63f4c07da71712e7a294a0c918d2f1e2b057006ef16f647d10632ea0db88/origen_ai_ecl-0.2.1.tar.gz
+[2023-04-24 13:58:08] INFO root fetch - processPackages [mle-flake8-plugins]: Downloading https://files.pythonhosted.org/packages/94/70/bbe6fdfa5a9aa922ed02c681a95bebcfbeed9ac23fd380b89703e317f5c6/mle_flake8_plugins-0.1.0.tar.gz
+[2023-04-24 13:58:08] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-24 13:58:08] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-24 13:58:08] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.0.tar.gz tmp/origen_ai_ecl-0.2.1.tar.gz --markdown 20230424/o/origen-ai-ecl/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 13:58:08] INFO root fetch - processPackages [mle-flake8-plugins]: Downloading https://files.pythonhosted.org/packages/ff/f9/55a7cbebbd291001b7701e91d0297be76c5d81dc9d1efed7bf5246f2f43a/mle_flake8_plugins-0.1.1.tar.gz
+[2023-04-24 13:58:08] INFO root fetch - main [MainThread]: End processing [turingpoint]: success
+[2023-04-24 13:58:08] INFO root fetch - processPackages [mle-flake8-plugins]: executing diffoscope
+[2023-04-24 13:58:08] INFO root fetch - processPackages [mle-flake8-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mle_flake8_plugins-0.1.0.tar.gz tmp/mle_flake8_plugins-0.1.1.tar.gz --markdown 20230424/m/mle-flake8-plugins/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 13:58:08] INFO root fetch - main [MainThread]: End processing [socket-like-requests]: success
+[2023-04-24 13:58:08] INFO root fetch - main [MainThread]: End processing [halig]: success
+[2023-04-24 13:58:09] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-04-24 13:58:09] INFO root fetch - main [MainThread]: End processing [mle-flake8-plugins]: success
+[2023-04-24 13:58:09] INFO root fetch - main [MainThread]: End processing [textdescriptives]: success
+[2023-04-24 13:58:09] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
+[2023-04-24 13:58:13] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-24 13:58:13] INFO root fetch - main [MainThread]: Store serial: [17833105]
