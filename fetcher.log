@@ -21043,3 +21043,96 @@
 [2023-04-24 21:28:10] INFO root fetch - main [MainThread]: End processing [xyz-auth]: success
 [2023-04-24 21:28:19] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-04-24 21:28:19] INFO root fetch - main [MainThread]: Store serial: [17838662]
+[2023-04-24 21:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838662]
+[2023-04-24 21:33:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-playwright
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chardetng-py
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azdsdr
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingo-gw
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oreo4
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: repairwheel
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape-tools
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azdsdr
+[2023-04-24 21:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adafruit-circuitpython-tinylora
+[2023-04-24 21:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-robosapiens
+[2023-04-24 21:33:29] INFO root fetch - processPackages [pytest-playwright]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 21:33:29] WARNING root fetch - processPackages [chardetng-py]: Skipping, unable to determine old version
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: New version: [1.230424.2] Old Version: [1.230424.1]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [chardetng-py]: Start processing: dbx
+[2023-04-24 21:33:29] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-24 21:33:29] INFO root fetch - main [MainThread]: End processing [chardetng-py] error
+[2023-04-24 21:33:29] WARNING root fetch - processPackages [oreo4]: Skipping, unable to determine old version
+[2023-04-24 21:33:29] INFO root fetch - processPackages [repairwheel]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [oreo4]: Start processing: luhncheck
+[2023-04-24 21:33:29] INFO root fetch - main [MainThread]: End processing [oreo4] error
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dingo-gw]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [griptape-tools]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: New version: [1.230424.2] Old Version: [1.230424.1]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dbx]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-24 21:33:29] WARNING root fetch - processPackages [luhncheck]: Skipping, unable to determine old version
+[2023-04-24 21:33:29] INFO root fetch - processPackages [luhncheck]: Start processing: valis-wsi
+[2023-04-24 21:33:29] INFO root fetch - main [MainThread]: End processing [luhncheck] error
+[2023-04-24 21:33:29] INFO root fetch - processPackages [valis-wsi]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-04-24 21:33:29] INFO root fetch - processPackages [pytest-playwright]: Downloading https://files.pythonhosted.org/packages/d8/28/86e6786e1c2304558e510533c9627962d4ccfe705bc5e3943c17671fb323/pytest-playwright-0.3.2.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/fb/01/4d9ed4f332adb9b31c94d8fd65af5e6573f0dce248bcaed8b4560010de16/azdsdr-1.230424.1.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/fb/01/4d9ed4f332adb9b31c94d8fd65af5e6573f0dce248bcaed8b4560010de16/azdsdr-1.230424.1.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/62/3b/c4bd1c15677808a46e01082ddb312cc0621be2733a3eacb7400b100b88f0/dingo-gw-0.5.1.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/18/44/57dc567ce5de90548194bfe16a15b70e2699286993a2b57e58656f4ed1ea/griptape_tools-0.7.1.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/0b/2c/b27759af6d1af7b39fb9d788539799d8a13f7d58551b6dc9e1300ac9de1f/robotframework_robosapiens-1.1.4-py3-none-any.whl
+[2023-04-24 21:33:29] INFO root fetch - processPackages [repairwheel]: Downloading https://files.pythonhosted.org/packages/94/ae/9a6b6b02d2be1703f77b171bcb82ad11f45398b140c3e8a242a624a075c1/repairwheel-0.2.2.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/4a/6f/cdb7e5d3f21562fc53f6987fbb39eddbb303bfd6ccc1a29e0c8fefdbaa14/dbx-0.8.8-py3-none-any.whl
+[2023-04-24 21:33:29] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: Downloading https://files.pythonhosted.org/packages/47/29/4ac97a8c06cb459b1ef91272137b2596db23b78fc338fa10158e5e41a391/adafruit-circuitpython-tinylora-2.2.8.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [valis-wsi]: Downloading https://files.pythonhosted.org/packages/6e/31/c29bd045d36c6c697fcbba046bb8e26a04122cca939370bb9416c8d36b8c/valis_wsi-1.0.0rc8.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.1.3-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.1.4-py3-none-any.whl.zip --markdown 20230424/r/robotframework-robosapiens/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [pytest-playwright]: Downloading https://files.pythonhosted.org/packages/f5/19/19faab822909b1ded5f40911c6696ecafc8e4ab11ec73422a808fe96e9ad/pytest-playwright-0.3.3.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [repairwheel]: Downloading https://files.pythonhosted.org/packages/b4/4f/bdbc53b8870671f776dccc9570d79643a98b69f3bbc3e930cbfaad3f945f/repairwheel-0.2.3.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/5a/21/32d1e9caddd2cd188c780df9d48d695f983a1a912200453edfc4e1ef1e5a/azdsdr-1.230424.2.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/5a/21/32d1e9caddd2cd188c780df9d48d695f983a1a912200453edfc4e1ef1e5a/azdsdr-1.230424.2.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/49/b3/4028bf176e13753e8735c17043e551c43cfbb1d06740ab7792e1552af796/griptape_tools-0.8.0.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/6c/37/07bb3b0701caca23275b5ae6a911c5e142132a954743c1ccb9d5ed287846/dbx-0.8.9-py3-none-any.whl
+[2023-04-24 21:33:29] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: Downloading https://files.pythonhosted.org/packages/e8/46/5a06e05d88f1dfa0a19390d2d2c3cb0eedbaae3f0979cc26821e26cc54a2/adafruit-circuitpython-tinylora-2.2.9.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/fc/9b/4741aecf1037a88179df47b49a5224e5e698234cb2a2e346934e5acad976/dingo-gw-0.5.2.tar.gz
+[2023-04-24 21:33:29] INFO root fetch - processPackages [pytest-playwright]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [pytest-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-0.3.2.tar.gz tmp/pytest-playwright-0.3.3.tar.gz --markdown 20230424/p/pytest-playwright/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dbx]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbx-0.8.8-py3-none-any.whl.zip tmp/dbx-0.8.9-py3-none-any.whl.zip --markdown 20230424/d/dbx/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tinylora-2.2.8.tar.gz tmp/adafruit-circuitpython-tinylora-2.2.9.tar.gz --markdown 20230424/a/adafruit-circuitpython-tinylora/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdsdr-1.230424.1.tar.gz tmp/azdsdr-1.230424.2.tar.gz --markdown 20230424/a/azdsdr/1.230424.1-1.230424.2/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [repairwheel]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [repairwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repairwheel-0.2.2.tar.gz tmp/repairwheel-0.2.3.tar.gz --markdown 20230424/r/repairwheel/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [azdsdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdsdr-1.230424.1.tar.gz tmp/azdsdr-1.230424.2.tar.gz --markdown 20230424/a/azdsdr/1.230424.1-1.230424.2/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.7.1.tar.gz tmp/griptape_tools-0.8.0.tar.gz --markdown 20230424/g/griptape-tools/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dingo-gw]: executing diffoscope
+[2023-04-24 21:33:29] INFO root fetch - processPackages [dingo-gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingo-gw-0.5.1.tar.gz tmp/dingo-gw-0.5.2.tar.gz --markdown 20230424/d/dingo-gw/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-24 21:33:29] INFO root fetch - processPackages [valis-wsi]: Downloading https://files.pythonhosted.org/packages/e6/5f/0e11fadf39fd510c898b865354a30c874acf3816a26ea1a887c5b3055110/valis_wsi-1.0.0rc9.tar.gz
+[2023-04-24 21:33:30] INFO root fetch - processPackages [valis-wsi]: executing diffoscope
+[2023-04-24 21:33:30] INFO root fetch - processPackages [valis-wsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valis_wsi-1.0.0rc8.tar.gz tmp/valis_wsi-1.0.0rc9.tar.gz --markdown 20230424/v/valis-wsi/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-04-24 21:33:31] INFO root fetch - processPackages [azdsdr]: Start processing: ramodels
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [azdsdr]: success
+[2023-04-24 21:33:31] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-24 21:33:31] INFO root fetch - processPackages [griptape-tools]: Start processing: cythonbuilder
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-04-24 21:33:31] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-24 21:33:31] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230424/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [azdsdr]: success
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2023-04-24 21:33:31] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [pytest-playwright]: success
+[2023-04-24 21:33:31] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/40/54/48d93eaf1cef7df3a34d4265dfe8876f9796b93ae82f1bd947ef05439b05/cythonbuilder-0.1.8.tar.gz
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [repairwheel]: success
+[2023-04-24 21:33:31] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tinylora]: success
+[2023-04-24 21:33:32] INFO root fetch - main [MainThread]: End processing [dbx]: success
+[2023-04-24 21:33:32] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/2c/9e/d799cbbb9ce6912aa83db8f57805ea54b9b7f742728c0b31a222c5f9fd07/cythonbuilder-0.1.9.tar.gz
+[2023-04-24 21:33:32] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-04-24 21:33:32] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230424/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 21:33:32] INFO root fetch - main [MainThread]: End processing [dingo-gw]: success
+[2023-04-24 21:33:32] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-24 21:33:33] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-04-24 21:33:33] INFO root fetch - main [MainThread]: End processing [valis-wsi]: success
+[2023-04-24 21:33:33] INFO root fetch - main [MainThread]: Store serial: [17838705]
