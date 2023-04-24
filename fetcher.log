@@ -5419,3 +5419,46 @@
 [2023-04-24 07:47:37] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-04-24 07:47:48] INFO root fetch - main [MainThread]: End processing [DXR]: success
 [2023-04-24 07:47:48] INFO root fetch - main [MainThread]: Store serial: [17829388]
+[2023-04-24 07:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829388]
+[2023-04-24 07:52:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikeCA
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyrv
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystorz
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sara-compis1-tools
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: html4quiz
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yang-vlp
+[2023-04-24 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siddhesh
+[2023-04-24 07:52:56] INFO root fetch - processPackages [NikeCA]: New version: [0.1.74] Old Version: [0.1.73]
+[2023-04-24 07:52:56] INFO root fetch - processPackages [yang-vlp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 07:52:56] INFO root fetch - processPackages [html4quiz]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-04-24 07:52:56] WARNING root fetch - processPackages [pystorz]: Skipping, unable to determine old version
+[2023-04-24 07:52:56] INFO root fetch - processPackages [sara-compis1-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 07:52:56] INFO root fetch - main [MainThread]: End processing [pystorz] error
+[2023-04-24 07:52:56] INFO root fetch - processPackages [easyrv]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 07:52:56] INFO root fetch - processPackages [siddhesh]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-04-24 07:52:56] INFO root fetch - processPackages [yang-vlp]: executing diffoscope
+[2023-04-24 07:52:56] INFO root fetch - processPackages [yang-vlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yang-vlp-0.2.8.tar.gz tmp/yang-vlp-0.2.9.tar.gz --markdown 20230424/y/yang-vlp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 07:52:56] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/5d/8d/a04483e8d9415effbe2181bd21406b70c9dbbc838c1d5c9b9713eca60cea/NikeCA-0.1.74.tar.gz
+[2023-04-24 07:52:57] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/95/8a/4983e718428c031c36b3f4bce7a4fb39c245f7b0471ef462ba776f75f851/html4quiz-0.0.32.tar.gz
+[2023-04-24 07:52:57] INFO root fetch - processPackages [easyrv]: Downloading https://files.pythonhosted.org/packages/ed/54/20dec4fa84becf0a18b3fd5f73d092d1ef729ed3bfb7a9e51adea0fdc576/easyrv-0.1.8-py3-none-any.whl
+[2023-04-24 07:52:57] INFO root fetch - processPackages [siddhesh]: Downloading https://files.pythonhosted.org/packages/4d/d2/b381e84db35031c692b48a3eda94884fdf26a38e4581019cdcac8611ff43/siddhesh-0.1.2.tar.gz
+[2023-04-24 07:52:57] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 07:52:57] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.73.tar.gz tmp/NikeCA-0.1.74.tar.gz --markdown 20230424/N/NikeCA/0.1.73-0.1.74/diff.md --exclude *.pyd
+[2023-04-24 07:52:57] INFO root fetch - processPackages [sara-compis1-tools]: Downloading https://files.pythonhosted.org/packages/b8/00/33bb9cc68c518067bef04af05eda170fc768a5470a0c8e4f2b1338ad1807/sara_compis1_tools-0.0.7.tar.gz
+[2023-04-24 07:52:57] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-24 07:52:57] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.31.tar.gz tmp/html4quiz-0.0.32.tar.gz --markdown 20230424/h/html4quiz/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-04-24 07:52:57] INFO root fetch - processPackages [siddhesh]: Downloading https://files.pythonhosted.org/packages/1d/01/17b11e07a5543fcf08d7c20f8c420a26570b790469509f8104dd1a2d9c25/siddhesh-0.1.5.tar.gz
+[2023-04-24 07:52:57] INFO root fetch - processPackages [sara-compis1-tools]: executing diffoscope
+[2023-04-24 07:52:57] INFO root fetch - processPackages [sara-compis1-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sara_compis1_tools-0.0.6.tar.gz tmp/sara_compis1_tools-0.0.7.tar.gz --markdown 20230424/s/sara-compis1-tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 07:52:57] INFO root fetch - processPackages [easyrv]: Downloading https://files.pythonhosted.org/packages/de/ec/6b784516dad883dbc0e19eb0ee9f83a4f4b91661464c887ee26322cf9e5f/easyrv-0.1.9-py3-none-any.whl
+[2023-04-24 07:52:57] INFO root fetch - processPackages [easyrv]: executing diffoscope
+[2023-04-24 07:52:57] INFO root fetch - processPackages [easyrv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyrv-0.1.8-py3-none-any.whl.zip tmp/easyrv-0.1.9-py3-none-any.whl.zip --markdown 20230424/e/easyrv/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 07:52:57] INFO root fetch - processPackages [siddhesh]: executing diffoscope
+[2023-04-24 07:52:57] INFO root fetch - processPackages [siddhesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siddhesh-0.1.2.tar.gz tmp/siddhesh-0.1.5.tar.gz --markdown 20230424/s/siddhesh/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 07:52:58] INFO root fetch - main [MainThread]: End processing [yang-vlp]: success
+[2023-04-24 07:52:58] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-24 07:52:58] INFO root fetch - main [MainThread]: End processing [siddhesh]: success
+[2023-04-24 07:52:58] INFO root fetch - main [MainThread]: End processing [easyrv]: success
+[2023-04-24 07:52:58] INFO root fetch - main [MainThread]: End processing [sara-compis1-tools]: success
+[2023-04-24 07:52:59] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 07:52:59] INFO root fetch - main [MainThread]: Store serial: [17829409]
