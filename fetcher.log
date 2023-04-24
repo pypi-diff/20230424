@@ -4686,3 +4686,47 @@
 [2023-04-24 06:00:13] INFO root fetch - main [MainThread]: End processing [datasette-explain]: success
 [2023-04-24 06:00:13] INFO root fetch - main [MainThread]: End processing [pybump]: success
 [2023-04-24 06:00:13] INFO root fetch - main [MainThread]: Store serial: [17828922]
+[2023-04-24 06:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828922]
+[2023-04-24 06:05:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindspore
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ReplayTables-andnp
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethhelper
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pushsource
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sitcom
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reytool
+[2023-04-24 06:05:23] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ethhelper]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [mindspore]: New version: [2.0.0rc1] Old Version: [2.0.0a0]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ReplayTables-andnp]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [pushsource]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [sitcom]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ethhelper]: Downloading https://files.pythonhosted.org/packages/74/78/e6f161280a947c458309f5cacd2cfe3087249bde627e8978f2472251eb1e/ethhelper-0.3.1.tar.gz
+[2023-04-24 06:05:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-24 06:05:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230424/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-24 06:05:23] INFO root fetch - processPackages [mindspore]: Downloading https://files.pythonhosted.org/packages/06/db/a656561032dc8ee1e543be6ee6beb5f6bc35afe70227c68b5ed17f1beb61/mindspore-2.0.0a0-cp39-none-any.whl
+[2023-04-24 06:05:23] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/58/de/89de756c0eaaa15a4eb489f78c581a4fdab1206049088d6e82c204c0de2b/pushsource-2.8.0.tar.gz
+[2023-04-24 06:05:23] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/80/0c/9c6cafbbe7332a5d3a30bd0bf6ad47283335ed5763ef66a104124db3a270/sitcom-1.3.1.tar.gz
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ReplayTables-andnp]: Downloading https://files.pythonhosted.org/packages/99/fa/41e8f4b9576e3721336c5728fbc66e94e39fec0164b593532694a13b1434/ReplayTables-andnp-2.5.0.tar.gz
+[2023-04-24 06:05:23] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-04-24 06:05:23] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230424/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-04-24 06:05:23] INFO root fetch - processPackages [ethhelper]: Downloading https://files.pythonhosted.org/packages/97/e3/08b5646e980ea95aaab0d73f582174b9de942aeb4b78d7651f841f62fbd5/ethhelper-0.3.2.tar.gz
+[2023-04-24 06:05:24] INFO root fetch - processPackages [ReplayTables-andnp]: executing diffoscope
+[2023-04-24 06:05:24] INFO root fetch - processPackages [ReplayTables-andnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReplayTables-andnp-2.4.0.tar.gz tmp/ReplayTables-andnp-2.5.0.tar.gz --markdown 20230424/R/ReplayTables-andnp/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-24 06:05:24] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/b2/3c/5e5a3f952ff711fb7ae8258cfbbd02ec112b5c51cc8745d6e8fd7b8b8cbb/pushsource-2.9.0.tar.gz
+[2023-04-24 06:05:24] INFO root fetch - processPackages [ethhelper]: executing diffoscope
+[2023-04-24 06:05:24] INFO root fetch - processPackages [ethhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethhelper-0.3.1.tar.gz tmp/ethhelper-0.3.2.tar.gz --markdown 20230424/e/ethhelper/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-24 06:05:24] WARNING root fetch - processPackages [mindspore]: Skipping package: exceeds size limit 195898759>=10485760
+[2023-04-24 06:05:24] INFO root fetch - main [MainThread]: End processing [mindspore] error
+[2023-04-24 06:05:24] INFO root fetch - processPackages [pushsource]: executing diffoscope
+[2023-04-24 06:05:24] INFO root fetch - processPackages [pushsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushsource-2.8.0.tar.gz tmp/pushsource-2.9.0.tar.gz --markdown 20230424/p/pushsource/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 06:05:25] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-04-24 06:05:25] INFO root fetch - processPackages [sitcom]: executing diffoscope
+[2023-04-24 06:05:25] INFO root fetch - processPackages [sitcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitcom-1.3.0.tar.gz tmp/sitcom-1.3.1.tar.gz --markdown 20230424/s/sitcom/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 06:05:25] INFO root fetch - main [MainThread]: End processing [ReplayTables-andnp]: success
+[2023-04-24 06:05:25] INFO root fetch - main [MainThread]: End processing [ethhelper]: success
+[2023-04-24 06:05:25] INFO root fetch - main [MainThread]: End processing [pushsource]: success
+[2023-04-24 06:05:27] INFO root fetch - main [MainThread]: End processing [sitcom]: success
+[2023-04-24 06:05:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-24 06:05:29] INFO root fetch - main [MainThread]: Store serial: [17828946]
