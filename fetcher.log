@@ -13063,3 +13063,72 @@
 [2023-04-24 14:58:49] INFO root fetch - main [MainThread]: End processing [edwh]: success
 [2023-04-24 14:58:50] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-04-24 14:58:50] INFO root fetch - main [MainThread]: Store serial: [17833775]
+[2023-04-24 15:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833775]
+[2023-04-24 15:03:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yuanfen
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptdeploy
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afdko
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yumikogram
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swedish-market-insights
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gptdeploy
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-hyperbolic
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marqeta-client
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-orbuculum-bad
+[2023-04-24 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: enstat
+[2023-04-24 15:03:59] INFO root fetch - processPackages [yumikogram]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [python-orbuculum-bad]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [yuanfen]: New version: [2023.4.24.9] Old Version: [2023.4.24.10]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [swedish-market-insights]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [enstat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [yumikogram]: executing diffoscope
+[2023-04-24 15:03:59] INFO root fetch - processPackages [yumikogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yumikogram-0.0.6.tar.gz tmp/yumikogram-0.0.7.tar.gz --markdown 20230424/y/yumikogram/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 15:03:59] INFO root fetch - processPackages [afdko]: New version: [3.9.5a0] Old Version: [3.9.4]
+[2023-04-24 15:03:59] WARNING root fetch - processPackages [torch-hyperbolic]: Skipping, unable to determine old version
+[2023-04-24 15:03:59] INFO root fetch - processPackages [torch-hyperbolic]: Start processing: scipion-em-tomo
+[2023-04-24 15:03:59] WARNING root fetch - processPackages [marqeta-client]: Skipping, unable to determine old version
+[2023-04-24 15:03:59] INFO root fetch - processPackages [marqeta-client]: Start processing: drifting
+[2023-04-24 15:03:59] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 15:03:59] INFO root fetch - main [MainThread]: End processing [torch-hyperbolic] error
+[2023-04-24 15:03:59] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 15:03:59] INFO root fetch - main [MainThread]: End processing [marqeta-client] error
+[2023-04-24 15:03:59] WARNING root fetch - processPackages [drifting]: Skipping, unable to determine old version
+[2023-04-24 15:03:59] INFO root fetch - processPackages [drifting]: Start processing: fluke5440b-async
+[2023-04-24 15:03:59] INFO root fetch - main [MainThread]: End processing [drifting] error
+[2023-04-24 15:03:59] INFO root fetch - processPackages [python-orbuculum-bad]: executing diffoscope
+[2023-04-24 15:03:59] INFO root fetch - processPackages [python-orbuculum-bad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_orbuculum_bad-0.1.0.tar.gz tmp/python_orbuculum_bad-0.1.1.tar.gz --markdown 20230424/p/python-orbuculum-bad/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 15:03:59] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 15:03:59] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 15:03:59] INFO root fetch - processPackages [scipion-em-tomo]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-04-24 15:03:59] INFO root fetch - processPackages [afdko]: Downloading https://files.pythonhosted.org/packages/ff/65/2812669e53d745dcb6787b093b1e7f97e217c3f24567819b07de5d01007e/afdko-3.9.4.tar.gz
+[2023-04-24 15:03:59] WARNING root fetch - processPackages [afdko]: Skipping package: exceeds size limit 16175185>=10485760
+[2023-04-24 15:03:59] INFO root fetch - main [MainThread]: End processing [afdko] error
+[2023-04-24 15:03:59] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/d7/e8/4a27ec64e686a312ea17bda9b00ddad057bfcaf5be1aee66f6e76d6d4cb3/enstat-0.8.3.tar.gz
+[2023-04-24 15:03:59] INFO root fetch - processPackages [fluke5440b-async]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-04-24 15:04:00] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2023-04-24 15:04:00] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2023.4.24.10.tar.gz tmp/yuanfen-2023.4.24.9.tar.gz --markdown 20230424/y/yuanfen/2023.4.24.10-2023.4.24.9/diff.md --exclude *.pyd
+[2023-04-24 15:04:00] INFO root fetch - processPackages [swedish-market-insights]: Downloading https://files.pythonhosted.org/packages/1a/ab/50878afe6373f82bec9726c16cc70ac20fdd5d0f492a9aa584d0886be530/swedish_market_insights-0.1.2.tar.gz
+[2023-04-24 15:04:00] INFO root fetch - processPackages [scipion-em-tomo]: Downloading https://files.pythonhosted.org/packages/e0/14/edac03039b27c59dbf29b6a7953cd2ec29f4e3ffa358f332f5d661340021/scipion-em-tomo-3.1.7.tar.gz
+[2023-04-24 15:04:00] INFO root fetch - processPackages [fluke5440b-async]: Downloading https://files.pythonhosted.org/packages/48/d0/fa008c9f410aa8c9a2fc2797544ec73f75f44d1d10236e7407792319b815/fluke5440b_async-0.9.0.tar.gz
+[2023-04-24 15:04:00] INFO root fetch - processPackages [swedish-market-insights]: executing diffoscope
+[2023-04-24 15:04:00] INFO root fetch - processPackages [swedish-market-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swedish_market_insights-0.1.1.tar.gz tmp/swedish_market_insights-0.1.2.tar.gz --markdown 20230424/s/swedish-market-insights/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 15:04:00] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/d6/59/e0b9f03e90afd1d3feff0509b68be391c323430882bc0e1095463b35177c/enstat-0.9.0.tar.gz
+[2023-04-24 15:04:00] INFO root fetch - processPackages [scipion-em-tomo]: Downloading https://files.pythonhosted.org/packages/8e/54/f7c0776e9516ae2c43bba075f25b62f44cd972286af90e15008778d5d07d/scipion-em-tomo-3.1.8.tar.gz
+[2023-04-24 15:04:00] INFO root fetch - processPackages [enstat]: executing diffoscope
+[2023-04-24 15:04:00] INFO root fetch - processPackages [enstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstat-0.8.3.tar.gz tmp/enstat-0.9.0.tar.gz --markdown 20230424/e/enstat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 15:04:00] INFO root fetch - processPackages [fluke5440b-async]: Downloading https://files.pythonhosted.org/packages/42/d8/d599667314b9b0dc6a8a250f94c923c7a69d17e310ad1d4e7078aacdfbdf/fluke5440b_async-1.0.0.tar.gz
+[2023-04-24 15:04:00] INFO root fetch - processPackages [scipion-em-tomo]: executing diffoscope
+[2023-04-24 15:04:00] INFO root fetch - processPackages [scipion-em-tomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-tomo-3.1.7.tar.gz tmp/scipion-em-tomo-3.1.8.tar.gz --markdown 20230424/s/scipion-em-tomo/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-04-24 15:04:00] INFO root fetch - processPackages [fluke5440b-async]: executing diffoscope
+[2023-04-24 15:04:00] INFO root fetch - processPackages [fluke5440b-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke5440b_async-0.9.0.tar.gz tmp/fluke5440b_async-1.0.0.tar.gz --markdown 20230424/f/fluke5440b-async/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [python-orbuculum-bad]: success
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [yumikogram]: success
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [swedish-market-insights]: success
+[2023-04-24 15:04:01] INFO root fetch - main [MainThread]: End processing [fluke5440b-async]: success
+[2023-04-24 15:04:02] INFO root fetch - main [MainThread]: End processing [scipion-em-tomo]: success
+[2023-04-24 15:04:18] INFO root fetch - main [MainThread]: End processing [enstat]: success
+[2023-04-24 15:04:18] INFO root fetch - main [MainThread]: Store serial: [17833831]
