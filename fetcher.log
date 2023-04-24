@@ -14713,3 +14713,163 @@
 [2023-04-24 16:22:32] INFO root fetch - main [MainThread]: End processing [badi-users]: success
 [2023-04-24 16:22:35] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
 [2023-04-24 16:22:35] INFO root fetch - main [MainThread]: Store serial: [17834782]
+[2023-04-24 16:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834782]
+[2023-04-24 16:27:44] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-semantic-release
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stooqer
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tronapi-JCO
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fossl
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipfabric
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spacemake
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: japura
+[2023-04-24 16:27:44] WARNING root fetch - processPackages [fossl]: Skipping, unable to determine old version
+[2023-04-24 16:27:44] INFO root fetch - processPackages [fossl]: Start processing: cz-nhm
+[2023-04-24 16:27:44] INFO root fetch - main [MainThread]: End processing [fossl] error
+[2023-04-24 16:27:44] INFO root fetch - processPackages [spacemake]: New version: [0.7.2] Old Version: [0.7]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [japura]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [tronapi-JCO]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a5] Old Version: [8.0.0a4]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [cz-nhm]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ipfabric]: New version: [6.2.1] Old Version: [6.2.0b4]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-24 16:27:44] WARNING root fetch - processPackages [stooqer]: Skipping, unable to determine old version
+[2023-04-24 16:27:44] INFO root fetch - processPackages [stooqer]: Start processing: coiled
+[2023-04-24 16:27:44] INFO root fetch - main [MainThread]: End processing [stooqer] error
+[2023-04-24 16:27:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [cz-nhm]: Downloading https://files.pythonhosted.org/packages/81/3c/8dcbe476ec12eda2190e8abf31aaf6e177271d354cd32cea4f30db844ac5/cz_nhm-0.4.1.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/75/2f/826f5fd0c6bf525ed3cd7199c9efaa8a431240d6c366d68fe3a9f8c34737/hotsos-1.1.13.post8.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [japura]: Downloading https://files.pythonhosted.org/packages/46/30/0d6eff56d559399c2dcd18df318e6fcb595692d7b967a69569ddfde98e97/japura-0.2.1.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-04-24 16:27:44] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a4.tar.gz tmp/python-semantic-release-8.0.0a5.tar.gz --markdown 20230424/p/python-semantic-release/8.0.0a4-8.0.0a5/diff.md --exclude *.pyd
+[2023-04-24 16:27:44] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [spacemake]: Downloading https://files.pythonhosted.org/packages/d3/ca/4c52511edf4545628482daf38daf313165cf7b4e82d39699d4b77ce3a073/spacemake-0.7.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [tronapi-JCO]: Downloading https://files.pythonhosted.org/packages/84/32/3c0f4bf61c6c67d27b8ba059689856914ddfa118114d5bd254a04b438c53/tronapi-JCO-3.1.5.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-24 16:27:44] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/36/17/4ae58b129a06808f4ab0543f38462266941d0961bdcdb79b88c35f4e7527/ipfabric-6.2.0b4.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-24 16:27:44] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230424/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-24 16:27:44] INFO root fetch - processPackages [cz-nhm]: executing diffoscope
+[2023-04-24 16:27:44] INFO root fetch - processPackages [cz-nhm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_nhm-0.4.0.tar.gz tmp/cz_nhm-0.4.1.tar.gz --markdown 20230424/c/cz-nhm/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-24 16:27:44] INFO root fetch - processPackages [japura]: Downloading https://files.pythonhosted.org/packages/5a/93/5fb75ffc64a0b15ecf01cdbf15d6d3c3722798e1cee213a9ae22f0a9000e/japura-0.3.0.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/95/52/1124faffb6267189a377decdf47aa64828b350f49f8edf82c0b048673160/hotsos-1.1.13.post9.tar.gz
+[2023-04-24 16:27:44] INFO root fetch - processPackages [tronapi-JCO]: Downloading https://files.pythonhosted.org/packages/e1/a5/2022060c7551b49976f89329fe38a32e7aeb88c476c465256e6328573da4/tronapi-JCO-3.1.6.tar.gz
+[2023-04-24 16:27:45] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230424/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spacemake]: Downloading https://files.pythonhosted.org/packages/fb/22/98eb4954a6ca3e55904ae0cac75d64a75b93aec06096a496a909bcc95269/spacemake-0.7.2.tar.gz
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-04-24 16:27:45] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/99/90/290d3b3821d9ba4e6adeaec46d4d7daf216cf6972c79144cae6dbf96cddf/ipfabric-6.2.1.tar.gz
+[2023-04-24 16:27:45] INFO root fetch - processPackages [japura]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [japura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/japura-0.2.1.tar.gz tmp/japura-0.3.0.tar.gz --markdown 20230424/j/japura/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 16:27:45] INFO root fetch - processPackages [tronapi-JCO]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [tronapi-JCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tronapi-JCO-3.1.5.tar.gz tmp/tronapi-JCO-3.1.6.tar.gz --markdown 20230424/t/tronapi-JCO/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230424/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230424/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-24 16:27:45] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spacemake]: executing diffoscope
+[2023-04-24 16:27:45] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.2.0b4.tar.gz tmp/ipfabric-6.2.1.tar.gz --markdown 20230424/i/ipfabric/6.2.0b4-6.2.1/diff.md --exclude *.pyd
+[2023-04-24 16:27:45] INFO root fetch - processPackages [spacemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacemake-0.7.tar.gz tmp/spacemake-0.7.2.tar.gz --markdown 20230424/s/spacemake/0.7-0.7.2/diff.md --exclude *.pyd
+[2023-04-24 16:27:46] INFO root fetch - processPackages [cz-nhm]: Start processing: imio.smartweb.core
+[2023-04-24 16:27:46] INFO root fetch - main [MainThread]: End processing [cz-nhm]: success
+[2023-04-24 16:27:46] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-24 16:27:46] INFO root fetch - processPackages [japura]: Start processing: quocs-lib
+[2023-04-24 16:27:46] INFO root fetch - main [MainThread]: End processing [japura]: success
+[2023-04-24 16:27:46] INFO root fetch - processPackages [quocs-lib]: New version: [0.0a19] Old Version: [0.0a18]
+[2023-04-24 16:27:46] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/39/01/1ae2ef4e6028f2c52dd5a3806f86711119ccb76425e1d8277c4247f19feb/imio.smartweb.core-1.1.8.tar.gz
+[2023-04-24 16:27:46] INFO root fetch - processPackages [quocs-lib]: executing diffoscope
+[2023-04-24 16:27:46] INFO root fetch - processPackages [quocs-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quocs-lib-0.0a18.tar.gz tmp/quocs-lib-0.0a19.tar.gz --markdown 20230424/q/quocs-lib/0.0a18-0.0a19/diff.md --exclude *.pyd
+[2023-04-24 16:27:46] INFO root fetch - processPackages [spanishconjugator]: Start processing: eckity
+[2023-04-24 16:27:46] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-24 16:27:46] INFO root fetch - processPackages [eckity]: New version: [0.3.4] Old Version: [0.3.1]
+[2023-04-24 16:27:46] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/0f/a3/6cca5dd5885aab74c6eda6e55cfd18561b54b23359684f77ff3a38bf4be8/imio.smartweb.core-1.1.9.tar.gz
+[2023-04-24 16:27:46] INFO root fetch - processPackages [ipfabric]: Start processing: autoplot
+[2023-04-24 16:27:46] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2023-04-24 16:27:46] INFO root fetch - processPackages [eckity]: Downloading https://files.pythonhosted.org/packages/97/cd/2dde96cee4846b52bbdde8249d2de4f9b9f2821eb0623ee249bc9c7542c2/eckity-0.3.1.tar.gz
+[2023-04-24 16:27:47] INFO root fetch - processPackages [spacemake]: Start processing: assistant-project
+[2023-04-24 16:27:47] INFO root fetch - main [MainThread]: End processing [spacemake]: success
+[2023-04-24 16:27:47] INFO root fetch - processPackages [autoplot]: New version: [0.6.1] Old Version: [0.5.2]
+[2023-04-24 16:27:47] INFO root fetch - processPackages [tronapi-JCO]: Start processing: qmake2cmake
+[2023-04-24 16:27:47] INFO root fetch - main [MainThread]: End processing [tronapi-JCO]: success
+[2023-04-24 16:27:47] INFO root fetch - processPackages [qmake2cmake]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 16:27:47] INFO root fetch - processPackages [assistant-project]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-24 16:27:47] INFO root fetch - processPackages [spanishconjugator]: Start processing: mle-flake8-plugins
+[2023-04-24 16:27:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-24 16:27:47] INFO root fetch - processPackages [eckity]: Downloading https://files.pythonhosted.org/packages/35/b9/bdebb90c6b30738250576a081abef138041119cfc4fad4865ce1f1d49b96/eckity-0.3.4.tar.gz
+[2023-04-24 16:27:47] INFO root fetch - processPackages [mle-flake8-plugins]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 16:27:47] INFO root fetch - processPackages [autoplot]: Downloading https://files.pythonhosted.org/packages/9b/35/ecb60e0a8f0ace7f639efb82db12a779d021ace1e8a8bec7297d75748412/autoplot-0.5.2.tar.gz
+[2023-04-24 16:27:47] INFO root fetch - processPackages [qmake2cmake]: executing diffoscope
+[2023-04-24 16:27:47] INFO root fetch - processPackages [qmake2cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmake2cmake-1.0.3.tar.gz tmp/qmake2cmake-1.0.4.tar.gz --markdown 20230424/q/qmake2cmake/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-24 16:27:47] INFO root fetch - processPackages [eckity]: executing diffoscope
+[2023-04-24 16:27:47] INFO root fetch - processPackages [eckity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eckity-0.3.1.tar.gz tmp/eckity-0.3.4.tar.gz --markdown 20230424/e/eckity/0.3.1-0.3.4/diff.md --exclude *.pyd
+[2023-04-24 16:27:47] INFO root fetch - processPackages [mle-flake8-plugins]: executing diffoscope
+[2023-04-24 16:27:47] INFO root fetch - processPackages [mle-flake8-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mle_flake8_plugins-0.1.2.tar.gz tmp/mle_flake8_plugins-0.1.3.tar.gz --markdown 20230424/m/mle-flake8-plugins/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 16:27:47] INFO root fetch - processPackages [autoplot]: Downloading https://files.pythonhosted.org/packages/ca/77/295623916d344875dce0082a1187c8385b5a5d3d4f91f15e178f93c34a71/autoplot-0.6.1.tar.gz
+[2023-04-24 16:27:47] INFO root fetch - processPackages [assistant-project]: Downloading https://files.pythonhosted.org/packages/b0/8e/5f0257a9df54f3f2f23af956d094e994e65dec9fb0b9c0ac4add87734765/assistant_project-0.3.1.tar.gz
+[2023-04-24 16:27:47] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2023-04-24 16:27:47] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.1.8.tar.gz tmp/imio.smartweb.core-1.1.9.tar.gz --markdown 20230424/i/imio.smartweb.core/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-24 16:27:47] INFO root fetch - processPackages [autoplot]: executing diffoscope
+[2023-04-24 16:27:47] INFO root fetch - processPackages [autoplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoplot-0.5.2.tar.gz tmp/autoplot-0.6.1.tar.gz --markdown 20230424/a/autoplot/0.5.2-0.6.1/diff.md --exclude *.pyd
+[2023-04-24 16:27:47] INFO root fetch - processPackages [assistant-project]: executing diffoscope
+[2023-04-24 16:27:47] INFO root fetch - processPackages [assistant-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistant_project-0.3.tar.gz tmp/assistant_project-0.3.1.tar.gz --markdown 20230424/a/assistant-project/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 16:27:48] INFO root fetch - processPackages [python-semantic-release]: Start processing: OpenFisca-France
+[2023-04-24 16:27:48] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-04-24 16:27:48] INFO root fetch - processPackages [quocs-lib]: Start processing: py-optional
+[2023-04-24 16:27:48] INFO root fetch - main [MainThread]: End processing [quocs-lib]: success
+[2023-04-24 16:27:48] INFO root fetch - processPackages [py-optional]: New version: [1.0a5] Old Version: [1.0a4]
+[2023-04-24 16:27:48] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-04-24 16:27:48] INFO root fetch - processPackages [py-optional]: executing diffoscope
+[2023-04-24 16:27:48] INFO root fetch - processPackages [py-optional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_optional-1.0a4.tar.gz tmp/py_optional-1.0a5.tar.gz --markdown 20230424/p/py-optional/1.0a4-1.0a5/diff.md --exclude *.pyd
+[2023-04-24 16:27:48] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-04-24 16:27:48] INFO root fetch - processPackages [qmake2cmake]: Start processing: aa-simplewiki
+[2023-04-24 16:27:48] INFO root fetch - main [MainThread]: End processing [qmake2cmake]: success
+[2023-04-24 16:27:48] INFO root fetch - processPackages [mle-flake8-plugins]: Start processing: ckanext-nhm
+[2023-04-24 16:27:48] INFO root fetch - main [MainThread]: End processing [mle-flake8-plugins]: success
+[2023-04-24 16:27:48] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-04-24 16:27:48] WARNING root fetch - processPackages [aa-simplewiki]: Skipping, unable to determine old version
+[2023-04-24 16:27:48] INFO root fetch - processPackages [aa-simplewiki]: Start processing: python-ms-core
+[2023-04-24 16:27:48] INFO root fetch - main [MainThread]: End processing [aa-simplewiki] error
+[2023-04-24 16:27:48] INFO root fetch - processPackages [ckanext-nhm]: New version: [5.6.2] Old Version: [5.6.1]
+[2023-04-24 16:27:48] INFO root fetch - processPackages [autoplot]: Start processing: typeql-grammar
+[2023-04-24 16:27:48] INFO root fetch - main [MainThread]: End processing [autoplot]: success
+[2023-04-24 16:27:48] INFO root fetch - processPackages [python-ms-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:27:48] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-04-24 16:27:48] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230424/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-04-24 16:27:49] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/53/43/7d20c74e207eea9c2a0c554ae9dfa2359698b617895d7ca8ae802e753c73/ckanext-nhm-5.6.1.tar.gz
+[2023-04-24 16:27:49] INFO root fetch - processPackages [typeql-grammar]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-24 16:27:49] INFO root fetch - processPackages [python-ms-core]: Downloading https://files.pythonhosted.org/packages/8b/cb/b66113396fd3898574b01935799477bc74fd098ed667fcdd87c3b3fa8d82/python_ms_core-0.0.8-py3-none-any.whl
+[2023-04-24 16:27:49] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 29272957>=10485760
+[2023-04-24 16:27:49] INFO root fetch - processPackages [ckanext-nhm]: Start processing: questdb-connect
+[2023-04-24 16:27:49] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2023-04-24 16:27:49] WARNING root fetch - processPackages [questdb-connect]: Skipping, unable to determine old version
+[2023-04-24 16:27:49] INFO root fetch - processPackages [questdb-connect]: Start processing: python-liquid
+[2023-04-24 16:27:49] INFO root fetch - main [MainThread]: End processing [questdb-connect] error
+[2023-04-24 16:27:49] INFO root fetch - processPackages [typeql-grammar]: Downloading https://files.pythonhosted.org/packages/2f/1b/a5bbd297c879c7362b892557b533662c4e16d4bff97d5fa426eae4efb785/typeql-grammar-2.8.0.tar.gz
+[2023-04-24 16:27:49] INFO root fetch - main [MainThread]: End processing [eckity]: success
+[2023-04-24 16:27:49] INFO root fetch - processPackages [python-liquid]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-24 16:27:49] INFO root fetch - main [MainThread]: End processing [py-optional]: success
+[2023-04-24 16:27:49] INFO root fetch - main [MainThread]: End processing [assistant-project]: success
+[2023-04-24 16:27:49] INFO root fetch - processPackages [python-ms-core]: Downloading https://files.pythonhosted.org/packages/36/68/f44aaef418d79d525b7c72f7705b33327f55471582b3f3d12e768365b053/python_ms_core-0.0.9-py3-none-any.whl
+[2023-04-24 16:27:49] INFO root fetch - processPackages [typeql-grammar]: Downloading https://files.pythonhosted.org/packages/01/1f/30c268096d93902f97fdec8b2e41482e2440be55177ebcc686598d94f6b7/typeql-grammar-2.9.0.tar.gz
+[2023-04-24 16:27:49] INFO root fetch - processPackages [python-liquid]: Downloading https://files.pythonhosted.org/packages/0b/fe/a864d532d0e49d10185f72c0374125baf62a3f7172fba42f3cd153e4657e/python_liquid-1.9.1.tar.gz
+[2023-04-24 16:27:49] INFO root fetch - processPackages [typeql-grammar]: executing diffoscope
+[2023-04-24 16:27:49] INFO root fetch - processPackages [typeql-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeql-grammar-2.8.0.tar.gz tmp/typeql-grammar-2.9.0.tar.gz --markdown 20230424/t/typeql-grammar/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 16:27:49] INFO root fetch - processPackages [python-ms-core]: executing diffoscope
+[2023-04-24 16:27:49] INFO root fetch - processPackages [python-ms-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ms_core-0.0.8-py3-none-any.whl.zip tmp/python_ms_core-0.0.9-py3-none-any.whl.zip --markdown 20230424/p/python-ms-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:27:50] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-24 16:27:50] INFO root fetch - processPackages [python-liquid]: Downloading https://files.pythonhosted.org/packages/ca/98/041c444dbaaf31e2ac9d32c157115d0d9be96b0d5d5cb75aae4dbe8fae0f/python_liquid-1.9.2-py3-none-any.whl
+[2023-04-24 16:27:50] INFO root fetch - processPackages [python-liquid]: executing diffoscope
+[2023-04-24 16:27:50] INFO root fetch - processPackages [python-liquid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_liquid-1.9.1.tar.gz tmp/python_liquid-1.9.2-py3-none-any.whl.zip --markdown 20230424/p/python-liquid/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-24 16:27:50] INFO root fetch - main [MainThread]: End processing [python-ms-core]: success
+[2023-04-24 16:27:50] INFO root fetch - main [MainThread]: End processing [typeql-grammar]: success
+[2023-04-24 16:27:51] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-24 16:27:53] INFO root fetch - main [MainThread]: End processing [python-liquid]: success
+[2023-04-24 16:27:56] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2023-04-24 16:29:04] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-04-24 16:29:04] INFO root fetch - main [MainThread]: Store serial: [17834865]
