@@ -15044,3 +15044,129 @@
 [2023-04-24 16:34:27] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-24 16:34:38] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-24 16:34:38] INFO root fetch - main [MainThread]: Store serial: [17834964]
+[2023-04-24 16:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834964]
+[2023-04-24 16:39:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uffspd
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-httpserver
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doc2tei-CERTIC
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PwnModules
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: griseo
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vit-keras
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PLAN-Tools
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: doc2tei-CERTIC
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Flet-StoryBoard
+[2023-04-24 16:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphdisplay
+[2023-04-24 16:39:52] INFO root fetch - processPackages [uffspd]: New version: [0.12] Old Version: [0.11]
+[2023-04-24 16:39:52] WARNING root fetch - processPackages [PwnModules]: Skipping, unable to determine old version
+[2023-04-24 16:39:52] INFO root fetch - processPackages [PwnModules]: Start processing: icommandlib
+[2023-04-24 16:39:52] INFO root fetch - main [MainThread]: End processing [PwnModules] error
+[2023-04-24 16:39:52] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [griseo]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [icommandlib]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [Flet-StoryBoard]: New version: [1.0] Old Version: [0.2.6]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [PLAN-Tools]: New version: [0.6] Old Version: [0.5]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [vit-keras]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [graphdisplay]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 16:39:52] INFO root fetch - processPackages [vit-keras]: Downloading https://files.pythonhosted.org/packages/d1/7c/a53b534f9ca3e3b6b9f44ba39dcb51ee18e30012c8a63ccd96f01b747876/vit-keras-0.1.0.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [PLAN-Tools]: Downloading https://files.pythonhosted.org/packages/90/9e/1da877999e158ae1923628113d1b21aef6f6dbcd4ec1df932a9b2cb5c9a7/PLAN-Tools-0.5.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [icommandlib]: Downloading https://files.pythonhosted.org/packages/ec/ba/ec6da271d2bfd0485691b0ab5e6384c7a9b733ed17b3ba6b29c0c57b2d67/icommandlib-0.6.1.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [griseo]: Downloading https://files.pythonhosted.org/packages/ba/cb/f19d1adf6747d640e31c049876b276a6b8eab88ada427e46b4acfb37b3f6/griseo-0.7.2.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/0f/50/365343f5f692b0a30f3b7c49d4df47d3588cad07fed707472c70c9be3599/graphdisplay-0.0.1.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/44/2d/4682433b4fdc2e2c6a9d542cbb3b427a3c572fd698007a26cc049f0b24ed/doc2tei-CERTIC-0.0.8.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [Flet-StoryBoard]: Downloading https://files.pythonhosted.org/packages/f3/15/0add84616ad202a4016250ac2f821bab735e7ef8dea7adabf68b64f1b8c4/Flet%20StoryBoard-0.2.6.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/44/2d/4682433b4fdc2e2c6a9d542cbb3b427a3c572fd698007a26cc049f0b24ed/doc2tei-CERTIC-0.0.8.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Downloading https://files.pythonhosted.org/packages/d5/77/37d3aae67e3021f17e5973aff72a968b33873443b47b3df43c58f13732a8/adafruit-circuitpython-httpserver-3.0.0.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [PLAN-Tools]: Downloading https://files.pythonhosted.org/packages/44/02/2afd83287e71fd5c645f4f1cfacc2cca40f485ad5898cb95e686aae839eb/PLAN-Tools-0.6.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [vit-keras]: Downloading https://files.pythonhosted.org/packages/a9/f0/65606709ad8c220cc315ad9f4fee9079e4ab59f6fe8a1cccdae488b9ba2f/vit_keras-0.1.1-py3-none-any.whl
+[2023-04-24 16:39:52] INFO root fetch - processPackages [icommandlib]: Downloading https://files.pythonhosted.org/packages/a7/6b/600c0b4e9b91b92be7baad866e365ea0be7a0558de63a6ea7a14d5bf4055/icommandlib-0.7.0.tar.gz
+[2023-04-24 16:39:52] INFO root fetch - processPackages [Flet-StoryBoard]: Downloading https://files.pythonhosted.org/packages/02/57/b37c4de43f14d3b4f472520c3b46b7fd351a5dc949ff9d476016fda242e4/Flet%20StoryBoard-1.0.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Downloading https://files.pythonhosted.org/packages/80/c8/add6ad4fc115729d00afb5ca733a43b83ef8efb947dfe912dc41df7ba3ff/adafruit-circuitpython-httpserver-3.0.1.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [griseo]: Downloading https://files.pythonhosted.org/packages/4b/15/f11c52c8e432ac89ffbe9dc5a7ce8b766721a54032901240baa82b985877/griseo-0.8.0.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/77/78/d990cdc9342e8b23410afeb17eea37fd6f1704fb8aff7de503148d485823/graphdisplay-0.0.2.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [vit-keras]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [vit-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-keras-0.1.0.tar.gz tmp/vit_keras-0.1.1-py3-none-any.whl.zip --markdown 20230424/v/vit-keras/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [PLAN-Tools]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [PLAN-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PLAN-Tools-0.5.tar.gz tmp/PLAN-Tools-0.6.tar.gz --markdown 20230424/P/PLAN-Tools/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [icommandlib]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [icommandlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icommandlib-0.6.1.tar.gz tmp/icommandlib-0.7.0.tar.gz --markdown 20230424/i/icommandlib/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [Flet-StoryBoard]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [Flet-StoryBoard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flet StoryBoard-0.2.6.tar.gz tmp/Flet StoryBoard-1.0.tar.gz --markdown 20230424/F/Flet-StoryBoard/0.2.6-1.0/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/1e/0c/776d294d99e176e45dcf3f7bd874f2a7f00cd944c1c9e603cdf01e6e0b4c/doc2tei-CERTIC-0.0.9.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/1e/0c/776d294d99e176e45dcf3f7bd874f2a7f00cd944c1c9e603cdf01e6e0b4c/doc2tei-CERTIC-0.0.9.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [uffspd]: Downloading https://files.pythonhosted.org/packages/c1/ab/a136ca17b8f9e7abca18723e728dc800f6ff8c75fb33e71ee968c98d355f/uffspd-0.12.tar.gz
+[2023-04-24 16:39:53] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-httpserver-3.0.0.tar.gz tmp/adafruit-circuitpython-httpserver-3.0.1.tar.gz --markdown 20230424/a/adafruit-circuitpython-httpserver/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.0.1.tar.gz tmp/graphdisplay-0.0.2.tar.gz --markdown 20230424/g/graphdisplay/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [griseo]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [griseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griseo-0.7.2.tar.gz tmp/griseo-0.8.0.tar.gz --markdown 20230424/g/griseo/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230424/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230424/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:39:53] INFO root fetch - processPackages [uffspd]: executing diffoscope
+[2023-04-24 16:39:53] INFO root fetch - processPackages [uffspd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uffspd-0.11.tar.gz tmp/uffspd-0.12.tar.gz --markdown 20230424/u/uffspd/0.11-0.12/diff.md --exclude *.pyd
+[2023-04-24 16:39:54] INFO root fetch - processPackages [vit-keras]: Start processing: doc2tei-CERTIC
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [vit-keras]: success
+[2023-04-24 16:39:54] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-24 16:39:54] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230424/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:39:54] INFO root fetch - processPackages [graphdisplay]: Start processing: pb-graphene
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-04-24 16:39:54] INFO root fetch - processPackages [pb-graphene]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [icommandlib]: Start processing: AegosInfo
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [icommandlib]: success
+[2023-04-24 16:39:54] WARNING root fetch - processPackages [AegosInfo]: Skipping, unable to determine old version
+[2023-04-24 16:39:54] INFO root fetch - processPackages [AegosInfo]: Start processing: hiddifypanel
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [AegosInfo] error
+[2023-04-24 16:39:54] INFO root fetch - processPackages [griseo]: Start processing: kcli
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [griseo]: success
+[2023-04-24 16:39:54] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev5] Old Version: [5.0.0.dev4]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [PLAN-Tools]: Start processing: adafruit-circuitpython-httpserver
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [PLAN-Tools]: success
+[2023-04-24 16:39:54] INFO root fetch - processPackages [kcli]: New version: [99.0.202304241438] Old Version: [99.0.202304241352]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [Flet-StoryBoard]: Start processing: rwthcolors
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [Flet-StoryBoard]: success
+[2023-04-24 16:39:54] INFO root fetch - processPackages [pb-graphene]: Downloading https://files.pythonhosted.org/packages/bc/78/96652fa9218cd97c0ffd1dad6b78bba9c5455f0a5575aa94e5d91cbede21/pb-graphene-0.0.1.tar.gz
+[2023-04-24 16:39:54] INFO root fetch - processPackages [rwthcolors]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Start processing: jarvis-leaderboard
+[2023-04-24 16:39:54] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-httpserver]: success
+[2023-04-24 16:39:54] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: executing diffoscope
+[2023-04-24 16:39:54] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-httpserver-3.0.0.tar.gz tmp/adafruit-circuitpython-httpserver-3.0.1.tar.gz --markdown 20230424/a/adafruit-circuitpython-httpserver/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-24 16:39:54] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.4.20] Old Version: [2023.4.13]
+[2023-04-24 16:39:54] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/98/8b/a4f7bb57add96026cead6e7e67bc6acf760016d501deb5338253f81d1622/jarvis_leaderboard-2023.4.13.tar.gz
+[2023-04-24 16:39:55] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1e/bd/6111218882c73cc3f8ccb6b37f95f935a6b5a75cb4cf9f0550e83fe05fe1/kcli-99.0.202304241352-py3-none-any.whl
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rwthcolors]: Downloading https://files.pythonhosted.org/packages/6d/e3/d9170d176784266f01383f2ffddd5d7e5355d8c86378e3ffb08b07b77fa8/rwthcolors-0.2.1.tar.gz
+[2023-04-24 16:39:55] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/e6/fd/de08686dfb20c3f950007d18f2e44da2e6d004156361540415df2c881290/hiddifypanel-5.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 16:39:55] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 77552264>=10485760
+[2023-04-24 16:39:55] INFO root fetch - processPackages [jarvis-leaderboard]: Start processing: rucio-consistency
+[2023-04-24 16:39:55] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-04-24 16:39:55] INFO root fetch - processPackages [pb-graphene]: Downloading https://files.pythonhosted.org/packages/7b/39/7a6666568d4a9845716dca7eb7eb1693575057133116ab885e036c1793d7/pb-graphene-0.0.2.tar.gz
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rwthcolors]: executing diffoscope
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rwthcolors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwthcolors-0.2.0.tar.gz tmp/rwthcolors-0.2.1.tar.gz --markdown 20230424/r/rwthcolors/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rucio-consistency]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-04-24 16:39:55] INFO root fetch - processPackages [pb-graphene]: executing diffoscope
+[2023-04-24 16:39:55] INFO root fetch - processPackages [pb-graphene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pb-graphene-0.0.1.tar.gz tmp/pb-graphene-0.0.2.tar.gz --markdown 20230424/p/pb-graphene/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rucio-consistency]: Downloading https://files.pythonhosted.org/packages/d6/68/565b8217d8290d3e4a20eebd84494c5fe9b94044faf01ae94ca2d9b431a9/rucio-consistency-1.0.7.tar.gz
+[2023-04-24 16:39:55] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cd/4d/8c6b34468adced19592f2639e1739941a09a37c8be927bbed9fea2bcde60/kcli-99.0.202304241438-py3-none-any.whl
+[2023-04-24 16:39:55] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rucio-consistency]: Downloading https://files.pythonhosted.org/packages/2d/f8/4c0422d511e4a2eca74ab086e4c2735fc5516706403c2dd2900e7baf8d92/rucio-consistency-1.0.9.tar.gz
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rucio-consistency]: executing diffoscope
+[2023-04-24 16:39:55] INFO root fetch - processPackages [rucio-consistency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-consistency-1.0.7.tar.gz tmp/rucio-consistency-1.0.9.tar.gz --markdown 20230424/r/rucio-consistency/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:39:55] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-24 16:39:55] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304241352-py3-none-any.whl.zip tmp/kcli-99.0.202304241438-py3-none-any.whl.zip --markdown 20230424/k/kcli/99.0.202304241352-99.0.202304241438/diff.md --exclude *.pyd
+[2023-04-24 16:39:56] INFO root fetch - main [MainThread]: End processing [rwthcolors]: success
+[2023-04-24 16:39:56] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-httpserver]: success
+[2023-04-24 16:39:56] INFO root fetch - main [MainThread]: End processing [pb-graphene]: success
+[2023-04-24 16:39:56] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-24 16:39:56] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230424/h/hiddifypanel/5.0.0.dev4-5.0.0.dev5/diff.md --exclude *.pyd
+[2023-04-24 16:39:56] INFO root fetch - main [MainThread]: End processing [rucio-consistency]: success
+[2023-04-24 16:39:57] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-24 16:39:58] INFO root fetch - main [MainThread]: End processing [uffspd]: success
+[2023-04-24 16:39:58] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-24 16:40:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-24 16:40:14] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-24 16:40:14] INFO root fetch - main [MainThread]: Store serial: [17835025]
