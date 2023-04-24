@@ -2369,3 +2369,56 @@
 [2023-04-24 04:13:36] INFO root fetch - main [MainThread]: End processing [QGrain]: success
 [2023-04-24 04:13:36] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-04-24 04:13:36] INFO root fetch - main [MainThread]: Store serial: [17827614]
+[2023-04-24 04:18:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827614]
+[2023-04-24 04:18:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sopel-pypi
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crowdcores-node
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navigator-auth
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pip-package-template-docker
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uhugo
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: servir
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arc-cli
+[2023-04-24 04:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perfect-physics
+[2023-04-24 04:18:44] INFO root fetch - processPackages [sopel-pypi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 04:18:44] INFO root fetch - processPackages [pip-package-template-docker]: New version: [2023.4.23.post1] Old Version: [2023.4.23]
+[2023-04-24 04:18:44] INFO root fetch - processPackages [uhugo]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-24 04:18:45] INFO root fetch - processPackages [arc-cli]: New version: [8.1.0] Old Version: [8.0.0]
+[2023-04-24 04:18:45] INFO root fetch - processPackages [perfect-physics]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 04:18:45] INFO root fetch - processPackages [crowdcores-node]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-24 04:18:45] INFO root fetch - processPackages [servir]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 04:18:45] INFO root fetch - processPackages [navigator-auth]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-04-24 04:18:45] INFO root fetch - processPackages [perfect-physics]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [perfect-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfect-physics-0.1.0.tar.gz tmp/perfect-physics-0.1.1.tar.gz --markdown 20230424/p/perfect-physics/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/f7/50/670bd9096a9c0435dac8d9820b170a906c7ac8fa6365fcfc04299e41f347/uhugo-1.1.6-py3-none-any.whl
+[2023-04-24 04:18:45] INFO root fetch - processPackages [sopel-pypi]: Downloading https://files.pythonhosted.org/packages/68/ab/1f4b7a01f493bb7818fa31061bbf921bc535ddb63a97a1591f0b0ec321da/sopel-pypi-0.1.3.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/3e/d7/56f328c3fb47b567c3bf1a574b149f55a70f4c94d4e41f57fc91c5749445/arc_cli-8.0.0.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [pip-package-template-docker]: Downloading https://files.pythonhosted.org/packages/49/c3/661b273f524ebb769d9ab1de735e842a2d65b11e4009c1ddfadab9dbd317/pip-package-template-docker-2023.4.23.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [servir]: Downloading https://files.pythonhosted.org/packages/c5/80/e85a3b992f7d9383bf3663562c232a4639fab21082a9f0b24a0b7a3e0aa5/servir-0.0.6.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/f2/a3/ad9503ce92c67406f4ffdc2c192e8a065724e2b61fec7efdd3db836d8c08/crowdcores-node-1.1.5.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/27/f5/793f22e4bd57f9ec688c2ca32e0ff13ef479d24f2c0345b518b80f854368/navigator_auth-0.7.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 04:18:45] INFO root fetch - processPackages [uhugo]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [uhugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhugo-1.1.5-py3-none-any.whl.zip tmp/uhugo-1.1.6-py3-none-any.whl.zip --markdown 20230424/u/uhugo/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [servir]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [servir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir-0.0.5.tar.gz tmp/servir-0.0.6.tar.gz --markdown 20230424/s/servir/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [crowdcores-node]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [crowdcores-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-node-1.1.4.tar.gz tmp/crowdcores-node-1.1.5.tar.gz --markdown 20230424/c/crowdcores-node/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [sopel-pypi]: Downloading https://files.pythonhosted.org/packages/c1/74/9ab89adedfeb8eb3da3790c64eb4e55246cdbbb1c825919b1f49f5b61f4a/sopel-pypi-0.1.4.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/d9/2a/53660323f97203d025d631e6e1ca86c5ae9b8d2371325a9d73d2ed61c194/arc_cli-8.1.0.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [pip-package-template-docker]: Downloading https://files.pythonhosted.org/packages/e0/0f/0caa6935a07412ada464e8ae17a988c6f9864d0bb8e34d70e59f8e21e90b/pip-package-template-docker-2023.4.23.post1.tar.gz
+[2023-04-24 04:18:45] INFO root fetch - processPackages [navigator-auth]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [navigator-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_auth-0.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_auth-0.7.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/n/navigator-auth/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [sopel-pypi]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [sopel-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel-pypi-0.1.3.tar.gz tmp/sopel-pypi-0.1.4.tar.gz --markdown 20230424/s/sopel-pypi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.0.0.tar.gz tmp/arc_cli-8.1.0.tar.gz --markdown 20230424/a/arc-cli/8.0.0-8.1.0/diff.md --exclude *.pyd
+[2023-04-24 04:18:45] INFO root fetch - processPackages [pip-package-template-docker]: executing diffoscope
+[2023-04-24 04:18:45] INFO root fetch - processPackages [pip-package-template-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-package-template-docker-2023.4.23.tar.gz tmp/pip-package-template-docker-2023.4.23.post1.tar.gz --markdown 20230424/p/pip-package-template-docker/2023.4.23-2023.4.23.post1/diff.md --exclude *.pyd
+[2023-04-24 04:18:46] INFO root fetch - main [MainThread]: End processing [perfect-physics]: success
+[2023-04-24 04:18:46] INFO root fetch - main [MainThread]: End processing [uhugo]: success
+[2023-04-24 04:18:46] INFO root fetch - main [MainThread]: End processing [servir]: success
+[2023-04-24 04:18:46] INFO root fetch - main [MainThread]: End processing [crowdcores-node]: success
+[2023-04-24 04:18:47] INFO root fetch - main [MainThread]: End processing [pip-package-template-docker]: success
+[2023-04-24 04:18:47] INFO root fetch - main [MainThread]: End processing [sopel-pypi]: success
+[2023-04-24 04:18:47] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-04-24 04:18:49] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
+[2023-04-24 04:18:49] INFO root fetch - main [MainThread]: Store serial: [17827637]
