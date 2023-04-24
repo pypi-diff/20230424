@@ -19096,3 +19096,80 @@
 [2023-04-24 19:26:38] INFO root fetch - main [MainThread]: End processing [stix-shifter-utils]: success
 [2023-04-24 19:26:40] INFO root fetch - main [MainThread]: End processing [browserist]: success
 [2023-04-24 19:26:40] INFO root fetch - main [MainThread]: Store serial: [17837315]
+[2023-04-24 19:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837315]
+[2023-04-24 19:31:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleez
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astar
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstra-cli
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpai-cae-arp
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ds-format
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zigpy
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trailwatch
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xtest-sapnwrfc
+[2023-04-24 19:31:49] INFO root fetch - processPackages [cleez]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ds-format]: New version: [3.7.0] Old Version: [3.6.1]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [mpai-cae-arp]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [astar]: New version: [0.98] Old Version: [0.97]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [qwak-core]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [trailwatch]: New version: [1.0.0] Old Version: [0.3.3]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [abstra-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [xtest-sapnwrfc]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [zigpy]: New version: [0.55.0] Old Version: [0.54.1]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-24 19:31:49] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/1d/e7/d6a896847a4da48e9f49b98b773fa97d9efe22ef6750a1236adaf7d45baa/crazy-thursday-2023.4.9.0.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [ds-format]: Downloading https://files.pythonhosted.org/packages/0a/33/76531d0ce2f027b6ffeaa57d122925a26ac6af018ed6e55d3cc895408c81/ds-format-3.6.1.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/98/ea/0d15586913fdc1e5953970e32dcb11782786fbc29463cd42ad9bfff5f382/qwak_core-0.0.31.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [cleez]: Downloading https://files.pythonhosted.org/packages/a5/29/40bd6c6bb62264f04f07d948014e0bd10cc9d6089a8bb9b11fe06c66fe6a/cleez-0.1.5.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [mpai-cae-arp]: Downloading https://files.pythonhosted.org/packages/1e/4d/258139e7aae017b61a7dffcc6d18e4d51ca5450d63cd4966a1710a2cfe79/mpai_cae_arp-0.4.1.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [xtest-sapnwrfc]: Downloading https://files.pythonhosted.org/packages/10/7e/168b698d531cd2d24ef4fbfd88e8be3fd657ce065a58def275c1493f3244/xtest_sapnwrfc-0.0.15.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [abstra-cli]: Downloading https://files.pythonhosted.org/packages/fc/86/250f79ad7833d81a6a5fc663b8d76260f706443958c9be4657b3b5380832/abstra-cli-0.8.0.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [astar]: Downloading https://files.pythonhosted.org/packages/f1/c0/be7046782548e37bb13694b97d6d3060e524504472c5a88406a502b149dc/astar-0.97-py3-none-any.whl
+[2023-04-24 19:31:49] INFO root fetch - processPackages [trailwatch]: Downloading https://files.pythonhosted.org/packages/55/d3/0d897942394df960fd4411f373511b8d16c92492b075a25f2feefdf50320/trailwatch-0.3.3.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [zigpy]: Downloading https://files.pythonhosted.org/packages/5c/27/852d2566f78d112e89295245387267be7eb3e89c94a1229571560ce24971/zigpy-0.54.1.tar.gz
+[2023-04-24 19:31:49] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/76/05/e56c48e5ed53948c8d8681c09cadc9f2c62018f1f680f0aacc471d453005/crazy-thursday-2023.4.9.1.tar.gz
+[2023-04-24 19:31:50] INFO root fetch - processPackages [mpai-cae-arp]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [mpai-cae-arp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpai_cae_arp-0.4.0.tar.gz tmp/mpai_cae_arp-0.4.1.tar.gz --markdown 20230424/m/mpai-cae-arp/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [cleez]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [cleez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleez-0.1.4.tar.gz tmp/cleez-0.1.5.tar.gz --markdown 20230424/c/cleez/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [astar]: Downloading https://files.pythonhosted.org/packages/70/24/fba6c2ebd4fbd2e2473218e12b7678d471f26c1c8dfc01f122ba41118887/astar-0.98-py3-none-any.whl
+[2023-04-24 19:31:50] INFO root fetch - processPackages [ds-format]: Downloading https://files.pythonhosted.org/packages/23/f8/9220ddc08e2b99bc08fcb345cd0df6042615dc4901f570ce58d9a6e3dcba/ds-format-3.7.0.tar.gz
+[2023-04-24 19:31:50] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230424/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [abstra-cli]: Downloading https://files.pythonhosted.org/packages/42/9e/21b9aa7aa0c331fd248405fce86d65e0986979d35211c6190c0862aec745/abstra-cli-0.9.0.tar.gz
+[2023-04-24 19:31:50] INFO root fetch - processPackages [trailwatch]: Downloading https://files.pythonhosted.org/packages/b3/d1/1c1a833c7062e47c7f57688b3eec7f967034e065bee0ca6187cf82834b5b/trailwatch-1.0.0.tar.gz
+[2023-04-24 19:31:50] INFO root fetch - processPackages [xtest-sapnwrfc]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [xtest-sapnwrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtest_sapnwrfc-0.0.14.tar.gz tmp/xtest_sapnwrfc-0.0.15.tar.gz --markdown 20230424/x/xtest-sapnwrfc/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [zigpy]: Downloading https://files.pythonhosted.org/packages/e4/cd/8f07869df99fec6689c4151ba165d6255b971a9497d81f24d116d91865c3/zigpy-0.55.0.tar.gz
+[2023-04-24 19:31:50] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/30/a2/4142a052caed9fd14b08565c04231dbf1d983e754f2d6ada12999a48dc2d/qwak_core-0.0.32.tar.gz
+[2023-04-24 19:31:50] INFO root fetch - processPackages [abstra-cli]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [abstra-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-cli-0.8.0.tar.gz tmp/abstra-cli-0.9.0.tar.gz --markdown 20230424/a/abstra-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [ds-format]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [ds-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds-format-3.6.1.tar.gz tmp/ds-format-3.7.0.tar.gz --markdown 20230424/d/ds-format/3.6.1-3.7.0/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [astar]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [astar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astar-0.97-py3-none-any.whl.zip tmp/astar-0.98-py3-none-any.whl.zip --markdown 20230424/a/astar/0.97-0.98/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [trailwatch]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [trailwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailwatch-0.3.3.tar.gz tmp/trailwatch-1.0.0.tar.gz --markdown 20230424/t/trailwatch/0.3.3-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.31.tar.gz tmp/qwak_core-0.0.32.tar.gz --markdown 20230424/q/qwak-core/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-04-24 19:31:50] INFO root fetch - processPackages [zigpy]: executing diffoscope
+[2023-04-24 19:31:50] INFO root fetch - processPackages [zigpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigpy-0.54.1.tar.gz tmp/zigpy-0.55.0.tar.gz --markdown 20230424/z/zigpy/0.54.1-0.55.0/diff.md --exclude *.pyd
+[2023-04-24 19:31:51] INFO root fetch - processPackages [cleez]: Start processing: ucdeconvolve
+[2023-04-24 19:31:51] INFO root fetch - main [MainThread]: End processing [cleez]: success
+[2023-04-24 19:31:51] INFO root fetch - processPackages [ucdeconvolve]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-04-24 19:31:51] INFO root fetch - main [MainThread]: End processing [astar]: success
+[2023-04-24 19:31:51] INFO root fetch - main [MainThread]: End processing [trailwatch]: success
+[2023-04-24 19:31:51] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
+[2023-04-24 19:31:51] INFO root fetch - main [MainThread]: End processing [mpai-cae-arp]: success
+[2023-04-24 19:31:51] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-24 19:31:51] INFO root fetch - processPackages [ucdeconvolve]: Downloading https://files.pythonhosted.org/packages/51/d2/477e263a1a8ba04bb947550f7b9c0a6b0008f7cb72d91305f769569c7742/ucdeconvolve-0.0.6.tar.gz
+[2023-04-24 19:31:52] INFO root fetch - main [MainThread]: End processing [abstra-cli]: success
+[2023-04-24 19:31:52] INFO root fetch - main [MainThread]: End processing [ds-format]: success
+[2023-04-24 19:31:52] INFO root fetch - processPackages [ucdeconvolve]: Downloading https://files.pythonhosted.org/packages/e1/7f/c41d7b88b6ff3dc0be30c03b4b5c6806882e19c8886a6b3f7b1886436e43/ucdeconvolve-0.1.0-py3-none-any.whl
+[2023-04-24 19:31:53] INFO root fetch - processPackages [ucdeconvolve]: executing diffoscope
+[2023-04-24 19:31:53] INFO root fetch - processPackages [ucdeconvolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucdeconvolve-0.0.6.tar.gz tmp/ucdeconvolve-0.1.0-py3-none-any.whl.zip --markdown 20230424/u/ucdeconvolve/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 19:31:53] INFO root fetch - main [MainThread]: End processing [zigpy]: success
+[2023-04-24 19:31:54] INFO root fetch - main [MainThread]: End processing [ucdeconvolve]: success
+[2023-04-24 19:31:56] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-24 19:31:56] INFO root fetch - main [MainThread]: Store serial: [17837347]
