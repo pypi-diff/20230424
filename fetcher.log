@@ -5288,3 +5288,40 @@
 [2023-04-24 07:31:44] INFO root fetch - main [MainThread]: End processing [kbib]: success
 [2023-04-24 07:31:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-04-24 07:31:49] INFO root fetch - main [MainThread]: Store serial: [17829304]
+[2023-04-24 07:36:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829304]
+[2023-04-24 07:36:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 07:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yang-vlp
+[2023-04-24 07:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modnpay-pgsdk
+[2023-04-24 07:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-types
+[2023-04-24 07:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikeCA
+[2023-04-24 07:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xcodeproj
+[2023-04-24 07:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp-query-tool
+[2023-04-24 07:36:58] INFO root fetch - processPackages [modnpay-pgsdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 07:36:58] INFO root fetch - processPackages [NikeCA]: New version: [0.1.73] Old Version: [0.1.72]
+[2023-04-24 07:36:58] INFO root fetch - processPackages [yang-vlp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 07:36:58] WARNING root fetch - processPackages [json-types]: Skipping, unable to determine old version
+[2023-04-24 07:36:58] INFO root fetch - main [MainThread]: End processing [json-types] error
+[2023-04-24 07:36:58] INFO root fetch - processPackages [xcodeproj]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-24 07:36:58] INFO root fetch - processPackages [bp-query-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 07:36:58] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/67/08/56818508d831ecc2f858e957d72295164b0be136ca64c701d4eb617e2251/NikeCA-0.1.72.tar.gz
+[2023-04-24 07:36:58] INFO root fetch - processPackages [xcodeproj]: Downloading https://files.pythonhosted.org/packages/74/c9/940ed60af4b22ea0de6da826c25dd2ca4c60111f252d31519517dd21f54d/xcodeproj-1.0.2.tar.gz
+[2023-04-24 07:36:58] INFO root fetch - processPackages [modnpay-pgsdk]: Downloading https://files.pythonhosted.org/packages/2b/3b/e6db04adf4f8fba00c4a06ee231ae09c752cdef51462c6b548f9f2844580/modnpay-pgsdk-0.0.3.tar.gz
+[2023-04-24 07:36:58] INFO root fetch - processPackages [yang-vlp]: executing diffoscope
+[2023-04-24 07:36:58] INFO root fetch - processPackages [yang-vlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yang-vlp-0.2.8.tar.gz tmp/yang-vlp-0.2.9.tar.gz --markdown 20230424/y/yang-vlp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 07:36:58] INFO root fetch - processPackages [bp-query-tool]: Downloading https://files.pythonhosted.org/packages/1f/fe/d551dc92beda024b8bab7187bf9c5f0bdd3d7127fe28c3875ddb09c7011d/bp_query_tool-0.0.5.tar.gz
+[2023-04-24 07:36:58] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/c1/23/171c6ad070d9eef2b2c437de30279496fac0322563de5b85d92e3033b34e/NikeCA-0.1.73.tar.gz
+[2023-04-24 07:36:58] INFO root fetch - processPackages [xcodeproj]: Downloading https://files.pythonhosted.org/packages/ba/03/7f7f2b8279769fc14addbe13f98a09a9f662b59ac14552fad9572161699f/xcodeproj-1.1.0.tar.gz
+[2023-04-24 07:36:58] INFO root fetch - processPackages [modnpay-pgsdk]: executing diffoscope
+[2023-04-24 07:36:58] INFO root fetch - processPackages [modnpay-pgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modnpay-pgsdk-0.0.2.tar.gz tmp/modnpay-pgsdk-0.0.3.tar.gz --markdown 20230424/m/modnpay-pgsdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 07:36:59] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 07:36:59] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.72.tar.gz tmp/NikeCA-0.1.73.tar.gz --markdown 20230424/N/NikeCA/0.1.72-0.1.73/diff.md --exclude *.pyd
+[2023-04-24 07:36:59] INFO root fetch - processPackages [xcodeproj]: executing diffoscope
+[2023-04-24 07:36:59] INFO root fetch - processPackages [xcodeproj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcodeproj-1.0.2.tar.gz tmp/xcodeproj-1.1.0.tar.gz --markdown 20230424/x/xcodeproj/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 07:36:59] INFO root fetch - processPackages [bp-query-tool]: executing diffoscope
+[2023-04-24 07:36:59] INFO root fetch - processPackages [bp-query-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_query_tool-0.0.4.tar.gz tmp/bp_query_tool-0.0.5.tar.gz --markdown 20230424/b/bp-query-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 07:37:00] INFO root fetch - main [MainThread]: End processing [modnpay-pgsdk]: success
+[2023-04-24 07:37:00] INFO root fetch - main [MainThread]: End processing [yang-vlp]: success
+[2023-04-24 07:37:00] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 07:37:00] INFO root fetch - main [MainThread]: End processing [xcodeproj]: success
+[2023-04-24 07:37:08] INFO root fetch - main [MainThread]: End processing [bp-query-tool]: success
+[2023-04-24 07:37:08] INFO root fetch - main [MainThread]: Store serial: [17829325]
