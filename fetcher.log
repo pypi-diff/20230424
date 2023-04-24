@@ -7543,3 +7543,104 @@
 [2023-04-24 10:17:18] INFO root fetch - main [MainThread]: End processing [solara]: success
 [2023-04-24 10:17:20] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-04-24 10:17:20] INFO root fetch - main [MainThread]: Store serial: [17830658]
+[2023-04-24 10:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830658]
+[2023-04-24 10:22:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: malay
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mfrc522-python
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coconut-develop
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-cooperator-website
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exceptnotifier
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text-content-generator
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finalynx
+[2023-04-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backtracker
+[2023-04-24 10:22:29] WARNING root fetch - processPackages [malay]: Skipping, unable to determine old version
+[2023-04-24 10:22:29] INFO root fetch - processPackages [malay]: Start processing: img2speech
+[2023-04-24 10:22:29] INFO root fetch - main [MainThread]: End processing [malay] error
+[2023-04-24 10:22:29] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-04-24 10:22:29] INFO root fetch - processPackages [odoo14-addon-cooperator-website]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1.dev3]
+[2023-04-24 10:22:29] INFO root fetch - processPackages [mfrc522-python]: New version: [0.0.5.dev3] Old Version: [0.0.5.dev2]
+[2023-04-24 10:22:29] INFO root fetch - processPackages [backtracker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 10:22:29] INFO root fetch - processPackages [text-content-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 10:22:30] INFO root fetch - processPackages [finalynx]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-24 10:22:30] INFO root fetch - processPackages [exceptnotifier]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 10:22:30] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-04-24 10:22:30] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-24 10:22:30] INFO root fetch - processPackages [img2speech]: New version: [1.0.13] Old Version: [0.0.1]
+[2023-04-24 10:22:30] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/23/a4/c265cffc0413ff17bc7ee533fd10bc59c72ee0bb965dda9788228a2ebd64/finalynx-1.8.2.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [text-content-generator]: Downloading https://files.pythonhosted.org/packages/d2/1c/585422927c3041e439a1fa0b4f0ff999bbee27193c2acd256de6f2d88d97/text_content_generator-0.0.1.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [odoo14-addon-cooperator-website]: Downloading https://files.pythonhosted.org/packages/c1/ef/e648ef92b2681fe7060c86d78c2d623c9d589e9bfa0dcb08ae77315ff2ac/odoo14_addon_cooperator_website-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-04-24 10:22:30] INFO root fetch - processPackages [backtracker]: Downloading https://files.pythonhosted.org/packages/52/05/26da92c83e4b697a2a0393470f0f01bc26572a265b4d2af8fbce82d6ff97/backtracker-0.0.3.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/e1/26/fa2cae05a9644059a143df787dd4eed74c3f0df3294c7ed1c1be9f2e795a/exceptnotifier-0.2.0.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: Downloading https://files.pythonhosted.org/packages/e9/65/b84c868dcca7f23e7bd8c3b7e2f67c3500ed41ec7da53f3bf30e31b831c1/hakurei_sqlalchemy-graphqlapi-0.0.1.dev1.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [img2speech]: Downloading https://files.pythonhosted.org/packages/ff/e9/b0ffb100212333f98b097673548599ed107102d28ac11cb85603bb9c009e/img2speech-0.0.1.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/74/dd/f0684a31905120353eb24599a332a1c97ba4d2b9408884a5041edc15d5cc/mfrc522-python-0.0.5.dev3.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [mfrc522-python]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [mfrc522-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522-python-0.0.5.dev2.tar.gz tmp/mfrc522-python-0.0.5.dev3.tar.gz --markdown 20230424/m/mfrc522-python/0.0.5.dev2-0.0.5.dev3/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0b/ce/7d9789861d65035c37169ffa7e28f0a3236fe2e4bc410a15215629795d5b/finalynx-1.8.3.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230424/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [backtracker]: Downloading https://files.pythonhosted.org/packages/3b/14/b256b00cac844d16733e88cf49497bf82dfe341e2d75a6a701a140988c1d/backtracker-0.0.4.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230424/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [text-content-generator]: Downloading https://files.pythonhosted.org/packages/09/d7/62f5449c2cab5c200e21a58579c0706aaa1b3e8b060b9243acd6d3cb38cc/text_content_generator-0.0.2.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [odoo14-addon-cooperator-website]: Downloading https://files.pythonhosted.org/packages/f8/06/5b94957b763e37dbe43f2f5de83ba6a67bfaea9cb4e53609ffe64b0fa8f4/odoo14_addon_cooperator_website-14.0.1.1.2-py3-none-any.whl
+[2023-04-24 10:22:30] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/4d/c8/fdbd7f8ccadc12293bb338cb2312bea6096b30108b61b827b1efb56bbbae/exceptnotifier-0.2.1.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: Downloading https://files.pythonhosted.org/packages/46/7b/c6a389f99a2aae0dbd21102825c0460a9172dc1e3de4c2b661226d4acab5/hakurei_sqlalchemy-graphqlapi-0.0.1.dev2.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [img2speech]: Downloading https://files.pythonhosted.org/packages/73/2e/95651c3ef9122d4c5c2c28fd71ff3d0a66a13886c6ff215d8560ec5f0b9f/img2speech-1.0.13.tar.gz
+[2023-04-24 10:22:30] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.2.tar.gz tmp/finalynx-1.8.3.tar.gz --markdown 20230424/f/finalynx/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [backtracker]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [text-content-generator]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [backtracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtracker-0.0.3.tar.gz tmp/backtracker-0.0.4.tar.gz --markdown 20230424/b/backtracker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [text-content-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_content_generator-0.0.1.tar.gz tmp/text_content_generator-0.0.2.tar.gz --markdown 20230424/t/text-content-generator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [odoo14-addon-cooperator-website]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [odoo14-addon-cooperator-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator_website-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_cooperator_website-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230424/o/odoo14-addon-cooperator-website/14.0.1.1.1.dev3-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.2.0.tar.gz tmp/exceptnotifier-0.2.1.tar.gz --markdown 20230424/e/exceptnotifier/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev1.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev2.tar.gz --markdown 20230424/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-04-24 10:22:30] INFO root fetch - processPackages [img2speech]: executing diffoscope
+[2023-04-24 10:22:30] INFO root fetch - processPackages [img2speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2speech-0.0.1.tar.gz tmp/img2speech-1.0.13.tar.gz --markdown 20230424/i/img2speech/0.0.1-1.0.13/diff.md --exclude *.pyd
+[2023-04-24 10:22:31] INFO root fetch - processPackages [mfrc522-python]: Start processing: miso2
+[2023-04-24 10:22:31] INFO root fetch - main [MainThread]: End processing [mfrc522-python]: success
+[2023-04-24 10:22:31] INFO root fetch - processPackages [miso2]: New version: [3.0.0] Old Version: [2.5.6]
+[2023-04-24 10:22:32] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/0d/88/bb6fd1dbc0cee4adce64c6b092c85739edeec7f00c721786b26f0a41a053/miso2-2.5.6.tar.gz
+[2023-04-24 10:22:32] INFO root fetch - processPackages [backtracker]: Start processing: ops-scenario
+[2023-04-24 10:22:32] INFO root fetch - main [MainThread]: End processing [backtracker]: success
+[2023-04-24 10:22:32] INFO root fetch - processPackages [ops-scenario]: New version: [2.2] Old Version: [2.1.3.5]
+[2023-04-24 10:22:32] INFO root fetch - processPackages [img2speech]: Start processing: SocketSwap
+[2023-04-24 10:22:32] INFO root fetch - main [MainThread]: End processing [img2speech]: success
+[2023-04-24 10:22:32] INFO root fetch - processPackages [SocketSwap]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 10:22:32] INFO root fetch - processPackages [odoo14-addon-cooperator-website]: Start processing: img2speech
+[2023-04-24 10:22:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator-website]: success
+[2023-04-24 10:22:32] INFO root fetch - processPackages [img2speech]: New version: [1.0.13] Old Version: [0.0.1]
+[2023-04-24 10:22:32] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/0d/05/aaa12a5d67886eaed335e956d2785d467d7716c776427f89836f3f0040fc/miso2-3.0.0.tar.gz
+[2023-04-24 10:22:32] INFO root fetch - processPackages [text-content-generator]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-24 10:22:32] INFO root fetch - main [MainThread]: End processing [text-content-generator]: success
+[2023-04-24 10:22:32] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2023-04-24 10:22:32] INFO root fetch - processPackages [img2speech]: executing diffoscope
+[2023-04-24 10:22:32] INFO root fetch - processPackages [img2speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2speech-0.0.1.tar.gz tmp/img2speech-1.0.13.tar.gz --markdown 20230424/i/img2speech/0.0.1-1.0.13/diff.md --exclude *.pyd
+[2023-04-24 10:22:32] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-24 10:22:32] INFO root fetch - processPackages [ops-scenario]: Downloading https://files.pythonhosted.org/packages/14/38/5cb64db32b087965adeca69988e835f4e6fceb1301a60cf5ba01895cd3c1/ops-scenario-2.2.tar.gz
+[2023-04-24 10:22:32] INFO root fetch - processPackages [miso2]: executing diffoscope
+[2023-04-24 10:22:32] INFO root fetch - processPackages [miso2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miso2-2.5.6.tar.gz tmp/miso2-3.0.0.tar.gz --markdown 20230424/m/miso2/2.5.6-3.0.0/diff.md --exclude *.pyd
+[2023-04-24 10:22:32] INFO root fetch - processPackages [SocketSwap]: Downloading https://files.pythonhosted.org/packages/33/cd/8e78895e6555dd704666ec9abea62882a33179e2977e001b712a7acd89db/SocketSwap-0.1.8-py2.py3-none-any.whl
+[2023-04-24 10:22:32] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: Downloading https://files.pythonhosted.org/packages/3f/1b/2e6708b1c7f33e12d656bb78df415f11d5a21eb6eb824b8336a954b25a2a/hakurei_sqlalchemy-graphqlapi-0.0.1.dev3.tar.gz
+[2023-04-24 10:22:32] INFO root fetch - processPackages [ops-scenario]: executing diffoscope
+[2023-04-24 10:22:32] INFO root fetch - processPackages [ops-scenario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-scenario-2.1.3.5.tar.gz tmp/ops-scenario-2.2.tar.gz --markdown 20230424/o/ops-scenario/2.1.3.5-2.2/diff.md --exclude *.pyd
+[2023-04-24 10:22:32] INFO root fetch - processPackages [SocketSwap]: executing diffoscope
+[2023-04-24 10:22:32] INFO root fetch - processPackages [SocketSwap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocketSwap-0.1.7-py2.py3-none-any.whl.zip tmp/SocketSwap-0.1.8-py2.py3-none-any.whl.zip --markdown 20230424/S/SocketSwap/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 10:22:32] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-24 10:22:32] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev2.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev3.tar.gz --markdown 20230424/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2023-04-24 10:22:33] INFO root fetch - main [MainThread]: End processing [img2speech]: success
+[2023-04-24 10:22:34] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-04-24 10:22:34] INFO root fetch - main [MainThread]: End processing [SocketSwap]: success
+[2023-04-24 10:22:34] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-04-24 10:22:34] INFO root fetch - main [MainThread]: End processing [ops-scenario]: success
+[2023-04-24 10:22:34] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-24 10:22:34] INFO root fetch - main [MainThread]: End processing [miso2]: success
+[2023-04-24 10:22:48] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-24 10:23:10] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-24 10:23:10] INFO root fetch - main [MainThread]: Store serial: [17830714]
