@@ -2270,3 +2270,35 @@
 [2023-04-24 03:57:44] INFO root fetch - main [MainThread]: End processing [zytlib]: success
 [2023-04-24 03:57:59] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
 [2023-04-24 03:57:59] INFO root fetch - main [MainThread]: Store serial: [17827573]
+[2023-04-24 04:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827573]
+[2023-04-24 04:03:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 04:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiotown
+[2023-04-24 04:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bittrade-huobi-websocket
+[2023-04-24 04:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragon-city-utils
+[2023-04-24 04:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vinnieshell
+[2023-04-24 04:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamindb
+[2023-04-24 04:03:08] INFO root fetch - processPackages [dragon-city-utils]: New version: [1.9] Old Version: [1.8]
+[2023-04-24 04:03:08] INFO root fetch - processPackages [bittrade-huobi-websocket]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-24 04:03:08] INFO root fetch - processPackages [vinnieshell]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-24 04:03:08] INFO root fetch - processPackages [pyiotown]: New version: [0.4.3.dev8] Old Version: [0.4.3.dev7]
+[2023-04-24 04:03:08] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-24 04:03:08] INFO root fetch - processPackages [dragon-city-utils]: executing diffoscope
+[2023-04-24 04:03:08] INFO root fetch - processPackages [dragon-city-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon-city-utils-1.8.tar.gz tmp/dragon-city-utils-1.9.tar.gz --markdown 20230424/d/dragon-city-utils/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-24 04:03:08] INFO root fetch - processPackages [vinnieshell]: Downloading https://files.pythonhosted.org/packages/67/74/df3e0d48c67d169762827cde83bcb1a83715e226b419a5117029973fc001/vinnieshell-0.1.0.tar.gz
+[2023-04-24 04:03:08] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/7d/f3/c94cfd575d52b476fc5856a8c4a55a4420608827108ae3960b43991190a4/bittrade_huobi_websocket-0.3.4.tar.gz
+[2023-04-24 04:03:09] INFO root fetch - processPackages [bittrade-huobi-websocket]: executing diffoscope
+[2023-04-24 04:03:09] INFO root fetch - processPackages [bittrade-huobi-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_huobi_websocket-0.3.3.tar.gz tmp/bittrade_huobi_websocket-0.3.4.tar.gz --markdown 20230424/b/bittrade-huobi-websocket/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-24 04:03:09] INFO root fetch - processPackages [pyiotown]: Downloading https://files.pythonhosted.org/packages/88/15/97b177d152cf96d42ab081c1b7b303fde49d5c0c271da07d4ded37e08bcf/pyiotown-0.4.3.dev8-py3-none-any.whl
+[2023-04-24 04:03:09] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-24 04:03:09] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230424/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-24 04:03:09] INFO root fetch - processPackages [vinnieshell]: Downloading https://files.pythonhosted.org/packages/08/a1/36d987c9505bad67cc8daaad7dd2f935a69fa4035b7ab6ddaa935f75e847/vinnieshell-0.1.2.tar.gz
+[2023-04-24 04:03:09] INFO root fetch - processPackages [pyiotown]: executing diffoscope
+[2023-04-24 04:03:09] INFO root fetch - processPackages [pyiotown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiotown-0.4.3.dev7-py3-none-any.whl.zip tmp/pyiotown-0.4.3.dev8-py3-none-any.whl.zip --markdown 20230424/p/pyiotown/0.4.3.dev7-0.4.3.dev8/diff.md --exclude *.pyd
+[2023-04-24 04:03:09] INFO root fetch - processPackages [vinnieshell]: executing diffoscope
+[2023-04-24 04:03:09] INFO root fetch - processPackages [vinnieshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinnieshell-0.1.0.tar.gz tmp/vinnieshell-0.1.2.tar.gz --markdown 20230424/v/vinnieshell/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 04:03:09] INFO root fetch - main [MainThread]: End processing [dragon-city-utils]: success
+[2023-04-24 04:03:10] INFO root fetch - main [MainThread]: End processing [pyiotown]: success
+[2023-04-24 04:03:10] INFO root fetch - main [MainThread]: End processing [bittrade-huobi-websocket]: success
+[2023-04-24 04:03:10] INFO root fetch - main [MainThread]: End processing [vinnieshell]: success
+[2023-04-24 04:03:10] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-24 04:03:10] INFO root fetch - main [MainThread]: Store serial: [17827585]
