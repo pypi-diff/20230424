@@ -21703,3 +21703,75 @@
 [2023-04-24 22:11:09] INFO root fetch - main [MainThread]: End processing [shp2metric]: success
 [2023-04-24 22:11:11] INFO root fetch - main [MainThread]: End processing [lytekit]: success
 [2023-04-24 22:11:11] INFO root fetch - main [MainThread]: Store serial: [17838989]
+[2023-04-24 22:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838989]
+[2023-04-24 22:16:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shp2metric
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptwatch
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yatracker-linker
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: not1mm
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NeuralBasics
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aim-ui
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sdss-mugatu
+[2023-04-24 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hm-pyhelper
+[2023-04-24 22:16:20] INFO root fetch - processPackages [shp2metric]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [promptwatch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [sdss-mugatu]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev3] Old Version: [4.0.0.dev2]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.8.tar.gz tmp/NeuralBasics-1.0.9.tar.gz --markdown 20230424/N/NeuralBasics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 22:16:20] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230424/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-24 22:16:20] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/2f/29/a22dcf40eacf75aed6f47a2e8742d10a17304bfea10dd4d8ff5106418c0c/promptwatch-0.0.1.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [sdss-mugatu]: Downloading https://files.pythonhosted.org/packages/2e/21/8cb2ea9350da58334734fa6056f64d77d071e87287a02e6b4fa96d5c0b35/sdss-mugatu-2.0.0.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/d6/c0/8412600d01de28dac29fc7f2821e1c045150709439ee3cb7a4fd3bce8312/aim-ui-4.0.0.dev2.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [shp2metric]: Downloading https://files.pythonhosted.org/packages/4a/2b/fad2bad3daa52ae0f0cfebe0b66e82566e59b7831a43947995f7aa356a82/shp2metric-1.2.1.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [yatracker-linker]: Downloading https://files.pythonhosted.org/packages/4a/48/9badca32b65fb8cd83dea534d5f52e6094775495e2fc12410f6de01cd7c6/yatracker_linker-0.1.9.tar.gz
+[2023-04-24 22:16:20] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 27060349>=10485760
+[2023-04-24 22:16:20] INFO root fetch - processPackages [aim-ui]: Start processing: aim
+[2023-04-24 22:16:20] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-04-24 22:16:20] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev3] Old Version: [4.0.0.dev2]
+[2023-04-24 22:16:20] INFO root fetch - processPackages [shp2metric]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [shp2metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shp2metric-1.2.0.tar.gz tmp/shp2metric-1.2.1.tar.gz --markdown 20230424/s/shp2metric/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-24 22:16:20] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:16:20] INFO root fetch - processPackages [sdss-mugatu]: Downloading https://files.pythonhosted.org/packages/8c/6f/fddb753a4d20887f1d00a70719594a3ec720a3e6276090466f1a83e87aec/sdss-mugatu-2.1.0.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/c0/7f/af5122cba98bced0a0cb729af489b5e2c7023ecdeb532152dcefadc8ed5b/promptwatch-0.0.2.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/08/0f/3ed478f7f380031719a707d8d9edc0bfd58bc341beb82735c76c5c3e0f00/aim-4.0.0.dev2.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.0.1.tar.gz tmp/promptwatch-0.0.2.tar.gz --markdown 20230424/p/promptwatch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 22:16:20] INFO root fetch - processPackages [sdss-mugatu]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [sdss-mugatu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss-mugatu-2.0.0.tar.gz tmp/sdss-mugatu-2.1.0.tar.gz --markdown 20230424/s/sdss-mugatu/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-04-24 22:16:20] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230424/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-04-24 22:16:21] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-04-24 22:16:21] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230424/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-04-24 22:16:21] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/79/f6/66b29a9a5fc61f43374c997b8d6d9baca52d28f11769d896405f451d9541/aim-4.0.0.dev3.tar.gz
+[2023-04-24 22:16:21] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-04-24 22:16:21] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230424/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-04-24 22:16:21] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-04-24 22:16:21] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev2.tar.gz tmp/aim-4.0.0.dev3.tar.gz --markdown 20230424/a/aim/4.0.0.dev2-4.0.0.dev3/diff.md --exclude *.pyd
+[2023-04-24 22:16:21] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 22:16:21] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 22:16:22] INFO root fetch - main [MainThread]: End processing [shp2metric]: success
+[2023-04-24 22:16:22] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-04-24 22:16:22] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-24 22:16:23] INFO root fetch - main [MainThread]: End processing [sdss-mugatu]: success
+[2023-04-24 22:16:29] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-04-24 22:16:36] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-04-24 22:16:39] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-04-24 22:16:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-04-24 22:16:48] INFO root fetch - main [MainThread]: Store serial: [17839023]
