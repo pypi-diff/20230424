@@ -17529,3 +17529,130 @@
 [2023-04-24 18:26:57] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-24 18:27:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-24 18:27:53] INFO root fetch - main [MainThread]: Store serial: [17836497]
+[2023-04-24 18:32:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17836497]
+[2023-04-24 18:33:02] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-24 18:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feathub-nightly
+[2023-04-24 18:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chia-rs
+[2023-04-24 18:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guardrails-ai
+[2023-04-24 18:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psrqpy
+[2023-04-24 18:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtsql
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oursin
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxtools
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ogjpn
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qrisp
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dal-python
+[2023-04-24 18:33:03] INFO root fetch - processPackages [guardrails-ai]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [mtsql]: New version: [1.4.202304241627] Old Version: [1.4.202304230628]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [psrqpy]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-24 18:33:03] WARNING root fetch - processPackages [ogjpn]: Skipping, unable to determine old version
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ogjpn]: Start processing: oreo4
+[2023-04-24 18:33:03] INFO root fetch - main [MainThread]: End processing [ogjpn] error
+[2023-04-24 18:33:03] INFO root fetch - processPackages [oursin]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [qrisp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [chia-rs]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230424] Old Version: [0.1.dev20230423]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230424/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [dal-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 18:33:03] WARNING root fetch - processPackages [oreo4]: Skipping, unable to determine old version
+[2023-04-24 18:33:03] INFO root fetch - processPackages [oreo4]: Start processing: limacharlie
+[2023-04-24 18:33:03] INFO root fetch - main [MainThread]: End processing [oreo4] error
+[2023-04-24 18:33:03] INFO root fetch - processPackages [psrqpy]: Downloading https://files.pythonhosted.org/packages/bb/f6/1e98adf73f184680e5ddf5482120b7d2a62568bd4578d7ef77ef1cc3f455/psrqpy-1.2.5.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [chia-rs]: Downloading https://files.pythonhosted.org/packages/9e/4f/cca9c1c8b83d678888a230c158759e10e20089d618754e9d5fb5f70a8cde/chia_rs-0.2.6.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/b6/6448b564d20b446dfeedbb26525d885d41acde2fab02a5d4f344c900be76/feathub_nightly-0.1.dev20230423-py3-none-any.whl
+[2023-04-24 18:33:03] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/24/d7/b62e22b4539a8928a2a47c032f1674c532158fa39714e7519e9db3b25012/guardrails-ai-0.1.5.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/6e/01/e3f3dfb2407c1320e166f969b57fde716137072bd8f895b69b888e78af5c/oursin-0.4.4.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [limacharlie]: New version: [4.4.4] Old Version: [4.4.3]
+[2023-04-24 18:33:03] INFO root fetch - processPackages [qrisp]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [qrisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrisp-0.0.7.tar.gz tmp/qrisp-0.0.8.tar.gz --markdown 20230424/q/qrisp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [mtsql]: Downloading https://files.pythonhosted.org/packages/1c/fe/1d793b50342c816c1e0d4c8f22a2e82f2aa4c6c7ed47781487b76c255b3f/mtsql-1.4.202304241627-py3-none-any.whl
+[2023-04-24 18:33:03] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/3e/b2/7b0e19858992185458ffe1c3b766ff7e5b3a9390a53a9eece1c004acc947/dal_python-0.1.5-cp39-none-any.whl
+[2023-04-24 18:33:03] INFO root fetch - processPackages [chia-rs]: Downloading https://files.pythonhosted.org/packages/c2/cb/11941abf28c52e4861949640e4c94ffdc1279e13fca539e20006ebe7fcd3/chia_rs-0.2.7.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/88/c7/1ebefa1be6ed006bc5a835af8008e58b1c770c1ffaec000281865b86138a/guardrails-ai-0.1.6.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [limacharlie]: Downloading https://files.pythonhosted.org/packages/e6/e3/43a5ca33f64b861ee15200ed1647e2d76b0fbbddd29de5ad2589f2a340d9/limacharlie-4.4.3.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [mtsql]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [mtsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtsql-1.4.202304230628-py3-none-any.whl.zip tmp/mtsql-1.4.202304241627-py3-none-any.whl.zip --markdown 20230424/m/mtsql/1.4.202304230628-1.4.202304241627/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/93/34/a11c150e6cea6431b5512abecbbcef8c0677c47e1b3be6c35a3a0b963805/feathub_nightly-0.1.dev20230424-py3-none-any.whl
+[2023-04-24 18:33:03] INFO root fetch - processPackages [psrqpy]: Downloading https://files.pythonhosted.org/packages/e5/1a/8cbb117247f75504f4a1d6d1beff8416a453a1ee082232c895bc98ceb94f/psrqpy-1.2.6.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/ee/cd/bde7f424c7ed8ef4961099ce3dcfb06f7e3415e56798120c978b381f6859/oursin-0.4.5.tar.gz
+[2023-04-24 18:33:03] INFO root fetch - processPackages [chia-rs]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [chia-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_rs-0.2.6.tar.gz tmp/chia_rs-0.2.7.tar.gz --markdown 20230424/c/chia-rs/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [guardrails-ai]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [guardrails-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardrails-ai-0.1.5.tar.gz tmp/guardrails-ai-0.1.6.tar.gz --markdown 20230424/g/guardrails-ai/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [oursin]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [oursin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oursin-0.4.4.tar.gz tmp/oursin-0.4.5.tar.gz --markdown 20230424/o/oursin/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [psrqpy]: executing diffoscope
+[2023-04-24 18:33:03] INFO root fetch - processPackages [psrqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrqpy-1.2.5.tar.gz tmp/psrqpy-1.2.6.tar.gz --markdown 20230424/p/psrqpy/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-24 18:33:03] INFO root fetch - processPackages [limacharlie]: Downloading https://files.pythonhosted.org/packages/2b/84/ccb941e620a5f0a538efcddfb3af66ffc0a1b3d35e6aab58f80b39e9a9fe/limacharlie-4.4.4.tar.gz
+[2023-04-24 18:33:04] INFO root fetch - processPackages [limacharlie]: executing diffoscope
+[2023-04-24 18:33:04] INFO root fetch - processPackages [limacharlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limacharlie-4.4.3.tar.gz tmp/limacharlie-4.4.4.tar.gz --markdown 20230424/l/limacharlie/4.4.3-4.4.4/diff.md --exclude *.pyd
+[2023-04-24 18:33:04] INFO root fetch - processPackages [ccxtools]: Start processing: otsucfgmng
+[2023-04-24 18:33:04] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-04-24 18:33:04] INFO root fetch - processPackages [otsucfgmng]: New version: [1.3.3.37] Old Version: [1.3.2.37]
+[2023-04-24 18:33:04] INFO root fetch - processPackages [otsucfgmng]: executing diffoscope
+[2023-04-24 18:33:04] INFO root fetch - processPackages [otsucfgmng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otsucfgmng-1.3.2.37.tar.gz tmp/otsucfgmng-1.3.3.37.tar.gz --markdown 20230424/o/otsucfgmng/1.3.2.37-1.3.3.37/diff.md --exclude *.pyd
+[2023-04-24 18:33:04] INFO root fetch - processPackages [mtsql]: Start processing: quik-config
+[2023-04-24 18:33:04] INFO root fetch - main [MainThread]: End processing [mtsql]: success
+[2023-04-24 18:33:04] INFO root fetch - processPackages [quik-config]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-04-24 18:33:04] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-04-24 18:33:04] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.1.4-py3-py3-any.whl.zip tmp/dal_python-0.1.5-cp39-none-any.whl.zip --markdown 20230424/d/dal-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 18:33:05] INFO root fetch - processPackages [quik-config]: executing diffoscope
+[2023-04-24 18:33:05] INFO root fetch - processPackages [quik-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik_config-1.7.0.tar.gz tmp/quik_config-1.7.1.tar.gz --markdown 20230424/q/quik-config/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-04-24 18:33:05] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-04-24 18:33:05] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230423-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230424-py3-none-any.whl.zip --markdown 20230424/f/feathub-nightly/0.1.dev20230423-0.1.dev20230424/diff.md --exclude *.pyd
+[2023-04-24 18:33:05] INFO root fetch - processPackages [oursin]: Start processing: energyplus-launch
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [oursin]: success
+[2023-04-24 18:33:05] INFO root fetch - processPackages [energyplus-launch]: New version: [3.6.4] Old Version: [3.6.3]
+[2023-04-24 18:33:05] INFO root fetch - processPackages [energyplus-launch]: executing diffoscope
+[2023-04-24 18:33:05] INFO root fetch - processPackages [energyplus-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyplus_launch-3.6.3.tar.gz tmp/energyplus_launch-3.6.4.tar.gz --markdown 20230424/e/energyplus-launch/3.6.3-3.6.4/diff.md --exclude *.pyd
+[2023-04-24 18:33:05] INFO root fetch - processPackages [psrqpy]: Start processing: tellor-disputables
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [psrqpy]: success
+[2023-04-24 18:33:05] INFO root fetch - processPackages [limacharlie]: Start processing: strongmind-deployment
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [limacharlie]: success
+[2023-04-24 18:33:05] INFO root fetch - processPackages [tellor-disputables]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-24 18:33:05] INFO root fetch - processPackages [strongmind-deployment]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 18:33:05] INFO root fetch - processPackages [otsucfgmng]: Start processing: SocketWrapper
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [otsucfgmng]: success
+[2023-04-24 18:33:05] INFO root fetch - processPackages [tellor-disputables]: Downloading https://files.pythonhosted.org/packages/85/56/08a5c4aa2a13bfbc11026ad74297866e2722083a53b9851d156b3c3f74ef/tellor_disputables-1.4.1.tar.gz
+[2023-04-24 18:33:05] INFO root fetch - processPackages [guardrails-ai]: Start processing: ez-yaml
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [guardrails-ai]: success
+[2023-04-24 18:33:05] WARNING root fetch - processPackages [SocketWrapper]: Skipping, unable to determine old version
+[2023-04-24 18:33:05] INFO root fetch - processPackages [SocketWrapper]: Start processing: seldonian-experiments
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [SocketWrapper] error
+[2023-04-24 18:33:05] INFO root fetch - processPackages [ez-yaml]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-04-24 18:33:05] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/8b/40/70aba068ef7146e4b9e5e9fad771b5b86f0655f3da53f803e20cbaebe47c/strongmind_deployment-0.0.3-py3-none-any.whl
+[2023-04-24 18:33:05] INFO root fetch - processPackages [chia-rs]: Start processing: qrisp
+[2023-04-24 18:33:05] INFO root fetch - main [MainThread]: End processing [chia-rs]: success
+[2023-04-24 18:33:05] INFO root fetch - processPackages [seldonian-experiments]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 18:33:05] INFO root fetch - processPackages [qrisp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 18:33:05] INFO root fetch - processPackages [ez-yaml]: executing diffoscope
+[2023-04-24 18:33:05] INFO root fetch - processPackages [ez-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_yaml-1.3.0.tar.gz tmp/ez_yaml-1.3.2.tar.gz --markdown 20230424/e/ez-yaml/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-04-24 18:33:06] INFO root fetch - processPackages [qrisp]: executing diffoscope
+[2023-04-24 18:33:06] INFO root fetch - processPackages [qrisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrisp-0.0.7.tar.gz tmp/qrisp-0.0.8.tar.gz --markdown 20230424/q/qrisp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 18:33:06] INFO root fetch - processPackages [tellor-disputables]: Downloading https://files.pythonhosted.org/packages/84/0c/f607ec977d78b9ac0227aca359cc116ecdcee9ac6a079f226fbad16c6c24/tellor_disputables-1.4.2.tar.gz
+[2023-04-24 18:33:06] INFO root fetch - processPackages [seldonian-experiments]: Downloading https://files.pythonhosted.org/packages/0a/1b/a1c478196bdf8d630eb0eb2ef9cb9b425c0069d5f603bab4f62bf3e1b5ec/seldonian_experiments-0.1.0.tar.gz
+[2023-04-24 18:33:06] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/b6/fc/6594608bc4c42df8e4c6602616f8f7ea0a3c67b7d591d5600f103ff8e654/strongmind_deployment-0.0.4-py3-none-any.whl
+[2023-04-24 18:33:06] INFO root fetch - processPackages [tellor-disputables]: executing diffoscope
+[2023-04-24 18:33:06] INFO root fetch - processPackages [tellor-disputables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tellor_disputables-1.4.1.tar.gz tmp/tellor_disputables-1.4.2.tar.gz --markdown 20230424/t/tellor-disputables/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-24 18:33:06] INFO root fetch - processPackages [quik-config]: Start processing: jianglab
+[2023-04-24 18:33:06] INFO root fetch - main [MainThread]: End processing [quik-config]: success
+[2023-04-24 18:33:06] INFO root fetch - processPackages [jianglab]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 18:33:06] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-04-24 18:33:06] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.1.5.tar.gz tmp/jianglab-0.1.6.tar.gz --markdown 20230424/j/jianglab/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 18:33:06] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-04-24 18:33:06] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-0.0.3-py3-none-any.whl.zip tmp/strongmind_deployment-0.0.4-py3-none-any.whl.zip --markdown 20230424/s/strongmind-deployment/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 18:33:06] INFO root fetch - processPackages [seldonian-experiments]: Downloading https://files.pythonhosted.org/packages/5d/7f/1853c17aa6278bd81190b8b8b235d147aa62ae5f2bf43585aab6c2523716/seldonian_experiments-0.1.1.tar.gz
+[2023-04-24 18:33:06] INFO root fetch - processPackages [seldonian-experiments]: executing diffoscope
+[2023-04-24 18:33:06] INFO root fetch - processPackages [seldonian-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seldonian_experiments-0.1.0.tar.gz tmp/seldonian_experiments-0.1.1.tar.gz --markdown 20230424/s/seldonian-experiments/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 18:33:06] INFO root fetch - main [MainThread]: End processing [energyplus-launch]: success
+[2023-04-24 18:33:07] INFO root fetch - main [MainThread]: End processing [ez-yaml]: success
+[2023-04-24 18:33:07] INFO root fetch - main [MainThread]: End processing [qrisp]: success
+[2023-04-24 18:33:07] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-04-24 18:33:07] INFO root fetch - main [MainThread]: End processing [tellor-disputables]: success
+[2023-04-24 18:33:07] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-04-24 18:33:07] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-04-24 18:33:08] INFO root fetch - main [MainThread]: End processing [seldonian-experiments]: success
+[2023-04-24 18:33:08] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-04-24 18:33:10] INFO root fetch - main [MainThread]: End processing [qrisp]: success
+[2023-04-24 18:33:10] INFO root fetch - main [MainThread]: Store serial: [17836605]
