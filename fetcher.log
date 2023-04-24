@@ -5753,3 +5753,68 @@
 [2023-04-24 08:25:37] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-24 08:25:38] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-24 08:25:38] INFO root fetch - main [MainThread]: Store serial: [17829577]
+[2023-04-24 08:30:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829577]
+[2023-04-24 08:30:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 08:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integreat-cms
+[2023-04-24 08:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacetool
+[2023-04-24 08:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypothesis
+[2023-04-24 08:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdmclient
+[2023-04-24 08:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warpzone-sdk
+[2023-04-24 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geo-espresso
+[2023-04-24 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eons
+[2023-04-24 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NikeCA
+[2023-04-24 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linkedinpdfextractor
+[2023-04-24 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tdmclient-ty
+[2023-04-24 08:30:48] INFO root fetch - processPackages [warpzone-sdk]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [integreat-cms]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [NikeCA]: New version: [0.1.78] Old Version: [0.1.77]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [spacetool]: New version: [1.0.1] Old Version: [0.2.2]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.0.dev0] Old Version: [0.3.0]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [eons]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient-ty]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [linkedinpdfextractor]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 08:30:48] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.77.tar.gz tmp/NikeCA-0.1.78.tar.gz --markdown 20230424/N/NikeCA/0.1.77-0.1.78/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/d4/8c/f4fdf87945d3661d4ed3d08d046b08078152d194e170f984b685401c02fb/integreat-cms-2023.4.1.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/9a/22/4ba5e8648983df80ec6fb7821a11246e26197b80b171f4122c74a3a31c63/geo-espresso-0.3.0.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/63/80/4f8a3105e959811a06064cd2a92eff7b4bb4005781b9dd6ef925bfe4d34d/eons-2.5.4.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/bc/26/093f1e0f8da3fdae8f0b32149cb9a27cacaf88854890dada6b1148f998a1/spacetool-0.2.2.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient]: Downloading https://files.pythonhosted.org/packages/15/a8/4afdb7a1d714d036233bf509eac87cbba7f102fc4e041dd46b940266a254/tdmclient-0.1.8.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient-ty]: Downloading https://files.pythonhosted.org/packages/fc/9b/77959f2c224e120c2eb4b9b6276637f2c0b4c6ce3d3078f2047d5e8d502f/tdmclient-ty-0.1.8.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [linkedinpdfextractor]: Downloading https://files.pythonhosted.org/packages/50/97/5b535951049bb7e5a6cf1765e91f2d7d0b1c694d178eefb9a2b3d6ba6c97/linkedinpdfextractor-1.0.3.tar.gz
+[2023-04-24 08:30:48] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16239441>=10485760
+[2023-04-24 08:30:48] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2023-04-24 08:30:48] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/e5/04/ca5eea33a4de4588abab70ce873258fc81fe153c0be3a3a743130f15623b/warpzone_sdk-6.0.2.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/de/eb/587293cd3adcb7b1950831d10962cdf7afe7cb590072478e3f9703c7257f/spacetool-1.0.1.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/81/5d/b40f4b7018037c5b335b1623f8a97f0d802899b6d33aff6fd62ee8fee135/eons-2.5.5.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient-ty]: Downloading https://files.pythonhosted.org/packages/56/58/149dd91b16bc00744516db5cfd372abe98dc3aed5ea897b5626e2d8e4241/tdmclient-ty-0.1.9.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-6.0.1.tar.gz tmp/warpzone_sdk-6.0.2.tar.gz --markdown 20230424/w/warpzone-sdk/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [linkedinpdfextractor]: Downloading https://files.pythonhosted.org/packages/ea/0a/4577a6ce8f3b881b79ae6f38fa825639b133ca998019ca08c5223966eec1/linkedinpdfextractor-1.0.4.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [geo-espresso]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [geo-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo-espresso-0.3.0.tar.gz tmp/geo-espresso-0.3.0.dev0.tar.gz --markdown 20230424/g/geo-espresso/0.3.0-0.3.0.dev0/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [spacetool]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [spacetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetool-0.2.2.tar.gz tmp/spacetool-1.0.1.tar.gz --markdown 20230424/s/spacetool/0.2.2-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient]: Downloading https://files.pythonhosted.org/packages/29/a7/4b73677f89283268b90257029e23890ddcdc7eac83284a0f86927b5bde1f/tdmclient-0.1.9.tar.gz
+[2023-04-24 08:30:48] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230424/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.5.4.tar.gz tmp/eons-2.5.5.tar.gz --markdown 20230424/e/eons/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient-ty]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [tdmclient-ty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdmclient-ty-0.1.8.tar.gz tmp/tdmclient-ty-0.1.9.tar.gz --markdown 20230424/t/tdmclient-ty/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 08:30:48] INFO root fetch - processPackages [linkedinpdfextractor]: executing diffoscope
+[2023-04-24 08:30:48] INFO root fetch - processPackages [linkedinpdfextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedinpdfextractor-1.0.3.tar.gz tmp/linkedinpdfextractor-1.0.4.tar.gz --markdown 20230424/l/linkedinpdfextractor/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-24 08:30:49] INFO root fetch - processPackages [tdmclient]: executing diffoscope
+[2023-04-24 08:30:49] INFO root fetch - processPackages [tdmclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdmclient-0.1.8.tar.gz tmp/tdmclient-0.1.9.tar.gz --markdown 20230424/t/tdmclient/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 08:30:49] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 08:30:50] INFO root fetch - main [MainThread]: End processing [spacetool]: success
+[2023-04-24 08:30:50] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-04-24 08:30:50] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-04-24 08:30:50] INFO root fetch - main [MainThread]: End processing [tdmclient-ty]: success
+[2023-04-24 08:30:50] INFO root fetch - main [MainThread]: End processing [tdmclient]: success
+[2023-04-24 08:30:50] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-04-24 08:30:51] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
+[2023-04-24 08:30:52] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
+[2023-04-24 08:30:52] INFO root fetch - main [MainThread]: Store serial: [17829620]
