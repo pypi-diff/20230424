@@ -12050,3 +12050,178 @@
 [2023-04-24 14:15:23] INFO root fetch - main [MainThread]: End processing [woke]: success
 [2023-04-24 14:15:26] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2023-04-24 14:15:26] INFO root fetch - main [MainThread]: Store serial: [17833274]
+[2023-04-24 14:20:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833274]
+[2023-04-24 14:20:35] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mobio-location-sdk-test
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: origen-ai-ecl
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mindelec-ascend
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphsignal
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindsponge-gpu
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mindflow-gpu
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsqfitgp
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mindsponge-ascend
+[2023-04-24 14:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mobio-location-sdk
+[2023-04-24 14:20:35] WARNING root fetch - processPackages [mindelec-ascend]: Skipping, unable to determine old version
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindelec-ascend]: Start processing: mindflow-ascend
+[2023-04-24 14:20:35] INFO root fetch - main [MainThread]: End processing [mindelec-ascend] error
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindflow-gpu]: New version: [0.1.0rc1] Old Version: [0.1.0a0]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mobio-location-sdk-test]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindsponge-gpu]: New version: [1.0.0rc1] Old Version: [1.0.0a0]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mobio-location-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [lsqfitgp]: New version: [0.9] Old Version: [0.8]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindsponge-ascend]: New version: [1.0.0rc1] Old Version: [1.0.0a0]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindflow-ascend]: New version: [0.1.0rc1] Old Version: [0.1.0a0]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-24 14:20:35] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindflow-gpu]: Downloading https://files.pythonhosted.org/packages/75/5e/8bc08d442f7e4c0ffb1ad669b86d7404c68bcfe9baad0f500d77e0c1042a/mindflow_gpu-0.1.0a0-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindsponge-gpu]: Downloading https://files.pythonhosted.org/packages/33/42/61e0a85c2af748e13249d7d477af610bf1ae5595b6cb31049cccde8ec625/mindsponge_gpu-1.0.0a0-py3-none-any.whl
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindsponge-ascend]: Downloading https://files.pythonhosted.org/packages/49/c5/aabb183a8a9e5b12711c5ebc12209562868483d5f9bf117853eb3d1e4d3d/mindsponge_ascend-1.0.0a0-py3-none-any.whl
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mobio-location-sdk]: Downloading https://files.pythonhosted.org/packages/d8/ef/b088583c13a80a342a85752610f2a466647c4de52b5462090e13c1e9b599/mobio-location-sdk-1.0.2.tar.gz
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mindflow-ascend]: Downloading https://files.pythonhosted.org/packages/d7/a6/a427e5913ba80eb0396b3006aeedd5367b6f3af999ba669f85b2e76ec844/mindflow_ascend-0.1.0a0-cp39-none-any.whl
+[2023-04-24 14:20:35] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-04-24 14:20:35] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/1e/b6/81f6e271bd5b39d71636ad19ac214a419bb5b8a471a4598f21add87ee1db/origen_ai_ecl-0.2.2.tar.gz
+[2023-04-24 14:20:35] INFO root fetch - processPackages [lsqfitgp]: Downloading https://files.pythonhosted.org/packages/db/95/c6091ffe65cf91c456f88c753c41389fa7dac73da9a3594e9a00db731935/lsqfitgp-0.8.tar.gz
+[2023-04-24 14:20:35] INFO root fetch - processPackages [mobio-location-sdk-test]: Downloading https://files.pythonhosted.org/packages/b9/6a/a8fd5f57fa0b046a07299780ecd4d06f68654ff6801801834b711975d26d/mobio-location-sdk-test-1.0.7.tar.gz
+[2023-04-24 14:20:35] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-04-24 14:20:36] WARNING root fetch - processPackages [mindsponge-gpu]: Skipping package: exceeds size limit 14244973>=10485760
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindsponge-gpu]: Start processing: gardener-component-model
+[2023-04-24 14:20:36] INFO root fetch - main [MainThread]: End processing [mindsponge-gpu] error
+[2023-04-24 14:20:36] INFO root fetch - processPackages [gardener-component-model]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mobio-location-sdk]: Downloading https://files.pythonhosted.org/packages/15/fa/201209edc6be60d249d75e884ce491f29672184b5feed6053f4ac57d17eb/mobio-location-sdk-1.0.3.tar.gz
+[2023-04-24 14:20:36] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.1.tar.gz tmp/origen_ai_ecl-0.2.2.tar.gz --markdown 20230424/o/origen-ai-ecl/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230424/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mobio-location-sdk-test]: Downloading https://files.pythonhosted.org/packages/5e/69/30a3cc8da1a71939c4b289912b1242e147ebb9ce9322cfe799f261a7688f/mobio-location-sdk-test-1.0.8.tar.gz
+[2023-04-24 14:20:36] INFO root fetch - processPackages [lsqfitgp]: Downloading https://files.pythonhosted.org/packages/ed/c2/202ed18536dec63e34c4defff80a6c0e36a45cd3f17a2475eb2db4a83862/lsqfitgp-0.9.tar.gz
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindflow-ascend]: Downloading https://files.pythonhosted.org/packages/fb/15/a6f3a31afb9770a183ba77ee39eabec17604ceab65fa915ab8ec9941980d/mindflow_ascend-0.1.0rc1-py3-none-any.whl
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindflow-gpu]: Downloading https://files.pythonhosted.org/packages/94/9a/d9149b65ebb262f57ca307afd5ef940ef9967f189d1f8ed87b88d264900b/mindflow_gpu-0.1.0rc1-py3-none-any.whl
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mobio-location-sdk]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mobio-location-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-location-sdk-1.0.2.tar.gz tmp/mobio-location-sdk-1.0.3.tar.gz --markdown 20230424/m/mobio-location-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [lsqfitgp]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [lsqfitgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsqfitgp-0.8.tar.gz tmp/lsqfitgp-0.9.tar.gz --markdown 20230424/l/lsqfitgp/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindsponge-ascend]: Downloading https://files.pythonhosted.org/packages/6f/7d/c04b111cd982cdba607b70afd0511727b5685a8fe83593e5067db411a7ce/mindsponge_ascend-1.0.0rc1-py3-none-any.whl
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mobio-location-sdk-test]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mobio-location-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-location-sdk-test-1.0.7.tar.gz tmp/mobio-location-sdk-test-1.0.8.tar.gz --markdown 20230424/m/mobio-location-sdk-test/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [gardener-component-model]: Downloading https://files.pythonhosted.org/packages/da/1b/06a3e85050c12592e43d5f8be5af88c4ac78f63b13fc17e312849dc4aa66/gardener-component-model-0.0.90.tar.gz
+[2023-04-24 14:20:36] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindflow-ascend]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindflow-ascend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindflow_ascend-0.1.0a0-cp39-none-any.whl.zip tmp/mindflow_ascend-0.1.0rc1-py3-none-any.whl.zip --markdown 20230424/m/mindflow-ascend/0.1.0a0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindflow-gpu]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindflow-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindflow_gpu-0.1.0a0-cp39-cp39-manylinux1_x86_64.whl.zip tmp/mindflow_gpu-0.1.0rc1-py3-none-any.whl.zip --markdown 20230424/m/mindflow-gpu/0.1.0a0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindsponge-ascend]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [mindsponge-ascend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsponge_ascend-1.0.0a0-py3-none-any.whl.zip tmp/mindsponge_ascend-1.0.0rc1-py3-none-any.whl.zip --markdown 20230424/m/mindsponge-ascend/1.0.0a0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 14:20:36] INFO root fetch - processPackages [gardener-component-model]: Downloading https://files.pythonhosted.org/packages/6b/cb/61a596c80aafb7af3bb6c45707f4cd8c472fb767d6a4e23638fea6ed3cf8/gardener-component-model-0.0.91.tar.gz
+[2023-04-24 14:20:36] INFO root fetch - processPackages [gardener-component-model]: executing diffoscope
+[2023-04-24 14:20:36] INFO root fetch - processPackages [gardener-component-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-component-model-0.0.90.tar.gz tmp/gardener-component-model-0.0.91.tar.gz --markdown 20230424/g/gardener-component-model/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-04-24 14:20:37] INFO root fetch - processPackages [mobio-location-sdk-test]: Start processing: coiled
+[2023-04-24 14:20:37] INFO root fetch - main [MainThread]: End processing [mobio-location-sdk-test]: success
+[2023-04-24 14:20:37] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-24 14:20:37] INFO root fetch - processPackages [graphsignal]: Start processing: flask-pydantic-spec
+[2023-04-24 14:20:37] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-04-24 14:20:37] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ba/ec/a1b7d93d0bc17cb3387591dec3bee17f5801f2ebfb87d396273748e93217/coiled-0.5.9.post0.dev7.tar.gz
+[2023-04-24 14:20:37] INFO root fetch - processPackages [flask-pydantic-spec]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-24 14:20:37] INFO root fetch - processPackages [mobio-location-sdk]: Start processing: akshare
+[2023-04-24 14:20:37] INFO root fetch - main [MainThread]: End processing [mobio-location-sdk]: success
+[2023-04-24 14:20:38] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [flask-pydantic-spec]: Downloading https://files.pythonhosted.org/packages/d5/60/8aaf026c7cee6dc365462bd661bdaef417102511d41e2f9d3430ae2992cb/flask_pydantic_spec-0.4.4.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [gardener-component-model]: Start processing: ramodels
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [gardener-component-model]: success
+[2023-04-24 14:20:38] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/0f/8d/63d4b03346d33aa16d322b289b4794cefc92c5a048ec8f967887d9e9abed/akshare-1.9.8.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: girdgui
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-04-24 14:20:38] INFO root fetch - processPackages [girdgui]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [flask-pydantic-spec]: Downloading https://files.pythonhosted.org/packages/a4/4e/19ff3f7d075741d99a3765e5f7ae3f24d3174a43419fe8f8e5a03cf476a4/flask_pydantic_spec-0.4.5.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-24 14:20:38] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230424/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-24 14:20:38] INFO root fetch - processPackages [lsqfitgp]: Start processing: mindpandas
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [lsqfitgp]: success
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindpandas]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindflow-ascend]: Start processing: beancount-capitalone
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [mindflow-ascend]: success
+[2023-04-24 14:20:38] INFO root fetch - processPackages [girdgui]: Downloading https://files.pythonhosted.org/packages/ac/25/865db894325124d871a2c50dfdf30a8065ca599d1f405b65ece645a778c6/girdgui-1.0.0.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindflow-gpu]: Start processing: mindocr
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [mindflow-gpu]: success
+[2023-04-24 14:20:38] INFO root fetch - processPackages [beancount-capitalone]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [flask-pydantic-spec]: executing diffoscope
+[2023-04-24 14:20:38] INFO root fetch - processPackages [flask-pydantic-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_pydantic_spec-0.4.4.tar.gz tmp/flask_pydantic_spec-0.4.5.tar.gz --markdown 20230424/f/flask-pydantic-spec/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-24 14:20:38] WARNING root fetch - processPackages [mindocr]: Skipping, unable to determine old version
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindocr]: Start processing: mindinsight
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [mindocr] error
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindinsight]: New version: [2.0.0rc1] Old Version: [2.0.0a0]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindpandas]: Downloading https://files.pythonhosted.org/packages/61/b3/34882a04caac8b5b0e270dea63a6d9396bd506035de791ac97001444829f/mindpandas-0.1.0-cp38-cp38-manylinux1_x86_64.whl
+[2023-04-24 14:20:38] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/27/53/8689df1a9a49e3b8ac2951c57f49b57e27de41c067ec4709bdc8dbfebab1/akshare-1.9.9.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [beancount-capitalone]: Downloading https://files.pythonhosted.org/packages/3d/2e/a516f8ef71bd7ed43c7b77f6a4a4de9377d46018c16101a90d664fb7f4a2/beancount-capitalone-0.1.0.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [girdgui]: Downloading https://files.pythonhosted.org/packages/90/bd/230692c088cc3487490007e405109ada06939f506aa4cbd30887bf0bf071/girdgui-1.0.1.tar.gz
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindinsight]: Downloading https://files.pythonhosted.org/packages/09/13/8bb4c52f6e6e5dac97b0c6b686eccb6de02e643575a507edefceeeaea9b2/mindinsight-2.0.0a0-py3-none-any.whl
+[2023-04-24 14:20:38] WARNING root fetch - processPackages [mindpandas]: Skipping package: exceeds size limit 81150607>=10485760
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindpandas]: Start processing: mindformers
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [mindpandas] error
+[2023-04-24 14:20:38] WARNING root fetch - processPackages [mindformers]: Skipping, unable to determine old version
+[2023-04-24 14:20:38] INFO root fetch - processPackages [mindformers]: Start processing: wxviews
+[2023-04-24 14:20:38] INFO root fetch - main [MainThread]: End processing [mindformers] error
+[2023-04-24 14:20:38] INFO root fetch - processPackages [wxviews]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-24 14:20:38] INFO root fetch - processPackages [girdgui]: executing diffoscope
+[2023-04-24 14:20:38] INFO root fetch - processPackages [girdgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girdgui-1.0.0.tar.gz tmp/girdgui-1.0.1.tar.gz --markdown 20230424/g/girdgui/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 14:20:38] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-04-24 14:20:38] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230424/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-24 14:20:38] INFO root fetch - processPackages [beancount-capitalone]: Downloading https://files.pythonhosted.org/packages/06/17/1205655e6f2c82340b3cae04e192d5115d8786ef8c7d82093d22e75a14b2/beancount-capitalone-0.1.1.tar.gz
+[2023-04-24 14:20:39] INFO root fetch - processPackages [wxviews]: Downloading https://files.pythonhosted.org/packages/7c/f1/7fced4373e0c3aa84378fb164593e17534ce0ce72c6059da101b706ce46c/wxviews-0.7.0.tar.gz
+[2023-04-24 14:20:39] INFO root fetch - processPackages [beancount-capitalone]: executing diffoscope
+[2023-04-24 14:20:39] INFO root fetch - processPackages [beancount-capitalone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beancount-capitalone-0.1.0.tar.gz tmp/beancount-capitalone-0.1.1.tar.gz --markdown 20230424/b/beancount-capitalone/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 14:20:39] INFO root fetch - processPackages [wxviews]: Downloading https://files.pythonhosted.org/packages/82/7c/e7e11795e80e415863f9c082c55880b107eb8f002163e172a27e97200ca3/wxviews-0.8.0.tar.gz
+[2023-04-24 14:20:39] INFO root fetch - processPackages [wxviews]: executing diffoscope
+[2023-04-24 14:20:39] INFO root fetch - processPackages [wxviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxviews-0.7.0.tar.gz tmp/wxviews-0.8.0.tar.gz --markdown 20230424/w/wxviews/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-24 14:20:39] INFO root fetch - processPackages [ramodels]: Start processing: mindarmour
+[2023-04-24 14:20:39] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-24 14:20:39] INFO root fetch - processPackages [mindarmour]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-04-24 14:20:39] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/3e/39/6ff4fdcc0668907bf1874a37b1d879509a517280193ace86d772a02feaa6/coiled-0.5.9.post0.dev8.tar.gz
+[2023-04-24 14:20:39] INFO root fetch - processPackages [mindarmour]: Downloading https://files.pythonhosted.org/packages/e3/b5/ce132eda73e90c21cde93124f93c748b83de26bf500551e0ddf58c2f228e/mindarmour-1.9.0-py3-none-any.whl
+[2023-04-24 14:20:39] INFO root fetch - processPackages [girdgui]: Start processing: armonik
+[2023-04-24 14:20:39] INFO root fetch - main [MainThread]: End processing [girdgui]: success
+[2023-04-24 14:20:39] INFO root fetch - processPackages [armonik]: New version: [3.8.1.dev273] Old Version: [3.8.1.dev264]
+[2023-04-24 14:20:40] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-04-24 14:20:40] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.1.dev264.tar.gz tmp/armonik-3.8.1.dev273.tar.gz --markdown 20230424/a/armonik/3.8.1.dev264-3.8.1.dev273/diff.md --exclude *.pyd
+[2023-04-24 14:20:40] INFO root fetch - processPackages [flask-pydantic-spec]: Start processing: mindspore-gl
+[2023-04-24 14:20:40] INFO root fetch - main [MainThread]: End processing [flask-pydantic-spec]: success
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindspore-gl]: New version: [0.2.0a0] Old Version: [0.2]
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindarmour]: Downloading https://files.pythonhosted.org/packages/3a/f3/12e9d3520d58b446ff8c2aed8152be93854da13ddd6fc83fe07ad1a4e8ce/mindarmour-2.0.0-py3-none-any.whl
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindspore-gl]: Downloading https://files.pythonhosted.org/packages/ed/e8/49c611dd2afd2be163ea23c0eb45cb64629020b75b3a2075638c9b3a20a2/mindspore_gl-0.2-cp39-none-any.whl
+[2023-04-24 14:20:40] INFO root fetch - processPackages [beancount-capitalone]: Start processing: mindspore-federated
+[2023-04-24 14:20:40] INFO root fetch - main [MainThread]: End processing [beancount-capitalone]: success
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindarmour]: executing diffoscope
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindarmour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindarmour-1.9.0-py3-none-any.whl.zip tmp/mindarmour-2.0.0-py3-none-any.whl.zip --markdown 20230424/m/mindarmour/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-24 14:20:40] WARNING root fetch - processPackages [mindspore-federated]: Skipping, unable to determine old version
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindspore-federated]: Start processing: aacommpy
+[2023-04-24 14:20:40] INFO root fetch - main [MainThread]: End processing [mindspore-federated] error
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindsponge-ascend]: Start processing: gptdeploy
+[2023-04-24 14:20:40] INFO root fetch - main [MainThread]: End processing [mindsponge-ascend]: success
+[2023-04-24 14:20:40] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 14:20:40] WARNING root fetch - processPackages [aacommpy]: Skipping, unable to determine old version
+[2023-04-24 14:20:40] INFO root fetch - main [MainThread]: End processing [aacommpy] error
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindinsight]: Downloading https://files.pythonhosted.org/packages/57/fc/a2d1ec83b53e302816ffa0aa8bd3054f3b0c4df5c01464bd43d863de052b/mindinsight-2.0.0rc1-py3-none-any.whl
+[2023-04-24 14:20:40] INFO root fetch - main [MainThread]: End processing [wxviews]: success
+[2023-04-24 14:20:40] INFO root fetch - processPackages [mindspore-gl]: Downloading https://files.pythonhosted.org/packages/65/22/02a151df83e86dad9a0e04ab4d9e7fe551f158ab3f914e97fbd990955601/mindspore_gl-0.2.0a0-cp39-none-any.whl
+[2023-04-24 14:20:40] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 14:20:40] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 14:20:41] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-04-24 14:20:41] INFO root fetch - processPackages [mindspore-gl]: executing diffoscope
+[2023-04-24 14:20:41] INFO root fetch - processPackages [mindspore-gl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindspore_gl-0.2-cp39-none-any.whl.zip tmp/mindspore_gl-0.2.0a0-cp39-none-any.whl.zip --markdown 20230424/m/mindspore-gl/0.2-0.2.0a0/diff.md --exclude *.pyd
+[2023-04-24 14:20:41] INFO root fetch - processPackages [mindinsight]: executing diffoscope
+[2023-04-24 14:20:41] INFO root fetch - processPackages [mindinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindinsight-2.0.0a0-py3-none-any.whl.zip tmp/mindinsight-2.0.0rc1-py3-none-any.whl.zip --markdown 20230424/m/mindinsight/2.0.0a0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 14:20:41] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 14:20:42] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-24 14:20:42] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230424/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-24 14:20:42] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-04-24 14:20:43] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-24 14:20:43] INFO root fetch - main [MainThread]: End processing [mindarmour]: success
+[2023-04-24 14:20:45] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-24 14:20:56] INFO root fetch - main [MainThread]: End processing [mindspore-gl]: success
+[2023-04-24 14:21:36] INFO root fetch - main [MainThread]: End processing [mindinsight]: success
+[2023-04-24 14:21:36] INFO root fetch - main [MainThread]: Store serial: [17833365]
