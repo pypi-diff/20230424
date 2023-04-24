@@ -1915,3 +1915,78 @@
 [2023-04-24 03:17:36] INFO root fetch - processPackages [raydp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp-1.6.0b20230414.dev0-py3-none-any.whl.zip tmp/raydp-1.6.0b20230424.dev0-py3-none-any.whl.zip --markdown 20230424/r/raydp/1.6.0b20230414.dev0-1.6.0b20230424.dev0/diff.md --exclude *.pyd
 [2023-04-24 03:20:10] INFO root fetch - main [MainThread]: End processing [raydp]: success
 [2023-04-24 03:20:10] INFO root fetch - main [MainThread]: Store serial: [17827358]
+[2023-04-24 03:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827358]
+[2023-04-24 03:25:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidocr-onnxruntime
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidocr-openvino
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyagrum-nightly
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-botting-core
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tradchat
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQt6-Fluent-Widgets
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsel-get-selector-text
+[2023-04-24 03:25:19] INFO root fetch - processPackages [rapidocr-openvino]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [parsel-get-selector-text]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ml-botting-core]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-24 03:25:19] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-04-24 03:25:19] INFO root fetch - processPackages [tradchat]: Start processing: scotthsieh-projen-statemachine
+[2023-04-24 03:25:19] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-04-24 03:25:19] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [rapidocr-onnxruntime]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [rapidocr-openvino]: Downloading https://files.pythonhosted.org/packages/a0/89/110c9d675e17bab4ef13c725e9ec7f106377a37d09820276e29d3d2aad0c/rapidocr_openvino-1.2.6-py3-none-any.whl
+[2023-04-24 03:25:19] INFO root fetch - processPackages [rapidocr-onnxruntime]: Downloading https://files.pythonhosted.org/packages/6d/e7/60c67d9ab8113865a33a09fc05beed13177fbaf1116c734d64afa1dd3e39/rapidocr_onnxruntime-1.2.6-py3-none-any.whl
+[2023-04-24 03:25:19] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230424/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:25:19] INFO root fetch - processPackages [parsel-get-selector-text]: Downloading https://files.pythonhosted.org/packages/56/63/b6a909e4f1d724331f1ac387c0a3339be1b82992a59f13a61190e14976fd/parsel_get_selector_text-0.1.tar.gz
+[2023-04-24 03:25:19] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0e/91/3db0538a59bc3785f6b281596e15fdd275368b221487917e87d483612fc1/PyQt6-Fluent-Widgets-0.7.5.tar.gz
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ml-botting-core]: Downloading https://files.pythonhosted.org/packages/6c/89/322c920cfbe4a0a2ab74b7cb34dbb236fdbbeed5dcaeca322f5192b4f487/ml_botting_core-1.0.7.tar.gz
+[2023-04-24 03:25:19] WARNING root fetch - processPackages [rapidocr-onnxruntime]: Skipping package: exceeds size limit 12326317>=10485760
+[2023-04-24 03:25:19] INFO root fetch - processPackages [rapidocr-onnxruntime]: Start processing: bioregistry
+[2023-04-24 03:25:19] INFO root fetch - main [MainThread]: End processing [rapidocr-onnxruntime] error
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ml-botting-core]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [ml-botting-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_botting_core-1.0.6.tar.gz tmp/ml_botting_core-1.0.7.tar.gz --markdown 20230424/m/ml-botting-core/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-24 03:25:19] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.7.4.tar.gz tmp/PyQt6-Fluent-Widgets-0.7.5.tar.gz --markdown 20230424/P/PyQt6-Fluent-Widgets/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-24 03:25:19] INFO root fetch - processPackages [bioregistry]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304241682179495] Old Version: [1.7.1.9.dev202304231682179495]
+[2023-04-24 03:25:19] INFO root fetch - processPackages [parsel-get-selector-text]: Downloading https://files.pythonhosted.org/packages/58/15/20f029889bb37d15755871214f3d42180e8ad6c2ed7bb7fb9ddc7b1c55a9/parsel_get_selector_text-0.2.tar.gz
+[2023-04-24 03:25:19] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230424/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-24 03:25:19] WARNING root fetch - processPackages [rapidocr-openvino]: Skipping package: exceeds size limit 12342159>=10485760
+[2023-04-24 03:25:19] INFO root fetch - processPackages [rapidocr-openvino]: Start processing: ld-data
+[2023-04-24 03:25:19] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino] error
+[2023-04-24 03:25:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230424/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:25:19] INFO root fetch - processPackages [parsel-get-selector-text]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [parsel-get-selector-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsel_get_selector_text-0.1.tar.gz tmp/parsel_get_selector_text-0.2.tar.gz --markdown 20230424/p/parsel-get-selector-text/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 03:25:19] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-24 03:25:19] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230424/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-24 03:25:20] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-04-24 03:25:20] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.8.8.tar.gz tmp/bioregistry-0.8.9.tar.gz --markdown 20230424/b/bioregistry/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-24 03:25:20] WARNING root fetch - processPackages [ld-data]: Skipping, unable to determine old version
+[2023-04-24 03:25:20] INFO root fetch - processPackages [ld-data]: Start processing: nonebot-plugin-picstatus
+[2023-04-24 03:25:20] INFO root fetch - main [MainThread]: End processing [ld-data] error
+[2023-04-24 03:25:20] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/d2/54/c4a883075385f756d8a9c0b3831ed42178d55419f4ebdbffe9ad5ea464a0/pyAgrum_nightly-1.7.1.9.dev202304231682179495-cp39-cp39-win_amd64.whl
+[2023-04-24 03:25:20] INFO root fetch - processPackages [nonebot-plugin-picstatus]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 03:25:20] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Downloading https://files.pythonhosted.org/packages/0d/dc/3cb2c81b0417bd266ad3c74af8a59627b75a8cb4176930239fd87e3542c7/nonebot_plugin_picstatus-0.3.2.tar.gz
+[2023-04-24 03:25:20] WARNING root fetch - processPackages [nonebot-plugin-picstatus]: Skipping package: exceeds size limit 16080934>=10485760
+[2023-04-24 03:25:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-picstatus] error
+[2023-04-24 03:25:21] INFO root fetch - main [MainThread]: End processing [ml-botting-core]: success
+[2023-04-24 03:25:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-04-24 03:25:21] INFO root fetch - main [MainThread]: End processing [parsel-get-selector-text]: success
+[2023-04-24 03:25:21] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c8/65/b38ccfa35461520753bfe3ad0961d4f6415f0ce3581a03a6a690596a718d/pyAgrum_nightly-1.7.1.9.dev202304241682179495-cp39-cp39-win_amd64.whl
+[2023-04-24 03:25:22] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-24 03:25:22] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304231682179495-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304241682179495-cp39-cp39-win_amd64.whl.zip --markdown 20230424/p/pyagrum-nightly/1.7.1.9.dev202304231682179495-1.7.1.9.dev202304241682179495/diff.md --exclude *.pyd
+[2023-04-24 03:25:22] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-04-24 03:25:22] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-04-24 03:25:22] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-04-24 03:25:23] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-24 03:25:26] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-24 03:26:29] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-04-24 03:26:29] INFO root fetch - main [MainThread]: Store serial: [17827420]
