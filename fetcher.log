@@ -5074,3 +5074,24 @@
 [2023-04-24 07:02:56] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-04-24 07:02:57] INFO root fetch - main [MainThread]: End processing [complex-curve-fit-gui]: success
 [2023-04-24 07:02:57] INFO root fetch - main [MainThread]: Store serial: [17829154]
+[2023-04-24 07:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829154]
+[2023-04-24 07:08:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-24 07:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compose-go
+[2023-04-24 07:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-04-24 07:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-model-server
+[2023-04-24 07:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlink-serverless
+[2023-04-24 07:08:07] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230423] Old Version: [0.1.1.dev20230422]
+[2023-04-24 07:08:07] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230423] Old Version: [1.1.8b20230422]
+[2023-04-24 07:08:07] WARNING root fetch - processPackages [compose-go]: Skipping, unable to determine old version
+[2023-04-24 07:08:07] INFO root fetch - main [MainThread]: End processing [compose-go] error
+[2023-04-24 07:08:07] INFO root fetch - processPackages [streamlink-serverless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 07:08:07] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-04-24 07:08:07] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230422.tar.gz tmp/rapid_pe-0.1.1.dev20230423.tar.gz --markdown 20230424/r/rapid-pe/0.1.1.dev20230422-0.1.1.dev20230423/diff.md --exclude *.pyd
+[2023-04-24 07:08:07] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-24 07:08:07] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230422-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230423-py2.py3-none-any.whl.zip --markdown 20230424/m/multi-model-server/1.1.8b20230422-1.1.8b20230423/diff.md --exclude *.pyd
+[2023-04-24 07:08:07] INFO root fetch - processPackages [streamlink-serverless]: executing diffoscope
+[2023-04-24 07:08:07] INFO root fetch - processPackages [streamlink-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-serverless-0.0.8.tar.gz tmp/streamlink-serverless-0.0.9.tar.gz --markdown 20230424/s/streamlink-serverless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 07:08:08] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-04-24 07:08:08] INFO root fetch - main [MainThread]: End processing [streamlink-serverless]: success
+[2023-04-24 07:10:58] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-24 07:10:58] INFO root fetch - main [MainThread]: Store serial: [17829179]
