@@ -15665,3 +15665,148 @@
 [2023-04-24 17:01:39] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-24 17:01:40] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
 [2023-04-24 17:01:40] INFO root fetch - main [MainThread]: Store serial: [17835333]
+[2023-04-24 17:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835333]
+[2023-04-24 17:06:50] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afdko
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adt-cache
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datacrunch
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leap-model-parser
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptal-api
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kodekloud-downloader
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: car-connector-framework
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splight-lib
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liquid-jsonpath
+[2023-04-24 17:06:50] INFO root fetch - processPackages [adt-cache]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [kodekloud-downloader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:06:50] WARNING root fetch - processPackages [liquid-jsonpath]: Skipping, unable to determine old version
+[2023-04-24 17:06:50] INFO root fetch - processPackages [liquid-jsonpath]: Start processing: dragonfly-radiance
+[2023-04-24 17:06:50] INFO root fetch - main [MainThread]: End processing [liquid-jsonpath] error
+[2023-04-24 17:06:50] INFO root fetch - processPackages [datacrunch]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ptal-api]: New version: [0.11.4.2] Old Version: [0.11.4.1]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.92] Old Version: [0.1.91.dev9]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [splight-lib]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [afdko]: New version: [3.9.5a0] Old Version: [3.9.5]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [car-connector-framework]: New version: [3.0.2rc281] Old Version: [3.0.2rc280]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 17:06:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-04-24 17:06:50] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [datacrunch]: Downloading https://files.pythonhosted.org/packages/f7/f9/a319a0bef7a288f7197cce71d2f4aa3ffe1b3f2055bbafc3a5e406492832/datacrunch-1.1.2.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/4d/f3/b8b91bbbfb9d3569435b97e43c2261e94af440e433410ce9bacf5cd435b3/leap_model_parser-0.1.91.dev9.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/04/5e/66fff928db328fe54b625dabe2a785fcc2faa2ffd622f43544e54cf133ab/ptal_api-0.11.4.2.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [car-connector-framework]: Downloading https://files.pythonhosted.org/packages/33/0a/21aeec14256c126dd3023584329d2226e86827637dc50e09783ea269d350/car-connector-framework-3.0.2rc280.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [afdko]: Downloading https://files.pythonhosted.org/packages/68/5b/382a773e285901cbfd0a5d917dcf84de597b764020958ce2f1ee99b9f561/afdko-3.9.5.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/33/6c/d89a523f1195dd7fe3329044a5b2688150080cf1772b89a07b2ab265894d/adt_cache-0.0.6.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [kodekloud-downloader]: Downloading https://files.pythonhosted.org/packages/4e/f0/043a549e44c83019010fc0f1a298149c9ed3f94432501fee9db1ec04209c/kodekloud-downloader-0.0.9.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/13/0b/2298b5b0cee916c8e5473d453b50cb66d8c418a2693f47962f27bdba0253/splight-lib-2.3.1.tar.gz
+[2023-04-24 17:06:50] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-04-24 17:06:51] WARNING root fetch - processPackages [afdko]: Skipping package: exceeds size limit 16271188>=10485760
+[2023-04-24 17:06:51] INFO root fetch - processPackages [afdko]: Start processing: pigeonapi-python-client
+[2023-04-24 17:06:51] INFO root fetch - main [MainThread]: End processing [afdko] error
+[2023-04-24 17:06:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-04-24 17:06:51] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.11.4.1.tar.gz tmp/ptal_api-0.11.4.2.tar.gz --markdown 20230424/p/ptal-api/0.11.4.1-0.11.4.2/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [pigeonapi-python-client]: New version: [0.13] Old Version: [0.12]
+[2023-04-24 17:06:51] INFO root fetch - processPackages [kodekloud-downloader]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [kodekloud-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodekloud-downloader-0.0.8.tar.gz tmp/kodekloud-downloader-0.0.9.tar.gz --markdown 20230424/k/kodekloud-downloader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.91.dev9.tar.gz tmp/leap_model_parser-0.1.92.tar.gz --markdown 20230424/l/leap-model-parser/0.1.91.dev9-0.1.92/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.5.tar.gz tmp/adt_cache-0.0.6.tar.gz --markdown 20230424/a/adt-cache/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230424/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [datacrunch]: Downloading https://files.pythonhosted.org/packages/e1/c0/e3519857405fd8640d6b494304dc42de4cb87f09f545ffffdd87422aded1/datacrunch-1.2.0.tar.gz
+[2023-04-24 17:06:51] INFO root fetch - processPackages [car-connector-framework]: Downloading https://files.pythonhosted.org/packages/08/eb/0d41996f0c1aea59332a3718a291f397e3245a50c1fb5420bda09246b8ad/car-connector-framework-3.0.2rc281.tar.gz
+[2023-04-24 17:06:51] INFO root fetch - processPackages [pigeonapi-python-client]: Downloading https://files.pythonhosted.org/packages/5f/71/2b98f8dc47b16b1e5b1c40614ed43941f1e368b0848a0b403f616b45aaab/pigeonapi-python-client-0.12.tar.gz
+[2023-04-24 17:06:51] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/be/96/06c5bef6e16a4a18e0f65e8b5bf9a7b3cf3f5ea4e0d455de4c4afd6b0ffc/splight-lib-2.3.2.tar.gz
+[2023-04-24 17:06:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230424/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [datacrunch]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [datacrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacrunch-1.1.2.tar.gz tmp/datacrunch-1.2.0.tar.gz --markdown 20230424/d/datacrunch/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [car-connector-framework]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [car-connector-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/car-connector-framework-3.0.2rc280.tar.gz tmp/car-connector-framework-3.0.2rc281.tar.gz --markdown 20230424/c/car-connector-framework/3.0.2rc280-3.0.2rc281/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.1.tar.gz tmp/splight-lib-2.3.2.tar.gz --markdown 20230424/s/splight-lib/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-24 17:06:51] INFO root fetch - processPackages [pigeonapi-python-client]: Downloading https://files.pythonhosted.org/packages/a0/fa/bb0ca8f8569e89fa00d0faef039fda6cf67aad5f808b3cbe43764214fed5/pigeonapi-python-client-0.13.tar.gz
+[2023-04-24 17:06:51] INFO root fetch - processPackages [pigeonapi-python-client]: executing diffoscope
+[2023-04-24 17:06:51] INFO root fetch - processPackages [pigeonapi-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonapi-python-client-0.12.tar.gz tmp/pigeonapi-python-client-0.13.tar.gz --markdown 20230424/p/pigeonapi-python-client/0.12-0.13/diff.md --exclude *.pyd
+[2023-04-24 17:06:52] INFO root fetch - processPackages [adt-cache]: Start processing: car-connector-framework
+[2023-04-24 17:06:52] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-04-24 17:06:52] INFO root fetch - processPackages [car-connector-framework]: New version: [3.0.2rc281] Old Version: [3.0.2rc280]
+[2023-04-24 17:06:52] INFO root fetch - processPackages [car-connector-framework]: executing diffoscope
+[2023-04-24 17:06:52] INFO root fetch - processPackages [car-connector-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/car-connector-framework-3.0.2rc280.tar.gz tmp/car-connector-framework-3.0.2rc281.tar.gz --markdown 20230424/c/car-connector-framework/3.0.2rc280-3.0.2rc281/diff.md --exclude *.pyd
+[2023-04-24 17:06:52] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: etl-csm-pet
+[2023-04-24 17:06:52] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-04-24 17:06:52] INFO root fetch - processPackages [etl-csm-pet]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 17:06:52] INFO root fetch - processPackages [kodekloud-downloader]: Start processing: terraform-backend-s3-bucket
+[2023-04-24 17:06:52] INFO root fetch - main [MainThread]: End processing [kodekloud-downloader]: success
+[2023-04-24 17:06:52] INFO root fetch - processPackages [etl-csm-pet]: Downloading https://files.pythonhosted.org/packages/ff/86/b16d44be601a65d5fd5bb2fd165a6a62688fba19458fa10b589d867d9283/etl_csm_pet-0.0.5.tar.gz
+[2023-04-24 17:06:52] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:06:53] INFO root fetch - processPackages [car-connector-framework]: Start processing: antchain-appex
+[2023-04-24 17:06:53] INFO root fetch - main [MainThread]: End processing [car-connector-framework]: success
+[2023-04-24 17:06:53] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [etl-csm-pet]: Downloading https://files.pythonhosted.org/packages/8a/3d/37c4b7a2b9a72d0e4f9602318b06597889986102552d0f5096d31526ad4e/etl_csm_pet-0.0.6.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [antchain-appex]: New version: [1.3.8] Old Version: [1.3.3]
+[2023-04-24 17:06:53] INFO root fetch - processPackages [pigeonapi-python-client]: Start processing: honeybee-radiance-postprocess
+[2023-04-24 17:06:53] INFO root fetch - main [MainThread]: End processing [pigeonapi-python-client]: success
+[2023-04-24 17:06:53] INFO root fetch - processPackages [etl-csm-pet]: executing diffoscope
+[2023-04-24 17:06:53] INFO root fetch - processPackages [etl-csm-pet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_csm_pet-0.0.5.tar.gz tmp/etl_csm_pet-0.0.6.tar.gz --markdown 20230424/e/etl-csm-pet/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 17:06:53] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-04-24 17:06:53] INFO root fetch - processPackages [antchain-appex]: Downloading https://files.pythonhosted.org/packages/32/c0/699c09cc473956a071ada433692a642f1499421f327f975bc6f8323e9ede/antchain_appex-1.3.3.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [datacrunch]: Start processing: tensorflow-text-nightly
+[2023-04-24 17:06:53] INFO root fetch - main [MainThread]: End processing [datacrunch]: success
+[2023-04-24 17:06:53] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [car-connector-framework]: Start processing: cg
+[2023-04-24 17:06:53] INFO root fetch - main [MainThread]: End processing [car-connector-framework]: success
+[2023-04-24 17:06:53] INFO root fetch - processPackages [cg]: New version: [29.4.2] Old Version: [29.4.1]
+[2023-04-24 17:06:53] INFO root fetch - processPackages [antchain-appex]: Downloading https://files.pythonhosted.org/packages/d8/fe/421fc0211dfc3162d35cfa5f0d2a6884b07e9197db79d82c9ebcd59b7c41/antchain_appex-1.3.8.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.13.0.dev20230424] Old Version: [2.13.0.dev20230423]
+[2023-04-24 17:06:53] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-04-24 17:06:53] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230424/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:06:53] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c6/67/410b1162f98a81230939e396be2c71ef1547a2511b15048af203107ff526/cg-29.4.2.tar.gz
+[2023-04-24 17:06:53] INFO root fetch - processPackages [antchain-appex]: executing diffoscope
+[2023-04-24 17:06:53] INFO root fetch - processPackages [antchain-appex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_appex-1.3.3.tar.gz tmp/antchain_appex-1.3.8.tar.gz --markdown 20230424/a/antchain-appex/1.3.3-1.3.8/diff.md --exclude *.pyd
+[2023-04-24 17:06:54] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/26/5b/0a2d20fd9e6817dfae7464ea0e1ff48af33a7aa2c026bf25fa8e43f227be/tensorflow_text_nightly-2.13.0.dev20230423-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-24 17:06:54] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-04-24 17:06:54] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230424/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-04-24 17:06:54] INFO root fetch - processPackages [ptal-api]: Start processing: energyplus-launch
+[2023-04-24 17:06:54] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-04-24 17:06:54] INFO root fetch - processPackages [splight-lib]: Start processing: origen-ai-ecl
+[2023-04-24 17:06:54] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-04-24 17:06:54] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 17:06:54] INFO root fetch - processPackages [energyplus-launch]: New version: [3.6.4] Old Version: [3.6.3]
+[2023-04-24 17:06:54] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-24 17:06:54] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.2.tar.gz tmp/origen_ai_ecl-0.2.3.tar.gz --markdown 20230424/o/origen-ai-ecl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 17:06:54] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 17:06:54] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.1.tar.gz tmp/cg-29.4.2.tar.gz --markdown 20230424/c/cg/29.4.1-29.4.2/diff.md --exclude *.pyd
+[2023-04-24 17:06:54] INFO root fetch - processPackages [energyplus-launch]: Downloading https://files.pythonhosted.org/packages/08/0a/32c4316b7c3a298564bde0c2453fb3fbf5a062f9569ef4ea42f451783246/energyplus_launch-3.6.3.tar.gz
+[2023-04-24 17:06:54] INFO root fetch - processPackages [etl-csm-pet]: Start processing: lbt-dragonfly
+[2023-04-24 17:06:54] INFO root fetch - main [MainThread]: End processing [etl-csm-pet]: success
+[2023-04-24 17:06:54] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-24 17:06:55] INFO root fetch - processPackages [energyplus-launch]: Downloading https://files.pythonhosted.org/packages/4c/0b/4e0f395ca8f31c731348952154f8846c976856675ce37382faf28a6c8875/energyplus_launch-3.6.4.tar.gz
+[2023-04-24 17:06:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-04-24 17:06:55] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Start processing: chplot
+[2023-04-24 17:06:55] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-04-24 17:06:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-04-24 17:06:55] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/76/17/e1c0da9798b8273d80615e7a31439dfe08aa6f6962c4fa230d4936773c8f/tensorflow_text_nightly-2.13.0.dev20230424-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 17:06:55] WARNING root fetch - processPackages [chplot]: Skipping, unable to determine old version
+[2023-04-24 17:06:55] INFO root fetch - main [MainThread]: End processing [chplot] error
+[2023-04-24 17:06:55] INFO root fetch - processPackages [energyplus-launch]: executing diffoscope
+[2023-04-24 17:06:55] INFO root fetch - processPackages [energyplus-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyplus_launch-3.6.3.tar.gz tmp/energyplus_launch-3.6.4.tar.gz --markdown 20230424/e/energyplus-launch/3.6.3-3.6.4/diff.md --exclude *.pyd
+[2023-04-24 17:06:55] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-24 17:06:55] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230424/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-24 17:06:55] INFO root fetch - main [MainThread]: End processing [antchain-appex]: success
+[2023-04-24 17:06:55] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-04-24 17:06:56] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-24 17:06:56] INFO root fetch - main [MainThread]: End processing [energyplus-launch]: success
+[2023-04-24 17:06:57] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-24 17:06:57] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-04-24 17:06:57] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.13.0.dev20230423-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/tensorflow_text_nightly-2.13.0.dev20230424-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/t/tensorflow-text-nightly/2.13.0.dev20230423-2.13.0.dev20230424/diff.md --exclude *.pyd
+[2023-04-24 17:06:59] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-24 17:07:07] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 17:07:09] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-04-24 17:07:10] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-04-24 17:07:10] INFO root fetch - main [MainThread]: Store serial: [17835411]
