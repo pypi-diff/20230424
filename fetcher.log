@@ -20588,3 +20588,115 @@
 [2023-04-24 21:01:20] INFO root fetch - main [MainThread]: End processing [scrapy-webdriver]: success
 [2023-04-24 21:01:22] INFO root fetch - main [MainThread]: End processing [acheron]: success
 [2023-04-24 21:01:22] INFO root fetch - main [MainThread]: Store serial: [17838363]
+[2023-04-24 21:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838363]
+[2023-04-24 21:06:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonclass
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib310-lite
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openPMD-validator
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sharingiscaring
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awkward-cpp
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oreo4
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-resumable-media
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shortipy
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perspdf
+[2023-04-24 21:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: partifact
+[2023-04-24 21:06:32] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 21:06:32] WARNING root fetch - processPackages [oreo4]: Skipping, unable to determine old version
+[2023-04-24 21:06:32] INFO root fetch - processPackages [oreo4]: Start processing: arize-phoenix
+[2023-04-24 21:06:32] INFO root fetch - processPackages [jsonclass]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-04-24 21:06:32] INFO root fetch - main [MainThread]: End processing [oreo4] error
+[2023-04-24 21:06:32] INFO root fetch - processPackages [partifact]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 21:06:32] WARNING root fetch - processPackages [perspdf]: Skipping, unable to determine old version
+[2023-04-24 21:06:32] INFO root fetch - processPackages [perspdf]: Start processing: always-updates
+[2023-04-24 21:06:32] INFO root fetch - main [MainThread]: End processing [perspdf] error
+[2023-04-24 21:06:32] INFO root fetch - processPackages [shortipy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [google-resumable-media]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [awkward-cpp]: New version: [9] Old Version: [8]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [openPMD-validator]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-24 21:06:32] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-24 21:06:32] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230424/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 21:06:32] INFO root fetch - processPackages [google-resumable-media]: Downloading https://files.pythonhosted.org/packages/88/11/ea0db6fe28017487dd1e2c6bc3623ea2dc4655947d6f571c6207b6d9693c/google-resumable-media-2.4.1.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [partifact]: Downloading https://files.pythonhosted.org/packages/91/74/031bf4197046bf890032d452d6602bb5d213b0d11d4e981fa21c91869ecf/partifact-0.1.5.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/ff/d0/917dfdf5fd0093b449912c23b2ae4cab2ca44a08dbe245d6c26270bebe3c/lib310_lite-0.0.4.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [jsonclass]: Downloading https://files.pythonhosted.org/packages/b2/55/8317688fc4f8e01eb993feb91642570c512fa98ba380a8ee02f85a6048f9/jsonclass-0.0.9.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [openPMD-validator]: Downloading https://files.pythonhosted.org/packages/36/6f/00b2c915bf398a838978e0c4b9f3feacdb15cde84d22aa9f11364bfbb4cc/openPMD-validator-1.1.0.3.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/aa/cd/6114a7b8cf79cdb8874b7fc09dd26b6b6193c6fd1d0872c07b33869e4529/arize_phoenix-0.0.8.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [shortipy]: Downloading https://files.pythonhosted.org/packages/0b/f3/e4046f4c6258ef10238f1f9c76f0aa76110a660ff8a187cccdc7ac285ecc/shortipy-1.3.2.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/aa/f5/64adc43fa8ade78ad35bf90276c8741d996c40c25626e9900d611f752446/awkward-cpp-8.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-04-24 21:06:32] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-04-24 21:06:32] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.3.tar.gz tmp/lib310_lite-0.0.4.tar.gz --markdown 20230424/l/lib310-lite/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 21:06:32] INFO root fetch - processPackages [jsonclass]: executing diffoscope
+[2023-04-24 21:06:32] INFO root fetch - processPackages [jsonclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonclass-0.0.6.tar.gz tmp/jsonclass-0.0.9.tar.gz --markdown 20230424/j/jsonclass/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 21:06:32] INFO root fetch - processPackages [shortipy]: executing diffoscope
+[2023-04-24 21:06:32] INFO root fetch - processPackages [shortipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortipy-1.3.1.tar.gz tmp/shortipy-1.3.2.tar.gz --markdown 20230424/s/shortipy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-24 21:06:33] INFO root fetch - processPackages [partifact]: Downloading https://files.pythonhosted.org/packages/76/ee/8105d6fc34dcbaf586618de528cc5c060db5ea4208c9dfee831eb13ee330/partifact-0.1.6.tar.gz
+[2023-04-24 21:06:33] INFO root fetch - processPackages [openPMD-validator]: Downloading https://files.pythonhosted.org/packages/4e/14/53d3320a4a87c87dbc38be01ea30ca57fc67c69ebf6cc46730703c7e5b71/openPMD-validator-1.1.0.4.tar.gz
+[2023-04-24 21:06:33] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/af/d8/2db399e5e20785b2485581651ae7b1b6686105545492f859f0bf3a9c73f5/arize_phoenix-0.0.9.tar.gz
+[2023-04-24 21:06:33] INFO root fetch - processPackages [partifact]: executing diffoscope
+[2023-04-24 21:06:33] INFO root fetch - processPackages [partifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partifact-0.1.5.tar.gz tmp/partifact-0.1.6.tar.gz --markdown 20230424/p/partifact/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 21:06:33] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-04-24 21:06:33] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-04-24 21:06:33] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230424/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 21:06:33] INFO root fetch - processPackages [openPMD-validator]: executing diffoscope
+[2023-04-24 21:06:33] INFO root fetch - processPackages [openPMD-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openPMD-validator-1.1.0.3.tar.gz tmp/openPMD-validator-1.1.0.4.tar.gz --markdown 20230424/o/openPMD-validator/1.1.0.3-1.1.0.4/diff.md --exclude *.pyd
+[2023-04-24 21:06:33] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/5c/ed/9ea65e3121ca03b329734a45c17b4ba0cda78345f533ba43a30dc9fd4dd8/awkward-cpp-9.tar.gz
+[2023-04-24 21:06:33] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-24 21:06:33] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230424/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-24 21:06:33] INFO root fetch - processPackages [awkward-cpp]: executing diffoscope
+[2023-04-24 21:06:33] INFO root fetch - processPackages [awkward-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-cpp-8.tar.gz tmp/awkward-cpp-9.tar.gz --markdown 20230424/a/awkward-cpp/8-9/diff.md --exclude *.pyd
+[2023-04-24 21:06:34] INFO root fetch - processPackages [lib310-lite]: Start processing: nano-local
+[2023-04-24 21:06:34] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-04-24 21:06:34] INFO root fetch - processPackages [nano-local]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 21:06:34] INFO root fetch - processPackages [google-resumable-media]: Downloading https://files.pythonhosted.org/packages/c0/1b/173eacfeb03e6d026c932cb810ace18987dc9ca219154c89d7746b348b9c/google-resumable-media-2.5.0.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [shortipy]: Start processing: robotframework-confluentkafkalibrary
+[2023-04-24 21:06:34] INFO root fetch - main [MainThread]: End processing [shortipy]: success
+[2023-04-24 21:06:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: New version: [2.0.2.post1] Old Version: [1.9.0.post1]
+[2023-04-24 21:06:34] INFO root fetch - processPackages [nano-local]: Downloading https://files.pythonhosted.org/packages/cc/be/7525e1fd34575c76dd0af8c9318fcb6122ae1f88f79766a11d8ee8783a3d/nano_local-0.1.2.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [partifact]: Start processing: NeuralBasics
+[2023-04-24 21:06:34] INFO root fetch - main [MainThread]: End processing [partifact]: success
+[2023-04-24 21:06:34] INFO root fetch - processPackages [jsonclass]: Start processing: tzconv
+[2023-04-24 21:06:34] INFO root fetch - main [MainThread]: End processing [jsonclass]: success
+[2023-04-24 21:06:34] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-24 21:06:34] INFO root fetch - processPackages [nano-local]: executing diffoscope
+[2023-04-24 21:06:34] INFO root fetch - processPackages [nano-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nano_local-0.1.1.tar.gz tmp/nano_local-0.1.2.tar.gz --markdown 20230424/n/nano-local/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 21:06:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: Downloading https://files.pythonhosted.org/packages/66/20/88bad247b6e509421e185a510e870aa0a7efeca55f02fe58578843d55239/robotframework-confluentkafkalibrary-1.9.0.post1.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [tzconv]: New version: [1.3.1] Old Version: [1.3]
+[2023-04-24 21:06:34] INFO root fetch - processPackages [openPMD-validator]: Start processing: cybrid-api-organization-python
+[2023-04-24 21:06:34] INFO root fetch - main [MainThread]: End processing [openPMD-validator]: success
+[2023-04-24 21:06:34] INFO root fetch - processPackages [always-updates]: Start processing: seamm
+[2023-04-24 21:06:34] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-24 21:06:34] INFO root fetch - processPackages [NeuralBasics]: Downloading https://files.pythonhosted.org/packages/80/94/c031e0f31bacead744dcebc58c9e804c2dcb6e11576aee49411a963ec59f/NeuralBasics-1.0.6.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 21:06:34] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-24 21:06:34] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230424/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 21:06:34] INFO root fetch - processPackages [seamm]: New version: [220.8.3] Old Version: [2023.4.8]
+[2023-04-24 21:06:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: Downloading https://files.pythonhosted.org/packages/55/11/dc094e11713f4c2a73be24c1f4c5e4eb37979265ef553f7be2a3f84936ef/robotframework-confluentkafkalibrary-2.0.2.post1.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [NeuralBasics]: Downloading https://files.pythonhosted.org/packages/48/70/8bf8ab7aab24292b9080bf6f1e65d0b051ead61efa27fa87a77bf1f09dc7/NeuralBasics-1.0.7.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [tzconv]: Downloading https://files.pythonhosted.org/packages/38/5b/8b79b22ec822f7d815fc90496ae5ce772996d2bcb3bbb85c2de20f99cd84/tzconv-1.3.1.tar.gz
+[2023-04-24 21:06:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: executing diffoscope
+[2023-04-24 21:06:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-confluentkafkalibrary-1.9.0.post1.tar.gz tmp/robotframework-confluentkafkalibrary-2.0.2.post1.tar.gz --markdown 20230424/r/robotframework-confluentkafkalibrary/1.9.0.post1-2.0.2.post1/diff.md --exclude *.pyd
+[2023-04-24 21:06:34] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/42/45/d4be99e2638d1b5dcc266fb701b5f6efc951250acd2e5d48ab5923d06bca/seamm-2023.4.8.tar.gz
+[2023-04-24 21:06:35] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 21:06:35] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.6.tar.gz tmp/NeuralBasics-1.0.7.tar.gz --markdown 20230424/N/NeuralBasics/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-24 21:06:35] INFO root fetch - processPackages [tzconv]: executing diffoscope
+[2023-04-24 21:06:35] INFO root fetch - processPackages [tzconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzconv-1.3.tar.gz tmp/tzconv-1.3.1.tar.gz --markdown 20230424/t/tzconv/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 21:06:35] INFO root fetch - processPackages [google-resumable-media]: executing diffoscope
+[2023-04-24 21:06:35] INFO root fetch - processPackages [google-resumable-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-resumable-media-2.4.1.tar.gz tmp/google-resumable-media-2.5.0.tar.gz --markdown 20230424/g/google-resumable-media/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-04-24 21:06:35] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/73/a6/b374fc37a4d9a1891852ea20c1c820584f15f1a55e0d2f73b4b733637218/seamm-220.8.3.tar.gz
+[2023-04-24 21:06:35] INFO root fetch - processPackages [seamm]: executing diffoscope
+[2023-04-24 21:06:35] INFO root fetch - processPackages [seamm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm-2023.4.8.tar.gz tmp/seamm-220.8.3.tar.gz --markdown 20230424/s/seamm/2023.4.8-220.8.3/diff.md --exclude *.pyd
+[2023-04-24 21:06:35] INFO root fetch - main [MainThread]: End processing [nano-local]: success
+[2023-04-24 21:06:36] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-24 21:06:36] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 21:06:36] INFO root fetch - main [MainThread]: End processing [robotframework-confluentkafkalibrary]: success
+[2023-04-24 21:06:36] INFO root fetch - main [MainThread]: End processing [tzconv]: success
+[2023-04-24 21:06:36] INFO root fetch - main [MainThread]: End processing [google-resumable-media]: success
+[2023-04-24 21:06:37] INFO root fetch - main [MainThread]: End processing [seamm]: success
+[2023-04-24 21:06:37] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-24 21:06:52] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-04-24 21:07:04] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
+[2023-04-24 21:07:04] INFO root fetch - main [MainThread]: Store serial: [17838465]
