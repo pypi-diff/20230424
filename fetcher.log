@@ -7811,3 +7811,100 @@
 [2023-04-24 10:33:37] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-04-24 10:33:48] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-04-24 10:33:48] INFO root fetch - main [MainThread]: Store serial: [17830819]
+[2023-04-24 10:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830819]
+[2023-04-24 10:38:57] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 10:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-documentautoml20221229
+[2023-04-24 10:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyneato
+[2023-04-24 10:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterhub-backendspawner
+[2023-04-24 10:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vja
+[2023-04-24 10:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: doc2tei-CERTIC
+[2023-04-24 10:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-dms-enterprise
+[2023-04-24 10:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonsdk
+[2023-04-24 10:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elias
+[2023-04-24 10:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nameless-deploy-tools
+[2023-04-24 10:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydflow
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pyneato]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 10:38:58] WARNING root fetch - processPackages [jupyterhub-backendspawner]: Skipping, unable to determine old version
+[2023-04-24 10:38:58] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: cmo-dataloader
+[2023-04-24 10:38:58] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner] error
+[2023-04-24 10:38:58] INFO root fetch - processPackages [vja]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [elias]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pythonsdk]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-04-24 10:38:58] WARNING root fetch - processPackages [cmo-dataloader]: Skipping, unable to determine old version
+[2023-04-24 10:38:58] INFO root fetch - processPackages [cmo-dataloader]: Start processing: birentechci
+[2023-04-24 10:38:58] INFO root fetch - main [MainThread]: End processing [cmo-dataloader] error
+[2023-04-24 10:38:58] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:38:58] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230424/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [vja]: Downloading https://files.pythonhosted.org/packages/35/90/8a31e40ee1dc992cc0a36890f1a3acc137015abb112a78783ca64fba4208/vja-2.0.0b3.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pyneato]: Downloading https://files.pythonhosted.org/packages/a2/34/7eb10bb15e71be511577ed4df7ea75bb4eb313b32222c33b73f2c2c30794/pyneato-0.0.7.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [elias]: Downloading https://files.pythonhosted.org/packages/07/41/8f5b4877628e1acb43fdbe7ed74663d8520c2d54d0f7af8e282fd725d9a9/elias-0.1.5.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/f3/e4/9fcdda15829a4bd7ddf2e3ee0f520d5968e94ed3914bd97ca5947afad700/pythonsdk-0.3.0.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_documentautoml20221229-1.0.8.tar.gz tmp/alibabacloud_documentautoml20221229-1.0.9.tar.gz --markdown 20230424/a/alibabacloud-documentautoml20221229/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [vja]: Downloading https://files.pythonhosted.org/packages/fe/ec/c119fc67becb926e20b6790420ae3b4ea2950e092f3f6a48c78c7a247163/vja-2.0.0b4.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230424/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [elias]: Downloading https://files.pythonhosted.org/packages/61/92/eb5299ea7f9f773669cf749ed86a3a6c9c703393b167d729a64013bb2c15/elias-0.2.0.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230424/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230424/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pyneato]: Downloading https://files.pythonhosted.org/packages/7c/f3/0394096c825d9f00fbab86ad0af08f749daea0aca1cdc53e5a955b80c9f0/pyneato-0.0.8.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [vja]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [vja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vja-2.0.0b3.tar.gz tmp/vja-2.0.0b4.tar.gz --markdown 20230424/v/vja/2.0.0b3-2.0.0b4/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/aa/0c/8f9d9e038ae1baa347fc91844cc165b4fd172d27167f7ac7037313af6f7b/pythonsdk-0.4.0.tar.gz
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pyneato]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pyneato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneato-0.0.7.tar.gz tmp/pyneato-0.0.8.tar.gz --markdown 20230424/p/pyneato/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [elias]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [elias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elias-0.1.5.tar.gz tmp/elias-0.2.0.tar.gz --markdown 20230424/e/elias/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20230424/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pythonsdk]: executing diffoscope
+[2023-04-24 10:38:58] INFO root fetch - processPackages [pythonsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsdk-0.3.0.tar.gz tmp/pythonsdk-0.4.0.tar.gz --markdown 20230424/p/pythonsdk/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 10:38:59] INFO root fetch - processPackages [birentechci]: Start processing: pokelance
+[2023-04-24 10:38:59] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-24 10:38:59] INFO root fetch - processPackages [pokelance]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-04-24 10:39:00] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: Start processing: FastCNN2
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-documentautoml20221229]: success
+[2023-04-24 10:39:00] INFO root fetch - processPackages [pokelance]: Downloading https://files.pythonhosted.org/packages/b7/ed/f9871dc97b014b2edd39d1a70638ff9f7aa2b0867b5f5d66931adeea9eba/pokelance-0.1.3.tar.gz
+[2023-04-24 10:39:00] INFO root fetch - processPackages [FastCNN2]: New version: [1.23.424.1637] Old Version: [1.23.424.1622]
+[2023-04-24 10:39:00] INFO root fetch - processPackages [pokelance]: executing diffoscope
+[2023-04-24 10:39:00] INFO root fetch - processPackages [pokelance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokelance-0.1.1.tar.gz tmp/pokelance-0.1.3.tar.gz --markdown 20230424/p/pokelance/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 10:39:00] INFO root fetch - processPackages [pyneato]: Start processing: krillscan
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [pyneato]: success
+[2023-04-24 10:39:00] INFO root fetch - processPackages [FastCNN2]: Downloading https://files.pythonhosted.org/packages/a4/43/41f6dd08f70fa215ab65fa7a83828506aed799288a1fdade6410876d0c1d/FastCNN2-1.23.424.1637.tar.gz
+[2023-04-24 10:39:00] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 10:39:00] INFO root fetch - processPackages [pydflow]: Start processing: tf-estimator-nightly
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-04-24 10:39:00] INFO root fetch - processPackages [doc2tei-CERTIC]: Start processing: cornflakes
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-24 10:39:00] INFO root fetch - processPackages [FastCNN2]: executing diffoscope
+[2023-04-24 10:39:00] INFO root fetch - processPackages [FastCNN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastCNN2-1.23.424.1622.tar.gz tmp/FastCNN2-1.23.424.1637.tar.gz --markdown 20230424/F/FastCNN2/1.23.424.1622-1.23.424.1637/diff.md --exclude *.pyd
+[2023-04-24 10:39:00] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [vja]: success
+[2023-04-24 10:39:00] INFO root fetch - processPackages [cornflakes]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-04-24 10:39:00] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-24 10:39:00] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230424/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [elias]: success
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [pythonsdk]: success
+[2023-04-24 10:39:00] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-24 10:39:00] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230424/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 10:39:00] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-04-24 10:39:01] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2023-04-24 10:39:01] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/20/2a/1226290d5cc233a3dad4899ece7cc3a64fa181054fdceea7ed65d2ac9203/cornflakes-3.2.9.tar.gz
+[2023-04-24 10:39:01] INFO root fetch - processPackages [cornflakes]: executing diffoscope
+[2023-04-24 10:39:01] INFO root fetch - processPackages [cornflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflakes-3.2.8.tar.gz tmp/cornflakes-3.2.9.tar.gz --markdown 20230424/c/cornflakes/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-04-24 10:39:02] INFO root fetch - main [MainThread]: End processing [pokelance]: success
+[2023-04-24 10:39:02] INFO root fetch - main [MainThread]: End processing [FastCNN2]: success
+[2023-04-24 10:39:02] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-24 10:39:02] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-24 10:39:13] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
+[2023-04-24 10:39:13] INFO root fetch - main [MainThread]: Store serial: [17830877]
