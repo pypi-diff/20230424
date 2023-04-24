@@ -18613,3 +18613,79 @@
 [2023-04-24 19:15:40] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-24 19:16:01] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-04-24 19:16:01] INFO root fetch - main [MainThread]: Store serial: [17837143]
+[2023-04-24 19:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837143]
+[2023-04-24 19:21:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spccpkg
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ogjpn
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cladeomatic
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-lambda-deno
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: envoy.docs.sphinx-runner
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gptdeploy
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-ro-account-report-invoice
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: findmyorder
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gptdeploy
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: safrs
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ogjpn]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [cladeomatic]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [spccpkg]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: New version: [16.0.1.1.0] Old Version: [15.0.2.1.0]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [envoy.docs.sphinx-runner]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [safrs]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-04-24 19:21:11] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 19:21:11] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:21:11] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 19:21:11] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 19:21:11] INFO root fetch - processPackages [ogjpn]: Downloading https://files.pythonhosted.org/packages/c0/91/a2c430209d622759bc99d3996cf0eef0256627d48df34478518738d11ba9/ogjpn-1.0.2-py3-none-any.whl
+[2023-04-24 19:21:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Downloading https://files.pythonhosted.org/packages/78/65/43367cc5f1e65adf0a7e596723a25d9fc0d3ef643aaa4338b590025cc09d/odoo_addon_l10n_ro_account_report_invoice-15.0.2.1.0-py3-none-any.whl
+[2023-04-24 19:21:11] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 19:21:11] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 19:21:11] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-04-24 19:21:11] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 19:21:11] INFO root fetch - processPackages [cladeomatic]: Downloading https://files.pythonhosted.org/packages/8e/2c/f195d7c94c74216a3c14355b46a40ed019bf0f3980ee50d499072b23f04c/cladeomatic-0.0.1.tar.gz
+[2023-04-24 19:21:11] INFO root fetch - processPackages [envoy.docs.sphinx-runner]: Downloading https://files.pythonhosted.org/packages/ce/d7/c4efe08480b41fb6576dd4f59263b8a95a3b15aa2db55ad7ae8be540fed8/envoy.docs.sphinx_runner-0.2.5.tar.gz
+[2023-04-24 19:21:11] INFO root fetch - processPackages [safrs]: Downloading https://files.pythonhosted.org/packages/d2/ed/8163fea962fea5a6c63e3bab81a28cfc19f4c9ea66c72883f7ad2142d1ce/safrs-3.0.2.tar.gz
+[2023-04-24 19:21:11] INFO root fetch - processPackages [spccpkg]: Downloading https://files.pythonhosted.org/packages/67/da/4d88acb49b5917692b16de72e99ffc7ff1ad72e08ff16bd75261a829dff3/spccpkg-0.0.8.tar.gz
+[2023-04-24 19:21:12] INFO root fetch - processPackages [ogjpn]: Downloading https://files.pythonhosted.org/packages/8d/b1/3a3befd75bdaf37141969860053942cb164cf30b988eb4514d7cddf0f494/ogjpn-1.0.3-py3-none-any.whl
+[2023-04-24 19:21:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: executing diffoscope
+[2023-04-24 19:21:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_report_invoice-15.0.2.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230424/o/odoo-addon-l10n-ro-account-report-invoice/15.0.2.1.0-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-24 19:21:12] INFO root fetch - processPackages [safrs]: Downloading https://files.pythonhosted.org/packages/0e/a9/331f26c53d927425aedeb967b20f0c2d59bff16575ce27ece57632de8480/safrs-3.0.3.tar.gz
+[2023-04-24 19:21:12] INFO root fetch - processPackages [cladeomatic]: Downloading https://files.pythonhosted.org/packages/4c/08/962d6741644737cf37014a11162094677c78d527d69ae1bbe15d80909a1a/cladeomatic-0.1.0.tar.gz
+[2023-04-24 19:21:12] INFO root fetch - processPackages [spccpkg]: executing diffoscope
+[2023-04-24 19:21:12] INFO root fetch - processPackages [spccpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spccpkg-0.0.7.tar.gz tmp/spccpkg-0.0.8.tar.gz --markdown 20230424/s/spccpkg/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 19:21:12] INFO root fetch - processPackages [envoy.docs.sphinx-runner]: Downloading https://files.pythonhosted.org/packages/d7/bd/257e582869946c9af9000b211d9268505104830a54abf65936a8a75c3ca4/envoy.docs.sphinx_runner-0.2.6.tar.gz
+[2023-04-24 19:21:12] INFO root fetch - processPackages [ogjpn]: executing diffoscope
+[2023-04-24 19:21:12] INFO root fetch - processPackages [ogjpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogjpn-1.0.2-py3-none-any.whl.zip tmp/ogjpn-1.0.3-py3-none-any.whl.zip --markdown 20230424/o/ogjpn/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 19:21:12] INFO root fetch - processPackages [safrs]: executing diffoscope
+[2023-04-24 19:21:12] INFO root fetch - processPackages [safrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safrs-3.0.2.tar.gz tmp/safrs-3.0.3.tar.gz --markdown 20230424/s/safrs/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-04-24 19:21:12] INFO root fetch - processPackages [cladeomatic]: executing diffoscope
+[2023-04-24 19:21:12] INFO root fetch - processPackages [cladeomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cladeomatic-0.0.1.tar.gz tmp/cladeomatic-0.1.0.tar.gz --markdown 20230424/c/cladeomatic/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 19:21:12] INFO root fetch - processPackages [findmyorder]: Start processing: pysparkler
+[2023-04-24 19:21:12] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 19:21:12] INFO root fetch - processPackages [pysparkler]: New version: [0.7.dev1682353499] Old Version: [0.7.dev1682352964]
+[2023-04-24 19:21:12] INFO root fetch - processPackages [envoy.docs.sphinx-runner]: executing diffoscope
+[2023-04-24 19:21:12] INFO root fetch - processPackages [envoy.docs.sphinx-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.docs.sphinx_runner-0.2.5.tar.gz tmp/envoy.docs.sphinx_runner-0.2.6.tar.gz --markdown 20230424/e/envoy.docs.sphinx-runner/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-24 19:21:13] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Start processing: bc-time
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 19:21:13] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/fc/2e/507ca0d491c936ebaeaebafe4cf3f41e7b9d91fffbb8d4303f6c2a473666/pysparkler-0.7.dev1682353499.tar.gz
+[2023-04-24 19:21:13] INFO root fetch - processPackages [bc-time]: New version: [7.1.0] Old Version: [7.0.1]
+[2023-04-24 19:21:13] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-24 19:21:13] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.7.dev1682352964.tar.gz tmp/pysparkler-0.7.dev1682353499.tar.gz --markdown 20230424/p/pysparkler/0.7.dev1682352964-0.7.dev1682353499/diff.md --exclude *.pyd
+[2023-04-24 19:21:13] INFO root fetch - processPackages [bc-time]: Downloading https://files.pythonhosted.org/packages/b4/71/58e3332e6631d90d5127a0d2d595b6836682e46bcd1e7aea4bf25675ee3c/bc_time-7.0.1.tar.gz
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-report-invoice]: success
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 19:21:13] INFO root fetch - processPackages [bc-time]: Downloading https://files.pythonhosted.org/packages/dd/22/6c93e2c1db113caa8193b7d20baa835ead4f1cfe94cef9abfed9304de8e1/bc_time-7.1.0.tar.gz
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [safrs]: success
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [cladeomatic]: success
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [spccpkg]: success
+[2023-04-24 19:21:13] INFO root fetch - processPackages [bc-time]: executing diffoscope
+[2023-04-24 19:21:13] INFO root fetch - processPackages [bc-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc_time-7.0.1.tar.gz tmp/bc_time-7.1.0.tar.gz --markdown 20230424/b/bc-time/7.0.1-7.1.0/diff.md --exclude *.pyd
+[2023-04-24 19:21:13] INFO root fetch - main [MainThread]: End processing [ogjpn]: success
+[2023-04-24 19:21:14] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-24 19:21:14] INFO root fetch - main [MainThread]: End processing [envoy.docs.sphinx-runner]: success
+[2023-04-24 19:21:14] INFO root fetch - main [MainThread]: End processing [bc-time]: success
+[2023-04-24 19:21:14] INFO root fetch - main [MainThread]: Store serial: [17837177]
