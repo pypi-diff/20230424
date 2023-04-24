@@ -23192,3 +23192,85 @@
 [2023-04-24 23:47:02] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
 [2023-04-24 23:47:02] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
 [2023-04-24 23:47:02] INFO root fetch - main [MainThread]: Store serial: [17839785]
+[2023-04-24 23:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839785]
+[2023-04-24 23:52:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: referencing
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polyglot-piranha
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splight-lib
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crispr-library-prep
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchling-api-client
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colortxt
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uxarray
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: start-html-tag-helpers
+[2023-04-24 23:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robyn
+[2023-04-24 23:52:12] INFO root fetch - processPackages [polyglot-piranha]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:52:12] WARNING root fetch - processPackages [start-html-tag-helpers]: Skipping, unable to determine old version
+[2023-04-24 23:52:12] INFO root fetch - processPackages [uxarray]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [start-html-tag-helpers]: Start processing: yatracker-linker
+[2023-04-24 23:52:12] INFO root fetch - main [MainThread]: End processing [start-html-tag-helpers] error
+[2023-04-24 23:52:12] WARNING root fetch - processPackages [colortxt]: Skipping, unable to determine old version
+[2023-04-24 23:52:12] INFO root fetch - processPackages [colortxt]: Start processing: appengine-python-standard
+[2023-04-24 23:52:12] INFO root fetch - main [MainThread]: End processing [colortxt] error
+[2023-04-24 23:52:12] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [splight-lib]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [appengine-python-standard]: New version: [1.1.0] Old Version: [1.0.1rc1]
+[2023-04-24 23:52:12] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 23:52:12] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:52:12] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/2b/ed/f98bc7032a95aa20012ccefb729c1908f6acc9c6c6f88e038ac0a93750cb/referencing-0.8.9.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [appengine-python-standard]: Downloading https://files.pythonhosted.org/packages/a1/a4/29f8ebd5869cd96f4fec83e69d6f758c40f0f622cf8e916281999af3d7f0/appengine-python-standard-1.0.1rc1.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/bf/0e/f5d3a3e45ea825df9cbe652b170388e1af97e38c3ae6abba5e0d446bbf89/splight-lib-2.3.3.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [uxarray]: Downloading https://files.pythonhosted.org/packages/79/e6/7127f2ba183445a798ab5fe67504cd2697da3b64d4475340ae7440dc711f/uxarray-2023.4.0.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-24 23:52:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 23:52:12] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-04-24 23:52:12] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.2.tar.gz tmp/splight-lib-2.3.3.tar.gz --markdown 20230424/s/splight-lib/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-04-24 23:52:12] INFO root fetch - processPackages [polyglot-piranha]: Downloading https://files.pythonhosted.org/packages/a3/af/6ef068ac11a595f49ddc4a970517dccfa5fee279d3427085bda4e60af03c/polyglot_piranha-0.3.2.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-24 23:52:12] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230424/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:52:12] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-04-24 23:52:12] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-04-24 23:52:12] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230424/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 23:52:12] INFO root fetch - processPackages [polyglot-piranha]: Downloading https://files.pythonhosted.org/packages/55/25/0d531562b47bc4334f279bc5994d2ae59f07816964accdd5c0bec70fd320/polyglot_piranha-0.3.3.tar.gz
+[2023-04-24 23:52:13] INFO root fetch - processPackages [polyglot-piranha]: executing diffoscope
+[2023-04-24 23:52:13] INFO root fetch - processPackages [polyglot-piranha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyglot_piranha-0.3.2.tar.gz tmp/polyglot_piranha-0.3.3.tar.gz --markdown 20230424/p/polyglot-piranha/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 23:52:13] INFO root fetch - processPackages [appengine-python-standard]: Downloading https://files.pythonhosted.org/packages/16/8e/757126099d23eb20d5a5c7f67d51222920c8fe38aad75b449cbdc38bdb1f/appengine-python-standard-1.1.0.tar.gz
+[2023-04-24 23:52:13] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-04-24 23:52:13] INFO root fetch - processPackages [yatracker-linker]: Start processing: damo
+[2023-04-24 23:52:13] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 23:52:13] INFO root fetch - processPackages [appengine-python-standard]: executing diffoscope
+[2023-04-24 23:52:13] INFO root fetch - processPackages [appengine-python-standard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appengine-python-standard-1.0.1rc1.tar.gz tmp/appengine-python-standard-1.1.0.tar.gz --markdown 20230424/a/appengine-python-standard/1.0.1rc1-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 23:52:13] INFO root fetch - processPackages [damo]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-04-24 23:52:13] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-04-24 23:52:13] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230424/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 23:52:13] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/3a/2c/6c5c6451d2818adfd99b87a8aa1c5147f6d9097d31cfee6a020418f9b02c/referencing-0.9.2.tar.gz
+[2023-04-24 23:52:13] INFO root fetch - processPackages [crispr-library-prep]: Start processing: it-quotes
+[2023-04-24 23:52:13] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-24 23:52:13] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-04-24 23:52:13] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230424/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 23:52:13] INFO root fetch - processPackages [uxarray]: Downloading https://files.pythonhosted.org/packages/79/40/a10cff35c15bc4d020f6ce224b81954118f36407a334206c49c5061284d1/uxarray-2023.4.1.tar.gz
+[2023-04-24 23:52:14] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-04-24 23:52:14] WARNING root fetch - processPackages [it-quotes]: Skipping, unable to determine old version
+[2023-04-24 23:52:14] INFO root fetch - main [MainThread]: End processing [it-quotes] error
+[2023-04-24 23:52:14] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/07/1c/597e8408262371df74109b5392ddcd37f75f4fc6604c970f831be9828e6c/damo-1.7.7.tar.gz
+[2023-04-24 23:52:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-24 23:52:15] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-04-24 23:52:15] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-04-24 23:52:15] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/7e/58/ed3b09a0cb73cb5d72014160192451bc48299e681541d093d4233454c46a/damo-1.7.8.tar.gz
+[2023-04-24 23:52:15] INFO root fetch - processPackages [damo]: executing diffoscope
+[2023-04-24 23:52:15] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-1.7.7.tar.gz tmp/damo-1.7.8.tar.gz --markdown 20230424/d/damo/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-04-24 23:52:15] INFO root fetch - main [MainThread]: End processing [appengine-python-standard]: success
+[2023-04-24 23:52:17] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2023-04-24 23:52:17] INFO root fetch - main [MainThread]: End processing [polyglot-piranha]: success
+[2023-04-24 23:52:22] INFO root fetch - processPackages [uxarray]: executing diffoscope
+[2023-04-24 23:52:22] INFO root fetch - processPackages [uxarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uxarray-2023.4.0.tar.gz tmp/uxarray-2023.4.1.tar.gz --markdown 20230424/u/uxarray/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-04-24 23:52:25] INFO root fetch - main [MainThread]: End processing [uxarray]: success
+[2023-04-24 23:53:58] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-04-24 23:53:58] INFO root fetch - main [MainThread]: Store serial: [17839895]
