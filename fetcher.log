@@ -20242,3 +20242,68 @@
 [2023-04-24 20:39:20] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
 [2023-04-24 20:39:20] INFO root fetch - main [MainThread]: End processing [gridappsd-2030-5]: success
 [2023-04-24 20:39:20] INFO root fetch - main [MainThread]: Store serial: [17838020]
+[2023-04-24 20:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838020]
+[2023-04-24 20:44:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hspylib
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeropython
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docAMR
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-bebop
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib310-lite
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terka
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nano-local
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numba-kdtree
+[2023-04-24 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biglist
+[2023-04-24 20:44:29] WARNING root fetch - processPackages [aeropython]: Skipping, unable to determine old version
+[2023-04-24 20:44:29] INFO root fetch - processPackages [aeropython]: Start processing: lastversion
+[2023-04-24 20:44:29] INFO root fetch - main [MainThread]: End processing [aeropython] error
+[2023-04-24 20:44:29] WARNING root fetch - processPackages [docAMR]: Skipping, unable to determine old version
+[2023-04-24 20:44:29] INFO root fetch - main [MainThread]: End processing [docAMR] error
+[2023-04-24 20:44:29] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 20:44:29] WARNING root fetch - processPackages [nano-local]: Skipping, unable to determine old version
+[2023-04-24 20:44:29] INFO root fetch - processPackages [python-bebop]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 20:44:29] INFO root fetch - main [MainThread]: End processing [nano-local] error
+[2023-04-24 20:44:29] INFO root fetch - processPackages [terka]: New version: [1.6.4.7] Old Version: [1.6.4.6]
+[2023-04-24 20:44:29] INFO root fetch - processPackages [biglist]: New version: [0.8.1] Old Version: [0.8.0b1]
+[2023-04-24 20:44:29] INFO root fetch - processPackages [numba-kdtree]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 20:44:29] INFO root fetch - processPackages [lastversion]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-04-24 20:44:29] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-04-24 20:44:29] INFO root fetch - processPackages [alacorder]: New version: [79.7.4] Old Version: [79.7.3]
+[2023-04-24 20:44:29] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/7b/54/ece671c012b374447ede51aa74e3130e3fd3072aa63515a665296d6d5081/lib310_lite-0.0.2.tar.gz
+[2023-04-24 20:44:29] INFO root fetch - processPackages [numba-kdtree]: Downloading https://files.pythonhosted.org/packages/a8/88/3fbcfe673a4c5483c6dbf41583784fc7747f19c9a42c535b01552ebc72a7/numba-kdtree-0.1.6.tar.gz
+[2023-04-24 20:44:29] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/7e/2b/36dae35365bbde59c7a6f5cf3dfd43dce3e21a7edceb45760e96798526a5/biglist-0.8.0b1.tar.gz
+[2023-04-24 20:44:29] INFO root fetch - processPackages [python-bebop]: Downloading https://files.pythonhosted.org/packages/79/2e/541056809318f5d5275e044a199fd73c8a5afc21bef2045e27f2ae7c0937/python_bebop-1.0.2.tar.gz
+[2023-04-24 20:44:29] INFO root fetch - processPackages [lastversion]: Downloading https://files.pythonhosted.org/packages/50/94/4cf863f2f16d4864a3eff14b166cbcff3e500d5f478a3030e1085b7ac703/lastversion-2.4.8.tar.gz
+[2023-04-24 20:44:29] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/9a/aa/de6dd6d06a6c7b1d105e1a6cd5b023a280216a7fc26d69f8b6fe0e3e9851/hspylib-0.9.22.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/94/d2/e037ae5fc6582ea05de6948fe31839d5d1414052eeca5f0f725510936f15/terka-1.6.4.7.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [python-bebop]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [python-bebop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_bebop-1.0.1.tar.gz tmp/python_bebop-1.0.2.tar.gz --markdown 20230424/p/python-bebop/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/03/b6/0cf657ffed50e67d151cabbec87b28a1b4a9976a4026ceabefc1512e441a/lib310_lite-0.0.3.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.4.6.tar.gz tmp/terka-1.6.4.7.tar.gz --markdown 20230424/t/terka/1.6.4.6-1.6.4.7/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [numba-kdtree]: Downloading https://files.pythonhosted.org/packages/d6/47/660d9f3fc314269777e25dc69650b422df4b356d4b2a3bb26cb42bf7b8fb/numba-kdtree-0.1.7.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.2.tar.gz tmp/lib310_lite-0.0.3.tar.gz --markdown 20230424/l/lib310-lite/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [numba-kdtree]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [numba-kdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-kdtree-0.1.6.tar.gz tmp/numba-kdtree-0.1.7.tar.gz --markdown 20230424/n/numba-kdtree/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/66/15/ee5389455075f51fda64b1c630f5c87143b2fb5a877a194414fa552d00a6/biglist-0.8.1.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/52/4a/c6a794ddd48c395857be82ae50ba84b03886924396a8032ff81cc45b28e2/alacorder-79.7.4.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [lastversion]: Downloading https://files.pythonhosted.org/packages/59/91/bd0ba3de65fc861a68b1bf995240f9e206f8772a4e8145e7ae4e7fab4c2c/lastversion-2.4.9.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/8f/df/44665e29eaf1932d6c04fa68c0fbd4eb9231dd909256647ad29c0c25f8ae/hspylib-0.9.23.tar.gz
+[2023-04-24 20:44:30] INFO root fetch - processPackages [biglist]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [biglist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biglist-0.8.0b1.tar.gz tmp/biglist-0.8.1.tar.gz --markdown 20230424/b/biglist/0.8.0b1-0.8.1/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.7.3.tar.gz tmp/alacorder-79.7.4.tar.gz --markdown 20230424/a/alacorder/79.7.3-79.7.4/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [lastversion]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [lastversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastversion-2.4.8.tar.gz tmp/lastversion-2.4.9.tar.gz --markdown 20230424/l/lastversion/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-04-24 20:44:30] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-04-24 20:44:30] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230424/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-04-24 20:44:31] INFO root fetch - main [MainThread]: End processing [python-bebop]: success
+[2023-04-24 20:44:31] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-04-24 20:44:31] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-24 20:44:31] INFO root fetch - main [MainThread]: End processing [numba-kdtree]: success
+[2023-04-24 20:44:31] INFO root fetch - main [MainThread]: End processing [biglist]: success
+[2023-04-24 20:44:32] INFO root fetch - main [MainThread]: End processing [lastversion]: success
+[2023-04-24 20:44:32] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-04-24 20:44:41] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-24 20:44:41] INFO root fetch - main [MainThread]: Store serial: [17838062]
