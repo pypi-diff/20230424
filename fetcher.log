@@ -11753,3 +11753,105 @@
 [2023-04-24 13:58:09] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
 [2023-04-24 13:58:13] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-24 13:58:13] INFO root fetch - main [MainThread]: Store serial: [17833105]
+[2023-04-24 14:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833105]
+[2023-04-24 14:03:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mle-flake8-plugins
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtest-sapnwrfc
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adt-cache
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaiju-tools
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anonymeter
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eagerx
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hagis
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oatk
+[2023-04-24 14:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libsql-client
+[2023-04-24 14:03:23] INFO root fetch - processPackages [mle-flake8-plugins]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [kaiju-tools]: New version: [2.0.51] Old Version: [2.0.50]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [xtest-sapnwrfc]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [libsql-client]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-24 14:03:23] WARNING root fetch - processPackages [anonymeter]: Skipping, unable to determine old version
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hagis]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [eagerx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [anonymeter]: Start processing: kozh-fig-pac2
+[2023-04-24 14:03:23] INFO root fetch - main [MainThread]: End processing [anonymeter] error
+[2023-04-24 14:03:23] INFO root fetch - processPackages [adt-cache]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [oatk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev2] Old Version: [4.3.1]
+[2023-04-24 14:03:23] WARNING root fetch - processPackages [kozh-fig-pac2]: Skipping, unable to determine old version
+[2023-04-24 14:03:23] INFO root fetch - processPackages [kozh-fig-pac2]: Start processing: newtgw
+[2023-04-24 14:03:23] INFO root fetch - main [MainThread]: End processing [kozh-fig-pac2] error
+[2023-04-24 14:03:23] INFO root fetch - processPackages [newtgw]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 14:03:23] INFO root fetch - processPackages [mle-flake8-plugins]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [mle-flake8-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mle_flake8_plugins-0.1.0.tar.gz tmp/mle_flake8_plugins-0.1.1.tar.gz --markdown 20230424/m/mle-flake8-plugins/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/63/cb/96297cd8c8832224c8662062453f44abe3066896d9206fc6c670332fbff7/hiddifypanel-4.3.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 14:03:23] INFO root fetch - processPackages [xtest-sapnwrfc]: Downloading https://files.pythonhosted.org/packages/91/be/f608f0fccc292c85c1906e186557ccd6b03add21eb5d2a255d235cbc2c8e/xtest_sapnwrfc-0.0.12.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [libsql-client]: Downloading https://files.pythonhosted.org/packages/16/37/d906b4cf755ec92cce59d021c8784710163c4d39ebcc7b9e99afd2d165f2/libsql-client-0.1.2.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [eagerx]: Downloading https://files.pythonhosted.org/packages/f6/2d/da679a65eca09874d2e3a2e991c8900c5605cd3856e392d831fef2a41d56/eagerx-0.1.8.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/53/cf/c818879b9e9a0367d3dac326019727261876dc2b634e80ee5f5c3ac3d2fb/adt_cache-0.0.5.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/c5/ce/273305559a5dc9d4d64117c62ccaf9cc018a784d664fa5887569009f5cc3/hagis-0.3.4.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [oatk]: Downloading https://files.pythonhosted.org/packages/fe/d7/f12e61ef4503263a1d777b162a9d34d3ad5b9714d7bf26d05f00f6f5bc86/oatk-0.0.7.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [newtgw]: Downloading https://files.pythonhosted.org/packages/f6/5c/a1f1389d218d9fe531b52f71056c7eee6287abfe340e9bd62c76493c55a7/newtgw-0.0.5.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/20/9e/f233360bf6662a4499851a66f91fd4774d7c950871d150b46d6a3093f029/kaiju_tools-2.0.51-py3-none-any.whl
+[2023-04-24 14:03:23] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.4.tar.gz tmp/adt_cache-0.0.5.tar.gz --markdown 20230424/a/adt-cache/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 14:03:23] INFO root fetch - processPackages [libsql-client]: Downloading https://files.pythonhosted.org/packages/d1/fc/499537153abc5664ebbdd32b62d32973dd50677546c8fe3347136469ac32/libsql-client-0.2.0.tar.gz
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.3.3.tar.gz tmp/hagis-0.3.4.tar.gz --markdown 20230424/h/hagis/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-24 14:03:23] INFO root fetch - processPackages [xtest-sapnwrfc]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [xtest-sapnwrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtest_sapnwrfc-0.0.11.tar.gz tmp/xtest_sapnwrfc-0.0.12.tar.gz --markdown 20230424/x/xtest-sapnwrfc/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-04-24 14:03:23] INFO root fetch - processPackages [oatk]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [oatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oatk-0.0.6.tar.gz tmp/oatk-0.0.7.tar.gz --markdown 20230424/o/oatk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 14:03:23] INFO root fetch - processPackages [newtgw]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [newtgw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newtgw-0.0.4.tar.gz tmp/newtgw-0.0.5.tar.gz --markdown 20230424/n/newtgw/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 14:03:23] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/69/29/680420f1b786d120ab4ee3086ca83449bdeddace2f39f6476a405ef7ba9c/hiddifypanel-5.0.0.dev2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 14:03:23] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-04-24 14:03:23] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.0.50-py3-none-any.whl.zip tmp/kaiju_tools-2.0.51-py3-none-any.whl.zip --markdown 20230424/k/kaiju-tools/2.0.50-2.0.51/diff.md --exclude *.pyd
+[2023-04-24 14:03:24] INFO root fetch - processPackages [libsql-client]: executing diffoscope
+[2023-04-24 14:03:24] INFO root fetch - processPackages [libsql-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsql-client-0.1.2.tar.gz tmp/libsql-client-0.2.0.tar.gz --markdown 20230424/l/libsql-client/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 14:03:24] INFO root fetch - processPackages [eagerx]: Downloading https://files.pythonhosted.org/packages/9a/ea/fe478d363bf8b7633fe189e84dd235d5f626fab647004e47865df0326e4f/eagerx-0.1.9.tar.gz
+[2023-04-24 14:03:24] INFO root fetch - processPackages [eagerx]: executing diffoscope
+[2023-04-24 14:03:24] INFO root fetch - processPackages [eagerx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagerx-0.1.8.tar.gz tmp/eagerx-0.1.9.tar.gz --markdown 20230424/e/eagerx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 14:03:24] INFO root fetch - processPackages [mle-flake8-plugins]: Start processing: cz-nhm
+[2023-04-24 14:03:24] INFO root fetch - main [MainThread]: End processing [mle-flake8-plugins]: success
+[2023-04-24 14:03:24] INFO root fetch - processPackages [cz-nhm]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-24 14:03:25] INFO root fetch - processPackages [cz-nhm]: Downloading https://files.pythonhosted.org/packages/44/16/037225f845dfc475e89d3242089f32da5be1eda69d02703df959b0d17aff/cz_nhm-0.3.0.tar.gz
+[2023-04-24 14:03:25] INFO root fetch - processPackages [adt-cache]: Start processing: tonic
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-04-24 14:03:25] INFO root fetch - processPackages [tonic]: New version: [1.2.7.dev6] Old Version: [1.2.7.dev3]
+[2023-04-24 14:03:25] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-24 14:03:25] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.3.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230424/h/hiddifypanel/4.3.1-5.0.0.dev2/diff.md --exclude *.pyd
+[2023-04-24 14:03:25] INFO root fetch - processPackages [hagis]: Start processing: flake8-prometheus-metrics-name
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-24 14:03:25] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-04-24 14:03:25] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.7.dev3.tar.gz tmp/tonic-1.2.7.dev6.tar.gz --markdown 20230424/t/tonic/1.2.7.dev3-1.2.7.dev6/diff.md --exclude *.pyd
+[2023-04-24 14:03:25] INFO root fetch - processPackages [cz-nhm]: Downloading https://files.pythonhosted.org/packages/80/9f/ae5b94a210fb3ef64c42b0af215b077b1f7aae8bef801a0ac36f1acbb2f5/cz_nhm-0.4.0.tar.gz
+[2023-04-24 14:03:25] INFO root fetch - processPackages [flake8-prometheus-metrics-name]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 14:03:25] INFO root fetch - processPackages [libsql-client]: Start processing: invenio-theme-tuw
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [libsql-client]: success
+[2023-04-24 14:03:25] INFO root fetch - processPackages [oatk]: Start processing: blueapps
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [oatk]: success
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [newtgw]: success
+[2023-04-24 14:03:25] INFO root fetch - processPackages [blueapps]: New version: [4.6.0rc2] Old Version: [4.6.0rc1]
+[2023-04-24 14:03:25] INFO root fetch - processPackages [cz-nhm]: executing diffoscope
+[2023-04-24 14:03:25] INFO root fetch - processPackages [cz-nhm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_nhm-0.3.0.tar.gz tmp/cz_nhm-0.4.0.tar.gz --markdown 20230424/c/cz-nhm/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 14:03:25] INFO root fetch - processPackages [invenio-theme-tuw]: New version: [2023.1.5] Old Version: [2023.1.4.1]
+[2023-04-24 14:03:25] INFO root fetch - processPackages [blueapps]: executing diffoscope
+[2023-04-24 14:03:25] INFO root fetch - processPackages [blueapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapps-4.6.0rc1.tar.gz tmp/blueapps-4.6.0rc2.tar.gz --markdown 20230424/b/blueapps/4.6.0rc1-4.6.0rc2/diff.md --exclude *.pyd
+[2023-04-24 14:03:25] INFO root fetch - processPackages [flake8-prometheus-metrics-name]: Downloading https://files.pythonhosted.org/packages/b0/ff/3c5c54e3e6ec02092bb671b9654751002b22306dc395eccfef2716ca455c/flake8-prometheus-metrics-name-0.1.8.tar.gz
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
+[2023-04-24 14:03:25] INFO root fetch - processPackages [invenio-theme-tuw]: Downloading https://files.pythonhosted.org/packages/3b/f5/2d384eced45408972a89529e43f310240c189df7aa49b8fc9faab36a7934/invenio-theme-tuw-2023.1.4.1.tar.gz
+[2023-04-24 14:03:25] INFO root fetch - main [MainThread]: End processing [eagerx]: success
+[2023-04-24 14:03:25] INFO root fetch - processPackages [flake8-prometheus-metrics-name]: Downloading https://files.pythonhosted.org/packages/34/a1/e161cc21d4b800daf1ddaf9de97945dd21f136236648e56d9e87cea82939/flake8-prometheus-metrics-name-0.1.9.tar.gz
+[2023-04-24 14:03:26] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-04-24 14:03:26] INFO root fetch - processPackages [flake8-prometheus-metrics-name]: executing diffoscope
+[2023-04-24 14:03:26] INFO root fetch - processPackages [flake8-prometheus-metrics-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-prometheus-metrics-name-0.1.8.tar.gz tmp/flake8-prometheus-metrics-name-0.1.9.tar.gz --markdown 20230424/f/flake8-prometheus-metrics-name/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 14:03:26] INFO root fetch - processPackages [invenio-theme-tuw]: Downloading https://files.pythonhosted.org/packages/03/39/4002bb0a208523784834e842543d0eb77f683cc4a07c7635ad760c2268b4/invenio-theme-tuw-2023.1.5.tar.gz
+[2023-04-24 14:03:26] INFO root fetch - main [MainThread]: End processing [cz-nhm]: success
+[2023-04-24 14:03:26] INFO root fetch - processPackages [invenio-theme-tuw]: executing diffoscope
+[2023-04-24 14:03:26] INFO root fetch - processPackages [invenio-theme-tuw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-theme-tuw-2023.1.4.1.tar.gz tmp/invenio-theme-tuw-2023.1.5.tar.gz --markdown 20230424/i/invenio-theme-tuw/2023.1.4.1-2023.1.5/diff.md --exclude *.pyd
+[2023-04-24 14:03:27] INFO root fetch - main [MainThread]: End processing [flake8-prometheus-metrics-name]: success
+[2023-04-24 14:03:27] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-04-24 14:03:29] INFO root fetch - main [MainThread]: End processing [blueapps]: success
+[2023-04-24 14:03:30] INFO root fetch - main [MainThread]: End processing [invenio-theme-tuw]: success
+[2023-04-24 14:03:44] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-24 14:03:44] INFO root fetch - main [MainThread]: Store serial: [17833165]
