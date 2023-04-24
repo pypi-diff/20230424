@@ -8130,3 +8130,85 @@
 [2023-04-24 10:50:31] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-24 10:50:35] INFO root fetch - main [MainThread]: End processing [py-pure-client]: success
 [2023-04-24 10:50:35] INFO root fetch - main [MainThread]: Store serial: [17831001]
+[2023-04-24 10:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831001]
+[2023-04-24 10:55:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: earthkit-maps
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hsds-api
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-rdm-migrator
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zndraw
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viser
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyecotrend-ista
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-workshop
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phyper
+[2023-04-24 10:55:44] INFO root fetch - processPackages [zndraw]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [hsds-api]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [invenio-rdm-migrator]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [16.0.1.1.0] Old Version: [15.0.3.4.0]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [phyper]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [viser]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 10:55:44] WARNING root fetch - processPackages [earthkit-maps]: Skipping, unable to determine old version
+[2023-04-24 10:55:44] INFO root fetch - processPackages [earthkit-maps]: Start processing: dvclive
+[2023-04-24 10:55:44] INFO root fetch - main [MainThread]: End processing [earthkit-maps] error
+[2023-04-24 10:55:44] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25292] Old Version: [6.1.4.dev25265]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [dvclive]: New version: [2.7.0] Old Version: [2.6.4]
+[2023-04-24 10:55:44] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/1f/ec/365960a80f1b03493353593ccde3c5678d16696cf78b9d74d942636c7141/odoo_addon_l10n_ro_partner_create_by_vat-15.0.3.4.0-py3-none-any.whl
+[2023-04-24 10:55:44] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/bc/dc/cc81401cb7e4caadbe40b84f390e30b17e388ca5ce44c5a884572fe8f742/invenio-rdm-migrator-1.0.0a3.tar.gz
+[2023-04-24 10:55:44] INFO root fetch - processPackages [hsds-api]: Downloading https://files.pythonhosted.org/packages/89/d8/e1531a00ccc0ad3a1cfd6f51ea532c95ef864e6a71331ec1945e886ffd51/hsds_api-1.0.0b3-py3-none-any.whl
+[2023-04-24 10:55:44] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/7e/dd/d673b029c3ed8b4e4e07f5804f74e9cf602fef2ae39936c147f90fa16891/pyecotrend-ista-2.0.1.tar.gz
+[2023-04-24 10:55:44] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/0f/79/79c2b6fbeb1da77099c982aaef974c43f4b4bfb4173b2baff1350e395fc1/udata-6.1.4.dev25265-py2.py3-none-any.whl
+[2023-04-24 10:55:45] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/25/78/c2caf8cb679a7ddb1f8b8bb7f991fa3cb9b30f03ba98a68044d7253e515e/zndraw-0.1.4.tar.gz
+[2023-04-24 10:55:45] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/64/90/e2bfa1c1c619de2a031da67fb16a692ce2e8708b371d677b2344539b9460/viser-0.0.6.tar.gz
+[2023-04-24 10:55:45] INFO root fetch - processPackages [phyper]: Downloading https://files.pythonhosted.org/packages/d8/68/5b336229ac51bd078126ed1ef39d697b99033a5db3a1e62665f0053c6b77/phyper-1.1.4-py3-none-any.whl
+[2023-04-24 10:55:45] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.0.tar.gz tmp/pyecotrend-ista-2.0.1.tar.gz --markdown 20230424/p/pyecotrend-ista/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/64/e1/c1b2409c489e42c6890bfbc56dc5aaa1d565dab12acef67d3e0855e96f21/dvclive-2.7.0.tar.gz
+[2023-04-24 10:55:45] INFO root fetch - processPackages [zndraw]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [zndraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zndraw-0.1.3.tar.gz tmp/zndraw-0.1.4.tar.gz --markdown 20230424/z/zndraw/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230424/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [phyper]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [phyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phyper-1.1.3-py3-none-any.whl.zip tmp/phyper-1.1.4-py3-none-any.whl.zip --markdown 20230424/p/phyper/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.5.tar.gz tmp/viser-0.0.6.tar.gz --markdown 20230424/v/viser/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/9b/34/fce950d3208cecce3e756347441978040ee7f85c8d47650e743afcd56c32/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.1.0-py3-none-any.whl
+[2023-04-24 10:55:45] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/bd/13/ad3e84e103b3d1f9dce3c9166e70b4d010fd016e801f5a19a293ff5cc21a/invenio-rdm-migrator-1.0.0a4.tar.gz
+[2023-04-24 10:55:45] INFO root fetch - processPackages [hsds-api]: Downloading https://files.pythonhosted.org/packages/bf/02/8dd832a50de8bb55b52fc62b7f388aadec69aeb6244c41a73471a88a9edf/hsds_api-1.0.0b4-py3-none-any.whl
+[2023-04-24 10:55:45] INFO root fetch - processPackages [dvclive]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [dvclive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvclive-2.6.4.tar.gz tmp/dvclive-2.7.0.tar.gz --markdown 20230424/d/dvclive/2.6.4-2.7.0/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-15.0.3.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230424/o/odoo-addon-l10n-ro-partner-create-by-vat/15.0.3.4.0-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [invenio-rdm-migrator]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [invenio-rdm-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-migrator-1.0.0a3.tar.gz tmp/invenio-rdm-migrator-1.0.0a4.tar.gz --markdown 20230424/i/invenio-rdm-migrator/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] INFO root fetch - processPackages [hsds-api]: executing diffoscope
+[2023-04-24 10:55:45] INFO root fetch - processPackages [hsds-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsds_api-1.0.0b3-py3-none-any.whl.zip tmp/hsds_api-1.0.0b4-py3-none-any.whl.zip --markdown 20230424/h/hsds-api/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-04-24 10:55:45] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19605429>=10485760
+[2023-04-24 10:55:45] INFO root fetch - processPackages [udata]: Start processing: light-the-torch
+[2023-04-24 10:55:45] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-04-24 10:55:45] INFO root fetch - processPackages [light-the-torch]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-24 10:55:45] INFO root fetch - processPackages [light-the-torch]: Downloading https://files.pythonhosted.org/packages/e4/5b/87f63a5667c5703f9cd007cf25e92f1ef5737305934975f2c25a2bbd2a93/light_the_torch-0.7.2.tar.gz
+[2023-04-24 10:55:46] INFO root fetch - processPackages [light-the-torch]: Downloading https://files.pythonhosted.org/packages/f8/36/4b3f306673a08cfff0b0d2a03f79174cf365883b6d5b6b16e3efcecb9e6b/light_the_torch-0.7.3.tar.gz
+[2023-04-24 10:55:46] INFO root fetch - processPackages [light-the-torch]: executing diffoscope
+[2023-04-24 10:55:46] INFO root fetch - processPackages [light-the-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/light_the_torch-0.7.2.tar.gz tmp/light_the_torch-0.7.3.tar.gz --markdown 20230424/l/light-the-torch/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-24 10:55:46] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: kw-disruption-resolver-dbmodels
+[2023-04-24 10:55:46] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-24 10:55:46] WARNING root fetch - processPackages [kw-disruption-resolver-dbmodels]: Skipping, unable to determine old version
+[2023-04-24 10:55:46] INFO root fetch - processPackages [kw-disruption-resolver-dbmodels]: Start processing: astroid
+[2023-04-24 10:55:46] INFO root fetch - main [MainThread]: End processing [kw-disruption-resolver-dbmodels] error
+[2023-04-24 10:55:46] INFO root fetch - processPackages [astroid]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-04-24 10:55:46] INFO root fetch - main [MainThread]: End processing [phyper]: success
+[2023-04-24 10:55:46] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-04-24 10:55:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2023-04-24 10:55:47] INFO root fetch - main [MainThread]: End processing [hsds-api]: success
+[2023-04-24 10:55:47] INFO root fetch - processPackages [astroid]: executing diffoscope
+[2023-04-24 10:55:47] INFO root fetch - processPackages [astroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroid-2.9.2.tar.gz tmp/astroid-2.9.3.tar.gz --markdown 20230424/a/astroid/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-04-24 10:55:47] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
+[2023-04-24 10:55:47] INFO root fetch - main [MainThread]: End processing [zndraw]: success
+[2023-04-24 10:55:47] INFO root fetch - main [MainThread]: End processing [light-the-torch]: success
+[2023-04-24 10:55:48] INFO root fetch - main [MainThread]: End processing [astroid]: success
+[2023-04-24 10:55:48] INFO root fetch - main [MainThread]: End processing [dvclive]: success
+[2023-04-24 10:58:00] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-04-24 10:58:00] INFO root fetch - main [MainThread]: Store serial: [17831042]
