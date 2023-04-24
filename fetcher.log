@@ -7107,3 +7107,54 @@
 [2023-04-24 09:50:40] INFO root fetch - main [MainThread]: End processing [SocketSwap]: success
 [2023-04-24 09:50:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-24 09:50:45] INFO root fetch - main [MainThread]: Store serial: [17830397]
+[2023-04-24 09:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830397]
+[2023-04-24 09:55:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphql-service-framework
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cagen
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alice-and-bob3
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: system-superset-driver
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DDesignerAPI
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: birentechci
+[2023-04-24 09:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven2one
+[2023-04-24 09:55:54] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-24 09:55:54] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-24 09:55:54] INFO root fetch - processPackages [cagen]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [seven2one]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230424] Old Version: [2.13.0.dev20230423]
+[2023-04-24 09:55:54] INFO root fetch - processPackages [seven2one]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [seven2one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven2one-4.1.1.tar.gz tmp/seven2one-4.1.2.tar.gz --markdown 20230424/s/seven2one/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230424/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/32/f2/ecc635f4d7f75b946eb5355a4cc68d0341e5e47a5e105fe0db256e7fa113/cagen-0.2.0a9.tar.gz
+[2023-04-24 09:55:54] INFO root fetch - processPackages [system-superset-driver]: Downloading https://files.pythonhosted.org/packages/44/f9/5af36c5b7cc244910d21de2a73d049938b9b5b7d68878690298ef04621f2/system_superset_driver-0.0.6.tar.gz
+[2023-04-24 09:55:54] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/8e/d7/b33e5643626b96186e59cc957ea54b81ff6d6d2efef71e6a186269a08211/graphql_service_framework-1.1.0.tar.gz
+[2023-04-24 09:55:54] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/a7/96/0b90b433e8c0848eeecf8e09172865674204fca8bba4ef41fe2e394347dc/DDesignerAPI-0.0.0.6-py3-none-any.whl
+[2023-04-24 09:55:54] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0a8.tar.gz tmp/cagen-0.2.0a9.tar.gz --markdown 20230424/c/cagen/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230424/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.5.tar.gz tmp/system_superset_driver-0.0.6.tar.gz --markdown 20230424/s/system-superset-driver/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.0.9.tar.gz tmp/graphql_service_framework-1.1.0.tar.gz --markdown 20230424/g/graphql-service-framework/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d3/40/fad592d482624ffb7c10a7e3088811ac6c6e531b5633ce487903dfbb578d/tf_nightly_cpu-2.13.0.dev20230424-cp39-cp39-win_amd64.whl
+[2023-04-24 09:55:54] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.5-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.6-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-04-24 09:55:54] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-24 09:55:54] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230423-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230424-cp39-cp39-win_amd64.whl.zip --markdown 20230424/t/tf-nightly-cpu/2.13.0.dev20230423-2.13.0.dev20230424/diff.md --exclude *.pyd
+[2023-04-24 09:55:55] INFO root fetch - main [MainThread]: End processing [seven2one]: success
+[2023-04-24 09:55:55] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-04-24 09:55:56] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 09:55:56] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-24 09:55:56] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-24 09:55:56] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-04-24 09:55:56] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 09:55:58] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-24 09:55:58] INFO root fetch - main [MainThread]: Store serial: [17830433]
