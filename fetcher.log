@@ -14499,3 +14499,111 @@
 [2023-04-24 16:11:59] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
 [2023-04-24 16:12:01] INFO root fetch - main [MainThread]: End processing [py-optional]: success
 [2023-04-24 16:12:01] INFO root fetch - main [MainThread]: Store serial: [17834657]
+[2023-04-24 16:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834657]
+[2023-04-24 16:17:11] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystrum
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kisaBobPkgs
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataverk-airflow
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unravel-python
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtest-sapnwrfc
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stooqer
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zcbot-predict-sdk
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: db-simple
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-cell-status-extension
+[2023-04-24 16:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-robosapiens
+[2023-04-24 16:17:11] INFO root fetch - processPackages [pystrum]: New version: [0.3] Old Version: [0.2]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [kisaBobPkgs]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [unravel-python]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [xtest-sapnwrfc]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [db-simple]: New version: [0.1] Old Version: [0.0.4]
+[2023-04-24 16:17:11] WARNING root fetch - processPackages [jupyterlab-cell-status-extension]: Skipping, unable to determine old version
+[2023-04-24 16:17:11] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: Start processing: mynotiontools
+[2023-04-24 16:17:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-cell-status-extension] error
+[2023-04-24 16:17:11] WARNING root fetch - processPackages [robotframework-robosapiens]: Skipping, unable to determine old version
+[2023-04-24 16:17:11] INFO root fetch - processPackages [robotframework-robosapiens]: Start processing: nudeny
+[2023-04-24 16:17:11] INFO root fetch - processPackages [stooqer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 16:17:11] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens] error
+[2023-04-24 16:17:11] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [nudeny]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-24 16:17:11] INFO root fetch - processPackages [kisaBobPkgs]: executing diffoscope
+[2023-04-24 16:17:11] INFO root fetch - processPackages [kisaBobPkgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kisaBobPkgs-1.0.0.8-py3-none-any.whl.zip tmp/kisaBobPkgs-1.0.0.9-py3-none-any.whl.zip --markdown 20230424/k/kisaBobPkgs/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:17:11] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-24 16:17:11] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230424/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-24 16:17:11] INFO root fetch - processPackages [pystrum]: Downloading https://files.pythonhosted.org/packages/94/c5/055d5f9182c87b631d0b6066a581732092b70c45148c1472c9ca2b4f0a10/pystrum-0.2.tar.gz
+[2023-04-24 16:17:11] INFO root fetch - processPackages [db-simple]: Downloading https://files.pythonhosted.org/packages/2a/df/985b5ac90846e21b6713054b063c264a929e6f76ea7d4798d10e16a6bb59/db-simple-0.0.4.tar.gz
+[2023-04-24 16:17:11] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/eb/e2/b7594a778f7cce67fa38b3972323e4b8b6e229bda9514c3f797d50021448/zcbot-predict-sdk-0.0.3.tar.gz
+[2023-04-24 16:17:11] INFO root fetch - processPackages [xtest-sapnwrfc]: Downloading https://files.pythonhosted.org/packages/38/cb/f364c068fe3be49d3480d406f6252b630ec463af8095552cb0b0524e22f3/xtest_sapnwrfc-0.0.14.tar.gz
+[2023-04-24 16:17:11] INFO root fetch - processPackages [stooqer]: Downloading https://files.pythonhosted.org/packages/d0/c6/603e3e339784fefd9aafbdc84d362b188d448acfe08dcd77d78a1169acdf/stooqer-0.0.1.tar.gz
+[2023-04-24 16:17:11] INFO root fetch - processPackages [nudeny]: Downloading https://files.pythonhosted.org/packages/bc/50/c97c95b034bbeb131907491f43b04ab085f9030ec06c378c96659469adb6/nudeny-0.0.6.tar.gz
+[2023-04-24 16:17:11] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-04-24 16:17:11] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.2.tar.gz tmp/zcbot-predict-sdk-0.0.3.tar.gz --markdown 20230424/z/zcbot-predict-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 16:17:11] INFO root fetch - processPackages [xtest-sapnwrfc]: executing diffoscope
+[2023-04-24 16:17:11] INFO root fetch - processPackages [xtest-sapnwrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtest_sapnwrfc-0.0.13.tar.gz tmp/xtest_sapnwrfc-0.0.14.tar.gz --markdown 20230424/x/xtest-sapnwrfc/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-04-24 16:17:11] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/95/1c/96783e5cdff7777cd705b6035d45d681b233d3bce91b8403038dad5db298/unravel-python-1.2.3.tar.gz
+[2023-04-24 16:17:12] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2023-04-24 16:17:12] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel-python-1.2.2.tar.gz tmp/unravel-python-1.2.3.tar.gz --markdown 20230424/u/unravel-python/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-24 16:17:12] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-24 16:17:12] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230424/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:17:12] INFO root fetch - processPackages [stooqer]: Downloading https://files.pythonhosted.org/packages/f7/d9/e21cc9da976402fddf6b3862cbdec2a4b8bbdab6d2d26f3f3c34db3966e1/stooqer-0.0.2.tar.gz
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pystrum]: Downloading https://files.pythonhosted.org/packages/7d/50/3eb9a89a4683a438d10f5b48ec18d805b5d8b0b0def76154e1b38427fbfe/pystrum-0.3.tar.gz
+[2023-04-24 16:17:12] ERROR root fetch - processPackages [db-simple]: Unable to fetch info: No such project/version 'db-simple' 0.1
+[2023-04-24 16:17:12] INFO root fetch - processPackages [db-simple]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-24 16:17:12] INFO root fetch - main [MainThread]: End processing [db-simple] error
+[2023-04-24 16:17:12] INFO root fetch - processPackages [stooqer]: executing diffoscope
+[2023-04-24 16:17:12] INFO root fetch - processPackages [stooqer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stooqer-0.0.1.tar.gz tmp/stooqer-0.0.2.tar.gz --markdown 20230424/s/stooqer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pystrum]: executing diffoscope
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pystrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystrum-0.2.tar.gz tmp/pystrum-0.3.tar.gz --markdown 20230424/p/pystrum/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-24 16:17:12] INFO root fetch - processPackages [nudeny]: Downloading https://files.pythonhosted.org/packages/b0/35/b52cc3f9ef70cef74cf5d7968f62015d99ed3cb680b578dd91dc9694c7cf/nudeny-0.0.7.tar.gz
+[2023-04-24 16:17:12] INFO root fetch - processPackages [nudeny]: executing diffoscope
+[2023-04-24 16:17:12] INFO root fetch - processPackages [nudeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nudeny-0.0.6.tar.gz tmp/nudeny-0.0.7.tar.gz --markdown 20230424/n/nudeny/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-24 16:17:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 16:17:13] INFO root fetch - processPackages [kisaBobPkgs]: Start processing: rigorous-recorder
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [kisaBobPkgs]: success
+[2023-04-24 16:17:13] INFO root fetch - processPackages [rigorous-recorder]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-04-24 16:17:13] INFO root fetch - processPackages [dataverk-airflow]: Start processing: jupyterlab-ou-brand-extension
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-24 16:17:13] WARNING root fetch - processPackages [jupyterlab-ou-brand-extension]: Skipping, unable to determine old version
+[2023-04-24 16:17:13] INFO root fetch - processPackages [jupyterlab-ou-brand-extension]: Start processing: mercury-explainability
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [jupyterlab-ou-brand-extension] error
+[2023-04-24 16:17:13] WARNING root fetch - processPackages [mercury-explainability]: Skipping, unable to determine old version
+[2023-04-24 16:17:13] INFO root fetch - processPackages [mercury-explainability]: Start processing: lnhub_rest
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [mercury-explainability] error
+[2023-04-24 16:17:13] INFO root fetch - processPackages [rigorous-recorder]: Downloading https://files.pythonhosted.org/packages/dc/32/63727ded894e136b5c6633052dbb8438ce525091e8f670de3f1aaa8d39e6/rigorous_recorder-1.3.2.tar.gz
+[2023-04-24 16:17:13] INFO root fetch - processPackages [lnhub_rest]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 16:17:13] INFO root fetch - processPackages [unravel-python]: Start processing: wasmtime
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2023-04-24 16:17:13] INFO root fetch - processPackages [wasmtime]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-04-24 16:17:13] INFO root fetch - processPackages [mynotiontools]: Start processing: pybotics
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-04-24 16:17:13] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/a1/f4/e04024eaf45c0bc0f8a5a799d19544115b7bcf58cf29d560f32462989626/lnhub_rest-0.9.1.tar.gz
+[2023-04-24 16:17:13] INFO root fetch - processPackages [pybotics]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-24 16:17:13] INFO root fetch - processPackages [lnhub_rest]: executing diffoscope
+[2023-04-24 16:17:13] INFO root fetch - processPackages [lnhub_rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnhub_rest-0.9.0.tar.gz tmp/lnhub_rest-0.9.1.tar.gz --markdown 20230424/l/lnhub_rest/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 16:17:13] INFO root fetch - processPackages [wasmtime]: Downloading https://files.pythonhosted.org/packages/88/a4/03144360122561614138ff4e9e7087fd0ba127dfc9d582c3e05e70d5be90/wasmtime-8.0.0-py3-none-win_amd64.whl
+[2023-04-24 16:17:13] INFO root fetch - processPackages [rigorous-recorder]: Downloading https://files.pythonhosted.org/packages/eb/48/a730406fce304df0c12651cd5c60c1aaf186ac5869350d0a94d9920b35de/rigorous_recorder-1.4.0.tar.gz
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [nudeny]: success
+[2023-04-24 16:17:13] INFO root fetch - processPackages [rigorous-recorder]: executing diffoscope
+[2023-04-24 16:17:13] INFO root fetch - processPackages [rigorous-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigorous_recorder-1.3.2.tar.gz tmp/rigorous_recorder-1.4.0.tar.gz --markdown 20230424/r/rigorous-recorder/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [stooqer]: success
+[2023-04-24 16:17:13] INFO root fetch - processPackages [pybotics]: Downloading https://files.pythonhosted.org/packages/8d/e1/d3dfad34b5a285ba96690beeccb344def6eb80d0079094c89d08cf49dd62/pybotics-3.1.1.tar.gz
+[2023-04-24 16:17:13] INFO root fetch - main [MainThread]: End processing [pystrum]: success
+[2023-04-24 16:17:13] INFO root fetch - processPackages [wasmtime]: Downloading https://files.pythonhosted.org/packages/61/54/4d7dbe7af977a50964a5f6eae2bcea16deb6bc2ac1939343fc97e892145b/wasmtime-8.0.1-py3-none-win_amd64.whl
+[2023-04-24 16:17:13] INFO root fetch - processPackages [pybotics]: Downloading https://files.pythonhosted.org/packages/91/31/f0cb29f879091e7a341ac449601c1cd0f39e248058cfdd5b06da80e2bba1/pybotics-3.1.2.tar.gz
+[2023-04-24 16:17:13] INFO root fetch - processPackages [wasmtime]: executing diffoscope
+[2023-04-24 16:17:13] INFO root fetch - processPackages [wasmtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmtime-8.0.0-py3-none-win_amd64.whl.zip tmp/wasmtime-8.0.1-py3-none-win_amd64.whl.zip --markdown 20230424/w/wasmtime/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-04-24 16:17:14] INFO root fetch - processPackages [pybotics]: executing diffoscope
+[2023-04-24 16:17:14] INFO root fetch - processPackages [pybotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotics-3.1.1.tar.gz tmp/pybotics-3.1.2.tar.gz --markdown 20230424/p/pybotics/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-04-24 16:17:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-24 16:17:14] INFO root fetch - main [MainThread]: End processing [rigorous-recorder]: success
+[2023-04-24 16:17:15] INFO root fetch - main [MainThread]: End processing [pybotics]: success
+[2023-04-24 16:17:15] INFO root fetch - main [MainThread]: End processing [wasmtime]: success
+[2023-04-24 16:17:15] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
+[2023-04-24 16:17:17] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
+[2023-04-24 16:17:17] INFO root fetch - main [MainThread]: Store serial: [17834722]
