@@ -11235,3 +11235,190 @@
 [2023-04-24 13:36:30] INFO root fetch - main [MainThread]: End processing [hippogym]: success
 [2023-04-24 13:36:37] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-24 13:36:37] INFO root fetch - main [MainThread]: Store serial: [17832856]
+[2023-04-24 13:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832856]
+[2023-04-24 13:41:46] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setuptools
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mammopy
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vault2secretsmanager
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-orca-spark2
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptal-api
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-friesian-spark2
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pool-cue
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos-spark2
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-model-builder-multilingual
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-spark2
+[2023-04-24 13:41:46] WARNING root fetch - processPackages [vault2secretsmanager]: Skipping, unable to determine old version
+[2023-04-24 13:41:46] INFO root fetch - processPackages [vault2secretsmanager]: Start processing: jupylite-duckdb
+[2023-04-24 13:41:46] INFO root fetch - main [MainThread]: End processing [vault2secretsmanager] error
+[2023-04-24 13:41:46] INFO root fetch - processPackages [mammopy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ptal-api]: New version: [0.11.4.1] Old Version: [0.11.4]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [setuptools]: New version: [9.1] Old Version: [9.0.1]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [pool-cue]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230423] Old Version: [2.4.0b20230422]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [jupylite-duckdb]: New version: [0.0.18a3] Old Version: [0.0.18a2]
+[2023-04-24 13:41:46] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/2b/24/4b01c3ca1f50523b2528f94267236bf33bc577f33641ef6ad0410db4c818/mammopy-0.0.1.tar.gz
+[2023-04-24 13:41:46] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/34/3b/09c0223344c73d9a1ddc8b7e2496d435dd1c8964fd80c38b26370c6166fb/ptal_api-0.11.4.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/fb/8a/86cb70c6562c2d0b60ee87b6973581779c6a989ac54aaad1241a6ae2d31d/bigdl_chronos_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:41:47] INFO root fetch - processPackages [pool-cue]: Downloading https://files.pythonhosted.org/packages/e8/8d/3cd320eb4864145363c6ec5e005fe321af42769c9e47e0a65e842a097ea4/pool_cue-1.1.1.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/45/a9/771be5cd81fb5a2b78760a7f670fa6ea280e06e2fa23e2a0bcdf94e6ecea/bigdl_orca_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/1b/95/89d8a6d7574deb6f5ebcc205c670a5b0c0bcb0bf8a3837b22bf688461986/bigdl_friesian_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:41:47] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/73/97/fe21c34a17e953e5d9a8024837cf3f5fb16be30f5012646363400e2d7f3a/oarepo-model-builder-multilingual-2.0.6.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [setuptools]: Downloading https://files.pythonhosted.org/packages/16/2c/1ad571e85048c57b4e7ba2218d0fff3db0452e8bfa0c20e1543e26f85121/setuptools-9.0.1.zip
+[2023-04-24 13:41:47] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369295>=10485760
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: ocrd
+[2023-04-24 13:41:47] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/4d/d1/c77ba352edcf8f06e0141112ed425ba8d0844c674da172040292633d9029/bigdl_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:41:47] INFO root fetch - processPackages [jupylite-duckdb]: Downloading https://files.pythonhosted.org/packages/99/6c/f85cff50b424cfa28192db48f5ef9f1e9e47c90a6c69f2f55f286b469269/jupylite_duckdb-0.0.18a3-py3-none-any.whl
+[2023-04-24 13:41:47] INFO root fetch - processPackages [ocrd]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-04-24 13:41:47] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/e8/10/92c403b5a855ee9787d0d99593e249cb083d8fa9c6b4a473b36c60b9d6ea/ptal_api-0.11.4.1.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/90/8a/6299833e404d567f9dd80f7f9e477108740d4d6cd52761d9a4dced93c75c/mammopy-0.0.2.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [pool-cue]: Downloading https://files.pythonhosted.org/packages/fd/ef/440d40064faca744842280c46db6b4c3f73e762277c567b6d166bb749b01/pool_cue-1.2.0.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/ac/e2/2fb685b50f863edc2bc1b3fb0ff3d36505b8950def6c1f5c0d6fd2f911ad/oarepo-model-builder-multilingual-2.0.7.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/16/a9/c02f7a237526c46ad57d5c95e9492599388971feede880a6b183c31d9213/bigdl_friesian_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230422-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip --markdown 20230424/b/bigdl-spark2/2.4.0b20230422-2.4.0b20230423/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [jupylite-duckdb]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [jupylite-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupylite_duckdb-0.0.18a2-py3-none-any.whl.zip tmp/jupylite_duckdb-0.0.18a3-py3-none-any.whl.zip --markdown 20230424/j/jupylite-duckdb/0.0.18a2-0.0.18a3/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [ocrd]: Downloading https://files.pythonhosted.org/packages/67/00/b5d22c09fa4c5b275c14a409b4fc8bb6d012f9d7747282253777a33d2fb1/ocrd-2.8.3.tar.gz
+[2023-04-24 13:41:47] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.1.tar.gz tmp/mammopy-0.0.2.tar.gz --markdown 20230424/m/mammopy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [pool-cue]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.11.4.tar.gz tmp/ptal_api-0.11.4.1.tar.gz --markdown 20230424/p/ptal-api/0.11.4-0.11.4.1/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [pool-cue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pool_cue-1.1.1.tar.gz tmp/pool_cue-1.2.0.tar.gz --markdown 20230424/p/pool-cue/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [setuptools]: Downloading https://files.pythonhosted.org/packages/35/b2/626974cb6f02c4d58c33471b597f6723560f74be322857e9cd24700c3c70/setuptools-9.1.zip
+[2023-04-24 13:41:47] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-2.0.6.tar.gz tmp/oarepo-model-builder-multilingual-2.0.7.tar.gz --markdown 20230424/o/oarepo-model-builder-multilingual/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip --markdown 20230424/b/bigdl-friesian-spark2/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [setuptools]: executing diffoscope
+[2023-04-24 13:41:47] INFO root fetch - processPackages [setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-9.0.1.zip tmp/setuptools-9.1.zip --markdown 20230424/s/setuptools/9.0.1-9.1/diff.md --exclude *.pyd
+[2023-04-24 13:41:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/7a/4a/180619851400b941dad1c8ac2e4f29d5d8254a63b34c616093da7d2fa388/bigdl_chronos_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:41:48] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-04-24 13:41:48] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip --markdown 20230424/b/bigdl-chronos-spark2/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-24 13:41:48] INFO root fetch - processPackages [ocrd]: Downloading https://files.pythonhosted.org/packages/ae/ba/d74b80333a85ed09eb382fd89167250bf86f269c26539ad22be6da11c85d/ocrd-2.9.0.tar.gz
+[2023-04-24 13:41:48] INFO root fetch - processPackages [ocrd]: executing diffoscope
+[2023-04-24 13:41:48] INFO root fetch - processPackages [ocrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd-2.8.3.tar.gz tmp/ocrd-2.9.0.tar.gz --markdown 20230424/o/ocrd/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:48] INFO root fetch - processPackages [bigdl-spark2]: Start processing: ocrd-modelfactory
+[2023-04-24 13:41:48] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-04-24 13:41:48] INFO root fetch - processPackages [jupylite-duckdb]: Start processing: gptdeploy
+[2023-04-24 13:41:48] INFO root fetch - main [MainThread]: End processing [jupylite-duckdb]: success
+[2023-04-24 13:41:48] INFO root fetch - processPackages [ocrd-modelfactory]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-04-24 13:41:48] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 13:41:49] INFO root fetch - processPackages [mammopy]: Start processing: ocrd-models
+[2023-04-24 13:41:49] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-04-24 13:41:49] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 13:41:49] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 13:41:49] INFO root fetch - processPackages [pool-cue]: Start processing: fedbase
+[2023-04-24 13:41:49] INFO root fetch - main [MainThread]: End processing [pool-cue]: success
+[2023-04-24 13:41:49] INFO root fetch - processPackages [fedbase]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-models]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-modelfactory]: Downloading https://files.pythonhosted.org/packages/85/c5/54254305db3920156a98f3337c193cbf2c59f57cae21eae11927e733b4eb/ocrd_modelfactory-2.8.3.tar.gz
+[2023-04-24 13:41:49] INFO root fetch - processPackages [fedbase]: executing diffoscope
+[2023-04-24 13:41:49] INFO root fetch - processPackages [fedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedbase-0.9.8.tar.gz tmp/fedbase-0.9.9.tar.gz --markdown 20230424/f/fedbase/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-models]: Downloading https://files.pythonhosted.org/packages/d6/b1/376582d715216b1a2f0c0e91b4f80d752410fe188ca494273a14bd915a41/ocrd_models-2.8.3.tar.gz
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-modelfactory]: Downloading https://files.pythonhosted.org/packages/57/f3/e199d127e0b9a2b9cc7d44c28e924bef6b1c74b4d94b156c33554b7f4d76/ocrd_modelfactory-2.9.0.tar.gz
+[2023-04-24 13:41:49] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Start processing: ocrd-network
+[2023-04-24 13:41:49] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-models]: Downloading https://files.pythonhosted.org/packages/26/1c/aeeb1e2e34015c3d3d20873fc8dc49a03b934a4ff3dc079638e381d727c6/ocrd_models-2.9.0.tar.gz
+[2023-04-24 13:41:49] WARNING root fetch - processPackages [ocrd-network]: Skipping, unable to determine old version
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-network]: Start processing: ocrd-utils
+[2023-04-24 13:41:49] INFO root fetch - main [MainThread]: End processing [ocrd-network] error
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-models]: executing diffoscope
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_models-2.8.3.tar.gz tmp/ocrd_models-2.9.0.tar.gz --markdown 20230424/o/ocrd-models/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-utils]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-modelfactory]: executing diffoscope
+[2023-04-24 13:41:49] INFO root fetch - processPackages [ocrd-modelfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_modelfactory-2.8.3.tar.gz tmp/ocrd_modelfactory-2.9.0.tar.gz --markdown 20230424/o/ocrd-modelfactory/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-utils]: Downloading https://files.pythonhosted.org/packages/e7/b4/2b5ba2b0c5809f28a405636b5ac22a23b0a08147f95fb9c9feb2631047ab/ocrd_utils-2.8.3.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gptdeploy]: Start processing: ocrd-validators
+[2023-04-24 13:41:50] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 13:41:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: funcs
+[2023-04-24 13:41:50] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd]: Start processing: atriumsports-sdk
+[2023-04-24 13:41:50] INFO root fetch - main [MainThread]: End processing [ocrd]: success
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-validators]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-04-24 13:41:50] INFO root fetch - processPackages [funcs]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-24 13:41:50] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/cd/69/cde72d94d58274e2cac7e3b99b2bdd9a2d5dab1f84cbdaea78116a3c1511/funcs-0.4.0.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: gardener-cicd-base
+[2023-04-24 13:41:50] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2037.0] Old Version: [1.2036.0]
+[2023-04-24 13:41:50] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/f1/fb/cca9be81049b381310f4cbbb9018059a46e94bde358205ef3ea85c4a1309/gardener-cicd-base-1.2036.0.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-utils]: Downloading https://files.pythonhosted.org/packages/41/b2/1ff2249600713d77484f71ae72ce1d74a7f872c00d995c68b0f7347e8240/ocrd_utils-2.9.0.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-validators]: Downloading https://files.pythonhosted.org/packages/3b/80/ee5e798f3c3210abd2923191fb31fca0be78b056944deda58ac3954ab58e/ocrd_validators-2.8.3.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2036.0.tar.gz tmp/gardener-cicd-base-1.2037.0.tar.gz --markdown 20230424/g/gardener-cicd-base/1.2036.0-1.2037.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:50] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-04-24 13:41:50] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.4.0.tar.gz tmp/funcs-0.5.0.tar.gz --markdown 20230424/f/funcs/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:50] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/88/86/d1661709d8b0102908679290e9701dcf2f3e58bcd00bbc298831b4d85b56/atriumsports_sdk-1.0.1.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-utils]: executing diffoscope
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_utils-2.8.3.tar.gz tmp/ocrd_utils-2.9.0.tar.gz --markdown 20230424/o/ocrd-utils/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:50] INFO root fetch - processPackages [setuptools]: Start processing: gardener-cicd-cli
+[2023-04-24 13:41:50] INFO root fetch - main [MainThread]: End processing [setuptools]: success
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2037.0] Old Version: [1.2036.0]
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f7/f0/1cbcdb58aeb746823259596ff6521dc2ba1a1bcccc379547854f6193bca1/gardener-cicd-cli-1.2036.0.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [ocrd-validators]: Downloading https://files.pythonhosted.org/packages/63/cf/9728dd356498db57ac7e7b07816572715ad39bddf6efe7de2ef96b615e66/ocrd_validators-2.9.0.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/de/c3/1491b6e59362a3636ad5c51424b04f6a9968c6ebd4b6f9354d4c004ba4ad/atriumsports_sdk-1.1.0.tar.gz
+[2023-04-24 13:41:50] INFO root fetch - processPackages [fedbase]: Start processing: gardener-cicd-dso
+[2023-04-24 13:41:50] INFO root fetch - main [MainThread]: End processing [fedbase]: success
+[2023-04-24 13:41:50] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2037.0] Old Version: [1.2036.0]
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2036.0.tar.gz tmp/gardener-cicd-cli-1.2037.0.tar.gz --markdown 20230424/g/gardener-cicd-cli/1.2036.0-1.2037.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/43/52/41f9c580abd86b619b34b7d94eacefc135a8306e1cf839de692941473bfe/gardener-cicd-dso-1.2036.0.tar.gz
+[2023-04-24 13:41:51] INFO root fetch - processPackages [ocrd-modelfactory]: Start processing: gardener-cicd-libs
+[2023-04-24 13:41:51] INFO root fetch - main [MainThread]: End processing [ocrd-modelfactory]: success
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2037.0] Old Version: [1.2036.0]
+[2023-04-24 13:41:51] INFO root fetch - processPackages [ocrd-validators]: executing diffoscope
+[2023-04-24 13:41:51] INFO root fetch - processPackages [ocrd-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_validators-2.8.3.tar.gz tmp/ocrd_validators-2.9.0.tar.gz --markdown 20230424/o/ocrd-validators/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ea/94/5b96cae9abc9e74af84dc1530a407ead95dfb6838f0903028efda9dfbfda/gardener-cicd-libs-1.2036.0.tar.gz
+[2023-04-24 13:41:51] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2023-04-24 13:41:51] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.0.1.tar.gz tmp/atriumsports_sdk-1.1.0.tar.gz --markdown 20230424/a/atriumsports-sdk/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:51] INFO root fetch - processPackages [ptal-api]: Start processing: gardener-cicd-whd
+[2023-04-24 13:41:51] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2037.0] Old Version: [1.2036.0]
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2036.0.tar.gz tmp/gardener-cicd-dso-1.2037.0.tar.gz --markdown 20230424/g/gardener-cicd-dso/1.2036.0-1.2037.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/83/d4/e19bb711a40b2cfe140181cf886fd90d57e309958addd18e2f7a38a7472b/gardener-cicd-whd-1.2036.0.tar.gz
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2036.0.tar.gz tmp/gardener-cicd-libs-1.2037.0.tar.gz --markdown 20230424/g/gardener-cicd-libs/1.2036.0-1.2037.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-04-24 13:41:51] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2036.0.tar.gz tmp/gardener-cicd-whd-1.2037.0.tar.gz --markdown 20230424/g/gardener-cicd-whd/1.2036.0-1.2037.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:52] INFO root fetch - processPackages [ocrd-utils]: Start processing: gptdeploy
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [ocrd-utils]: success
+[2023-04-24 13:41:52] INFO root fetch - processPackages [funcs]: Start processing: gardener-oci
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: to-paragraphs
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-04-24 13:41:52] INFO root fetch - processPackages [to-paragraphs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230424/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-04-24 13:41:52] INFO root fetch - processPackages [to-paragraphs]: executing diffoscope
+[2023-04-24 13:41:52] INFO root fetch - processPackages [to-paragraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_paragraphs-0.1.7.tar.gz tmp/to_paragraphs-0.1.8.tar.gz --markdown 20230424/t/to-paragraphs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 13:41:52] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: iqrfpy
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [ocrd-validators]: success
+[2023-04-24 13:41:52] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-04-24 13:41:52] INFO root fetch - main [MainThread]: End processing [ocrd-models]: success
+[2023-04-24 13:41:52] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-04-24 13:41:53] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-04-24 13:41:53] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-04-24 13:41:53] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-04-24 13:41:53] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230424/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 13:41:53] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 13:41:53] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-04-24 13:41:53] INFO root fetch - main [MainThread]: End processing [to-paragraphs]: success
+[2023-04-24 13:41:54] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-04-24 13:41:55] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-04-24 13:42:04] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2023-04-24 13:42:04] INFO root fetch - main [MainThread]: Store serial: [17832937]
