@@ -10180,3 +10180,84 @@
 [2023-04-24 12:31:54] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
 [2023-04-24 12:31:56] INFO root fetch - main [MainThread]: End processing [nasap]: success
 [2023-04-24 12:31:56] INFO root fetch - main [MainThread]: Store serial: [17832271]
+[2023-04-24 12:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832271]
+[2023-04-24 12:37:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrew
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrew
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynir
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ablerConfig
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellscanner
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DDesignerAPI
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mesh-sandbox
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrew
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llmbda-fastapi
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qmake2cmake
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pynir]: New version: [0.6] Old Version: [0.5]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [cellscanner]: New version: [1.7] Old Version: [1.6]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ablerConfig]: New version: [0.0.8] Old Version: [0.0.2]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.1.3-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.1.4-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] INFO root fetch - processPackages [mesh-sandbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [cellscanner]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [cellscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellscanner-1.6.tar.gz tmp/cellscanner-1.7.tar.gz --markdown 20230424/c/cellscanner/1.6-1.7/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] INFO root fetch - processPackages [qmake2cmake]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.0.2.tar.gz tmp/ablerConfig-0.0.8.tar.gz --markdown 20230424/a/ablerConfig/0.0.2-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] WARNING root fetch - processPackages [llmbda-fastapi]: Skipping, unable to determine old version
+[2023-04-24 12:37:06] INFO root fetch - processPackages [llmbda-fastapi]: Start processing: finbourne-identity-sdk
+[2023-04-24 12:37:06] INFO root fetch - main [MainThread]: End processing [llmbda-fastapi] error
+[2023-04-24 12:37:06] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2405]
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pynir]: Downloading https://files.pythonhosted.org/packages/3e/35/5f57e997a1051485f906fccd6708b15422848a1de943c1c9b79d62f438a0/pynir-0.5.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/64/69/8159a7dcf005a9e264127de535734128c82ba83ccbda77bb9d314ab042c4/pyrew-0.9.2.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/64/69/8159a7dcf005a9e264127de535734128c82ba83ccbda77bb9d314ab042c4/pyrew-0.9.2.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/5e/9b/6d41dda0d432ad7486b8f539a29db9afc319494986724d63b91a6812f22c/mesh_sandbox-0.1.8-py3-none-any.whl
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/64/69/8159a7dcf005a9e264127de535734128c82ba83ccbda77bb9d314ab042c4/pyrew-0.9.2.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [qmake2cmake]: Downloading https://files.pythonhosted.org/packages/85/41/39cd241e43b83c23f3e345ab99da249732f9fd4b94c79519402a048e6728/qmake2cmake-1.0.3.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2405.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230424/f/finbourne-identity-sdk/0.0.2405-0.0.840/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] INFO root fetch - processPackages [qmake2cmake]: Downloading https://files.pythonhosted.org/packages/b8/d4/83abcfb63fa2d859086800614ea0ebb9b31482bdbfefa1dbd8787ab6ab09/qmake2cmake-1.0.4.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/25/f4/85ad85fa368ea3c50f78e6e1c9a087d9bb4ab751750c8f47ff390f1ada6c/pyrew-0.9.3.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/25/f4/85ad85fa368ea3c50f78e6e1c9a087d9bb4ab751750c8f47ff390f1ada6c/pyrew-0.9.3.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/25/f4/85ad85fa368ea3c50f78e6e1c9a087d9bb4ab751750c8f47ff390f1ada6c/pyrew-0.9.3.tar.gz
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/a6/6c/18d5a4013126f7c5bd5b8dc9ebb98c24015b08712c7f1e34eae7e3bb9ef5/mesh_sandbox-0.1.9-py3-none-any.whl
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230424/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] INFO root fetch - processPackages [qmake2cmake]: executing diffoscope
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230424/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230424/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 12:37:06] INFO root fetch - processPackages [qmake2cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmake2cmake-1.0.3.tar.gz tmp/qmake2cmake-1.0.4.tar.gz --markdown 20230424/q/qmake2cmake/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-24 12:37:07] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-04-24 12:37:07] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-0.1.8-py3-none-any.whl.zip tmp/mesh_sandbox-0.1.9-py3-none-any.whl.zip --markdown 20230424/m/mesh-sandbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 12:37:07] INFO root fetch - processPackages [pynir]: Downloading https://files.pythonhosted.org/packages/bf/73/2748d2fc323f928ecb2576ce2be21df154462a948265f7b4a28842c485a8/pynir-0.6.tar.gz
+[2023-04-24 12:37:07] INFO root fetch - processPackages [ablerConfig]: Start processing: COMTool
+[2023-04-24 12:37:07] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 12:37:07] INFO root fetch - processPackages [COMTool]: New version: [3.2.0] Old Version: [3.1.2]
+[2023-04-24 12:37:07] INFO root fetch - processPackages [DDesignerAPI]: Start processing: bigtest-automator
+[2023-04-24 12:37:07] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 12:37:07] INFO root fetch - processPackages [COMTool]: executing diffoscope
+[2023-04-24 12:37:07] INFO root fetch - processPackages [COMTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/COMTool-3.1.2.tar.gz tmp/COMTool-3.2.0.tar.gz --markdown 20230424/C/COMTool/3.1.2-3.2.0/diff.md --exclude *.pyd
+[2023-04-24 12:37:07] INFO root fetch - processPackages [bigtest-automator]: New version: [0.6] Old Version: [0.5]
+[2023-04-24 12:37:08] INFO root fetch - processPackages [bigtest-automator]: Downloading https://files.pythonhosted.org/packages/c6/ab/de33ef4539ddf380cde23482da79356e82a1ac1cd90069f85938bf5259c8/bigtest_automator-0.5.tar.gz
+[2023-04-24 12:37:08] INFO root fetch - processPackages [pynir]: executing diffoscope
+[2023-04-24 12:37:08] INFO root fetch - processPackages [pynir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynir-0.5.tar.gz tmp/pynir-0.6.tar.gz --markdown 20230424/p/pynir/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-24 12:37:08] INFO root fetch - processPackages [bigtest-automator]: Downloading https://files.pythonhosted.org/packages/08/11/bd62318f5c3257cbfe698c2c7a040d3fc51506a47bdaa1085fa6a4d324a0/bigtest_automator-0.6.tar.gz
+[2023-04-24 12:37:08] INFO root fetch - processPackages [bigtest-automator]: executing diffoscope
+[2023-04-24 12:37:08] INFO root fetch - processPackages [bigtest-automator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtest_automator-0.5.tar.gz tmp/bigtest_automator-0.6.tar.gz --markdown 20230424/b/bigtest-automator/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-24 12:37:08] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-24 12:37:08] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
+[2023-04-24 12:37:08] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-24 12:37:08] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-24 12:37:09] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-04-24 12:37:09] INFO root fetch - main [MainThread]: End processing [bigtest-automator]: success
+[2023-04-24 12:37:09] INFO root fetch - main [MainThread]: End processing [qmake2cmake]: success
+[2023-04-24 12:37:09] INFO root fetch - main [MainThread]: End processing [COMTool]: success
+[2023-04-24 12:37:10] INFO root fetch - main [MainThread]: End processing [pynir]: success
+[2023-04-24 12:37:10] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-24 12:37:10] INFO root fetch - main [MainThread]: Store serial: [17832314]
