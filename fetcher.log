@@ -10353,3 +10353,53 @@
 [2023-04-24 12:42:24] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
 [2023-04-24 12:42:24] INFO root fetch - main [MainThread]: End processing [nx5d]: success
 [2023-04-24 12:42:24] INFO root fetch - main [MainThread]: Store serial: [17832383]
+[2023-04-24 12:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832383]
+[2023-04-24 12:47:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampo
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HOGBEN
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-bebop
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elemento-cli
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coveo-stew
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elemento-cli
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oaas-sdk-py
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oatk
+[2023-04-24 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cellscanner
+[2023-04-24 12:47:33] INFO root fetch - processPackages [cellscanner]: New version: [2.0] Old Version: [1.9]
+[2023-04-24 12:47:33] WARNING root fetch - processPackages [elemento-cli]: Skipping, unable to determine old version
+[2023-04-24 12:47:33] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-24 12:47:33] INFO root fetch - main [MainThread]: End processing [elemento-cli] error
+[2023-04-24 12:47:33] INFO root fetch - processPackages [oaas-sdk-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 12:47:33] WARNING root fetch - processPackages [elemento-cli]: Skipping, unable to determine old version
+[2023-04-24 12:47:33] INFO root fetch - main [MainThread]: End processing [elemento-cli] error
+[2023-04-24 12:47:33] INFO root fetch - processPackages [cellscanner]: executing diffoscope
+[2023-04-24 12:47:33] INFO root fetch - processPackages [cellscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellscanner-1.9.tar.gz tmp/cellscanner-2.0.tar.gz --markdown 20230424/c/cellscanner/1.9-2.0/diff.md --exclude *.pyd
+[2023-04-24 12:47:33] INFO root fetch - processPackages [HOGBEN]: New version: [1.1.2.2023.3.2.1] Old Version: [1.1.2.2023.24.4.1]
+[2023-04-24 12:47:33] WARNING root fetch - processPackages [python-bebop]: Skipping, unable to determine old version
+[2023-04-24 12:47:33] INFO root fetch - main [MainThread]: End processing [python-bebop] error
+[2023-04-24 12:47:33] INFO root fetch - processPackages [oatk]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-04-24 12:47:33] INFO root fetch - processPackages [coveo-stew]: New version: [3.0a5] Old Version: [3.0a4]
+[2023-04-24 12:47:33] INFO root fetch - processPackages [oaas-sdk-py]: executing diffoscope
+[2023-04-24 12:47:33] INFO root fetch - processPackages [oaas-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaas_sdk_py-0.1.4.tar.gz tmp/oaas_sdk_py-0.1.5.tar.gz --markdown 20230424/o/oaas-sdk-py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 12:47:33] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-04-24 12:47:33] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/b2/b6/643e42215344ac2470309ebd5a2b2f69d57f77baeb45008e8540d7b0ec76/HOGBEN-1.1.2.2023.24.4.1.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [oatk]: Downloading https://files.pythonhosted.org/packages/3f/2d/077bb04fccc0d8fd96de23966317565eea332afe3e282bf1386532480951/oatk-0.0.4.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [coveo-stew]: Downloading https://files.pythonhosted.org/packages/61/a4/fd829a40f8fe73f020fad0279fcc3f7dd987fde13462d2b273ca540a9c31/coveo-stew-3.0a4.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/51/35/0b68b7d32d5b7e02fa4d3aa7a7b4baa00167435e72362a3a951c6584ef79/HOGBEN-1.1.2.2023.3.2.1.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [oatk]: Downloading https://files.pythonhosted.org/packages/e9/b1/a4039728adb886288a63b478274665815b222189fcf2b65ad4d1ff34face/oatk-0.0.6.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [coveo-stew]: Downloading https://files.pythonhosted.org/packages/06/a0/86ca7ebc5d9dc96d7266e0b12e22162d63a712315d1cfc1b45e291b0282a/coveo-stew-3.0a5.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [HOGBEN]: executing diffoscope
+[2023-04-24 12:47:34] INFO root fetch - processPackages [HOGBEN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HOGBEN-1.1.2.2023.24.4.1.tar.gz tmp/HOGBEN-1.1.2.2023.3.2.1.tar.gz --markdown 20230424/H/HOGBEN/1.1.2.2023.24.4.1-1.1.2.2023.3.2.1/diff.md --exclude *.pyd
+[2023-04-24 12:47:34] INFO root fetch - processPackages [oatk]: executing diffoscope
+[2023-04-24 12:47:34] INFO root fetch - processPackages [oatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oatk-0.0.4.tar.gz tmp/oatk-0.0.6.tar.gz --markdown 20230424/o/oatk/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 12:47:34] INFO root fetch - processPackages [coveo-stew]: executing diffoscope
+[2023-04-24 12:47:34] INFO root fetch - processPackages [coveo-stew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveo-stew-3.0a4.tar.gz tmp/coveo-stew-3.0a5.tar.gz --markdown 20230424/c/coveo-stew/3.0a4-3.0a5/diff.md --exclude *.pyd
+[2023-04-24 12:47:34] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-04-24 12:47:34] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-24 12:47:34] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230424/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-24 12:47:34] INFO root fetch - main [MainThread]: End processing [oaas-sdk-py]: success
+[2023-04-24 12:47:35] INFO root fetch - main [MainThread]: End processing [cellscanner]: success
+[2023-04-24 12:47:35] INFO root fetch - main [MainThread]: End processing [oatk]: success
+[2023-04-24 12:47:35] INFO root fetch - main [MainThread]: End processing [HOGBEN]: success
+[2023-04-24 12:47:35] INFO root fetch - main [MainThread]: End processing [coveo-stew]: success
+[2023-04-24 12:47:36] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-24 12:47:36] INFO root fetch - main [MainThread]: Store serial: [17832428]
