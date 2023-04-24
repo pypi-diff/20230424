@@ -3766,3 +3766,113 @@
 [2023-04-24 05:17:27] INFO root fetch - main [MainThread]: End processing [gama-config]: success
 [2023-04-24 05:17:28] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
 [2023-04-24 05:17:28] INFO root fetch - main [MainThread]: Store serial: [17828391]
+[2023-04-24 05:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828391]
+[2023-04-24 05:22:37] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-mps
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-mrs
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ms
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-msp
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-mvj
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vue2img
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-nlp
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-npp
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-oceanus
+[2023-04-24 05:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-ocr
+[2023-04-24 05:22:37] WARNING root fetch - processPackages [vue2img]: Skipping, unable to determine old version
+[2023-04-24 05:22:37] INFO root fetch - processPackages [vue2img]: Start processing: tencentcloud-sdk-python-omics
+[2023-04-24 05:22:37] INFO root fetch - main [MainThread]: End processing [vue2img] error
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: New version: [3.0.880] Old Version: [3.0.878]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-omics]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Downloading https://files.pythonhosted.org/packages/1d/99/aa90edf958d4ff94a522e1c1a4dc438789468224457b522efaac57dd04a9/tencentcloud-sdk-python-mps-3.0.880.tar.gz
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/35/f8/65712c672927bb2e2f7fb3a50b9e25605a567e4cf669b15120181218ed87/tencentcloud-sdk-python-nlp-3.0.880.tar.gz
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/9d/b9/04eb13e3eb2c2453fcc2a7e2f8a35508f44323559b226e69e28a6736f72c/tencentcloud-sdk-python-msp-3.0.880.tar.gz
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/9d/3c/b1ed23ccd9a31f22393b62b0ae0ccdaeeda52e6a0f0aeeb47c4c4ab946f3/tencentcloud-sdk-python-oceanus-3.0.880.tar.gz
+[2023-04-24 05:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: Downloading https://files.pythonhosted.org/packages/10/ad/7f7ffcbf0b0a7c8ea6d1987f6b721c1ec7bc99dd8cd678e7cb0d266a1949/tencentcloud-sdk-python-ocr-3.0.880.tar.gz
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Downloading https://files.pythonhosted.org/packages/4d/d4/c8db19c64e3e34d3e3a7963beddcfb2229052d0136298f1259c8e82c473d/tencentcloud-sdk-python-ms-3.0.880.tar.gz
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-omics]: Downloading https://files.pythonhosted.org/packages/07/4c/42adc1814ae567a4c655f4d8d2a0fad545c906320184adc7576da0077989/tencentcloud-sdk-python-omics-3.0.880.tar.gz
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: Downloading https://files.pythonhosted.org/packages/6f/3d/aa85811efe95903d1acbf4c75a996813acc9b28d74cdf0e8f5bb7a01813a/tencentcloud-sdk-python-mrs-3.0.880.tar.gz
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/ad/18/b762be5249bf52e9d5f61ba8050072867e6bd3e8675f5394422c5e9479b7/tencentcloud-sdk-python-npp-3.0.880.tar.gz
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/57/60/64713e489481d7b12a7e6f4f7a63fad2dcdbfaeb8dab2392427d1992714c/tencentcloud-sdk-python-mvj-3.0.880.tar.gz
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mps-3.0.879.tar.gz tmp/tencentcloud-sdk-python-mps-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-mps/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-nlp-3.0.878.tar.gz tmp/tencentcloud-sdk-python-nlp-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-nlp/3.0.878-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-msp-3.0.879.tar.gz tmp/tencentcloud-sdk-python-msp-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-msp/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-oceanus-3.0.879.tar.gz tmp/tencentcloud-sdk-python-oceanus-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-oceanus/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ms-3.0.879.tar.gz tmp/tencentcloud-sdk-python-ms-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-ms/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ocr-3.0.879.tar.gz tmp/tencentcloud-sdk-python-ocr-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-ocr/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-npp-3.0.879.tar.gz tmp/tencentcloud-sdk-python-npp-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-npp/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-omics]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-omics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-omics-3.0.879.tar.gz tmp/tencentcloud-sdk-python-omics-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-omics/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mrs-3.0.879.tar.gz tmp/tencentcloud-sdk-python-mrs-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-mrs/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: executing diffoscope
+[2023-04-24 05:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mvj-3.0.879.tar.gz tmp/tencentcloud-sdk-python-mvj-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-mvj/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Start processing: inhandtest
+[2023-04-24 05:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mps]: success
+[2023-04-24 05:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Start processing: funcgpt
+[2023-04-24 05:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-msp]: success
+[2023-04-24 05:22:39] INFO root fetch - processPackages [inhandtest]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-04-24 05:22:39] WARNING root fetch - processPackages [funcgpt]: Skipping, unable to determine old version
+[2023-04-24 05:22:39] INFO root fetch - processPackages [funcgpt]: Start processing: nonebot-plugin-chatppt
+[2023-04-24 05:22:39] INFO root fetch - main [MainThread]: End processing [funcgpt] error
+[2023-04-24 05:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Start processing: pantsbuild.pants
+[2023-04-24 05:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-oceanus]: success
+[2023-04-24 05:22:39] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/77/8e/1fc36e80b6fb8c9d2b0afd535fcab2a6e5a59cd38d4b863a9820209d5210/inhandtest-0.0.35.tar.gz
+[2023-04-24 05:22:39] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-04-24 05:22:39] INFO root fetch - processPackages [nonebot-plugin-chatppt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Start processing: CrossPy
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mvj]: success
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: Start processing: navigator-auth
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ocr]: success
+[2023-04-24 05:22:40] INFO root fetch - processPackages [navigator-auth]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-24 05:22:40] INFO root fetch - processPackages [nonebot-plugin-chatppt]: Downloading https://files.pythonhosted.org/packages/ff/03/74a7bd08ea7ba04f46a286a033abc3a17a4a0769480f9c3a3e77a3ad64c3/nonebot_plugin_chatppt-0.0.1.tar.gz
+[2023-04-24 05:22:40] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-04-24 05:22:40] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 05:22:40] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/1c/56/1a0e543471623bc619190437bc1dc11eb6f20e5742983a101882e95c3094/inhandtest-0.0.36.tar.gz
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-omics]: Start processing: pantsbuild.pants.testutil
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-omics]: success
+[2023-04-24 05:22:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-04-24 05:22:40] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-04-24 05:22:40] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: tencentcloud-sdk-python-partners
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-04-24 05:22:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-04-24 05:22:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230424/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-04-24 05:22:40] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-24 05:22:40] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.35.tar.gz tmp/inhandtest-0.0.36.tar.gz --markdown 20230424/i/inhandtest/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-04-24 05:22:40] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/08/dc/876961cc26146be17e760baa6feec00775197b6bcf1e4601d44b0b5e9c16/navigator_auth-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-npp]: success
+[2023-04-24 05:22:40] INFO root fetch - processPackages [nonebot-plugin-chatppt]: Downloading https://files.pythonhosted.org/packages/72/d9/b86e3c54a90d1f3527a5406501a72bb2e24acfd803ff2b4ab6530c30e814/nonebot_plugin_chatppt-0.1.0.tar.gz
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-partners]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-nlp]: success
+[2023-04-24 05:22:40] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-04-24 05:22:40] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230424/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-04-24 05:22:40] INFO root fetch - processPackages [nonebot-plugin-chatppt]: executing diffoscope
+[2023-04-24 05:22:40] INFO root fetch - processPackages [nonebot-plugin-chatppt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chatppt-0.0.1.tar.gz tmp/nonebot_plugin_chatppt-0.1.0.tar.gz --markdown 20230424/n/nonebot-plugin-chatppt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 05:22:40] INFO root fetch - processPackages [navigator-auth]: executing diffoscope
+[2023-04-24 05:22:40] INFO root fetch - processPackages [navigator-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_auth-0.7.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_auth-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/n/navigator-auth/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ms]: success
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-partners]: Downloading https://files.pythonhosted.org/packages/71/5c/54db8e3a827537864c127538002a566fc731081febcf0333db94d7583f42/tencentcloud-sdk-python-partners-3.0.880.tar.gz
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-partners]: executing diffoscope
+[2023-04-24 05:22:40] INFO root fetch - processPackages [tencentcloud-sdk-python-partners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-partners-3.0.879.tar.gz tmp/tencentcloud-sdk-python-partners-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-partners/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:22:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mrs]: success
+[2023-04-24 05:22:41] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-24 05:22:41] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-04-24 05:22:41] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-04-24 05:22:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatppt]: success
+[2023-04-24 05:22:42] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
+[2023-04-24 05:22:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-partners]: success
+[2023-04-24 05:22:42] INFO root fetch - main [MainThread]: Store serial: [17828456]
