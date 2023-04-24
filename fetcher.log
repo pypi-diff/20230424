@@ -20372,3 +20372,98 @@
 [2023-04-24 20:49:58] INFO root fetch - main [MainThread]: End processing [monobit]: success
 [2023-04-24 20:50:33] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-24 20:50:33] INFO root fetch - main [MainThread]: Store serial: [17838113]
+[2023-04-24 20:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838113]
+[2023-04-24 20:55:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psyke
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-lsp
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-lsp
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ekaros
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fraug
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-jama-rest-client
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mosaicml-cli
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sara-compis1-tools
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getRoutersConfig
+[2023-04-24 20:55:42] INFO root fetch - processPackages [jupyterlab-lsp]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [jupyter-lsp]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [sara-compis1-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [ekaros]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [psyke]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [getRoutersConfig]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [py-jama-rest-client]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-24 20:55:42] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-04-24 20:55:42] WARNING root fetch - processPackages [fraug]: Skipping, unable to determine old version
+[2023-04-24 20:55:42] INFO root fetch - processPackages [fraug]: Start processing: rv-ltl
+[2023-04-24 20:55:42] INFO root fetch - main [MainThread]: End processing [fraug] error
+[2023-04-24 20:55:43] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 20:55:43] INFO root fetch - processPackages [rv-ltl]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-04-24 20:55:43] INFO root fetch - processPackages [sara-compis1-tools]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [sara-compis1-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sara_compis1_tools-0.0.8.tar.gz tmp/sara_compis1_tools-0.0.9.tar.gz --markdown 20230424/s/sara-compis1-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230424/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyter-lsp]: Downloading https://files.pythonhosted.org/packages/b9/23/15196c4562a92857eb0241c0d721a9506e5dcb18c70f5a6eafca13470ba4/jupyter-lsp-2.0.1.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/55/79/e735241f0349e309b53dd4820185e1872be9e5880e7a8541eba4f19c4e7b/ekaros-0.1.4.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyterlab-lsp]: Downloading https://files.pythonhosted.org/packages/c1/e0/0995a3659e0770b69b2446e3bc40d736ab6eec0ff2def04853ba36aaef3e/jupyterlab-lsp-4.0.1.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/76/01/2c1854f3374c5c90d813d56606295cba1449d721b7c4acb3058d4e2cde0c/getRoutersConfig-0.0.1.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/78/e2/a85928421022abb2fef852381e5c7090aa9e82017ca8a0e4705a1eea7b59/psyke-0.3.3.dev8.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/93/7e/54f08fe11fd4da2a58c6137ee4d07a1c60ac45be20c2db3eda38c8c6ef9b/mosaicml-cli-0.4.0a0.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [py-jama-rest-client]: Downloading https://files.pythonhosted.org/packages/13/c4/8c0d8ec747ca1a60907fcc4245f4631886df24eca85fa007fb0eb16374d8/py-jama-rest-client-1.9.1.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [rv-ltl]: Downloading https://files.pythonhosted.org/packages/60/d2/603242b71d06f81ab8dcddb6a6c1378fe9e0b65fe12d888c17acb03ad9a9/rv_ltl-0.1.0a1.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/b5/6f/9068bac98b2666387eb95e2ca1438a4da5371b30892af754f30364e75a98/ekaros-0.1.5.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyter-lsp]: Downloading https://files.pythonhosted.org/packages/b3/41/d718b890bda70d4fd3b402efff7fc6847cf646fcae0d53abfac8cbc37b05/jupyter-lsp-2.1.0.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyterlab-lsp]: Downloading https://files.pythonhosted.org/packages/83/30/9d175ac78b8e90610536d4670ada84c578404388fb65fa2f63efb1a4766a/jupyterlab-lsp-4.1.0.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [rv-ltl]: Downloading https://files.pythonhosted.org/packages/64/da/ac9d7eed622969d3ff969cc1171b7b7bca7b36aa637e39cd6d00eda60703/rv_ltl-0.1.0a2.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [ekaros]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [ekaros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekaros-0.1.4.tar.gz tmp/ekaros-0.1.5.tar.gz --markdown 20230424/e/ekaros/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/58/07/74198b8d57449a18e2636c5a36b85305597edaf3ab5ab3069bfa4e766113/getRoutersConfig-0.0.2.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/35/58/6d419aacd94e04d8ddc06c27f97e29ed380f3c977a7065b2227743ad49c1/mosaicml-cli-0.4.0a1.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [py-jama-rest-client]: Downloading https://files.pythonhosted.org/packages/c4/2e/85abdd7ce2ec81a623b774a7e0fff226887d3f0e9f845ee7207a226ac36e/py-jama-rest-client-1.9.2.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyter-lsp]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyter-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-lsp-2.0.1.tar.gz tmp/jupyter-lsp-2.1.0.tar.gz --markdown 20230424/j/jupyter-lsp/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [rv-ltl]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [rv-ltl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rv_ltl-0.1.0a1.tar.gz tmp/rv_ltl-0.1.0a2.tar.gz --markdown 20230424/r/rv-ltl/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyterlab-lsp]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [jupyterlab-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-lsp-4.0.1.tar.gz tmp/jupyterlab-lsp-4.1.0.tar.gz --markdown 20230424/j/jupyterlab-lsp/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [getRoutersConfig]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [getRoutersConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getRoutersConfig-0.0.1.tar.gz tmp/getRoutersConfig-0.0.2.tar.gz --markdown 20230424/g/getRoutersConfig/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [py-jama-rest-client]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [py-jama-rest-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-jama-rest-client-1.9.1.tar.gz tmp/py-jama-rest-client-1.9.2.tar.gz --markdown 20230424/p/py-jama-rest-client/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.0a0.tar.gz tmp/mosaicml-cli-0.4.0a1.tar.gz --markdown 20230424/m/mosaicml-cli/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-04-24 20:55:43] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/0d/2f/8afea845ec96e5d16388f169cd924855bf4a09b7b50f076c7ca9580ba75f/psyke-0.3.3.dev9.tar.gz
+[2023-04-24 20:55:43] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-04-24 20:55:43] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.3.3.dev8.tar.gz tmp/psyke-0.3.3.dev9.tar.gz --markdown 20230424/p/psyke/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2023-04-24 20:55:44] INFO root fetch - processPackages [wizata-dsapi]: Start processing: python-bebop
+[2023-04-24 20:55:44] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-24 20:55:44] INFO root fetch - processPackages [python-bebop]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 20:55:44] INFO root fetch - processPackages [python-bebop]: Downloading https://files.pythonhosted.org/packages/be/c1/926df906f8f1d01c464139f6d341e53987afc0238335fd2ef983f81c49a5/python_bebop-1.0.3.tar.gz
+[2023-04-24 20:55:44] INFO root fetch - processPackages [python-bebop]: executing diffoscope
+[2023-04-24 20:55:44] INFO root fetch - processPackages [python-bebop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_bebop-1.0.2.tar.gz tmp/python_bebop-1.0.3.tar.gz --markdown 20230424/p/python-bebop/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 20:55:44] INFO root fetch - processPackages [sara-compis1-tools]: Start processing: hpsandbox
+[2023-04-24 20:55:44] INFO root fetch - main [MainThread]: End processing [sara-compis1-tools]: success
+[2023-04-24 20:55:44] WARNING root fetch - processPackages [hpsandbox]: Skipping, unable to determine old version
+[2023-04-24 20:55:44] INFO root fetch - processPackages [hpsandbox]: Start processing: pysqlx-core
+[2023-04-24 20:55:44] INFO root fetch - main [MainThread]: End processing [hpsandbox] error
+[2023-04-24 20:55:44] INFO root fetch - processPackages [pysqlx-core]: New version: [0.1.9] Old Version: [0.1.8a0]
+[2023-04-24 20:55:44] INFO root fetch - processPackages [ekaros]: Start processing: wmwpy
+[2023-04-24 20:55:44] INFO root fetch - main [MainThread]: End processing [ekaros]: success
+[2023-04-24 20:55:45] INFO root fetch - processPackages [wmwpy]: New version: [0.1.0b0] Old Version: [0.0.1a0]
+[2023-04-24 20:55:45] INFO root fetch - processPackages [pysqlx-core]: Downloading https://files.pythonhosted.org/packages/f5/27/a015d9ae5a494f78a9eac53c305fb16bcb5e436f24e091c45d4d91ea3e65/pysqlx_core-0.1.8a0.tar.gz
+[2023-04-24 20:55:45] INFO root fetch - main [MainThread]: End processing [getRoutersConfig]: success
+[2023-04-24 20:55:45] INFO root fetch - main [MainThread]: End processing [rv-ltl]: success
+[2023-04-24 20:55:45] INFO root fetch - processPackages [wmwpy]: Downloading https://files.pythonhosted.org/packages/42/43/ddbfcd397d152384100be45caa892550007d10be9750d90e07e72750594a/wmwpy-0.0.1a0.tar.gz
+[2023-04-24 20:55:45] INFO root fetch - main [MainThread]: End processing [py-jama-rest-client]: success
+[2023-04-24 20:55:45] INFO root fetch - processPackages [pysqlx-core]: Downloading https://files.pythonhosted.org/packages/bf/d8/2c2014f752ae7321adb7a78665a09ca3ad78b299f16b99e6b763b6915a49/pysqlx_core-0.1.9.tar.gz
+[2023-04-24 20:55:45] INFO root fetch - processPackages [wmwpy]: Downloading https://files.pythonhosted.org/packages/5b/6c/88089c6e6d373d8a2c3532ef988c53a4f18637da2f246fd35cfab93e66c9/wmwpy-0.1.0b0.tar.gz
+[2023-04-24 20:55:45] INFO root fetch - processPackages [pysqlx-core]: executing diffoscope
+[2023-04-24 20:55:45] INFO root fetch - processPackages [pysqlx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlx_core-0.1.8a0.tar.gz tmp/pysqlx_core-0.1.9.tar.gz --markdown 20230424/p/pysqlx-core/0.1.8a0-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 20:55:45] INFO root fetch - processPackages [wmwpy]: executing diffoscope
+[2023-04-24 20:55:45] INFO root fetch - processPackages [wmwpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmwpy-0.0.1a0.tar.gz tmp/wmwpy-0.1.0b0.tar.gz --markdown 20230424/w/wmwpy/0.0.1a0-0.1.0b0/diff.md --exclude *.pyd
+[2023-04-24 20:55:45] INFO root fetch - main [MainThread]: End processing [python-bebop]: success
+[2023-04-24 20:55:45] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-04-24 20:55:46] INFO root fetch - main [MainThread]: End processing [pysqlx-core]: success
+[2023-04-24 20:55:46] INFO root fetch - main [MainThread]: End processing [jupyter-lsp]: success
+[2023-04-24 20:55:46] INFO root fetch - main [MainThread]: End processing [wmwpy]: success
+[2023-04-24 20:55:47] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-04-24 20:56:04] INFO root fetch - main [MainThread]: End processing [jupyterlab-lsp]: success
+[2023-04-24 20:56:04] INFO root fetch - main [MainThread]: Store serial: [17838274]
