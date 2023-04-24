@@ -1871,3 +1871,47 @@
 [2023-04-24 03:12:11] INFO root fetch - main [MainThread]: End processing [Xponge]: success
 [2023-04-24 03:12:24] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
 [2023-04-24 03:12:24] INFO root fetch - main [MainThread]: Store serial: [17827315]
+[2023-04-24 03:17:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827315]
+[2023-04-24 03:17:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-user
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-captcha
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fstflowchat
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: herald-of-completion
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ats-case
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-subminute
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raydp
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-captcha]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-04-24 03:17:33] WARNING root fetch - processPackages [fstflowchat]: Skipping, unable to determine old version
+[2023-04-24 03:17:33] INFO root fetch - main [MainThread]: End processing [fstflowchat] error
+[2023-04-24 03:17:33] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-24 03:17:33] WARNING root fetch - processPackages [herald-of-completion]: Skipping, unable to determine old version
+[2023-04-24 03:17:33] INFO root fetch - main [MainThread]: End processing [herald-of-completion] error
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ats-case]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-04-24 03:17:33] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230424.dev0] Old Version: [1.6.0b20230414.dev0]
+[2023-04-24 03:17:33] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 03:17:33] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-04-24 03:17:33] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230424/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 03:17:33] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-04-24 03:17:33] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230424/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:17:33] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/d9/93/57e58c41f2134340d700ba0ef6111ee0138107a704aba2b0580f4f97090f/raydp-1.6.0b20230414.dev0-py3-none-any.whl
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/d6/93/96eab552e0ae47f2ea4029a5c2d81964887830bd20d5bafefe1dc1527f8d/xj_captcha-1.0.4.tar.gz
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/51/66/ae427b3ed2d19d9d1a10c7be70f5bc50f6840621e2980c4a9180fd5814c7/ats_case-0.6.0.tar.gz
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-24 03:17:33] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.5.9.tar.gz tmp/ats_case-0.6.0.tar.gz --markdown 20230424/a/ats-case/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230424/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/00/a5/84a3749279294e1932267ab065a6fc338830d2d6353b264a0aa3faa9cf89/xj_captcha-1.0.6.tar.gz
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-captcha]: executing diffoscope
+[2023-04-24 03:17:33] INFO root fetch - processPackages [xj-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_captcha-1.0.4.tar.gz tmp/xj_captcha-1.0.6.tar.gz --markdown 20230424/x/xj-captcha/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-04-24 03:17:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-04-24 03:17:34] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/78/5f/f3abd1b09a21833b1545e048acdea0a03178e66501beef0b66579c6ebafc/raydp-1.6.0b20230424.dev0-py3-none-any.whl
+[2023-04-24 03:17:34] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-04-24 03:17:34] INFO root fetch - main [MainThread]: End processing [xj-captcha]: success
+[2023-04-24 03:17:34] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-24 03:17:35] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-04-24 03:17:36] INFO root fetch - processPackages [raydp]: executing diffoscope
+[2023-04-24 03:17:36] INFO root fetch - processPackages [raydp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp-1.6.0b20230414.dev0-py3-none-any.whl.zip tmp/raydp-1.6.0b20230424.dev0-py3-none-any.whl.zip --markdown 20230424/r/raydp/1.6.0b20230414.dev0-1.6.0b20230424.dev0/diff.md --exclude *.pyd
+[2023-04-24 03:20:10] INFO root fetch - main [MainThread]: End processing [raydp]: success
+[2023-04-24 03:20:10] INFO root fetch - main [MainThread]: Store serial: [17827358]
