@@ -8867,3 +8867,138 @@
 [2023-04-24 11:25:36] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
 [2023-04-24 11:25:38] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-04-24 11:25:38] INFO root fetch - main [MainThread]: Store serial: [17831466]
+[2023-04-24 11:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17831466]
+[2023-04-24 11:30:47] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generic-crawler
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipytextual
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labx-rs
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pasqal-cloud
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ablerConfig
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orkg
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantplay
+[2023-04-24 11:30:47] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-24 11:30:47] WARNING root fetch - processPackages [generic-crawler]: Skipping, unable to determine old version
+[2023-04-24 11:30:47] INFO root fetch - processPackages [generic-crawler]: Start processing: craft-ai-sdk
+[2023-04-24 11:30:47] INFO root fetch - main [MainThread]: End processing [generic-crawler] error
+[2023-04-24 11:30:47] WARNING root fetch - processPackages [ipytextual]: Skipping, unable to determine old version
+[2023-04-24 11:30:47] WARNING root fetch - processPackages [labx-rs]: Skipping, unable to determine old version
+[2023-04-24 11:30:47] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ablerConfig]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ipytextual]: Start processing: mkdocs-gallery
+[2023-04-24 11:30:47] INFO root fetch - main [MainThread]: End processing [ipytextual] error
+[2023-04-24 11:30:47] INFO root fetch - processPackages [labx-rs]: Start processing: alice-and-bob3
+[2023-04-24 11:30:47] INFO root fetch - main [MainThread]: End processing [labx-rs] error
+[2023-04-24 11:30:47] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [orkg]: New version: [0.9.2] Old Version: [0.9]
+[2023-04-24 11:30:47] WARNING root fetch - processPackages [alice-and-bob3]: Skipping, unable to determine old version
+[2023-04-24 11:30:47] INFO root fetch - processPackages [alice-and-bob3]: Start processing: jnb2py
+[2023-04-24 11:30:47] INFO root fetch - main [MainThread]: End processing [alice-and-bob3] error
+[2023-04-24 11:30:47] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [mkdocs-gallery]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jnb2py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-24 11:30:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230424/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230424/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230424/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230424/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/8c/fe/b79da3c2d3d2d16393220cf2315390387b260072ca3b76f675eca0e7e960/pasqal-cloud-0.2.3.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jnb2py]: Downloading https://files.pythonhosted.org/packages/c5/f1/4f38d7501ef875577dd7a91050950db1420a9c74be466ee3687a49788b32/jnb2py-0.0.1.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/45/9c/3a1d2d5b4ea795caeaefa146823a0e465407179fdd57e07fe80053aa92f6/ablerConfig-0.0.2.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [mkdocs-gallery]: Downloading https://files.pythonhosted.org/packages/6f/07/99951544c9fe92e37e7713112761d93600af704a5cb6648368ab1a34f11b/mkdocs-gallery-0.7.6.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [orkg]: Downloading https://files.pythonhosted.org/packages/5c/36/c97297dae8dbda5c45392c98209596fb53756a1f4dc2fdc5974b791ac465/orkg-0.9.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/23/c8/3e23325bae2c216dd67b11fcac6481618cbe3f5d359ca9b8ea5390d05888/ablerConfig-0.0.6.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/7a/bf/dab86b0678d6956142cc8fd697681ff7dc5a054aad73b856ea5eda8233aa/pasqal-cloud-0.2.4.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.0.2.tar.gz tmp/ablerConfig-0.0.6.tar.gz --markdown 20230424/a/ablerConfig/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230424/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.2.3.tar.gz tmp/pasqal-cloud-0.2.4.tar.gz --markdown 20230424/p/pasqal-cloud/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jnb2py]: Downloading https://files.pythonhosted.org/packages/00/66/e7e4194bb58fbc8870fcacd777246eebe2da7106280a6072a612a8b5cdcb/jnb2py-0.0.2.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jnb2py]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [jnb2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnb2py-0.0.1.tar.gz tmp/jnb2py-0.0.2.tar.gz --markdown 20230424/j/jnb2py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 11:30:47] INFO root fetch - processPackages [mkdocs-gallery]: Downloading https://files.pythonhosted.org/packages/cd/62/d445088aa5d14230abfa20261f350ba40a7e1ce632c70a44294655835d9b/mkdocs-gallery-0.7.7.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [orkg]: Downloading https://files.pythonhosted.org/packages/a5/0e/f7cb8e32154c80e0be52dcaa3c12e41ce5a061b3503097d59b1c388e89cf/orkg-0.9.2.tar.gz
+[2023-04-24 11:30:47] INFO root fetch - processPackages [mkdocs-gallery]: executing diffoscope
+[2023-04-24 11:30:47] INFO root fetch - processPackages [mkdocs-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-gallery-0.7.6.tar.gz tmp/mkdocs-gallery-0.7.7.tar.gz --markdown 20230424/m/mkdocs-gallery/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-04-24 11:30:48] INFO root fetch - processPackages [orkg]: executing diffoscope
+[2023-04-24 11:30:48] INFO root fetch - processPackages [orkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orkg-0.9.tar.gz tmp/orkg-0.9.2.tar.gz --markdown 20230424/o/orkg/0.9-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 11:30:49] INFO root fetch - processPackages [langchain-serve]: Start processing: speechtotext-python
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [ablerConfig]: Start processing: typedattr
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [typedattr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [jnb2py]: Start processing: jutool
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [jnb2py]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/06/7d/ce03ec148e649acf35430f964511e586fb819cd4c7b5bb85d1fdd49db164/typedattr-0.1.8.tar.gz
+[2023-04-24 11:30:49] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-04-24 11:30:49] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230424/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 11:30:49] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/6e/44/c06cd4d9fd513535bea4329659aaab1f83721a7b9e48e0e21821dfc175a7/speechtotext-python-0.3.6.tar.gz
+[2023-04-24 11:30:49] INFO root fetch - processPackages [craft-ai-sdk]: Start processing: mynotiontools
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-04-24 11:30:49] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.5.tar.gz tmp/speechtotext-python-0.3.6.tar.gz --markdown 20230424/s/speechtotext-python/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-24 11:30:49] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-24 11:30:49] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230424/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:30:49] INFO root fetch - processPackages [orkg]: Start processing: langchain-serve
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [orkg]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [langchain-serve]: Start processing: ghhops_server
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [ghhops_server]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [mkdocs-gallery]: Start processing: pams
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [mkdocs-gallery]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [pasqal-cloud]: Start processing: pyecotrend-ista
+[2023-04-24 11:30:49] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-04-24 11:30:49] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-24 11:30:49] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230424/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-24 11:30:49] INFO root fetch - processPackages [pams]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-24 11:30:49] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/97/72/e46a3a122f4712981bd954b904bb6a8b37bb4e792258d9ec7453ef3543ac/typedattr-0.1.9.tar.gz
+[2023-04-24 11:30:49] INFO root fetch - processPackages [pams]: executing diffoscope
+[2023-04-24 11:30:49] INFO root fetch - processPackages [pams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pams-0.0.8.tar.gz tmp/pams-0.0.9.tar.gz --markdown 20230424/p/pams/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 11:30:50] INFO root fetch - processPackages [ghhops_server]: Downloading https://files.pythonhosted.org/packages/d5/51/99b9eaab7489010b5760ed12f23d0cdfdd7fc727d6f3d49efe6e21d0f218/ghhops_server-1.5.4.tar.gz
+[2023-04-24 11:30:50] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/e7/91/0dee567ad25925265056fd66afef15de89e5883ac9c41880fd7bd970122f/pyecotrend-ista-2.0.3.tar.gz
+[2023-04-24 11:30:50] INFO root fetch - processPackages [typedattr]: executing diffoscope
+[2023-04-24 11:30:50] INFO root fetch - processPackages [typedattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedattr-0.1.8.tar.gz tmp/typedattr-0.1.9.tar.gz --markdown 20230424/t/typedattr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 11:30:50] INFO root fetch - processPackages [ghhops_server]: Downloading https://files.pythonhosted.org/packages/3b/e7/c5f09e0c95dcbb9631c2e31e9df86af3d0b9ea4e7ff14ee5b62c3830ad16/ghhops_server-1.5.5.tar.gz
+[2023-04-24 11:30:50] INFO root fetch - processPackages [ghhops_server]: executing diffoscope
+[2023-04-24 11:30:50] INFO root fetch - processPackages [ghhops_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghhops_server-1.5.4.tar.gz tmp/ghhops_server-1.5.5.tar.gz --markdown 20230424/g/ghhops_server/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-04-24 11:30:50] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/11/a3/4f5ffe156da17e5ded5f265dc939042482de95a9a66bff14073b43f22370/pyecotrend-ista-2.0.4.tar.gz
+[2023-04-24 11:30:50] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-24 11:30:50] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.3.tar.gz tmp/pyecotrend-ista-2.0.4.tar.gz --markdown 20230424/p/pyecotrend-ista/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-24 11:30:50] INFO root fetch - processPackages [speechtotext-python]: Start processing: obpgenerator
+[2023-04-24 11:30:50] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-04-24 11:30:50] INFO root fetch - processPackages [obpgenerator]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-04-24 11:30:50] INFO root fetch - processPackages [jutool]: Start processing: rombus
+[2023-04-24 11:30:50] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-04-24 11:30:51] INFO root fetch - processPackages [rombus]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-24 11:30:51] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-24 11:30:51] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/db/66/b005e1e67814d287368105760bb9b7659128ac27642728ad96a71d2d1177/obpgenerator-0.0.18.tar.gz
+[2023-04-24 11:30:51] INFO root fetch - processPackages [obpgenerator]: executing diffoscope
+[2023-04-24 11:30:51] INFO root fetch - processPackages [obpgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obpgenerator-0.0.17.tar.gz tmp/obpgenerator-0.0.18.tar.gz --markdown 20230424/o/obpgenerator/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-04-24 11:30:51] INFO root fetch - processPackages [rombus]: Downloading https://files.pythonhosted.org/packages/6a/50/c7cdfa98d90ea802da4d4e16301e810cc4d6ac0b6ca3dd9b0264a19f360a/rombus-1.0.5.tar.gz
+[2023-04-24 11:30:51] INFO root fetch - main [MainThread]: End processing [typedattr]: success
+[2023-04-24 11:30:51] INFO root fetch - processPackages [rombus]: Downloading https://files.pythonhosted.org/packages/17/21/83bcf0c6dca9c5f10ce3ac1a3a4c3b4055b9bc1ce2776da9ba700df81979/rombus-1.0.6.tar.gz
+[2023-04-24 11:30:51] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-24 11:30:51] INFO root fetch - processPackages [rombus]: executing diffoscope
+[2023-04-24 11:30:51] INFO root fetch - processPackages [rombus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rombus-1.0.5.tar.gz tmp/rombus-1.0.6.tar.gz --markdown 20230424/r/rombus/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-24 11:30:51] INFO root fetch - main [MainThread]: End processing [ghhops_server]: success
+[2023-04-24 11:30:51] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-24 11:30:51] INFO root fetch - main [MainThread]: End processing [pams]: success
+[2023-04-24 11:30:52] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-24 11:30:52] INFO root fetch - main [MainThread]: End processing [obpgenerator]: success
+[2023-04-24 11:30:52] INFO root fetch - main [MainThread]: End processing [rombus]: success
+[2023-04-24 11:30:52] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-24 11:30:52] INFO root fetch - main [MainThread]: Store serial: [17831551]
