@@ -5502,3 +5502,37 @@
 [2023-04-24 07:58:09] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-04-24 07:58:20] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-04-24 07:58:20] INFO root fetch - main [MainThread]: Store serial: [17829441]
+[2023-04-24 08:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829441]
+[2023-04-24 08:03:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-24 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DDesignerAPI
+[2023-04-24 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eons
+[2023-04-24 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steamship
+[2023-04-24 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sitcom
+[2023-04-24 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prunerr
+[2023-04-24 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bw2analyzer
+[2023-04-24 08:03:30] INFO root fetch - processPackages [eons]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-04-24 08:03:30] INFO root fetch - processPackages [prunerr]: New version: [1.1.2b2] Old Version: [1.1.2b1]
+[2023-04-24 08:03:30] INFO root fetch - processPackages [sitcom]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-24 08:03:30] INFO root fetch - processPackages [bw2analyzer]: New version: [0.9.dev5] Old Version: [0.9.dev4]
+[2023-04-24 08:03:30] WARNING root fetch - processPackages [DDesignerAPI]: Skipping, unable to determine old version
+[2023-04-24 08:03:30] INFO root fetch - main [MainThread]: End processing [DDesignerAPI] error
+[2023-04-24 08:03:30] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-24 08:03:30] INFO root fetch - processPackages [prunerr]: executing diffoscope
+[2023-04-24 08:03:30] INFO root fetch - processPackages [prunerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prunerr-1.1.2b1.tar.gz tmp/prunerr-1.1.2b2.tar.gz --markdown 20230424/p/prunerr/1.1.2b1-1.1.2b2/diff.md --exclude *.pyd
+[2023-04-24 08:03:30] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/64/0c/e6ee65346672d7e6835423666ee65f2f8cdf5b55b5178dc8941254c7afdf/sitcom-1.3.3.tar.gz
+[2023-04-24 08:03:30] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689513>=10485760
+[2023-04-24 08:03:30] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-24 08:03:30] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/d0/8b/b5961727e22462a7db6922df357bee3e4f13f9a9598bd89bd439e94486f9/eons-2.5.3.tar.gz
+[2023-04-24 08:03:30] INFO root fetch - processPackages [bw2analyzer]: Downloading https://files.pythonhosted.org/packages/44/8e/de715accf9165295a50b8650cb82b60f8821036491f671bf279343695f0b/bw2analyzer-0.9.dev4.tar.gz
+[2023-04-24 08:03:30] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-04-24 08:03:30] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.5.2.tar.gz tmp/eons-2.5.3.tar.gz --markdown 20230424/e/eons/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-04-24 08:03:31] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-04-24 08:03:31] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230424/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-24 08:03:31] INFO root fetch - processPackages [bw2analyzer]: Downloading https://files.pythonhosted.org/packages/7b/ac/b43b97319a283ef55fb65d2e0ce65c3a1aff3977156f2b3479ce2d79670c/bw2analyzer-0.9.dev5.tar.gz
+[2023-04-24 08:03:31] INFO root fetch - processPackages [bw2analyzer]: executing diffoscope
+[2023-04-24 08:03:31] INFO root fetch - processPackages [bw2analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2analyzer-0.9.dev4.tar.gz tmp/bw2analyzer-0.9.dev5.tar.gz --markdown 20230424/b/bw2analyzer/0.9.dev4-0.9.dev5/diff.md --exclude *.pyd
+[2023-04-24 08:03:32] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-04-24 08:03:32] INFO root fetch - main [MainThread]: End processing [bw2analyzer]: success
+[2023-04-24 08:03:33] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-04-24 08:03:35] INFO root fetch - main [MainThread]: End processing [prunerr]: success
+[2023-04-24 08:03:35] INFO root fetch - main [MainThread]: Store serial: [17829460]
