@@ -10582,3 +10582,79 @@
 [2023-04-24 12:58:33] INFO root fetch - main [MainThread]: End processing [sampo]: success
 [2023-04-24 12:58:33] INFO root fetch - main [MainThread]: End processing [sampo]: success
 [2023-04-24 12:58:33] INFO root fetch - main [MainThread]: Store serial: [17832504]
+[2023-04-24 13:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832504]
+[2023-04-24 13:03:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-invoice-method
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycarlanet
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccache-upload-redis
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-tier-validation
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-shiftbase
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adviz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timewise
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dep-graph-vh
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ssb-altinn-python
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: exalusAPI
+[2023-04-24 13:03:43] WARNING root fetch - processPackages [odoo-addon-purchase-invoice-method]: Skipping, unable to determine old version
+[2023-04-24 13:03:43] INFO root fetch - processPackages [odoo-addon-purchase-invoice-method]: Start processing: areixio
+[2023-04-24 13:03:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-invoice-method] error
+[2023-04-24 13:03:43] INFO root fetch - processPackages [exalusAPI]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ccache-upload-redis]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [tap-shiftbase]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.17]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [adviz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [pycarlanet]: New version: [0.8.9a0] Old Version: [0.8.8a0]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [timewise]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [dep-graph-vh]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 13:03:43] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/c4/91/5a3b1feda3385e907a43cbf462c489d3515930893925430b210d5c7cf7ec/areixio-0.2.8.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ccache-upload-redis]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ccache-upload-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccache_upload_redis-0.1.1a8.tar.gz tmp/ccache_upload_redis-0.1.1a9.tar.gz --markdown 20230424/c/ccache-upload-redis/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/97/4a/98b10d72b5683cf2b661af7418451f49dbe879a6f022a68788a0b6886025/odoo_addon_base_tier_validation-16.0.1.0.3.17-py3-none-any.whl
+[2023-04-24 13:03:43] INFO root fetch - processPackages [tap-shiftbase]: Downloading https://files.pythonhosted.org/packages/e5/3e/cfd0d0e190d5dc229247213f254597df84cfe942952e2e4b2f79ff7dadb7/tap_shiftbase-1.0.0.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/d0/c6/3fe091c67eb06c8f4e34022e1885224dd5387a75b8b22ddbaa1df08c4f34/ssb_altinn_python-0.2.1.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b6/38/8550086ba7d084757e222622fc6d997f32c955de0fe6e8b3a976de025e47/pycarlanet-0.8.8a0.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [timewise]: Downloading https://files.pythonhosted.org/packages/fd/a4/01e7b2af89d31c76bef9b189bb9d05420a9d1ff607024487ad9f455c294c/timewise-0.3.8.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [dep-graph-vh]: Downloading https://files.pythonhosted.org/packages/e5/02/00daed09dc080849527dbfceee14af50b7410173dc7703ba43e698b2c3ba/dep_graph_vh-0.0.1.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [exalusAPI]: Downloading https://files.pythonhosted.org/packages/b5/37/3be8a71758210e406733c9de86b7b509b4940b278d3e23bccc5f44eb3294/exalusAPI-0.5.2.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [tap-shiftbase]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [tap-shiftbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_shiftbase-0.0.9.tar.gz tmp/tap_shiftbase-1.0.0.tar.gz --markdown 20230424/t/tap-shiftbase/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.2.0.tar.gz tmp/ssb_altinn_python-0.2.1.tar.gz --markdown 20230424/s/ssb-altinn-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/f1/90/e08381fd5b71cc5fbc0c04dbf5fa2d859715b6fe3a46458a07ca3d47fc14/odoo_addon_base_tier_validation-16.0.1.0.4-py3-none-any.whl
+[2023-04-24 13:03:43] INFO root fetch - processPackages [exalusAPI]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [exalusAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exalusAPI-0.5.1.tar.gz tmp/exalusAPI-0.5.2.tar.gz --markdown 20230424/e/exalusAPI/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [timewise]: Downloading https://files.pythonhosted.org/packages/5f/48/0958ae1b7d9f4dfc803041887b13b42a4e4a3a2d6ef36528c562f4c06aca/timewise-0.3.9.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [dep-graph-vh]: Downloading https://files.pythonhosted.org/packages/16/66/0f8cfc17f77ca14f80876b06f319b44f2a402effd1ea5173afb20fc86faf/dep_graph_vh-0.1.2.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b9/5a/06a5868d18b61d0ca39f41383d6c3792026819c027b77eea17ac6ddb0e9b/pycarlanet-0.8.9a0.tar.gz
+[2023-04-24 13:03:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.3.17-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230424/o/odoo-addon-base-tier-validation/16.0.1.0.3.17-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [timewise]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [timewise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timewise-0.3.8.tar.gz tmp/timewise-0.3.9.tar.gz --markdown 20230424/t/timewise/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [pycarlanet]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [pycarlanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlanet-0.8.8a0.tar.gz tmp/pycarlanet-0.8.9a0.tar.gz --markdown 20230424/p/pycarlanet/0.8.8a0-0.8.9a0/diff.md --exclude *.pyd
+[2023-04-24 13:03:43] INFO root fetch - processPackages [dep-graph-vh]: executing diffoscope
+[2023-04-24 13:03:43] INFO root fetch - processPackages [dep-graph-vh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dep_graph_vh-0.0.1.tar.gz tmp/dep_graph_vh-0.1.2.tar.gz --markdown 20230424/d/dep-graph-vh/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 13:03:44] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-04-24 13:03:44] INFO root fetch - processPackages [adviz]: Downloading https://files.pythonhosted.org/packages/2b/e5/4ff9ffca99127a7dc7a75139d2de8206432f0a92f022fc510f15b609a241/adviz-0.0.8.tar.gz
+[2023-04-24 13:03:44] INFO root fetch - processPackages [ccache-upload-redis]: Start processing: PTWordFinder
+[2023-04-24 13:03:44] INFO root fetch - main [MainThread]: End processing [ccache-upload-redis]: success
+[2023-04-24 13:03:44] INFO root fetch - processPackages [PTWordFinder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 13:03:44] INFO root fetch - processPackages [PTWordFinder]: executing diffoscope
+[2023-04-24 13:03:44] INFO root fetch - processPackages [PTWordFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PTWordFinder-1.0.8.tar.gz tmp/PTWordFinder-1.0.9.tar.gz --markdown 20230424/P/PTWordFinder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 13:03:44] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-24 13:03:45] INFO root fetch - main [MainThread]: End processing [exalusAPI]: success
+[2023-04-24 13:03:45] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-04-24 13:03:45] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230424/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 13:03:45] INFO root fetch - main [MainThread]: End processing [dep-graph-vh]: success
+[2023-04-24 13:03:45] INFO root fetch - main [MainThread]: End processing [timewise]: success
+[2023-04-24 13:03:45] INFO root fetch - main [MainThread]: End processing [pycarlanet]: success
+[2023-04-24 13:03:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-24 13:03:45] INFO root fetch - main [MainThread]: End processing [PTWordFinder]: success
+[2023-04-24 13:03:46] INFO root fetch - processPackages [adviz]: Downloading https://files.pythonhosted.org/packages/2d/81/59f7261f85c6e1621cc7c1328af9be5beadd4246f73620fcf0cd9cb0e3b9/adviz-0.0.9.tar.gz
+[2023-04-24 13:03:46] INFO root fetch - main [MainThread]: End processing [tap-shiftbase]: success
+[2023-04-24 13:03:46] INFO root fetch - processPackages [adviz]: executing diffoscope
+[2023-04-24 13:03:46] INFO root fetch - processPackages [adviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adviz-0.0.8.tar.gz tmp/adviz-0.0.9.tar.gz --markdown 20230424/a/adviz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 13:03:51] INFO root fetch - main [MainThread]: End processing [adviz]: success
+[2023-04-24 13:03:55] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-04-24 13:03:55] INFO root fetch - main [MainThread]: Store serial: [17832540]
