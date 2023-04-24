@@ -4132,3 +4132,98 @@
 [2023-04-24 05:33:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
 [2023-04-24 05:33:25] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2023-04-24 05:33:25] INFO root fetch - main [MainThread]: Store serial: [17828599]
+[2023-04-24 05:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828599]
+[2023-04-24 05:38:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: I2C-Autotest
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: I2C-Autotest
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: I2C-Autotest
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethhelper
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbt-structure-utils
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcgpt
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpudb
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: servicefoundry
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dramkit
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vue2img
+[2023-04-24 05:38:34] WARNING root fetch - processPackages [funcgpt]: Skipping, unable to determine old version
+[2023-04-24 05:38:34] INFO root fetch - processPackages [funcgpt]: Start processing: tencentcloud-sdk-python-tcbr
+[2023-04-24 05:38:34] INFO root fetch - main [MainThread]: End processing [funcgpt] error
+[2023-04-24 05:38:34] INFO root fetch - processPackages [vue2img]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [dramkit]: New version: [0.5.35] Old Version: [0.4.4]
+[2023-04-24 05:38:34] WARNING root fetch - processPackages [ethhelper]: Skipping, unable to determine old version
+[2023-04-24 05:38:34] INFO root fetch - processPackages [ethhelper]: Start processing: tencentcloud-sdk-python-tcex
+[2023-04-24 05:38:34] WARNING root fetch - processPackages [nbt-structure-utils]: Skipping, unable to determine old version
+[2023-04-24 05:38:34] INFO root fetch - main [MainThread]: End processing [ethhelper] error
+[2023-04-24 05:38:34] INFO root fetch - processPackages [nbt-structure-utils]: Start processing: gptop
+[2023-04-24 05:38:34] INFO root fetch - main [MainThread]: End processing [nbt-structure-utils] error
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [servicefoundry]: New version: [0.8.5rc2] Old Version: [0.8.5rc1]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gpudb]: New version: [7.1.9.2] Old Version: [7.1.9.1]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gptop]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [vue2img]: Downloading https://files.pythonhosted.org/packages/dd/77/3589d6658c27f0e223687237312de0af2df72e9fa4ee6096cb142c5a4019/vue2img-0.0.1.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: Downloading https://files.pythonhosted.org/packages/41/dd/69588e43dcbf43fd2e35833d587422154d06dc0cc795b9df8b97bb9433a0/I2C_Autotest-1.0.1.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: Downloading https://files.pythonhosted.org/packages/41/dd/69588e43dcbf43fd2e35833d587422154d06dc0cc795b9df8b97bb9433a0/I2C_Autotest-1.0.1.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: Downloading https://files.pythonhosted.org/packages/41/dd/69588e43dcbf43fd2e35833d587422154d06dc0cc795b9df8b97bb9433a0/I2C_Autotest-1.0.1.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gpudb]: Downloading https://files.pythonhosted.org/packages/e7/bf/657bc894cb9475ed7217b7cac4ef187e117f03e64efabb940090fd18b484/gpudb-7.1.9.1-cp39-cp39-win_amd64.whl
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gptop]: Downloading https://files.pythonhosted.org/packages/be/b5/b68b0fa3cf09aebb374c0a28011ea652cf5d0477dc462e89298aa6fa52a2/gptop-0.0.4.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [dramkit]: Downloading https://files.pythonhosted.org/packages/b3/58/7ac071a907deb3a12be3f452ced2f05a34b5d9e9239dd2d9b013e69eedb5/dramkit-0.5.35.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/e9/b9/241541dce70e3d2d362bfe330f3974d6433b971d9823d3a9ecedb2550c2f/servicefoundry-0.8.5rc2.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/c2/dc/bdee7f605f89dccc8f7b818262ade083c2c3451b6c0aca22198870abe6bd/tencentcloud-sdk-python-tcbr-3.0.880.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/c1/18/72087da0ae32644072ece033a098cd50ff91ad6e266c151be523579baef7/tencentcloud-sdk-python-tcex-3.0.880.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: Downloading https://files.pythonhosted.org/packages/e0/74/68d1e0bda6274b4fbf0c3d7b4924b986174adb5ea402d935e2ba43b18f05/I2C_Autotest-1.0.2.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: Downloading https://files.pythonhosted.org/packages/e0/74/68d1e0bda6274b4fbf0c3d7b4924b986174adb5ea402d935e2ba43b18f05/I2C_Autotest-1.0.2.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gptop]: executing diffoscope
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gptop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptop-0.0.3-py3-none-any.whl.zip tmp/gptop-0.0.4.tar.gz --markdown 20230424/g/gptop/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 05:38:34] INFO root fetch - processPackages [vue2img]: Downloading https://files.pythonhosted.org/packages/f9/7a/c2cbccce3f023a4649cacebe4c7c0d2477b8d715c856f9887ba0e39fe5bc/vue2img-0.0.2.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [I2C-Autotest]: Downloading https://files.pythonhosted.org/packages/e0/74/68d1e0bda6274b4fbf0c3d7b4924b986174adb5ea402d935e2ba43b18f05/I2C_Autotest-1.0.2.tar.gz
+[2023-04-24 05:38:34] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: executing diffoscope
+[2023-04-24 05:38:34] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.8.5rc1.tar.gz tmp/servicefoundry-0.8.5rc2.tar.gz --markdown 20230424/s/servicefoundry/0.8.5rc1-0.8.5rc2/diff.md --exclude *.pyd
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcbr-3.0.879.tar.gz tmp/tencentcloud-sdk-python-tcbr-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-tcbr/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:38:34] INFO root fetch - processPackages [gpudb]: Downloading https://files.pythonhosted.org/packages/ed/15/9e55462fb7852293952f34480c0858debfdd61de21244145fb5c06fabd0c/gpudb-7.1.9.2-cp39-cp39-win_amd64.whl
+[2023-04-24 05:38:34] INFO root fetch - processPackages [dramkit]: executing diffoscope
+[2023-04-24 05:38:34] INFO root fetch - processPackages [dramkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramkit-0.4.4.tar.gz tmp/dramkit-0.5.35.tar.gz --markdown 20230424/d/dramkit/0.4.4-0.5.35/diff.md --exclude *.pyd
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: executing diffoscope
+[2023-04-24 05:38:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcex-3.0.879.tar.gz tmp/tencentcloud-sdk-python-tcex-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-tcex/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:38:35] INFO root fetch - processPackages [I2C-Autotest]: executing diffoscope
+[2023-04-24 05:38:35] INFO root fetch - processPackages [I2C-Autotest]: executing diffoscope
+[2023-04-24 05:38:35] INFO root fetch - processPackages [I2C-Autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/I2C_Autotest-1.0.1.tar.gz tmp/I2C_Autotest-1.0.2.tar.gz --markdown 20230424/I/I2C-Autotest/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 05:38:35] INFO root fetch - processPackages [I2C-Autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/I2C_Autotest-1.0.1.tar.gz tmp/I2C_Autotest-1.0.2.tar.gz --markdown 20230424/I/I2C-Autotest/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 05:38:35] INFO root fetch - processPackages [I2C-Autotest]: executing diffoscope
+[2023-04-24 05:38:35] INFO root fetch - processPackages [I2C-Autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/I2C_Autotest-1.0.1.tar.gz tmp/I2C_Autotest-1.0.2.tar.gz --markdown 20230424/I/I2C-Autotest/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 05:38:35] INFO root fetch - processPackages [vue2img]: executing diffoscope
+[2023-04-24 05:38:35] INFO root fetch - processPackages [vue2img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vue2img-0.0.1.tar.gz tmp/vue2img-0.0.2.tar.gz --markdown 20230424/v/vue2img/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 05:38:35] INFO root fetch - processPackages [gpudb]: executing diffoscope
+[2023-04-24 05:38:35] INFO root fetch - processPackages [gpudb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpudb-7.1.9.1-cp39-cp39-win_amd64.whl.zip tmp/gpudb-7.1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20230424/g/gpudb/7.1.9.1-7.1.9.2/diff.md --exclude *.pyd
+[2023-04-24 05:38:36] INFO root fetch - processPackages [gptop]: Start processing: tencentcloud-sdk-python-tci
+[2023-04-24 05:38:36] INFO root fetch - main [MainThread]: End processing [gptop]: success
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Start processing: tencentcloud-sdk-python-tcm
+[2023-04-24 05:38:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcbr]: success
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:38:36] INFO root fetch - processPackages [I2C-Autotest]: Start processing: tencentcloud-sdk-python-tcr
+[2023-04-24 05:38:36] INFO root fetch - main [MainThread]: End processing [I2C-Autotest]: success
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/b6/24/a93a85985d9b5bbb020a760f60ac0e8178536afe4e17a7c302c0320a8f43/tencentcloud-sdk-python-tci-3.0.880.tar.gz
+[2023-04-24 05:38:36] INFO root fetch - main [MainThread]: End processing [I2C-Autotest]: success
+[2023-04-24 05:38:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
+[2023-04-24 05:38:36] INFO root fetch - main [MainThread]: End processing [I2C-Autotest]: success
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: executing diffoscope
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tci-3.0.879.tar.gz tmp/tencentcloud-sdk-python-tci-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-tci/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:38:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/36/14/781b562c9d5f68b7da82ce551a3394a267542a70780a22a089e8122b9760/tencentcloud-sdk-python-tcm-3.0.880.tar.gz
+[2023-04-24 05:38:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: New version: [3.0.880] Old Version: [3.0.879]
+[2023-04-24 05:38:37] INFO root fetch - main [MainThread]: End processing [vue2img]: success
+[2023-04-24 05:38:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: executing diffoscope
+[2023-04-24 05:38:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcm-3.0.879.tar.gz tmp/tencentcloud-sdk-python-tcm-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-tcm/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:38:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Downloading https://files.pythonhosted.org/packages/65/16/74eb71ce0cb2310ce9eaf08fefb01dc2b153e0d84f11a252dc10ac83208a/tencentcloud-sdk-python-tcr-3.0.880.tar.gz
+[2023-04-24 05:38:37] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-04-24 05:38:37] INFO root fetch - main [MainThread]: End processing [gpudb]: success
+[2023-04-24 05:38:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: executing diffoscope
+[2023-04-24 05:38:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcr-3.0.879.tar.gz tmp/tencentcloud-sdk-python-tcr-3.0.880.tar.gz --markdown 20230424/t/tencentcloud-sdk-python-tcr/3.0.879-3.0.880/diff.md --exclude *.pyd
+[2023-04-24 05:38:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tci]: success
+[2023-04-24 05:38:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcm]: success
+[2023-04-24 05:38:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcr]: success
+[2023-04-24 05:38:42] INFO root fetch - main [MainThread]: End processing [dramkit]: success
+[2023-04-24 05:38:42] INFO root fetch - main [MainThread]: Store serial: [17828688]
