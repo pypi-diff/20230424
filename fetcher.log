@@ -4996,3 +4996,32 @@
 [2023-04-24 06:52:34] WARNING root fetch - processPackages [sqlite-database]: Skipping, unable to determine old version
 [2023-04-24 06:52:34] INFO root fetch - main [MainThread]: End processing [sqlite-database] error
 [2023-04-24 06:52:34] INFO root fetch - main [MainThread]: Store serial: [17829122]
+[2023-04-24 06:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829122]
+[2023-04-24 06:57:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-24 06:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickmpc
+[2023-04-24 06:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jefferson-street-composer
+[2023-04-24 06:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmkoalas
+[2023-04-24 06:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: html4quiz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [pmkoalas]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-04-24 06:57:43] INFO root fetch - processPackages [quickmpc]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-24 06:57:43] INFO root fetch - processPackages [jefferson-street-composer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 06:57:43] INFO root fetch - processPackages [html4quiz]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-04-24 06:57:43] INFO root fetch - processPackages [pmkoalas]: Downloading https://files.pythonhosted.org/packages/88/c9/0fd386a3592e7cd8d03b77a88df330e20388469ca8d365a67d29a8b2d545/pmkoalas-0.0.1a0.tar.gz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [jefferson-street-composer]: Downloading https://files.pythonhosted.org/packages/52/ee/a9fb89ecd08ab3ff9ed9a5adbfda8433924c1628da77faa7cd0a9a003515/jefferson-street-composer-1.0.0.tar.gz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/17/1e/7eefdac5371807b88d9ec4005c5603905e4e33bafbd9c8def70711f84a7c/quickmpc-0.3.6.tar.gz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/bf/85/c57346b1bb07966826d17257983faa4bc632a266eda23639f6f68fffcfa0/html4quiz-0.0.31.tar.gz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [pmkoalas]: Downloading https://files.pythonhosted.org/packages/3b/0a/22cabe78f349a32fda17d8ae204c8a41fd7659e8ea467fab1ee16ed58092/pmkoalas-0.0.1a1.tar.gz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [jefferson-street-composer]: Downloading https://files.pythonhosted.org/packages/a4/59/ed5f4e9795e92cb74d8ff1ba3587f64ddd94ce5ffc1ea4735b6a231cdf18/jefferson-street-composer-1.0.1.tar.gz
+[2023-04-24 06:57:43] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-24 06:57:43] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.30.tar.gz tmp/html4quiz-0.0.31.tar.gz --markdown 20230424/h/html4quiz/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-04-24 06:57:43] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-04-24 06:57:43] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.5.tar.gz tmp/quickmpc-0.3.6.tar.gz --markdown 20230424/q/quickmpc/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-24 06:57:43] INFO root fetch - processPackages [pmkoalas]: executing diffoscope
+[2023-04-24 06:57:43] INFO root fetch - processPackages [pmkoalas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmkoalas-0.0.1a0.tar.gz tmp/pmkoalas-0.0.1a1.tar.gz --markdown 20230424/p/pmkoalas/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-04-24 06:57:43] INFO root fetch - processPackages [jefferson-street-composer]: executing diffoscope
+[2023-04-24 06:57:43] INFO root fetch - processPackages [jefferson-street-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jefferson-street-composer-1.0.0.tar.gz tmp/jefferson-street-composer-1.0.1.tar.gz --markdown 20230424/j/jefferson-street-composer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 06:57:44] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-24 06:57:45] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-04-24 06:57:45] INFO root fetch - main [MainThread]: End processing [pmkoalas]: success
+[2023-04-24 06:57:45] INFO root fetch - main [MainThread]: End processing [jefferson-street-composer]: success
+[2023-04-24 06:57:45] INFO root fetch - main [MainThread]: Store serial: [17829134]
