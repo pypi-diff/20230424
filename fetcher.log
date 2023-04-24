@@ -22631,3 +22631,58 @@
 [2023-04-24 23:05:54] INFO root fetch - main [MainThread]: End processing [rl-algo-impls]: success
 [2023-04-24 23:05:54] INFO root fetch - main [MainThread]: End processing [ShellcodeTester]: success
 [2023-04-24 23:05:54] INFO root fetch - main [MainThread]: Store serial: [17839513]
+[2023-04-24 23:10:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839513]
+[2023-04-24 23:11:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfrecord
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yatracker-linker
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feed-archiver
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NewCode-Utils
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NewCode-Utils
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jurebes
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weni-rp-apps
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssb-altinn-python
+[2023-04-24 23:11:03] INFO root fetch - processPackages [NewCode-Utils]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [tfrecord]: New version: [1.9] Old Version: [1.8]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [NewCode-Utils]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [feed-archiver]: New version: [2.0.1b0] Old Version: [2.0.0b1]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a9] Old Version: [2.4.0a8]
+[2023-04-24 23:11:03] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/83/6f/1f0f6a02cb50f427ff6552b48a7fa4c65116b6459c841b52badc815138d9/NewCode-Utils-0.0.4.tar.gz
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-24 23:11:03] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.2.0.tar.gz tmp/ssb_altinn_python-0.2.1.tar.gz --markdown 20230424/s/ssb-altinn-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-24 23:11:03] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/83/6f/1f0f6a02cb50f427ff6552b48a7fa4c65116b6459c841b52badc815138d9/NewCode-Utils-0.0.4.tar.gz
+[2023-04-24 23:11:03] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 23:11:03] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:11:03] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/8e/f2/ab806bc871ef3a3a1edec7d70c837e915f17ba37b2d9024c05ea09517aee/weni_rp_apps-2.4.0a8.tar.gz
+[2023-04-24 23:11:03] INFO root fetch - processPackages [feed-archiver]: Downloading https://files.pythonhosted.org/packages/16/87/1f54c2399569763b62fc15f2f986740b86d3fbd9cfcb911b7ce4e9c4be5a/feed-archiver-2.0.0b1.tar.gz
+[2023-04-24 23:11:03] INFO root fetch - processPackages [tfrecord]: Downloading https://files.pythonhosted.org/packages/81/7f/40082cb85a5ff7fce38009628bee73628dae7f7fd50b39426eeba6fb8162/tfrecord-1.8.tar.gz
+[2023-04-24 23:11:03] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/0b/ee/7bd321506fccd3e21c97d8ebe8fb493a7d78b522b6a3ed6d10a662e0d3fd/jurebes-0.1.1a1-py3-none-any.whl
+[2023-04-24 23:11:03] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/a6/57/018d7563056261652a0b6279ba36d9b6a903260428783ce5233f5cb317b7/NewCode-Utils-0.1.0.tar.gz
+[2023-04-24 23:11:03] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/a6/57/018d7563056261652a0b6279ba36d9b6a903260428783ce5233f5cb317b7/NewCode-Utils-0.1.0.tar.gz
+[2023-04-24 23:11:04] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/18/c4/0b1020e71002c9ed2a232688f10664c901d5fd9975b5c6e5e82ccaf82140/weni_rp_apps-2.4.0a9.tar.gz
+[2023-04-24 23:11:04] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/43/15/1339eefe89ea21105b101761b8fd7ee32c9a8a4a32cf81d6b804079f16ca/jurebes-0.1.1a2-py3-none-any.whl
+[2023-04-24 23:11:04] INFO root fetch - processPackages [feed-archiver]: Downloading https://files.pythonhosted.org/packages/1a/52/1e9fd23e64e38bec0e9dab4357db4bf262d061560ea84ed56ab349c500bd/feed-archiver-2.0.1b0.tar.gz
+[2023-04-24 23:11:04] INFO root fetch - processPackages [tfrecord]: Downloading https://files.pythonhosted.org/packages/37/39/a871605efc23f13e0f7979445225897cf2e2dcbf031b9fb9e16c04740f11/tfrecord-1.9.tar.gz
+[2023-04-24 23:11:04] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-24 23:11:04] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-0.0.4.tar.gz tmp/NewCode-Utils-0.1.0.tar.gz --markdown 20230424/N/NewCode-Utils/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 23:11:04] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-24 23:11:04] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-0.0.4.tar.gz tmp/NewCode-Utils-0.1.0.tar.gz --markdown 20230424/N/NewCode-Utils/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 23:11:04] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-24 23:11:04] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a8.tar.gz tmp/weni_rp_apps-2.4.0a9.tar.gz --markdown 20230424/w/weni-rp-apps/2.4.0a8-2.4.0a9/diff.md --exclude *.pyd
+[2023-04-24 23:11:04] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 23:11:04] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a1-py3-none-any.whl.zip tmp/jurebes-0.1.1a2-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-04-24 23:11:04] INFO root fetch - processPackages [tfrecord]: executing diffoscope
+[2023-04-24 23:11:04] INFO root fetch - processPackages [tfrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecord-1.8.tar.gz tmp/tfrecord-1.9.tar.gz --markdown 20230424/t/tfrecord/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-24 23:11:04] INFO root fetch - processPackages [feed-archiver]: executing diffoscope
+[2023-04-24 23:11:04] INFO root fetch - processPackages [feed-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feed-archiver-2.0.0b1.tar.gz tmp/feed-archiver-2.0.1b0.tar.gz --markdown 20230424/f/feed-archiver/2.0.0b1-2.0.1b0/diff.md --exclude *.pyd
+[2023-04-24 23:11:04] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-24 23:11:04] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 23:11:05] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-24 23:11:05] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-24 23:11:05] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 23:11:05] INFO root fetch - main [MainThread]: End processing [tfrecord]: success
+[2023-04-24 23:11:05] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-24 23:11:08] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
+[2023-04-24 23:11:08] INFO root fetch - main [MainThread]: Store serial: [17839534]
