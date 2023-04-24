@@ -20955,3 +20955,91 @@
 [2023-04-24 21:22:54] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2023-04-24 21:22:57] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-04-24 21:22:57] INFO root fetch - main [MainThread]: Store serial: [17838618]
+[2023-04-24 21:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838618]
+[2023-04-24 21:28:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wk-mlflow-plugins
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tap-norwaycitybikeapi
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yatracker-linker
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axdd-person-client
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttk-custom-msgbox
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: david-test-datadog-sma
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oak9-tython
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JUtils
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oikonomika
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: owens-library
+[2023-04-24 21:28:06] WARNING root fetch - processPackages [wk-mlflow-plugins]: Skipping, unable to determine old version
+[2023-04-24 21:28:06] INFO root fetch - processPackages [wk-mlflow-plugins]: Start processing: terka
+[2023-04-24 21:28:06] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 21:28:06] INFO root fetch - main [MainThread]: End processing [wk-mlflow-plugins] error
+[2023-04-24 21:28:06] INFO root fetch - processPackages [axdd-person-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [david-test-datadog-sma]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ttk-custom-msgbox]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [tap-norwaycitybikeapi]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [JUtils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [oikonomika]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [terka]: New version: [1.6.4.9] Old Version: [1.6.4.8]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.6b5] Old Version: [1.0.6b4]
+[2023-04-24 21:28:06] WARNING root fetch - processPackages [owens-library]: Skipping, unable to determine old version
+[2023-04-24 21:28:06] INFO root fetch - processPackages [owens-library]: Start processing: apread
+[2023-04-24 21:28:06] INFO root fetch - main [MainThread]: End processing [owens-library] error
+[2023-04-24 21:28:06] INFO root fetch - processPackages [apread]: New version: [1.1.1a1] Old Version: [1.1.0]
+[2023-04-24 21:28:06] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-24 21:28:06] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.4.8.tar.gz tmp/terka-1.6.4.9.tar.gz --markdown 20230424/t/terka/1.6.4.8-1.6.4.9/diff.md --exclude *.pyd
+[2023-04-24 21:28:06] INFO root fetch - processPackages [ttk-custom-msgbox]: Downloading https://files.pythonhosted.org/packages/d3/f1/8d40e5ef3705530d911b0b9610f9a0e8be9025ddc09f5156ea581295b529/ttk-custom-msgbox-0.0.1.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [JUtils]: Downloading https://files.pythonhosted.org/packages/67/38/f229d565349dace548139ca9827583c6f719d7c8c23055a38fca4bdf1b96/JUtils-1.0.2.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [tap-norwaycitybikeapi]: Downloading https://files.pythonhosted.org/packages/cd/73/54c5cdcd6cfc2641ac08310847b54317f123207831de8cdfd19e523b255b/tap_norwaycitybikeapi-0.0.2.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/8a/87/0ea3aa787f2db17f5a3b89e15da92b3044fb5833651a80c54b3849af3790/oak9_tython-1.0.6b4.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/38/06/a1983fc05c7fddc6bb20b746de8f7c943fd5a64d3627d5a747dffa326c84/axdd-person-client-1.1.2.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [oikonomika]: Downloading https://files.pythonhosted.org/packages/7f/13/0b4e0a568c035d49fd9e1f66288718e2a15e9df07170770becee60494ebb/oikonomika-0.1.0.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [apread]: Downloading https://files.pythonhosted.org/packages/6d/e1/19419405d4ee8918789d3b49e3c6fa9197bc38c35e9c3e35da1e3678b5ea/apread-1.1.0.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [david-test-datadog-sma]: Downloading https://files.pythonhosted.org/packages/ef/31/bdd2ede0cf03fe2c751f9540849c504e6379f2319e9acf76236c9388d60e/david-test-datadog-sma-0.0.1.tar.gz
+[2023-04-24 21:28:06] INFO root fetch - processPackages [JUtils]: executing diffoscope
+[2023-04-24 21:28:06] INFO root fetch - processPackages [JUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JUtils-1.0.1.tar.gz tmp/JUtils-1.0.2.tar.gz --markdown 20230424/J/JUtils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 21:28:06] INFO root fetch - processPackages [yatracker-linker]: Downloading https://files.pythonhosted.org/packages/f1/8b/13d67e61a52d9382943b7f338e62f3f1c5cf6b445ad5d8f16874ddfd5706/yatracker_linker-0.1.7.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [ttk-custom-msgbox]: Downloading https://files.pythonhosted.org/packages/9a/42/103a39b4b2e8d905d8f41b2dfc13d596e4ab95bcfde507f532236708daf6/ttk-custom-msgbox-0.0.2.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [tap-norwaycitybikeapi]: Downloading https://files.pythonhosted.org/packages/5c/cd/b4c9c6ad98ff3e7372931a820e43dce596d055e5a1d84d47a1ef279bf1ae/tap_norwaycitybikeapi-0.1.0.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.6.tar.gz tmp/yatracker_linker-0.1.7.tar.gz --markdown 20230424/y/yatracker-linker/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/a7/41/5a7816e6d71fa17b20ad8f8fc072e965342d86f6a9155802e5647d88614c/axdd-person-client-1.1.3.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [oikonomika]: Downloading https://files.pythonhosted.org/packages/1e/0b/ff956f1fa0e9aa6398f2dbbef0ebea11f10feb6af2bfdb9385e64d4eb9ab/oikonomika-0.1.1.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [apread]: Downloading https://files.pythonhosted.org/packages/24/7f/bd55df01cd23fa120887ef582d0ffa5f02a5720a1cf09a76326d94e55411/apread-1.1.1a1.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [ttk-custom-msgbox]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [ttk-custom-msgbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttk-custom-msgbox-0.0.1.tar.gz tmp/ttk-custom-msgbox-0.0.2.tar.gz --markdown 20230424/t/ttk-custom-msgbox/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/17/5f/bc5a3029fa99e2b00d054c319d529bdbaf9345bce90ef662676688051003/oak9_tython-1.0.6b5.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [tap-norwaycitybikeapi]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [tap-norwaycitybikeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_norwaycitybikeapi-0.0.2.tar.gz tmp/tap_norwaycitybikeapi-0.1.0.tar.gz --markdown 20230424/t/tap-norwaycitybikeapi/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [david-test-datadog-sma]: Downloading https://files.pythonhosted.org/packages/f5/7a/8056ad8911ee01aeca42e77aae18a1a2c7cb849693e66f817a5fa8c1053d/david-test-datadog-sma-0.0.2.tar.gz
+[2023-04-24 21:28:07] INFO root fetch - processPackages [axdd-person-client]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [axdd-person-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axdd-person-client-1.1.2.tar.gz tmp/axdd-person-client-1.1.3.tar.gz --markdown 20230424/a/axdd-person-client/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [oikonomika]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [oikonomika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oikonomika-0.1.0.tar.gz tmp/oikonomika-0.1.1.tar.gz --markdown 20230424/o/oikonomika/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [apread]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [apread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apread-1.1.0.tar.gz tmp/apread-1.1.1a1.tar.gz --markdown 20230424/a/apread/1.1.0-1.1.1a1/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [david-test-datadog-sma]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [david-test-datadog-sma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/david-test-datadog-sma-0.0.1.tar.gz tmp/david-test-datadog-sma-0.0.2.tar.gz --markdown 20230424/d/david-test-datadog-sma/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 21:28:07] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-04-24 21:28:07] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.6b4.tar.gz tmp/oak9_tython-1.0.6b5.tar.gz --markdown 20230424/o/oak9-tython/1.0.6b4-1.0.6b5/diff.md --exclude *.pyd
+[2023-04-24 21:28:08] INFO root fetch - processPackages [JUtils]: Start processing: ekaros
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [JUtils]: success
+[2023-04-24 21:28:08] INFO root fetch - processPackages [ekaros]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 21:28:08] INFO root fetch - processPackages [yatracker-linker]: Start processing: xyz-auth
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 21:28:08] INFO root fetch - processPackages [xyz-auth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 21:28:08] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/44/93/b5a39ff2c0c536b8947ce0d1bf44749cf654732164301d62a6e10c6c274f/ekaros-0.1.6.tar.gz
+[2023-04-24 21:28:08] INFO root fetch - processPackages [ekaros]: executing diffoscope
+[2023-04-24 21:28:08] INFO root fetch - processPackages [ekaros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekaros-0.1.5.tar.gz tmp/ekaros-0.1.6.tar.gz --markdown 20230424/e/ekaros/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [tap-norwaycitybikeapi]: success
+[2023-04-24 21:28:08] INFO root fetch - processPackages [xyz-auth]: Downloading https://files.pythonhosted.org/packages/81/2e/19d61a71b331c7aefd80ae1d97d1eb77f29a883477a7b78fdb99b5e2001f/xyz_auth-0.1.8-py3-none-any.whl
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [ttk-custom-msgbox]: success
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [david-test-datadog-sma]: success
+[2023-04-24 21:28:08] INFO root fetch - main [MainThread]: End processing [oikonomika]: success
+[2023-04-24 21:28:08] INFO root fetch - processPackages [xyz-auth]: Downloading https://files.pythonhosted.org/packages/df/63/b167bd702d32d05030e85fa49f12efd4a2bd7baffbb7c4131856b9684670/xyz_auth-0.1.9-py3-none-any.whl
+[2023-04-24 21:28:09] INFO root fetch - main [MainThread]: End processing [apread]: success
+[2023-04-24 21:28:09] INFO root fetch - main [MainThread]: End processing [axdd-person-client]: success
+[2023-04-24 21:28:09] INFO root fetch - processPackages [xyz-auth]: executing diffoscope
+[2023-04-24 21:28:09] INFO root fetch - processPackages [xyz-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_auth-0.1.8-py3-none-any.whl.zip tmp/xyz_auth-0.1.9-py3-none-any.whl.zip --markdown 20230424/x/xyz-auth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 21:28:09] INFO root fetch - main [MainThread]: End processing [ekaros]: success
+[2023-04-24 21:28:10] INFO root fetch - main [MainThread]: End processing [xyz-auth]: success
+[2023-04-24 21:28:19] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-04-24 21:28:19] INFO root fetch - main [MainThread]: Store serial: [17838662]
