@@ -22544,3 +22544,90 @@
 [2023-04-24 23:00:21] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-24 23:00:40] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-04-24 23:00:40] INFO root fetch - main [MainThread]: Store serial: [17839472]
+[2023-04-24 23:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839472]
+[2023-04-24 23:05:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dop-integration-libs
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fire-opal
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yandex-libamocrm
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anomalo
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformlib
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-moonmining
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rubpy
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eppo-server-sdk
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airless
+[2023-04-24 23:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shp2metric
+[2023-04-24 23:05:50] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [eppo-server-sdk]: New version: [1.1.1] Old Version: [1.0.4]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [shp2metric]: New version: [1.3.2] Old Version: [1.2.1]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [rubpy]: New version: [6.1.0] Old Version: [6.0.5]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230424/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [transformlib]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [shp2metric]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [anomalo]: New version: [0.9.1] Old Version: [0.15.0]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [shp2metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shp2metric-1.2.1.tar.gz tmp/shp2metric-1.3.2.tar.gz --markdown 20230424/s/shp2metric/1.2.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-04-24 23:05:50] WARNING root fetch - processPackages [yandex-libamocrm]: Skipping, unable to determine old version
+[2023-04-24 23:05:50] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.0.5.tar.gz tmp/rubpy-6.1.0.tar.gz --markdown 20230424/r/rubpy/6.0.5-6.1.0/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [yandex-libamocrm]: Start processing: django-wildewidgets
+[2023-04-24 23:05:50] INFO root fetch - main [MainThread]: End processing [yandex-libamocrm] error
+[2023-04-24 23:05:50] INFO root fetch - processPackages [fire-opal]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [airless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [aa-moonmining]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [eppo-server-sdk]: Downloading https://files.pythonhosted.org/packages/f1/a2/7e756717aa9c102cd1ae6837fda1cc92eb5f6c99fcb579b77999f7a4752f/eppo-server-sdk-1.0.4.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [django-wildewidgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 23:05:50] INFO root fetch - processPackages [anomalo]: Downloading https://files.pythonhosted.org/packages/c0/73/b985bca5ad5e56b8eb5655eace9c726fa0d510c0ea4527bd24a0747ffcec/anomalo-0.15.0.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [transformlib]: Downloading https://files.pythonhosted.org/packages/68/af/e1d1c90c99e2a8966cfa468e48e60714a81e7e59125e160070572af9b2d0/transformlib-0.0.1.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/5d/bf/cf2df5c4872c29e78c44b20403eac9f186a8235c7aaf872a2e0fc80c71b7/fire_opal-5.1.0.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [airless]: Downloading https://files.pythonhosted.org/packages/6d/39/576afe2ce8e7b3f3f04d131830c000e35b10ea059645334e47145401906f/airless-0.0.8.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [aa-moonmining]: Downloading https://files.pythonhosted.org/packages/c3/31/a3879838271ae0d42e49257aa00d9ae55da04041fd1006b3542982a59b36/aa-moonmining-1.8.2.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [django-wildewidgets]: Downloading https://files.pythonhosted.org/packages/a5/5a/a5fbc57d55818be0c8d452f0b51de5fefcc295d25c7fd228ab58024ea4df/django-wildewidgets-0.9.0.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/ce/cf/e3c4a68574077e820793099065b87792b1e34549cd9b9e98bc8ad042d2f9/fire_opal-5.1.1.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [transformlib]: Downloading https://files.pythonhosted.org/packages/8c/b8/61948ea5418d35bcf2a65b4865f29c7318353773ce12c36ff5e83eaebb91/transformlib-0.1.0.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [airless]: Downloading https://files.pythonhosted.org/packages/c0/a9/3f69bc8d2a91ea0a02d60d926962763854d5536b39b8872d58ab50f15e9f/airless-0.0.9.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [aa-moonmining]: Downloading https://files.pythonhosted.org/packages/7d/2f/907300523dbe09472e66b9781797cb7110b108740496407978a2c2c90767/aa_moonmining-1.9.0.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [eppo-server-sdk]: Downloading https://files.pythonhosted.org/packages/73/b0/c55a7640e23581e678a894c40a446a796ad484a04239a03eb37b9072f7a8/eppo-server-sdk-1.1.1.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [anomalo]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [anomalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomalo-0.15.0.tar.gz tmp/anomalo-0.9.1.tar.gz --markdown 20230424/a/anomalo/0.15.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [fire-opal]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [fire-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fire_opal-5.1.0.tar.gz tmp/fire_opal-5.1.1.tar.gz --markdown 20230424/f/fire-opal/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [transformlib]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [transformlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformlib-0.0.1.tar.gz tmp/transformlib-0.1.0.tar.gz --markdown 20230424/t/transformlib/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [airless]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [airless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airless-0.0.8.tar.gz tmp/airless-0.0.9.tar.gz --markdown 20230424/a/airless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [django-wildewidgets]: Downloading https://files.pythonhosted.org/packages/0f/20/c9b0d1d9e96cc96b0fe08f0597b9d2356b376634ea87af28fa4517fdd92a/django-wildewidgets-0.9.1.tar.gz
+[2023-04-24 23:05:50] INFO root fetch - processPackages [eppo-server-sdk]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [eppo-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eppo-server-sdk-1.0.4.tar.gz tmp/eppo-server-sdk-1.1.1.tar.gz --markdown 20230424/e/eppo-server-sdk/1.0.4-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 23:05:50] INFO root fetch - processPackages [aa-moonmining]: executing diffoscope
+[2023-04-24 23:05:50] INFO root fetch - processPackages [aa-moonmining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-moonmining-1.8.2.tar.gz tmp/aa_moonmining-1.9.0.tar.gz --markdown 20230424/a/aa-moonmining/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 23:05:51] INFO root fetch - processPackages [django-wildewidgets]: executing diffoscope
+[2023-04-24 23:05:51] INFO root fetch - processPackages [django-wildewidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-wildewidgets-0.9.0.tar.gz tmp/django-wildewidgets-0.9.1.tar.gz --markdown 20230424/d/django-wildewidgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 23:05:51] INFO root fetch - processPackages [dop-integration-libs]: Start processing: ShellcodeTester
+[2023-04-24 23:05:51] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-24 23:05:51] INFO root fetch - processPackages [shp2metric]: Start processing: openchord
+[2023-04-24 23:05:51] INFO root fetch - main [MainThread]: End processing [shp2metric]: success
+[2023-04-24 23:05:51] INFO root fetch - processPackages [openchord]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 23:05:51] INFO root fetch - processPackages [ShellcodeTester]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 23:05:51] INFO root fetch - processPackages [ShellcodeTester]: executing diffoscope
+[2023-04-24 23:05:51] INFO root fetch - processPackages [ShellcodeTester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShellcodeTester-0.2.8.tar.gz tmp/ShellcodeTester-0.2.9.tar.gz --markdown 20230424/S/ShellcodeTester/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 23:05:51] INFO root fetch - processPackages [rubpy]: Start processing: rl-algo-impls
+[2023-04-24 23:05:51] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-04-24 23:05:51] INFO root fetch - processPackages [openchord]: Downloading https://files.pythonhosted.org/packages/1c/7b/588624fe808b96ecdf09a094cc97758b1a9bf82a7c64ac2b54fc6c6e137e/openchord-0.1.6.tar.gz
+[2023-04-24 23:05:51] INFO root fetch - processPackages [rl-algo-impls]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-04-24 23:05:51] INFO root fetch - processPackages [openchord]: executing diffoscope
+[2023-04-24 23:05:51] INFO root fetch - processPackages [openchord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openchord-0.1.5.tar.gz tmp/openchord-0.1.6.tar.gz --markdown 20230424/o/openchord/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 23:05:51] INFO root fetch - processPackages [rl-algo-impls]: Downloading https://files.pythonhosted.org/packages/74/fb/ecec93cc686fe292fdd227e73a78bacc784cfdd46745515a6728642c706e/rl_algo_impls-0.0.5.tar.gz
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [anomalo]: success
+[2023-04-24 23:05:52] INFO root fetch - processPackages [rl-algo-impls]: Downloading https://files.pythonhosted.org/packages/54/56/99bd0cc63ac0d3905c50eb7139d7a1848efb542f4ef218d375ae52a71186/rl_algo_impls-0.0.8.tar.gz
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [airless]: success
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [transformlib]: success
+[2023-04-24 23:05:52] INFO root fetch - processPackages [rl-algo-impls]: executing diffoscope
+[2023-04-24 23:05:52] INFO root fetch - processPackages [rl-algo-impls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_algo_impls-0.0.5.tar.gz tmp/rl_algo_impls-0.0.8.tar.gz --markdown 20230424/r/rl-algo-impls/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [fire-opal]: success
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [eppo-server-sdk]: success
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [django-wildewidgets]: success
+[2023-04-24 23:05:52] INFO root fetch - main [MainThread]: End processing [openchord]: success
+[2023-04-24 23:05:53] INFO root fetch - main [MainThread]: End processing [aa-moonmining]: success
+[2023-04-24 23:05:54] INFO root fetch - main [MainThread]: End processing [rl-algo-impls]: success
+[2023-04-24 23:05:54] INFO root fetch - main [MainThread]: End processing [ShellcodeTester]: success
+[2023-04-24 23:05:54] INFO root fetch - main [MainThread]: Store serial: [17839513]
