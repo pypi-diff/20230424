@@ -20174,3 +20174,71 @@
 [2023-04-24 20:34:06] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
 [2023-04-24 20:34:06] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
 [2023-04-24 20:34:06] INFO root fetch - main [MainThread]: Store serial: [17837986]
+[2023-04-24 20:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837986]
+[2023-04-24 20:39:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pts-fault-injection
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lqs-client
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hledger-lots
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coscontents
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghastoolkit
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PlexTraktSync
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kintree
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wizata-dsapi
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gridappsd-2030-5
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-Ayra
+[2023-04-24 20:39:16] INFO root fetch - processPackages [pts-fault-injection]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [hledger-lots]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [lqs-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [coscontents]: New version: [2023.1006] Old Version: [2023.1005]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [py-Ayra]: New version: [8.6.2] Old Version: [8.6.1]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [kintree]: New version: [1.0.1] Old Version: [1.0.0rc0]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.3] Old Version: [0.26.2]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [gridappsd-2030-5]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-04-24 20:39:16] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-04-24 20:39:16] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-8.6.1.tar.gz tmp/py-Ayra-8.6.2.tar.gz --markdown 20230424/p/py-Ayra/8.6.1-8.6.2/diff.md --exclude *.pyd
+[2023-04-24 20:39:16] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-24 20:39:16] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230424/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 20:39:16] INFO root fetch - processPackages [coscontents]: Downloading https://files.pythonhosted.org/packages/d6/86/36073fc74b3e518af7d0ff14d254127b2b5039f2a782ce99c45d69bb170c/coscontents-2023.1006.tar.gz
+[2023-04-24 20:39:16] INFO root fetch - processPackages [pts-fault-injection]: Downloading https://files.pythonhosted.org/packages/b8/f7/f4240f969875460e3723fa3323f9b7755abe24c44c15fa9d2898841b347a/pts_fault_injection-0.0.3.tar.gz
+[2023-04-24 20:39:16] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/78/30/608cca4e36e78010e240c427c65b7b62239e1a9935f8307e21e2afca9098/ghastoolkit-0.1.4.tar.gz
+[2023-04-24 20:39:16] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/bb/44/dce2040a4aa1094c1e10697e3696707add36f50aaa03b48f89264ccc2560/lqs-client-0.0.8.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/6b/b8/4379f707c44066a50a389fc612709d80ffc3f4d95ddcdc0a6e73588416e0/PlexTraktSync-0.26.2.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [kintree]: Downloading https://files.pythonhosted.org/packages/6d/11/1691a0e21338d4cc074094687b04550b768778138caabf5a7fab23081029/kintree-1.0.0rc0.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [hledger-lots]: Downloading https://files.pythonhosted.org/packages/f3/f2/8a8507728a7d9e3da2ea244e1442c63763fc9949b25589bf0dac88f60455/hledger_lots-0.1.5.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [gridappsd-2030-5]: Downloading https://files.pythonhosted.org/packages/99/80/e6f2457d945e3a6d8bfdaa716e6cb696dd39a1777cdff84caecd5949e611/gridappsd-2030_5-0.0.2a8.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [coscontents]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [coscontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coscontents-2023.1005.tar.gz tmp/coscontents-2023.1006.tar.gz --markdown 20230424/c/coscontents/2023.1005-2023.1006/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/fa/71/3c691961896a980244d4d439afa2e3bdac461ccd3314d07702226193e769/ghastoolkit-0.1.5.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/20/27/d889a41e9cc4ac26b85f0faaeaa3415c958a048673669c2707d32289c619/PlexTraktSync-0.26.3.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/dc/32/a9a01fcb52142805a5445865dc380be7baea859e5cf80d3c5d7ddaa016f5/lqs-client-0.0.9.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [pts-fault-injection]: Downloading https://files.pythonhosted.org/packages/33/95/1091b3b5ff3b2e502ae8a13c911b5ca0f7cf31050f930a868486cfd0811e/pts_fault_injection-0.0.4.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [pts-fault-injection]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [pts-fault-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pts_fault_injection-0.0.3.tar.gz tmp/pts_fault_injection-0.0.4.tar.gz --markdown 20230424/p/pts-fault-injection/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.4.tar.gz tmp/ghastoolkit-0.1.5.tar.gz --markdown 20230424/g/ghastoolkit/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [hledger-lots]: Downloading https://files.pythonhosted.org/packages/d0/7f/3fb8073d4315d32a6739528b370053040cf128086b990cfd3f46a60b8f6b/hledger_lots-0.1.6.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [kintree]: Downloading https://files.pythonhosted.org/packages/eb/d6/2aea40ad98b87a48c37c886fc9a8c16d37f17ccdb36b7cb3929c30ddd817/kintree-1.0.1.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [gridappsd-2030-5]: Downloading https://files.pythonhosted.org/packages/d9/81/ce602cdfa0bfb51a9c32e25dff960d2814202874b82d56bcd137e2871fd1/gridappsd-2030_5-0.0.2a9.tar.gz
+[2023-04-24 20:39:17] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.2.tar.gz tmp/PlexTraktSync-0.26.3.tar.gz --markdown 20230424/P/PlexTraktSync/0.26.2-0.26.3/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [lqs-client]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [lqs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqs-client-0.0.8.tar.gz tmp/lqs-client-0.0.9.tar.gz --markdown 20230424/l/lqs-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [gridappsd-2030-5]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [gridappsd-2030-5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd-2030_5-0.0.2a8.tar.gz tmp/gridappsd-2030_5-0.0.2a9.tar.gz --markdown 20230424/g/gridappsd-2030-5/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [kintree]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [hledger-lots]: executing diffoscope
+[2023-04-24 20:39:17] INFO root fetch - processPackages [kintree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kintree-1.0.0rc0.tar.gz tmp/kintree-1.0.1.tar.gz --markdown 20230424/k/kintree/1.0.0rc0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 20:39:17] INFO root fetch - processPackages [hledger-lots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hledger_lots-0.1.5.tar.gz tmp/hledger_lots-0.1.6.tar.gz --markdown 20230424/h/hledger-lots/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 20:39:18] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-24 20:39:18] INFO root fetch - main [MainThread]: End processing [coscontents]: success
+[2023-04-24 20:39:18] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-04-24 20:39:18] INFO root fetch - main [MainThread]: End processing [pts-fault-injection]: success
+[2023-04-24 20:39:18] INFO root fetch - main [MainThread]: End processing [hledger-lots]: success
+[2023-04-24 20:39:19] INFO root fetch - main [MainThread]: End processing [lqs-client]: success
+[2023-04-24 20:39:19] INFO root fetch - main [MainThread]: End processing [kintree]: success
+[2023-04-24 20:39:19] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-04-24 20:39:20] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-04-24 20:39:20] INFO root fetch - main [MainThread]: End processing [gridappsd-2030-5]: success
+[2023-04-24 20:39:20] INFO root fetch - main [MainThread]: Store serial: [17838020]
