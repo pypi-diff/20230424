@@ -22769,3 +22769,68 @@
 [2023-04-24 23:16:31] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-04-24 23:16:31] INFO root fetch - main [MainThread]: End processing [plaid-python]: success
 [2023-04-24 23:16:31] INFO root fetch - main [MainThread]: Store serial: [17839574]
+[2023-04-24 23:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839574]
+[2023-04-24 23:21:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stagekit
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfrecord
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rl-algo-impls
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyContracts-mirror
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamp3
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcTrackClient
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devex-sdk
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gptdeploy
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-04-24 23:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nimblephysics
+[2023-04-24 23:21:40] WARNING root fetch - processPackages [stagekit]: Skipping, unable to determine old version
+[2023-04-24 23:21:40] INFO root fetch - processPackages [stagekit]: Start processing: yatracker-linker
+[2023-04-24 23:21:40] INFO root fetch - main [MainThread]: End processing [stagekit] error
+[2023-04-24 23:21:40] INFO root fetch - processPackages [rl-algo-impls]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [tfrecord]: New version: [1.9] Old Version: [1.8]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [devex-sdk]: New version: [1.0.1] Old Version: [0.1.1b0]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [streamp3]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [nimblephysics]: New version: [0.8.94] Old Version: [0.8.93]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [PyContracts-mirror]: New version: [2.0.1.9] Old Version: [2.0.1.8]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [dcTrackClient]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 23:21:40] INFO root fetch - processPackages [policyengine-us]: New version: [0.300.4] Old Version: [0.300.3]
+[2023-04-24 23:21:41] INFO root fetch - processPackages [tfrecord]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [tfrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecord-1.8.tar.gz tmp/tfrecord-1.9.tar.gz --markdown 20230424/t/tfrecord/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [rl-algo-impls]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [rl-algo-impls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_algo_impls-0.0.5.tar.gz tmp/rl_algo_impls-0.0.8.tar.gz --markdown 20230424/r/rl-algo-impls/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/e4/4d/d9434fa5d754771051b2f906e1a998b205af6eb92ffb9039bf2569b7d3bc/devex_sdk-0.1.1b0.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/70/7e/ab29b4b208cafbf801e9a67d38d72d9f8ed1b6892011688db6698f0624fa/dctrackclient-0.2.3.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/a1/69/ed079ec39b5396cf12379fecb932ef19aae3e012df7bc82f5a0985c5480f/nimblephysics-0.8.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 23:21:41] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [streamp3]: Downloading https://files.pythonhosted.org/packages/36/84/b1895cf45b76bb17a14f6f81ef2eab12e61e1272034171e4ce1a7f573514/streamp3-0.1.7.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [PyContracts-mirror]: Downloading https://files.pythonhosted.org/packages/1b/75/b7ba28a8411c60d03cad2171ddf476f98b56fbf6518630c3f6af5db83eb0/PyContracts-mirror-2.0.1.8.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67414842>=10485760
+[2023-04-24 23:21:41] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-04-24 23:21:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5e/55/e1de59c1bee9588570cca6296820d328566410c21b1d4bff9af9d6648a82/policyengine-us-0.300.4.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [streamp3]: Downloading https://files.pythonhosted.org/packages/57/cd/3af37544fde628a06ad2ad5e9d1ebab6b7a93070f7b1efa1be1683d95ed4/streamp3-0.1.8.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/45/6d/3b31697508287060f99daa9135500eef3ef8b705d0f0b796bb67a7881c8c/dctrackclient-0.2.4.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/c8/ef/186c764909f9b9e64d230e1bf9798478118f86ce7e3997c5c36cbdc6816b/devex_sdk-1.0.1.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [PyContracts-mirror]: Downloading https://files.pythonhosted.org/packages/4f/70/05c94b724744c51574aa0c9ee9733ae7fb0c8ca03a515af44550dfc0d551/PyContracts-mirror-2.0.1.9.tar.gz
+[2023-04-24 23:21:41] INFO root fetch - processPackages [PyContracts-mirror]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [PyContracts-mirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyContracts-mirror-2.0.1.8.tar.gz tmp/PyContracts-mirror-2.0.1.9.tar.gz --markdown 20230424/P/PyContracts-mirror/2.0.1.8-2.0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [streamp3]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [streamp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamp3-0.1.7.tar.gz tmp/streamp3-0.1.8.tar.gz --markdown 20230424/s/streamp3/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.2.3.tar.gz tmp/dctrackclient-0.2.4.tar.gz --markdown 20230424/d/dcTrackClient/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [devex-sdk]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [devex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devex_sdk-0.1.1b0.tar.gz tmp/devex_sdk-1.0.1.tar.gz --markdown 20230424/d/devex-sdk/0.1.1b0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 23:21:41] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-24 23:21:41] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.300.3.tar.gz tmp/policyengine-us-0.300.4.tar.gz --markdown 20230424/p/policyengine-us/0.300.3-0.300.4/diff.md --exclude *.pyd
+[2023-04-24 23:21:42] INFO root fetch - main [MainThread]: End processing [tfrecord]: success
+[2023-04-24 23:21:42] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 23:21:42] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 23:21:42] INFO root fetch - main [MainThread]: End processing [streamp3]: success
+[2023-04-24 23:21:42] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-04-24 23:21:43] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
+[2023-04-24 23:21:44] INFO root fetch - main [MainThread]: End processing [PyContracts-mirror]: success
+[2023-04-24 23:21:45] INFO root fetch - main [MainThread]: End processing [rl-algo-impls]: success
+[2023-04-24 23:22:51] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-24 23:22:51] INFO root fetch - main [MainThread]: Store serial: [17839613]
