@@ -5695,3 +5695,61 @@
 [2023-04-24 08:20:18] INFO root fetch - main [MainThread]: End processing [toolstr]: success
 [2023-04-24 08:20:20] INFO root fetch - main [MainThread]: End processing [zope.container]: success
 [2023-04-24 08:20:20] INFO root fetch - main [MainThread]: Store serial: [17829544]
+[2023-04-24 08:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829544]
+[2023-04-24 08:25:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: re-common
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NikeCA
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pocketrockit
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baysalt-christmas
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module-latest
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ebbs
+[2023-04-24 08:25:29] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230424] Old Version: [1.5.3.dev20230423]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [qwak-core]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230424062454] Old Version: [2.0.3.dev20230421173939]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [NikeCA]: New version: [0.1.78] Old Version: [0.1.77]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.7.1] Old Version: [0.1.7.0]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230424] Old Version: [20230423]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [re-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 08:25:29] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/3a/7f/3860de0057c4e104cf9a96d14df7f3244e80c552465ff258fba299d57895/pocketrockit-0.0.1.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [re-common]: Downloading https://files.pythonhosted.org/packages/66/37/b2bd5fc965119ca92be216cfa3768d68d1e3f24fa93bf29a71d1aca77dcb/re_common-0.2.8.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-04-24 08:25:29] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230424/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-24 08:25:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/1a/1b/23d5e1740fb6d052ca1a5756896e9d80a0b1c25cde9f969fa7e8ce031c2c/fake-bpy-module-latest-20230424.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/60/70/1034829fd13f8cd98695efcc6f9c4c718ca97f2164af79586f43f11b708a/qwak_core-0.0.29.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/c5/83/09000051c698db8a2bca0450b2d0efe60b1ab203057e3b80e851cedbcf18/NikeCA-0.1.78.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/35/89/e52161aa839f1a00572d61c9702fd9997440f34efeeeee61afe65f710fbb/localstack-core-2.0.3.dev20230424062454.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f4/f0/99562e1e02134d28b5f9c33e6b4a967a96778df572256842a9e8e8a3b69e/pretext-1.5.3.dev20230424.tar.gz
+[2023-04-24 08:25:29] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/f0/a7/b3b871aa3c48810757abf77b3b82ee3b50552f23b5643b7d59e47c968630/baysalt_christmas-0.1.7.1.tar.gz
+[2023-04-24 08:25:30] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230423.tar.gz tmp/fake-bpy-module-latest-20230424.tar.gz --markdown 20230424/f/fake-bpy-module-latest/20230423-20230424/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.7.0.tar.gz tmp/baysalt_christmas-0.1.7.1.tar.gz --markdown 20230424/b/baysalt-christmas/0.1.7.0-0.1.7.1/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.77.tar.gz tmp/NikeCA-0.1.78.tar.gz --markdown 20230424/N/NikeCA/0.1.77-0.1.78/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/49/f7/36edefe5ee6800dca65ea2ca174d91dea907c05c3b30b247102d18b6fa09/pocketrockit-0.0.2.tar.gz
+[2023-04-24 08:25:30] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.28.tar.gz tmp/qwak_core-0.0.29.tar.gz --markdown 20230424/q/qwak-core/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230421173939.tar.gz tmp/localstack-core-2.0.3.dev20230424062454.tar.gz --markdown 20230424/l/localstack-core/2.0.3.dev20230421173939-2.0.3.dev20230424062454/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230423.tar.gz tmp/pretext-1.5.3.dev20230424.tar.gz --markdown 20230424/p/pretext/1.5.3.dev20230423-1.5.3.dev20230424/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.1.tar.gz tmp/pocketrockit-0.0.2.tar.gz --markdown 20230424/p/pocketrockit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 08:25:30] INFO root fetch - processPackages [re-common]: Downloading https://files.pythonhosted.org/packages/a4/80/7e6052abba469f0e9f4e3f3931127b38d652aa10f2dfe197a1b0a8ca8c81/re_common-0.2.9.tar.gz
+[2023-04-24 08:25:30] INFO root fetch - processPackages [re-common]: executing diffoscope
+[2023-04-24 08:25:30] INFO root fetch - processPackages [re-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_common-0.2.8.tar.gz tmp/re_common-0.2.9.tar.gz --markdown 20230424/r/re-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 08:25:31] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-04-24 08:25:31] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-04-24 08:25:31] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-04-24 08:25:32] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 08:25:32] INFO root fetch - main [MainThread]: End processing [re-common]: success
+[2023-04-24 08:25:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-24 08:25:36] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-04-24 08:25:37] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-24 08:25:38] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-24 08:25:38] INFO root fetch - main [MainThread]: Store serial: [17829577]
