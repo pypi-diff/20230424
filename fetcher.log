@@ -13403,3 +13403,128 @@
 [2023-04-24 15:14:57] INFO root fetch - main [MainThread]: End processing [andes]: success
 [2023-04-24 15:14:58] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 15:14:58] INFO root fetch - main [MainThread]: Store serial: [17833992]
+[2023-04-24 15:20:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17833992]
+[2023-04-24 15:20:07] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yumikogram
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-sphinx
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freshbooks-sdk
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperfetch
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexa
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-async-langchain
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modin
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oak9-tython
+[2023-04-24 15:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-04-24 15:20:07] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [yumikogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [freshbooks-sdk]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.6b3] Old Version: [1.0.6b2]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [modin]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.733] Old Version: [0.0.732]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-04-24 15:20:07] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/de/2c/da5f6d836178a8ae77bb0e18d6a44f94e6fb7e425740b797677596cc3276/kodexa-6.1.3.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [freshbooks-sdk]: Downloading https://files.pythonhosted.org/packages/7c/db/1cb0602bab0f6d804aac526f3ea6c104be9afca1ccb4d2084b83dceb6ae5/freshbooks-sdk-1.2.0.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [yumikogram]: Downloading https://files.pythonhosted.org/packages/fe/1c/e7023b299457cb94a3d5dc54e4e96e87bfbe64a5d69f700bca6b4b5abda1/yumikogram-0.0.8.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/21/6b/3650db35fca9e27b48d165c2e35d23e3e1124dcf21810aeae75ad916dbfd/hyperfetch-1.0.2.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/6e/5e/99c8ca016dfb51774cfdffa524912d2e396f8f17c2796e246a5b38b636c2/nbdev-apl-0.0.733.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/3c/46/8fe316b681c9807549983d54af91c865572e32f7d6c9d97a0af6f613402f/modin-0.9.0.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.1.tar.gz tmp/hyperfetch-1.0.2.tar.gz --markdown 20230424/h/hyperfetch/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/6c/73/5d3428a76609a656e4806c349df34beb49094ccbb7af510b8317abb0f76a/oak9_tython-1.0.6b3.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/12/bc/2e66a281dbd2913d4286c0c8ff4525f725eecc2605ad18903b5536fa7e7b/kodexa-6.1.4.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.732.tar.gz tmp/nbdev-apl-0.0.733.tar.gz --markdown 20230424/n/nbdev-apl/0.0.732-0.0.733/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/03/41/1e605b06c6fa294d46e4f856f1c4e77691b944fb749ebd346654fb06088d/fastapi_async_langchain-0.3.0.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [yumikogram]: Downloading https://files.pythonhosted.org/packages/54/9f/3a56efbf9c195564201eebee77bdf40da7e8486e6ee2e57c87cc033ea777/yumikogram-0.0.9.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [freshbooks-sdk]: Downloading https://files.pythonhosted.org/packages/cb/de/c85523946c89fe865fcc5079a8b192ce83804024c8aff71dc482d0331bc3/freshbooks-sdk-1.2.1.tar.gz
+[2023-04-24 15:20:07] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.6b2.tar.gz tmp/oak9_tython-1.0.6b3.tar.gz --markdown 20230424/o/oak9-tython/1.0.6b2-1.0.6b3/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.2.0.tar.gz tmp/fastapi_async_langchain-0.3.0.tar.gz --markdown 20230424/f/fastapi-async-langchain/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230424/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [freshbooks-sdk]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [freshbooks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freshbooks-sdk-1.2.0.tar.gz tmp/freshbooks-sdk-1.2.1.tar.gz --markdown 20230424/f/freshbooks-sdk/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [yumikogram]: executing diffoscope
+[2023-04-24 15:20:07] INFO root fetch - processPackages [yumikogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yumikogram-0.0.8.tar.gz tmp/yumikogram-0.0.9.tar.gz --markdown 20230424/y/yumikogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 15:20:07] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-04-24 15:20:08] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-04-24 15:20:08] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230424/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-04-24 15:20:08] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-24 15:20:08] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230424/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 15:20:08] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/c4/de/b6befe4f022553b09be9c92bf88128b2e391c580fe7ca4876acb77aec416/modin-0.9.1.tar.gz
+[2023-04-24 15:20:08] INFO root fetch - processPackages [modin]: executing diffoscope
+[2023-04-24 15:20:08] INFO root fetch - processPackages [modin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modin-0.9.0.tar.gz tmp/modin-0.9.1.tar.gz --markdown 20230424/m/modin/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 15:20:09] INFO root fetch - processPackages [nbdev-apl]: Start processing: paddle-quantum
+[2023-04-24 15:20:09] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-24 15:20:09] INFO root fetch - processPackages [paddle-quantum]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-04-24 15:20:09] INFO root fetch - processPackages [fastapi-async-langchain]: Start processing: petisco
+[2023-04-24 15:20:09] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-04-24 15:20:09] INFO root fetch - processPackages [petisco]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-24 15:20:09] INFO root fetch - processPackages [yumikogram]: Start processing: cloudmonitor
+[2023-04-24 15:20:09] INFO root fetch - main [MainThread]: End processing [yumikogram]: success
+[2023-04-24 15:20:09] INFO root fetch - processPackages [paddle-quantum]: Downloading https://files.pythonhosted.org/packages/00/05/755c9f6f7a1172a5812616654d350b3f079bd1d632b92b3e2aa60c0ece96/paddle-quantum-2.3.0.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [hyperfetch]: Start processing: LHCbDIRAC
+[2023-04-24 15:20:09] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-04-24 15:20:09] INFO root fetch - processPackages [cloudmonitor]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-04-24 15:20:09] INFO root fetch - processPackages [LHCbDIRAC]: New version: [11.1.0a1] Old Version: [11.0.8]
+[2023-04-24 15:20:09] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: html-parsing-tools
+[2023-04-24 15:20:09] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-24 15:20:09] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/bb/2f/37f2d35d9f897499aabbfa46d7146105f765265b74e461f9ce0516596551/petisco-1.9.8.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [html-parsing-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 15:20:09] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/ff/b5/efe86f79c35114b527c452f5d91762e8c996bf3f459a9e950654a2d1f5e6/LHCbDIRAC-11.0.8.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [cloudmonitor]: Downloading https://files.pythonhosted.org/packages/25/7a/9c560d44886487e45f06de3941aac82f9b1cba300dd9048ae150f6e81c42/cloudmonitor-0.0.1.6.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [cloudmonitor]: executing diffoscope
+[2023-04-24 15:20:09] INFO root fetch - processPackages [cloudmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmonitor-0.0.1.5.tar.gz tmp/cloudmonitor-0.0.1.6.tar.gz --markdown 20230424/c/cloudmonitor/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-04-24 15:20:09] INFO root fetch - processPackages [html-parsing-tools]: Downloading https://files.pythonhosted.org/packages/e7/b4/38fc92a27ea6825e6fe5d234a50141c0225efdad08ee7724df36843d058e/html_parsing_tools-0.8.0.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [freshbooks-sdk]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-24 15:20:09] INFO root fetch - main [MainThread]: End processing [freshbooks-sdk]: success
+[2023-04-24 15:20:09] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/89/5e/d19d08dde3196f9307b06251e80c9a77180aab7de5dc95dd95f174c26645/petisco-1.9.9.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 15:20:09] INFO root fetch - processPackages [paddle-quantum]: Downloading https://files.pythonhosted.org/packages/da/df/66b5f87496906d581db5564ce2cf703de4444f847e9ad6b319b73c627fb6/paddle-quantum-2.4.0.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/2d/36/668ff5f5ebec9665852faf372694cb9a68fd05b6f3248d7104700635210e/LHCbDIRAC-11.1.0a1.tar.gz
+[2023-04-24 15:20:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-24 15:20:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 15:20:09] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-04-24 15:20:09] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.8.tar.gz tmp/petisco-1.9.9.tar.gz --markdown 20230424/p/petisco/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-24 15:20:09] INFO root fetch - processPackages [paddle-quantum]: executing diffoscope
+[2023-04-24 15:20:09] INFO root fetch - processPackages [paddle-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddle-quantum-2.3.0.tar.gz tmp/paddle-quantum-2.4.0.tar.gz --markdown 20230424/p/paddle-quantum/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-04-24 15:20:10] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2023-04-24 15:20:10] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-11.0.8.tar.gz tmp/LHCbDIRAC-11.1.0a1.tar.gz --markdown 20230424/L/LHCbDIRAC/11.0.8-11.1.0a1/diff.md --exclude *.pyd
+[2023-04-24 15:20:10] INFO root fetch - processPackages [html-parsing-tools]: Downloading https://files.pythonhosted.org/packages/37/9a/6e45dfaf09f50bc5737d7edbcf7530bbcb10825ab814f66c01349ba993eb/html_parsing_tools-0.9.0.tar.gz
+[2023-04-24 15:20:10] INFO root fetch - processPackages [html-parsing-tools]: executing diffoscope
+[2023-04-24 15:20:10] INFO root fetch - processPackages [html-parsing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_parsing_tools-0.8.0.tar.gz tmp/html_parsing_tools-0.9.0.tar.gz --markdown 20230424/h/html-parsing-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 15:20:10] INFO root fetch - processPackages [cloudmonitor]: Start processing: Shreya-Dhumal-finance-charts
+[2023-04-24 15:20:10] INFO root fetch - main [MainThread]: End processing [cloudmonitor]: success
+[2023-04-24 15:20:10] INFO root fetch - processPackages [Shreya-Dhumal-finance-charts]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 15:20:11] INFO root fetch - processPackages [Shreya-Dhumal-finance-charts]: Downloading https://files.pythonhosted.org/packages/b3/e9/a0a951fd9e21029489893f0342ca89e9ff38d8cc4ede7c3bd50610b71047/Shreya-Dhumal-finance-charts-0.1.tar.gz
+[2023-04-24 15:20:11] INFO root fetch - processPackages [kodexa]: Start processing: ghastoolkit
+[2023-04-24 15:20:11] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-04-24 15:20:11] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 15:20:11] INFO root fetch - processPackages [nbdev-django]: Start processing: promptwatch
+[2023-04-24 15:20:11] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-24 15:20:11] WARNING root fetch - processPackages [promptwatch]: Skipping, unable to determine old version
+[2023-04-24 15:20:11] INFO root fetch - main [MainThread]: End processing [promptwatch] error
+[2023-04-24 15:20:11] INFO root fetch - processPackages [Shreya-Dhumal-finance-charts]: Downloading https://files.pythonhosted.org/packages/e9/f9/bae534ec74969a5880ba99f98931df1d6726112f9e7463d2b7ae19bd81ba/Shreya-Dhumal-finance-charts-0.2.tar.gz
+[2023-04-24 15:20:11] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/19/24/09273ce2a2f6072bd6c6b70a2dffb116dd636e97a2e712f6ab48a4ce1a6d/ghastoolkit-0.1.1.tar.gz
+[2023-04-24 15:20:11] INFO root fetch - processPackages [Shreya-Dhumal-finance-charts]: executing diffoscope
+[2023-04-24 15:20:11] INFO root fetch - processPackages [Shreya-Dhumal-finance-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shreya-Dhumal-finance-charts-0.1.tar.gz tmp/Shreya-Dhumal-finance-charts-0.2.tar.gz --markdown 20230424/S/Shreya-Dhumal-finance-charts/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 15:20:11] INFO root fetch - main [MainThread]: End processing [html-parsing-tools]: success
+[2023-04-24 15:20:11] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/75/a9/8e7f93be271378254314f0950c31a62d99260909f6b71618dedd526b2e36/ghastoolkit-0.1.2.tar.gz
+[2023-04-24 15:20:11] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-04-24 15:20:11] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.1.tar.gz tmp/ghastoolkit-0.1.2.tar.gz --markdown 20230424/g/ghastoolkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 15:20:12] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-04-24 15:20:12] INFO root fetch - main [MainThread]: End processing [Shreya-Dhumal-finance-charts]: success
+[2023-04-24 15:20:13] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-04-24 15:20:13] INFO root fetch - main [MainThread]: End processing [paddle-quantum]: success
+[2023-04-24 15:20:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-24 15:20:13] INFO root fetch - main [MainThread]: End processing [modin]: success
+[2023-04-24 15:20:15] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2023-04-24 15:20:21] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-04-24 15:20:21] INFO root fetch - main [MainThread]: Store serial: [17834061]
