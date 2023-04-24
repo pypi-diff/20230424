@@ -20858,3 +20858,100 @@
 [2023-04-24 21:17:38] INFO root fetch - main [MainThread]: End processing [JUtils]: success
 [2023-04-24 21:17:39] INFO root fetch - main [MainThread]: End processing [orso]: success
 [2023-04-24 21:17:39] INFO root fetch - main [MainThread]: Store serial: [17838563]
+[2023-04-24 21:22:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838563]
+[2023-04-24 21:22:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-mcp2515
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oreo4
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tidyms
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openpile
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hijridate
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bytecli
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bm-utilities
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: griptape
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-ligand
+[2023-04-24 21:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crispr-library-prep
+[2023-04-24 21:22:48] WARNING root fetch - processPackages [oreo4]: Skipping, unable to determine old version
+[2023-04-24 21:22:48] INFO root fetch - processPackages [oreo4]: Start processing: oreo4
+[2023-04-24 21:22:48] INFO root fetch - main [MainThread]: End processing [oreo4] error
+[2023-04-24 21:22:48] INFO root fetch - processPackages [openpile]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [adafruit-circuitpython-mcp2515]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [flask-ligand]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [griptape]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-24 21:22:48] WARNING root fetch - processPackages [hijridate]: Skipping, unable to determine old version
+[2023-04-24 21:22:48] INFO root fetch - processPackages [hijridate]: Start processing: commondatamodel-objectmodel-cdmstandards
+[2023-04-24 21:22:48] INFO root fetch - main [MainThread]: End processing [hijridate] error
+[2023-04-24 21:22:48] WARNING root fetch - processPackages [bm-utilities]: Skipping, unable to determine old version
+[2023-04-24 21:22:48] WARNING root fetch - processPackages [oreo4]: Skipping, unable to determine old version
+[2023-04-24 21:22:48] INFO root fetch - processPackages [bm-utilities]: Start processing: hotsos
+[2023-04-24 21:22:48] INFO root fetch - processPackages [bytecli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 21:22:48] INFO root fetch - main [MainThread]: End processing [bm-utilities] error
+[2023-04-24 21:22:48] INFO root fetch - processPackages [oreo4]: Start processing: interval-sdk
+[2023-04-24 21:22:48] INFO root fetch - main [MainThread]: End processing [oreo4] error
+[2023-04-24 21:22:48] INFO root fetch - processPackages [tidyms]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [commondatamodel-objectmodel-cdmstandards]: New version: [2.8.0] Old Version: [0.0.1]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [interval-sdk]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-24 21:22:48] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-24 21:22:48] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230424/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 21:22:48] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-24 21:22:48] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230424/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-24 21:22:48] INFO root fetch - processPackages [bytecli]: Downloading https://files.pythonhosted.org/packages/a0/00/a83d14aaffb5cd53dbf77c14fca2cbdfaa3af27918a5bddf574edf92449b/bytecli-0.1.0.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [adafruit-circuitpython-mcp2515]: Downloading https://files.pythonhosted.org/packages/bc/37/7ccfc1ba5ccd91a1af1764a2b9c5f6a7685d4b073a16d85df53ef5a0ff19/adafruit-circuitpython-mcp2515-1.1.0.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [flask-ligand]: Downloading https://files.pythonhosted.org/packages/86/c8/cc33bda45ba3bfbd4edc6b0b673868abfb26caaf8134e0d026a2b7dc709b/flask-ligand-0.7.2.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [openpile]: Downloading https://files.pythonhosted.org/packages/69/6b/959501bf872a069d130b1388dd4df144eecf846ccab3fc5801c1b0b1983c/openpile-0.1.0.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/e1/92/2dc3da5a3ac91219b0fab78a8597c63a38633a3762753053e69a86083a90/griptape-0.5.1.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [commondatamodel-objectmodel-cdmstandards]: Downloading https://files.pythonhosted.org/packages/ec/4f/d7dd0ca9aa015b43162e006c9fbdae01f419eb37d41f62d92cdb249c79db/commondatamodel-objectmodel-cdmstandards-0.0.1.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [tidyms]: Downloading https://files.pythonhosted.org/packages/c1/dc/782956bdf7c0c8143749f87ecaff07e5bf4a0465fc3f51f1010eeb8a804f/tidyms-0.6.3.tar.gz
+[2023-04-24 21:22:48] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/b5/a6/f9b04ff794746d2900c316bc2b87a7ee1d6afb374858495f88c3f9ada977/interval_sdk-1.0.3.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [commondatamodel-objectmodel-cdmstandards]: Downloading https://files.pythonhosted.org/packages/04/ac/79047c9f467e4d75fac4d7d3224eb1170d10b3fe58f106733191d8aa5727/commondatamodel-objectmodel-cdmstandards-2.8.0.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [openpile]: Downloading https://files.pythonhosted.org/packages/30/54/1d9f47308671a2c9229dc79ee900f5cfa0324e326a8e0dd0ae886ee72bc2/openpile-0.2.0.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/06/92/92b5385ea2790928f3d3b2d5cd00a15dc8c29543f8a97c1be03e34dd4652/griptape-0.6.0.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [flask-ligand]: Downloading https://files.pythonhosted.org/packages/5a/81/f586318d4239534eceb329762dca905fdd093c0d478767f59194a3429db9/flask-ligand-0.7.3.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [adafruit-circuitpython-mcp2515]: Downloading https://files.pythonhosted.org/packages/d8/2b/3cdc0a36fa4e1b76d13f8ef31778eddbd11b58bfe69c788fced4bb154ebd/adafruit-circuitpython-mcp2515-1.1.1.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [tidyms]: Downloading https://files.pythonhosted.org/packages/83/39/cc6cd789a7953df023ad9977817288cb14b055c730a2c78923e0541f1b36/tidyms-0.7.0.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [commondatamodel-objectmodel-cdmstandards]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [commondatamodel-objectmodel-cdmstandards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commondatamodel-objectmodel-cdmstandards-0.0.1.tar.gz tmp/commondatamodel-objectmodel-cdmstandards-2.8.0.tar.gz --markdown 20230424/c/commondatamodel-objectmodel-cdmstandards/0.0.1-2.8.0/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.5.1.tar.gz tmp/griptape-0.6.0.tar.gz --markdown 20230424/g/griptape/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/15/b6/6e6c3532fd730154e4803621642de89b20e6fdaed0fc743a785f814f7c4c/interval_sdk-1.1.0.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [openpile]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [openpile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpile-0.1.0.tar.gz tmp/openpile-0.2.0.tar.gz --markdown 20230424/o/openpile/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [flask-ligand]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [flask-ligand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-ligand-0.7.2.tar.gz tmp/flask-ligand-0.7.3.tar.gz --markdown 20230424/f/flask-ligand/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [bytecli]: Downloading https://files.pythonhosted.org/packages/e4/d8/99b2f20252ac2c6093ca5d49d5f777519f81672ba98e4bf88f480b592051/bytecli-0.1.1.tar.gz
+[2023-04-24 21:22:49] INFO root fetch - processPackages [adafruit-circuitpython-mcp2515]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [adafruit-circuitpython-mcp2515]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-mcp2515-1.1.0.tar.gz tmp/adafruit-circuitpython-mcp2515-1.1.1.tar.gz --markdown 20230424/a/adafruit-circuitpython-mcp2515/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.0.3.tar.gz tmp/interval_sdk-1.1.0.tar.gz --markdown 20230424/i/interval-sdk/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [bytecli]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [bytecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytecli-0.1.0.tar.gz tmp/bytecli-0.1.1.tar.gz --markdown 20230424/b/bytecli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 21:22:49] INFO root fetch - processPackages [tidyms]: executing diffoscope
+[2023-04-24 21:22:49] INFO root fetch - processPackages [tidyms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyms-0.6.3.tar.gz tmp/tidyms-0.7.0.tar.gz --markdown 20230424/t/tidyms/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-04-24 21:22:50] INFO root fetch - processPackages [crispr-library-prep]: Start processing: JUtils
+[2023-04-24 21:22:50] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-24 21:22:50] INFO root fetch - processPackages [JUtils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 21:22:50] INFO root fetch - processPackages [JUtils]: Downloading https://files.pythonhosted.org/packages/00/51/5a4f16c3f17ebd96cde780d596a8844ba223bcca6a00f9488ab9797fe66d/JUtils-1.0.1.tar.gz
+[2023-04-24 21:22:50] INFO root fetch - processPackages [JUtils]: executing diffoscope
+[2023-04-24 21:22:50] INFO root fetch - processPackages [JUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JUtils-1.0.0.tar.gz tmp/JUtils-1.0.1.tar.gz --markdown 20230424/J/JUtils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 21:22:50] INFO root fetch - processPackages [commondatamodel-objectmodel-cdmstandards]: Start processing: mkdocs-python-classy
+[2023-04-24 21:22:50] INFO root fetch - main [MainThread]: End processing [commondatamodel-objectmodel-cdmstandards]: success
+[2023-04-24 21:22:50] INFO root fetch - processPackages [bytecli]: Start processing: tecton
+[2023-04-24 21:22:50] INFO root fetch - main [MainThread]: End processing [bytecli]: success
+[2023-04-24 21:22:50] WARNING root fetch - processPackages [mkdocs-python-classy]: Skipping, unable to determine old version
+[2023-04-24 21:22:50] INFO root fetch - main [MainThread]: End processing [mkdocs-python-classy] error
+[2023-04-24 21:22:50] INFO root fetch - main [MainThread]: End processing [openpile]: success
+[2023-04-24 21:22:50] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-04-24 21:22:51] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-mcp2515]: success
+[2023-04-24 21:22:51] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-04-24 21:22:51] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ab/15/50fe8be1bdfae399aa601c6c83095d3815c92941e31e67f6dd894dc1d5e6/tecton-0.7.0b8.tar.gz
+[2023-04-24 21:22:51] INFO root fetch - main [MainThread]: End processing [flask-ligand]: success
+[2023-04-24 21:22:51] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-04-24 21:22:51] INFO root fetch - main [MainThread]: End processing [JUtils]: success
+[2023-04-24 21:22:52] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/69/ce/1a0b9ac92ad90f7624d38a3450d2ad3914be1fa55edb89778b3f2e58f43c/tecton-0.7.0b9.tar.gz
+[2023-04-24 21:22:53] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-04-24 21:22:53] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230424/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-04-24 21:22:54] INFO root fetch - main [MainThread]: End processing [tidyms]: success
+[2023-04-24 21:22:54] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-24 21:22:57] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-04-24 21:22:57] INFO root fetch - main [MainThread]: Store serial: [17838618]
