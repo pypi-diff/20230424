@@ -19447,3 +19447,93 @@
 [2023-04-24 19:52:48] INFO root fetch - main [MainThread]: End processing [preemo-worker-sdk]: success
 [2023-04-24 19:52:49] INFO root fetch - main [MainThread]: End processing [gdstk]: success
 [2023-04-24 19:52:49] INFO root fetch - main [MainThread]: Store serial: [17837545]
+[2023-04-24 19:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837545]
+[2023-04-24 19:57:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmesh
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: questdb-connect
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: great-expectations-experimental
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: generand
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bilix
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gokyuzu
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-material
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tinyshap
+[2023-04-24 19:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vellum-client
+[2023-04-24 19:57:58] INFO root fetch - processPackages [sqlmesh]: New version: [0.5.1.dev22] Old Version: [0.5.0]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [generand]: New version: [3.0.2] Old Version: [2.15.6]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [vellum-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 19:57:58] WARNING root fetch - processPackages [questdb-connect]: Skipping, unable to determine old version
+[2023-04-24 19:57:58] INFO root fetch - processPackages [questdb-connect]: Start processing: dark-matter
+[2023-04-24 19:57:58] INFO root fetch - processPackages [bilix]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [gokyuzu]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [tinyshap]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-24 19:57:58] INFO root fetch - main [MainThread]: End processing [questdb-connect] error
+[2023-04-24 19:57:58] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230424044] Old Version: [0.1.20230419036]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [mkdocs-material]: New version: [9.1.8] Old Version: [9.1.7]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-24 19:57:58] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-24 19:57:58] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230424/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 19:57:58] INFO root fetch - processPackages [vellum-client]: Downloading https://files.pythonhosted.org/packages/d9/6a/bd22e8ace1e4d4939d5886f3ae4f029cad93f59a55b70336a802b9074b93/vellum-client-0.0.8.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/03/13/44d118bda0d69da31fc52ebfd2a8d553fce13f07da3ece9b2a4d472ecb72/generand-2.15.6.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/8b/06/16848019618ef863d1d966afe8bfcff0f7b3f692039e8bb010ca83a96441/sqlmesh-0.5.0.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/7d/94/ca2cf30864afb7e15c552ee7fa604327aa0598789f4b5a146b957109d51a/bilix-0.9.3.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [tinyshap]: Downloading https://files.pythonhosted.org/packages/5d/3d/0312647b7ebcae0a63b5f6ec3e104658d273d50f42ed11236402ce7ea30d/tinyshap-0.0.2.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/c5/82/d355326b099301eed0c9ec0f87e8c57059d39a286d1b3f0b3ef5bf931e93/great_expectations_experimental-0.1.20230419036.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [gokyuzu]: Downloading https://files.pythonhosted.org/packages/0a/63/a93c090f5fcd44ac94e2e0ac19323817bf0f321c7e151221313d36786b69/gokyuzu-2.0.0.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/a9/6c/057f38f3d460bbdad4acffee8121fcfaa86df945bf77636803f770925c31/mkdocs_material-9.1.8.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [tinyshap]: executing diffoscope
+[2023-04-24 19:57:58] INFO root fetch - processPackages [tinyshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyshap-0.0.1.tar.gz tmp/tinyshap-0.0.2.tar.gz --markdown 20230424/t/tinyshap/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 19:57:58] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/f1/9e/54ea3a98f578fd262bca13873bca7c06275140b0e94d1dc601ea19732c92/great_expectations_experimental-0.1.20230424044.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/5f/2f/6abf76eebfd8bfb04235bc9f8be70ab55da75248d8379fc1ed5590a8d074/generand-3.0.2.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [gokyuzu]: executing diffoscope
+[2023-04-24 19:57:58] INFO root fetch - processPackages [gokyuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gokyuzu-1.0.1.tar.gz tmp/gokyuzu-2.0.0.tar.gz --markdown 20230424/g/gokyuzu/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-24 19:57:58] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/2a/f0/5db1257e389b7548838bdd99a4d8b545b3bb1b60a5195e674a98f25705fc/bilix-0.9.4.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [vellum-client]: Downloading https://files.pythonhosted.org/packages/de/f9/daf82f352372c2c4086c538dd080d9fb0afb5b65b665eea2075fa743ec01/vellum-client-0.0.9.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-04-24 19:57:58] INFO root fetch - processPackages [generand]: executing diffoscope
+[2023-04-24 19:57:58] INFO root fetch - processPackages [generand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generand-2.15.6.tar.gz tmp/generand-3.0.2.tar.gz --markdown 20230424/g/generand/2.15.6-3.0.2/diff.md --exclude *.pyd
+[2023-04-24 19:57:58] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-04-24 19:57:58] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230419036.tar.gz tmp/great_expectations_experimental-0.1.20230424044.tar.gz --markdown 20230424/g/great-expectations-experimental/0.1.20230419036-0.1.20230424044/diff.md --exclude *.pyd
+[2023-04-24 19:57:59] INFO root fetch - processPackages [vellum-client]: executing diffoscope
+[2023-04-24 19:57:59] INFO root fetch - processPackages [vellum-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum-client-0.0.8.tar.gz tmp/vellum-client-0.0.9.tar.gz --markdown 20230424/v/vellum-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:57:59] INFO root fetch - processPackages [bilix]: executing diffoscope
+[2023-04-24 19:57:59] INFO root fetch - processPackages [bilix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilix-0.9.3.tar.gz tmp/bilix-0.9.4.tar.gz --markdown 20230424/b/bilix/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-24 19:57:59] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-04-24 19:57:59] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230424/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:57:59] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/45/f1/391c76ec2548e76a5e24d81094401563ba0c66cdbade2eb16e8167706786/sqlmesh-0.5.1.dev22.tar.gz
+[2023-04-24 19:57:59] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2023-04-24 19:57:59] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.1.7.tar.gz tmp/mkdocs_material-9.1.8.tar.gz --markdown 20230424/m/mkdocs-material/9.1.7-9.1.8/diff.md --exclude *.pyd
+[2023-04-24 19:57:59] INFO root fetch - processPackages [few-shot-priming]: Start processing: pysigma-backend-microsoft365defender
+[2023-04-24 19:57:59] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-24 19:57:59] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 19:57:59] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: Downloading https://files.pythonhosted.org/packages/f7/96/b81873286063967be53c9750f15de203705deb2a10c2786b6038ab892448/pysigma_backend_microsoft365defender-0.1.2.tar.gz
+[2023-04-24 19:57:59] INFO root fetch - processPackages [tinyshap]: Start processing: concave-uhull
+[2023-04-24 19:57:59] INFO root fetch - main [MainThread]: End processing [tinyshap]: success
+[2023-04-24 19:58:00] INFO root fetch - processPackages [gokyuzu]: Start processing: fileup
+[2023-04-24 19:58:00] INFO root fetch - main [MainThread]: End processing [gokyuzu]: success
+[2023-04-24 19:58:00] INFO root fetch - processPackages [concave-uhull]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-24 19:58:00] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: Downloading https://files.pythonhosted.org/packages/e4/6c/787190c830fc4524e3fec274f0e3eb55813e6338bd76bd523e22b03774f5/pysigma_backend_microsoft365defender-0.1.3.tar.gz
+[2023-04-24 19:58:00] WARNING root fetch - processPackages [fileup]: Skipping, unable to determine old version
+[2023-04-24 19:58:00] INFO root fetch - main [MainThread]: End processing [fileup] error
+[2023-04-24 19:58:00] INFO root fetch - processPackages [concave-uhull]: Downloading https://files.pythonhosted.org/packages/13/05/f4f0f74dc152297e11c3cf9196b7133c893430eafa571d65926b5d4b5524/concave_uhull-0.2.4.tar.gz
+[2023-04-24 19:58:00] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: executing diffoscope
+[2023-04-24 19:58:00] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_microsoft365defender-0.1.2.tar.gz tmp/pysigma_backend_microsoft365defender-0.1.3.tar.gz --markdown 20230424/p/pysigma-backend-microsoft365defender/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 19:58:00] INFO root fetch - main [MainThread]: End processing [generand]: success
+[2023-04-24 19:58:00] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-24 19:58:00] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.5.0.tar.gz tmp/sqlmesh-0.5.1.dev22.tar.gz --markdown 20230424/s/sqlmesh/0.5.0-0.5.1.dev22/diff.md --exclude *.pyd
+[2023-04-24 19:58:00] INFO root fetch - main [MainThread]: End processing [vellum-client]: success
+[2023-04-24 19:58:00] INFO root fetch - processPackages [concave-uhull]: Downloading https://files.pythonhosted.org/packages/0a/84/987c240ee18f07537dffe255c788f496b8e41983d618d762f9adf2785282/concave_uhull-0.2.5.tar.gz
+[2023-04-24 19:58:00] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-04-24 19:58:00] INFO root fetch - processPackages [concave-uhull]: executing diffoscope
+[2023-04-24 19:58:00] INFO root fetch - processPackages [concave-uhull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concave_uhull-0.2.4.tar.gz tmp/concave_uhull-0.2.5.tar.gz --markdown 20230424/c/concave-uhull/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-24 19:58:01] INFO root fetch - main [MainThread]: End processing [bilix]: success
+[2023-04-24 19:58:01] INFO root fetch - main [MainThread]: End processing [pysigma-backend-microsoft365defender]: success
+[2023-04-24 19:58:01] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-04-24 19:58:01] INFO root fetch - main [MainThread]: End processing [concave-uhull]: success
+[2023-04-24 20:00:59] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
+[2023-04-24 20:00:59] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
+[2023-04-24 20:01:00] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
+[2023-04-24 20:01:00] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2023-04-24 20:01:00] INFO root fetch - main [MainThread]: Store serial: [17837591]
