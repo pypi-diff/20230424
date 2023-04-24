@@ -6201,3 +6201,150 @@
 [2023-04-24 08:57:11] INFO root fetch - main [MainThread]: End processing [target-mssql]: success
 [2023-04-24 08:57:35] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-04-24 08:57:35] INFO root fetch - main [MainThread]: Store serial: [17829845]
+[2023-04-24 09:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829845]
+[2023-04-24 09:02:48] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: routingblocks
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpcclient
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jnb2py
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: badi-users
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikeCA
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sitcom
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: revs
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: varname
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: act-workers
+[2023-04-24 09:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: conlp
+[2023-04-24 09:02:48] INFO root fetch - processPackages [routingblocks]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 09:02:48] WARNING root fetch - processPackages [jnb2py]: Skipping, unable to determine old version
+[2023-04-24 09:02:48] INFO root fetch - processPackages [jnb2py]: Start processing: xfields
+[2023-04-24 09:02:48] INFO root fetch - main [MainThread]: End processing [jnb2py] error
+[2023-04-24 09:02:48] INFO root fetch - processPackages [rpcclient]: New version: [3.15.4] Old Version: [3.15.2]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [varname]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [conlp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [sitcom]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [badi-users]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-24 09:02:48] WARNING root fetch - processPackages [revs]: Skipping, unable to determine old version
+[2023-04-24 09:02:48] INFO root fetch - processPackages [act-workers]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [revs]: Start processing: vidis-algorithms-api
+[2023-04-24 09:02:48] INFO root fetch - main [MainThread]: End processing [revs] error
+[2023-04-24 09:02:48] INFO root fetch - processPackages [NikeCA]: New version: [0.1.80] Old Version: [0.1.79]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [xfields]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [act-workers]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [act-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-workers-2.1.8.tar.gz tmp/act-workers-2.1.9.tar.gz --markdown 20230424/a/act-workers/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/bc/0f/50fda5ef0f3128d0e91701d84a6c0e53ea113f2552b4210d621bf7039ee1/sitcom-1.3.6.tar.gz
+[2023-04-24 09:02:48] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689463>=10485760
+[2023-04-24 09:02:48] INFO root fetch - processPackages [sitcom]: Start processing: geoutils
+[2023-04-24 09:02:48] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-24 09:02:48] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/7a/77/3a6abbee5bec0b9a1a9208d8bfbb48c1d3847a3623b736877d07f2a19f3c/xfields-0.9.3.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [varname]: Downloading https://files.pythonhosted.org/packages/51/88/9831b07eec652a4bdea95461de525aa83dfa3cff1979807fb534ddb813da/varname-0.9.0.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [geoutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 09:02:48] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/66/25/e6bff6dcd03714506a9a5b39b70a2ecb4aabbf9a0a0df6833c205d155c8c/vidis_algorithms_api-0.4.6.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/a9/09/e0e7bd56834e3b2f32556c14d3071171514fb82ce52d13fb3d11ecbd5d0a/NikeCA-0.1.79.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [conlp]: Downloading https://files.pythonhosted.org/packages/bb/b1/e4bf10da212abf2a007169daa690af3d09a121a207502bcbd0a8171d8de1/conlp-0.0.6.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/b7/2d/20d417ac73a805eaf6f986e947b8d672018f8f95d1b1cf72509a81e34ad2/rpcclient-3.15.4.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.4.5.tar.gz tmp/vidis_algorithms_api-0.4.6.tar.gz --markdown 20230424/v/vidis-algorithms-api/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/86/92/20671e490f8739181064c3eac87ce55bcc413581a8ccdf1491a48e011cf3/badi_users-0.9.6.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [conlp]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [conlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conlp-0.0.5.tar.gz tmp/conlp-0.0.6.tar.gz --markdown 20230424/c/conlp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [geoutils]: Downloading https://files.pythonhosted.org/packages/8d/a6/88bd842edd4e03b7fca9af72b006553fb995187b9c2bffb021520ea7e9b3/geoutils-0.0.8.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-3.15.2.tar.gz tmp/rpcclient-3.15.4.tar.gz --markdown 20230424/r/rpcclient/3.15.2-3.15.4/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [routingblocks]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [routingblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingblocks-0.1.8.tar.gz tmp/routingblocks-0.1.9.tar.gz --markdown 20230424/r/routingblocks/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-0.9.5.tar.gz tmp/badi_users-0.9.6.tar.gz --markdown 20230424/b/badi-users/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/8b/54/cac5d52db408c1d03b97e7d6c7f37530ed94cdc6cec242e76f900759b3a3/xfields-0.9.4.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/e0/6c/a1207b8cee8c4aaa71e9bf83adf2b4fada1feaef675616bff4b2bff5e78b/NikeCA-0.1.80.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [varname]: Downloading https://files.pythonhosted.org/packages/d6/d2/5a9dd0c7f233d09eee238282347ef613c98e9071db4da168392a1746339f/varname-0.9.1.tar.gz
+[2023-04-24 09:02:48] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.79.tar.gz tmp/NikeCA-0.1.80.tar.gz --markdown 20230424/N/NikeCA/0.1.79-0.1.80/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [xfields]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [xfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfields-0.9.3.tar.gz tmp/xfields-0.9.4.tar.gz --markdown 20230424/x/xfields/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-24 09:02:48] INFO root fetch - processPackages [varname]: executing diffoscope
+[2023-04-24 09:02:48] INFO root fetch - processPackages [varname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varname-0.9.0.tar.gz tmp/varname-0.9.1.tar.gz --markdown 20230424/v/varname/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 09:02:49] INFO root fetch - processPackages [geoutils]: Downloading https://files.pythonhosted.org/packages/bb/e0/c74fc23ec9dad63b6dea6138399f333c000b1797df69500e73a66806b83b/geoutils-0.0.9.tar.gz
+[2023-04-24 09:02:49] INFO root fetch - processPackages [vidis-algorithms-api]: Start processing: yuanfen
+[2023-04-24 09:02:49] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-24 09:02:49] INFO root fetch - processPackages [yuanfen]: New version: [2023.4.24.1] Old Version: [2023.4.23.7]
+[2023-04-24 09:02:49] INFO root fetch - processPackages [conlp]: Start processing: bp-data-fabric
+[2023-04-24 09:02:49] INFO root fetch - main [MainThread]: End processing [conlp]: success
+[2023-04-24 09:02:49] INFO root fetch - processPackages [geoutils]: executing diffoscope
+[2023-04-24 09:02:49] INFO root fetch - processPackages [geoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoutils-0.0.8.tar.gz tmp/geoutils-0.0.9.tar.gz --markdown 20230424/g/geoutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:02:49] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 09:02:49] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/13/2e/5aecba2ededbc5adf406bd66a5f30a97c1f3222e6e2377902fd7b80ea83b/yuanfen-2023.4.24.1.tar.gz
+[2023-04-24 09:02:50] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-24 09:02:50] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.8.tar.gz tmp/bp_data_fabric-0.0.9.tar.gz --markdown 20230424/b/bp-data-fabric/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:02:50] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2023-04-24 09:02:50] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2023.4.23.7.tar.gz tmp/yuanfen-2023.4.24.1.tar.gz --markdown 20230424/y/yuanfen/2023.4.23.7-2023.4.24.1/diff.md --exclude *.pyd
+[2023-04-24 09:02:50] INFO root fetch - processPackages [NikeCA]: Start processing: we-report
+[2023-04-24 09:02:50] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-04-24 09:02:50] INFO root fetch - processPackages [varname]: Start processing: we-report
+[2023-04-24 09:02:50] INFO root fetch - main [MainThread]: End processing [varname]: success
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-04-24 09:02:50] INFO root fetch - processPackages [rpcclient]: Start processing: ovos-classifiers
+[2023-04-24 09:02:50] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: Downloading https://files.pythonhosted.org/packages/6f/d1/7a0c73077b5543d015bcbaea7201499cd8ef31078f85fc02f7d01604c5f0/we_report-0.0.1.8-py3-none-any.whl
+[2023-04-24 09:02:50] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: Downloading https://files.pythonhosted.org/packages/6f/d1/7a0c73077b5543d015bcbaea7201499cd8ef31078f85fc02f7d01604c5f0/we_report-0.0.1.8-py3-none-any.whl
+[2023-04-24 09:02:50] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/8a/8e/b1b6594765e13dbe941bd41bb4dd60a2097f77d7ef537ca68c51f3ab71b0/ovos_classifiers-0.0.0a1-py3-none-any.whl
+[2023-04-24 09:02:50] INFO root fetch - processPackages [xfields]: Start processing: resolwe
+[2023-04-24 09:02:50] INFO root fetch - main [MainThread]: End processing [xfields]: success
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: Downloading https://files.pythonhosted.org/packages/7f/5b/f069e8b470fda168bedc9eb8e232d13f756e74a4fe33492efd7c7bf97930/we_report-0.0.1.9-py3-none-any.whl
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: Downloading https://files.pythonhosted.org/packages/7f/5b/f069e8b470fda168bedc9eb8e232d13f756e74a4fe33492efd7c7bf97930/we_report-0.0.1.9-py3-none-any.whl
+[2023-04-24 09:02:50] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: executing diffoscope
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_report-0.0.1.8-py3-none-any.whl.zip tmp/we_report-0.0.1.9-py3-none-any.whl.zip --markdown 20230424/w/we-report/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: executing diffoscope
+[2023-04-24 09:02:50] INFO root fetch - processPackages [we-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_report-0.0.1.8-py3-none-any.whl.zip tmp/we_report-0.0.1.9-py3-none-any.whl.zip --markdown 20230424/w/we-report/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-04-24 09:02:50] INFO root fetch - processPackages [act-workers]: Start processing: anyioc
+[2023-04-24 09:02:50] INFO root fetch - main [MainThread]: End processing [act-workers]: success
+[2023-04-24 09:02:50] INFO root fetch - processPackages [anyioc]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 09:02:50] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/de/ad/560e7218db72e8f0ed3a303a6c93187e91b4e51351e0a62f505104e61162/ovos_classifiers-0.0.0a2-py3-none-any.whl
+[2023-04-24 09:02:51] INFO root fetch - processPackages [anyioc]: executing diffoscope
+[2023-04-24 09:02:51] INFO root fetch - processPackages [anyioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyioc-0.9.0.tar.gz tmp/anyioc-0.9.1.tar.gz --markdown 20230424/a/anyioc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 09:02:51] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-04-24 09:02:51] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a1-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a2-py3-none-any.whl.zip --markdown 20230424/o/ovos-classifiers/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-04-24 09:02:51] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-04-24 09:02:51] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230424/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-04-24 09:02:51] INFO root fetch - processPackages [yuanfen]: Start processing: bacteria
+[2023-04-24 09:02:51] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2023-04-24 09:02:51] INFO root fetch - processPackages [bacteria]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 09:02:51] INFO root fetch - processPackages [bp-data-fabric]: Start processing: tf-models-nightly
+[2023-04-24 09:02:51] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-24 09:02:51] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-04-24 09:02:51] INFO root fetch - processPackages [geoutils]: Start processing: seven2one
+[2023-04-24 09:02:51] INFO root fetch - main [MainThread]: End processing [geoutils]: success
+[2023-04-24 09:02:51] INFO root fetch - processPackages [seven2one]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-04-24 09:02:51] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/a5/56/a7ac863fae7029948ab9f0ebfcc547a8f8dd19c4be7fda9ad4f93e99aa64/bacteria-0.1.2.tar.gz
+[2023-04-24 09:02:51] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-04-24 09:02:51] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230424/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-04-24 09:02:51] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-24 09:02:51] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.1.1.tar.gz tmp/bacteria-0.1.2.tar.gz --markdown 20230424/b/bacteria/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 09:02:51] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/41/36/2e606c3242f45f0afe690a509969ab51ad23ed2de8afca90c8f2571f6f28/seven2one-4.1.2.tar.gz
+[2023-04-24 09:02:52] INFO root fetch - processPackages [seven2one]: executing diffoscope
+[2023-04-24 09:02:52] INFO root fetch - processPackages [seven2one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven2one-4.1.1.tar.gz tmp/seven2one-4.1.2.tar.gz --markdown 20230424/s/seven2one/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-04-24 09:02:52] INFO root fetch - processPackages [we-report]: Start processing: pychunkbuffers
+[2023-04-24 09:02:52] INFO root fetch - main [MainThread]: End processing [we-report]: success
+[2023-04-24 09:02:52] INFO root fetch - processPackages [pychunkbuffers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 09:02:52] INFO root fetch - processPackages [we-report]: Start processing: seqio-nightly
+[2023-04-24 09:02:52] INFO root fetch - main [MainThread]: End processing [we-report]: success
+[2023-04-24 09:02:52] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-04-24 09:02:52] INFO root fetch - processPackages [pychunkbuffers]: Downloading https://files.pythonhosted.org/packages/4f/b1/97e9ee8f013018c965e72a897ba0054509b5c720777c24d5054e9a517493/pychunkbuffers-1.0.0.tar.gz
+[2023-04-24 09:02:52] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-04-24 09:02:52] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-04-24 09:02:52] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230424/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-04-24 09:02:52] INFO root fetch - main [MainThread]: End processing [anyioc]: success
+[2023-04-24 09:02:52] INFO root fetch - processPackages [pychunkbuffers]: Downloading https://files.pythonhosted.org/packages/1d/41/dec6f75b738a27677de01ba723b0f0c0f08850bd96473e4ef16eb02aca9d/pychunkbuffers-1.0.1.tar.gz
+[2023-04-24 09:02:52] INFO root fetch - processPackages [pychunkbuffers]: executing diffoscope
+[2023-04-24 09:02:52] INFO root fetch - processPackages [pychunkbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychunkbuffers-1.0.0.tar.gz tmp/pychunkbuffers-1.0.1.tar.gz --markdown 20230424/p/pychunkbuffers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 09:02:52] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-04-24 09:02:53] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-24 09:02:53] INFO root fetch - main [MainThread]: End processing [seven2one]: success
+[2023-04-24 09:02:53] INFO root fetch - main [MainThread]: End processing [pychunkbuffers]: success
+[2023-04-24 09:02:53] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-04-24 09:02:54] INFO root fetch - main [MainThread]: End processing [routingblocks]: success
+[2023-04-24 09:02:56] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-04-24 09:03:07] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-04-24 09:03:07] INFO root fetch - main [MainThread]: Store serial: [17829954]
