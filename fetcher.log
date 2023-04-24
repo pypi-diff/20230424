@@ -5025,3 +5025,52 @@
 [2023-04-24 06:57:45] INFO root fetch - main [MainThread]: End processing [pmkoalas]: success
 [2023-04-24 06:57:45] INFO root fetch - main [MainThread]: End processing [jefferson-street-composer]: success
 [2023-04-24 06:57:45] INFO root fetch - main [MainThread]: Store serial: [17829134]
+[2023-04-24 07:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829134]
+[2023-04-24 07:02:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: complex-curve-fit-gui
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DXR
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfbsdk-stub-generator
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stralgo
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alice-skills-manager
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowclient
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowetl
+[2023-04-24 07:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowmachine
+[2023-04-24 07:02:53] INFO root fetch - processPackages [complex-curve-fit-gui]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [stralgo]: New version: [1.1.0b1] Old Version: [0.1.2b1]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [DXR]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [pyfbsdk-stub-generator]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [alice-skills-manager]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-24 07:02:53] INFO root fetch - processPackages [complex-curve-fit-gui]: Downloading https://files.pythonhosted.org/packages/33/74/88820b08280de447fbbf7eb175bcbf42acc81b55e480ea317cdfe8db9015/complex_curve_fit_gui-1.1.4.tar.gz
+[2023-04-24 07:02:53] INFO root fetch - processPackages [stralgo]: Downloading https://files.pythonhosted.org/packages/76/95/0a95560c1dd6b76498d16a52dbdb7fce0488fc1280bc005b50e964eac071/stralgo-1.1.0b1-cp39-abi3-win32.whl
+[2023-04-24 07:02:53] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/b9/e6/42a075ae0dd35fbd2d9cb73abf4b4fb3d16f36994bc7cb9872de2eea69e7/DXR-1.6.8.tar.gz
+[2023-04-24 07:02:53] INFO root fetch - processPackages [complex-curve-fit-gui]: executing diffoscope
+[2023-04-24 07:02:53] INFO root fetch - processPackages [complex-curve-fit-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex_curve_fit_gui-1.1.3.tar.gz tmp/complex_curve_fit_gui-1.1.4.tar.gz --markdown 20230424/c/complex-curve-fit-gui/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-24 07:02:53] INFO root fetch - processPackages [pyfbsdk-stub-generator]: Downloading https://files.pythonhosted.org/packages/17/8d/392b9d506ad332326e9209fbcb1c932a9081a5616f3665a33eaa1e83677e/pyfbsdk-stub-generator-1.0.0.tar.gz
+[2023-04-24 07:02:53] INFO root fetch - processPackages [alice-skills-manager]: Downloading https://files.pythonhosted.org/packages/3c/bd/257fbd1f7e98820f3fda3ca8561f20f786feced94b855d1a874632670b4c/alice-skills-manager-0.0.6.tar.gz
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230424/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-24 07:02:53] INFO root fetch - processPackages [stralgo]: executing diffoscope
+[2023-04-24 07:02:53] INFO root fetch - processPackages [stralgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stralgo-0.1.2b1-cp39-abi3-win32.whl.zip tmp/stralgo-1.1.0b1-cp39-abi3-win32.whl.zip --markdown 20230424/s/stralgo/0.1.2b1-1.1.0b1/diff.md --exclude *.pyd
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230424/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-24 07:02:53] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230424/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-24 07:02:53] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/99/99/7ef5eb757e06db07653a5c2345049987ae1ad8ecf7589a1d7cac22015d59/DXR-1.7.0.tar.gz
+[2023-04-24 07:02:53] INFO root fetch - processPackages [pyfbsdk-stub-generator]: executing diffoscope
+[2023-04-24 07:02:53] INFO root fetch - processPackages [pyfbsdk-stub-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfbsdk-stub-generator-0.0.4.tar.gz tmp/pyfbsdk-stub-generator-1.0.0.tar.gz --markdown 20230424/p/pyfbsdk-stub-generator/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 07:02:54] INFO root fetch - processPackages [alice-skills-manager]: executing diffoscope
+[2023-04-24 07:02:54] INFO root fetch - processPackages [alice-skills-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alice-skills-manager-0.0.5.tar.gz tmp/alice-skills-manager-0.0.6.tar.gz --markdown 20230424/a/alice-skills-manager/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 07:02:54] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-04-24 07:02:54] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.6.8.tar.gz tmp/DXR-1.7.0.tar.gz --markdown 20230424/D/DXR/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-04-24 07:02:55] INFO root fetch - main [MainThread]: End processing [stralgo]: success
+[2023-04-24 07:02:55] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-24 07:02:55] INFO root fetch - main [MainThread]: End processing [pyfbsdk-stub-generator]: success
+[2023-04-24 07:02:55] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-24 07:02:55] INFO root fetch - main [MainThread]: End processing [alice-skills-manager]: success
+[2023-04-24 07:02:55] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-04-24 07:02:56] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-24 07:02:57] INFO root fetch - main [MainThread]: End processing [complex-curve-fit-gui]: success
+[2023-04-24 07:02:57] INFO root fetch - main [MainThread]: Store serial: [17829154]
