@@ -22065,3 +22065,138 @@
 [2023-04-24 22:40:25] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-24 22:41:34] INFO root fetch - main [MainThread]: End processing [bdkpython]: success
 [2023-04-24 22:41:34] INFO root fetch - main [MainThread]: Store serial: [17839214]
+[2023-04-24 22:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839214]
+[2023-04-24 22:46:56] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wellets-cli
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hsso
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: looper
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weatherly
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discovery-transition-ds
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphscope
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphscope-client
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oracledb
+[2023-04-24 22:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gs-apps
+[2023-04-24 22:46:56] WARNING root fetch - processPackages [hsso]: Skipping, unable to determine old version
+[2023-04-24 22:46:56] INFO root fetch - processPackages [wellets-cli]: New version: [1.5.1] Old Version: [1.2.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [hsso]: Start processing: gs-coordinator
+[2023-04-24 22:46:56] INFO root fetch - processPackages [weatherly]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-24 22:46:56] INFO root fetch - main [MainThread]: End processing [hsso] error
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [looper]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-apps]: New version: [0.21.0a20230424] Old Version: [0.21.0a20230423]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [oracledb]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-coordinator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev6] Old Version: [4.1.9.dev5]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [looper]: Downloading https://files.pythonhosted.org/packages/26/d9/ef61bde8cdfebb99c584c38aa6cb0a2fa6f4ccdc12970435eb33fb7368a9/looper-1.3.2.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/44/71/50b63cab236e6c60e1711c732aeeb7ebb0c810007108c8fd1a1004188baf/gs_apps-0.21.0a20230423-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:46:56] INFO root fetch - processPackages [wellets-cli]: Downloading https://files.pythonhosted.org/packages/98/83/8d573cf9d44105adaeeaa5d7f396a545ea841cdadc08f8ec8bd59ef5739e/wellets_cli-1.2.0.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/8a/cf/5bf5520d0cba1c8ac0bd824e70ade1c01fce914eeed5c7c210496c3f5906/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-04-24 22:46:56] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [oracledb]: Downloading https://files.pythonhosted.org/packages/f9/fb/cd143639867963515fefa116f9392d74df242a7979df8abaaa8ec3d08c27/oracledb-1.3.0.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/71/0d/6c4b5d49846c2ee8e977037c2419e1ef57a68acfe87fdf0a031771493e84/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f7/53/c1ffb245684956bc30883fd2945f3e1677b030e8d69945fbfca28db2b46a/graphscope_client-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:46:56] INFO root fetch - processPackages [weatherly]: Downloading https://files.pythonhosted.org/packages/9f/69/bddcd7614c9da6aa07961cd2c2f1b1b40969e3e60167ed015ff582bb471c/weatherly-0.2.0-py3.11.egg
+[2023-04-24 22:46:56] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47786981>=10485760
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-apps]: Start processing: gs-engine
+[2023-04-24 22:46:56] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-04-24 22:46:56] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 48560616>=10485760
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope-client]: Start processing: gs-include
+[2023-04-24 22:46:56] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/9a/cb/73423199102ba8d70adbd603cf8d5db456c4151cbec0af51ea3bea601f5a/moto-4.1.9.dev6.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [looper]: Downloading https://files.pythonhosted.org/packages/36/ab/b46d53a9e93602f654aa4c5473aaaeb0ce74d90a79cb83e3e19ba109052d/looper-1.4.0.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-include]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 22:46:56] INFO root fetch - processPackages [weatherly]: Downloading https://files.pythonhosted.org/packages/50/eb/8b60b1a2755a84301e24287081483a16f31959749769be35ae701ef82afe/weatherly-0.3.0-py3.10.egg
+[2023-04-24 22:46:56] INFO root fetch - processPackages [wellets-cli]: Downloading https://files.pythonhosted.org/packages/0a/03/04181ce4a95fe8dbdb6d5f931b168fdec17014ee2011153734b9122a4e56/wellets_cli-1.5.1.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/88/bc/d15c620f88ee0f2d9e2d48162b0fe41abceec7a07feb87268c4d10c6392b/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl
+[2023-04-24 22:46:56] INFO root fetch - processPackages [oracledb]: Downloading https://files.pythonhosted.org/packages/e9/3f/17de9cc200cc783a3efdcf9b8a540c2af89726b8064860f802b7b0bb8687/oracledb-1.3.1.tar.gz
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope]: executing diffoscope
+[2023-04-24 22:46:56] INFO root fetch - processPackages [graphscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230424/g/graphscope/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/bd/b0/b9b1a1a65be3a78a220a726aa90bda0d1e1a17bbc47999c157c784a7320e/gs_engine-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:46:56] INFO root fetch - processPackages [looper]: executing diffoscope
+[2023-04-24 22:46:56] INFO root fetch - processPackages [looper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looper-1.3.2.tar.gz tmp/looper-1.4.0.tar.gz --markdown 20230424/l/looper/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-04-24 22:46:56] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/14/24/6aa7d96461fb18c825639db76c5c3edc7abfca148e3e55cc010cbf4d9a02/gs_include-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:46:57] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/b7/72/66667502448c5415e0a3437e817f8ee16d970e4058abb125303ce5365eee/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl
+[2023-04-24 22:46:57] WARNING root fetch - processPackages [gs-engine]: Skipping package: exceeds size limit 88119450>=10485760
+[2023-04-24 22:46:57] INFO root fetch - processPackages [gs-engine]: Start processing: frascii
+[2023-04-24 22:46:57] INFO root fetch - main [MainThread]: End processing [gs-engine] error
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frascii]: New version: [2.6] Old Version: [2.5]
+[2023-04-24 22:46:57] INFO root fetch - processPackages [wellets-cli]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [wellets-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wellets_cli-1.2.0.tar.gz tmp/wellets_cli-1.5.1.tar.gz --markdown 20230424/w/wellets-cli/1.2.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] INFO root fetch - processPackages [weatherly]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [weatherly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatherly-0.2.0-py3.11.egg tmp/weatherly-0.3.0-py3.10.egg --markdown 20230424/w/weatherly/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 73794505>=10485760
+[2023-04-24 22:46:57] INFO root fetch - processPackages [gs-include]: Start processing: frccontrol
+[2023-04-24 22:46:57] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-04-24 22:46:57] INFO root fetch - processPackages [oracledb]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [oracledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oracledb-1.3.0.tar.gz tmp/oracledb-1.3.1.tar.gz --markdown 20230424/o/oracledb/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frccontrol]: New version: [2023.29] Old Version: [2023.28]
+[2023-04-24 22:46:57] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230424/g/gs-coordinator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frascii]: Downloading https://files.pythonhosted.org/packages/41/9d/4ee8d71fa1aa33a38115c6894c8571843c56e5b81e5d3b0eb00947fa72e5/frascii-2.6.tar.gz
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frccontrol]: Downloading https://files.pythonhosted.org/packages/61/2d/996afeb86ae642de65275cc18188ee7df99aa73782755e3e08150b57ae15/frccontrol-2023.28.tar.gz
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frascii]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frascii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frascii-2.5.tar.gz tmp/frascii-2.6.tar.gz --markdown 20230424/f/frascii/2.5-2.6/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev5.tar.gz tmp/moto-4.1.9.dev6.tar.gz --markdown 20230424/m/moto/4.1.9.dev5-4.1.9.dev6/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frccontrol]: Downloading https://files.pythonhosted.org/packages/df/4d/18b37660649f58820907d4e76dd274ba3f01ec5625795663466ced1ebf59/frccontrol-2023.29.tar.gz
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frccontrol]: executing diffoscope
+[2023-04-24 22:46:57] INFO root fetch - processPackages [frccontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frccontrol-2023.28.tar.gz tmp/frccontrol-2023.29.tar.gz --markdown 20230424/f/frccontrol/2023.28-2023.29/diff.md --exclude *.pyd
+[2023-04-24 22:46:57] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-04-24 22:46:58] INFO root fetch - processPackages [graphscope]: Start processing: ultracart-rest-sdk
+[2023-04-24 22:46:58] INFO root fetch - main [MainThread]: End processing [graphscope]: success
+[2023-04-24 22:46:58] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-24 22:46:58] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2023-04-24 22:46:58] INFO root fetch - processPackages [frascii]: Start processing: rt-option-menu
+[2023-04-24 22:46:58] INFO root fetch - main [MainThread]: End processing [frascii]: success
+[2023-04-24 22:46:58] INFO root fetch - processPackages [weatherly]: Start processing: databricks-sql-cli
+[2023-04-24 22:46:58] INFO root fetch - main [MainThread]: End processing [weatherly]: success
+[2023-04-24 22:46:58] INFO root fetch - processPackages [rt-option-menu]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 22:46:59] INFO root fetch - processPackages [databricks-sql-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 22:46:59] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [gs-coordinator]: Start processing: holidata
+[2023-04-24 22:46:59] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-04-24 22:46:59] INFO root fetch - processPackages [rt-option-menu]: Downloading https://files.pythonhosted.org/packages/8a/0b/acfdec7ff4b130341666e63e51381b9d410cff49d12f061b54204c7871c7/rt-option-menu-0.1.5.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [frccontrol]: Start processing: moto
+[2023-04-24 22:46:59] INFO root fetch - main [MainThread]: End processing [frccontrol]: success
+[2023-04-24 22:46:59] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev7] Old Version: [4.1.9.dev6]
+[2023-04-24 22:46:59] INFO root fetch - processPackages [holidata]: New version: [2023.4.0] Old Version: [2022.9.0]
+[2023-04-24 22:46:59] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-04-24 22:46:59] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230424/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-24 22:46:59] INFO root fetch - processPackages [databricks-sql-cli]: Downloading https://files.pythonhosted.org/packages/25/4d/9a64ac85f305447c69b5dd7e32a9e8d0c6b5584216e8a712bcb70783afe6/databricks_sql_cli-0.3.0.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-24 22:46:59] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230424/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-24 22:46:59] INFO root fetch - processPackages [wellets-cli]: Start processing: trainerbase
+[2023-04-24 22:46:59] INFO root fetch - main [MainThread]: End processing [wellets-cli]: success
+[2023-04-24 22:46:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ee/04/2a919ae41ffd007d79fd737354a9440434cafd18386d04096f8a4c64cb6b/moto-4.1.9.dev7.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [holidata]: Downloading https://files.pythonhosted.org/packages/36/0c/2b0f889faba2618bf308c31ffffdce326b74b1ecf301f9545111c56df89e/holidata-2022.9.0-py3-none-any.whl
+[2023-04-24 22:46:59] INFO root fetch - processPackages [trainerbase]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-24 22:46:59] INFO root fetch - main [MainThread]: End processing [looper]: success
+[2023-04-24 22:46:59] INFO root fetch - processPackages [databricks-sql-cli]: Downloading https://files.pythonhosted.org/packages/a4/ca/aa396b8b34113c545e0a85a661f8e4988d9819d6c6b5dda0672323d0dfc2/databricks_sql_cli-0.3.1.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [rt-option-menu]: Downloading https://files.pythonhosted.org/packages/42/24/db2344a3dcfaea71741a88cd0db4cde71e4a539fa1467b2b20a1f36436fd/rt-option-menu-0.1.6.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [trainerbase]: Downloading https://files.pythonhosted.org/packages/cf/d0/d3b98bf30faaeb6c064be311f8e76c12004b4d44a645e042366b6b79ce64/TrainerBase-2.9.8.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [databricks-sql-cli]: executing diffoscope
+[2023-04-24 22:46:59] INFO root fetch - processPackages [databricks-sql-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sql_cli-0.3.0.tar.gz tmp/databricks_sql_cli-0.3.1.tar.gz --markdown 20230424/d/databricks-sql-cli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 22:46:59] INFO root fetch - processPackages [holidata]: Downloading https://files.pythonhosted.org/packages/06/4f/65415507c5db8610cf55b24bdc9ee3c327fffd6bd6a3ea5de37f9fab5693/holidata-2023.4.0.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [rt-option-menu]: executing diffoscope
+[2023-04-24 22:46:59] INFO root fetch - processPackages [rt-option-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rt-option-menu-0.1.5.tar.gz tmp/rt-option-menu-0.1.6.tar.gz --markdown 20230424/r/rt-option-menu/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 22:46:59] INFO root fetch - processPackages [trainerbase]: Downloading https://files.pythonhosted.org/packages/ed/7c/4e8f2acca5eab10c7f3ec18fa9bcb8ae82008bf61da93d0188dc9fc5640f/TrainerBase-2.9.9.tar.gz
+[2023-04-24 22:46:59] INFO root fetch - processPackages [holidata]: executing diffoscope
+[2023-04-24 22:46:59] INFO root fetch - processPackages [holidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holidata-2022.9.0-py3-none-any.whl.zip tmp/holidata-2023.4.0.tar.gz --markdown 20230424/h/holidata/2022.9.0-2023.4.0/diff.md --exclude *.pyd
+[2023-04-24 22:47:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-24 22:47:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev6.tar.gz tmp/moto-4.1.9.dev7.tar.gz --markdown 20230424/m/moto/4.1.9.dev6-4.1.9.dev7/diff.md --exclude *.pyd
+[2023-04-24 22:47:00] INFO root fetch - processPackages [trainerbase]: executing diffoscope
+[2023-04-24 22:47:00] INFO root fetch - processPackages [trainerbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrainerBase-2.9.8.tar.gz tmp/TrainerBase-2.9.9.tar.gz --markdown 20230424/t/trainerbase/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-24 22:47:00] INFO root fetch - main [MainThread]: End processing [oracledb]: success
+[2023-04-24 22:47:01] INFO root fetch - main [MainThread]: End processing [holidata]: success
+[2023-04-24 22:47:01] INFO root fetch - main [MainThread]: End processing [trainerbase]: success
+[2023-04-24 22:47:01] INFO root fetch - main [MainThread]: End processing [databricks-sql-cli]: success
+[2023-04-24 22:47:03] INFO root fetch - main [MainThread]: End processing [rt-option-menu]: success
+[2023-04-24 22:47:03] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-04-24 22:47:08] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-24 22:47:30] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-24 22:47:33] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-24 22:47:33] INFO root fetch - main [MainThread]: Store serial: [17839300]
