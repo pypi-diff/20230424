@@ -17295,3 +17295,97 @@
 [2023-04-24 18:15:50] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
 [2023-04-24 18:15:58] INFO root fetch - main [MainThread]: End processing [basedmypy]: success
 [2023-04-24 18:15:58] INFO root fetch - main [MainThread]: Store serial: [17836323]
+[2023-04-24 18:21:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17836323]
+[2023-04-24 18:21:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysparkler
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokelance
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pokerlib
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghastoolkit
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flarespy
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elefantolib
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Renate
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unified-planning
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opshin
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hmku
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [flarespy]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [elefantolib]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-04-24 18:21:24] WARNING root fetch - processPackages [hmku]: Skipping, unable to determine old version
+[2023-04-24 18:21:24] INFO root fetch - processPackages [hmku]: Start processing: crispr-library-prep
+[2023-04-24 18:21:24] INFO root fetch - main [MainThread]: End processing [hmku] error
+[2023-04-24 18:21:24] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-24 18:21:24] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.1.tar.gz tmp/flarespy-0.9.2.tar.gz --markdown 20230424/f/flarespy/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 18:21:24] INFO root fetch - processPackages [elefantolib]: executing diffoscope
+[2023-04-24 18:21:24] INFO root fetch - processPackages [elefantolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib-0.8.1.tar.gz tmp/elefantolib-0.9.1.tar.gz --markdown 20230424/e/elefantolib/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 18:21:24] INFO root fetch - processPackages [pokerlib]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [Renate]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [pokelance]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0] Old Version: [0.5.0.93.dev1]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [pysparkler]: New version: [0.7.dev1682352964] Old Version: [0.6.dev1682027344]
+[2023-04-24 18:21:24] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-24 18:21:24] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230424/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-04-24 18:21:24] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.2.tar.gz tmp/ghastoolkit-0.1.3.tar.gz --markdown 20230424/g/ghastoolkit/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 18:21:24] INFO root fetch - processPackages [pokerlib]: Downloading https://files.pythonhosted.org/packages/7c/7f/3a42051de218ccf7d53f41456d0edaa6635faecd12ac50785174cdc61bac/pokerlib-2.1.1.tar.gz
+[2023-04-24 18:21:24] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2023-04-24 18:21:24] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/09/d2/9bd726f755ba02199119e216a044292029e40a47aeef35eb680e6d8ef57a/unified_planning-0.5.0.93.dev1.tar.gz
+[2023-04-24 18:21:24] INFO root fetch - processPackages [Renate]: Downloading https://files.pythonhosted.org/packages/ae/ff/74460974b359c28a81c8e8b72b39875be82b1d2585ddd6f4bf8f4920045f/Renate-0.1.0.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pokelance]: Downloading https://files.pythonhosted.org/packages/dd/88/e83fc4803ad32658cccb8455a91478b5d71c99af4fecd84078737b8d7b9f/pokelance-0.1.7.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/af/a8/dbb48e2aeaf0c3406a5a543e4886a8b6cfe52ce15045f04494e0ed80d7ca/pysparkler-0.7.dev1682352964.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/d8/43/d3be2bcea83fbd4c59798b5eca003be198c918bccda7aa9b17525e9f2d7c/unified_planning-0.6.0.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pokelance]: executing diffoscope
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pokelance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokelance-0.1.6.tar.gz tmp/pokelance-0.1.7.tar.gz --markdown 20230424/p/pokelance/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pokerlib]: Downloading https://files.pythonhosted.org/packages/41/01/373698f892c2d195dab3010201f99755ef8af85de4b1491c1cb1f1559694/pokerlib-2.2.0.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.6.dev1682027344.tar.gz tmp/pysparkler-0.7.dev1682352964.tar.gz --markdown 20230424/p/pysparkler/0.6.dev1682027344-0.7.dev1682352964/diff.md --exclude *.pyd
+[2023-04-24 18:21:25] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-04-24 18:21:25] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.5.0.93.dev1.tar.gz tmp/unified_planning-0.6.0.tar.gz --markdown 20230424/u/unified-planning/0.5.0.93.dev1-0.6.0/diff.md --exclude *.pyd
+[2023-04-24 18:21:25] INFO root fetch - processPackages [Renate]: Downloading https://files.pythonhosted.org/packages/f1/7c/7058374df209eea196af6c0d2d440af35c7d5b8d5851ad01646d44d9db21/Renate-0.2.0.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pokerlib]: executing diffoscope
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pokerlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerlib-2.1.1.tar.gz tmp/pokerlib-2.2.0.tar.gz --markdown 20230424/p/pokerlib/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 18:21:25] INFO root fetch - processPackages [Renate]: executing diffoscope
+[2023-04-24 18:21:25] INFO root fetch - processPackages [Renate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Renate-0.1.0.tar.gz tmp/Renate-0.2.0.tar.gz --markdown 20230424/R/Renate/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 18:21:25] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2023-04-24 18:21:25] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2023-04-24 18:21:25] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20230424/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2023-04-24 18:21:25] INFO root fetch - processPackages [elefantolib]: Start processing: pystorz
+[2023-04-24 18:21:25] INFO root fetch - main [MainThread]: End processing [elefantolib]: success
+[2023-04-24 18:21:25] WARNING root fetch - processPackages [pystorz]: Skipping, unable to determine old version
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pystorz]: Start processing: pepperize.cdk-vpc
+[2023-04-24 18:21:25] INFO root fetch - main [MainThread]: End processing [pystorz] error
+[2023-04-24 18:21:25] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 18:21:25] INFO root fetch - processPackages [crispr-library-prep]: Start processing: kibot
+[2023-04-24 18:21:25] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-24 18:21:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-04-24 18:21:26] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 18:21:26] INFO root fetch - processPackages [kibot]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-24 18:21:26] INFO root fetch - processPackages [flarespy]: Start processing: django-ses
+[2023-04-24 18:21:26] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-24 18:21:26] INFO root fetch - processPackages [django-ses]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-04-24 18:21:26] INFO root fetch - processPackages [django-ses]: Downloading https://files.pythonhosted.org/packages/f2/82/a83fd4ba4645bd5ea306681123eb141870c14f087da2262041ed816a0d77/django_ses-3.3.0.tar.gz
+[2023-04-24 18:21:26] INFO root fetch - processPackages [ghastoolkit]: Start processing: newick-tree-builder
+[2023-04-24 18:21:26] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-04-24 18:21:26] INFO root fetch - processPackages [newick-tree-builder]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-24 18:21:26] INFO root fetch - processPackages [kibot]: Downloading https://files.pythonhosted.org/packages/e0/3a/f993910b438a7809d6bc7d6e67307430b7f3f3b1ad42a88938f930fc3e9b/kibot-1.6.1.tar.gz
+[2023-04-24 18:21:26] INFO root fetch - main [MainThread]: End processing [pokerlib]: success
+[2023-04-24 18:21:26] INFO root fetch - processPackages [newick-tree-builder]: Downloading https://files.pythonhosted.org/packages/f5/b1/49c174dd96cbd5ee3f9e7b411dcda53f9b45d76c43f9dd9c62c657b7e5b3/newick-tree-builder-0.4.7.tar.gz
+[2023-04-24 18:21:26] INFO root fetch - processPackages [django-ses]: Downloading https://files.pythonhosted.org/packages/93/db/fed69aa9c543611fceab4457df51e7ad50cd973722bf7c9ab1565ae8ca32/django_ses-3.4.0.tar.gz
+[2023-04-24 18:21:26] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-24 18:21:26] INFO root fetch - processPackages [kibot]: Downloading https://files.pythonhosted.org/packages/4e/10/18eb29f6952711f41e4bc216f6cab582838c9a325fc28e8ef8be14884061/kibot-1.6.2.tar.gz
+[2023-04-24 18:21:26] INFO root fetch - processPackages [django-ses]: executing diffoscope
+[2023-04-24 18:21:26] INFO root fetch - processPackages [django-ses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ses-3.3.0.tar.gz tmp/django_ses-3.4.0.tar.gz --markdown 20230424/d/django-ses/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-04-24 18:21:27] INFO root fetch - processPackages [newick-tree-builder]: executing diffoscope
+[2023-04-24 18:21:27] INFO root fetch - processPackages [newick-tree-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newick-tree-builder-0.4.7.tar.gz tmp/newick-tree-builder-0.4.8.tar.gz --markdown 20230424/n/newick-tree-builder/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-24 18:21:27] INFO root fetch - processPackages [kibot]: executing diffoscope
+[2023-04-24 18:21:27] INFO root fetch - processPackages [kibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kibot-1.6.1.tar.gz tmp/kibot-1.6.2.tar.gz --markdown 20230424/k/kibot/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-24 18:21:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-04-24 18:21:27] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2023-04-24 18:21:27] INFO root fetch - main [MainThread]: End processing [pokelance]: success
+[2023-04-24 18:21:28] INFO root fetch - main [MainThread]: End processing [Renate]: success
+[2023-04-24 18:21:28] INFO root fetch - main [MainThread]: End processing [newick-tree-builder]: success
+[2023-04-24 18:21:28] INFO root fetch - main [MainThread]: End processing [django-ses]: success
+[2023-04-24 18:21:32] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-04-24 18:21:32] INFO root fetch - main [MainThread]: End processing [kibot]: success
+[2023-04-24 18:21:32] INFO root fetch - main [MainThread]: Store serial: [17836410]
