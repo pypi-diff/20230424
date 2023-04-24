@@ -14873,3 +14873,174 @@
 [2023-04-24 16:27:56] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2023-04-24 16:29:04] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-04-24 16:29:04] INFO root fetch - main [MainThread]: Store serial: [17834865]
+[2023-04-24 16:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834865]
+[2023-04-24 16:34:14] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2kerastl
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atlas-ftag-tools
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enstat
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataclasses-avroschema
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astronomer-providers
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dff
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: write-the
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sroll
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg
+[2023-04-24 16:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osdatahub
+[2023-04-24 16:34:14] INFO root fetch - processPackages [atlas-ftag-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [enstat]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [astronomer-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [write-the]: New version: [0.7.4] Old Version: [0.7.2]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [osdatahub]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [dff]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.83] Old Version: [0.0.82.dev9]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [sroll]: New version: [0.2.9.7] Old Version: [0.2.9.6]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [cg]: New version: [29.4.1] Old Version: [29.4.0]
+[2023-04-24 16:34:14] INFO root fetch - processPackages [dff]: Downloading https://files.pythonhosted.org/packages/20/9f/6768351afff8228676a10159d9c42a8bf008109d6510d3357aa2769b4ed2/dff-0.3.2.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/eb/14/e4921c6b2fb03735e63d36a53f34a9578b0d1edc1d6444f9eafdcf268dbc/onnx2kerastl-0.0.82.dev9-py3-none-any.whl
+[2023-04-24 16:34:14] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/7c/b6/2f983297d3b42967bf8f7ac081aeaebf2c6551afd8b57b8c971b1ff4de43/atlas-ftag-tools-0.1.0.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f1/f0/a69df327a6dc479f5106bbc98c4e2b4f6c723364f595826cb59d196db164/cg-29.4.0.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/d3/d6/58314b8b049c51981ab953f04a355e9be261efeb844b1cca35194b6adfaf/write_the-0.7.2.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [sroll]: Downloading https://files.pythonhosted.org/packages/72/22/c204b3e1bf37c181d64c0e32ffe4441fb421fa822feb7cede4e368046d08/sroll-0.2.9.6.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [osdatahub]: Downloading https://files.pythonhosted.org/packages/d8/b1/a0dceeb4da0397217086a509cf162e8f082f9bd4f84743682dd6e129130a/osdatahub-1.2.3.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/e9/3b/491aaa0cd633b3b37776ab70e3cb8d12e9feddedf54fc017fc4be50e8195/astronomer-providers-1.8.1.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/80/09/ca7e1f4941cb3e1bda8cede5507f2a992088a62b03112efe6fd12a5e5167/enstat-0.9.1.tar.gz
+[2023-04-24 16:34:14] INFO root fetch - processPackages [sroll]: Downloading https://files.pythonhosted.org/packages/c0/76/1a3706dea94da856df95d75b2f8adf85cfcc0594576795645a8d75badfa0/sroll-0.2.9.7.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d4/08/7960dd4c6fd25b14c563fb0f4514b8b0b744ce6d5edcf6bdede119ea475f/cg-29.4.1.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [dff]: Downloading https://files.pythonhosted.org/packages/67/fa/cea1867b0eee11054d44eaa2dd733061f92af82699c1934e04d8eaa3d731/dff-0.4.1.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/a6/00/106432a042964b233f60d234faac7184d3a82ed569e2faf5549acc077e8b/atlas-ftag-tools-0.1.1.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [enstat]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [enstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstat-0.9.0.tar.gz tmp/enstat-0.9.1.tar.gz --markdown 20230424/e/enstat/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.82.dev9-py3-none-any.whl.zip tmp/onnx2kerastl-0.0.83.tar.gz --markdown 20230424/o/onnx2kerastl/0.0.82.dev9-0.0.83/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/03/2d/cd7d34116a8506bd6ae9e26506f3bd20928a3fe6cf6b3cb9e17bdde34e78/astronomer-providers-1.9.0.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [sroll]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [sroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sroll-0.2.9.6.tar.gz tmp/sroll-0.2.9.7.tar.gz --markdown 20230424/s/sroll/0.2.9.6-0.2.9.7/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [astronomer-providers]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [astronomer-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-providers-1.8.1.tar.gz tmp/astronomer-providers-1.9.0.tar.gz --markdown 20230424/a/astronomer-providers/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [atlas-ftag-tools]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [atlas-ftag-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-ftag-tools-0.1.0.tar.gz tmp/atlas-ftag-tools-0.1.1.tar.gz --markdown 20230424/a/atlas-ftag-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [dff]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [dff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dff-0.3.2.tar.gz tmp/dff-0.4.1.tar.gz --markdown 20230424/d/dff/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.0.tar.gz tmp/cg-29.4.1.tar.gz --markdown 20230424/c/cg/29.4.0-29.4.1/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/38/2d/01a22e418393e389d1762671ea7bad879b60ee158a51ef848fd384abfe37/write_the-0.7.4.tar.gz
+[2023-04-24 16:34:15] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-04-24 16:34:15] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230424/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 16:34:15] INFO root fetch - processPackages [osdatahub]: Downloading https://files.pythonhosted.org/packages/54/61/f4b50d37f5da0961f66a55220fe546a04ebb4b9c74a3f7a0a1abd652c12f/osdatahub-1.2.4.tar.gz
+[2023-04-24 16:34:16] INFO root fetch - processPackages [sroll]: Start processing: onnx2kerastl
+[2023-04-24 16:34:16] INFO root fetch - main [MainThread]: End processing [sroll]: success
+[2023-04-24 16:34:16] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-24 16:34:16] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.7.2.tar.gz tmp/write_the-0.7.4.tar.gz --markdown 20230424/w/write-the/0.7.2-0.7.4/diff.md --exclude *.pyd
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.83] Old Version: [0.0.82.dev9]
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: Start processing: nonebot-plugin-abot-sdk
+[2023-04-24 16:34:16] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-04-24 16:34:16] WARNING root fetch - processPackages [nonebot-plugin-abot-sdk]: Skipping, unable to determine old version
+[2023-04-24 16:34:16] INFO root fetch - processPackages [nonebot-plugin-abot-sdk]: Start processing: sysrsync
+[2023-04-24 16:34:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-abot-sdk] error
+[2023-04-24 16:34:16] INFO root fetch - processPackages [sysrsync]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.82.dev9-py3-none-any.whl.zip tmp/onnx2kerastl-0.0.83.tar.gz --markdown 20230424/o/onnx2kerastl/0.0.82.dev9-0.0.83/diff.md --exclude *.pyd
+[2023-04-24 16:34:16] INFO root fetch - processPackages [sysrsync]: Downloading https://files.pythonhosted.org/packages/95/54/d680d815304f57ccfb3f6c4890f52070c302523ff18185b53ff71123e27f/sysrsync-1.1.0.tar.gz
+[2023-04-24 16:34:16] INFO root fetch - processPackages [atlas-ftag-tools]: Start processing: zod
+[2023-04-24 16:34:16] INFO root fetch - main [MainThread]: End processing [atlas-ftag-tools]: success
+[2023-04-24 16:34:16] INFO root fetch - processPackages [zod]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 16:34:16] INFO root fetch - processPackages [enstat]: Start processing: onnx2kerastl
+[2023-04-24 16:34:16] INFO root fetch - main [MainThread]: End processing [enstat]: success
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.83] Old Version: [0.0.82.dev9]
+[2023-04-24 16:34:16] INFO root fetch - processPackages [sysrsync]: Downloading https://files.pythonhosted.org/packages/24/a0/eaf4f0691639d603ba3da73c4ebbd3da22dfae09565ab7ba38bc28d17de2/sysrsync-1.1.1.tar.gz
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-04-24 16:34:16] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.82.dev9-py3-none-any.whl.zip tmp/onnx2kerastl-0.0.83.tar.gz --markdown 20230424/o/onnx2kerastl/0.0.82.dev9-0.0.83/diff.md --exclude *.pyd
+[2023-04-24 16:34:16] INFO root fetch - processPackages [zod]: Downloading https://files.pythonhosted.org/packages/72/00/e1e15380de7c51ff0d1497b61774af2e737cfde897e77e854e4d82e25672/zod-0.2.3.tar.gz
+[2023-04-24 16:34:17] INFO root fetch - processPackages [sysrsync]: executing diffoscope
+[2023-04-24 16:34:17] INFO root fetch - processPackages [sysrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrsync-1.1.0.tar.gz tmp/sysrsync-1.1.1.tar.gz --markdown 20230424/s/sysrsync/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 16:34:17] INFO root fetch - processPackages [zod]: executing diffoscope
+[2023-04-24 16:34:17] INFO root fetch - processPackages [zod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zod-0.2.2.tar.gz tmp/zod-0.2.3.tar.gz --markdown 20230424/z/zod/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 16:34:17] INFO root fetch - processPackages [dataclasses-avroschema]: Start processing: jarvis-leaderboard
+[2023-04-24 16:34:17] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-04-24 16:34:17] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.4.20] Old Version: [2023.4.13]
+[2023-04-24 16:34:17] INFO root fetch - processPackages [osdatahub]: executing diffoscope
+[2023-04-24 16:34:17] INFO root fetch - processPackages [osdatahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osdatahub-1.2.3.tar.gz tmp/osdatahub-1.2.4.tar.gz --markdown 20230424/o/osdatahub/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-24 16:34:17] INFO root fetch - processPackages [dff]: Start processing: aloso
+[2023-04-24 16:34:17] INFO root fetch - main [MainThread]: End processing [dff]: success
+[2023-04-24 16:34:17] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:34:17] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/98/8b/a4f7bb57add96026cead6e7e67bc6acf760016d501deb5338253f81d1622/jarvis_leaderboard-2023.4.13.tar.gz
+[2023-04-24 16:34:17] INFO root fetch - processPackages [astronomer-providers]: Start processing: origen-ai-ecl
+[2023-04-24 16:34:17] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
+[2023-04-24 16:34:17] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 77552264>=10485760
+[2023-04-24 16:34:17] INFO root fetch - processPackages [jarvis-leaderboard]: Start processing: cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt
+[2023-04-24 16:34:17] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-04-24 16:34:17] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-24 16:34:17] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-04-24 16:34:17] INFO root fetch - processPackages [cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 16:34:17] INFO root fetch - processPackages [onnx2kerastl]: Start processing: robotframework-robosapiens
+[2023-04-24 16:34:17] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-04-24 16:34:17] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-24 16:34:17] INFO root fetch - processPackages [cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt]: Downloading https://files.pythonhosted.org/packages/24/88/a4d20589b61435ccaea0b1f27588fd0183ff30154e2dc7a73d6534c1ef93/cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt-0.1.8.tar.gz
+[2023-04-24 16:34:17] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/c6/ac/0436fa91560236ed25e24ada69be96783397c0941562bebc0c75b0309170/origen_ai_ecl-0.2.3.tar.gz
+[2023-04-24 16:34:18] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/15/18/6f49de538b33c45f04d7bba46ae996dd6778f57d918e50da32c8a170395d/robotframework_robosapiens-1.1.2-py3-none-any.whl
+[2023-04-24 16:34:18] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-04-24 16:34:18] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-24 16:34:18] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.2.tar.gz tmp/origen_ai_ecl-0.2.3.tar.gz --markdown 20230424/o/origen-ai-ecl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-24 16:34:18] INFO root fetch - processPackages [onnx2kerastl]: Start processing: hiddifypanel
+[2023-04-24 16:34:18] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-04-24 16:34:18] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev4] Old Version: [5.0.0.dev3]
+[2023-04-24 16:34:18] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/b6/53/1f4cffedf575ac88cfe74c78a1fbef2c07d91cca19cdc11317ce64eb896c/robotframework_robosapiens-1.1.3-py3-none-any.whl
+[2023-04-24 16:34:18] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-04-24 16:34:18] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230424/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:34:18] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/0f/70/06101b72f46d569df6d8eb7add65148aae8de1e7934a3536f7fc1850ba18/hiddifypanel-5.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 16:34:18] INFO root fetch - processPackages [sysrsync]: Start processing: episcanner
+[2023-04-24 16:34:18] INFO root fetch - main [MainThread]: End processing [sysrsync]: success
+[2023-04-24 16:34:18] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2023-04-24 16:34:18] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.1.2-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.1.3-py3-none-any.whl.zip --markdown 20230424/r/robotframework-robosapiens/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-24 16:34:18] INFO root fetch - processPackages [cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt]: Downloading https://files.pythonhosted.org/packages/9f/36/f24fbf742ad0af03b10c187ba95f450cd2fea057f12bbdb78c03429966d5/cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt-0.1.9.tar.gz
+[2023-04-24 16:34:18] WARNING root fetch - processPackages [episcanner]: Skipping, unable to determine old version
+[2023-04-24 16:34:18] INFO root fetch - processPackages [episcanner]: Start processing: onnx2kerastl
+[2023-04-24 16:34:18] INFO root fetch - main [MainThread]: End processing [episcanner] error
+[2023-04-24 16:34:18] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.83] Old Version: [0.0.82.dev9]
+[2023-04-24 16:34:18] INFO root fetch - processPackages [cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt]: executing diffoscope
+[2023-04-24 16:34:18] INFO root fetch - processPackages [cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt-0.1.8.tar.gz tmp/cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt-0.1.9.tar.gz --markdown 20230424/c/cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 16:34:18] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-04-24 16:34:18] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.82.dev9-py3-none-any.whl.zip tmp/onnx2kerastl-0.0.83.tar.gz --markdown 20230424/o/onnx2kerastl/0.0.82.dev9-0.0.83/diff.md --exclude *.pyd
+[2023-04-24 16:34:18] INFO root fetch - processPackages [zod]: Start processing: oarepo-oai-pmh-harvester
+[2023-04-24 16:34:18] INFO root fetch - main [MainThread]: End processing [zod]: success
+[2023-04-24 16:34:18] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-24 16:34:18] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-04-24 16:34:18] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.8.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.9.tar.gz --markdown 20230424/o/oarepo-oai-pmh-harvester/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:34:19] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-24 16:34:19] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230424/h/hiddifypanel/5.0.0.dev3-5.0.0.dev4/diff.md --exclude *.pyd
+[2023-04-24 16:34:19] INFO root fetch - processPackages [aloso]: Start processing: pystorz
+[2023-04-24 16:34:19] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-04-24 16:34:19] WARNING root fetch - processPackages [pystorz]: Skipping, unable to determine old version
+[2023-04-24 16:34:19] INFO root fetch - processPackages [pystorz]: Start processing: dsolve
+[2023-04-24 16:34:19] INFO root fetch - main [MainThread]: End processing [pystorz] error
+[2023-04-24 16:34:19] INFO root fetch - processPackages [robotframework-robosapiens]: Start processing: kor
+[2023-04-24 16:34:19] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2023-04-24 16:34:19] INFO root fetch - processPackages [dsolve]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:34:19] INFO root fetch - processPackages [onnx2kerastl]: Start processing: gkligo
+[2023-04-24 16:34:19] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-04-24 16:34:19] INFO root fetch - processPackages [kor]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-24 16:34:19] INFO root fetch - processPackages [gkligo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 16:34:19] INFO root fetch - main [MainThread]: End processing [cloudy-with-a-chance-of-meatballs.cdk-lambda-token-authorizer-jwt]: success
+[2023-04-24 16:34:20] INFO root fetch - processPackages [kor]: Downloading https://files.pythonhosted.org/packages/08/4a/c8839fe309a3513790dcc83d2edda30590dbc1078c04105e1555de4a3a9a/kor-0.8.1.tar.gz
+[2023-04-24 16:34:20] INFO root fetch - processPackages [dsolve]: Downloading https://files.pythonhosted.org/packages/63/c1/84bd72342a450ef4462334245b1685c1966cbb52a1018037441ec1136240/dsolve-0.0.8.tar.gz
+[2023-04-24 16:34:20] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/52/95/b067df44155fe2325f7809c68246aac3be2876152e339154c759ecf6f6c1/gkligo-0.0.4.tar.gz
+[2023-04-24 16:34:20] INFO root fetch - processPackages [kor]: Downloading https://files.pythonhosted.org/packages/d2/12/b161c0f95fe062bdac971ab1c422d314842d4608c8f1b3b98348b8a315f0/kor-0.9.0.tar.gz
+[2023-04-24 16:34:20] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-04-24 16:34:20] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.0.3.tar.gz tmp/gkligo-0.0.4.tar.gz --markdown 20230424/g/gkligo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 16:34:20] INFO root fetch - processPackages [kor]: executing diffoscope
+[2023-04-24 16:34:20] INFO root fetch - processPackages [kor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kor-0.8.1.tar.gz tmp/kor-0.9.0.tar.gz --markdown 20230424/k/kor/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 16:34:20] INFO root fetch - processPackages [dsolve]: Downloading https://files.pythonhosted.org/packages/9e/24/ae0272ab660791c0fee56da03428fcb5890e9c677968201140db9836749d/dsolve-0.0.9-py3-none-any.whl
+[2023-04-24 16:34:20] INFO root fetch - processPackages [dsolve]: executing diffoscope
+[2023-04-24 16:34:20] INFO root fetch - processPackages [dsolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsolve-0.0.8.tar.gz tmp/dsolve-0.0.9-py3-none-any.whl.zip --markdown 20230424/d/dsolve/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:34:21] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-04-24 16:34:21] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-04-24 16:34:21] INFO root fetch - main [MainThread]: End processing [kor]: success
+[2023-04-24 16:34:21] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-24 16:34:21] INFO root fetch - main [MainThread]: End processing [dsolve]: success
+[2023-04-24 16:34:22] INFO root fetch - main [MainThread]: End processing [osdatahub]: success
+[2023-04-24 16:34:23] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-24 16:34:27] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 16:34:38] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-24 16:34:38] INFO root fetch - main [MainThread]: Store serial: [17834964]
