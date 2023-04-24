@@ -7158,3 +7158,78 @@
 [2023-04-24 09:55:56] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
 [2023-04-24 09:55:58] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-04-24 09:55:58] INFO root fetch - main [MainThread]: Store serial: [17830433]
+[2023-04-24 10:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830433]
+[2023-04-24 10:01:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cornflow-core
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anduryl
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aamaze
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marqo
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libapi
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: system-superset-driver
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: compose-go
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yyxx-game-pkg-dev
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: owl-pipeline-develop
+[2023-04-24 10:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycloudlib
+[2023-04-24 10:01:07] INFO root fetch - processPackages [cornflow-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 10:01:07] WARNING root fetch - processPackages [anduryl]: Skipping, unable to determine old version
+[2023-04-24 10:01:07] INFO root fetch - processPackages [anduryl]: Start processing: linkedinpdfextractor
+[2023-04-24 10:01:07] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 10:01:07] INFO root fetch - main [MainThread]: End processing [anduryl] error
+[2023-04-24 10:01:07] WARNING root fetch - processPackages [aamaze]: Skipping, unable to determine old version
+[2023-04-24 10:01:07] INFO root fetch - processPackages [owl-pipeline-develop]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-24 10:01:07] INFO root fetch - processPackages [aamaze]: Start processing: aamaze
+[2023-04-24 10:01:07] INFO root fetch - main [MainThread]: End processing [aamaze] error
+[2023-04-24 10:01:07] WARNING root fetch - processPackages [libapi]: Skipping, unable to determine old version
+[2023-04-24 10:01:07] INFO root fetch - processPackages [libapi]: Start processing: DDesignerAPI
+[2023-04-24 10:01:07] INFO root fetch - main [MainThread]: End processing [libapi] error
+[2023-04-24 10:01:07] INFO root fetch - processPackages [compose-go]: New version: [1.0.2] Old Version: [0.1.0]
+[2023-04-24 10:01:07] INFO root fetch - processPackages [yyxx-game-pkg-dev]: New version: [2023.4.4.1.dev7] Old Version: [2023.4.4.1.dev5]
+[2023-04-24 10:01:07] INFO root fetch - processPackages [marqo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-24 10:01:07] WARNING root fetch - processPackages [linkedinpdfextractor]: Skipping, unable to determine old version
+[2023-04-24 10:01:07] INFO root fetch - processPackages [linkedinpdfextractor]: Start processing: nerfacc
+[2023-04-24 10:01:07] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor] error
+[2023-04-24 10:01:08] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-04-24 10:01:08] WARNING root fetch - processPackages [aamaze]: Skipping, unable to determine old version
+[2023-04-24 10:01:08] INFO root fetch - main [MainThread]: End processing [aamaze] error
+[2023-04-24 10:01:08] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2023-04-24 10:01:08] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.5-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.6-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [system-superset-driver]: Downloading https://files.pythonhosted.org/packages/3c/a4/889d182c28670281718cd462d0fbc74c2347c27484aa6f468851dc057f7f/system_superset_driver-0.0.7.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [compose-go]: Downloading https://files.pythonhosted.org/packages/87/62/fd8c59c4cf3b33fafa56ff1279ea875acfb1d9c2328f299531906a64aba8/compose-go-0.1.0.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [cornflow-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/ac2a43db8dff14a1aeaeb18f7f6255ca22cae6c932f8c5f2b37ec016fe4a/cornflow-core-0.1.8.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [owl-pipeline-develop]: Downloading https://files.pythonhosted.org/packages/27/eb/d3dd6e2fca79bec311f23fd551a5b2afed5e93eff8c82e8f853069a4f5a5/owl-pipeline-develop-0.2.2.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/70/46/2cbaa9eb75b59c912d30922fbc433cf03fd3d2bb97deecaea55c6fa778f6/yyxx_game_pkg_dev-2023.4.4.1.dev5.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [nerfacc]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-24 10:01:08] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.6.tar.gz tmp/system_superset_driver-0.0.7.tar.gz --markdown 20230424/s/system-superset-driver/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/42/ce/d99b957c785ea6970619cff406f9a15f6b82461c5c9ef0bf4a2476cae171/marqo-0.9.4.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [owl-pipeline-develop]: Downloading https://files.pythonhosted.org/packages/68/73/b7c215532392203339560ec3b23019c4d7593803294478c4a9a117a54ea1/owl-pipeline-develop-0.3.0.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [nerfacc]: Downloading https://files.pythonhosted.org/packages/3b/34/5a8ff44af903d2c07460c0da176dc7eba86415e3065ec17e0e31474a51c2/nerfacc-0.5.1.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20230424/p/pycloudlib/18.7-18.8/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [compose-go]: Downloading https://files.pythonhosted.org/packages/5f/53/9496f0030ca9f40d4c00fa2a788bc9dd954042aa7ae6ee92e46c0c22cf99/compose-go-1.0.2.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-0.9.3.tar.gz tmp/marqo-0.9.4.tar.gz --markdown 20230424/m/marqo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [cornflow-core]: Downloading https://files.pythonhosted.org/packages/8a/b2/0e4bbd51c3dee0613c4a5926073825917c305520c3cab5a0d073d2110cc9/cornflow-core-0.1.9.tar.gz
+[2023-04-24 10:01:08] INFO root fetch - processPackages [owl-pipeline-develop]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [owl-pipeline-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owl-pipeline-develop-0.2.2.tar.gz tmp/owl-pipeline-develop-0.3.0.tar.gz --markdown 20230424/o/owl-pipeline-develop/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [compose-go]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [compose-go]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose-go-0.1.0.tar.gz tmp/compose-go-1.0.2.tar.gz --markdown 20230424/c/compose-go/0.1.0-1.0.2/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [cornflow-core]: executing diffoscope
+[2023-04-24 10:01:08] INFO root fetch - processPackages [cornflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-core-0.1.8.tar.gz tmp/cornflow-core-0.1.9.tar.gz --markdown 20230424/c/cornflow-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 10:01:08] INFO root fetch - processPackages [nerfacc]: Downloading https://files.pythonhosted.org/packages/f4/16/e93ebb619a3edd8851df21425fe20b7491bd1d819fc19beb9bfc1bf2556e/nerfacc-0.5.2-py3-none-any.whl
+[2023-04-24 10:01:09] INFO root fetch - processPackages [nerfacc]: executing diffoscope
+[2023-04-24 10:01:09] INFO root fetch - processPackages [nerfacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerfacc-0.5.1.tar.gz tmp/nerfacc-0.5.2-py3-none-any.whl.zip --markdown 20230424/n/nerfacc/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-24 10:01:09] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 10:01:09] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 10:01:09] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2023-04-24 10:01:09] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/a6/20/6ca2c348f3267907e7bb02df80f99c36139c586e0ee552b8b2870fc5940b/yyxx_game_pkg_dev-2023.4.4.1.dev7.tar.gz
+[2023-04-24 10:01:09] INFO root fetch - main [MainThread]: End processing [owl-pipeline-develop]: success
+[2023-04-24 10:01:09] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-04-24 10:01:10] INFO root fetch - main [MainThread]: End processing [compose-go]: success
+[2023-04-24 10:01:10] INFO root fetch - main [MainThread]: End processing [nerfacc]: success
+[2023-04-24 10:01:10] INFO root fetch - main [MainThread]: End processing [cornflow-core]: success
+[2023-04-24 10:01:11] INFO root fetch - processPackages [yyxx-game-pkg-dev]: executing diffoscope
+[2023-04-24 10:01:11] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.4.4.1.dev5.tar.gz tmp/yyxx_game_pkg_dev-2023.4.4.1.dev7.tar.gz --markdown 20230424/y/yyxx-game-pkg-dev/2023.4.4.1.dev5-2023.4.4.1.dev7/diff.md --exclude *.pyd
+[2023-04-24 10:01:13] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
+[2023-04-24 10:01:13] INFO root fetch - main [MainThread]: Store serial: [17830479]
