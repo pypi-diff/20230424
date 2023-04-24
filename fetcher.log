@@ -17039,3 +17039,102 @@
 [2023-04-24 18:03:22] INFO root fetch - main [MainThread]: End processing [py-pure-client]: success
 [2023-04-24 18:04:10] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-24 18:04:10] INFO root fetch - main [MainThread]: Store serial: [17836182]
+[2023-04-24 18:09:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17836182]
+[2023-04-24 18:09:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VoiceIdentification
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvantage
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmserializer
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PLAN-Tools
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-framebuf
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crispr-library-prep
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uquake
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatgpt4-cli
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notification-service-nightly
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ai-flow-nightly
+[2023-04-24 18:09:19] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pyvantage]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [PLAN-Tools]: New version: [0.7] Old Version: [0.6]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pmserializer]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [VoiceIdentification]: New version: [1.2] Old Version: [1.1]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [chatgpt4-cli]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [uquake]: New version: [1.2.4] Old Version: [1.0.3]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-24 18:09:19] INFO root fetch - processPackages [crispr-library-prep]: Downloading https://files.pythonhosted.org/packages/fd/13/4bd6e19822718b562441312ba4741682f3e7f8eb3e599630c04104958a16/crispr_library_prep-0.1.8.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/a6/26fba7488adf5bd306711b2a5cba3179f7aa44b4ece195be8c65da1d735b/ai_flow_nightly-2023.4.8.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/9b/b2/1f109e78536d3e7f4bb7f20bd1720d89954e56a233ec6522e8b893f8978c/notification_service_nightly-2023.4.8.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [VoiceIdentification]: Downloading https://files.pythonhosted.org/packages/1f/81/1aaf4eaf4119060d628d566e4cc2e0e1ace7180061cd296cfbacb397b62b/VoiceIdentification-1.1.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: Downloading https://files.pythonhosted.org/packages/65/19/5b4609aea38f66bb632d72f86b971a4cefacd429e2caf325027233915449/adafruit-circuitpython-framebuf-1.6.0.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [PLAN-Tools]: Downloading https://files.pythonhosted.org/packages/b2/26/c2eee71e5ee3b95148c98ff161ee32f979aea0ff238766576b323235e891/PLAN-Tools-0.7.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/ce/0f/f3ab9a91cd48947bfe4b2fdc37e1a4b0ab941ee56b38fbd9bc94809467e3/notification_service_nightly-2023.4.9.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/87/05/85184e421c9683202632252f47fb201d916ea985266433d093bd7179ba15/chatgpt4-cli-1.5.4.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pmserializer]: Downloading https://files.pythonhosted.org/packages/fc/92/5c8c6af6e2c50f6e63dded1183b34b61b38565081135aa7904da84148427/pmserializer-2.0.3.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [uquake]: Downloading https://files.pythonhosted.org/packages/b4/c0/ce276eaf73f3f23ea9c528869c082add3dcff87671d42869a877cf419963/uquake-1.0.3.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.4.8.tar.gz tmp/notification_service_nightly-2023.4.9.tar.gz --markdown 20230424/n/notification-service-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/4b/a1/5d1dbe596641bcb245726409f9036baf5c33f804612443987da582853c57/ai_flow_nightly-2023.4.9.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [crispr-library-prep]: Downloading https://files.pythonhosted.org/packages/07/e1/fcd3bdd62d667525dfcaaaf48ee8ca992f25dfe001e335c8d44a445e5f4c/crispr_library_prep-0.1.9.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [VoiceIdentification]: Downloading https://files.pythonhosted.org/packages/79/76/45726d1b43bf87430c4f34a860957b5c8d1dd85471c14c1acdf955cbab08/VoiceIdentification-1.2.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230424/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [PLAN-Tools]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [PLAN-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PLAN-Tools-0.6.tar.gz tmp/PLAN-Tools-0.7.tar.gz --markdown 20230424/P/PLAN-Tools/0.6-0.7/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [chatgpt4-cli]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [chatgpt4-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt4-cli-1.5.3.tar.gz tmp/chatgpt4-cli-1.5.4.tar.gz --markdown 20230424/c/chatgpt4-cli/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pyvantage]: Downloading https://files.pythonhosted.org/packages/30/a9/d23a3d0febe91fcd014bfa5a6bc6377e03991e0664589b5fe57a0a2991eb/pyvantage-0.0.42.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.4.8.tar.gz tmp/ai_flow_nightly-2023.4.9.tar.gz --markdown 20230424/a/ai-flow-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pmserializer]: Downloading https://files.pythonhosted.org/packages/94/71/531c50be5893f88479a659bd2e32b2b7677c66a8c1c458d451107d1bc302/pmserializer-2.0.4.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: Downloading https://files.pythonhosted.org/packages/de/3f/5fc3e9085b67704c58c1b6509adf750b0858a01aa33f4150a1d276c26f5f/adafruit-circuitpython-framebuf-1.6.1.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [VoiceIdentification]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [VoiceIdentification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VoiceIdentification-1.1.tar.gz tmp/VoiceIdentification-1.2.tar.gz --markdown 20230424/V/VoiceIdentification/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pyvantage]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pyvantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvantage-0.0.41.tar.gz tmp/pyvantage-0.0.42.tar.gz --markdown 20230424/p/pyvantage/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [uquake]: Downloading https://files.pythonhosted.org/packages/c1/01/91319a324449fc9ac77244901f3f26811f4d905532c60873a503676d922d/uquake-1.2.4.tar.gz
+[2023-04-24 18:09:19] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-framebuf-1.6.0.tar.gz tmp/adafruit-circuitpython-framebuf-1.6.1.tar.gz --markdown 20230424/a/adafruit-circuitpython-framebuf/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pmserializer]: executing diffoscope
+[2023-04-24 18:09:19] INFO root fetch - processPackages [pmserializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmserializer-2.0.3.tar.gz tmp/pmserializer-2.0.4.tar.gz --markdown 20230424/p/pmserializer/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-24 18:09:20] INFO root fetch - processPackages [uquake]: executing diffoscope
+[2023-04-24 18:09:20] INFO root fetch - processPackages [uquake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uquake-1.0.3.tar.gz tmp/uquake-1.2.4.tar.gz --markdown 20230424/u/uquake/1.0.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-24 18:09:21] INFO root fetch - processPackages [crispr-library-prep]: Start processing: xyz-exam
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-24 18:09:21] INFO root fetch - processPackages [VoiceIdentification]: Start processing: policyengine-us
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [VoiceIdentification]: success
+[2023-04-24 18:09:21] INFO root fetch - processPackages [policyengine-us]: New version: [0.300.2] Old Version: [0.300.1]
+[2023-04-24 18:09:21] INFO root fetch - processPackages [PLAN-Tools]: Start processing: SupOpNumTools
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [PLAN-Tools]: success
+[2023-04-24 18:09:21] WARNING root fetch - processPackages [SupOpNumTools]: Skipping, unable to determine old version
+[2023-04-24 18:09:21] INFO root fetch - processPackages [SupOpNumTools]: Start processing: mpai-cae-arp
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [SupOpNumTools] error
+[2023-04-24 18:09:21] INFO root fetch - processPackages [xyz-exam]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-24 18:09:21] INFO root fetch - processPackages [pyvantage]: Start processing: os2ds-rules
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [pyvantage]: success
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [pmserializer]: success
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [chatgpt4-cli]: success
+[2023-04-24 18:09:21] INFO root fetch - processPackages [mpai-cae-arp]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-04-24 18:09:21] INFO root fetch - processPackages [os2ds-rules]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 18:09:21] INFO root fetch - processPackages [xyz-exam]: Downloading https://files.pythonhosted.org/packages/f6/77/f75950a49b23a2492e49078b78cadb2286fa851fa777ff721a97f623cbb5/xyz_exam-0.3.5-py3-none-any.whl
+[2023-04-24 18:09:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/2d/e1/0c7a682a3cea8d01e02f550b716e6253054d3a7f517189715f6da8b5f23d/policyengine-us-0.300.2.tar.gz
+[2023-04-24 18:09:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-framebuf]: success
+[2023-04-24 18:09:21] INFO root fetch - processPackages [mpai-cae-arp]: Downloading https://files.pythonhosted.org/packages/9e/e4/385cb3b6c82de3474f4e012dc8f45b76911a4030ba767cf3b47bb725c4c6/mpai_cae_arp-0.3.2.tar.gz
+[2023-04-24 18:09:21] INFO root fetch - processPackages [xyz-exam]: Downloading https://files.pythonhosted.org/packages/01/b8/807f8467dd017d0879e7a3b312909c20ca1e1a76a424b7e39be5383f153f/xyz_exam-0.3.6-py3-none-any.whl
+[2023-04-24 18:09:21] INFO root fetch - processPackages [mpai-cae-arp]: Downloading https://files.pythonhosted.org/packages/37/43/d801539a8c03e4481c47da596d9868f9a94d3ddf5e254b8b21fd7b2a1ae5/mpai_cae_arp-0.4.0.tar.gz
+[2023-04-24 18:09:22] INFO root fetch - processPackages [os2ds-rules]: Downloading https://files.pythonhosted.org/packages/0a/a7/451e8ca5b0000d7f23f356090cb91a7493f1b7a15803ed780d89e4d1faf6/os2ds-rules-0.0.5.tar.gz
+[2023-04-24 18:09:22] INFO root fetch - processPackages [xyz-exam]: executing diffoscope
+[2023-04-24 18:09:22] INFO root fetch - processPackages [xyz-exam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_exam-0.3.5-py3-none-any.whl.zip tmp/xyz_exam-0.3.6-py3-none-any.whl.zip --markdown 20230424/x/xyz-exam/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-24 18:09:22] INFO root fetch - processPackages [mpai-cae-arp]: executing diffoscope
+[2023-04-24 18:09:22] INFO root fetch - processPackages [mpai-cae-arp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpai_cae_arp-0.3.2.tar.gz tmp/mpai_cae_arp-0.4.0.tar.gz --markdown 20230424/m/mpai-cae-arp/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 18:09:22] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-24 18:09:22] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.300.1.tar.gz tmp/policyengine-us-0.300.2.tar.gz --markdown 20230424/p/policyengine-us/0.300.1-0.300.2/diff.md --exclude *.pyd
+[2023-04-24 18:09:22] INFO root fetch - processPackages [os2ds-rules]: executing diffoscope
+[2023-04-24 18:09:22] INFO root fetch - processPackages [os2ds-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2ds-rules-0.0.4.tar.gz tmp/os2ds-rules-0.0.5.tar.gz --markdown 20230424/o/os2ds-rules/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 18:09:22] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-04-24 18:09:23] INFO root fetch - main [MainThread]: End processing [uquake]: success
+[2023-04-24 18:09:23] INFO root fetch - main [MainThread]: End processing [os2ds-rules]: success
+[2023-04-24 18:09:23] INFO root fetch - main [MainThread]: End processing [xyz-exam]: success
+[2023-04-24 18:09:23] INFO root fetch - main [MainThread]: End processing [mpai-cae-arp]: success
+[2023-04-24 18:10:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-24 18:10:33] INFO root fetch - main [MainThread]: Store serial: [17836238]
