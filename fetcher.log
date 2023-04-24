@@ -4730,3 +4730,35 @@
 [2023-04-24 06:05:27] INFO root fetch - main [MainThread]: End processing [sitcom]: success
 [2023-04-24 06:05:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-24 06:05:29] INFO root fetch - main [MainThread]: Store serial: [17828946]
+[2023-04-24 06:10:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828946]
+[2023-04-24 06:10:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appdefender
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psynet
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethhelper
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geomapdemo
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ethhelper]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 06:10:37] INFO root fetch - processPackages [geomapdemo]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 06:10:37] INFO root fetch - processPackages [psynet]: New version: [9.4.5] Old Version: [9.4.4]
+[2023-04-24 06:10:37] INFO root fetch - processPackages [appdefender]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-24 06:10:37] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 06:10:37] INFO root fetch - processPackages [geomapdemo]: executing diffoscope
+[2023-04-24 06:10:37] INFO root fetch - processPackages [geomapdemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapdemo-0.1.4.tar.gz tmp/geomapdemo-0.1.5.tar.gz --markdown 20230424/g/geomapdemo/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 06:10:37] INFO root fetch - processPackages [ethhelper]: Downloading https://files.pythonhosted.org/packages/95/d9/fb52713db05827fd3980b28acd4e1068a8f01ec0a8eb41fef006d4e4e8e1/ethhelper-0.3.3.tar.gz
+[2023-04-24 06:10:38] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-04-24 06:10:38] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230424/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 06:10:38] INFO root fetch - processPackages [psynet]: Downloading https://files.pythonhosted.org/packages/28/c8/64007f7382be1bb201607d1e6c4b87a0655931512a59847b17a6765966b9/psynet-9.4.4.tar.gz
+[2023-04-24 06:10:38] INFO root fetch - processPackages [ethhelper]: executing diffoscope
+[2023-04-24 06:10:38] INFO root fetch - processPackages [ethhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethhelper-0.3.2.tar.gz tmp/ethhelper-0.3.3.tar.gz --markdown 20230424/e/ethhelper/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 06:10:38] INFO root fetch - processPackages [appdefender]: Downloading https://files.pythonhosted.org/packages/d4/ec/9051adc5b410fc117e6c21aa12773fb0c2942f5d824a0f582b6739dcb67c/appdefender-0.4.3.tar.gz
+[2023-04-24 06:10:38] INFO root fetch - processPackages [psynet]: Downloading https://files.pythonhosted.org/packages/c1/6f/61b816abab86b0509c098a6d0f8b682f36096e489aaa83ed15eec4773acd/psynet-9.4.5.tar.gz
+[2023-04-24 06:10:38] INFO root fetch - processPackages [psynet]: executing diffoscope
+[2023-04-24 06:10:38] INFO root fetch - processPackages [psynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psynet-9.4.4.tar.gz tmp/psynet-9.4.5.tar.gz --markdown 20230424/p/psynet/9.4.4-9.4.5/diff.md --exclude *.pyd
+[2023-04-24 06:10:38] INFO root fetch - processPackages [appdefender]: executing diffoscope
+[2023-04-24 06:10:38] INFO root fetch - processPackages [appdefender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdefender-0.4.2.tar.gz tmp/appdefender-0.4.3.tar.gz --markdown 20230424/a/appdefender/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-24 06:10:39] INFO root fetch - main [MainThread]: End processing [geomapdemo]: success
+[2023-04-24 06:10:39] INFO root fetch - main [MainThread]: End processing [ethhelper]: success
+[2023-04-24 06:10:40] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-04-24 06:10:40] INFO root fetch - main [MainThread]: End processing [psynet]: success
+[2023-04-24 06:10:56] INFO root fetch - main [MainThread]: End processing [appdefender]: success
+[2023-04-24 06:10:56] INFO root fetch - main [MainThread]: Store serial: [17828966]
