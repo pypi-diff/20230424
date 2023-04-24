@@ -14044,3 +14044,62 @@
 [2023-04-24 15:48:17] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-24 15:48:25] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-24 15:48:25] INFO root fetch - main [MainThread]: Store serial: [17834430]
+[2023-04-24 15:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834430]
+[2023-04-24 15:53:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pool-cue
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-orghierarchy
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AegosCH
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localcosmos-server
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluke5440b-async
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gedcomx-v1
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AegosCH
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CommonlyTools
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blender-plots
+[2023-04-24 15:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-04-24 15:53:35] INFO root fetch - processPackages [pool-cue]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [AegosCH]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [django-orghierarchy]: New version: [0.2.0] Old Version: [0.1.32]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [fluke5440b-async]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [AegosCH]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [kcli]: New version: [99.0.202304241330] Old Version: [99.0.202304241311]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [AegosCH]: executing diffoscope
+[2023-04-24 15:53:35] INFO root fetch - processPackages [AegosCH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AegosCH-0.1.tar.gz tmp/AegosCH-0.2.tar.gz --markdown 20230424/A/AegosCH/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 15:53:35] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [CommonlyTools]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [gedcomx-v1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [blender-plots]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-24 15:53:35] INFO root fetch - processPackages [AegosCH]: executing diffoscope
+[2023-04-24 15:53:35] INFO root fetch - processPackages [AegosCH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AegosCH-0.1.tar.gz tmp/AegosCH-0.2.tar.gz --markdown 20230424/A/AegosCH/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 15:53:35] INFO root fetch - processPackages [pool-cue]: executing diffoscope
+[2023-04-24 15:53:35] INFO root fetch - processPackages [pool-cue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pool_cue-1.1.1.tar.gz tmp/pool_cue-1.2.0.tar.gz --markdown 20230424/p/pool-cue/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 15:53:35] INFO root fetch - processPackages [fluke5440b-async]: executing diffoscope
+[2023-04-24 15:53:35] INFO root fetch - processPackages [fluke5440b-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke5440b_async-0.9.0.tar.gz tmp/fluke5440b_async-1.0.0.tar.gz --markdown 20230424/f/fluke5440b-async/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-24 15:53:35] INFO root fetch - processPackages [django-orghierarchy]: executing diffoscope
+[2023-04-24 15:53:35] INFO root fetch - processPackages [django-orghierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-orghierarchy-0.1.32.tar.gz tmp/django-orghierarchy-0.2.0.tar.gz --markdown 20230424/d/django-orghierarchy/0.1.32-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 15:53:35] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2023-04-24 15:53:35] INFO root fetch - processPackages [blender-plots]: Downloading https://files.pythonhosted.org/packages/b3/fd/86bb8ef70064f40e69d9b10c1802b454abdcf8ce0aa2da5f68a6d07377be/blender-plots-1.0.tar.gz
+[2023-04-24 15:53:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/75/3f/d58e2f812b9fc038fa8d8799242af265e60f9cfe9b1b8481cc91c2532124/kcli-99.0.202304241330-py3-none-any.whl
+[2023-04-24 15:53:36] INFO root fetch - processPackages [blender-plots]: Downloading https://files.pythonhosted.org/packages/1b/62/fd0aed8a60ad968cc69df62b62ab01c48c615011a0b23c0c2d3388b1680b/blender_plots-1.0.1-py3-none-any.whl
+[2023-04-24 15:53:36] INFO root fetch - processPackages [gedcomx-v1]: executing diffoscope
+[2023-04-24 15:53:36] INFO root fetch - processPackages [gedcomx-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedcomx-v1-1.0.8.tar.gz tmp/gedcomx-v1-1.0.9.tar.gz --markdown 20230424/g/gedcomx-v1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 15:53:36] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-24 15:53:36] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304241311-py3-none-any.whl.zip tmp/kcli-99.0.202304241330-py3-none-any.whl.zip --markdown 20230424/k/kcli/99.0.202304241311-99.0.202304241330/diff.md --exclude *.pyd
+[2023-04-24 15:53:36] INFO root fetch - processPackages [blender-plots]: executing diffoscope
+[2023-04-24 15:53:36] INFO root fetch - processPackages [blender-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blender-plots-1.0.tar.gz tmp/blender_plots-1.0.1-py3-none-any.whl.zip --markdown 20230424/b/blender-plots/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 15:53:36] INFO root fetch - main [MainThread]: End processing [AegosCH]: success
+[2023-04-24 15:53:36] INFO root fetch - main [MainThread]: End processing [AegosCH]: success
+[2023-04-24 15:53:36] INFO root fetch - main [MainThread]: End processing [pool-cue]: success
+[2023-04-24 15:53:37] INFO root fetch - main [MainThread]: End processing [fluke5440b-async]: success
+[2023-04-24 15:53:37] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/fb/76/76c999427cfbe7bc673b20793f2f544551d425b1ae9cb1c48e50928e90fe/CommonlyTools-2.0.2.tar.gz
+[2023-04-24 15:53:37] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-24 15:53:37] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.0.tar.gz tmp/CommonlyTools-2.0.2.tar.gz --markdown 20230424/C/CommonlyTools/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 15:53:37] INFO root fetch - main [MainThread]: End processing [gedcomx-v1]: success
+[2023-04-24 15:53:37] INFO root fetch - main [MainThread]: End processing [blender-plots]: success
+[2023-04-24 15:53:38] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2023-04-24 15:53:38] INFO root fetch - main [MainThread]: End processing [django-orghierarchy]: success
+[2023-04-24 15:53:38] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-24 15:53:40] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2023-04-24 15:53:40] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20230424/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-24 15:53:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-24 15:53:59] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2023-04-24 15:53:59] INFO root fetch - main [MainThread]: Store serial: [17834460]
