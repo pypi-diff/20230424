@@ -7233,3 +7233,160 @@
 [2023-04-24 10:01:11] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.4.4.1.dev5.tar.gz tmp/yyxx_game_pkg_dev-2023.4.4.1.dev7.tar.gz --markdown 20230424/y/yyxx-game-pkg-dev/2023.4.4.1.dev5-2023.4.4.1.dev7/diff.md --exclude *.pyd
 [2023-04-24 10:01:13] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
 [2023-04-24 10:01:13] INFO root fetch - main [MainThread]: Store serial: [17830479]
+[2023-04-24 10:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830479]
+[2023-04-24 10:06:22] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nerfacc
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: system-superset-driver
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fx-py-sdk
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikeCA
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dai-python-commons
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ggvlib
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tasknet
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-documentautoml20221229-py2
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywinauto-recorder
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mfrc522-python
+[2023-04-24 10:06:22] INFO root fetch - processPackages [nerfacc]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [NikeCA]: New version: [0.1.83] Old Version: [0.1.82]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [fx-py-sdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [mfrc522-python]: New version: [0.0.5.dev2] Old Version: [0.0.5.dev1]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [dai-python-commons]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [tasknet]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [pywinauto-recorder]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 10:06:22] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-24 10:06:22] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.82.tar.gz tmp/NikeCA-0.1.83.tar.gz --markdown 20230424/N/NikeCA/0.1.82-0.1.83/diff.md --exclude *.pyd
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [tasknet]: Downloading https://files.pythonhosted.org/packages/68/62/c1a8b0523c4c4bf417bfd30d9575606b9f5865084f23356173adc64f9f15/tasknet-1.8.0.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: Downloading https://files.pythonhosted.org/packages/23/6f/16e0617620544d78d9e9e1c95a200e7cc31371e039d68f71ffdd9c9b3e4c/alibabacloud_documentautoml20221229_py2-1.0.8.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [dai-python-commons]: Downloading https://files.pythonhosted.org/packages/83/a5/39d8d366a8bb93adda01c38158232546ce14549e61ec8c81c576c1f6aedd/dai_python_commons-4.8.1.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [pywinauto-recorder]: Downloading https://files.pythonhosted.org/packages/08/58/2b0b40d7fa15a33024fe44bb6a02a5b5b621d53470c91be023e4e166dbe0/pywinauto_recorder-0.6.5.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/e2/18/fa3b02e47d9504f4eb2f15fdf345e7448244e745e3473a1787a4b1069699/mfrc522-python-0.0.5.dev1.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [nerfacc]: Downloading https://files.pythonhosted.org/packages/34/47/53f1c41ec636d80a9cd85682619e347155130846dd191ae657bd553ac057/nerfacc-0.5.2.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [system-superset-driver]: Downloading https://files.pythonhosted.org/packages/f5/f4/a5c3e784ef074aa4ba989fbf4eb8834da6dc5394c0e300c0384aab460dd4/system_superset_driver-0.0.8.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [nerfacc]: executing diffoscope
+[2023-04-24 10:06:22] INFO root fetch - processPackages [nerfacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerfacc-0.5.1.tar.gz tmp/nerfacc-0.5.2.tar.gz --markdown 20230424/n/nerfacc/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-24 10:06:22] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 10:06:22] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.7.tar.gz tmp/system_superset_driver-0.0.8.tar.gz --markdown 20230424/s/system-superset-driver/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 10:06:22] INFO root fetch - processPackages [fx-py-sdk]: Downloading https://files.pythonhosted.org/packages/82/2d/4502842a1e63e4bec4b142cc81ccd32fdeeacacdc5f66403dc947368ec13/fx-py-sdk-0.1.0.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: Downloading https://files.pythonhosted.org/packages/57/14/6459166487388675c0dfe517ffdd867a06a50d4e33a69dec969f21d9d0c4/alibabacloud_documentautoml20221229_py2-1.0.9.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [pywinauto-recorder]: Downloading https://files.pythonhosted.org/packages/93/59/c231bbeb1ff3a3b7664bb48ea6dc6df0c962e71557cd5a9f636947ca4b12/pywinauto_recorder-0.6.6.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [tasknet]: Downloading https://files.pythonhosted.org/packages/9e/0f/6b503cbc1a8ea21dc3286c2dc50b71751f72f32c9b73e987057cb7d5cdbf/tasknet-1.9.0.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/0a/ab/3bc8759f7d94650a2dab25d6276297d1d076ee6562e0ad48c95bc722524a/mfrc522-python-0.0.5.dev2.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [dai-python-commons]: Downloading https://files.pythonhosted.org/packages/d4/a7/d6037ba8233d9a0944e7443a63896f87f66b2d6ce8bc8232f8667163f8e4/dai_python_commons-4.9.0.tar.gz
+[2023-04-24 10:06:22] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: executing diffoscope
+[2023-04-24 10:06:22] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_documentautoml20221229_py2-1.0.8.tar.gz tmp/alibabacloud_documentautoml20221229_py2-1.0.9.tar.gz --markdown 20230424/a/alibabacloud-documentautoml20221229-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-04-24 10:06:23] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230424/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [tasknet]: executing diffoscope
+[2023-04-24 10:06:23] INFO root fetch - processPackages [tasknet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasknet-1.8.0.tar.gz tmp/tasknet-1.9.0.tar.gz --markdown 20230424/t/tasknet/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [pywinauto-recorder]: executing diffoscope
+[2023-04-24 10:06:23] INFO root fetch - processPackages [pywinauto-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywinauto_recorder-0.6.5.tar.gz tmp/pywinauto_recorder-0.6.6.tar.gz --markdown 20230424/p/pywinauto-recorder/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [mfrc522-python]: executing diffoscope
+[2023-04-24 10:06:23] INFO root fetch - processPackages [mfrc522-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522-python-0.0.5.dev1.tar.gz tmp/mfrc522-python-0.0.5.dev2.tar.gz --markdown 20230424/m/mfrc522-python/0.0.5.dev1-0.0.5.dev2/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [dai-python-commons]: executing diffoscope
+[2023-04-24 10:06:23] INFO root fetch - processPackages [dai-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dai_python_commons-4.8.1.tar.gz tmp/dai_python_commons-4.9.0.tar.gz --markdown 20230424/d/dai-python-commons/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [fx-py-sdk]: Downloading https://files.pythonhosted.org/packages/72/c0/9bea86d799a83c02e59d8d4378b4b3f39a7cc252dc14505e6fde8740b2d3/fx-py-sdk-0.2.0.tar.gz
+[2023-04-24 10:06:23] INFO root fetch - processPackages [fx-py-sdk]: executing diffoscope
+[2023-04-24 10:06:23] INFO root fetch - processPackages [fx-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fx-py-sdk-0.1.0.tar.gz tmp/fx-py-sdk-0.2.0.tar.gz --markdown 20230424/f/fx-py-sdk/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 10:06:23] INFO root fetch - processPackages [NikeCA]: Start processing: alibabacloud-documentautoml20221229
+[2023-04-24 10:06:23] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-24 10:06:24] INFO root fetch - processPackages [system-superset-driver]: Start processing: ormsgpack
+[2023-04-24 10:06:24] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 10:06:24] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ormsgpack]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-24 10:06:24] INFO root fetch - processPackages [nerfacc]: Start processing: tasksource
+[2023-04-24 10:06:24] INFO root fetch - main [MainThread]: End processing [nerfacc]: success
+[2023-04-24 10:06:24] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: Downloading https://files.pythonhosted.org/packages/c3/21/2742f6b9196a183f8cd7a93389a6cdce17d4697fa4767350231fc5f184a1/alibabacloud_documentautoml20221229-1.0.8.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [tasksource]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ormsgpack]: Downloading https://files.pythonhosted.org/packages/9e/5b/259b60883cbe5622117b5d17c400e5b129ad488b3d825a9099fdf4e4a847/ormsgpack-1.2.5.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [tasksource]: Downloading https://files.pythonhosted.org/packages/c5/5a/577f24b048a52087b4bb9d752d76d480b0018786e5342599cfaa1c3572bc/tasksource-0.0.8.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: Downloading https://files.pythonhosted.org/packages/d4/93/c52a0496bc830bcf4e5de052753309ae90746619de5383622f2422179022/alibabacloud_documentautoml20221229-1.0.9.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [alibabacloud-documentautoml20221229-py2]: Start processing: cornflow
+[2023-04-24 10:06:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-documentautoml20221229-py2]: success
+[2023-04-24 10:06:24] INFO root fetch - processPackages [cornflow]: New version: [1.0.4] Old Version: [1.0.3a3]
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ormsgpack]: Downloading https://files.pythonhosted.org/packages/82/a0/bb797b3baa964bba75e42e40c1f3c8f1068219f2c5c67c2c7faea6ffddca/ormsgpack-1.2.6.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [tasknet]: Start processing: cvisp
+[2023-04-24 10:06:24] INFO root fetch - main [MainThread]: End processing [tasknet]: success
+[2023-04-24 10:06:24] INFO root fetch - processPackages [cvisp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-24 10:06:24] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: executing diffoscope
+[2023-04-24 10:06:24] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_documentautoml20221229-1.0.8.tar.gz tmp/alibabacloud_documentautoml20221229-1.0.9.tar.gz --markdown 20230424/a/alibabacloud-documentautoml20221229/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:06:24] INFO root fetch - processPackages [mfrc522-python]: Start processing: ansible-risk-insight
+[2023-04-24 10:06:24] INFO root fetch - main [MainThread]: End processing [mfrc522-python]: success
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.3rc1] Old Version: [0.1.2rc1]
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ormsgpack]: executing diffoscope
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ormsgpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormsgpack-1.2.5.tar.gz tmp/ormsgpack-1.2.6.tar.gz --markdown 20230424/o/ormsgpack/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-24 10:06:24] INFO root fetch - processPackages [cvisp]: Downloading https://files.pythonhosted.org/packages/9d/1a/94bcdae276cde30305b8d93bfd8a281ee8c174f9090718ce72ea15af7a87/cvisp-0.1.1.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/47/13/58f6f4a26b7b8a203f7f7a41cbe6acc7883b91c9204656431fb7ec56b618/cornflow-1.0.3a3.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/a4/91/ad83ebe31f9f0854d4fde8e25986c5bbedaaced0532e5f62fb9f9dbf675b/ansible-risk-insight-0.1.2rc1.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [tasksource]: Downloading https://files.pythonhosted.org/packages/79/98/5f442144303c3b9aad3c1d81a6dfca8f937304149324559064fb9f84a79f/tasksource-0.0.9.tar.gz
+[2023-04-24 10:06:24] INFO root fetch - processPackages [ggvlib]: Start processing: DDesignerAPI
+[2023-04-24 10:06:24] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-04-24 10:06:25] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-04-24 10:06:25] INFO root fetch - processPackages [tasksource]: executing diffoscope
+[2023-04-24 10:06:25] INFO root fetch - processPackages [tasksource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksource-0.0.8.tar.gz tmp/tasksource-0.0.9.tar.gz --markdown 20230424/t/tasksource/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:06:25] INFO root fetch - processPackages [dai-python-commons]: Start processing: vortexasdk
+[2023-04-24 10:06:25] INFO root fetch - main [MainThread]: End processing [dai-python-commons]: success
+[2023-04-24 10:06:25] INFO root fetch - processPackages [cvisp]: Downloading https://files.pythonhosted.org/packages/f4/1f/5b7de210e109ca8844e437d62f79bcfcbcaafd861ebccf4321df269e488b/cvisp-0.1.2.tar.gz
+[2023-04-24 10:06:25] INFO root fetch - processPackages [vortexasdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-24 10:06:25] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/7b/15/31f3d3026743ece6dc00e1a9ba8b30ac6cb54d87b9699465f91445f6c935/cornflow-1.0.4.tar.gz
+[2023-04-24 10:06:25] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/c3/22/3fde7e6d6784d200a4cea3c8b965bc514d19c6244325055dcac0dc9691b5/DDesignerAPI-0.0.0.7-py3-none-any.whl
+[2023-04-24 10:06:25] INFO root fetch - processPackages [cornflow]: executing diffoscope
+[2023-04-24 10:06:25] INFO root fetch - processPackages [cornflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-1.0.3a3.tar.gz tmp/cornflow-1.0.4.tar.gz --markdown 20230424/c/cornflow/1.0.3a3-1.0.4/diff.md --exclude *.pyd
+[2023-04-24 10:06:25] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/82/97/a9badf028dc4658e6926966b519a46a3d9197dcd61994becb0056b1da490/DDesignerAPI-0.0.0.8-py3-none-any.whl
+[2023-04-24 10:06:25] INFO root fetch - processPackages [cvisp]: executing diffoscope
+[2023-04-24 10:06:25] INFO root fetch - processPackages [cvisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvisp-0.1.1.tar.gz tmp/cvisp-0.1.2.tar.gz --markdown 20230424/c/cvisp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-24 10:06:25] INFO root fetch - processPackages [vortexasdk]: executing diffoscope
+[2023-04-24 10:06:25] INFO root fetch - processPackages [vortexasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexasdk-0.9.1.tar.gz tmp/vortexasdk-0.9.2.tar.gz --markdown 20230424/v/vortexasdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 10:06:25] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 10:06:25] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.7-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.8-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-04-24 10:06:25] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/77/8a/ecea32d8eeddde553dde5edb0a5e443f45adb41a1e5925f54c2e1e1f898e/ansible-risk-insight-0.1.3rc1.tar.gz
+[2023-04-24 10:06:26] INFO root fetch - processPackages [alibabacloud-documentautoml20221229]: Start processing: xj-user
+[2023-04-24 10:06:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-documentautoml20221229]: success
+[2023-04-24 10:06:26] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-24 10:06:26] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-04-24 10:06:26] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.2rc1.tar.gz tmp/ansible-risk-insight-0.1.3rc1.tar.gz --markdown 20230424/a/ansible-risk-insight/0.1.2rc1-0.1.3rc1/diff.md --exclude *.pyd
+[2023-04-24 10:06:26] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-04-24 10:06:26] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230424/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-24 10:06:26] INFO root fetch - processPackages [cvisp]: Start processing: backtracker
+[2023-04-24 10:06:26] INFO root fetch - main [MainThread]: End processing [cvisp]: success
+[2023-04-24 10:06:26] ERROR root fetch - processPackages [backtracker]: Unable to get metadata: No such project 'backtracker'
+[2023-04-24 10:06:26] INFO root fetch - processPackages [backtracker]: Start processing: nonebug
+[2023-04-24 10:06:26] INFO root fetch - main [MainThread]: End processing [backtracker] error
+[2023-04-24 10:06:26] INFO root fetch - processPackages [nonebug]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-24 10:06:26] INFO root fetch - processPackages [nonebug]: Downloading https://files.pythonhosted.org/packages/14/9f/7358f89c5f1021794b1d184dc262d096b15f5c306c72e7954ea598cabf0d/nonebug-0.3.2.tar.gz
+[2023-04-24 10:06:27] INFO root fetch - processPackages [pywinauto-recorder]: Start processing: aiofauna
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [pywinauto-recorder]: success
+[2023-04-24 10:06:27] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 10:06:27] INFO root fetch - processPackages [nonebug]: Downloading https://files.pythonhosted.org/packages/71/85/ec492d9f8c89442d8763702098d74bf12279464bc1438fd4cb2b4814c33f/nonebug-0.3.3.tar.gz
+[2023-04-24 10:06:27] INFO root fetch - processPackages [nonebug]: executing diffoscope
+[2023-04-24 10:06:27] INFO root fetch - processPackages [nonebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebug-0.3.2.tar.gz tmp/nonebug-0.3.3.tar.gz --markdown 20230424/n/nonebug/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-24 10:06:27] INFO root fetch - processPackages [ormsgpack]: Start processing: rio-vrt
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [ormsgpack]: success
+[2023-04-24 10:06:27] INFO root fetch - processPackages [cornflow]: Start processing: cg
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [cornflow]: success
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [tasksource]: success
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [vortexasdk]: success
+[2023-04-24 10:06:27] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-24 10:06:27] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230424/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 10:06:27] INFO root fetch - processPackages [rio-vrt]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-24 10:06:27] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-04-24 10:06:27] INFO root fetch - processPackages [rio-vrt]: Downloading https://files.pythonhosted.org/packages/49/52/ec6c5190392226f5d193363582b59a08d32640a50e94fbf3145e82155ef9/rio-vrt-0.1.0.tar.gz
+[2023-04-24 10:06:28] INFO root fetch - processPackages [rio-vrt]: Downloading https://files.pythonhosted.org/packages/f8/df/0d4ee351d31330cb0fd3963b3847c8f0e8a86a116cfeeab429c7dd534f73/rio-vrt-0.2.0.tar.gz
+[2023-04-24 10:06:28] INFO root fetch - processPackages [rio-vrt]: executing diffoscope
+[2023-04-24 10:06:28] INFO root fetch - processPackages [rio-vrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio-vrt-0.1.0.tar.gz tmp/rio-vrt-0.2.0.tar.gz --markdown 20230424/r/rio-vrt/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 10:06:28] INFO root fetch - processPackages [cg]: New version: [29.1.7] Old Version: [29.1.6]
+[2023-04-24 10:06:28] INFO root fetch - main [MainThread]: End processing [nonebug]: success
+[2023-04-24 10:06:28] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-24 10:06:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/25/79/64f475711daa5cc0cccb8df2278a6d2519c961726d3b40269304182e79f2/cg-29.1.6.tar.gz
+[2023-04-24 10:06:29] INFO root fetch - main [MainThread]: End processing [fx-py-sdk]: success
+[2023-04-24 10:06:29] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/af/d2/85fbec6a005642ac3d60f1730ea287358d6ca03680ce3d796fc3860c481b/cg-29.1.7.tar.gz
+[2023-04-24 10:06:29] INFO root fetch - main [MainThread]: End processing [rio-vrt]: success
+[2023-04-24 10:06:29] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-04-24 10:06:29] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-24 10:06:29] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.1.6.tar.gz tmp/cg-29.1.7.tar.gz --markdown 20230424/c/cg/29.1.6-29.1.7/diff.md --exclude *.pyd
+[2023-04-24 10:06:40] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-24 10:06:40] INFO root fetch - main [MainThread]: Store serial: [17830559]
