@@ -21535,3 +21535,95 @@
 [2023-04-24 22:00:18] INFO root fetch - main [MainThread]: End processing [lammps-step]: success
 [2023-04-24 22:00:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 22:00:23] INFO root fetch - main [MainThread]: Store serial: [17838897]
+[2023-04-24 22:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838897]
+[2023-04-24 22:05:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extended-tk
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RIFT
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: environ-config
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cachetory
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: olstecnologia
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recurrent-memory-transformer-pytorch
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autobricks
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandascam
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shp2metric
+[2023-04-24 22:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: olstecnologia
+[2023-04-24 22:05:33] INFO root fetch - processPackages [olstecnologia]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [pandascam]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 22:05:33] WARNING root fetch - processPackages [extended-tk]: Skipping, unable to determine old version
+[2023-04-24 22:05:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [extended-tk]: Start processing: pcg-skel
+[2023-04-24 22:05:33] INFO root fetch - main [MainThread]: End processing [extended-tk] error
+[2023-04-24 22:05:33] INFO root fetch - processPackages [olstecnologia]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [environ-config]: New version: [23.2.0] Old Version: [23.1.0]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [cachetory]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [RIFT]: New version: [0.0.15.8rc9] Old Version: [0.0.15.8rc7]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [shp2metric]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [autobricks]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [pcg-skel]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-24 22:05:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/15/1f/95af4cc4a5570c44c177acb2f90ac1ea01002443badb446ea0807922c221/recurrent-memory-transformer-pytorch-0.0.7.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [pandascam]: Downloading https://files.pythonhosted.org/packages/7c/99/6178baa4ef5896a97441c06042fb8b4e84f6343308934a67d27f247f5fc1/pandascam-0.1-py3-none-any.whl
+[2023-04-24 22:05:33] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/92/9e/8e2aa6c1466d492cee85fb74ddc108519d54eac35ea492d26aa06a93c159/RIFT-0.0.15.8rc7.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [autobricks]: Downloading https://files.pythonhosted.org/packages/01/fc/c37b66d2284f635875fb3a44b8bef6ee40960c195baedf162c98d910d609/autobricks-0.3.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [shp2metric]: Downloading https://files.pythonhosted.org/packages/5a/e7/d6299ed60722933f4eb2c2817cb9aa5cfaada05e346259c1dcd7b160e377/shp2metric-1.1.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [environ-config]: Downloading https://files.pythonhosted.org/packages/6e/e8/fd351b5e920fe0a9c55d1e7557e89829cdb2f336c2e4fa07d79bb123757d/environ_config-23.1.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/ff/f9/1ba5d37cc52db48f81391847622b9a5e924264ad1301e26f4913c8947834/cachetory-2.0.2.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [olstecnologia]: Downloading https://files.pythonhosted.org/packages/f2/2f/68570ba4933808ad5b874ca9cd1916314a4f8f6ed7991b59b294a205430a/olstecnologia-1.1.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [olstecnologia]: Downloading https://files.pythonhosted.org/packages/f2/2f/68570ba4933808ad5b874ca9cd1916314a4f8f6ed7991b59b294a205430a/olstecnologia-1.1.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [pcg-skel]: Downloading https://files.pythonhosted.org/packages/a5/21/ba1c0a78aedf869e6de32bafc51fee7e6baf6e3610b86f1ebde637ad6164/pcg_skel-0.3.3.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-04-24 22:05:33] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.0.6.tar.gz tmp/recurrent-memory-transformer-pytorch-0.0.7.tar.gz --markdown 20230424/r/recurrent-memory-transformer-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 22:05:33] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/69/18/86670e626c86d62cd95a6c51d963e54f59ba3cc207b7b54e83542ede13fa/RIFT-0.0.15.8rc9.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [environ-config]: Downloading https://files.pythonhosted.org/packages/b3/1f/aff64afe6692596238c564dada1631cf472124cdeb57654f5f95f32cbefb/environ_config-23.2.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [pandascam]: Downloading https://files.pythonhosted.org/packages/dc/35/7ba229fd193356590518235963b6be6464c796ce2f61656c9efa769c84a9/pandascam-0.2-py3-none-any.whl
+[2023-04-24 22:05:33] INFO root fetch - processPackages [autobricks]: Downloading https://files.pythonhosted.org/packages/13/b7/b1028c4e0f5ceca164d2415db82be6444f6c22ce8091e4bdec316e8f62a1/autobricks-0.4.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [shp2metric]: Downloading https://files.pythonhosted.org/packages/eb/1b/28022ceac5623c3a91ec7dfa2b27e6d1640de2493f2cc870318c2652b232/shp2metric-1.2.0.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/96/15/68a46f34716f5eb6acd56169e021cb8476845e63d54b8349f8def49fa019/cachetory-2.0.3.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [pcg-skel]: Downloading https://files.pythonhosted.org/packages/1c/91/b54bd36b3382b49ce501ed4514c632181fc11d638c02d330dfa074228128/pcg_skel-0.3.4.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [olstecnologia]: Downloading https://files.pythonhosted.org/packages/04/dc/2369c3026b20794e4804965578f23d3a0ed0d3c9801f5afc7ac4adba29ee/olstecnologia-1.1.1.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [olstecnologia]: Downloading https://files.pythonhosted.org/packages/04/dc/2369c3026b20794e4804965578f23d3a0ed0d3c9801f5afc7ac4adba29ee/olstecnologia-1.1.1.tar.gz
+[2023-04-24 22:05:33] INFO root fetch - processPackages [RIFT]: executing diffoscope
+[2023-04-24 22:05:33] INFO root fetch - processPackages [RIFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIFT-0.0.15.8rc7.tar.gz tmp/RIFT-0.0.15.8rc9.tar.gz --markdown 20230424/R/RIFT/0.0.15.8rc7-0.0.15.8rc9/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [environ-config]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [environ-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environ_config-23.1.0.tar.gz tmp/environ_config-23.2.0.tar.gz --markdown 20230424/e/environ-config/23.1.0-23.2.0/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [shp2metric]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [shp2metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shp2metric-1.1.0.tar.gz tmp/shp2metric-1.2.0.tar.gz --markdown 20230424/s/shp2metric/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [pandascam]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [pandascam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandascam-0.1-py3-none-any.whl.zip tmp/pandascam-0.2-py3-none-any.whl.zip --markdown 20230424/p/pandascam/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [autobricks]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [autobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobricks-0.3.0.tar.gz tmp/autobricks-0.4.0.tar.gz --markdown 20230424/a/autobricks/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [cachetory]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [cachetory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetory-2.0.2.tar.gz tmp/cachetory-2.0.3.tar.gz --markdown 20230424/c/cachetory/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [pcg-skel]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [pcg-skel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcg_skel-0.3.3.tar.gz tmp/pcg_skel-0.3.4.tar.gz --markdown 20230424/p/pcg-skel/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [olstecnologia]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [olstecnologia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olstecnologia-1.1.0.tar.gz tmp/olstecnologia-1.1.1.tar.gz --markdown 20230424/o/olstecnologia/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [olstecnologia]: executing diffoscope
+[2023-04-24 22:05:34] INFO root fetch - processPackages [olstecnologia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olstecnologia-1.1.0.tar.gz tmp/olstecnologia-1.1.1.tar.gz --markdown 20230424/o/olstecnologia/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-24 22:05:34] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: findmyorder
+[2023-04-24 22:05:34] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-04-24 22:05:34] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 22:05:35] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 22:05:35] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 22:05:35] INFO root fetch - processPackages [shp2metric]: Start processing: certora-cli-alpha-master
+[2023-04-24 22:05:35] INFO root fetch - main [MainThread]: End processing [shp2metric]: success
+[2023-04-24 22:05:35] INFO root fetch - processPackages [autobricks]: Start processing: cdk-sops-secrets
+[2023-04-24 22:05:35] INFO root fetch - main [MainThread]: End processing [autobricks]: success
+[2023-04-24 22:05:35] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230424.9.2.727631] Old Version: [20230424.16.2.870321]
+[2023-04-24 22:05:35] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 22:05:35] INFO root fetch - main [MainThread]: End processing [pandascam]: success
+[2023-04-24 22:05:35] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/6e/fc/1d1f06d3fdc85e566e25a04f54c3dcce3ee181d6658c2aa41de5936e2a7c/cdk-sops-secrets-1.2.8.tar.gz
+[2023-04-24 22:05:35] INFO root fetch - main [MainThread]: End processing [cachetory]: success
+[2023-04-24 22:05:35] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c5/fe/f565903075d6bf49a7e24e057ba625c91c5357e4e72d42ec0cb1dbd1a356/certora-cli-alpha-master-20230424.16.2.870321.tar.gz
+[2023-04-24 22:05:35] INFO root fetch - main [MainThread]: End processing [olstecnologia]: success
+[2023-04-24 22:05:36] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38072247>=10485760
+[2023-04-24 22:05:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-24 22:05:36] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 22:05:36] INFO root fetch - main [MainThread]: End processing [pcg-skel]: success
+[2023-04-24 22:05:36] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/01/0b/1803112e00d59ac489cc1729df4cdb28f6e126e536d4bdf2e3cf8badc7af/cdk-sops-secrets-1.2.9.tar.gz
+[2023-04-24 22:05:37] INFO root fetch - main [MainThread]: End processing [olstecnologia]: success
+[2023-04-24 22:05:37] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-04-24 22:05:37] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230424/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 22:05:39] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-04-24 22:05:51] INFO root fetch - main [MainThread]: End processing [environ-config]: success
+[2023-04-24 22:05:57] INFO root fetch - main [MainThread]: End processing [RIFT]: success
+[2023-04-24 22:05:57] INFO root fetch - main [MainThread]: Store serial: [17838951]
