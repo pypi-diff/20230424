@@ -21136,3 +21136,94 @@
 [2023-04-24 21:33:33] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
 [2023-04-24 21:33:33] INFO root fetch - main [MainThread]: End processing [valis-wsi]: success
 [2023-04-24 21:33:33] INFO root fetch - main [MainThread]: Store serial: [17838705]
+[2023-04-24 21:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838705]
+[2023-04-24 21:38:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib310
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wait-for-dep
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: david-test-datadog-sma
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipfromwebpage
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diamondback
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghidrecomp
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NeuralBasics
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valmi-connector-lib
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chardetng-py
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fmriprep
+[2023-04-24 21:38:43] INFO root fetch - processPackages [wait-for-dep]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [david-test-datadog-sma]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [chardetng-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ipfromwebpage]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ghidrecomp]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [lib310]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [diamondback]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [fmriprep]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230424/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ipfromwebpage]: Downloading https://files.pythonhosted.org/packages/7b/7d/3878023124ece5791a5dc79684c1deddaca49be5005748084474433a3b7b/ipfromwebpage-1.0.0.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [chardetng-py]: Downloading https://files.pythonhosted.org/packages/6d/7a/cd7d5d449b2bb2e965f2ea5446060b9e6be03aae6870b5b4144361c36b62/chardetng_py-0.1.0.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ghidrecomp]: Downloading https://files.pythonhosted.org/packages/fc/31/af52ac5009ed0a92066dc29e18fa6e0a060430cf4181d561fa828379247e/ghidrecomp-0.3.1.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [wait-for-dep]: Downloading https://files.pythonhosted.org/packages/64/91/cf03660ce23bc403aa06661c112545fc8a837015712e8e1516cc11344b3f/wait-for-dep-0.4.0.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [NeuralBasics]: Downloading https://files.pythonhosted.org/packages/43/01/39ce45cf437e81fd26d1f1fa4cd1d18469e185d881aca40a0655771d9365/NeuralBasics-1.0.8.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [diamondback]: Downloading https://files.pythonhosted.org/packages/1c/05/a829ac09dfa540429bc0331445b4b56829192c6da859803a163b83461571/diamondback-4.1.8.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [fmriprep]: Downloading https://files.pythonhosted.org/packages/0b/eb/e8b0f5b532328885ad9e384c6c5bd665702a4e1eee84d95a05b91d3e4038/fmriprep-23.0.1.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [david-test-datadog-sma]: Downloading https://files.pythonhosted.org/packages/01/dc/bfd62feddc616d33e6664286f629ed0f407649ad170629abbe78b9380611/david-test-datadog-sma-0.0.3.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [lib310]: Downloading https://files.pythonhosted.org/packages/5e/c2/6aef937fc65ef0d12d18a6ad3c27532b2f33c0d5842d714e3a110543bf83/lib310-0.2.8.tar.gz
+[2023-04-24 21:38:43] WARNING root fetch - processPackages [fmriprep]: Skipping package: exceeds size limit 24904545>=10485760
+[2023-04-24 21:38:43] INFO root fetch - processPackages [fmriprep]: Start processing: fmriprep-docker
+[2023-04-24 21:38:43] INFO root fetch - main [MainThread]: End processing [fmriprep] error
+[2023-04-24 21:38:43] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.7.tar.gz tmp/NeuralBasics-1.0.8.tar.gz --markdown 20230424/N/NeuralBasics/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ghidrecomp]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ghidrecomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghidrecomp-0.3.0.tar.gz tmp/ghidrecomp-0.3.1.tar.gz --markdown 20230424/g/ghidrecomp/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 21:38:43] INFO root fetch - processPackages [fmriprep-docker]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ipfromwebpage]: Downloading https://files.pythonhosted.org/packages/be/c1/c687550d879835aa2a17867ab0cbeb4d2212aa328dbf67dc281107c5c74e/ipfromwebpage-1.1.0.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [diamondback]: Downloading https://files.pythonhosted.org/packages/0e/74/8024219cb9bc53ae338e97ca71ea58564fb9609a5a8f8e0e1b3740318adb/diamondback-4.1.9.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [chardetng-py]: Downloading https://files.pythonhosted.org/packages/57/c3/b660ceb4a70ace320d9f60b3d7e875f589986376922df3dc8d1029a7e9ee/chardetng_py-0.1.1.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [wait-for-dep]: Downloading https://files.pythonhosted.org/packages/0b/34/5b7fccb78584808dc00e26acde49434d2bdcd15d4624938938f34c34f7d1/wait-for-dep-0.4.1.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [fmriprep-docker]: Downloading https://files.pythonhosted.org/packages/04/2c/2d509b52f39337eedb025e4af5eed7dab22cb3fa5b42f5fcfcb0c49d67e0/fmriprep_docker-23.0.1.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [lib310]: Downloading https://files.pythonhosted.org/packages/aa/e3/6c69ec3e73eeaa86b73971aef01b7431617f838888c6c4bfd6abf5401f2f/lib310-0.2.9.tar.gz
+[2023-04-24 21:38:43] INFO root fetch - processPackages [diamondback]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [diamondback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diamondback-4.1.8.tar.gz tmp/diamondback-4.1.9.tar.gz --markdown 20230424/d/diamondback/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ipfromwebpage]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [ipfromwebpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfromwebpage-1.0.0.tar.gz tmp/ipfromwebpage-1.1.0.tar.gz --markdown 20230424/i/ipfromwebpage/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-24 21:38:43] INFO root fetch - processPackages [chardetng-py]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [chardetng-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chardetng_py-0.1.0.tar.gz tmp/chardetng_py-0.1.1.tar.gz --markdown 20230424/c/chardetng-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 21:38:43] INFO root fetch - processPackages [wait-for-dep]: executing diffoscope
+[2023-04-24 21:38:43] INFO root fetch - processPackages [wait-for-dep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wait-for-dep-0.4.0.tar.gz tmp/wait-for-dep-0.4.1.tar.gz --markdown 20230424/w/wait-for-dep/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-24 21:38:44] INFO root fetch - processPackages [fmriprep-docker]: Downloading https://files.pythonhosted.org/packages/3c/eb/48c59b9cd7c448c6c8631656e3e5e2d432fb4521d30d5ec9a4b6d66ebcfb/fmriprep_docker-23.0.2.tar.gz
+[2023-04-24 21:38:44] INFO root fetch - processPackages [david-test-datadog-sma]: executing diffoscope
+[2023-04-24 21:38:44] INFO root fetch - processPackages [david-test-datadog-sma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/david-test-datadog-sma-0.0.2.tar.gz tmp/david-test-datadog-sma-0.0.3.tar.gz --markdown 20230424/d/david-test-datadog-sma/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 21:38:44] INFO root fetch - processPackages [lib310]: executing diffoscope
+[2023-04-24 21:38:44] INFO root fetch - processPackages [lib310]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310-0.2.8.tar.gz tmp/lib310-0.2.9.tar.gz --markdown 20230424/l/lib310/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 21:38:44] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: ttk-custom-msgbox
+[2023-04-24 21:38:44] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-24 21:38:44] INFO root fetch - processPackages [fmriprep-docker]: executing diffoscope
+[2023-04-24 21:38:44] INFO root fetch - processPackages [fmriprep-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmriprep_docker-23.0.1.tar.gz tmp/fmriprep_docker-23.0.2.tar.gz --markdown 20230424/f/fmriprep-docker/23.0.1-23.0.2/diff.md --exclude *.pyd
+[2023-04-24 21:38:44] INFO root fetch - processPackages [ttk-custom-msgbox]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 21:38:44] INFO root fetch - processPackages [ttk-custom-msgbox]: Downloading https://files.pythonhosted.org/packages/f9/ad/eb887afe59d167985ecfd3724b98c36d4789132069938701f484a4eee603/ttk-custom-msgbox-0.0.3.tar.gz
+[2023-04-24 21:38:44] INFO root fetch - processPackages [NeuralBasics]: Start processing: pulumi-spotinst
+[2023-04-24 21:38:44] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 21:38:44] INFO root fetch - processPackages [ttk-custom-msgbox]: executing diffoscope
+[2023-04-24 21:38:44] INFO root fetch - processPackages [ttk-custom-msgbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttk-custom-msgbox-0.0.2.tar.gz tmp/ttk-custom-msgbox-0.0.3.tar.gz --markdown 20230424/t/ttk-custom-msgbox/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 21:38:45] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-04-24 21:38:45] INFO root fetch - processPackages [ghidrecomp]: Start processing: aiounifi
+[2023-04-24 21:38:45] INFO root fetch - main [MainThread]: End processing [ghidrecomp]: success
+[2023-04-24 21:38:45] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-04-24 21:38:45] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230424/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-04-24 21:38:45] INFO root fetch - processPackages [aiounifi]: New version: [9] Old Version: [8]
+[2023-04-24 21:38:45] INFO root fetch - processPackages [aiounifi]: Downloading https://files.pythonhosted.org/packages/f2/d3/41ed032ca77b591345ff1acab6e3e73548f1f1c7db8e05326edeca8c7c4a/aiounifi-8.tar.gz
+[2023-04-24 21:38:45] INFO root fetch - main [MainThread]: End processing [ipfromwebpage]: success
+[2023-04-24 21:38:45] INFO root fetch - main [MainThread]: End processing [diamondback]: success
+[2023-04-24 21:38:45] INFO root fetch - main [MainThread]: End processing [chardetng-py]: success
+[2023-04-24 21:38:45] INFO root fetch - processPackages [aiounifi]: Downloading https://files.pythonhosted.org/packages/3e/99/3710e9e4e2c4d5e01f2fb4a1a2459a673a60a56c632f11644e0848e8d92a/aiounifi-9.tar.gz
+[2023-04-24 21:38:45] INFO root fetch - main [MainThread]: End processing [fmriprep-docker]: success
+[2023-04-24 21:38:45] INFO root fetch - processPackages [aiounifi]: executing diffoscope
+[2023-04-24 21:38:45] INFO root fetch - processPackages [aiounifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiounifi-8.tar.gz tmp/aiounifi-9.tar.gz --markdown 20230424/a/aiounifi/8-9/diff.md --exclude *.pyd
+[2023-04-24 21:38:45] INFO root fetch - main [MainThread]: End processing [wait-for-dep]: success
+[2023-04-24 21:38:46] INFO root fetch - main [MainThread]: End processing [ttk-custom-msgbox]: success
+[2023-04-24 21:38:46] INFO root fetch - main [MainThread]: End processing [aiounifi]: success
+[2023-04-24 21:38:46] INFO root fetch - main [MainThread]: End processing [lib310]: success
+[2023-04-24 21:38:47] INFO root fetch - main [MainThread]: End processing [david-test-datadog-sma]: success
+[2023-04-24 21:38:47] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-04-24 21:38:47] INFO root fetch - main [MainThread]: Store serial: [17838745]
