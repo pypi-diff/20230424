@@ -6478,3 +6478,68 @@
 [2023-04-24 09:13:32] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-04-24 09:13:39] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-04-24 09:13:39] INFO root fetch - main [MainThread]: Store serial: [17830042]
+[2023-04-24 09:18:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830042]
+[2023-04-24 09:18:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kudio
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: we-factor-quad
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: we-factor-quad
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CodonU
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sitcom
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfq-nightly
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyquora
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DDesignerAPI
+[2023-04-24 09:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shopcloud-eventbus
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [kudio]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [CodonU]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [sitcom]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pyquora]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230423] Old Version: [0.7.3.dev20230422]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230424/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/00/90/bb1f03b8f60bc381ab14c412d0160fbf905ea071a0d5caebe76e2d914cdc/we_factor_quad-0.0.3.tar.gz
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/00/90/bb1f03b8f60bc381ab14c412d0160fbf905ea071a0d5caebe76e2d914cdc/we_factor_quad-0.0.3.tar.gz
+[2023-04-24 09:18:48] INFO root fetch - processPackages [shopcloud-eventbus]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-24 09:18:48] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/74/b7/93b65c5590160cd2fd52c0a6b45c4bd79085999a1c05ab897684e97d121e/sitcom-1.3.7.tar.gz
+[2023-04-24 09:18:48] INFO root fetch - processPackages [kudio]: Downloading https://files.pythonhosted.org/packages/d6/4d/b9907457131886be72eca7267129bb352379af481283c9d3d4ed03e8e5f4/kudio-1.1.3-cp39-cp39-win_amd64.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/c2/dd/37c7a19c9ae236d7283e931f5a4d6f9bfbfddec5f1e84209c3305db02703/DDesignerAPI-0.0.0.2-py3-none-any.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/e9/20/2d0624d335d49ddacd67952837fb9f3da8cb777c9d1dd24b2b511bb5263f/tfq_nightly-0.7.3.dev20230422-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pyquora]: Downloading https://files.pythonhosted.org/packages/39/dc/c78eb58c9e7ef23f436af39e0b4a2289f5bb4ce9974d715ee5ff6fd1744b/pyquora-0.4.4.tar.gz
+[2023-04-24 09:18:48] INFO root fetch - processPackages [CodonU]: Downloading https://files.pythonhosted.org/packages/56/cf/36fa7a442259e620f3f516e7a5cd26e2612d5844d860209bd06af4364492/CodonU-0.0.1.tar.gz
+[2023-04-24 09:18:48] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689452>=10485760
+[2023-04-24 09:18:48] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-24 09:18:48] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.1-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.2-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pyquora]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [pyquora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquora-0.4.3.tar.gz tmp/pyquora-0.4.4.tar.gz --markdown 20230424/p/pyquora/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [shopcloud-eventbus]: Downloading https://files.pythonhosted.org/packages/c0/fc/1da461204277ae449f0a9885d5b41d63852487ef7ffe3d772aeacb62c9da/shopcloud_eventbus-1.2.0.tar.gz
+[2023-04-24 09:18:48] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819849>=10485760
+[2023-04-24 09:18:48] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/17/71/5a1bf3917599b1c908416981740e3c6a05e932791fd4cbaea839682935c2/we_factor_quad-0.0.4-py3-none-any.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/17/71/5a1bf3917599b1c908416981740e3c6a05e932791fd4cbaea839682935c2/we_factor_quad-0.0.4-py3-none-any.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [CodonU]: Downloading https://files.pythonhosted.org/packages/ad/63/2813242cddfc9ff864dc30e932da40b1768726122296480cde1ee82d4d79/CodonU-1.0.1-py3-none-any.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_factor_quad-0.0.3.tar.gz tmp/we_factor_quad-0.0.4-py3-none-any.whl.zip --markdown 20230424/w/we-factor-quad/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [we-factor-quad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_factor_quad-0.0.3.tar.gz tmp/we_factor_quad-0.0.4-py3-none-any.whl.zip --markdown 20230424/w/we-factor-quad/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [CodonU]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [CodonU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodonU-0.0.1.tar.gz tmp/CodonU-1.0.1-py3-none-any.whl.zip --markdown 20230424/C/CodonU/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [kudio]: Downloading https://files.pythonhosted.org/packages/2a/f8/8b50616772660fe3196a0a3d042f641e947047aae7ff9bf8b866d9583612/kudio-1.1.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 09:18:48] INFO root fetch - processPackages [kudio]: executing diffoscope
+[2023-04-24 09:18:48] INFO root fetch - processPackages [kudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kudio-1.1.3-cp39-cp39-win_amd64.whl.zip tmp/kudio-1.1.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/k/kudio/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-24 09:18:48] INFO root fetch - processPackages [shopcloud-eventbus]: Downloading https://files.pythonhosted.org/packages/0c/67/52c48d64283c8fbaa8931a75db2c634053e3970fac248c12bb7b24519dc0/shopcloud_eventbus-1.3.0-py3-none-any.whl
+[2023-04-24 09:18:49] INFO root fetch - processPackages [shopcloud-eventbus]: executing diffoscope
+[2023-04-24 09:18:49] INFO root fetch - processPackages [shopcloud-eventbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud_eventbus-1.2.0.tar.gz tmp/shopcloud_eventbus-1.3.0-py3-none-any.whl.zip --markdown 20230424/s/shopcloud-eventbus/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-24 09:18:49] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 09:18:49] INFO root fetch - main [MainThread]: End processing [pyquora]: success
+[2023-04-24 09:18:49] INFO root fetch - main [MainThread]: End processing [we-factor-quad]: success
+[2023-04-24 09:18:50] INFO root fetch - main [MainThread]: End processing [we-factor-quad]: success
+[2023-04-24 09:18:50] INFO root fetch - main [MainThread]: End processing [CodonU]: success
+[2023-04-24 09:18:50] INFO root fetch - main [MainThread]: End processing [shopcloud-eventbus]: success
+[2023-04-24 09:18:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-24 09:18:50] INFO root fetch - main [MainThread]: End processing [kudio]: success
+[2023-04-24 09:18:50] INFO root fetch - main [MainThread]: Store serial: [17830069]
