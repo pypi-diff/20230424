@@ -22267,3 +22267,280 @@
 [2023-04-24 22:52:46] INFO root fetch - main [MainThread]: End processing [faker-file]: success
 [2023-04-24 22:54:57] INFO root fetch - main [MainThread]: End processing [cmomy]: success
 [2023-04-24 22:54:57] INFO root fetch - main [MainThread]: Store serial: [17839334]
+[2023-04-24 23:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839334]
+[2023-04-24 23:00:06] INFO root fetch - main [MainThread]: Found 45 changed packages
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultracart-rest-sdk
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dop-integration-libs
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncqb
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freeplay-sdk
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-rdm-migrator
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmem-cmemc
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apache-airflow-providers-apache-beam
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apache-airflow-providers-apache-kafka
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apache-airflow-providers-cncf-kubernetes
+[2023-04-24 23:00:06] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: New version: [5.0.0rc1] Old Version: [5.0.0]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [syncqb]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [invenio-rdm-migrator]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-04-24 23:00:06] WARNING root fetch - processPackages [freeplay-sdk]: Skipping, unable to determine old version
+[2023-04-24 23:00:06] INFO root fetch - processPackages [freeplay-sdk]: Start processing: apache-airflow-providers-databricks
+[2023-04-24 23:00:06] INFO root fetch - main [MainThread]: End processing [freeplay-sdk] error
+[2023-04-24 23:00:06] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [cmem-cmemc]: New version: [23.1] Old Version: [22.3rc1]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: New version: [6.1.0rc1] Old Version: [6.1.0]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [apache-airflow-providers-databricks]: New version: [4.1.0rc1] Old Version: [4.1.0]
+[2023-04-24 23:00:06] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: Downloading https://files.pythonhosted.org/packages/c4/bd/5a93643fa85f103143be060d1ce578baff0a6431627f9fb60aa06786265a/apache-airflow-providers-apache-beam-5.0.0.tar.gz
+[2023-04-24 23:00:06] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/ef/8a/f29157eba9ab3adcf51268e878245a7bb31dcd0c1510b095fcc1deee09f5/cmem-cmemc-22.3rc1.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Downloading https://files.pythonhosted.org/packages/3c/05/271ed9ee91c7d25f5f8c1fa3f586ab30be60cab2856eb2a8e3fafbc44758/apache-airflow-providers-databricks-4.1.0.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/a9/59/fcd15c3d3b9b26bab4df980f59b1e86769bf7b18edbd18afca5db973b746/apache-airflow-providers-cncf-kubernetes-6.1.0.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Downloading https://files.pythonhosted.org/packages/58/36/1e64aedbefa482797c9eef91ccacab0fb6fd806d0bc25bc780cbed0c1a4b/apache-airflow-providers-apache-kafka-1.0.0.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/08/51/94ad0f347fd9b7f2f2d8a3f69b4bb31ed7608126303e51f9d8a4dd555fde/syncqb-1.0.5.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/cc/91/3a1c09586bc06c1514ea27e0c9987c9fb7367a190cc44e9f953dcb99ddd6/invenio-rdm-migrator-1.0.0a5.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230424/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230424/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [syncqb]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [syncqb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncqb-1.0.4.tar.gz tmp/syncqb-1.0.5.tar.gz --markdown 20230424/s/syncqb/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [invenio-rdm-migrator]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [invenio-rdm-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-migrator-1.0.0a4.tar.gz tmp/invenio-rdm-migrator-1.0.0a5.tar.gz --markdown 20230424/i/invenio-rdm-migrator/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: Downloading https://files.pythonhosted.org/packages/58/2f/416150f27b074f433f23b9854626c4e899eeb965f7c44af961f9cf7dad46/apache-airflow-providers-apache-beam-5.0.0rc1.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/87/30/998baa83c3de9d11a0293583fdb7b0ab931daa3ee672417a0d285798b628/cmem_cmemc-23.1.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Downloading https://files.pythonhosted.org/packages/f3/13/84f96ebccf92c6d6d734f70e46d4094c2879473815d3c3b6220e89ded7c3/apache-airflow-providers-databricks-4.1.0rc1.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/ad/89/34a9357201cbb869405fedc53d10bef1d3d0817c2870a569e42c96be6658/apache-airflow-providers-cncf-kubernetes-6.1.0rc1.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-beam-5.0.0.tar.gz tmp/apache-airflow-providers-apache-beam-5.0.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-apache-beam/5.0.0-5.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Downloading https://files.pythonhosted.org/packages/2b/66/69793e27e4323498e9881e50fa51b5584366e2e6441a6a684d5a33c58fb6/apache-airflow-providers-apache-kafka-1.0.0rc1.tar.gz
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-databricks]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-databricks-4.1.0.tar.gz tmp/apache-airflow-providers-databricks-4.1.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-databricks/4.1.0-4.1.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-cncf-kubernetes-6.1.0.tar.gz tmp/apache-airflow-providers-cncf-kubernetes-6.1.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-cncf-kubernetes/6.1.0-6.1.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [cmem-cmemc]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [cmem-cmemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem-cmemc-22.3rc1.tar.gz tmp/cmem_cmemc-23.1.tar.gz --markdown 20230424/c/cmem-cmemc/22.3rc1-23.1/diff.md --exclude *.pyd
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: executing diffoscope
+[2023-04-24 23:00:07] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-kafka-1.0.0.tar.gz tmp/apache-airflow-providers-apache-kafka-1.0.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-apache-kafka/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:08] INFO root fetch - processPackages [dop-integration-libs]: Start processing: shp2metric
+[2023-04-24 23:00:08] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-24 23:00:08] INFO root fetch - processPackages [shp2metric]: New version: [1.3.2] Old Version: [1.2.1]
+[2023-04-24 23:00:08] INFO root fetch - processPackages [findmyorder]: Start processing: apache-airflow-providers-dbt-cloud
+[2023-04-24 23:00:08] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 23:00:08] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: New version: [3.1.1rc1] Old Version: [3.1.1]
+[2023-04-24 23:00:08] INFO root fetch - processPackages [shp2metric]: Downloading https://files.pythonhosted.org/packages/49/dd/6a7b72e4ee3a1263427427c17b4c8aec2649f1cb55ad04992800dd7eb0fa/shp2metric-1.3.2.tar.gz
+[2023-04-24 23:00:08] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/7b/22/e3955a39d2fcba80069b6b729d96f31b4d59bdd9bd33218f59aef2c9798f/apache-airflow-providers-dbt-cloud-3.1.1.tar.gz
+[2023-04-24 23:00:08] INFO root fetch - processPackages [syncqb]: Start processing: apache-airflow-providers-docker
+[2023-04-24 23:00:08] INFO root fetch - main [MainThread]: End processing [syncqb]: success
+[2023-04-24 23:00:08] INFO root fetch - processPackages [apache-airflow-providers-docker]: New version: [3.6.0rc1] Old Version: [3.6.0]
+[2023-04-24 23:00:09] INFO root fetch - processPackages [shp2metric]: executing diffoscope
+[2023-04-24 23:00:09] INFO root fetch - processPackages [shp2metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shp2metric-1.2.1.tar.gz tmp/shp2metric-1.3.2.tar.gz --markdown 20230424/s/shp2metric/1.2.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-docker]: Downloading https://files.pythonhosted.org/packages/0a/c0/834ba999ea5734ccce72c7abec6665590e6270116c6114088f1f75eadf99/apache-airflow-providers-docker-3.6.0.tar.gz
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/94/85/92ae7c6f4acc5e61e383ef028b00d9390ff6a642a6aea67f7b86b826e16b/apache-airflow-providers-dbt-cloud-3.1.1rc1.tar.gz
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: Start processing: apache-airflow-providers-google
+[2023-04-24 23:00:09] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-beam]: success
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-google]: New version: [9.0.0rc2] Old Version: [9.0.0rc1]
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: executing diffoscope
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-dbt-cloud-3.1.1.tar.gz tmp/apache-airflow-providers-dbt-cloud-3.1.1rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-dbt-cloud/3.1.1-3.1.1rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-docker]: Downloading https://files.pythonhosted.org/packages/d8/a6/6410908960805757e3ec9e4b5ccb210ab5f8d2385747463a719dbfd79b91/apache-airflow-providers-docker-3.6.0rc1.tar.gz
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-google]: Downloading https://files.pythonhosted.org/packages/d7/dd/8d2856a3ac1d0826f5dd152fe38a7f0562702f229e4a444c7ea5911e3174/apache-airflow-providers-google-9.0.0rc1.tar.gz
+[2023-04-24 23:00:09] INFO root fetch - processPackages [invenio-rdm-migrator]: Start processing: apache-airflow-providers-microsoft-azure
+[2023-04-24 23:00:09] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-docker]: executing diffoscope
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-docker-3.6.0.tar.gz tmp/apache-airflow-providers-docker-3.6.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-docker/3.6.0-3.6.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: New version: [6.0.0rc1] Old Version: [6.0.0]
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Start processing: apache-airflow-providers-mysql
+[2023-04-24 23:00:09] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-kafka]: success
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-mysql]: New version: [5.0.0rc1] Old Version: [5.0.0]
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Downloading https://files.pythonhosted.org/packages/ff/e5/c8e36e86d29566d1fd96a4b7842f2f1f7425f9a49f73ebbc7cf807befc28/apache-airflow-providers-microsoft-azure-6.0.0.tar.gz
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Start processing: dxsp
+[2023-04-24 23:00:09] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-databricks]: success
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Downloading https://files.pythonhosted.org/packages/38/f2/ed5939dc875349d55fcb650e537b889bace3611faf1fc834bb419d10d3f4/apache-airflow-providers-mysql-5.0.0.tar.gz
+[2023-04-24 23:00:09] INFO root fetch - processPackages [dxsp]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 23:00:09] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Start processing: apache-airflow-providers-presto
+[2023-04-24 23:00:10] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-cncf-kubernetes]: success
+[2023-04-24 23:00:10] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/4c/ce/de6df015c72ba0f0965165bcf45ce317c03864170c69b4823256ae01c521/dxsp-1.2.8.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-presto]: New version: [5.0.0rc1] Old Version: [5.0.0]
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-google]: Downloading https://files.pythonhosted.org/packages/c9/a9/4d2d2be9368e88a481079184119d20b7f5a9d7e3f56f7303b1bf2508169b/apache-airflow-providers-google-9.0.0rc2.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [shp2metric]: Start processing: apache-airflow-providers-snowflake
+[2023-04-24 23:00:10] INFO root fetch - main [MainThread]: End processing [shp2metric]: success
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: New version: [4.0.5rc1] Old Version: [4.0.5]
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-presto]: Downloading https://files.pythonhosted.org/packages/82/38/abab6c3f59b5f15c4928891e51ffda4cdf36b4c2ece4606fefea2e52a3f2/apache-airflow-providers-presto-5.0.0.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Downloading https://files.pythonhosted.org/packages/70/b5/3afbb57fda0c171b037a2bce2ea3bb8580edec1737213dbb68d360b02e72/apache-airflow-providers-microsoft-azure-6.0.0rc1.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Downloading https://files.pythonhosted.org/packages/a5/35/f1a67043e4b618f195344eb9d69c720cc37d35ae3b3f7239212f0a92e7f6/apache-airflow-providers-mysql-5.0.0rc1.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [cmem-cmemc]: Start processing: apache-airflow-providers-sqlite
+[2023-04-24 23:00:10] INFO root fetch - main [MainThread]: End processing [cmem-cmemc]: success
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Downloading https://files.pythonhosted.org/packages/e2/88/d8d230e69ccf6495d93a5ddcc7847ef09664fa4c3f00f3e08147643caa6c/apache-airflow-providers-snowflake-4.0.5.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-microsoft-azure-6.0.0.tar.gz tmp/apache-airflow-providers-microsoft-azure-6.0.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-microsoft-azure/6.0.0-6.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-sqlite]: New version: [3.3.2rc1] Old Version: [3.3.2]
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-mysql]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-mysql-5.0.0.tar.gz tmp/apache-airflow-providers-mysql-5.0.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-mysql/5.0.0-5.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-google]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-google-9.0.0rc1.tar.gz tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz --markdown 20230424/a/apache-airflow-providers-google/9.0.0rc1-9.0.0rc2/diff.md --exclude *.pyd
+[2023-04-24 23:00:10] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/86/df/3c3849514fe86c7ae148649e443c586ee98ae34e706f87bf194b6e43ad25/dxsp-1.2.9.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-sqlite]: Downloading https://files.pythonhosted.org/packages/84/7f/0fbd0c47e8bcdb66b6dc00177ae406bb15594287ca6f04ace4b4aa81426f/apache-airflow-providers-sqlite-3.3.2.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-presto]: Downloading https://files.pythonhosted.org/packages/3c/14/e04e4a92c77b04481e5dbbae0d26da6cd02dc9cd79a1109d00042e93e95d/apache-airflow-providers-presto-5.0.0rc1.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.8.tar.gz tmp/dxsp-1.2.9.tar.gz --markdown 20230424/d/dxsp/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-presto]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-presto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-presto-5.0.0.tar.gz tmp/apache-airflow-providers-presto-5.0.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-presto/5.0.0-5.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Downloading https://files.pythonhosted.org/packages/46/ce/33076c9e0e8ca6ccb53b645f0d0903e99445d89b4fe2bfb9f27cdf61868f/apache-airflow-providers-snowflake-4.0.5rc1.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-snowflake-4.0.5.tar.gz tmp/apache-airflow-providers-snowflake-4.0.5rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-snowflake/4.0.5-4.0.5rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-sqlite]: Downloading https://files.pythonhosted.org/packages/99/a8/72b2fb787ce57f836263f90e96e4e6d2468839e2223b001477f806886b5a/apache-airflow-providers-sqlite-3.3.2rc1.tar.gz
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-sqlite]: executing diffoscope
+[2023-04-24 23:00:10] INFO root fetch - processPackages [apache-airflow-providers-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sqlite-3.3.2.tar.gz tmp/apache-airflow-providers-sqlite-3.3.2rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-sqlite/3.3.2-3.3.2rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-docker]: Start processing: apache-airflow-providers-trino
+[2023-04-24 23:00:11] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-docker]: success
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Start processing: django-admin-search
+[2023-04-24 23:00:11] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-dbt-cloud]: success
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-trino]: New version: [5.0.0rc1] Old Version: [5.0.0]
+[2023-04-24 23:00:11] INFO root fetch - processPackages [django-admin-search]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-trino]: Downloading https://files.pythonhosted.org/packages/7d/50/5dc51c57b0a50af1ec45e9a1844e3edf02541bde6ee6410a270f9dddb3a7/apache-airflow-providers-trino-5.0.0.tar.gz
+[2023-04-24 23:00:11] INFO root fetch - processPackages [django-admin-search]: Downloading https://files.pythonhosted.org/packages/4c/6b/3603e90207855c7414386c20d0662f6a6a2ad18e6441a70f00c6614750b6/django-admin-search-0.3.8.tar.gz
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-presto]: Start processing: awsebcli
+[2023-04-24 23:00:11] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-presto]: success
+[2023-04-24 23:00:11] INFO root fetch - processPackages [awsebcli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-trino]: Downloading https://files.pythonhosted.org/packages/15/e5/d7ffc7ecfc2b07f7283e37ba0f6d9d0fc659c77920beb2972c98cf37c3c7/apache-airflow-providers-trino-5.0.0rc1.tar.gz
+[2023-04-24 23:00:11] INFO root fetch - processPackages [dxsp]: Start processing: satnogs-decoders
+[2023-04-24 23:00:11] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-24 23:00:11] INFO root fetch - processPackages [satnogs-decoders]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-24 23:00:11] INFO root fetch - processPackages [django-admin-search]: Downloading https://files.pythonhosted.org/packages/13/f6/dd24895be75b635dc4432b7602b3ba5a6490cfb31c5ab51f3be575322fe9/django-admin-search-0.3.9.tar.gz
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-trino]: executing diffoscope
+[2023-04-24 23:00:11] INFO root fetch - processPackages [apache-airflow-providers-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-trino-5.0.0.tar.gz tmp/apache-airflow-providers-trino-5.0.0rc1.tar.gz --markdown 20230424/a/apache-airflow-providers-trino/5.0.0-5.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:00:12] INFO root fetch - processPackages [awsebcli]: Downloading https://files.pythonhosted.org/packages/8e/dc/cc09e88d5f6794c38823db6218fb16c9c637fc2749f6da96621ed55b502f/awsebcli-3.9.0.tar.gz
+[2023-04-24 23:00:12] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Start processing: NeuralBasics
+[2023-04-24 23:00:12] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-snowflake]: success
+[2023-04-24 23:00:12] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 23:00:12] INFO root fetch - processPackages [satnogs-decoders]: Downloading https://files.pythonhosted.org/packages/98/5b/a884740e2c9b5b5cae0ad2eb064a67c19ebac207e460da6dc21f9d4f5ae7/satnogs_decoders-1.9.0-py3-none-any.whl
+[2023-04-24 23:00:12] INFO root fetch - processPackages [django-admin-search]: executing diffoscope
+[2023-04-24 23:00:12] INFO root fetch - processPackages [django-admin-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-search-0.3.8.tar.gz tmp/django-admin-search-0.3.9.tar.gz --markdown 20230424/d/django-admin-search/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:12] INFO root fetch - processPackages [apache-airflow-providers-sqlite]: Start processing: conductor-py
+[2023-04-24 23:00:12] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sqlite]: success
+[2023-04-24 23:00:12] INFO root fetch - processPackages [conductor-py]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-24 23:00:12] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 23:00:12] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.8.tar.gz tmp/NeuralBasics-1.0.9.tar.gz --markdown 20230424/N/NeuralBasics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:12] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Start processing: govee-btled-h613b
+[2023-04-24 23:00:12] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-mysql]: success
+[2023-04-24 23:00:12] INFO root fetch - processPackages [govee-btled-h613b]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 23:00:12] INFO root fetch - processPackages [conductor-py]: Downloading https://files.pythonhosted.org/packages/43/35/0ea8f403b47357e32728856c17a464b2712bed6e7b8b37996107a8efe778/conductor_py-0.0.0.tar.gz
+[2023-04-24 23:00:12] INFO root fetch - processPackages [govee-btled-h613b]: Downloading https://files.pythonhosted.org/packages/f8/92/ba30f188d314161abbfc737a6912d99f825c86c880d7f634ef7e156feaad/govee_btled_h613b-0.0.5.tar.gz
+[2023-04-24 23:00:12] INFO root fetch - processPackages [awsebcli]: Downloading https://files.pythonhosted.org/packages/16/81/c8b942570f6e92bac9843ead8fc9baa6cfed48684a0687665447e76e2858/awsebcli-3.9.1.tar.gz
+[2023-04-24 23:00:12] INFO root fetch - processPackages [govee-btled-h613b]: Downloading https://files.pythonhosted.org/packages/6f/83/9c2507607296d46ae5695fcbf5a4afbd8f61cb6c857bd908af374845a661/govee_btled_h613b-0.0.6.tar.gz
+[2023-04-24 23:00:12] INFO root fetch - processPackages [satnogs-decoders]: Downloading https://files.pythonhosted.org/packages/fc/ea/57d202b93cb74969dd8d51533ef8813c3fe3ec463ed1aa1d6175a2213633/satnogs_decoders-1.9.1-py3-none-any.whl
+[2023-04-24 23:00:12] INFO root fetch - processPackages [conductor-py]: Downloading https://files.pythonhosted.org/packages/a8/6b/4e3650dc0eab4af24bfedbdf957bce87329a244e1b1ee9c06b25d348e50c/conductor_py-0.0.1.tar.gz
+[2023-04-24 23:00:12] INFO root fetch - processPackages [awsebcli]: executing diffoscope
+[2023-04-24 23:00:12] INFO root fetch - processPackages [awsebcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsebcli-3.9.0.tar.gz tmp/awsebcli-3.9.1.tar.gz --markdown 20230424/a/awsebcli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-24 23:00:12] INFO root fetch - processPackages [govee-btled-h613b]: executing diffoscope
+[2023-04-24 23:00:12] INFO root fetch - processPackages [govee-btled-h613b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govee_btled_h613b-0.0.5.tar.gz tmp/govee_btled_h613b-0.0.6.tar.gz --markdown 20230424/g/govee-btled-h613b/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 23:00:12] INFO root fetch - processPackages [conductor-py]: executing diffoscope
+[2023-04-24 23:00:12] INFO root fetch - processPackages [conductor-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conductor_py-0.0.0.tar.gz tmp/conductor_py-0.0.1.tar.gz --markdown 20230424/c/conductor-py/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-24 23:00:13] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Start processing: alice-skills-manager
+[2023-04-24 23:00:13] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-microsoft-azure]: success
+[2023-04-24 23:00:13] INFO root fetch - processPackages [alice-skills-manager]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 23:00:13] INFO root fetch - processPackages [alice-skills-manager]: Downloading https://files.pythonhosted.org/packages/f9/87/a59e9f601053954b80ec355e8ecd3d3535fb7976c9e94667d8974f80da83/alice-skills-manager-0.0.7.tar.gz
+[2023-04-24 23:00:13] INFO root fetch - processPackages [NeuralBasics]: Start processing: recurrent-memory-transformer-pytorch
+[2023-04-24 23:00:13] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 23:00:13] INFO root fetch - processPackages [satnogs-decoders]: executing diffoscope
+[2023-04-24 23:00:13] INFO root fetch - processPackages [satnogs-decoders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satnogs_decoders-1.9.0-py3-none-any.whl.zip tmp/satnogs_decoders-1.9.1-py3-none-any.whl.zip --markdown 20230424/s/satnogs-decoders/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-24 23:00:13] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-24 23:00:13] INFO root fetch - processPackages [alice-skills-manager]: executing diffoscope
+[2023-04-24 23:00:13] INFO root fetch - processPackages [alice-skills-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alice-skills-manager-0.0.6.tar.gz tmp/alice-skills-manager-0.0.7.tar.gz --markdown 20230424/a/alice-skills-manager/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 23:00:13] INFO root fetch - processPackages [apache-airflow-providers-trino]: Start processing: ReplayTables-andnp
+[2023-04-24 23:00:13] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-trino]: success
+[2023-04-24 23:00:13] INFO root fetch - processPackages [ReplayTables-andnp]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-24 23:00:13] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-04-24 23:00:13] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.0.6.tar.gz tmp/recurrent-memory-transformer-pytorch-0.0.7.tar.gz --markdown 20230424/r/recurrent-memory-transformer-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-24 23:00:13] INFO root fetch - processPackages [ReplayTables-andnp]: Downloading https://files.pythonhosted.org/packages/5e/82/765339f186629109252fca22ef99f4fa37ca9443843375f4677c63741534/ReplayTables-andnp-2.4.0.tar.gz
+[2023-04-24 23:00:13] INFO root fetch - processPackages [ReplayTables-andnp]: executing diffoscope
+[2023-04-24 23:00:13] INFO root fetch - processPackages [ReplayTables-andnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReplayTables-andnp-2.4.0.tar.gz tmp/ReplayTables-andnp-2.5.0.tar.gz --markdown 20230424/R/ReplayTables-andnp/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-24 23:00:14] INFO root fetch - processPackages [govee-btled-h613b]: Start processing: trainerbase
+[2023-04-24 23:00:14] INFO root fetch - main [MainThread]: End processing [govee-btled-h613b]: success
+[2023-04-24 23:00:14] INFO root fetch - processPackages [trainerbase]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-24 23:00:14] INFO root fetch - processPackages [trainerbase]: executing diffoscope
+[2023-04-24 23:00:14] INFO root fetch - processPackages [trainerbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrainerBase-2.9.8.tar.gz tmp/TrainerBase-2.9.9.tar.gz --markdown 20230424/t/trainerbase/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:14] INFO root fetch - processPackages [conductor-py]: Start processing: dop-integration-libs
+[2023-04-24 23:00:14] INFO root fetch - main [MainThread]: End processing [conductor-py]: success
+[2023-04-24 23:00:14] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:00:14] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-24 23:00:14] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230424/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:14] INFO root fetch - processPackages [django-admin-search]: Start processing: teneva-jax
+[2023-04-24 23:00:14] INFO root fetch - main [MainThread]: End processing [django-admin-search]: success
+[2023-04-24 23:00:14] WARNING root fetch - processPackages [teneva-jax]: Skipping, unable to determine old version
+[2023-04-24 23:00:14] INFO root fetch - processPackages [teneva-jax]: Start processing: NeuralBasics
+[2023-04-24 23:00:14] INFO root fetch - main [MainThread]: End processing [teneva-jax] error
+[2023-04-24 23:00:14] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 23:00:14] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 23:00:14] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.8.tar.gz tmp/NeuralBasics-1.0.9.tar.gz --markdown 20230424/N/NeuralBasics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:14] INFO root fetch - processPackages [alice-skills-manager]: Start processing: bm-utilities
+[2023-04-24 23:00:14] INFO root fetch - main [MainThread]: End processing [alice-skills-manager]: success
+[2023-04-24 23:00:14] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 23:00:15] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-04-24 23:00:15] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.2.tar.gz tmp/bm_utilities-0.0.3.tar.gz --markdown 20230424/b/bm-utilities/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 23:00:15] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: NewCode-Utils
+[2023-04-24 23:00:15] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-04-24 23:00:15] WARNING root fetch - processPackages [NewCode-Utils]: Skipping, unable to determine old version
+[2023-04-24 23:00:15] INFO root fetch - processPackages [NewCode-Utils]: Start processing: pursuitlib-django
+[2023-04-24 23:00:15] INFO root fetch - main [MainThread]: End processing [NewCode-Utils] error
+[2023-04-24 23:00:15] INFO root fetch - processPackages [pursuitlib-django]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 23:00:15] INFO root fetch - processPackages [satnogs-decoders]: Start processing: freeplay-sdk
+[2023-04-24 23:00:15] INFO root fetch - main [MainThread]: End processing [satnogs-decoders]: success
+[2023-04-24 23:00:15] INFO root fetch - processPackages [pursuitlib-django]: Downloading https://files.pythonhosted.org/packages/dc/06/e102d809af633a1bb814dded164b76d4f15e299407ef6cabb3641416df65/pursuitlib-django-0.2.8.tar.gz
+[2023-04-24 23:00:15] INFO root fetch - processPackages [freeplay-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 23:00:15] INFO root fetch - processPackages [freeplay-sdk]: Downloading https://files.pythonhosted.org/packages/01/f8/c7eb7c8ad14b681d2b71e1cb64092ddb056ce50a74944820d178e479caea/freeplay_sdk-0.1.8.tar.gz
+[2023-04-24 23:00:15] INFO root fetch - processPackages [ReplayTables-andnp]: Start processing: xmos-ai-tools
+[2023-04-24 23:00:15] INFO root fetch - main [MainThread]: End processing [ReplayTables-andnp]: success
+[2023-04-24 23:00:15] INFO root fetch - processPackages [awsebcli]: Start processing: composer
+[2023-04-24 23:00:15] INFO root fetch - main [MainThread]: End processing [awsebcli]: success
+[2023-04-24 23:00:15] INFO root fetch - processPackages [xmos-ai-tools]: New version: [0.2.2.dev91] Old Version: [0.2.2.dev51]
+[2023-04-24 23:00:15] INFO root fetch - processPackages [composer]: New version: [0.13.5] Old Version: [0.13.4]
+[2023-04-24 23:00:15] INFO root fetch - processPackages [dop-integration-libs]: Start processing: mosaicml
+[2023-04-24 23:00:15] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-24 23:00:15] INFO root fetch - processPackages [freeplay-sdk]: Downloading https://files.pythonhosted.org/packages/77/c5/01e087c2586dafc043fa991af00d932f38c02854c472c07c2b3b55777c0b/freeplay_sdk-0.1.9.tar.gz
+[2023-04-24 23:00:15] INFO root fetch - processPackages [pursuitlib-django]: Downloading https://files.pythonhosted.org/packages/92/78/afceb9fb00db3a35f01f36aa453b899fa12e245fd428a1a16d5b8ec37cbc/pursuitlib-django-0.2.9.tar.gz
+[2023-04-24 23:00:15] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/45/ec/1596423fa6f0d2c54b1d97912de474f453e7e855296ee673b664073e93ea/xmos_ai_tools-0.2.2.dev51-py3-none-win_amd64.whl
+[2023-04-24 23:00:16] INFO root fetch - processPackages [mosaicml]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-24 23:00:16] INFO root fetch - processPackages [composer]: Downloading https://files.pythonhosted.org/packages/ee/e5/0ba99c4f51cc1a56d50fd87d8dac6abc7f0998e783e7c5a64a74eccf4521/composer-0.13.4.tar.gz
+[2023-04-24 23:00:16] INFO root fetch - processPackages [freeplay-sdk]: executing diffoscope
+[2023-04-24 23:00:16] INFO root fetch - processPackages [freeplay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeplay_sdk-0.1.8.tar.gz tmp/freeplay_sdk-0.1.9.tar.gz --markdown 20230424/f/freeplay-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:16] INFO root fetch - processPackages [trainerbase]: Start processing: dank-mids
+[2023-04-24 23:00:16] INFO root fetch - main [MainThread]: End processing [trainerbase]: success
+[2023-04-24 23:00:16] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-24 23:00:16] INFO root fetch - processPackages [mosaicml]: Downloading https://files.pythonhosted.org/packages/4a/0d/f859787a1af116665b2c57f455de98003faad15fd0cf246aac8ccd3b7317/mosaicml-0.8.2.tar.gz
+[2023-04-24 23:00:16] INFO root fetch - processPackages [pursuitlib-django]: executing diffoscope
+[2023-04-24 23:00:16] INFO root fetch - processPackages [pursuitlib-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pursuitlib-django-0.2.8.tar.gz tmp/pursuitlib-django-0.2.9.tar.gz --markdown 20230424/p/pursuitlib-django/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:16] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-24 23:00:16] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230424/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-24 23:00:16] INFO root fetch - processPackages [NeuralBasics]: Start processing: jianglab
+[2023-04-24 23:00:16] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 23:00:16] INFO root fetch - processPackages [composer]: Downloading https://files.pythonhosted.org/packages/0b/aa/d8ff90492bb54d1e07e78e654fdeb681a8a8a94a2bdc6a5617f3d9d8b950/composer-0.13.5.tar.gz
+[2023-04-24 23:00:16] INFO root fetch - processPackages [jianglab]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-24 23:00:16] INFO root fetch - processPackages [bm-utilities]: Start processing: remin
+[2023-04-24 23:00:16] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-04-24 23:00:16] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-04-24 23:00:16] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.1.7.tar.gz tmp/jianglab-0.1.8.tar.gz --markdown 20230424/j/jianglab/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-24 23:00:16] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 12231762>=10485760
+[2023-04-24 23:00:16] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-04-24 23:00:16] INFO root fetch - processPackages [remin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 23:00:16] INFO root fetch - processPackages [composer]: executing diffoscope
+[2023-04-24 23:00:16] INFO root fetch - processPackages [composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composer-0.13.4.tar.gz tmp/composer-0.13.5.tar.gz --markdown 20230424/c/composer/0.13.4-0.13.5/diff.md --exclude *.pyd
+[2023-04-24 23:00:16] INFO root fetch - processPackages [remin]: Downloading https://files.pythonhosted.org/packages/56/3b/242ac2543bbf0d3a8ee107a312ec2c88cf806efde2670d7aa8910104f766/remin-0.0.2.tar.gz
+[2023-04-24 23:00:16] INFO root fetch - processPackages [mosaicml]: Downloading https://files.pythonhosted.org/packages/d4/94/9f3bde8318895c050d35f3ea3d3da8c1f48dd35207933f8b0eaca33cf4fd/mosaicml-0.9.0.tar.gz
+[2023-04-24 23:00:17] INFO root fetch - processPackages [remin]: Downloading https://files.pythonhosted.org/packages/06/d5/d1dab07bcfcfb135faabbfa37c68b82df2317f3424fe66e8b6b6cd230ef2/remin-0.0.3.tar.gz
+[2023-04-24 23:00:17] INFO root fetch - processPackages [mosaicml]: executing diffoscope
+[2023-04-24 23:00:17] INFO root fetch - processPackages [mosaicml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-0.8.2.tar.gz tmp/mosaicml-0.9.0.tar.gz --markdown 20230424/m/mosaicml/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 23:00:17] INFO root fetch - processPackages [remin]: executing diffoscope
+[2023-04-24 23:00:17] INFO root fetch - processPackages [remin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remin-0.0.2.tar.gz tmp/remin-0.0.3.tar.gz --markdown 20230424/r/remin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 23:00:17] INFO root fetch - main [MainThread]: End processing [freeplay-sdk]: success
+[2023-04-24 23:00:17] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-04-24 23:00:17] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-24 23:00:18] INFO root fetch - main [MainThread]: End processing [pursuitlib-django]: success
+[2023-04-24 23:00:18] INFO root fetch - main [MainThread]: End processing [remin]: success
+[2023-04-24 23:00:19] INFO root fetch - main [MainThread]: End processing [composer]: success
+[2023-04-24 23:00:21] INFO root fetch - main [MainThread]: End processing [mosaicml]: success
+[2023-04-24 23:00:21] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-24 23:00:40] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
+[2023-04-24 23:00:40] INFO root fetch - main [MainThread]: Store serial: [17839472]
