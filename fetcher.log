@@ -21443,3 +21443,95 @@
 [2023-04-24 21:55:05] INFO root fetch - main [MainThread]: End processing [yascheduler]: success
 [2023-04-24 21:55:05] INFO root fetch - main [MainThread]: End processing [teneva]: success
 [2023-04-24 21:55:05] INFO root fetch - main [MainThread]: Store serial: [17838854]
+[2023-04-24 22:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838854]
+[2023-04-24 22:00:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-pixel-framebuf
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-encryption
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gentrace-py
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lammps-step
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: km3net-testdata
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chplot
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recurrent-memory-transformer-pytorch
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epiweeks
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smithed
+[2023-04-24 22:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cowch
+[2023-04-24 22:00:14] INFO root fetch - processPackages [lammps-step]: New version: [2023.4.9] Old Version: [2023.4.6]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [django-encryption]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [gentrace-py]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [adafruit-circuitpython-pixel-framebuf]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [smithed]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [km3net-testdata]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [epiweeks]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [chplot]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [cowch]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 22:00:14] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/84/78/cd63ab71539d9c083ae2b5f172bfe953e835a79472bf6bc6e33ee945dabb/gentrace_py-0.5.4.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [lammps-step]: Downloading https://files.pythonhosted.org/packages/4e/24/2019afa3b32af25be64c3eed55537a48d6d8c172f96ddbe41453824645a8/lammps_step-2023.4.6.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [adafruit-circuitpython-pixel-framebuf]: Downloading https://files.pythonhosted.org/packages/4c/e8/f31ba2aff629f7c6026922de0cc65fbdf851fe870c731c46f694fdf8746d/adafruit-circuitpython-pixel-framebuf-1.1.8.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/e9/7d/1a5f54cab8468dba20c207ef284467d79177898cba00a36609728dc2f024/smithed-0.9.2.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [epiweeks]: Downloading https://files.pythonhosted.org/packages/e0/a5/bcfcc132544cb8670995031e6998e60db95a0a64b5b39e17d5e78b918655/epiweeks-2.1.4.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/6f/27/c733daff4ca052a7b62dca895ab2c545f8ad1af019e3ab7f7f6517f1547c/recurrent-memory-transformer-pytorch-0.0.5.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [km3net-testdata]: Downloading https://files.pythonhosted.org/packages/d7/94/9e26394afd70b650851f07a9a5a6dfb496bb15df68cb594e7ea782a0d952/km3net_testdata-0.4.3.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [cowch]: Downloading https://files.pythonhosted.org/packages/1b/4c/a4e69ffe228af67b751d3b1f90634f54d919d04b0774d0485067c7e89009/cowch-0.1-py3-none-any.whl
+[2023-04-24 22:00:14] INFO root fetch - processPackages [chplot]: Downloading https://files.pythonhosted.org/packages/98/c7/228a5a675ef3c68773f31d6d9288d952e03658858d0ca67bb554d06a9d3d/chplot-1.0.1.post1.tar.gz
+[2023-04-24 22:00:14] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-04-24 22:00:14] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.5.3.tar.gz tmp/gentrace_py-0.5.4.tar.gz --markdown 20230424/g/gentrace-py/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-24 22:00:14] INFO root fetch - processPackages [chplot]: executing diffoscope
+[2023-04-24 22:00:14] INFO root fetch - processPackages [chplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chplot-1.0.1.tar.gz tmp/chplot-1.0.1.post1.tar.gz --markdown 20230424/c/chplot/1.0.1-1.0.1.post1/diff.md --exclude *.pyd
+[2023-04-24 22:00:14] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/00/54/e5f20be273936c65de411853d20482795abeada5c2a63ddf00c8ca590ef7/django_encryption-0.3.1.tar.gz
+[2023-04-24 22:00:14] WARNING root fetch - processPackages [km3net-testdata]: Skipping package: exceeds size limit 53402118>=10485760
+[2023-04-24 22:00:14] INFO root fetch - processPackages [km3net-testdata]: Start processing: kcli
+[2023-04-24 22:00:14] INFO root fetch - main [MainThread]: End processing [km3net-testdata] error
+[2023-04-24 22:00:15] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.0.tar.gz tmp/django_encryption-0.3.1.tar.gz --markdown 20230424/d/django-encryption/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 22:00:15] INFO root fetch - processPackages [kcli]: New version: [99.0.202304241958] Old Version: [99.0.202304241444]
+[2023-04-24 22:00:15] INFO root fetch - processPackages [cowch]: Downloading https://files.pythonhosted.org/packages/99/d4/9d860eb816cc7ae0944e4bc5161c176936245bb199dc4ca5b87f8aa0af19/cowch-0.2-py3-none-any.whl
+[2023-04-24 22:00:15] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/2a/37/0974c6a3c49d58d6613f91f2f612b6fffda2eec057d51cedb62a477a177a/recurrent-memory-transformer-pytorch-0.0.6.tar.gz
+[2023-04-24 22:00:15] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.0.5.tar.gz tmp/recurrent-memory-transformer-pytorch-0.0.6.tar.gz --markdown 20230424/r/recurrent-memory-transformer-pytorch/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 22:00:15] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/6f/e9/2700ac0fe0f36e9a17f9ab5f811bc42783bf3cd588037c2d032e49402455/smithed-0.9.3.tar.gz
+[2023-04-24 22:00:15] INFO root fetch - processPackages [adafruit-circuitpython-pixel-framebuf]: Downloading https://files.pythonhosted.org/packages/8a/d4/658b69314f8bf1b74971a7853613ef273c713fe511700083ab86718d5a6d/adafruit-circuitpython-pixel-framebuf-1.1.9.tar.gz
+[2023-04-24 22:00:15] INFO root fetch - processPackages [epiweeks]: Downloading https://files.pythonhosted.org/packages/07/ec/fcd15b9ca60fd96b5edf87497a52ac0427269aaf0f4e3bc647223f3df58a/epiweeks-2.2.0.tar.gz
+[2023-04-24 22:00:15] INFO root fetch - processPackages [cowch]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [cowch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowch-0.1-py3-none-any.whl.zip tmp/cowch-0.2-py3-none-any.whl.zip --markdown 20230424/c/cowch/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 22:00:15] INFO root fetch - processPackages [epiweeks]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [epiweeks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epiweeks-2.1.4.tar.gz tmp/epiweeks-2.2.0.tar.gz --markdown 20230424/e/epiweeks/2.1.4-2.2.0/diff.md --exclude *.pyd
+[2023-04-24 22:00:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b2/ef/12daf5ca26a813a1f5b09be06c14888370b18ab4b46c837ea67a55b48738/kcli-99.0.202304241444-py3-none-any.whl
+[2023-04-24 22:00:15] INFO root fetch - processPackages [smithed]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [adafruit-circuitpython-pixel-framebuf]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [smithed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed-0.9.2.tar.gz tmp/smithed-0.9.3.tar.gz --markdown 20230424/s/smithed/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-24 22:00:15] INFO root fetch - processPackages [adafruit-circuitpython-pixel-framebuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-pixel-framebuf-1.1.8.tar.gz tmp/adafruit-circuitpython-pixel-framebuf-1.1.9.tar.gz --markdown 20230424/a/adafruit-circuitpython-pixel-framebuf/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:00:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/40/87/a2325cdb8c36d48707f163f3c23bf55aed14d3f67ff5f779895cb02c337b/kcli-99.0.202304241958-py3-none-any.whl
+[2023-04-24 22:00:15] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-24 22:00:15] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304241444-py3-none-any.whl.zip tmp/kcli-99.0.202304241958-py3-none-any.whl.zip --markdown 20230424/k/kcli/99.0.202304241444-99.0.202304241958/diff.md --exclude *.pyd
+[2023-04-24 22:00:16] INFO root fetch - processPackages [lammps-step]: Downloading https://files.pythonhosted.org/packages/7f/8f/6d000fa5ade5974c738c5df0a08cc87d2b1741e3c19938b8eac84c270588/lammps_step-2023.4.9.tar.gz
+[2023-04-24 22:00:16] INFO root fetch - processPackages [django-encryption]: Start processing: abacusai
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2023-04-24 22:00:16] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-24 22:00:16] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: Start processing: UNBAFFELD
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-04-24 22:00:16] INFO root fetch - processPackages [chplot]: Start processing: kangas
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [chplot]: success
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [cowch]: success
+[2023-04-24 22:00:16] INFO root fetch - processPackages [UNBAFFELD]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-24 22:00:16] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-04-24 22:00:16] INFO root fetch - processPackages [kangas]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [smithed]: success
+[2023-04-24 22:00:16] INFO root fetch - processPackages [lammps-step]: executing diffoscope
+[2023-04-24 22:00:16] INFO root fetch - processPackages [lammps-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lammps_step-2023.4.6.tar.gz tmp/lammps_step-2023.4.9.tar.gz --markdown 20230424/l/lammps-step/2023.4.6-2023.4.9/diff.md --exclude *.pyd
+[2023-04-24 22:00:16] INFO root fetch - processPackages [UNBAFFELD]: Downloading https://files.pythonhosted.org/packages/bd/20/c44a4a2f9f973fe002cecb8692b8ff7262066df8e1b1fb86f016c9a1ea84/UNBAFFELD-0.1.1.tar.gz
+[2023-04-24 22:00:16] WARNING root fetch - processPackages [UNBAFFELD]: Skipping package: exceeds size limit 21071868>=10485760
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [UNBAFFELD] error
+[2023-04-24 22:00:16] INFO root fetch - main [MainThread]: End processing [epiweeks]: success
+[2023-04-24 22:00:16] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/55/80/6426e99d41e9e4ceaec0fdf31652226f2cafbfc8d90381d9e999cfe6ac64/kangas-2.2.9-py3-none-any.whl
+[2023-04-24 22:00:16] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-04-24 22:00:17] WARNING root fetch - processPackages [kangas]: Skipping package: exceeds size limit 15665893>=10485760
+[2023-04-24 22:00:17] INFO root fetch - main [MainThread]: End processing [kangas] error
+[2023-04-24 22:00:17] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-04-24 22:00:17] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230424/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-24 22:00:17] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-04-24 22:00:17] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-pixel-framebuf]: success
+[2023-04-24 22:00:18] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-04-24 22:00:18] INFO root fetch - main [MainThread]: End processing [lammps-step]: success
+[2023-04-24 22:00:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-24 22:00:23] INFO root fetch - main [MainThread]: Store serial: [17838897]
