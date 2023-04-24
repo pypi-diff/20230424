@@ -21998,3 +21998,70 @@
 [2023-04-24 22:35:04] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-04-24 22:35:05] INFO root fetch - main [MainThread]: End processing [lit]: success
 [2023-04-24 22:35:05] INFO root fetch - main [MainThread]: Store serial: [17839170]
+[2023-04-24 22:40:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839170]
+[2023-04-24 22:40:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: troposphere-dns-certificate
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaqevcore
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdkpython
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yatracker-linker
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: knowledge-base-search
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hone
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mindflow
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jadecobra
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hordelib
+[2023-04-24 22:40:14] INFO root fetch - processPackages [bdkpython]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [mindflow]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-24 22:40:14] WARNING root fetch - processPackages [knowledge-base-search]: Skipping, unable to determine old version
+[2023-04-24 22:40:14] INFO root fetch - processPackages [hone]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [knowledge-base-search]: Start processing: yatracker-linker
+[2023-04-24 22:40:14] INFO root fetch - main [MainThread]: End processing [knowledge-base-search] error
+[2023-04-24 22:40:14] INFO root fetch - processPackages [troposphere-dns-certificate]: New version: [2.0.0] Old Version: [1.8.0]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-04-24 22:40:14] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-24 22:40:14] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 22:40:14] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:40:14] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-24 22:40:14] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230424/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-24 22:40:14] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 22:40:14] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:40:14] INFO root fetch - processPackages [bdkpython]: Downloading https://files.pythonhosted.org/packages/8f/ba/ca8306033f5f28f7de84987da07ce469360e0d1965b86695fac48884168f/bdkpython-0.4.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:40:14] INFO root fetch - processPackages [hone]: Downloading https://files.pythonhosted.org/packages/02/89/5dbac739f2a475f19d17c57baaceb61bcc33f7f278da0b1b10d1b8884c10/hone-0.2.1.tar.gz
+[2023-04-24 22:40:14] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/ae/19/7fa11585ba0a767fb395dbc7b0f95337cb053b21ab5932a5d1b931420615/mindflow-0.3.9.tar.gz
+[2023-04-24 22:40:14] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/60/29/7a571f8f8d6112fb36f8b1333a0d92247dc9343731246faf92dfa1978d67/jadecobra-0.3.6.tar.gz
+[2023-04-24 22:40:14] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-04-24 22:40:14] INFO root fetch - processPackages [troposphere-dns-certificate]: Downloading https://files.pythonhosted.org/packages/25/f0/3ada55ba50c1264f29043a7943bc9f8711e658dd985b7447a84bd8677ad2/troposphere-dns-certificate-2.0.0.tar.gz
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-24 22:40:14] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230424/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-24 22:40:14] INFO root fetch - processPackages [hone]: Downloading https://files.pythonhosted.org/packages/e8/86/1536d1c204f4a445581996b44c347e02b83a750b7ad98e6a039a15b9a345/hone-0.2.2.tar.gz
+[2023-04-24 22:40:15] INFO root fetch - processPackages [hone]: executing diffoscope
+[2023-04-24 22:40:15] INFO root fetch - processPackages [hone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hone-0.2.1.tar.gz tmp/hone-0.2.2.tar.gz --markdown 20230424/h/hone/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-24 22:40:15] INFO root fetch - processPackages [troposphere-dns-certificate]: executing diffoscope
+[2023-04-24 22:40:15] INFO root fetch - processPackages [troposphere-dns-certificate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troposphere-dns-certificate-1.8.0.tar.gz tmp/troposphere-dns-certificate-2.0.0.tar.gz --markdown 20230424/t/troposphere-dns-certificate/1.8.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-24 22:40:15] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-04-24 22:40:15] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230424/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-04-24 22:40:15] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/dd/cf/c81c1e6b28e1a10c1659c55adf521ab9c29a0b5189eb8b0bcc9f02af4b50/mindflow-0.4.0.tar.gz
+[2023-04-24 22:40:15] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/db/43/7ac67232d67590d397ff6b3e32f979f382e27426eecc6fcbc42ebec76c7c/jadecobra-0.3.7.tar.gz
+[2023-04-24 22:40:15] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-24 22:40:15] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230424/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-24 22:40:15] INFO root fetch - processPackages [mindflow]: executing diffoscope
+[2023-04-24 22:40:15] INFO root fetch - processPackages [mindflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindflow-0.3.9.tar.gz tmp/mindflow-0.4.0.tar.gz --markdown 20230424/m/mindflow/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 22:40:15] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 22:40:16] INFO root fetch - processPackages [bdkpython]: Downloading https://files.pythonhosted.org/packages/51/61/52f42cacc2ea65d6b3a54f8809cf9056d3dd377056473791f44d1564493c/bdkpython-0.5.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [hone]: success
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [troposphere-dns-certificate]: success
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [mindflow]: success
+[2023-04-24 22:40:16] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-04-24 22:40:17] INFO root fetch - processPackages [bdkpython]: executing diffoscope
+[2023-04-24 22:40:17] INFO root fetch - processPackages [bdkpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdkpython-0.4.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/bdkpython-0.5.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230424/b/bdkpython/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-24 22:40:25] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-24 22:41:34] INFO root fetch - main [MainThread]: End processing [bdkpython]: success
+[2023-04-24 22:41:34] INFO root fetch - main [MainThread]: Store serial: [17839214]
