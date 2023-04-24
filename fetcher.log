@@ -15507,3 +15507,161 @@
 [2023-04-24 16:56:08] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2023-04-24 16:56:22] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-24 16:56:22] INFO root fetch - main [MainThread]: Store serial: [17835226]
+[2023-04-24 17:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17835226]
+[2023-04-24 17:01:32] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-websockets
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoplot
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-fontbro
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqir
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asoid
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvkbot
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Files.com
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monai
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyorder
+[2023-04-24 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adapta
+[2023-04-24 17:01:32] INFO root fetch - processPackages [python-fontbro]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [django-websockets]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [autoplot]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [monai]: New version: [1.2.0rc5] Old Version: [1.2.0rc4]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [pyqir]: New version: [0.8.1] Old Version: [0.8.0a1]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [pyvkbot]: New version: [2.0.0] Old Version: [1.0.5]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [adapta]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-24 17:01:32] WARNING root fetch - processPackages [asoid]: Skipping, unable to determine old version
+[2023-04-24 17:01:32] INFO root fetch - processPackages [asoid]: Start processing: opensesame-core
+[2023-04-24 17:01:32] INFO root fetch - main [MainThread]: End processing [asoid] error
+[2023-04-24 17:01:32] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a3]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230424/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [django-websockets]: Downloading https://files.pythonhosted.org/packages/17/70/1af566ae2d12b52732b8611bad678c3476bf1a17ab47937d1c05b053fff2/django_websockets-0.0.7.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [python-fontbro]: Downloading https://files.pythonhosted.org/packages/2b/5f/cbb80676bd50a8070a08a6ef3c5f25a3f57343c1b80c5a338bc3c47ea29c/python-fontbro-0.9.0.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/50/f7/6f183bfb507fe2e4253fb8861b2af57db0487b4e26f74be48777664a7d27/adapta-2.2.0.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [pyqir]: Downloading https://files.pythonhosted.org/packages/7a/25/f3434a57af18879737ef1a51125e49fa0b10335c6b10d1d4c22c5d20d1f0/pyqir-0.8.0a1-cp37-abi3-win_amd64.whl
+[2023-04-24 17:01:32] INFO root fetch - processPackages [pyvkbot]: Downloading https://files.pythonhosted.org/packages/1b/e7/5fbdac0684110d899a29a36511f1b94b2d69d43549ee4ac1a7eeb0ee8909/pyvkbot-2.0.0.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/42/3e/bd20b88d0e998c47d4cd4a8f5752d7147d28866434db727f275c00413e40/opensesame_core-4.0.0a3.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/94/53/fbdfda733dea9c814dc2617b3c6ff721e4e11d756b49b2d6dc317f00d5c3/Files.com-1.0.98.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/86/bd/ce8dc4f7d75a71ebfe7a445928df467e4738475f50dc7f3d6e828710929a/monai-1.2.0rc4-202304121831-py3-none-any.whl
+[2023-04-24 17:01:32] INFO root fetch - processPackages [autoplot]: Downloading https://files.pythonhosted.org/packages/cc/43/85d24cc3891e664c4af8ea33e77dda74581c1eb1be967b3c66fa09fe8b0a/autoplot-0.6.2.tar.gz
+[2023-04-24 17:01:32] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18335907>=10485760
+[2023-04-24 17:01:32] INFO root fetch - processPackages [opensesame-core]: Start processing: aioWiserHeatAPI
+[2023-04-24 17:01:32] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-04-24 17:01:32] INFO root fetch - processPackages [pyvkbot]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [pyvkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyVkBot-1.0.5.tar.gz tmp/pyvkbot-2.0.0.tar.gz --markdown 20230424/p/pyvkbot/1.0.5-2.0.0/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [aioWiserHeatAPI]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-24 17:01:32] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/56/a1/0064648fbac08865cc46b7df8189662c5e76340d9c28f7f0037e4e4cce62/adapta-2.2.1.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [django-websockets]: Downloading https://files.pythonhosted.org/packages/fb/16/8e71cdc6846ffb04b07a8796c86d9f505b2e62969680a41dca34a22254ba/django_websockets-0.0.8.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [autoplot]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [autoplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoplot-0.6.1.tar.gz tmp/autoplot-0.6.2.tar.gz --markdown 20230424/a/autoplot/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [python-fontbro]: Downloading https://files.pythonhosted.org/packages/8e/21/8dbefdc64354ecb053f9e78b5bf4d14bb5fa3fb079ad935211d7875a22f3/python-fontbro-0.9.1.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/3b/2c/ec980b43b6c82499f9f9442e06cf2b0e489d114398d6098f2a9049a19767/Files.com-1.0.99.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [aioWiserHeatAPI]: Downloading https://files.pythonhosted.org/packages/2f/93/531e7520e7e99e983b68dc4d408e3c4f47a09c3cb257535c088332c67f2b/aioWiserHeatAPI-1.3.2.tar.gz
+[2023-04-24 17:01:32] INFO root fetch - processPackages [python-fontbro]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [python-fontbro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-fontbro-0.9.0.tar.gz tmp/python-fontbro-0.9.1.tar.gz --markdown 20230424/p/python-fontbro/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/66/5f/f3e6edc73d9fa7eca628ed7380897a094245685ab71dd780e7c3a42fd1a9/monai-1.2.0rc5-202304241345-py3-none-any.whl
+[2023-04-24 17:01:32] INFO root fetch - processPackages [django-websockets]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [django-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_websockets-0.0.7.tar.gz tmp/django_websockets-0.0.8.tar.gz --markdown 20230424/d/django-websockets/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.0.tar.gz tmp/adapta-2.2.1.tar.gz --markdown 20230424/a/adapta/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-04-24 17:01:32] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230424/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-24 17:01:32] INFO root fetch - processPackages [aioWiserHeatAPI]: Downloading https://files.pythonhosted.org/packages/31/20/d61daeae72aa49a6944f3f6795b8826e8da4fa09a905a82fe4bfc6dcaf48/aioWiserHeatAPI-1.3.3.tar.gz
+[2023-04-24 17:01:33] INFO root fetch - processPackages [aioWiserHeatAPI]: executing diffoscope
+[2023-04-24 17:01:33] INFO root fetch - processPackages [aioWiserHeatAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioWiserHeatAPI-1.3.2.tar.gz tmp/aioWiserHeatAPI-1.3.3.tar.gz --markdown 20230424/a/aioWiserHeatAPI/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-24 17:01:33] INFO root fetch - processPackages [monai]: executing diffoscope
+[2023-04-24 17:01:33] INFO root fetch - processPackages [monai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-1.2.0rc4-202304121831-py3-none-any.whl.zip tmp/monai-1.2.0rc5-202304241345-py3-none-any.whl.zip --markdown 20230424/m/monai/1.2.0rc4-1.2.0rc5/diff.md --exclude *.pyd
+[2023-04-24 17:01:33] INFO root fetch - processPackages [pyqir]: Downloading https://files.pythonhosted.org/packages/a6/6a/78bb10df614ead481f9e8dbe126e2a22c6b7e43bcdd6f605a243d3d4d09b/pyqir-0.8.1-cp37-abi3-win_amd64.whl
+[2023-04-24 17:01:33] INFO root fetch - processPackages [findmyorder]: Start processing: ssb-project-cli
+[2023-04-24 17:01:33] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-24 17:01:33] INFO root fetch - processPackages [ssb-project-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 17:01:33] INFO root fetch - processPackages [ssb-project-cli]: executing diffoscope
+[2023-04-24 17:01:33] INFO root fetch - processPackages [ssb-project-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_project_cli-1.0.8.tar.gz tmp/ssb_project_cli-1.0.9.tar.gz --markdown 20230424/s/ssb-project-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:01:33] INFO root fetch - processPackages [pyvkbot]: Start processing: datagen-tech
+[2023-04-24 17:01:33] INFO root fetch - main [MainThread]: End processing [pyvkbot]: success
+[2023-04-24 17:01:33] INFO root fetch - processPackages [datagen-tech]: New version: [1.9.0rc2] Old Version: [1.9.0rc1]
+[2023-04-24 17:01:33] INFO root fetch - processPackages [pyqir]: executing diffoscope
+[2023-04-24 17:01:33] INFO root fetch - processPackages [pyqir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqir-0.8.0a1-cp37-abi3-win_amd64.whl.zip tmp/pyqir-0.8.1-cp37-abi3-win_amd64.whl.zip --markdown 20230424/p/pyqir/0.8.0a1-0.8.1/diff.md --exclude *.pyd
+[2023-04-24 17:01:33] INFO root fetch - processPackages [datagen-tech]: executing diffoscope
+[2023-04-24 17:01:33] INFO root fetch - processPackages [datagen-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_tech-1.9.0rc1.tar.gz tmp/datagen_tech-1.9.0rc2.tar.gz --markdown 20230424/d/datagen-tech/1.9.0rc1-1.9.0rc2/diff.md --exclude *.pyd
+[2023-04-24 17:01:34] INFO root fetch - processPackages [autoplot]: Start processing: toucan-connectors
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [autoplot]: success
+[2023-04-24 17:01:34] INFO root fetch - processPackages [toucan-connectors]: New version: [4.5.0] Old Version: [4.4.1]
+[2023-04-24 17:01:34] INFO root fetch - processPackages [python-fontbro]: Start processing: fsaccone
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [python-fontbro]: success
+[2023-04-24 17:01:34] WARNING root fetch - processPackages [fsaccone]: Skipping, unable to determine old version
+[2023-04-24 17:01:34] INFO root fetch - processPackages [fsaccone]: Start processing: graphql-service-framework
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [fsaccone] error
+[2023-04-24 17:01:34] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-24 17:01:34] INFO root fetch - processPackages [django-websockets]: Start processing: wagtail-srcset
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [django-websockets]: success
+[2023-04-24 17:01:34] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/77/a2/b1d5e2392441b6d56945253a9bfc5e0417bf6c50c7ca420009435b9c5980/toucan_connectors-4.4.1.tar.gz
+[2023-04-24 17:01:34] INFO root fetch - processPackages [wagtail-srcset]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-24 17:01:34] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/6a/c3/6420f922647b364ae898196da0bf1e6a8afac14f180c91987afdddd981bf/graphql_service_framework-1.1.2.tar.gz
+[2023-04-24 17:01:34] INFO root fetch - processPackages [wagtail-srcset]: Downloading https://files.pythonhosted.org/packages/c9/82/23a0be1f1594c8ae2c70f8828151b2463bef231200bc0e9534e5a3daa1a3/wagtail-srcset-0.2.0.tar.gz
+[2023-04-24 17:01:34] INFO root fetch - processPackages [Files.com]: Start processing: redb-odm
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-04-24 17:01:34] INFO root fetch - processPackages [redb-odm]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-24 17:01:34] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-04-24 17:01:34] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.1.tar.gz tmp/graphql_service_framework-1.1.2.tar.gz --markdown 20230424/g/graphql-service-framework/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-24 17:01:34] WARNING root fetch - processPackages [wagtail-srcset]: Skipping package: exceeds size limit 22806700>=10485760
+[2023-04-24 17:01:34] INFO root fetch - processPackages [wagtail-srcset]: Start processing: etl-csm
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [wagtail-srcset] error
+[2023-04-24 17:01:34] INFO root fetch - processPackages [etl-csm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 17:01:34] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/8d/86/dc4add991042db0d07d3ca4404ff464af47a2b3d69dfc381e7f21b45a1f0/toucan_connectors-4.5.0.tar.gz
+[2023-04-24 17:01:34] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/ad/3b/6978225532775bd5dafe63945a2abcca842594633a3f16f77ba4207a9044/redb-odm-1.1.7.tar.gz
+[2023-04-24 17:01:34] INFO root fetch - processPackages [ssb-project-cli]: Start processing: heflow
+[2023-04-24 17:01:34] INFO root fetch - main [MainThread]: End processing [ssb-project-cli]: success
+[2023-04-24 17:01:34] INFO root fetch - processPackages [etl-csm]: Downloading https://files.pythonhosted.org/packages/d6/55/da877ff714248f992775a5bb200d41b2a6cbf21393957443e1e8966e9cb0/etl_csm-0.1.5.tar.gz
+[2023-04-24 17:01:34] INFO root fetch - processPackages [heflow]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-24 17:01:35] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2023-04-24 17:01:35] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-4.4.1.tar.gz tmp/toucan_connectors-4.5.0.tar.gz --markdown 20230424/t/toucan-connectors/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2023-04-24 17:01:35] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/3e/92/ce0ab3987c5cddafb73a8bd92af3a60abbf30e1e69a19e63e5c6be48c5b5/redb-odm-1.1.8.tar.gz
+[2023-04-24 17:01:35] INFO root fetch - processPackages [heflow]: Downloading https://files.pythonhosted.org/packages/aa/6f/d5bb66647cc96ce40d21b58a645d07d7017a0ebd7102f6f1b1e86a820fda/heflow-1.3.0.tar.gz
+[2023-04-24 17:01:35] INFO root fetch - processPackages [etl-csm]: Downloading https://files.pythonhosted.org/packages/f1/56/5f3b21d43ded31ec0809e97530e645b7c6406ed5c604755806456508eae0/etl_csm-0.1.6.tar.gz
+[2023-04-24 17:01:35] INFO root fetch - processPackages [adapta]: Start processing: safetensors
+[2023-04-24 17:01:35] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-04-24 17:01:35] INFO root fetch - processPackages [redb-odm]: executing diffoscope
+[2023-04-24 17:01:35] INFO root fetch - processPackages [redb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redb-odm-1.1.7.tar.gz tmp/redb-odm-1.1.8.tar.gz --markdown 20230424/r/redb-odm/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-24 17:01:35] INFO root fetch - processPackages [safetensors]: New version: [0.3.1rc1] Old Version: [0.3.0rc1]
+[2023-04-24 17:01:35] INFO root fetch - processPackages [heflow]: Downloading https://files.pythonhosted.org/packages/d6/13/1fe90bdf6bc3fe47d69b0b4febed6149083f8c6461e4842986c773dacf46/heflow-1.3.1.tar.gz
+[2023-04-24 17:01:35] INFO root fetch - processPackages [etl-csm]: executing diffoscope
+[2023-04-24 17:01:35] INFO root fetch - processPackages [etl-csm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_csm-0.1.5.tar.gz tmp/etl_csm-0.1.6.tar.gz --markdown 20230424/e/etl-csm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 17:01:35] INFO root fetch - processPackages [aioWiserHeatAPI]: Start processing: pycid-dev
+[2023-04-24 17:01:35] INFO root fetch - main [MainThread]: End processing [aioWiserHeatAPI]: success
+[2023-04-24 17:01:35] INFO root fetch - processPackages [pyqir]: Start processing: coiled
+[2023-04-24 17:01:35] INFO root fetch - main [MainThread]: End processing [pyqir]: success
+[2023-04-24 17:01:35] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-24 17:01:35] INFO root fetch - processPackages [safetensors]: Downloading https://files.pythonhosted.org/packages/26/0b/30568b8839c13362e00c96551a3305f9df34b63c5c9bd24904ebbbeb26a9/safetensors-0.3.0rc1.tar.gz
+[2023-04-24 17:01:35] INFO root fetch - processPackages [pycid-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 17:01:35] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-24 17:01:35] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230424/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-24 17:01:35] INFO root fetch - processPackages [heflow]: executing diffoscope
+[2023-04-24 17:01:35] INFO root fetch - processPackages [heflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heflow-1.3.0.tar.gz tmp/heflow-1.3.1.tar.gz --markdown 20230424/h/heflow/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-24 17:01:35] INFO root fetch - processPackages [pycid-dev]: Downloading https://files.pythonhosted.org/packages/d5/22/b7c070a92733e6018be94918e4720ff227ed8218e3b17eac3ef1666cc3c6/pycid-dev-0.0.8.tar.gz
+[2023-04-24 17:01:35] INFO root fetch - processPackages [safetensors]: Downloading https://files.pythonhosted.org/packages/32/d9/994601f562e29e4bc885997ce5283e7e0ea735dd1df68ebfc02ccdeaaed3/safetensors-0.3.1rc1.tar.gz
+[2023-04-24 17:01:36] INFO root fetch - processPackages [graphql-service-framework]: Start processing: git-notion-pretty
+[2023-04-24 17:01:36] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-04-24 17:01:36] INFO root fetch - processPackages [safetensors]: executing diffoscope
+[2023-04-24 17:01:36] INFO root fetch - processPackages [safetensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safetensors-0.3.0rc1.tar.gz tmp/safetensors-0.3.1rc1.tar.gz --markdown 20230424/s/safetensors/0.3.0rc1-0.3.1rc1/diff.md --exclude *.pyd
+[2023-04-24 17:01:36] WARNING root fetch - processPackages [git-notion-pretty]: Skipping, unable to determine old version
+[2023-04-24 17:01:36] INFO root fetch - processPackages [git-notion-pretty]: Start processing: hurdat2parser
+[2023-04-24 17:01:36] INFO root fetch - main [MainThread]: End processing [git-notion-pretty] error
+[2023-04-24 17:01:36] INFO root fetch - processPackages [hurdat2parser]: New version: [2.2.1] Old Version: [2.2]
+[2023-04-24 17:01:36] INFO root fetch - processPackages [pycid-dev]: Downloading https://files.pythonhosted.org/packages/30/56/4fb156aed85eb11a3ee720a2844b34b174787e7e490858dee46e301b19b4/pycid-dev-0.0.9.tar.gz
+[2023-04-24 17:01:36] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/a9/ce/df62e80f2c9c20b21fc06758eb6a68378af0a3aa8d0f7fc5473c3fac0657/hurdat2parser-2.2.tar.gz
+[2023-04-24 17:01:36] INFO root fetch - processPackages [pycid-dev]: executing diffoscope
+[2023-04-24 17:01:36] INFO root fetch - processPackages [pycid-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycid-dev-0.0.8.tar.gz tmp/pycid-dev-0.0.9.tar.gz --markdown 20230424/p/pycid-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 17:01:36] INFO root fetch - main [MainThread]: End processing [etl-csm]: success
+[2023-04-24 17:01:37] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/1d/c8/9614d7f3ce86f30b18fb9017759673e7342c5343cc6f34eaa91cbd352a9d/hurdat2parser-2.2.1.tar.gz
+[2023-04-24 17:01:37] INFO root fetch - main [MainThread]: End processing [redb-odm]: success
+[2023-04-24 17:01:37] INFO root fetch - main [MainThread]: End processing [heflow]: success
+[2023-04-24 17:01:37] INFO root fetch - processPackages [hurdat2parser]: executing diffoscope
+[2023-04-24 17:01:37] INFO root fetch - processPackages [hurdat2parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurdat2parser-2.2.tar.gz tmp/hurdat2parser-2.2.1.tar.gz --markdown 20230424/h/hurdat2parser/2.2-2.2.1/diff.md --exclude *.pyd
+[2023-04-24 17:01:37] INFO root fetch - main [MainThread]: End processing [pycid-dev]: success
+[2023-04-24 17:01:37] INFO root fetch - main [MainThread]: End processing [safetensors]: success
+[2023-04-24 17:01:38] INFO root fetch - main [MainThread]: End processing [hurdat2parser]: success
+[2023-04-24 17:01:38] INFO root fetch - main [MainThread]: End processing [monai]: success
+[2023-04-24 17:01:38] INFO root fetch - main [MainThread]: End processing [datagen-tech]: success
+[2023-04-24 17:01:39] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-24 17:01:40] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2023-04-24 17:01:40] INFO root fetch - main [MainThread]: Store serial: [17835333]
