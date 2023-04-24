@@ -4654,3 +4654,35 @@
 [2023-04-24 05:54:49] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-04-24 05:55:02] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
 [2023-04-24 05:55:02] INFO root fetch - main [MainThread]: Store serial: [17828906]
+[2023-04-24 06:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17828906]
+[2023-04-24 06:00:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 06:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybump
+[2023-04-24 06:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ebbs
+[2023-04-24 06:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynocaptcha
+[2023-04-24 06:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-explain
+[2023-04-24 06:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toshi-hazard-store
+[2023-04-24 06:00:11] INFO root fetch - processPackages [pynocaptcha]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-24 06:00:11] INFO root fetch - processPackages [datasette-explain]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-04-24 06:00:11] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-04-24 06:00:11] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.4.2.tar.gz tmp/pynocaptcha-1.4.3.tar.gz --markdown 20230424/p/pynocaptcha/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-24 06:00:11] INFO root fetch - processPackages [pybump]: New version: [1.9.3] Old Version: [1.8.1]
+[2023-04-24 06:00:11] INFO root fetch - processPackages [toshi-hazard-store]: New version: [0.7.2] Old Version: [0.7.0]
+[2023-04-24 06:00:11] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-24 06:00:11] INFO root fetch - processPackages [toshi-hazard-store]: Downloading https://files.pythonhosted.org/packages/be/f4/214206ba397aae93b800d392453748dc75dedff8fe7b74db430d8067de9b/toshi-hazard-store-0.7.0.tar.gz
+[2023-04-24 06:00:11] INFO root fetch - processPackages [datasette-explain]: Downloading https://files.pythonhosted.org/packages/a8/b9/999c2af115737333df380c55aa9b67ba5d6e3ae08ce8f0632fe73fe5a95e/datasette-explain-0.1a1.tar.gz
+[2023-04-24 06:00:11] INFO root fetch - processPackages [pybump]: Downloading https://files.pythonhosted.org/packages/a2/89/d3ae80255ac7be98ae2e6263570528b478a7978129a137e44484a9e0ed8e/pybump-1.8.1-py3-none-any.whl
+[2023-04-24 06:00:12] WARNING root fetch - processPackages [toshi-hazard-store]: Skipping package: exceeds size limit 33889675>=10485760
+[2023-04-24 06:00:12] INFO root fetch - main [MainThread]: End processing [toshi-hazard-store] error
+[2023-04-24 06:00:12] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-04-24 06:00:12] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230424/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-24 06:00:12] INFO root fetch - processPackages [datasette-explain]: Downloading https://files.pythonhosted.org/packages/61/fd/d4bf5d01c168c5a6c68c4a36307cfb5f03c4e3ad6eb24e9fd5d6686ee153/datasette-explain-0.1a2.tar.gz
+[2023-04-24 06:00:12] INFO root fetch - processPackages [pybump]: Downloading https://files.pythonhosted.org/packages/ad/76/657c0dfd509ed1a0aa04623bb00829f989b6978b06f2a5673670968b80a6/pybump-1.9.3-py3-none-any.whl
+[2023-04-24 06:00:12] INFO root fetch - processPackages [datasette-explain]: executing diffoscope
+[2023-04-24 06:00:12] INFO root fetch - processPackages [datasette-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-explain-0.1a1.tar.gz tmp/datasette-explain-0.1a2.tar.gz --markdown 20230424/d/datasette-explain/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-04-24 06:00:12] INFO root fetch - processPackages [pybump]: executing diffoscope
+[2023-04-24 06:00:12] INFO root fetch - processPackages [pybump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybump-1.8.1-py3-none-any.whl.zip tmp/pybump-1.9.3-py3-none-any.whl.zip --markdown 20230424/p/pybump/1.8.1-1.9.3/diff.md --exclude *.pyd
+[2023-04-24 06:00:12] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-04-24 06:00:13] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-04-24 06:00:13] INFO root fetch - main [MainThread]: End processing [datasette-explain]: success
+[2023-04-24 06:00:13] INFO root fetch - main [MainThread]: End processing [pybump]: success
+[2023-04-24 06:00:13] INFO root fetch - main [MainThread]: Store serial: [17828922]
