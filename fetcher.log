@@ -6768,3 +6768,90 @@
 [2023-04-24 09:34:44] INFO root fetch - main [MainThread]: End processing [Kivy-examples]: success
 [2023-04-24 09:34:57] INFO root fetch - main [MainThread]: End processing [kodexa]: success
 [2023-04-24 09:34:57] INFO root fetch - main [MainThread]: Store serial: [17830209]
+[2023-04-24 09:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17830209]
+[2023-04-24 09:40:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jolt-docker
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OMGITSLACKO
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jolt
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DDesignerAPI
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-orghierarchy
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-data-services
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SocketSwap
+[2023-04-24 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-editor
+[2023-04-24 09:40:06] INFO root fetch - processPackages [jolt]: New version: [0.9.93] Old Version: [0.9.9]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [OMGITSLACKO]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [SocketSwap]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.93] Old Version: [0.9.83]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-24 09:40:06] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-24 09:40:07] INFO root fetch - processPackages [django-orghierarchy]: New version: [0.2.0] Old Version: [0.1.32]
+[2023-04-24 09:40:07] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev4783695011] Old Version: [2.0.0.dev4763134463]
+[2023-04-24 09:40:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230424/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [SocketSwap]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [SocketSwap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SocketSwap-0.1.2-py2.py3-none-any.whl.zip tmp/SocketSwap-0.1.3-py2.py3-none-any.whl.zip --markdown 20230424/S/SocketSwap/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/40/da/045d5de10c76eeabc28f725a8cf84bea73a4e49cca7db8984ca690ecf777/jolt-0.9.9.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [django-orghierarchy]: Downloading https://files.pythonhosted.org/packages/1d/ba/7cc8135a9d389aa616d018e10f747d952c513089916b1b918d74aa71ede5/django-orghierarchy-0.1.32.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/ce/f8/c6627361de9de00c91f95e5d789f1d932f71ee9f3a1bc09117a185c71508/DDesignerAPI-0.0.0.5-py3-none-any.whl
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/20/18/176d2e886c6f6e584d3bf1351b0d63feaee197de1741fe56b988747a4068/jolt_docker-0.9.83.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/1a/70/9a5110dafda3c08c5bdb1c27f4e9d8a5dc0485421b7be5df1486d89963cb/OMGITSLACKO-0.1.5.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230424/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.0.4-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.0.5-py3-none-any.whl.zip --markdown 20230424/D/DDesignerAPI/0.0.0.4-0.0.0.5/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [django-orghierarchy]: Downloading https://files.pythonhosted.org/packages/93/ea/ffd88989d8a001b55921003e49667fbd1d5274d8a9802e50b382ea34936f/django-orghierarchy-0.2.0.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/b0/f7/0ea81a233ce05a16ee97d2524012cd66784b6b1c4413242f4b7e5ace6a7a/th2_data_services-2.0.0.dev4783695011.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [OMGITSLACKO]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [OMGITSLACKO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OMGITSLACKO-0.1.4.tar.gz tmp/OMGITSLACKO-0.1.5.tar.gz --markdown 20230424/O/OMGITSLACKO/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [django-orghierarchy]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [django-orghierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-orghierarchy-0.1.32.tar.gz tmp/django-orghierarchy-0.2.0.tar.gz --markdown 20230424/d/django-orghierarchy/0.1.32-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/d8/c5/cf802de53e68f8c70eae0344a8ec0aabc3a623a8e06508a1e5bc0c2b06de/jolt-0.9.93.tar.gz
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.83.tar.gz tmp/jolt_docker-0.9.93.tar.gz --markdown 20230424/j/jolt-docker/0.9.83-0.9.93/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4763134463.tar.gz tmp/th2_data_services-2.0.0.dev4783695011.tar.gz --markdown 20230424/t/th2-data-services/2.0.0.dev4763134463-2.0.0.dev4783695011/diff.md --exclude *.pyd
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2023-04-24 09:40:07] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.9.tar.gz tmp/jolt-0.9.93.tar.gz --markdown 20230424/j/jolt/0.9.9-0.9.93/diff.md --exclude *.pyd
+[2023-04-24 09:40:08] INFO root fetch - processPackages [SocketSwap]: Start processing: je-editor-dev
+[2023-04-24 09:40:08] INFO root fetch - main [MainThread]: End processing [SocketSwap]: success
+[2023-04-24 09:40:08] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 09:40:08] INFO root fetch - processPackages [je-editor]: Start processing: system-superset-driver
+[2023-04-24 09:40:08] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-24 09:40:08] INFO root fetch - processPackages [system-superset-driver]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 09:40:08] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-24 09:40:08] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230424/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:40:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: SafoneAPI
+[2023-04-24 09:40:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-24 09:40:08] INFO root fetch - processPackages [SafoneAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 09:40:08] INFO root fetch - processPackages [system-superset-driver]: Downloading https://files.pythonhosted.org/packages/85/60/56fdb10e2fd56209d675a841dcae6d86a3befd093c03d94686960db9f2eb/system_superset_driver-0.0.1.tar.gz
+[2023-04-24 09:40:08] INFO root fetch - processPackages [OMGITSLACKO]: Start processing: socscikit
+[2023-04-24 09:40:08] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO]: success
+[2023-04-24 09:40:08] WARNING root fetch - processPackages [socscikit]: Skipping, unable to determine old version
+[2023-04-24 09:40:08] INFO root fetch - processPackages [socscikit]: Start processing: cvisp
+[2023-04-24 09:40:08] INFO root fetch - main [MainThread]: End processing [socscikit] error
+[2023-04-24 09:40:08] WARNING root fetch - processPackages [cvisp]: Skipping, unable to determine old version
+[2023-04-24 09:40:08] INFO root fetch - main [MainThread]: End processing [cvisp] error
+[2023-04-24 09:40:08] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/14/60/100f541b0714ea50eafd168a2e695f6bcf173e50ce02cdcbd13db7f6a192/SafoneAPI-1.0.8.tar.gz
+[2023-04-24 09:40:09] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-04-24 09:40:09] INFO root fetch - processPackages [system-superset-driver]: Downloading https://files.pythonhosted.org/packages/c2/fe/327fae1932f6f21406ee647a8e20ad13eb8f4865887add9783068af706b0/system_superset_driver-0.0.2.tar.gz
+[2023-04-24 09:40:09] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2023-04-24 09:40:09] INFO root fetch - processPackages [system-superset-driver]: executing diffoscope
+[2023-04-24 09:40:09] INFO root fetch - processPackages [system-superset-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_superset_driver-0.0.1.tar.gz tmp/system_superset_driver-0.0.2.tar.gz --markdown 20230424/s/system-superset-driver/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 09:40:09] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/46/96/ce59fca22c5f72595a3481a42b0fbbb9592bb412f7b0916fbee2e6fb8c5b/SafoneAPI-1.0.9.tar.gz
+[2023-04-24 09:40:09] INFO root fetch - processPackages [SafoneAPI]: executing diffoscope
+[2023-04-24 09:40:09] INFO root fetch - processPackages [SafoneAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SafoneAPI-1.0.8.tar.gz tmp/SafoneAPI-1.0.9.tar.gz --markdown 20230424/S/SafoneAPI/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 09:40:09] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-24 09:40:09] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2023-04-24 09:40:09] INFO root fetch - main [MainThread]: End processing [django-orghierarchy]: success
+[2023-04-24 09:40:10] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-24 09:40:10] INFO root fetch - main [MainThread]: End processing [system-superset-driver]: success
+[2023-04-24 09:40:10] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-04-24 09:40:10] INFO root fetch - main [MainThread]: End processing [SafoneAPI]: success
+[2023-04-24 09:40:10] INFO root fetch - main [MainThread]: Store serial: [17830258]
