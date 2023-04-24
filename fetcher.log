@@ -14173,3 +14173,102 @@
 [2023-04-24 15:59:15] INFO root fetch - main [MainThread]: End processing [tonic]: success
 [2023-04-24 15:59:17] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-04-24 15:59:17] INFO root fetch - main [MainThread]: Store serial: [17834503]
+[2023-04-24 16:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17834503]
+[2023-04-24 16:04:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langsa-system
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AegosIN
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datagen-tech
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-ag-grid
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mediacatch-s2t
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdcflows
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biotree-tools
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: car-connector-framework
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: car-connector-framework
+[2023-04-24 16:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: likeprocessing
+[2023-04-24 16:04:26] WARNING root fetch - processPackages [langsa-system]: Skipping, unable to determine old version
+[2023-04-24 16:04:26] INFO root fetch - processPackages [langsa-system]: Start processing: FATtools
+[2023-04-24 16:04:26] INFO root fetch - main [MainThread]: End processing [langsa-system] error
+[2023-04-24 16:04:26] INFO root fetch - processPackages [dash-ag-grid]: New version: [2.0.0rc1] Old Version: [2.0.0a5]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [AegosIN]: New version: [0.2] Old Version: [0.1]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [datagen-tech]: New version: [1.9.0rc2] Old Version: [1.9.0rc1]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [mediacatch-s2t]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [car-connector-framework]: New version: [3.0.2rc275] Old Version: [3.0.2rc274]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [car-connector-framework]: New version: [3.0.2rc275] Old Version: [3.0.2rc274]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [biotree-tools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [sdcflows]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [datagen-tech]: executing diffoscope
+[2023-04-24 16:04:26] INFO root fetch - processPackages [datagen-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_tech-1.9.0rc1.tar.gz tmp/datagen_tech-1.9.0rc2.tar.gz --markdown 20230424/d/datagen-tech/1.9.0rc1-1.9.0rc2/diff.md --exclude *.pyd
+[2023-04-24 16:04:26] INFO root fetch - processPackages [FATtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [likeprocessing]: New version: [0.1.7.2.6] Old Version: [0.1.7.2.5]
+[2023-04-24 16:04:26] INFO root fetch - processPackages [AegosIN]: Downloading https://files.pythonhosted.org/packages/c6/e5/f2a78c5445a056127a4ac40aef9a2b86eb85f31d0dced66c6a5b9ecb0eae/AegosIN-0.1.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [dash-ag-grid]: Downloading https://files.pythonhosted.org/packages/c6/ff/72c7c6b349043e3ebcef41be3f2f08dc2ffe037964fa40b4c79968c3185f/dash_ag_grid-2.0.0a5.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [car-connector-framework]: Downloading https://files.pythonhosted.org/packages/ba/e5/fa292e7c04b20967c5e14f66908321cf87b6650cd44336a9a5c68c7048b8/car-connector-framework-3.0.2rc274.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [car-connector-framework]: Downloading https://files.pythonhosted.org/packages/ba/e5/fa292e7c04b20967c5e14f66908321cf87b6650cd44336a9a5c68c7048b8/car-connector-framework-3.0.2rc274.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [sdcflows]: Downloading https://files.pythonhosted.org/packages/cb/e6/a04589989136390c5eb4e5b0e5cf16ce08c0f097aa2d0d928fc319f26ce7/sdcflows-2.4.2.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/2f/ec/fa5a5d2c04952737e583cc78a52e8ba723ed24108a32461eb49480d70de1/mediacatch-s2t-0.0.4.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [biotree-tools]: Downloading https://files.pythonhosted.org/packages/52/44/3ba7b34da073ef978299a3165593aa5241eb750eeba042ea8ae4ad5e5a70/biotree_tools-0.0.5.tar.gz
+[2023-04-24 16:04:26] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/24/24/933a0201b4e55a6e8d2473a7c49c553d69e947253d7b4d4d1626766cef18/FATtools-1.0.8-py3-none-any.whl
+[2023-04-24 16:04:26] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/69/b4/4e7f6a60dd0117bd1e3a943882c24339a211c5d989f20b4c3c1b3fed324e/likeprocessing-0.1.7.2.5.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [AegosIN]: Downloading https://files.pythonhosted.org/packages/38/2d/9317433008ea965f85fdd26f4d29086629a6f7d9ee522a5b9830c1bcbdad/AegosIN-0.2.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [AegosIN]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [AegosIN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AegosIN-0.1.tar.gz tmp/AegosIN-0.2.tar.gz --markdown 20230424/A/AegosIN/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-24 16:04:27] INFO root fetch - processPackages [car-connector-framework]: Downloading https://files.pythonhosted.org/packages/7c/2a/82d2d3c4547c5c552b656f616ea78a544b02796b794b88108c0a02b4dcb7/car-connector-framework-3.0.2rc275.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [car-connector-framework]: Downloading https://files.pythonhosted.org/packages/7c/2a/82d2d3c4547c5c552b656f616ea78a544b02796b794b88108c0a02b4dcb7/car-connector-framework-3.0.2rc275.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/78/1f/53d5f87abd115a011fc5646aebb718da68697e8a06df0911b0bbecd3c8b8/mediacatch-s2t-0.0.5.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [biotree-tools]: Downloading https://files.pythonhosted.org/packages/90/11/8ff8477a57aac8063fa567c29cdfafb02eb383f36481a98a097913da62f2/biotree_tools-0.0.6.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [sdcflows]: Downloading https://files.pythonhosted.org/packages/da/4b/c02f470ed05135bd5dc36ab4d196c796e9061565099286c8c45759358d6d/sdcflows-2.4.3.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/c1/23/ddf93290fd7b852a84b9f2afb126ed8ad474a73c3a7bb8806c8beb6546c7/likeprocessing-0.1.7.2.6.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/39/de/27ad141dc2d3176c8aff292eada5a66869a0d4d7a3435725fda7919a2ea9/FATtools-1.0.9.tar.gz
+[2023-04-24 16:04:27] INFO root fetch - processPackages [car-connector-framework]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [car-connector-framework]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [car-connector-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/car-connector-framework-3.0.2rc274.tar.gz tmp/car-connector-framework-3.0.2rc275.tar.gz --markdown 20230424/c/car-connector-framework/3.0.2rc274-3.0.2rc275/diff.md --exclude *.pyd
+[2023-04-24 16:04:27] INFO root fetch - processPackages [car-connector-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/car-connector-framework-3.0.2rc274.tar.gz tmp/car-connector-framework-3.0.2rc275.tar.gz --markdown 20230424/c/car-connector-framework/3.0.2rc274-3.0.2rc275/diff.md --exclude *.pyd
+[2023-04-24 16:04:27] INFO root fetch - processPackages [FATtools]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [FATtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FATtools-1.0.8-py3-none-any.whl.zip tmp/FATtools-1.0.9.tar.gz --markdown 20230424/F/FATtools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:04:27] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.0.4.tar.gz tmp/mediacatch-s2t-0.0.5.tar.gz --markdown 20230424/m/mediacatch-s2t/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 16:04:27] INFO root fetch - processPackages [biotree-tools]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [biotree-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotree_tools-0.0.5.tar.gz tmp/biotree_tools-0.0.6.tar.gz --markdown 20230424/b/biotree-tools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 16:04:27] INFO root fetch - processPackages [likeprocessing]: executing diffoscope
+[2023-04-24 16:04:27] INFO root fetch - processPackages [likeprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeprocessing-0.1.7.2.5.tar.gz tmp/likeprocessing-0.1.7.2.6.tar.gz --markdown 20230424/l/likeprocessing/0.1.7.2.5-0.1.7.2.6/diff.md --exclude *.pyd
+[2023-04-24 16:04:28] INFO root fetch - processPackages [dash-ag-grid]: Downloading https://files.pythonhosted.org/packages/89/ce/7b9f25136a965d70019cd0ed6f24f9ac839e577e4e899c0cb73e08fdf582/dash_ag_grid-2.0.0rc1.tar.gz
+[2023-04-24 16:04:28] INFO root fetch - processPackages [AegosIN]: Start processing: nope-py
+[2023-04-24 16:04:28] INFO root fetch - main [MainThread]: End processing [AegosIN]: success
+[2023-04-24 16:04:28] WARNING root fetch - processPackages [nope-py]: Skipping, unable to determine old version
+[2023-04-24 16:04:28] INFO root fetch - processPackages [nope-py]: Start processing: vtece4564-gamelib
+[2023-04-24 16:04:28] INFO root fetch - main [MainThread]: End processing [nope-py] error
+[2023-04-24 16:04:28] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 16:04:28] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-24 16:04:28] INFO root fetch - processPackages [dash-ag-grid]: executing diffoscope
+[2023-04-24 16:04:28] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230424/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 16:04:28] INFO root fetch - processPackages [dash-ag-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_ag_grid-2.0.0a5.tar.gz tmp/dash_ag_grid-2.0.0rc1.tar.gz --markdown 20230424/d/dash-ag-grid/2.0.0a5-2.0.0rc1/diff.md --exclude *.pyd
+[2023-04-24 16:04:28] INFO root fetch - processPackages [FATtools]: Start processing: lifeomic-patient-ml-types
+[2023-04-24 16:04:28] INFO root fetch - main [MainThread]: End processing [FATtools]: success
+[2023-04-24 16:04:29] INFO root fetch - processPackages [car-connector-framework]: Start processing: py-optional
+[2023-04-24 16:04:29] INFO root fetch - main [MainThread]: End processing [car-connector-framework]: success
+[2023-04-24 16:04:29] INFO root fetch - processPackages [biotree-tools]: Start processing: discovery-connectors
+[2023-04-24 16:04:29] INFO root fetch - main [MainThread]: End processing [biotree-tools]: success
+[2023-04-24 16:04:29] WARNING root fetch - processPackages [py-optional]: Skipping, unable to determine old version
+[2023-04-24 16:04:29] INFO root fetch - main [MainThread]: End processing [py-optional] error
+[2023-04-24 16:04:29] INFO root fetch - processPackages [lifeomic-patient-ml-types]: New version: [7.5.0] Old Version: [7.4.3]
+[2023-04-24 16:04:29] INFO root fetch - main [MainThread]: End processing [likeprocessing]: success
+[2023-04-24 16:04:29] INFO root fetch - processPackages [discovery-connectors]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-24 16:04:29] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-04-24 16:04:29] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/46/0f/5f8ab784b3c4f525b39aac75087f324e0deb1e55bf276145d4943a4c4656/lifeomic_patient_ml_types-7.4.3.tar.gz
+[2023-04-24 16:04:29] INFO root fetch - processPackages [discovery-connectors]: Downloading https://files.pythonhosted.org/packages/d7/b8/04cc393d7189e9768f70e1a771f8bd656f23ef04d8527bed111afbf21802/discovery-connectors-1.4.0.tar.gz
+[2023-04-24 16:04:29] INFO root fetch - main [MainThread]: End processing [car-connector-framework]: success
+[2023-04-24 16:04:29] INFO root fetch - processPackages [sdcflows]: executing diffoscope
+[2023-04-24 16:04:29] INFO root fetch - processPackages [sdcflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdcflows-2.4.2.tar.gz tmp/sdcflows-2.4.3.tar.gz --markdown 20230424/s/sdcflows/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-04-24 16:04:29] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/68/1e/f032b1b1ef098813178b4a15735cd2fc41dbd2a0de7fdbafaf689500514c/lifeomic_patient_ml_types-7.5.0.tar.gz
+[2023-04-24 16:04:29] INFO root fetch - processPackages [discovery-connectors]: Downloading https://files.pythonhosted.org/packages/b4/51/6c35327dc11c754513dde7801ff5c9fd8e5314db32f37d63932459a6c4ae/discovery-connectors-1.4.1.tar.gz
+[2023-04-24 16:04:29] INFO root fetch - processPackages [discovery-connectors]: executing diffoscope
+[2023-04-24 16:04:29] INFO root fetch - processPackages [discovery-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-connectors-1.4.0.tar.gz tmp/discovery-connectors-1.4.1.tar.gz --markdown 20230424/d/discovery-connectors/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-24 16:04:29] INFO root fetch - processPackages [lifeomic-patient-ml-types]: executing diffoscope
+[2023-04-24 16:04:29] INFO root fetch - processPackages [lifeomic-patient-ml-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeomic_patient_ml_types-7.4.3.tar.gz tmp/lifeomic_patient_ml_types-7.5.0.tar.gz --markdown 20230424/l/lifeomic-patient-ml-types/7.4.3-7.5.0/diff.md --exclude *.pyd
+[2023-04-24 16:04:30] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-24 16:04:30] INFO root fetch - main [MainThread]: End processing [lifeomic-patient-ml-types]: success
+[2023-04-24 16:04:30] INFO root fetch - main [MainThread]: End processing [discovery-connectors]: success
+[2023-04-24 16:04:31] INFO root fetch - main [MainThread]: End processing [datagen-tech]: success
+[2023-04-24 16:04:31] INFO root fetch - main [MainThread]: End processing [sdcflows]: success
+[2023-04-24 16:06:25] INFO root fetch - main [MainThread]: End processing [dash-ag-grid]: success
+[2023-04-24 16:06:25] INFO root fetch - main [MainThread]: Store serial: [17834550]
