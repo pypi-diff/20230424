@@ -5155,3 +5155,46 @@
 [2023-04-24 07:16:09] INFO root fetch - main [MainThread]: End processing [river-core]: success
 [2023-04-24 07:16:11] INFO root fetch - main [MainThread]: End processing [emsarray]: success
 [2023-04-24 07:16:11] INFO root fetch - main [MainThread]: Store serial: [17829216]
+[2023-04-24 07:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829216]
+[2023-04-24 07:21:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Alpha-Rabbit
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jurebes
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dea-tools
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awscurl
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eons
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pure-ocean-breeze
+[2023-04-24 07:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myscapyhelper
+[2023-04-24 07:21:19] INFO root fetch - processPackages [eons]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-04-24 07:21:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230423] Old Version: [0.2.2.dev20230422]
+[2023-04-24 07:21:19] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-04-24 07:21:19] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.5.1.tar.gz tmp/eons-2.5.2.tar.gz --markdown 20230424/e/eons/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-04-24 07:21:19] WARNING root fetch - processPackages [jurebes]: Skipping, unable to determine old version
+[2023-04-24 07:21:19] INFO root fetch - main [MainThread]: End processing [jurebes] error
+[2023-04-24 07:21:19] WARNING root fetch - processPackages [myscapyhelper]: Skipping, unable to determine old version
+[2023-04-24 07:21:19] INFO root fetch - main [MainThread]: End processing [myscapyhelper] error
+[2023-04-24 07:21:19] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-24 07:21:19] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev9] Old Version: [0.2.8.dev8]
+[2023-04-24 07:21:19] INFO root fetch - processPackages [awscurl]: New version: [0.9] Old Version: [0.8]
+[2023-04-24 07:21:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-04-24 07:21:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230422.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230423.tar.gz --markdown 20230424/r/rapidpe-rift-pipe/0.2.2.dev20230422-0.2.2.dev20230423/diff.md --exclude *.pyd
+[2023-04-24 07:21:19] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-04-24 07:21:20] INFO root fetch - processPackages [awscurl]: Downloading https://files.pythonhosted.org/packages/c1/a8/7d6819c3e8f820263eee0ed9034ac8d0645afacac1765c3caf98d0d3e49d/awscurl-0.8.tar.gz
+[2023-04-24 07:21:20] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/53/67/d20fbadc27449a419867d6d4eb13dcb6c84b6c1fe57d77ba69c3befb3897/pure_ocean_breeze-3.9.1.tar.gz
+[2023-04-24 07:21:20] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-04-24 07:21:20] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev8.tar.gz tmp/dea-tools-0.2.8.dev9.tar.gz --markdown 20230424/d/dea-tools/0.2.8.dev8-0.2.8.dev9/diff.md --exclude *.pyd
+[2023-04-24 07:21:20] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-04-24 07:21:20] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230424/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-24 07:21:20] INFO root fetch - processPackages [awscurl]: Downloading https://files.pythonhosted.org/packages/ab/98/2a94c04d1eec61074d3ae22fa9fc1fb6fbda8ad910741fb11db133f17659/awscurl-0.9.tar.gz
+[2023-04-24 07:21:20] INFO root fetch - processPackages [awscurl]: executing diffoscope
+[2023-04-24 07:21:20] INFO root fetch - processPackages [awscurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscurl-0.8.tar.gz tmp/awscurl-0.9.tar.gz --markdown 20230424/a/awscurl/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-24 07:21:20] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/1f/28/17ce5a2f799dafa667004f54980e34e82055abaad0358e0e97efab0bed00/pure_ocean_breeze-3.9.2.tar.gz
+[2023-04-24 07:21:20] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-04-24 07:21:20] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-3.9.1.tar.gz tmp/pure_ocean_breeze-3.9.2.tar.gz --markdown 20230424/p/pure-ocean-breeze/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-04-24 07:21:21] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-04-24 07:21:21] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-04-24 07:21:21] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-04-24 07:21:21] INFO root fetch - main [MainThread]: End processing [awscurl]: success
+[2023-04-24 07:21:21] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-04-24 07:21:22] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-04-24 07:21:22] INFO root fetch - main [MainThread]: Store serial: [17829250]
