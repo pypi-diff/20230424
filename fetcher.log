@@ -5964,3 +5964,87 @@
 [2023-04-24 08:41:21] INFO root fetch - processPackages [skyeye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyeye-3.4.7.tar.gz tmp/skyeye-3.4.8.tar.gz --markdown 20230424/s/skyeye/3.4.7-3.4.8/diff.md --exclude *.pyd
 [2023-04-24 08:41:24] INFO root fetch - main [MainThread]: End processing [skyeye]: success
 [2023-04-24 08:41:24] INFO root fetch - main [MainThread]: Store serial: [17829715]
+[2023-04-24 08:46:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829715]
+[2023-04-24 08:46:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structure-llm
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exalusAPI
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepthulac
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-stock-barcodes
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiln-connect
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addons-oca-stock-logistics-barcode
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyquora
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gto
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jurebes
+[2023-04-24 08:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qufit
+[2023-04-24 08:46:33] INFO root fetch - processPackages [deepthulac]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [exalusAPI]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-04-24 08:46:33] WARNING root fetch - processPackages [structure-llm]: Skipping, unable to determine old version
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-barcode]: New version: [13.0.20230423.0] Old Version: [13.0.20221001.0]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [structure-llm]: Start processing: hikari-tanjun
+[2023-04-24 08:46:33] INFO root fetch - main [MainThread]: End processing [structure-llm] error
+[2023-04-24 08:46:33] INFO root fetch - processPackages [pyquora]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [gto]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [kiln-connect]: New version: [1.0.0.dev6] Old Version: [1.0.0.dev5]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addon-stock-barcodes]: New version: [13.0.2.3.4.dev2] Old Version: [13.0.2.3.3]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [jurebes]: New version: [0.0.1a1] Old Version: [0.0.0a2]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [qufit]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.0.7.tar.gz tmp/qufit-1.0.8.tar.gz --markdown 20230424/q/qufit/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [hikari-tanjun]: New version: [2.9.0a1] Old Version: [2.8.1a1]
+[2023-04-24 08:46:33] INFO root fetch - processPackages [deepthulac]: Downloading https://files.pythonhosted.org/packages/b4/fc/ccd746de1c3aafb576a024885fa85e6c6e990dd42d0711c8bf5dd33094f0/deepthulac-0.0.5.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-barcode]: Downloading https://files.pythonhosted.org/packages/46/b9/9bf3894478901f0a2ce24dab0b849070f60e845309a721b8084a111de665/odoo13_addons_oca_stock_logistics_barcode-13.0.20221001.0-py3-none-any.whl
+[2023-04-24 08:46:33] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/b4/8c/e0c43f8be93ee72ca766548d910a57a27855a5a7035974bf816078cdc743/jurebes-0.0.1a1-py3-none-any.whl
+[2023-04-24 08:46:33] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/f5/b2/bf90c8db11e63c8d5b5441d54a8fd82e494016f6e4ed6df2bc29eaa93a50/gto-0.3.0rc1.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [exalusAPI]: Downloading https://files.pythonhosted.org/packages/a5/6f/9765055100a4559c797baef44c3c39ca40874566d35b92eb7945bab0babb/exalusAPI-0.4.1.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [kiln-connect]: Downloading https://files.pythonhosted.org/packages/b7/3b/fe78908141d4d3b36f5ef0b039fb251cc7548f4d98922ceb19c14048a508/kiln_connect-1.0.0.dev5.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/20/d6/8868751c2eca8af94fd7b06f4e39365cd95335534e46f0a5fcad4b5c3b1f/odoo13_addon_stock_barcodes-13.0.2.3.3-py3-none-any.whl
+[2023-04-24 08:46:33] INFO root fetch - processPackages [hikari-tanjun]: Downloading https://files.pythonhosted.org/packages/71/30/c5ae4288e24c952ee5355ca028f61f166c17b12586c18cad6a2743f7c6a4/hikari-tanjun-2.8.1a1.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.0.0a2-py3-none-any.whl.zip tmp/jurebes-0.0.1a1-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.0.0a2-0.0.1a1/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [pyquora]: Downloading https://files.pythonhosted.org/packages/08/da/353f5ad968806ab98b9f6594aee0d9f64f84a8b1d5c7584f3967922aa91f/pyquora-0.4.2.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [pyquora]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [pyquora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquora-0.4.1.tar.gz tmp/pyquora-0.4.2.tar.gz --markdown 20230424/p/pyquora/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [deepthulac]: Downloading https://files.pythonhosted.org/packages/06/b6/90ccd0590dfa5cb8b3716a5e183181b1765f86b082baa8db367a7fe5f13f/deepthulac-0.0.6.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [exalusAPI]: Downloading https://files.pythonhosted.org/packages/a2/8e/ca5abc3e4ec9430ac5cf650fa5ecf1cbc7884b2d657bdbeacdd6226e6eb4/exalusAPI-0.5.1.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-barcode]: Downloading https://files.pythonhosted.org/packages/d8/14/8319c46b086255a7112529d0329b538973468a4e7f9d8fac0ebcdcebc2d2/odoo13_addons_oca_stock_logistics_barcode-13.0.20230423.0-py3-none-any.whl
+[2023-04-24 08:46:33] INFO root fetch - processPackages [exalusAPI]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [exalusAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exalusAPI-0.4.1.tar.gz tmp/exalusAPI-0.5.1.tar.gz --markdown 20230424/e/exalusAPI/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-barcode]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_stock_logistics_barcode-13.0.20221001.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_stock_logistics_barcode-13.0.20230423.0-py3-none-any.whl.zip --markdown 20230424/o/odoo13-addons-oca-stock-logistics-barcode/13.0.20221001.0-13.0.20230423.0/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [kiln-connect]: Downloading https://files.pythonhosted.org/packages/2e/36/3b04714b5e4c33be23417f286a0cac8a0d372f948f8d86a361551b491775/kiln_connect-1.0.0.dev6.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/9b/79/7583455f4215382f8844b298852524edb5a5feffa3907869bbb7cac2d62f/odoo13_addon_stock_barcodes-13.0.2.3.4.dev2-py3-none-any.whl
+[2023-04-24 08:46:33] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/ce/c4/ca5a1477bd83eac2e130807935eb94745c69b651589600b5a767d1f18c69/gto-0.3.0rc2.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [hikari-tanjun]: Downloading https://files.pythonhosted.org/packages/19/06/58f326a3b2fb3b26f8f8461e44564b589fcba7b44e9737bfcc53cf7029a1/hikari-tanjun-2.9.0a1.tar.gz
+[2023-04-24 08:46:33] INFO root fetch - processPackages [deepthulac]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [deepthulac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepthulac-0.0.5.tar.gz tmp/deepthulac-0.0.6.tar.gz --markdown 20230424/d/deepthulac/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [kiln-connect]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [kiln-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiln_connect-1.0.0.dev5.tar.gz tmp/kiln_connect-1.0.0.dev6.tar.gz --markdown 20230424/k/kiln-connect/1.0.0.dev5-1.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addon-stock-barcodes]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [odoo13-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_barcodes-13.0.2.3.3-py3-none-any.whl.zip tmp/odoo13_addon_stock_barcodes-13.0.2.3.4.dev2-py3-none-any.whl.zip --markdown 20230424/o/odoo13-addon-stock-barcodes/13.0.2.3.3-13.0.2.3.4.dev2/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [gto]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [gto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gto-0.3.0rc1.tar.gz tmp/gto-0.3.0rc2.tar.gz --markdown 20230424/g/gto/0.3.0rc1-0.3.0rc2/diff.md --exclude *.pyd
+[2023-04-24 08:46:33] INFO root fetch - processPackages [hikari-tanjun]: executing diffoscope
+[2023-04-24 08:46:33] INFO root fetch - processPackages [hikari-tanjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-tanjun-2.8.1a1.tar.gz tmp/hikari-tanjun-2.9.0a1.tar.gz --markdown 20230424/h/hikari-tanjun/2.8.1a1-2.9.0a1/diff.md --exclude *.pyd
+[2023-04-24 08:46:34] INFO root fetch - processPackages [qufit]: Start processing: nacos-client-py
+[2023-04-24 08:46:34] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-04-24 08:46:34] INFO root fetch - processPackages [jurebes]: Start processing: pure-ocean-breeze
+[2023-04-24 08:46:34] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 08:46:34] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-04-24 08:46:34] INFO root fetch - processPackages [nacos-client-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 08:46:35] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-04-24 08:46:35] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-3.9.1.tar.gz tmp/pure_ocean_breeze-3.9.2.tar.gz --markdown 20230424/p/pure-ocean-breeze/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-04-24 08:46:35] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-barcode]: success
+[2023-04-24 08:46:35] INFO root fetch - main [MainThread]: End processing [pyquora]: success
+[2023-04-24 08:46:35] INFO root fetch - processPackages [nacos-client-py]: Downloading https://files.pythonhosted.org/packages/c2/84/d99603f2a7ae0b7e1cec14b0ca03860abb6769cbd00921481d6938a39465/nacos-client-py-0.0.8.tar.gz
+[2023-04-24 08:46:35] INFO root fetch - main [MainThread]: End processing [exalusAPI]: success
+[2023-04-24 08:46:35] INFO root fetch - processPackages [nacos-client-py]: Downloading https://files.pythonhosted.org/packages/07/70/325daef7d1f987eef87c8a15e19b40c178b45098e258a97ebd2e23280562/nacos-client-py-0.0.9.tar.gz
+[2023-04-24 08:46:35] INFO root fetch - processPackages [nacos-client-py]: executing diffoscope
+[2023-04-24 08:46:35] INFO root fetch - processPackages [nacos-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nacos-client-py-0.0.8.tar.gz tmp/nacos-client-py-0.0.9.tar.gz --markdown 20230424/n/nacos-client-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 08:46:35] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-barcodes]: success
+[2023-04-24 08:46:36] INFO root fetch - main [MainThread]: End processing [deepthulac]: success
+[2023-04-24 08:46:36] INFO root fetch - main [MainThread]: End processing [nacos-client-py]: success
+[2023-04-24 08:46:36] INFO root fetch - main [MainThread]: End processing [gto]: success
+[2023-04-24 08:46:36] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-04-24 08:46:38] INFO root fetch - main [MainThread]: End processing [kiln-connect]: success
+[2023-04-24 08:46:39] INFO root fetch - main [MainThread]: End processing [hikari-tanjun]: success
+[2023-04-24 08:46:39] INFO root fetch - main [MainThread]: Store serial: [17829767]
