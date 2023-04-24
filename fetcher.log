@@ -23056,3 +23056,59 @@
 [2023-04-24 23:33:38] INFO root fetch - main [MainThread]: End processing [hidet]: success
 [2023-04-24 23:33:39] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-24 23:33:39] INFO root fetch - main [MainThread]: Store serial: [17839711]
+[2023-04-24 23:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839711]
+[2023-04-24 23:38:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-needle
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ws-cli-chat
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaemet
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kappadata
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wraps
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dioptra
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jurebes
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyjamas-rfglab
+[2023-04-24 23:38:48] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-04-24 23:38:48] INFO root fetch - processPackages [pyaemet]: New version: [1.1.0rc1] Old Version: [1.1.0rc0]
+[2023-04-24 23:38:48] INFO root fetch - processPackages [ws-cli-chat]: New version: [0.3.5] Old Version: [0.3.1]
+[2023-04-24 23:38:48] INFO root fetch - processPackages [wraps]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-24 23:38:48] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-04-24 23:38:49] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 23:38:49] INFO root fetch - processPackages [dioptra]: New version: [1.0.9rc1] Old Version: [1.0.9]
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyaemet]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyaemet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaemet-1.1.0rc0.tar.gz tmp/pyaemet-1.1.0rc1.tar.gz --markdown 20230424/p/pyaemet/1.1.0rc0-1.1.0rc1/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyjamas-rfglab]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230424/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230424/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [wraps]: Downloading https://files.pythonhosted.org/packages/88/67/5e6c41fd82e51981506df3c0f17b56c14fc1d8ca7bbf2816fc8523b2ebc2/wraps-0.3.0.tar.gz
+[2023-04-24 23:38:49] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/72/c0/aaa0d38970266d0f2323bf420b11b1ba5096e15a7f7cfe1d59ab7d86d4a8/jurebes-0.1.1a3-py3-none-any.whl
+[2023-04-24 23:38:49] INFO root fetch - processPackages [dioptra]: Downloading https://files.pythonhosted.org/packages/dc/14/709634a224813a402ca73268b88331344258a22f8633c264927371636aa8/dioptra-1.0.9.tar.gz
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/79/56/0c5df4c6af68e68bcf4d5f89d70c66dec453b58357f2478b5900ad8cfca9/pyjamas_rfglab-2023.4.0-py3-none-any.whl
+[2023-04-24 23:38:49] INFO root fetch - processPackages [ws-cli-chat]: Downloading https://files.pythonhosted.org/packages/c2/21/1f29dbec6c72a1ebd9d441890fc3941a9b6e86dd85cc43b882750ca5a838/ws_cli_chat-0.3.5.tar.gz
+[2023-04-24 23:38:49] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.84.tar.gz tmp/djangoldp_needle-0.1.9.tar.gz --markdown 20230424/d/djangoldp-needle/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a2-py3-none-any.whl.zip tmp/jurebes-0.1.1a3-py3-none-any.whl.zip --markdown 20230424/j/jurebes/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [wraps]: Downloading https://files.pythonhosted.org/packages/f2/79/0383ff802c5f2183a9e41a0b90ee31fab99cda5796774aa8f381d68c2a41/wraps-0.4.0.tar.gz
+[2023-04-24 23:38:49] INFO root fetch - processPackages [ws-cli-chat]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [ws-cli-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_cli_chat-0.3.1.tar.gz tmp/ws_cli_chat-0.3.5.tar.gz --markdown 20230424/w/ws-cli-chat/0.3.1-0.3.5/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [dioptra]: Downloading https://files.pythonhosted.org/packages/1d/13/3cad3e0ce2f9da6fbc18ec087b89268ea80c892aec346ce49e078f3189ef/dioptra-1.0.9rc1.tar.gz
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/c5/29/75c5c15c9d784c8bfcb501fa992efa6089a997732db0e651ed3823db9685/pyjamas_rfglab-2023.4.1-py3-none-any.whl
+[2023-04-24 23:38:49] INFO root fetch - processPackages [dioptra]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [dioptra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptra-1.0.9.tar.gz tmp/dioptra-1.0.9rc1.tar.gz --markdown 20230424/d/dioptra/1.0.9-1.0.9rc1/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [wraps]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [wraps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wraps-0.3.0.tar.gz tmp/wraps-0.4.0.tar.gz --markdown 20230424/w/wraps/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyjamas-rfglab]: executing diffoscope
+[2023-04-24 23:38:49] INFO root fetch - processPackages [pyjamas-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjamas_rfglab-2023.4.0-py3-none-any.whl.zip tmp/pyjamas_rfglab-2023.4.1-py3-none-any.whl.zip --markdown 20230424/p/pyjamas-rfglab/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-04-24 23:38:50] INFO root fetch - main [MainThread]: End processing [pyaemet]: success
+[2023-04-24 23:38:50] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-24 23:38:50] INFO root fetch - main [MainThread]: End processing [ws-cli-chat]: success
+[2023-04-24 23:38:50] INFO root fetch - main [MainThread]: End processing [dioptra]: success
+[2023-04-24 23:38:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-24 23:38:51] INFO root fetch - main [MainThread]: End processing [wraps]: success
+[2023-04-24 23:38:51] INFO root fetch - main [MainThread]: End processing [pyjamas-rfglab]: success
+[2023-04-24 23:38:51] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-04-24 23:38:53] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-04-24 23:38:53] INFO root fetch - main [MainThread]: Store serial: [17839737]
