@@ -2204,3 +2204,30 @@
 [2023-04-24 03:47:21] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-04-24 03:47:21] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-24 03:47:21] INFO root fetch - main [MainThread]: Store serial: [17827535]
+[2023-04-24 03:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827535]
+[2023-04-24 03:52:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-24 03:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zytlib
+[2023-04-24 03:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raindancers-network.raindancers-cdk
+[2023-04-24 03:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perfect-physics
+[2023-04-24 03:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: realnet
+[2023-04-24 03:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-twc
+[2023-04-24 03:52:30] INFO root fetch - processPackages [zytlib]: New version: [0.3.329] Old Version: [0.3.328]
+[2023-04-24 03:52:30] INFO root fetch - processPackages [realnet]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-04-24 03:52:30] WARNING root fetch - processPackages [perfect-physics]: Skipping, unable to determine old version
+[2023-04-24 03:52:30] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-24 03:52:30] INFO root fetch - main [MainThread]: End processing [perfect-physics] error
+[2023-04-24 03:52:30] INFO root fetch - processPackages [antchain-twc]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-04-24 03:52:30] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-04-24 03:52:30] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.91.tar.gz tmp/realnet-0.0.92.tar.gz --markdown 20230424/r/realnet/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-04-24 03:52:30] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-04-24 03:52:30] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230424/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-24 03:52:30] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/48/a9/5a65b347fb783c20d8d8bfd80dc01d35982ab2658a13f6633fb148782fce/zytlib-0.3.329-py3-none-any.whl
+[2023-04-24 03:52:30] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2023-04-24 03:52:30] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.328-py3-none-any.whl.zip tmp/zytlib-0.3.329-py3-none-any.whl.zip --markdown 20230424/z/zytlib/0.3.328-0.3.329/diff.md --exclude *.pyd
+[2023-04-24 03:52:30] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-04-24 03:52:30] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.8.8.tar.gz tmp/antchain_twc-1.8.9.tar.gz --markdown 20230424/a/antchain-twc/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-04-24 03:52:31] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-04-24 03:52:31] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2023-04-24 03:52:31] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-04-24 03:52:33] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-04-24 03:52:33] INFO root fetch - main [MainThread]: Store serial: [17827557]
