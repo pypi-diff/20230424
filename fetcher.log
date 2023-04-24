@@ -21775,3 +21775,75 @@
 [2023-04-24 22:16:39] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-04-24 22:16:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-04-24 22:16:48] INFO root fetch - main [MainThread]: Store serial: [17839023]
+[2023-04-24 22:21:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839023]
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storey
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-website-sale-filter-product-brand
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apf-base
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcs-cli
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bm-utilities
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: extended-tk
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: topcast
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-scrapper
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-jotform
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-04-24 22:22:01] INFO root fetch - processPackages [storey]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-24 22:22:01] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 22:22:01] INFO root fetch - processPackages [apf-base]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-24 22:22:01] WARNING root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: Skipping, unable to determine old version
+[2023-04-24 22:22:01] INFO root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: Start processing: yatracker-linker
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-filter-product-brand] error
+[2023-04-24 22:22:01] WARNING root fetch - processPackages [topcast]: Skipping, unable to determine old version
+[2023-04-24 22:22:01] INFO root fetch - processPackages [topcast]: Start processing: solverpy
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: End processing [topcast] error
+[2023-04-24 22:22:01] WARNING root fetch - processPackages [extended-tk]: Skipping, unable to determine old version
+[2023-04-24 22:22:01] INFO root fetch - processPackages [extended-tk]: Start processing: NeuralBasics
+[2023-04-24 22:22:01] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: End processing [extended-tk] error
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-24 22:22:01] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 22:22:01] INFO root fetch - processPackages [NeuralBasics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 22:22:01] WARNING root fetch - processPackages [gpt-scrapper]: Skipping, unable to determine old version
+[2023-04-24 22:22:01] INFO root fetch - processPackages [gpt-scrapper]: Start processing: psycop-feature-generation
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: End processing [gpt-scrapper] error
+[2023-04-24 22:22:01] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-24 22:22:01] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230424/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 22:22:01] INFO root fetch - processPackages [tap-jotform]: New version: [0.0.6b1] Old Version: [0.0.5b1]
+[2023-04-24 22:22:01] WARNING root fetch - processPackages [solverpy]: Skipping, unable to determine old version
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: End processing [solverpy] error
+[2023-04-24 22:22:01] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230424/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-24 22:22:01] INFO root fetch - processPackages [NeuralBasics]: executing diffoscope
+[2023-04-24 22:22:01] INFO root fetch - processPackages [NeuralBasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralBasics-1.0.8.tar.gz tmp/NeuralBasics-1.0.9.tar.gz --markdown 20230424/N/NeuralBasics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 22:22:01] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/74/28/bf967035b9a935e6025284b4e2281cdc29453e8728c325ea0a1c385ca2fa/storey-1.3.8.tar.gz
+[2023-04-24 22:22:01] INFO root fetch - processPackages [apf-base]: Downloading https://files.pythonhosted.org/packages/db/2b/5ad8412f367af4ed799dea849ff842fda31109b453bd429a898459d48aad/apf_base-2.1.4.tar.gz
+[2023-04-24 22:22:01] ERROR root fetch - processPackages [hcs-cli]: Unable to fetch info: No such project/version 'hcs-cli' 0.1.30
+[2023-04-24 22:22:01] INFO root fetch - main [MainThread]: End processing [hcs-cli] error
+[2023-04-24 22:22:01] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/37/2b/e6bd2896b4e3668e97ac531c0df3aed5e8f49cb19df15f681000c19c0df4/bm_utilities-0.0.1.tar.gz
+[2023-04-24 22:22:01] INFO root fetch - processPackages [psycop-feature-generation]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 22:22:01] INFO root fetch - processPackages [tap-jotform]: Downloading https://files.pythonhosted.org/packages/05/2c/6e3db0e3f6c450416af4744635eb21967132e8816f4b98a7fdc16a12712d/tap_jotform-0.0.5b1.tar.gz
+[2023-04-24 22:22:01] INFO root fetch - processPackages [psycop-feature-generation]: Downloading https://files.pythonhosted.org/packages/cd/23/d4daf375a5684da0766ddec4f0af8d22d90548a8530678ca182e1a54c967/psycop_feature_generation-0.8.0.tar.gz
+[2023-04-24 22:22:02] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/04/3c/9c34fe5cf1756f77c6e75bb16bea0bb84c1e523e56e011fc8716d5616a4c/bm_utilities-0.0.2.tar.gz
+[2023-04-24 22:22:02] INFO root fetch - processPackages [apf-base]: Downloading https://files.pythonhosted.org/packages/a0/cf/4ffafda688264d602701b097688daea89e0300d3d6e60bd7d5e41764dcb3/apf_base-2.1.5.tar.gz
+[2023-04-24 22:22:02] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/a7/a2/a9ad5f72cc22b44458d1bb8dd449c3701bcb97e497b715fce33ec5e79df7/storey-1.3.9.tar.gz
+[2023-04-24 22:22:02] INFO root fetch - processPackages [tap-jotform]: Downloading https://files.pythonhosted.org/packages/d8/a4/4f580705b2b5b2b61fbf21f4e4b2b203c34f00ecbea98f66fde835f9effc/tap_jotform-0.0.6b1.tar.gz
+[2023-04-24 22:22:02] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-04-24 22:22:02] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.1.tar.gz tmp/bm_utilities-0.0.2.tar.gz --markdown 20230424/b/bm-utilities/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 22:22:02] INFO root fetch - processPackages [apf-base]: executing diffoscope
+[2023-04-24 22:22:02] INFO root fetch - processPackages [apf-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apf_base-2.1.4.tar.gz tmp/apf_base-2.1.5.tar.gz --markdown 20230424/a/apf-base/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-24 22:22:02] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-04-24 22:22:02] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.3.8.tar.gz tmp/storey-1.3.9.tar.gz --markdown 20230424/s/storey/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-24 22:22:02] INFO root fetch - processPackages [psycop-feature-generation]: Downloading https://files.pythonhosted.org/packages/c9/00/dada140dd1a9f2898314d3b5976a0c09fb91f47c5f4ccd9818c5fe6259ad/psycop_feature_generation-0.9.0.tar.gz
+[2023-04-24 22:22:02] INFO root fetch - processPackages [tap-jotform]: executing diffoscope
+[2023-04-24 22:22:02] INFO root fetch - processPackages [tap-jotform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_jotform-0.0.5b1.tar.gz tmp/tap_jotform-0.0.6b1.tar.gz --markdown 20230424/t/tap-jotform/0.0.5b1-0.0.6b1/diff.md --exclude *.pyd
+[2023-04-24 22:22:02] INFO root fetch - processPackages [psycop-feature-generation]: executing diffoscope
+[2023-04-24 22:22:02] INFO root fetch - processPackages [psycop-feature-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycop_feature_generation-0.8.0.tar.gz tmp/psycop_feature_generation-0.9.0.tar.gz --markdown 20230424/p/psycop-feature-generation/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 22:22:02] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-24 22:22:02] INFO root fetch - main [MainThread]: End processing [NeuralBasics]: success
+[2023-04-24 22:22:03] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-24 22:22:03] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-04-24 22:22:03] INFO root fetch - main [MainThread]: End processing [apf-base]: success
+[2023-04-24 22:22:03] INFO root fetch - main [MainThread]: End processing [tap-jotform]: success
+[2023-04-24 22:22:03] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-04-24 22:22:04] INFO root fetch - main [MainThread]: End processing [psycop-feature-generation]: success
+[2023-04-24 22:22:04] INFO root fetch - main [MainThread]: Store serial: [17839087]
