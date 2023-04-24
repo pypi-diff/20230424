@@ -10906,3 +10906,141 @@
 [2023-04-24 13:19:57] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
 [2023-04-24 13:20:12] INFO root fetch - main [MainThread]: End processing [palmari]: success
 [2023-04-24 13:20:12] INFO root fetch - main [MainThread]: Store serial: [17832686]
+[2023-04-24 13:25:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17832686]
+[2023-04-24 13:25:21] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptdeploy
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-runtime
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: croudtech-ecs-tools
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pantsbuild.pants
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-twc
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm4chat
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssb-sgis
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arctic-ai
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchtnt-nightly
+[2023-04-24 13:25:21] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [llm4chat]: New version: [2023.4.24.19.22.24] Old Version: [2023.4.24.19.12.47]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [croudtech-ecs-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [antchain-twc]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-04-24 13:25:21] WARNING root fetch - processPackages [arctic-ai]: Skipping, unable to determine old version
+[2023-04-24 13:25:21] INFO root fetch - processPackages [ssb-sgis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [arctic-ai]: Start processing: st-config
+[2023-04-24 13:25:21] INFO root fetch - main [MainThread]: End processing [arctic-ai] error
+[2023-04-24 13:25:21] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [st-config]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/85/c0/967630d109bde8bebdb11f8e8a8ea604d2dbf3f1837963be854f95af5c79/antchain_twc-1.8.8.tar.gz
+[2023-04-24 13:25:21] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-04-24 13:25:21] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/90/f0/5979ec353d8f6b4db609276e510f2b2adbe5ef9b6202e997c3dc12b1b6dc/torchtnt-nightly-2023.4.8.tar.gz
+[2023-04-24 13:25:21] INFO root fetch - processPackages [croudtech-ecs-tools]: executing diffoscope
+[2023-04-24 13:25:21] INFO root fetch - processPackages [croudtech-ecs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croudtech-ecs-tools-0.1.8.tar.gz tmp/croudtech-ecs-tools-0.1.9.tar.gz --markdown 20230424/c/croudtech-ecs-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [gptdeploy]: Downloading https://files.pythonhosted.org/packages/28/8e/b8927500bfb52743dfb8a289e3f31e688199b5a59772b782c9ff31241d67/gptdeploy-0.18.8.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230424/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/41/14/51493f50f9af6de7498f3f74b164213e2afbd9e3ec763cef6aef183e8691/oarepo-runtime-1.2.8.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [llm4chat]: Downloading https://files.pythonhosted.org/packages/e8/31/2227190812c000c940e73ab530d2aabc7f669e7f9ff48116ad63456e9f15/llm4chat-2023.4.24.19.22.24.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/43/72/e24a5ed9bdcbc37d7ef6a9a157389b1c6105293a4d5dcf908db0119bb0f4/ssb_sgis-0.1.8.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/be/7d/c706ac71802457b87a49a83609510e11978f747b3b4bb06fdf4de952c80a/antchain_twc-1.8.9.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [st-config]: Downloading https://files.pythonhosted.org/packages/90/c3/96d5bccc08c00b1b23daf044cf34c6fb03fe03e0f50c1b43c066378b5c56/st_config-0.0.4.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.8.8.tar.gz tmp/antchain_twc-1.8.9.tar.gz --markdown 20230424/a/antchain-twc/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/48/97/381791bc4283e669dec9f67993e2049ffec0082aab092c27860699d3eb24/torchtnt-nightly-2023.4.9.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-24 13:25:22] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-04-24 13:25:22] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: bigdl-dllib
+[2023-04-24 13:25:22] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-04-24 13:25:22] INFO root fetch - processPackages [gptdeploy]: Downloading https://files.pythonhosted.org/packages/57/8f/7ee320d3dff95f2e8982dc7f527b310660378c61a29b2f8909312b96f32e/gptdeploy-0.18.9.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/4f/62/3e8e2e0a8b93184437084b6d1e063f3f668c1d63b8cb6d50a4265d60b92e/oarepo-runtime-1.2.9.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [st-config]: Downloading https://files.pythonhosted.org/packages/01/c1/7a99b0b7e0b713423b24030539f5b60cbfb5749c1c8582c3c5e27222207b/st_config-0.0.5.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-24 13:25:22] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.4.8.tar.gz tmp/torchtnt-nightly-2023.4.9.tar.gz --markdown 20230424/t/torchtnt-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230424/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230424/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [st-config]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [st-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_config-0.0.4.tar.gz tmp/st_config-0.0.5.tar.gz --markdown 20230424/s/st-config/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/bc/3f/c85f6d576d71b98d56969068678ac0ecc4552bddacf12d1fe1aa70944f36/bigdl-dllib-2.4.0b20230423.tar.gz
+[2023-04-24 13:25:22] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/42/98/a5a8a06b56bb8c509b69c4199bf4c37f860b784fcead59c2b2e27ac48031/ssb_sgis-0.1.9.tar.gz
+[2023-04-24 13:25:22] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560815>=10485760
+[2023-04-24 13:25:22] INFO root fetch - processPackages [bigdl-dllib]: Start processing: pypcapkit
+[2023-04-24 13:25:22] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-24 13:25:22] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-04-24 13:25:22] INFO root fetch - processPackages [ssb-sgis]: executing diffoscope
+[2023-04-24 13:25:22] INFO root fetch - processPackages [ssb-sgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_sgis-0.1.8.tar.gz tmp/ssb_sgis-0.1.9.tar.gz --markdown 20230424/s/ssb-sgis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:22] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/b1/7e/137a744d76205b4989a2f60c3a3e3a3bdb60d02366af3c394428d78212f8/pypcapkit-1.0.0b8.tar.gz
+[2023-04-24 13:25:23] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/4b/ff/3549c591c20441517230d15f32bd51d0ef41681692ada768156dbb64ec4c/pypcapkit-1.0.0b9.tar.gz
+[2023-04-24 13:25:23] INFO root fetch - processPackages [croudtech-ecs-tools]: Start processing: gpt-dev
+[2023-04-24 13:25:23] INFO root fetch - main [MainThread]: End processing [croudtech-ecs-tools]: success
+[2023-04-24 13:25:23] WARNING root fetch - processPackages [gpt-dev]: Skipping, unable to determine old version
+[2023-04-24 13:25:23] INFO root fetch - processPackages [gpt-dev]: Start processing: sapx
+[2023-04-24 13:25:23] INFO root fetch - main [MainThread]: End processing [gpt-dev] error
+[2023-04-24 13:25:23] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-04-24 13:25:23] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b8.tar.gz tmp/pypcapkit-1.0.0b9.tar.gz --markdown 20230424/p/pypcapkit/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-04-24 13:25:23] INFO root fetch - processPackages [llm4chat]: executing diffoscope
+[2023-04-24 13:25:23] INFO root fetch - processPackages [llm4chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4chat-2023.4.24.19.12.47.tar.gz tmp/llm4chat-2023.4.24.19.22.24.tar.gz --markdown 20230424/l/llm4chat/2023.4.24.19.12.47-2023.4.24.19.22.24/diff.md --exclude *.pyd
+[2023-04-24 13:25:23] INFO root fetch - processPackages [sapx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 13:25:23] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/27/27/89f9a5b0116908fd2ae9913a7c258aef5e0a5e2f4b253c34990bfb759c69/sapx-0.1.8.tar.gz
+[2023-04-24 13:25:23] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: matter-task-queue
+[2023-04-24 13:25:23] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-04-24 13:25:23] INFO root fetch - processPackages [st-config]: Start processing: tb-nightly
+[2023-04-24 13:25:23] INFO root fetch - main [MainThread]: End processing [st-config]: success
+[2023-04-24 13:25:23] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-04-24 13:25:23] INFO root fetch - processPackages [matter-task-queue]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-04-24 13:25:23] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-04-24 13:25:23] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/5b/05/bb11875f582c00540be87c66c5a948911aa4b7d582d75efba2d5cafe881a/sapx-0.1.9.tar.gz
+[2023-04-24 13:25:23] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: bigdl-orca
+[2023-04-24 13:25:23] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-04-24 13:25:23] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230423] Old Version: [2.4.0b20230422]
+[2023-04-24 13:25:23] INFO root fetch - processPackages [matter-task-queue]: Downloading https://files.pythonhosted.org/packages/09/e2/a77927a20ce6ef20b419e2ace095694dbd60e5b81c66b2d283cf44e2bce4/matter_task_queue-1.1.4-py3-none-any.whl
+[2023-04-24 13:25:24] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2023-04-24 13:25:24] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.1.8.tar.gz tmp/sapx-0.1.9.tar.gz --markdown 20230424/s/sapx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/dd/69/578db09a357135ef0d79916e52bba30d7fa8fcf2cf292e06b2517b2046c4/bigdl_orca-2.4.0b20230422-py3-none-manylinux1_x86_64.whl
+[2023-04-24 13:25:24] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369236>=10485760
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl-orca]: Start processing: typerconf
+[2023-04-24 13:25:24] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-04-24 13:25:24] INFO root fetch - processPackages [matter-task-queue]: Downloading https://files.pythonhosted.org/packages/1a/a9/8d2d7c282cd948c4c046facea374275f86a26e9e567f399c8fad2fde379f/matter_task_queue-1.2.0-py3-none-any.whl
+[2023-04-24 13:25:24] INFO root fetch - processPackages [ssb-sgis]: Start processing: bigdl-friesian
+[2023-04-24 13:25:24] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230423] Old Version: [2.4.0b20230422]
+[2023-04-24 13:25:24] INFO root fetch - processPackages [typerconf]: New version: [1.6] Old Version: [1.5]
+[2023-04-24 13:25:24] INFO root fetch - processPackages [oarepo-runtime]: Start processing: pantsbuild.pants.testutil
+[2023-04-24 13:25:24] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-04-24 13:25:24] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-04-24 13:25:24] INFO root fetch - processPackages [gptdeploy]: Start processing: bigdl
+[2023-04-24 13:25:24] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-24 13:25:24] INFO root fetch - processPackages [matter-task-queue]: executing diffoscope
+[2023-04-24 13:25:24] INFO root fetch - processPackages [matter-task-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_task_queue-1.1.4-py3-none-any.whl.zip tmp/matter_task_queue-1.2.0-py3-none-any.whl.zip --markdown 20230424/m/matter-task-queue/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230423] Old Version: [2.4.0b20230422]
+[2023-04-24 13:25:24] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-04-24 13:25:24] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230424/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-04-24 13:25:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-04-24 13:25:24] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/70/b5/f4ae8dfce9d7a3520e83d854d4b3af0bcde90e9467bae4062913a66ea05c/typerconf-1.6.tar.gz
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230422-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip --markdown 20230424/b/bigdl-friesian/2.4.0b20230422-2.4.0b20230423/diff.md --exclude *.pyd
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-04-24 13:25:24] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230422-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip --markdown 20230424/b/bigdl/2.4.0b20230422-2.4.0b20230423/diff.md --exclude *.pyd
+[2023-04-24 13:25:24] INFO root fetch - processPackages [typerconf]: executing diffoscope
+[2023-04-24 13:25:24] INFO root fetch - processPackages [typerconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typerconf-1.5.tar.gz tmp/typerconf-1.6.tar.gz --markdown 20230424/t/typerconf/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-24 13:25:25] INFO root fetch - processPackages [sapx]: Start processing: balena-sdk
+[2023-04-24 13:25:25] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2023-04-24 13:25:25] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-04-24 13:25:25] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230424/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-04-24 13:25:25] INFO root fetch - main [MainThread]: End processing [matter-task-queue]: success
+[2023-04-24 13:25:25] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-04-24 13:25:25] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-04-24 13:25:25] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-04-24 13:25:25] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-04-24 13:25:25] INFO root fetch - main [MainThread]: End processing [typerconf]: success
+[2023-04-24 13:25:26] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-04-24 13:25:26] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-04-24 13:25:26] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230424/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-04-24 13:25:27] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-04-24 13:25:27] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-04-24 13:25:27] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-04-24 13:25:28] INFO root fetch - main [MainThread]: End processing [llm4chat]: success
+[2023-04-24 13:25:28] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-04-24 13:25:29] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-04-24 13:25:29] INFO root fetch - main [MainThread]: Store serial: [17832755]
