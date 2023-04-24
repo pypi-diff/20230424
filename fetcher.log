@@ -1096,3 +1096,94 @@
 [2023-04-24 02:12:46] INFO root fetch - main [MainThread]: End processing [e2eAIOK-denas]: success
 [2023-04-24 02:12:54] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2023-04-24 02:12:54] INFO root fetch - main [MainThread]: Store serial: [17826806]
+[2023-04-24 02:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17826806]
+[2023-04-24 02:18:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Aciembler
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-gitlab-runner
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-ignite
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-skylight
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AegosCH
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-events-notify
+[2023-04-24 02:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mb-pytorch
+[2023-04-24 02:18:04] WARNING root fetch - processPackages [AegosCH]: Skipping, unable to determine old version
+[2023-04-24 02:18:04] INFO root fetch - processPackages [AegosCH]: Start processing: cdk-amazon-chime-resources
+[2023-04-24 02:18:04] INFO root fetch - main [MainThread]: End processing [AegosCH] error
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304240015] Old Version: [1.0.202304240013]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304240015] Old Version: [1.0.202304240013]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [Aciembler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230424] Old Version: [0.5.0.dev20230423]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [Aciembler]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [Aciembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aciembler-1.0.8-py2.py3-none-any.whl.zip tmp/Aciembler-1.0.9-py2.py3-none-any.whl.zip --markdown 20230424/A/Aciembler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/15/ac/bee4d7971c4b31f5809d546f8f4d120d37a258cdbfb28775825c6a72b324/cdk-amazon-chime-resources-2.3.8.tar.gz
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f7/50/bce332a4538dd07291e38171b91512ee80b6de4a14752b599a90e765837d/mb_pytorch-1.0.202304240013-py3-none-any.whl
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f7/50/bce332a4538dd07291e38171b91512ee80b6de4a14752b599a90e765837d/mb_pytorch-1.0.202304240013-py3-none-any.whl
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230424/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14200774>=10485760
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Start processing: cdk-stacksets
+[2023-04-24 02:18:04] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230424/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230424/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230424/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-stacksets]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230424/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [cdk-stacksets]: Downloading https://files.pythonhosted.org/packages/d7/9d/99e3c56b27f677e6316d93e6975db549540760b1055e6bbf995da838626d/cdk-stacksets-0.0.84.tar.gz
+[2023-04-24 02:18:04] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/f9/6c/8c5a2b8194e9bdbb7c566876e9888c97c3eb46b98bc4574ca9b42165ea91/pytorch-ignite-0.5.0.dev20230424.tar.gz
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/dc/a6/49d930772003f35af81c775c870e138487c9916c8c73012525b6f9469a50/mb_pytorch-1.0.202304240015-py3-none-any.whl
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/dc/a6/49d930772003f35af81c775c870e138487c9916c8c73012525b6f9469a50/mb_pytorch-1.0.202304240015-py3-none-any.whl
+[2023-04-24 02:18:04] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230423.tar.gz tmp/pytorch-ignite-0.5.0.dev20230424.tar.gz --markdown 20230424/p/pytorch-ignite/0.5.0.dev20230423-0.5.0.dev20230424/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304240013-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304240015-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304240013-1.0.202304240015/diff.md --exclude *.pyd
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-24 02:18:04] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304240013-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304240015-py3-none-any.whl.zip --markdown 20230424/m/mb-pytorch/1.0.202304240013-1.0.202304240015/diff.md --exclude *.pyd
+[2023-04-24 02:18:05] INFO root fetch - processPackages [cdk-stacksets]: executing diffoscope
+[2023-04-24 02:18:05] INFO root fetch - processPackages [cdk-stacksets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-stacksets-0.0.84.tar.gz tmp/cdk-stacksets-0.0.9.tar.gz --markdown 20230424/c/cdk-stacksets/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 02:18:05] INFO root fetch - processPackages [Aciembler]: Start processing: fluke5440b-async
+[2023-04-24 02:18:05] INFO root fetch - main [MainThread]: End processing [Aciembler]: success
+[2023-04-24 02:18:05] INFO root fetch - processPackages [cdk-skylight]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-04-24 02:18:05] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-24 02:18:06] WARNING root fetch - processPackages [fluke5440b-async]: Skipping, unable to determine old version
+[2023-04-24 02:18:06] INFO root fetch - processPackages [fluke5440b-async]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [fluke5440b-async] error
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdk-events-notify]: Start processing: pydhcp3
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230424/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230424/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-04-24 02:18:06] WARNING root fetch - processPackages [pydhcp3]: Skipping, unable to determine old version
+[2023-04-24 02:18:06] INFO root fetch - processPackages [pydhcp3]: Start processing: cdklabs.appsync-utils
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [pydhcp3] error
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: finance-structs
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2023-04-24 02:18:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.8.tar.gz tmp/cdklabs.appsync-utils-0.0.9.tar.gz --markdown 20230424/c/cdklabs.appsync-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 02:18:06] WARNING root fetch - processPackages [finance-structs]: Skipping, unable to determine old version
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [finance-structs] error
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [cdk-stacksets]: success
+[2023-04-24 02:18:06] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 02:18:07] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-24 02:18:07] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-04-24 02:18:07] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-04-24 02:18:07] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2023-04-24 02:18:07] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-04-24 02:18:07] INFO root fetch - main [MainThread]: Store serial: [17826862]
