@@ -21388,3 +21388,58 @@
 [2023-04-24 21:49:54] INFO root fetch - main [MainThread]: End processing [kfp]: success
 [2023-04-24 21:49:54] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-04-24 21:49:54] INFO root fetch - main [MainThread]: Store serial: [17838823]
+[2023-04-24 21:54:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838823]
+[2023-04-24 21:55:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nano-local
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loop-step
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj-beatcloud
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yascheduler
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghidrecomp
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhOn
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: teneva
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Extended-Tk
+[2023-04-24 21:55:03] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.4.1b6] Old Version: [2.4.1b5]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [nano-local]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [loop-step]: New version: [2023.4.24] Old Version: [2023.2.15]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ghidrecomp]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [yascheduler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230424/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] WARNING root fetch - processPackages [Extended-Tk]: Skipping, unable to determine old version
+[2023-04-24 21:55:03] INFO root fetch - main [MainThread]: End processing [Extended-Tk] error
+[2023-04-24 21:55:03] INFO root fetch - processPackages [yascheduler]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [yascheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yascheduler-1.0.8.tar.gz tmp/yascheduler-1.0.9.tar.gz --markdown 20230424/y/yascheduler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] INFO root fetch - processPackages [teneva]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 21:55:03] INFO root fetch - processPackages [nano-local]: Downloading https://files.pythonhosted.org/packages/32/0d/36ddf87279d636bba20f0363c10f29c3b17db8f3f255d4f0c0addc9d57f7/nano_local-0.1.3.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [loop-step]: Downloading https://files.pythonhosted.org/packages/75/93/5c9c56027a082216a2ff0db67fb52b46a5f2ff6a987600d69af3fb641095/loop_step-2023.2.15.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ghidrecomp]: Downloading https://files.pythonhosted.org/packages/a8/03/8237bc57080eb8c431c39279b51f99ebc2dcde08737545855dffe28baf4d/ghidrecomp-0.3.2.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [nano-local]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [nano-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nano_local-0.1.2.tar.gz tmp/nano_local-0.1.3.tar.gz --markdown 20230424/n/nano-local/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ghidrecomp]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [ghidrecomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghidrecomp-0.3.1.tar.gz tmp/ghidrecomp-0.3.2.tar.gz --markdown 20230424/g/ghidrecomp/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] INFO root fetch - processPackages [teneva]: Downloading https://files.pythonhosted.org/packages/b1/88/3b000cd4a56c24967885e089759a1ee17eb89e5227fe3308583f4da5821d/teneva-0.9.8.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/d9/e1/ec0ce9a950ac9707d81bc1a486900ff9ac030042f5ca3ecf557ea607a13f/dj_beatcloud-2.4.1b6.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.4.1b5.tar.gz tmp/dj_beatcloud-2.4.1b6.tar.gz --markdown 20230424/d/dj-beatcloud/2.4.1b5-2.4.1b6/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] INFO root fetch - processPackages [loop-step]: Downloading https://files.pythonhosted.org/packages/6e/59/b4f0af74bf5c9c98513c1a5e7f336c368dbfad0d20aa49596ff47c323912/loop_step-2023.4.24.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230424/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] INFO root fetch - processPackages [loop-step]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [loop-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loop_step-2023.2.15.tar.gz tmp/loop_step-2023.4.24.tar.gz --markdown 20230424/l/loop-step/2023.2.15-2023.4.24/diff.md --exclude *.pyd
+[2023-04-24 21:55:03] INFO root fetch - processPackages [teneva]: Downloading https://files.pythonhosted.org/packages/c7/6d/123ed8c74595fe37b18c943aace6fe0d4f69177a8727d0628081538a13e2/teneva-0.9.9.tar.gz
+[2023-04-24 21:55:03] INFO root fetch - processPackages [teneva]: executing diffoscope
+[2023-04-24 21:55:03] INFO root fetch - processPackages [teneva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva-0.9.8.tar.gz tmp/teneva-0.9.9.tar.gz --markdown 20230424/t/teneva/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 21:55:04] INFO root fetch - main [MainThread]: End processing [nano-local]: success
+[2023-04-24 21:55:04] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-24 21:55:04] INFO root fetch - main [MainThread]: End processing [ghidrecomp]: success
+[2023-04-24 21:55:04] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-04-24 21:55:05] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-04-24 21:55:05] INFO root fetch - main [MainThread]: End processing [loop-step]: success
+[2023-04-24 21:55:05] INFO root fetch - main [MainThread]: End processing [yascheduler]: success
+[2023-04-24 21:55:05] INFO root fetch - main [MainThread]: End processing [teneva]: success
+[2023-04-24 21:55:05] INFO root fetch - main [MainThread]: Store serial: [17838854]
