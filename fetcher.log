@@ -19537,3 +19537,228 @@
 [2023-04-24 20:01:00] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
 [2023-04-24 20:01:00] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
 [2023-04-24 20:01:00] INFO root fetch - main [MainThread]: Store serial: [17837591]
+[2023-04-24 20:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837591]
+[2023-04-24 20:06:09] INFO root fetch - main [MainThread]: Found 40 changed packages
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poc-poetry-partifact-plugin
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-rest-serializer-field-permissions
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luhn-validator
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: madblog
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pursuitlib-django
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfaust
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfaust-openblaso
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfaust-torch
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-04-24 20:06:09] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 20:06:09] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.3] Old Version: [3.38.2]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [luhn-validator]: New version: [1.2.0.post1] Old Version: [1.2.0]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pursuitlib-django]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [django-rest-serializer-field-permissions]: New version: [4.1.0rc1] Old Version: [4.0.0rc2]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.3] Old Version: [3.38.2]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-24 20:06:10] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230424/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [luhn-validator]: Downloading https://files.pythonhosted.org/packages/b9/d6/6434337fa20f171a7cd99ea769786f8a5d4b8902e6b3b812123e39ff835c/luhn-validator-1.2.0.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/fe/d2/6ae04a7a283924825bca458170111723cc1b3ed6c9fcb9f2f6ee5194f1bf/pyfaust_openblaso-3.38.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-24 20:06:10] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/ed/b3/2c5a42942bc6ea230ecddff4c9ebdb21887926eab799eac2ae2f7a4a9a6b/madblog-0.2.8.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/35/8d/a61e320ee17d8e9bbdf2b3592f7cabd0a9f02f8750767b5a988d10d65b58/pyfaust_torch-3.38.2-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pursuitlib-django]: Downloading https://files.pythonhosted.org/packages/4c/b9/e76651d14dd4c2a7f0c1d843cd464cc43d8c00bce6bb04bb7e3e34eca28f/pursuitlib-django-0.3.0.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [django-rest-serializer-field-permissions]: Downloading https://files.pythonhosted.org/packages/22/2b/ca54edf794132319b6e045c257d6bc1444ec54b92aa69b1f3ad1691ebb2e/django-rest-serializer-field-permissions-4.0.0rc2.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-04-24 20:06:10] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-04-24 20:06:10] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.8.0.tar.gz tmp/poc_poetry_partifact_plugin-0.9.0.tar.gz --markdown 20230424/p/poc-poetry-partifact-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 20:06:10] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 21929088>=10485760
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: coiled
+[2023-04-24 20:06:10] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-04-24 20:06:10] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-24 20:06:10] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-24 20:06:10] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230424/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-24 20:06:10] INFO root fetch - processPackages [luhn-validator]: Downloading https://files.pythonhosted.org/packages/a8/2b/09a69211ea8d70ed5facd8d1131fc38405464ae0e110c6fd3096afdeead1/luhn-validator-1.2.0.post1.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-24 20:06:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230424/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:10] INFO root fetch - processPackages [django-rest-serializer-field-permissions]: Downloading https://files.pythonhosted.org/packages/8c/20/3cd420b686cbf353fb93ba91e635378b5be54cd94cc448751fdb082f997e/django-rest-serializer-field-permissions-4.1.0rc1.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [luhn-validator]: executing diffoscope
+[2023-04-24 20:06:10] INFO root fetch - processPackages [luhn-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luhn-validator-1.2.0.tar.gz tmp/luhn-validator-1.2.0.post1.tar.gz --markdown 20230424/l/luhn-validator/1.2.0-1.2.0.post1/diff.md --exclude *.pyd
+[2023-04-24 20:06:10] INFO root fetch - processPackages [django-rest-serializer-field-permissions]: executing diffoscope
+[2023-04-24 20:06:10] INFO root fetch - processPackages [django-rest-serializer-field-permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-rest-serializer-field-permissions-4.0.0rc2.tar.gz tmp/django-rest-serializer-field-permissions-4.1.0rc1.tar.gz --markdown 20230424/d/django-rest-serializer-field-permissions/4.0.0rc2-4.1.0rc1/diff.md --exclude *.pyd
+[2023-04-24 20:06:10] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/04/1d/afedf727ff86588e120b14288d3e4d4b69c63b58c662ea13511f25738baa/madblog-0.2.9.tar.gz
+[2023-04-24 20:06:10] INFO root fetch - processPackages [pursuitlib-django]: Downloading https://files.pythonhosted.org/packages/78/40/5c4f24c47a8e7291904ceb67f76aae23f030eefdf417598ffd8db805e27c/pursuitlib-django-0.3.1.tar.gz
+[2023-04-24 20:06:11] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2023-04-24 20:06:11] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20230424/m/madblog/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-24 20:06:11] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/69/34/846c161864aea6b4f387d160d6ce2bf9151d17ab89d8453ecbb49f139c5b/pyfaust_torch-3.38.3-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-24 20:06:11] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Start processing: large-image
+[2023-04-24 20:06:11] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-04-24 20:06:11] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:11] INFO root fetch - processPackages [pursuitlib-django]: executing diffoscope
+[2023-04-24 20:06:11] INFO root fetch - processPackages [pursuitlib-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pursuitlib-django-0.3.0.tar.gz tmp/pursuitlib-django-0.3.1.tar.gz --markdown 20230424/p/pursuitlib-django/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-24 20:06:11] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-04-24 20:06:11] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:11] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-04-24 20:06:11] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.2-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.3-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230424/p/pyfaust-torch/3.38.2-3.38.3/diff.md --exclude *.pyd
+[2023-04-24 20:06:11] INFO root fetch - processPackages [luhn-validator]: Start processing: girder-large-image
+[2023-04-24 20:06:11] INFO root fetch - main [MainThread]: End processing [luhn-validator]: success
+[2023-04-24 20:06:12] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:12] INFO root fetch - processPackages [ramodels]: Start processing: living-figures
+[2023-04-24 20:06:12] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-24 20:06:12] INFO root fetch - processPackages [django-rest-serializer-field-permissions]: Start processing: girder-large-image-annotation
+[2023-04-24 20:06:12] INFO root fetch - main [MainThread]: End processing [django-rest-serializer-field-permissions]: success
+[2023-04-24 20:06:12] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-04-24 20:06:12] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230424/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:12] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:12] INFO root fetch - processPackages [living-figures]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 20:06:12] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-04-24 20:06:12] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230424/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:12] INFO root fetch - processPackages [living-figures]: Downloading https://files.pythonhosted.org/packages/b3/ae/37e8de7fb4f424838aa73d56fad717ad0aea8788005a937d4d65ada4f44d/living-figures-0.1.4.tar.gz
+[2023-04-24 20:06:12] INFO root fetch - processPackages [living-figures]: Downloading https://files.pythonhosted.org/packages/48/21/059dc3274bbe13c398914086c11232666ab549fedf71569ebd7b4d5822e9/living-figures-0.1.5.tar.gz
+[2023-04-24 20:06:12] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-04-24 20:06:12] INFO root fetch - processPackages [living-figures]: executing diffoscope
+[2023-04-24 20:06:12] INFO root fetch - processPackages [living-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/living-figures-0.1.4.tar.gz tmp/living-figures-0.1.5.tar.gz --markdown 20230424/l/living-figures/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image]: Start processing: large-image-converter
+[2023-04-24 20:06:13] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:13] INFO root fetch - processPackages [girder-large-image]: Start processing: large-image-tasks
+[2023-04-24 20:06:13] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-04-24 20:06:13] INFO root fetch - processPackages [pyfaust-torch]: Start processing: semantic-kernel
+[2023-04-24 20:06:13] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:13] INFO root fetch - processPackages [girder-large-image-annotation]: Start processing: large-image-source-bioformats
+[2023-04-24 20:06:13] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:13] INFO root fetch - processPackages [semantic-kernel]: New version: [0.2.4.dev0] Old Version: [0.2.3.dev0]
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2023-04-24 20:06:13] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:13] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/b4/de/bd80eab274c73572912471dfb578b21410fedf3cbacc3686e429e4d5dc09/semantic_kernel-0.2.3.dev0.tar.gz
+[2023-04-24 20:06:14] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/26/09/e809b9937a73aab67b600da7fc272824d47d3afa4af0dbd791f2b9fd745d/semantic_kernel-0.2.4.dev0.tar.gz
+[2023-04-24 20:06:14] INFO root fetch - processPackages [madblog]: Start processing: large-image-source-deepzoom
+[2023-04-24 20:06:14] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2023-04-24 20:06:14] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.2.3.dev0.tar.gz tmp/semantic_kernel-0.2.4.dev0.tar.gz --markdown 20230424/s/semantic-kernel/0.2.3.dev0-0.2.4.dev0/diff.md --exclude *.pyd
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:14] INFO root fetch - processPackages [coiled]: Start processing: gokyuzu
+[2023-04-24 20:06:14] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:14] INFO root fetch - processPackages [gokyuzu]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-04-24 20:06:14] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: large-image-source-dicom
+[2023-04-24 20:06:14] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.20.6.dev7] Old Version: [1.20.6.dev5]
+[2023-04-24 20:06:14] INFO root fetch - processPackages [gokyuzu]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [gokyuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gokyuzu-1.0.1.tar.gz tmp/gokyuzu-2.0.0.tar.gz --markdown 20230424/g/gokyuzu/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-24 20:06:14] INFO root fetch - processPackages [living-figures]: Start processing: large-image-source-dummy
+[2023-04-24 20:06:14] INFO root fetch - main [MainThread]: End processing [living-figures]: success
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.20.6.dev5.tar.gz tmp/large-image-source-dicom-1.20.6.dev7.tar.gz --markdown 20230424/l/large-image-source-dicom/1.20.6.dev5-1.20.6.dev7/diff.md --exclude *.pyd
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-dummy]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-converter]: Start processing: large-image-source-gdal
+[2023-04-24 20:06:14] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-tasks]: Start processing: large-image-source-mapnik
+[2023-04-24 20:06:14] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-04-24 20:06:14] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230424/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-dummy]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dummy-1.9.1.dev6.tar.gz tmp/large-image-source-dummy-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-dummy/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2023-04-24 20:06:14] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-bioformats]: Start processing: large-image-source-multi
+[2023-04-24 20:06:15] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.20.6.dev7] Old Version: [1.20.6.dev5]
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.20.6.dev5.tar.gz tmp/large-image-source-multi-1.20.6.dev7.tar.gz --markdown 20230424/l/large-image-source-multi/1.20.6.dev5-1.20.6.dev7/diff.md --exclude *.pyd
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-deepzoom]: Start processing: large-image-source-nd2
+[2023-04-24 20:06:15] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2023-04-24 20:06:15] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-dicom]: Start processing: autobricks
+[2023-04-24 20:06:16] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:16] INFO root fetch - processPackages [autobricks]: New version: [0.2.0] Old Version: [0.1.5.dev3]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [autobricks]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [autobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobricks-0.1.5.dev3.tar.gz tmp/autobricks-0.2.0.tar.gz --markdown 20230424/a/autobricks/0.1.5.dev3-0.2.0/diff.md --exclude *.pyd
+[2023-04-24 20:06:16] INFO root fetch - processPackages [gokyuzu]: Start processing: large-image-source-ometiff
+[2023-04-24 20:06:16] INFO root fetch - main [MainThread]: End processing [gokyuzu]: success
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-dummy]: Start processing: large-image-source-openjpeg
+[2023-04-24 20:06:16] INFO root fetch - main [MainThread]: End processing [large-image-source-dummy]: success
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-mapnik]: Start processing: large-image-source-openslide
+[2023-04-24 20:06:16] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-gdal]: Start processing: large-image-source-pil
+[2023-04-24 20:06:16] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-multi]: Start processing: large-image-source-test
+[2023-04-24 20:06:16] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2023-04-24 20:06:16] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:17] INFO root fetch - processPackages [semantic-kernel]: Start processing: large-image-source-tiff
+[2023-04-24 20:06:17] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20230424/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: large-image-source-tifffile
+[2023-04-24 20:06:17] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.20.6.dev7] Old Version: [1.20.6.dev5]
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.20.6.dev5.tar.gz tmp/large-image-source-tifffile-1.20.6.dev7.tar.gz --markdown 20230424/l/large-image-source-tifffile/1.20.6.dev5-1.20.6.dev7/diff.md --exclude *.pyd
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: large-image-source-vips
+[2023-04-24 20:06:17] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-ometiff]: Start processing: ascend-io-test
+[2023-04-24 20:06:17] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2023-04-24 20:06:17] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.20.6.dev7] Old Version: [1.20.6.dev5]
+[2023-04-24 20:06:18] INFO root fetch - processPackages [ascend-io-test]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-24 20:06:18] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2023-04-24 20:06:18] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.20.6.dev5.tar.gz tmp/large-image-source-vips-1.20.6.dev7.tar.gz --markdown 20230424/l/large-image-source-vips/1.20.6.dev5-1.20.6.dev7/diff.md --exclude *.pyd
+[2023-04-24 20:06:18] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: hahomematic
+[2023-04-24 20:06:18] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2023-04-24 20:06:18] INFO root fetch - processPackages [ascend-io-test]: Downloading https://files.pythonhosted.org/packages/02/6c/1bbae83c6ac459712cb3be094405ac423f7382233add0816c1373d7e0f37/ascend_io_test-0.9.3.tar.gz
+[2023-04-24 20:06:18] INFO root fetch - processPackages [hahomematic]: New version: [2023.4.2] Old Version: [2023.4.0]
+[2023-04-24 20:06:18] INFO root fetch - processPackages [autobricks]: Start processing: luhn-validator
+[2023-04-24 20:06:18] INFO root fetch - main [MainThread]: End processing [autobricks]: success
+[2023-04-24 20:06:18] INFO root fetch - processPackages [luhn-validator]: New version: [1.2.0.post1] Old Version: [1.2.0]
+[2023-04-24 20:06:18] INFO root fetch - processPackages [large-image-source-pil]: Start processing: piperider-nightly
+[2023-04-24 20:06:18] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2023-04-24 20:06:18] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-04-24 20:06:18] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2023-04-24 20:06:18] INFO root fetch - processPackages [luhn-validator]: executing diffoscope
+[2023-04-24 20:06:18] INFO root fetch - processPackages [luhn-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luhn-validator-1.2.0.tar.gz tmp/luhn-validator-1.2.0.post1.tar.gz --markdown 20230424/l/luhn-validator/1.2.0-1.2.0.post1/diff.md --exclude *.pyd
+[2023-04-24 20:06:18] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-04-24 20:06:18] INFO root fetch - processPackages [ascend-io-test]: Downloading https://files.pythonhosted.org/packages/87/06/60ef45ec33abe1e939bc0a1ff42df9383dd56670a28d0caa8dc5911a8e2d/ascend_io_test-0.9.4.tar.gz
+[2023-04-24 20:06:18] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2023-04-24 20:06:18] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/11/1b/fe018b83d88abecc82a1711983f3c815ce576814fea3ddad1128968abbd2/hahomematic-2023.4.0.tar.gz
+[2023-04-24 20:06:18] INFO root fetch - processPackages [ascend-io-test]: executing diffoscope
+[2023-04-24 20:06:18] INFO root fetch - processPackages [ascend-io-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_io_test-0.9.3.tar.gz tmp/ascend_io_test-0.9.4.tar.gz --markdown 20230424/a/ascend-io-test/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-24 20:06:18] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/8b/9e/69b5f216504b3a46163ae2ce903401618f68a19b7be64ccb89166787f573/hahomematic-2023.4.2.tar.gz
+[2023-04-24 20:06:18] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2023-04-24 20:06:19] INFO root fetch - main [MainThread]: End processing [pursuitlib-django]: success
+[2023-04-24 20:06:19] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-04-24 20:06:19] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.4.0.tar.gz tmp/hahomematic-2023.4.2.tar.gz --markdown 20230424/h/hahomematic/2023.4.0-2023.4.2/diff.md --exclude *.pyd
+[2023-04-24 20:06:19] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2023-04-24 20:06:19] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-04-24 20:06:19] INFO root fetch - main [MainThread]: End processing [luhn-validator]: success
+[2023-04-24 20:06:20] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-04-24 20:06:20] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230424/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-04-24 20:06:20] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-04-24 20:06:22] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-04-24 20:06:33] INFO root fetch - main [MainThread]: End processing [ascend-io-test]: success
+[2023-04-24 20:06:52] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-04-24 20:06:52] INFO root fetch - main [MainThread]: Store serial: [17837714]
