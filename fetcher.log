@@ -20700,3 +20700,113 @@
 [2023-04-24 21:06:52] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-04-24 21:07:04] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
 [2023-04-24 21:07:04] INFO root fetch - main [MainThread]: Store serial: [17838465]
+[2023-04-24 21:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17838465]
+[2023-04-24 21:12:14] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-bank-python
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terka
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terka
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttk-custom-msgbox
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skeleton-plot
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bacteria
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flow-py-sdk-legacy
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robocorp-log
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ontobio
+[2023-04-24 21:12:14] WARNING root fetch - processPackages [ttk-custom-msgbox]: Skipping, unable to determine old version
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ttk-custom-msgbox]: Start processing: nimblephysics
+[2023-04-24 21:12:14] INFO root fetch - processPackages [robocorp-log]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-04-24 21:12:14] INFO root fetch - main [MainThread]: End processing [ttk-custom-msgbox] error
+[2023-04-24 21:12:14] INFO root fetch - processPackages [terka]: New version: [1.6.4.9] Old Version: [1.6.4.8]
+[2023-04-24 21:12:14] INFO root fetch - processPackages [terka]: New version: [1.6.4.9] Old Version: [1.6.4.8]
+[2023-04-24 21:12:14] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 21:12:14] WARNING root fetch - processPackages [skeleton-plot]: Skipping, unable to determine old version
+[2023-04-24 21:12:14] INFO root fetch - processPackages [skeleton-plot]: Start processing: snowflake-cli-labs
+[2023-04-24 21:12:14] INFO root fetch - processPackages [flow-py-sdk-legacy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-24 21:12:14] INFO root fetch - main [MainThread]: End processing [skeleton-plot] error
+[2023-04-24 21:12:14] INFO root fetch - processPackages [bacteria]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-24 21:12:14] INFO root fetch - processPackages [ontobio]: New version: [2.8.5] Old Version: [2.8.4]
+[2023-04-24 21:12:14] INFO root fetch - processPackages [nimblephysics]: New version: [0.8.94] Old Version: [0.8.93]
+[2023-04-24 21:12:14] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-24 21:12:14] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/01/de/379bf2844c35306142dbd55dd4634149c6f7ad800bdf8c04334f1e874c83/terka-1.6.4.8.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/01/de/379bf2844c35306142dbd55dd4634149c6f7ad800bdf8c04334f1e874c83/terka-1.6.4.8.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/cc/9c/a7b90986d5ee16d4b9d4296ba4a55143eee8d3e78a8dd2cb6f84e698dd95/robocorp_log-0.0.11.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [flow-py-sdk-legacy]: Downloading https://files.pythonhosted.org/packages/83/89/1035a522bdf3cebb31152b5421c1d67d779355f22f349d7d3d9d87f6dd36/flow_py_sdk_legacy-1.1.3.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [ontobio]: Downloading https://files.pythonhosted.org/packages/8e/b6/6d5441864c27ed38c5e6c51fa77515be74d5054ca89bf2d66df0ee12415e/ontobio-2.8.4.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/a1/69/ed079ec39b5396cf12379fecb932ef19aae3e012df7bc82f5a0985c5480f/nimblephysics-0.8.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-24 21:12:15] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/f0/6a/54c9d087bb036a288ceac280e820d63175436ba44d7194ee613f062f3c57/snowflake_cli_labs-0.2.7.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/be/3d/c569d5a64206be77ede3d494fd944be082931a332d4b5d44e61100731a24/bacteria-0.1.4.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230424/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [flow-py-sdk-legacy]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [flow-py-sdk-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_py_sdk_legacy-1.1.2.tar.gz tmp/flow_py_sdk_legacy-1.1.3.tar.gz --markdown 20230424/f/flow-py-sdk-legacy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230424/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/55/0c/6ce3d3618a82482aaf7f2223c2faa2cc8d399da15fbe3a5bc04d6ca9acd8/terka-1.6.4.9.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/55/0c/6ce3d3618a82482aaf7f2223c2faa2cc8d399da15fbe3a5bc04d6ca9acd8/terka-1.6.4.9.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [ontobio]: Downloading https://files.pythonhosted.org/packages/33/98/64c5b9e507624bca8db8b2ca2a659e01e25922305003fd300e1f6af1c4df/ontobio-2.8.5.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/20/fc/5805f5d16ff38c9630ed189e0b98a7d606ceaff2a81eef697675e08ad7a3/robocorp_log-0.0.12.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [bacteria]: Downloading https://files.pythonhosted.org/packages/ea/ba/eb0413db914203238bb237780a0363707823d2482114c62052c721062d03/bacteria-0.1.5.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/22/62/debbc9bfa1c39f90395e1e7bf2c5fbc1a7a1750f1c709403595b9759022c/snowflake_cli_labs-0.2.8.tar.gz
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.4.8.tar.gz tmp/terka-1.6.4.9.tar.gz --markdown 20230424/t/terka/1.6.4.8-1.6.4.9/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.4.8.tar.gz tmp/terka-1.6.4.9.tar.gz --markdown 20230424/t/terka/1.6.4.8-1.6.4.9/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [ontobio]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [ontobio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontobio-2.8.4.tar.gz tmp/ontobio-2.8.5.tar.gz --markdown 20230424/o/ontobio/2.8.4-2.8.5/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [robocorp-log]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [robocorp-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_log-0.0.11.tar.gz tmp/robocorp_log-0.0.12.tar.gz --markdown 20230424/r/robocorp-log/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [bacteria]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [bacteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacteria-0.1.4.tar.gz tmp/bacteria-0.1.5.tar.gz --markdown 20230424/b/bacteria/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2023-04-24 21:12:15] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-0.2.7.tar.gz tmp/snowflake_cli_labs-0.2.8.tar.gz --markdown 20230424/s/snowflake-cli-labs/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-24 21:12:15] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67414842>=10485760
+[2023-04-24 21:12:15] INFO root fetch - processPackages [nimblephysics]: Start processing: mote-gtest-gui
+[2023-04-24 21:12:15] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-04-24 21:12:15] INFO root fetch - processPackages [mote-gtest-gui]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-24 21:12:16] INFO root fetch - processPackages [mote-gtest-gui]: Downloading https://files.pythonhosted.org/packages/e9/32/d17f43f3b68bfc1ff3001b1c373fd1d082b34658d89c0bd072c16e7e87f1/mote-gtest-gui-0.8.0.tar.gz
+[2023-04-24 21:12:16] INFO root fetch - processPackages [mote-gtest-gui]: Downloading https://files.pythonhosted.org/packages/54/8d/74281228a32591a5a620ea351adc503f20e56afe56d8206f3f3366132e3f/mote-gtest-gui-0.8.1.tar.gz
+[2023-04-24 21:12:16] INFO root fetch - processPackages [mote-gtest-gui]: executing diffoscope
+[2023-04-24 21:12:16] INFO root fetch - processPackages [mote-gtest-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mote-gtest-gui-0.8.0.tar.gz tmp/mote-gtest-gui-0.8.1.tar.gz --markdown 20230424/m/mote-gtest-gui/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-24 21:12:16] INFO root fetch - processPackages [flow-py-sdk-legacy]: Start processing: oma-helen-cli
+[2023-04-24 21:12:16] INFO root fetch - main [MainThread]: End processing [flow-py-sdk-legacy]: success
+[2023-04-24 21:12:17] INFO root fetch - processPackages [oma-helen-cli]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-24 21:12:17] INFO root fetch - processPackages [terka]: Start processing: anyscale
+[2023-04-24 21:12:17] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-24 21:12:17] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-04-24 21:12:17] INFO root fetch - processPackages [oma-helen-cli]: Downloading https://files.pythonhosted.org/packages/67/19/a456541c395352c5a8ff575006ee6f3e50cb3c18725be4dcc1c1e3d14a99/oma-helen-cli-1.0.2.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - processPackages [robocorp-log]: Start processing: sesg
+[2023-04-24 21:12:17] INFO root fetch - main [MainThread]: End processing [robocorp-log]: success
+[2023-04-24 21:12:17] INFO root fetch - processPackages [bacteria]: Start processing: JUtils
+[2023-04-24 21:12:17] INFO root fetch - main [MainThread]: End processing [bacteria]: success
+[2023-04-24 21:12:17] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 21:12:17] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - processPackages [JUtils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 21:12:17] INFO root fetch - processPackages [snowflake-cli-labs]: Start processing: bytecli
+[2023-04-24 21:12:17] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2023-04-24 21:12:17] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - processPackages [oma-helen-cli]: Downloading https://files.pythonhosted.org/packages/4c/4b/4037cb41b1ebf897db6b470de6ae3a925979c43e03f7dee04e92ab595e5b/oma-helen-cli-1.0.3.tar.gz
+[2023-04-24 21:12:17] WARNING root fetch - processPackages [bytecli]: Skipping, unable to determine old version
+[2023-04-24 21:12:17] INFO root fetch - main [MainThread]: End processing [bytecli] error
+[2023-04-24 21:12:17] INFO root fetch - processPackages [JUtils]: Downloading https://files.pythonhosted.org/packages/a1/11/2bbe1e3964828efc7713c654321a2f8ca9d3c6a2118e08e768c7a9149296/JUtils-0.0.8.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-24 21:12:17] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - processPackages [oma-helen-cli]: executing diffoscope
+[2023-04-24 21:12:17] INFO root fetch - processPackages [oma-helen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oma-helen-cli-1.0.2.tar.gz tmp/oma-helen-cli-1.0.3.tar.gz --markdown 20230424/o/oma-helen-cli/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-24 21:12:17] INFO root fetch - processPackages [JUtils]: Downloading https://files.pythonhosted.org/packages/06/25/7ad5993412f40955d499ada2548e81f1e629a0f45596b4cdf4d942479ec2/JUtils-0.0.9.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-04-24 21:12:17] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-04-24 21:12:17] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230424/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-04-24 21:12:17] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-24 21:12:17] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230424/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 21:12:18] INFO root fetch - processPackages [JUtils]: executing diffoscope
+[2023-04-24 21:12:18] INFO root fetch - processPackages [JUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JUtils-0.0.8.tar.gz tmp/JUtils-0.0.9.tar.gz --markdown 20230424/J/JUtils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 21:12:18] INFO root fetch - main [MainThread]: End processing [ontobio]: success
+[2023-04-24 21:12:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-24 21:12:19] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-24 21:12:19] INFO root fetch - main [MainThread]: End processing [oma-helen-cli]: success
+[2023-04-24 21:12:19] INFO root fetch - main [MainThread]: End processing [JUtils]: success
+[2023-04-24 21:12:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-24 21:12:20] INFO root fetch - main [MainThread]: End processing [mote-gtest-gui]: success
+[2023-04-24 21:12:27] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-04-24 21:12:27] INFO root fetch - main [MainThread]: Store serial: [17838525]
