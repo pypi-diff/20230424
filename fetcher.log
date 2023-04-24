@@ -2028,3 +2028,88 @@
 [2023-04-24 03:31:42] INFO root fetch - main [MainThread]: End processing [PyKagi]: success
 [2023-04-24 03:31:44] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-04-24 03:31:44] INFO root fetch - main [MainThread]: Store serial: [17827442]
+[2023-04-24 03:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17827442]
+[2023-04-24 03:36:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intelliw
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigraph-schema
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fstflowchat
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyKagi
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptop
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vinnieshell
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genotations
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fedbase
+[2023-04-24 03:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sitcom
+[2023-04-24 03:36:53] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [gptop]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-24 03:36:53] WARNING root fetch - processPackages [fstflowchat]: Skipping, unable to determine old version
+[2023-04-24 03:36:53] INFO root fetch - processPackages [fstflowchat]: Start processing: nbdev-numpy
+[2023-04-24 03:36:53] WARNING root fetch - processPackages [vinnieshell]: Skipping, unable to determine old version
+[2023-04-24 03:36:53] INFO root fetch - processPackages [genotations]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-24 03:36:53] INFO root fetch - main [MainThread]: End processing [fstflowchat] error
+[2023-04-24 03:36:53] INFO root fetch - processPackages [intelliw]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [sitcom]: New version: [1.3.0] Old Version: [1.0.2]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [vinnieshell]: Start processing: PySide2-Fluent-Widgets
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PyKagi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-24 03:36:53] INFO root fetch - main [MainThread]: End processing [vinnieshell] error
+[2023-04-24 03:36:53] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [fedbase]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 03:36:53] INFO root fetch - processPackages [gptop]: Downloading https://files.pythonhosted.org/packages/4a/0d/5fd1a72cda169d90635eb277c593ee95434e1e921fb318ed238e76c74189/gptop-0.0.1.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-24 03:36:53] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230424/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:36:53] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-24 03:36:53] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230424/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:36:53] INFO root fetch - processPackages [fedbase]: Downloading https://files.pythonhosted.org/packages/20/d2/e93f9541b63eaf9d9d6c652f755610c31b5fbadfb705edc2956db394f6af/fedbase-0.9.6.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [genotations]: Downloading https://files.pythonhosted.org/packages/6c/bf/aa3d6090a8a8a8428b39ba46b13af7807deb70de1f2a3cfd21f13a82d952/genotations-0.1.5.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/1e/86/4acbcf24b249a653f4856585f74820011d222b6bace7670b8f8ae0895fd1/sitcom-1.3.0.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PyKagi]: Downloading https://files.pythonhosted.org/packages/14/72/a82683db90d408222759f7d2a31a3b2fad56b27a344aceedfc5a4a9b86a9/PyKagi-0.0.3.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/93/61/27077f0c7bc6ebb33616f86fd85aed94c9e70207d87e8c0f90d9c3c777bb/bigraph-schema-0.0.6.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/48/7c/540426aad9a90504172f9eb173f4c1ab5bb7283b3b7e3eb22057a6e96162/PySide2-Fluent-Widgets-0.7.5.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [fedbase]: Downloading https://files.pythonhosted.org/packages/63/40/56a685a6490a6677873168ca4163b25c66bb51be92997b404157b605fe5f/fedbase-0.9.7.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2023-04-24 03:36:53] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-1.2.8-py3-none-any.whl.zip tmp/intelliw-1.2.9-py3-none-any.whl.zip --markdown 20230424/i/intelliw/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PyKagi]: executing diffoscope
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PyKagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyKagi-0.0.2.tar.gz tmp/PyKagi-0.0.3.tar.gz --markdown 20230424/P/PyKagi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-24 03:36:53] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-04-24 03:36:53] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.5.tar.gz tmp/bigraph-schema-0.0.6.tar.gz --markdown 20230424/b/bigraph-schema/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-24 03:36:53] INFO root fetch - processPackages [gptop]: Downloading https://files.pythonhosted.org/packages/26/3d/fd6c5e2bc299293d365d1c3e938c57f1c26cbaa4858b15d4c1f0882041c9/gptop-0.0.2.tar.gz
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-04-24 03:36:53] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.7.4.tar.gz tmp/PySide2-Fluent-Widgets-0.7.5.tar.gz --markdown 20230424/P/PySide2-Fluent-Widgets/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-24 03:36:53] INFO root fetch - processPackages [genotations]: Downloading https://files.pythonhosted.org/packages/03/9b/03d93ea05b119b96bbc3ce8d075b4457aedf5f0722bcb4f2c0e2788992d9/genotations-0.1.6.tar.gz
+[2023-04-24 03:36:54] INFO root fetch - processPackages [fedbase]: executing diffoscope
+[2023-04-24 03:36:54] INFO root fetch - processPackages [fedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedbase-0.9.6.tar.gz tmp/fedbase-0.9.7.tar.gz --markdown 20230424/f/fedbase/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-24 03:36:54] INFO root fetch - processPackages [gptop]: executing diffoscope
+[2023-04-24 03:36:54] INFO root fetch - processPackages [gptop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptop-0.0.1.tar.gz tmp/gptop-0.0.2.tar.gz --markdown 20230424/g/gptop/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-24 03:36:54] INFO root fetch - processPackages [genotations]: executing diffoscope
+[2023-04-24 03:36:54] INFO root fetch - processPackages [genotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genotations-0.1.5.tar.gz tmp/genotations-0.1.6.tar.gz --markdown 20230424/g/genotations/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-24 03:36:54] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: fastapi-class
+[2023-04-24 03:36:54] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-24 03:36:55] INFO root fetch - processPackages [fastapi-class]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-04-24 03:36:55] INFO root fetch - processPackages [PyKagi]: Start processing: realnet
+[2023-04-24 03:36:55] INFO root fetch - main [MainThread]: End processing [PyKagi]: success
+[2023-04-24 03:36:55] INFO root fetch - processPackages [realnet]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-04-24 03:36:55] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-04-24 03:36:55] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.9.tar.gz tmp/realnet-0.0.90.tar.gz --markdown 20230424/r/realnet/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-04-24 03:36:55] INFO root fetch - processPackages [bigraph-schema]: Start processing: nbdev-pandas
+[2023-04-24 03:36:55] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-04-24 03:36:55] INFO root fetch - processPackages [fastapi-class]: Downloading https://files.pythonhosted.org/packages/0d/53/004f9d789a6eda63715560f41bde73400201fa45cb1a3ee4687280ac76bc/fastapi_class-3.3.0.tar.gz
+[2023-04-24 03:36:55] INFO root fetch - processPackages [fastapi-class]: executing diffoscope
+[2023-04-24 03:36:55] INFO root fetch - processPackages [fastapi-class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_class-3.2.0.tar.gz tmp/fastapi_class-3.3.0.tar.gz --markdown 20230424/f/fastapi-class/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-04-24 03:36:55] INFO root fetch - processPackages [sitcom]: executing diffoscope
+[2023-04-24 03:36:55] INFO root fetch - processPackages [sitcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitcom-1.0.2.tar.gz tmp/sitcom-1.3.0.tar.gz --markdown 20230424/s/sitcom/1.0.2-1.3.0/diff.md --exclude *.pyd
+[2023-04-24 03:36:55] INFO root fetch - main [MainThread]: End processing [gptop]: success
+[2023-04-24 03:36:56] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-24 03:36:56] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2023-04-24 03:36:56] INFO root fetch - main [MainThread]: End processing [genotations]: success
+[2023-04-24 03:36:56] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-24 03:36:56] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230424/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-24 03:36:56] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-24 03:36:56] INFO root fetch - main [MainThread]: End processing [fedbase]: success
+[2023-04-24 03:36:56] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-04-24 03:36:56] INFO root fetch - main [MainThread]: End processing [fastapi-class]: success
+[2023-04-24 03:36:57] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-04-24 03:36:57] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-24 03:36:57] INFO root fetch - main [MainThread]: End processing [sitcom]: success
+[2023-04-24 03:36:57] INFO root fetch - main [MainThread]: Store serial: [17827485]
