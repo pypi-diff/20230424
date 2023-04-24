@@ -6410,3 +6410,71 @@
 [2023-04-24 09:08:18] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-04-24 09:08:19] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2023-04-24 09:08:19] INFO root fetch - main [MainThread]: Store serial: [17829984]
+[2023-04-24 09:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17829984]
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-index
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvisp-demo
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaen-mod
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seven-cloudapp-frame
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zicheng
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apify
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvisp
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Alpha-Rabbit
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ifs-common
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [cvisp-demo]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] INFO root fetch - processPackages [cvisp-demo]: Start processing: pychunkbuffers
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [cvisp-demo] error
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [zicheng]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] INFO root fetch - processPackages [zicheng]: Start processing: csvthd
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [zicheng] error
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ifs-common]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [jaen-mod]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [cvisp]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] INFO root fetch - processPackages [jaen-mod]: Start processing: tf-hub-nightly
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [jaen-mod] error
+[2023-04-24 09:13:28] INFO root fetch - processPackages [cvisp]: Start processing: socscikit
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [cvisp] error
+[2023-04-24 09:13:28] INFO root fetch - processPackages [apify]: New version: [1.1.0b5] Old Version: [1.1.0b4]
+[2023-04-24 09:13:28] INFO root fetch - processPackages [gpt-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-24 09:13:28] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [socscikit]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] INFO root fetch - processPackages [socscikit]: Start processing: streamlit-nightly
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [socscikit] error
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [pychunkbuffers]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] WARNING root fetch - processPackages [csvthd]: Skipping, unable to determine old version
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [pychunkbuffers] error
+[2023-04-24 09:13:28] INFO root fetch - main [MainThread]: End processing [csvthd] error
+[2023-04-24 09:13:28] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-24 09:13:28] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-24 09:13:28] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-04-24 09:13:28] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-04-24 09:13:28] INFO root fetch - processPackages [ifs-common]: Downloading https://files.pythonhosted.org/packages/13/92/21e1ffc3650509e9666a5158a85bd945100a24d4a932d5061e9b33aba7b5/ifs_common-0.1.0.tar.gz
+[2023-04-24 09:13:28] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-04-24 09:13:28] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230424/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-24 09:13:28] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-04-24 09:13:28] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230424/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-04-24 09:13:28] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-04-24 09:13:28] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230424/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-04-24 09:13:29] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/44/13/d3c25615e6be7d1d7aca84330abe751c05444a28fb5a10dee26e7942e403/apify-1.1.0b4.tar.gz
+[2023-04-24 09:13:29] INFO root fetch - processPackages [ifs-common]: Downloading https://files.pythonhosted.org/packages/08/3d/078f511edf37c51c32e3a03143488cee0f05f69e2376ad71a0a44d1938a1/ifs_common-0.1.1.tar.gz
+[2023-04-24 09:13:29] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-04-24 09:13:29] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.5.8.tar.gz tmp/gpt_index-0.5.9.tar.gz --markdown 20230424/g/gpt-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-24 09:13:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-24 09:13:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230424/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-24 09:13:29] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-24 09:13:29] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230424/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-24 09:13:29] INFO root fetch - processPackages [ifs-common]: executing diffoscope
+[2023-04-24 09:13:29] INFO root fetch - processPackages [ifs-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifs_common-0.1.0.tar.gz tmp/ifs_common-0.1.1.tar.gz --markdown 20230424/i/ifs-common/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-24 09:13:29] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/9c/a1/4304ed6a203cd75bca484aac056753c333fce59d10de280b4c6bfb4d00a4/apify-1.1.0b5.tar.gz
+[2023-04-24 09:13:29] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-04-24 09:13:29] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.0b4.tar.gz tmp/apify-1.1.0b5.tar.gz --markdown 20230424/a/apify/1.1.0b4-1.1.0b5/diff.md --exclude *.pyd
+[2023-04-24 09:13:30] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-04-24 09:13:30] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-04-24 09:13:30] INFO root fetch - main [MainThread]: End processing [ifs-common]: success
+[2023-04-24 09:13:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-24 09:13:31] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-04-24 09:13:31] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-24 09:13:32] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-04-24 09:13:39] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-04-24 09:13:39] INFO root fetch - main [MainThread]: Store serial: [17830042]
