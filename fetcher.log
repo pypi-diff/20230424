@@ -19236,3 +19236,102 @@
 [2023-04-24 19:37:08] INFO root fetch - main [MainThread]: End processing [arraykit]: success
 [2023-04-24 19:37:09] INFO root fetch - main [MainThread]: End processing [xtest-sapnwrfc]: success
 [2023-04-24 19:37:09] INFO root fetch - main [MainThread]: Store serial: [17837421]
+[2023-04-24 19:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17837421]
+[2023-04-24 19:42:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labgrid
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: td-ml-autosegmentation
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rottentomatoes-python
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pluthon
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: questdb-connect
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poc-poetry-partifact-plugin
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spectacles
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssenv
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tksheet
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: govtech-data
+[2023-04-24 19:42:18] INFO root fetch - processPackages [pluthon]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [labgrid]: New version: [23.0b2] Old Version: [23.0]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [tksheet]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ssenv]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [td-ml-autosegmentation]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [rottentomatoes-python]: New version: [0.5.2] Old Version: [0.5.15]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [spectacles]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-24 19:42:18] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-04-24 19:42:18] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230424/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-24 19:42:18] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/92/8b/de5b08e10761fc855048eae8888b20b830d5fd0a9515585e90aa75ee6b92/labgrid-23.0.tar.gz
+[2023-04-24 19:42:18] INFO root fetch - processPackages [rottentomatoes-python]: Downloading https://files.pythonhosted.org/packages/59/29/67fff0b4e946e5ec5547a6fc80a10db44b2386a77de645c7604161781950/rottentomatoes-python-0.5.15.tar.gz
+[2023-04-24 19:42:18] INFO root fetch - processPackages [ssenv]: Downloading https://files.pythonhosted.org/packages/30/05/3427c00511793a21f48f7bb682cd201e166266b122050a4a5ca2c7fd2a74/ssenv-1.0.0.tar.gz
+[2023-04-24 19:42:18] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Downloading https://files.pythonhosted.org/packages/33/ae/881f8f8cb87fb95ca4d39c70018dcd7268b9d27c58027a5a9b7df828b54c/poc_poetry_partifact_plugin-0.8.0.tar.gz
+[2023-04-24 19:42:18] INFO root fetch - processPackages [td-ml-autosegmentation]: Downloading https://files.pythonhosted.org/packages/44/1d/14fdda68e0f6ad66e956f741065ed793de0cfb94ff54f16d02d422b5f5f9/td_ml_autosegmentation-1.0.8.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/88/ae/14c0107d754b84d06ee78c08d088e4ae5aa8a4ad7a791cfae05f9eb91f16/pluthon-0.3.5.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [spectacles]: Downloading https://files.pythonhosted.org/packages/2f/67/ed8cf855f28d37ba8b394b34fc56131f11736d51665f4e3c875713683172/spectacles-2.3.8.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [rottentomatoes-python]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [rottentomatoes-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rottentomatoes-python-0.5.15.tar.gz tmp/rottentomatoes-python-0.5.2.tar.gz --markdown 20230424/r/rottentomatoes-python/0.5.15-0.5.2/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/80/62/8e25ec21aefd6c417647b6a037b1173d47803265d209ba70537650a8add6/tksheet-6.0.1.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/11/db/15a1faecd8347b90a1bd3612f524d3e6cdfb7b4e5408fd0ec19ed9e31344/questdb-connect-0.0.9.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [ssenv]: Downloading https://files.pythonhosted.org/packages/18/8c/77f8c8ba4898407cf22214377030d5cced1c249253435fda7286540a7275/ssenv-1.0.1.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/7f/48/0e1708c3fc0bd47bbc61a82cb127e5016304e9d24909add08b3ef9e31570/pluthon-0.3.6.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [td-ml-autosegmentation]: Downloading https://files.pythonhosted.org/packages/3c/c5/5f9022627858ad9b999726c077905d0047b627ba7f581d39931f78b8920d/td_ml_autosegmentation-1.0.9.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-6.0.0.tar.gz tmp/tksheet-6.0.1.tar.gz --markdown 20230424/t/tksheet/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Downloading https://files.pythonhosted.org/packages/d8/48/437467e86c9cf02bede51716f8ede4f0e2a17d976657a072ba3e7df533f6/poc_poetry_partifact_plugin-0.9.0.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/a1/3c/9f2d2649e8385e77faa23d40cfec712d842cb71fdbdefc9a826885380d0a/labgrid-23.0b2.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.8.tar.gz tmp/questdb-connect-0.0.9.tar.gz --markdown 20230424/q/questdb-connect/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [pluthon]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [pluthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluthon-0.3.5.tar.gz tmp/pluthon-0.3.6.tar.gz --markdown 20230424/p/pluthon/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.8.0.tar.gz tmp/poc_poetry_partifact_plugin-0.9.0.tar.gz --markdown 20230424/p/poc-poetry-partifact-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [ssenv]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [ssenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssenv-1.0.0.tar.gz tmp/ssenv-1.0.1.tar.gz --markdown 20230424/s/ssenv/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [td-ml-autosegmentation]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [td-ml-autosegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_autosegmentation-1.0.8.tar.gz tmp/td_ml_autosegmentation-1.0.9.tar.gz --markdown 20230424/t/td-ml-autosegmentation/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [spectacles]: Downloading https://files.pythonhosted.org/packages/dc/c9/b5fde5206eb0e93a4fbe796a12830172fbb6211658aad9bfa1fb0b8e48bc/spectacles-2.3.9.tar.gz
+[2023-04-24 19:42:19] INFO root fetch - processPackages [labgrid]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [labgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labgrid-23.0.tar.gz tmp/labgrid-23.0b2.tar.gz --markdown 20230424/l/labgrid/23.0-23.0b2/diff.md --exclude *.pyd
+[2023-04-24 19:42:19] INFO root fetch - processPackages [spectacles]: executing diffoscope
+[2023-04-24 19:42:19] INFO root fetch - processPackages [spectacles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacles-2.3.8.tar.gz tmp/spectacles-2.3.9.tar.gz --markdown 20230424/s/spectacles/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-24 19:42:20] INFO root fetch - processPackages [govtech-data]: Start processing: openziti
+[2023-04-24 19:42:20] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-04-24 19:42:20] INFO root fetch - processPackages [openziti]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-04-24 19:42:20] INFO root fetch - processPackages [openziti]: Downloading https://files.pythonhosted.org/packages/34/70/38424683f7dd0b720b81d703984fa79dcb0fa36f0da3b7699b0fc0da3105/openziti-0.7.6.tar.gz
+[2023-04-24 19:42:20] INFO root fetch - processPackages [openziti]: Downloading https://files.pythonhosted.org/packages/a9/9c/08ee19ff9bb4c1c5bbb94cf3fb41da3676c820e2d9578989e65136a015cb/openziti-0.7.7.tar.gz
+[2023-04-24 19:42:20] INFO root fetch - processPackages [questdb-connect]: Start processing: fmdt-python
+[2023-04-24 19:42:20] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-04-24 19:42:20] INFO root fetch - processPackages [rottentomatoes-python]: Start processing: octoml-profile
+[2023-04-24 19:42:20] INFO root fetch - main [MainThread]: End processing [rottentomatoes-python]: success
+[2023-04-24 19:42:20] INFO root fetch - processPackages [fmdt-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-24 19:42:20] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Start processing: pygame-json-ui
+[2023-04-24 19:42:20] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-04-24 19:42:20] INFO root fetch - processPackages [octoml-profile]: New version: [0.2.2rc1] Old Version: [0.2.2]
+[2023-04-24 19:42:20] INFO root fetch - processPackages [openziti]: executing diffoscope
+[2023-04-24 19:42:20] INFO root fetch - processPackages [openziti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openziti-0.7.6.tar.gz tmp/openziti-0.7.7.tar.gz --markdown 20230424/o/openziti/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-04-24 19:42:20] INFO root fetch - processPackages [pygame-json-ui]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-04-24 19:42:21] INFO root fetch - processPackages [td-ml-autosegmentation]: Start processing: pyrubi
+[2023-04-24 19:42:21] INFO root fetch - main [MainThread]: End processing [td-ml-autosegmentation]: success
+[2023-04-24 19:42:21] INFO root fetch - processPackages [octoml-profile]: Downloading https://files.pythonhosted.org/packages/69/ab/55d8af9d67b065166e4e9f53ab828aeecb47d6d8ea0d75b9baf7796cb4e8/octoml_profile-0.2.2.tar.gz
+[2023-04-24 19:42:21] INFO root fetch - main [MainThread]: End processing [pluthon]: success
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pyrubi]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-24 19:42:21] INFO root fetch - main [MainThread]: End processing [ssenv]: success
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pygame-json-ui]: Downloading https://files.pythonhosted.org/packages/0a/7b/75eeaa04e5ac6eefae55ff0e576a2c3cdc28243f86e245518fd4f294aacc/pygame-json-ui-0.0.0.2.tar.gz
+[2023-04-24 19:42:21] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2023-04-24 19:42:21] INFO root fetch - processPackages [octoml-profile]: executing diffoscope
+[2023-04-24 19:42:21] INFO root fetch - processPackages [octoml-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoml_profile-0.2.2.tar.gz tmp/octoml_profile-0.2.2rc1.tar.gz --markdown 20230424/o/octoml-profile/0.2.2-0.2.2rc1/diff.md --exclude *.pyd
+[2023-04-24 19:42:21] INFO root fetch - main [MainThread]: End processing [spectacles]: success
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pyrubi]: Downloading https://files.pythonhosted.org/packages/33/40/3e41bd90ddbd7ffeb467046d2d9d50ad08564941145ed4d551b0f83a9ea9/pyrubi-2.0.2.tar.gz
+[2023-04-24 19:42:21] INFO root fetch - processPackages [fmdt-python]: executing diffoscope
+[2023-04-24 19:42:21] INFO root fetch - processPackages [fmdt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmdt_python-0.0.8.tar.gz tmp/fmdt_python-0.0.9.tar.gz --markdown 20230424/f/fmdt-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pyrubi]: executing diffoscope
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pyrubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubi-2.0.1.tar.gz tmp/pyrubi-2.0.2.tar.gz --markdown 20230424/p/pyrubi/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pygame-json-ui]: Downloading https://files.pythonhosted.org/packages/97/69/45425ed7609b8cc64925b6ada6a07a911e13e90d41f62aea6c14cf637d32/pygame-json-ui-0.0.0.3.tar.gz
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pygame-json-ui]: executing diffoscope
+[2023-04-24 19:42:21] INFO root fetch - processPackages [pygame-json-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230424:/home/abi/fetcher/20230424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame-json-ui-0.0.0.2.tar.gz tmp/pygame-json-ui-0.0.0.3.tar.gz --markdown 20230424/p/pygame-json-ui/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-04-24 19:42:22] INFO root fetch - main [MainThread]: End processing [openziti]: success
+[2023-04-24 19:42:22] INFO root fetch - main [MainThread]: End processing [fmdt-python]: success
+[2023-04-24 19:42:22] INFO root fetch - main [MainThread]: End processing [octoml-profile]: success
+[2023-04-24 19:42:22] INFO root fetch - main [MainThread]: End processing [pygame-json-ui]: success
+[2023-04-24 19:42:22] INFO root fetch - main [MainThread]: End processing [pyrubi]: success
+[2023-04-24 19:42:23] INFO root fetch - main [MainThread]: End processing [labgrid]: success
+[2023-04-24 19:42:23] INFO root fetch - main [MainThread]: Store serial: [17837462]
